@@ -3,22 +3,26 @@ title: About
 date: 2025-08-07
 ---
 
-### What Is This Blog?
+## What Is This Blog?
 
-Since the beginning of Operation Rising Lion I’ve decided to start a daily reflection series on Derja, Tunisian Arabic. The goal of this reflection is to improve my understanding of Derja by writing a daily reflection in Arabic as well as making a short video explaining the reflection.
+Since the beginning of Operation Rising Lion, I started writing daily reflections in Derja (Tunisian Arabic). The goal: improve my understanding of Derja through short daily posts and occasional videos explaining them.
 
-_Note:_ After Operation Rising Lion completed and I was able to leave my home, the consistency of the Daily Derja has declined, but I’m still trying to do it at least a couple times per week.
+**Note:** After Operation Rising Lion ended and I was able to leave home, the consistency dropped. I still try to post a few times a week.
 
-### Who The Heck Are You, Anyways?
+## Who Am I?
 
-Hi, my name is Jacob Shore. I'm a middle aged, married, father of five. I live in in Israel and and work in Tech.
+I’m Jacob Shore — middle-aged, married, father of five. I live in Israel and work in tech.
 
-### When And Why Did You Decide To Learn Arabic?
+## Why Learn Arabic?
 
-My original motivation to learn Arabic was from a company trip "team building" to Dubai. Honestly, I didn't like the company or the corporate "team building" culture and didn't feel comfortable. So, being in Dubai, I decided to distract myself by teaching myself how to read Arabic and speak a few phrases. (In case you’re wondering, yes, I have since changed companies.)
+It started during a miserable company “team-building” trip to Dubai. I didn’t like the corporate culture, didn’t particularly enjoy the trip, and decided to ignore everyone and teach myself how to read Arabic. The tour guide basically became my tutor for the rest of the trip 😅. It gave me something to do and made the time more enjoyable.
 
-Then when I returned to Israel, with my newly gained reading ability, I started to notice more that all the signs were also in Arabic. This reminded me that there is an entire population _here_ that speaks Arabic and doesn't really speak Hebrew well (although it is much more common for Palestinians to speak Hebrew than for Israelis to speak Arabic). I wanted to be able to speak and hear what they were saying, but due to the political situation here, I don't really have a lot of chances to interact with the Palestinians, and they are generally very hostile to Jews. I was very hesitant to get involved with them.
+When I got back to Israel with my newly acquired skills, I started noticing Arabic on every sign. That reminded me there's an entire population here that speaks Arabic — often better than Hebrew. I wanted to understand them. But the political reality makes meaningful interaction rare and often tense.
 
-A while back, when I was going to America to attend a friend's wedding, I made a friend who was a Jewish Tunisian in Ben Gurion Airport. He started telling me about the Jewish community in Djerba—an ancient and historic community that is one of the last communities around today in the Arabic-speaking world. It's on this beautiful island off the coast of North Africa and was a trading post for a community of Cohanim (the Priestly caste in Judaism), since the end of the First Temple Period. This was fascinating to me, and I said to him, and to myself, that I would really love to visit Djerba one day.
+Then, on a trip to the U.S. for a friend’s wedding, I met a Jewish Tunisian at Ben Gurion Airport. He told me about the ancient Jewish community in Djerba — an island off the coast of North Africa with a continuous Jewish presence since the First Temple period. That stuck with me.
 
-When I resolved to learn Arabic, this seemed much less intimidating than the goal of making friends with a community that unfortunately, at least in Israel, is associated with violence, crime, and terrorism. So I decided that before I go explore Djerba, I would spend some time trying to learn Tunisian Arabic and attempt to talk with the Jewish community (who are largely also able to speak Hebrew) and the locals—who don't have as much of a negative association. After my trip, the original hope was to use the abilities I had acquired from learning Tunisian to be able to have another channel of communication with the local Arabs.
+Rather than trying to build awkward relationships with Palestinians here under difficult conditions, I decided to aim for something I actually wanted: a visit to Djerba, and conversations with Jews and locals there. So I started learning Tunisian Arabic. Perhaps when I get back I will pivot to the local dialect 🤷‍♂️.
+
+It’s less about politics. More about connection — on my terms. 
+
+
