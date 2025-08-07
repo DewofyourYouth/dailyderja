@@ -4,17 +4,10 @@ title: 'Early Rising'
 image: late-trains.jpg
 date: 2025-08-03T16:28:43
 tags:
-  - arabic
-  - tunisian
-  - journal
-  - daily reflection
-  - practice
 categories:
-  - Daily Derja
-  - Arabic
-  - Tunisian
-  - Language
-  - Journal
+ - productivity
+ - complaining
+ - weight loss
 image: late-train.jpg
 description: "It's nice to be productive"
 rtl: true

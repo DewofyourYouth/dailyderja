@@ -3,18 +3,10 @@ title: Arabic when I was a child in Israel
 image: cover.jpeg
 date: 2025-06-23
 tags:
-  - arabic
-  - tunisian
-  - journal
-  - daily reflection
-  - practice
 categories:
-  - Daily Derja
-  - Arabic
-  - Tunisian
-  - Language
-  - Journal
-hidden: true
+  - childhood
+  - language
+hidden: false
 draft: false
 rtl: true
 description: "Tunisian Daily Journal: Entry 8"

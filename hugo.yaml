@@ -4,8 +4,8 @@ languageCode: ar
 title: الديلي دارجة
 theme: blowfish
 enableEmojis: true
-# homepage:
-#   layout: blog
+homepage:
+  layout: hero
 params:
   mainSections:
     - blog

@@ -3,19 +3,11 @@ title: Relaxing day with my little boys.
 image: cover.jpg
 date: 2025-06-20
 tags:
-  - arabic
-  - tunisian
-  - journal
-  - daily reflection
-  - practice
 categories:
-  - Daily Derja
-  - Arabic
-  - Tunisian
-  - Language
-  - Journal
+ - family
+ - war
 draft: false
-hidden: true
+hidden: false
 rtl: true
 description: "Tunisian Daily Journal: Entry 6"
 ---

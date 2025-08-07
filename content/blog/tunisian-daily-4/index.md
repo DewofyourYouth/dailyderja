@@ -3,19 +3,11 @@ title: "Transportation woes and close encounters with Iranian missiles"
 image: beitshemesh.jpg
 date: 2025-06-18T10:25:19+03:00
 tags:
-  - arabic
-  - tunisian
-  - journal
-  - daily reflection
-  - practice
 categories:
-  - Daily Derja
-  - Arabic
-  - Tunisian
-  - Language
-  - Journal
+  - war
+  - work
 draft: false
-hidden: true
+hidden: false
 rtl: true
 description: "Tunisian Daily Journal: Entry 4"
 ---

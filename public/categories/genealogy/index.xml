@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Genealogy on الديلي دارجة</title>
+    <link>http://localhost:1313/categories/genealogy/</link>
+    <description>Recent content in Genealogy on الديلي دارجة</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ar</language>
+    <copyright>© 2025 </copyright>
+    <lastBuildDate>Tue, 24 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/genealogy/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Genealogy Meetups and Taking a Day Off</title>
+      <link>http://localhost:1313/blog/tunisian-daily-9/</link>
+      <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/tunisian-daily-9/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;تأمُّل: 
+    &lt;div id=&#34;تأمل&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline&#34; href=&#34;#%d8%aa%d8%a3%d9%85%d9%84&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;كي قررت نكتب كل يوم بالعربية، ما توقعتش قداش صعيب نفكر في حاجة تشدّ جديدة نحكي عليها. قداش من مرة نحكي على الحرب و عيلتي؟ و ديما ما نحبش نحكي على روحي برشة.&lt;/p&gt;
+&lt;p&gt;وحدة من هواياتي هي علم الأنساب، و توا نعمل كتاب على عايلة بوي لعيد ميلادو السبعين في septembre. صباح البارح جاني إيميل من ولد عمي و قالي فمّا حد يعيش في مدينتي و هو من عايلة جدّة جدّة بوي! اليوم خديت نهار راحة (نهار مريض 👹) و قابلت معاه في قهوة. كيف الجو!&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/tunisian-daily-9/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>

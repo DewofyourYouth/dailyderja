@@ -1,9 +1,11 @@
 homepage:
-  layout: blog
+  layout: hero
   title: The Daily Derja
   showRecent: true
-colorScheme: congo
+  homepageImage: "/images/tunisia.jpg"
+colorScheme: marvel
 logo: "/images/logo.png"
+secondaryLogo: "/images/logo-dark.png"
 description: "سلسلة تأملات يومية في الدارجة التونسية"
 smartToc: true
 list:
@@ -11,10 +13,14 @@ list:
   showSummary: true
   heroStyle: big
   showDate: true
+  showAuthor: true
+  showTags: true
+  showCategories: true
   showCards: true
 article:
   showHero: true
   showSummary: true
+  showTaxonomies: true
   heroStyle: big
   showDate: true
   showAuthor: true

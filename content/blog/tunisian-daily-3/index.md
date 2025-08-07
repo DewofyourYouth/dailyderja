@@ -3,19 +3,9 @@ title: "Boring is Good. Discussing Lyrics"
 date: 2025-06-17T10:37:10+03:00
 image: notebook.jpg
 tags:
-  - arabic
-  - tunisian
-  - journal
-  - daily reflection
-  - practice
 categories:
-  - Daily Derja
-  - Arabic
-  - Tunisian
-  - Language
-  - Journal
 draft: false
-hidden: true
+hidden: false
 rtl: true
 description: "Tunisian Daily Journal: Entry 3"
 ---

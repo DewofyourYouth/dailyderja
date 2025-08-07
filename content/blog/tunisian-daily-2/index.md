@@ -9,13 +9,13 @@ tags:
   - daily reflection
   - practice
 categories:
-  - Daily Derja
+  
   - Arabic
   - Tunisian
   - Language
   - Journal
 draft: false
-hidden: true
+hidden: false
 rtl: true
 description: "Tunisian Daily Journal: Entry 2"
 ---

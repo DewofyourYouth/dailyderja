@@ -2,20 +2,12 @@
 title: Genealogy Meetups and Taking a Day Off
 date: 2025-06-24
 tags:
-  - arabic
-  - tunisian
-  - journal
-  - daily
-  - reflection
-  - practice
+ - fun
+ - friends
 categories:
-  - Daily Derja
-  - Arabic
-  - Tunisian
-  - Language
-  - Journal
+  - genealogy
 draft: false
-hidden: true
+hidden: false
 rtl: true
 description: "Tunisian Daily Journal: Entry 9"
 ---

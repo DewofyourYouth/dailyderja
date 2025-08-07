@@ -3,18 +3,11 @@ title: "Tired of war and uncertainty."
 image: banana.jpg
 date: 2025-06-15T18:23:49+03:00
 tags:
-  - arabic
-  - tunisian
-  - journal
-  - daily reflection
 categories:
-  - Daily Derja
-  - Arabic
-  - Tunisian
-  - Language
-  - Journal
+- complaining
+- war
 draft: false
-hidden: true
+hidden: false
 rtl: true
 description: "Tunisian Daily Journal: Entry 1"
 ---

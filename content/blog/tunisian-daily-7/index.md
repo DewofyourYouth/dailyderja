@@ -3,18 +3,12 @@ title: New Month, Ezekiel's Vision.
 image: eye.jpg
 date: 2025-06-22
 tags:
-  - arabic
-  - tunisian
-  - journal
-  - daily reflection
-  - practice
+ - birthday
+ - cake
 categories:
-  - Daily Derja
-  - Arabic
-  - Tunisian
-  - Language
-  - Journal
-hidden: true
+ - family
+ - food
+hidden: false
 draft: false
 rtl: true
 description: "Tunisian Daily Journal: Entry 7"

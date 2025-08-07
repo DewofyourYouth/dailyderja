@@ -2,20 +2,15 @@
 title: I need a vacation!
 date: 2025-07-30T10:00:00
 tags:
-  - arabic
-  - tunisian
-  - journal
-  - daily
-  - reflection
-  - practice
 categories:
-  - Daily Derja
-  - Arabic
-  - Tunisian
-  - Language
-  - Journal
+ - complaining
+ - war
+ - vacation
+ - weight loss
+ - work
+ - family
 draft: false
-hidden: true
+hidden: false
 rtl: true
 description: "Tunisian Daily Journal: Entry 10"
 ---

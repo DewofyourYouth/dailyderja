@@ -3,19 +3,12 @@ title: Postponing the CKAD Exam
 image: library.jpg
 date: 2025-06-19
 tags:
-  - arabic
-  - tunisian
-  - journal
-  - daily reflection
-  - practice
+ - CKAD
 categories:
-  - Daily Derja
-  - Arabic
-  - Tunisian
-  - Language
-  - Journal
+ - tech
+ - testing
 draft: false
-hidden: true
+hidden: false
 rtl: true
 description: "Tunisian Daily Journal: Entry 5"
 ---

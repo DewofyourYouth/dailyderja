@@ -4,18 +4,12 @@ title: 'More Complaining'
 rtl: true
 date: 2025-08-06T14:02:34
 categories:
-  - "Daily Derja"
-  - Daily Derja
-  - Arabic
-  - Tunisian
-  - Language
-  - Journal
+- complaining
+- money
+- entreprenuership
+- work
 tags:
-  - arabic
-  - tunisian
-  - journal
-  - daily reflection
-  - practice
+
 ---
 اليوم فيقت ماخر مرا اخرة و فاتني الترن! نكره نهارات كيف هكا! كي نقوم ماخر نحس روحي مكركب.
 
