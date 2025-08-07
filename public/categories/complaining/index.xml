@@ -20,5 +20,37 @@
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/more-complaining/featured.jpg" />
     </item>
     
+    <item>
+      <title>Early Rising</title>
+      <link>http://localhost:1313/blog/early-rising/</link>
+      <pubDate>Sun, 03 Aug 2025 16:28:43 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/early-rising/</guid>
+      <description>&lt;p&gt;ليوم أنا فرحان خاطر الحمدلله قمت بكري و كملت برشة خدمة. اما ما زلت، ما فرحتش علي خاطر كملت ماخر! توا باش نروح لداري ماخر كيما تسع الليل😢.&lt;/p&gt;
+&lt;p&gt;وزادة بديت ريجيم جديد. أنا دخلت تعليمات الطبيب في ChatGPT، وهو خرّجلي خطة جديدة. توا نحس روحي كأني فار تجارب. عندي app إسمو Ate، وناخذ تصاور ل كل حاجة نكلها.&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/early-rising/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>I need a vacation!</title>
+      <link>http://localhost:1313/blog/i-need-a-vacation/</link>
+      <pubDate>Wed, 30 Jul 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/i-need-a-vacation/</guid>
+      <description>&lt;p&gt;يظهرلي بعد الحرب هاذي، يلزمني نمشي في عطلة. أنا وليت متوتر برشة. صغاري خايفين، وزادة الناس اللي نخدم معاهم متوترين. مثلاً عرفي راهو باش يطلق مرتو. حاولت ننقص في الميزان، أما في بلاصة ما ننقص، زدت.&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/i-need-a-vacation/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Tired of war and uncertainty.</title>
+      <link>http://localhost:1313/blog/tunisian-daily-journal/</link>
+      <pubDate>Sun, 15 Jun 2025 18:23:49 +0300</pubDate>
+      
+      <guid>http://localhost:1313/blog/tunisian-daily-journal/</guid>
+      <description>&lt;p&gt;اليوم انا متوتر شوية خاتر إيران تضرب فينا صواريخ. وكول ولدي ما عندهومش مدرسة واحنا باقين في المخبأ. انا بش نخدم من داري خاتر ما لزمنيش نخرج لتو من المكان المحمي على حساب مكانك الحالي. خدما من داري مش ساهلة - و انا تعبت من الحرب.&lt;/p&gt;
+&lt;p&gt;أنا قلقان اللي الحرب باش تكمل حتى لخر أكتوبر، ومانجمش نمشي في عطلة مع مرتي. عندي برشة نحلم نعمل حاجة في عيد زواجنا وكل مرة ما نحقّقهاش. في عيد زواجنا عشرة فمة Covid-19 و في تلاتاش فمة 7/10.&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/tunisian-daily-journal/featured.jpg" />
+    </item>
+    
   </channel>
 </rss>
