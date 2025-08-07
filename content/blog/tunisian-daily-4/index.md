@@ -1,5 +1,5 @@
 ---
-title: "Daily reflection - Transportation woes and close encounters with Iranian missiles"
+title: "Transportation woes and close encounters with Iranian missiles"
 image: beitshemesh.jpg
 date: 2025-06-18T10:25:19+03:00
 tags:

@@ -1,5 +1,5 @@
 ---
-title: Daily reflection - New Month, Ezekiel's Vision.
+title: New Month, Ezekiel's Vision.
 image: eye.jpg
 date: 2025-06-22
 tags:

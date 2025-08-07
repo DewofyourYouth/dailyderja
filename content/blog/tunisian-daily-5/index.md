@@ -1,5 +1,5 @@
 ---
-title: Daily reflection - Postponing the CKAD Exam
+title: Postponing the CKAD Exam
 image: library.jpg
 date: 2025-06-19
 tags:

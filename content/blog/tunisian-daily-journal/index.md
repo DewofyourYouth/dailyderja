@@ -1,5 +1,5 @@
 ---
-title: "Daily reflection - Tired of war and uncertainty."
+title: "Tired of war and uncertainty."
 image: banana.jpg
 date: 2025-06-15T18:23:49+03:00
 tags:

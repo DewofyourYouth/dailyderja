@@ -1,5 +1,5 @@
 ---
-title: Daily reflection - Relaxing day with my little boys.
+title: Relaxing day with my little boys.
 image: cover.jpg
 date: 2025-06-20
 tags:

@@ -1,5 +1,5 @@
 ---
-title: Daily reflection - Genealogy Meetups and Taking a Day Off
+title: Genealogy Meetups and Taking a Day Off
 date: 2025-06-24
 tags:
   - arabic

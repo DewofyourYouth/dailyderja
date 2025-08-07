@@ -1,5 +1,5 @@
 ---
-title: "Daily reflection - Plans to sleep before work and listen to Tunisian music."
+title: "Plans to sleep before work and listen to Tunisian music."
 image: banana.jpg
 date: 2025-06-16
 tags:

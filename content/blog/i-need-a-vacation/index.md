@@ -1,5 +1,5 @@
 ---
-title: Daily reflection - I need a vacation!
+title: I need a vacation!
 date: 2025-07-30T10:00:00
 tags:
   - arabic
