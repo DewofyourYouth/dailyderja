@@ -1,5 +1,6 @@
-baseURL: https://dailyderja.com/
-languageCode: en-us
+baseURL: "https://dailyderja.com/"
+publishDir: "public"
+languageCode: ar
 title: الديلي دارجة
 theme: blowfish
 enableEmojis: true
