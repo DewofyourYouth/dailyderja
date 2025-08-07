@@ -4,6 +4,7 @@ homepage:
   showRecent: true
 colorScheme: congo
 logo: "/images/logo.png"
+description: "سلسلة تأملات يومية في الدارجة التونسية"
 smartToc: true
 list:
   showHero: true

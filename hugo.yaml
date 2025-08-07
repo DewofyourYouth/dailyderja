@@ -9,3 +9,4 @@ enableEmojis: true
 params:
   mainSections:
     - blog
+  description: "سلسلة تأملات يومية في الدارجة التونسية"
