@@ -28,3 +28,7 @@ article:
 params:
   mainSections:
     - blog
+footer:
+  showMenu: true
+  social:
+    github: "dewofyouryouth"
