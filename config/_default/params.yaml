@@ -3,6 +3,7 @@ homepage:
   title: The Daily Derja
   showRecent: true
 colorScheme: congo
+logo: "/images/logo.png"
 smartToc: true
 list:
   showHero: true

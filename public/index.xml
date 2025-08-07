@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Daily Derja on الديلي دارجة The Daily Derja</title>
+    <title>Daily Derja on الديلي دارجة</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in Daily Derja on الديلي دارجة The Daily Derja</description>
+    <description>Recent content in Daily Derja on الديلي دارجة</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2025 </copyright>
@@ -15,7 +15,7 @@
       <pubDate>Thu, 07 Aug 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;This is an about page.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Since the beginning of Operation Rising Lion I’ve decided to start a daily reflection series on Derja, Tunisian Arabic. The goal of this reflection is to improve my understanding of Derja by writing a daily reflection in Arabic as well as making a short video explaining the reflection.&lt;/p&gt;</description>
       
     </item>
     
