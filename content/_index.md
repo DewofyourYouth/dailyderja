@@ -8,6 +8,7 @@ title: Daily Derja
 {{<button href="blog">}}
 Take Me To The Blog
 {{</ button>}}
+
 {{<button href="about">}}
 What is this?
 {{</ button>}}
