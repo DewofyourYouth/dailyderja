@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on الديلي دارجة The Daily Derja</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in Categories on الديلي دارجة The Daily Derja</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2025 </copyright>
+    <lastBuildDate>Wed, 06 Aug 2025 14:02:34 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Arabic</title>
+      <link>http://localhost:1313/categories/arabic/</link>
+      <pubDate>Wed, 06 Aug 2025 14:02:34 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/arabic/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Daily Derja</title>
+      <link>http://localhost:1313/categories/daily-derja/</link>
+      <pubDate>Wed, 06 Aug 2025 14:02:34 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/daily-derja/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Journal</title>
+      <link>http://localhost:1313/categories/journal/</link>
+      <pubDate>Wed, 06 Aug 2025 14:02:34 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/journal/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Language</title>
+      <link>http://localhost:1313/categories/language/</link>
+      <pubDate>Wed, 06 Aug 2025 14:02:34 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/language/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Tunisian</title>
+      <link>http://localhost:1313/categories/tunisian/</link>
+      <pubDate>Wed, 06 Aug 2025 14:02:34 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/tunisian/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

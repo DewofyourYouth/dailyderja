@@ -1,0 +1,27 @@
+homepage:
+  layout: blog
+  title: The Daily Derja
+  showRecent: true
+colorScheme: noir
+list:
+  showHero: true
+  showSummary: true
+  heroStyle: big
+  showDate: true
+  showCards: true
+article:
+  showHero: true
+  showSummary: true
+  heroStyle: big
+  showDate: true
+  showAuthor: true
+  showTags: true
+  showCategories: true
+  showReadingTime: true
+  showComments: true
+  showNextPrev: true
+  showRelatedPosts: true
+  relatedPostsCount: 3
+params:
+  mainSections:
+    - blog

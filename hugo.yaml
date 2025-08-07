@@ -1,0 +1,10 @@
+baseURL: https://dailyderja.com/
+languageCode: en-us
+title: الديلي دارجة The Daily Derja
+theme: blowfish
+enableEmojis: true
+# homepage:
+#   layout: blog
+params:
+  mainSections:
+    - blog

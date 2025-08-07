@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on The Daily Derja</title>
+    <link>http://localhost:1313/post/</link>
+    <description>Recent content in Posts on The Daily Derja</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2025 </copyright>
+    <lastBuildDate>Thu, 07 Aug 2025 10:27:48 +0300</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>First Post</title>
+      <link>http://localhost:1313/post/first-post/</link>
+      <pubDate>Thu, 07 Aug 2025 10:27:48 +0300</pubDate>
+      
+      <guid>http://localhost:1313/post/first-post/</guid>
+      <description>&lt;p&gt;This is a post&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>
