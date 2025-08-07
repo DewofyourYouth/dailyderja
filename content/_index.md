@@ -9,6 +9,3 @@ title: Daily Derja
 Take Me To The Blog
 {{</ button>}}
 
-{{<button href="about">}}
-What is this?
-{{</ button>}}
