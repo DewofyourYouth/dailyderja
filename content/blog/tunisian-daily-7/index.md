@@ -16,7 +16,7 @@ categories:
   - Journal
 hidden: true
 draft: false
-direction: rtl
+rtl: true
 description: "Tunisian Daily Journal: Entry 7"
 ---
 ## تأمُّل:
@@ -32,7 +32,10 @@ description: "Tunisian Daily Journal: Entry 7"
 
 كل عام, مرتي الغالية تعمل كيكة من نوع اخر. العام لي فات عمات كيكة ليمون.
 
-![الكيكة](birthday_cake.jpg)![](cake-slice.jpg)
+{{< gallery >}}
+  <img src="birthday_cake.jpg" class="grid-w60" />
+  <img src="cake-slice.jpg" class="grid-w40" />
+{{< /gallery >}}
 
 ## ڤيديو:
 

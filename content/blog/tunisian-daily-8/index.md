@@ -16,7 +16,7 @@ categories:
   - Journal
 hidden: true
 draft: false
-direction: rtl
+rtl: true
 description: "Tunisian Daily Journal: Entry 8"
 ---
 ## تأمُّل:

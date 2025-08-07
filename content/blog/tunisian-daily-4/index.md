@@ -16,7 +16,7 @@ categories:
   - Journal
 draft: false
 hidden: true
-direction: rtl
+rtl: true
 description: "Tunisian Daily Journal: Entry 4"
 ---
 البارح حبيت نِمْشِي لالخدمة في تل ابيب اما لقيت ما فمماش ترين، محطة الترين يسكّر - و لكار ياخو اكثر من زوز سوايع! ما مشيتش. الليل اللي فات فرجت في إعتراض صاروخ من شبّاكتي و أنا في فرشي!   خذيت الصوّار هاذم:

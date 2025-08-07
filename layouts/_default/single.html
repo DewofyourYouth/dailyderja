@@ -3,6 +3,7 @@
   {{ if .Page.Params.rtl}}
 <article dir="rtl">
     {{ else }}
+
   <article>
      {{ end }}
     {{/* Hero */}}
@@ -18,7 +19,7 @@
     {{ end }}
 
     {{/* Header */}}
-    <header id="single_header" class="mt-5 max-w-prose">
+    <header id="single_header" style="direction: ltr;" class="mt-5 max-w-prose">
       {{ if .Params.showBreadcrumbs | default (site.Params.article.showBreadcrumbs | default false) }}
         {{ partial "breadcrumbs.html" . }}
       {{ end }}

@@ -16,7 +16,7 @@ categories:
   - Journal
 draft: false
 hidden: true
-direction: rtl
+rtl: true
 description: "Tunisian Daily Journal: Entry 6"
 ---
 
@@ -26,4 +26,10 @@ description: "Tunisian Daily Journal: Entry 6"
 
 غدوة مش باش نكتب خطر نهار السبت.
 
-![Moishy Shmuly](moishy-shmuly.jpg)![Magnets](magnets.jpg)
+{{< gallery >}}
+  <img src="moishy-shmuly.jpg" class="grid-w33" />
+  <img src="magnets.jpg" class="grid-w33" />
+{{< /gallery >}}
+
+
+<!-- ![Moishy Shmuly](moishy-shmuly.jpg)![Magnets](magnets.jpg) -->

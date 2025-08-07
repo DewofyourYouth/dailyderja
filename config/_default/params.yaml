@@ -2,7 +2,8 @@ homepage:
   layout: blog
   title: The Daily Derja
   showRecent: true
-colorScheme: noir
+colorScheme: congo
+smartToc: true
 list:
   showHero: true
   showSummary: true

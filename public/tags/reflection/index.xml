@@ -16,7 +16,7 @@
       
       <guid>http://localhost:1313/blog/i-need-a-vacation/</guid>
       <description>&lt;p&gt;يظهرلي بعد الحرب هاذي، يلزمني نمشي في عطلة. أنا وليت متوتر برشة. صغاري خايفين، وزادة الناس اللي نخدم معاهم متوترين. مثلاً عرفي راهو باش يطلق مرتو. حاولت ننقص في الميزان، أما في بلاصة ما ننقص، زدت.&lt;/p&gt;</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/i-need-a-vacation/featured.jpg" />
     </item>
     
     <item>
