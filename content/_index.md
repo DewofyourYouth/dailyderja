@@ -7,3 +7,6 @@ _Note:_ After Operation Rising Lion completed and I was able to leave my home, t
 {{<button href="blog">}}
 Take Me To The Blog
 {{</ button>}}
+{{<button href="about">}}
+What is this?
+{{</ button>}}
