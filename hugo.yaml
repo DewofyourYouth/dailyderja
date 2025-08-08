@@ -9,9 +9,15 @@ homepage:
 params:
   mainSections:
     - blog
+  assets:
+    customCSS:
+     - "/css/plyr.css"
+     - "/css/custom.css"
+    customJS:
+      - "/js/plyr.js"
+      - "/js/audio-init.js"      
   description: "سلسلة تأملات يومية في الدارجة التونسية"
 googleAnalytics: "G-Z4E3K7B8ZR"
 services:
   disqus:
     shortname: "dailyderja"
- 

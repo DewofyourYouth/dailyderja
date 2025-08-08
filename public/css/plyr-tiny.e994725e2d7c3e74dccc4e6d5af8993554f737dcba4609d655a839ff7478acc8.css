@@ -1,0 +1,24 @@
+/* Scope to your wrapper so you don't affect videos elsewhere */
+.audio-wrapper .plyr--audio {
+  /* Force smaller UI using vars + hard sizes */
+  --plyr-font-size: 12px;
+  --plyr-control-icon-size: 14px;
+  --plyr-control-spacing: 4px;
+  --plyr-range-track-height: 2px;
+  --plyr-range-thumb-height: 10px;
+}
+
+/* Kill extra padding/margins */
+.audio-wrapper .plyr__controls { padding: 2px 4px !important; }
+.audio-wrapper .plyr__control  { padding: 0 !important; }
+
+/* Shrink icons even if vars fail */
+.audio-wrapper .plyr__controls svg { width: 14px !important; height: 14px !important; }
+
+/* Compact times and progress */
+.audio-wrapper .plyr__time { font-size: 11px !important; margin: 0 2px !important; }
+.audio-wrapper .plyr__progress { margin: 0 4px !important; }
+
+/* Cap width so it doesn't stretch */
+.audio-wrapper { max-width: 340px; }
+.audio-wrapper .plyr { width: 100%; }

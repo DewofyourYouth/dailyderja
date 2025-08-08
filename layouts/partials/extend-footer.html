@@ -1,0 +1,4 @@
+{{- $plyr := resources.Get "js/plyr.min.js" | fingerprint -}}
+{{- $init := resources.Get "js/audio-init.js" | fingerprint -}}
+<script src="{{ $plyr.RelPermalink }}" defer></script>
+<script src="{{ $init.RelPermalink }}" defer></script>

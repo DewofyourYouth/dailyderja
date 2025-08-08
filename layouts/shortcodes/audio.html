@@ -1,0 +1,12 @@
+{{ $src := .Get "src" | default (.Get 0) }}
+{{ $caption := .Get "caption" | default (.Get 1) }}
+{{ $preload := .Get "preload" | default (.Get 2) | default "metadata" }}
+
+<div class="audio-wrapper">
+  <figure class="audio-player">
+    <audio class="js-player" controls preload="{{ $preload }}">
+      {{ with $src }}<source src="{{ . | relURL }}" type="audio/mpeg">{{ end }}
+    </audio>
+    {{ with $caption }}<figcaption>{{ . }}</figcaption>{{ end }}
+  </figure>
+</div>

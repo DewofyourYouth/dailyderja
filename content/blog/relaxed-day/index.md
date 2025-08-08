@@ -15,6 +15,6 @@ rtl: true
 
 ## كام «جديد»:
 
-- لحظت اللي - שמתי לב
-- وافقت - הסכמתי
-- طلب -  ביקש 
+- لحظت اللي - שמתי לב {{< audio src="/audio/i-noticed.mp3" caption="I noticed" preload="none" >}}
+- وافقت - הסכמתי {{< audio src="/audio/i-agreed.mp3" caption="I agreed" preload="none" >}}
+- طلب -  ביקש {{< audio src="/audio/he-requested.mp3" caption="He requested" preload="none" >}}
