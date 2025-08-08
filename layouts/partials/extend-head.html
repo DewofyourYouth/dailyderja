@@ -1,0 +1,8 @@
+{{/* Load Plyr CSS first */}}
+{{- $plyr := resources.Get "css/plyr.css" | fingerprint -}}
+<link rel="stylesheet" href="{{ $plyr.RelPermalink }}">
+{{/* Optional: your general site tweaks last */}}
+{{- with resources.Get "css/custom.css" | fingerprint -}}
+<link rel="stylesheet" href="{{ .RelPermalink }}">
+{{- end -}}
+
