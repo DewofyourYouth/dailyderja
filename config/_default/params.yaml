@@ -10,7 +10,6 @@ description: "سلسلة تأملات يومية في الدارجة التون�
 smartToc: true
 list:
   showHero: true
-  showSummary: true
   heroStyle: big
   showDate: true
   showAuthor: true
