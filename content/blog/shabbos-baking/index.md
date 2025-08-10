@@ -35,7 +35,7 @@ rtl: "true"
 ![cut the cylinder to 4 pieces](gallery/cut.jpeg)
 
 #### الخطوة السادسة
-عمل ضفرة بيهم و ادهن بالبيض.
+عمل ضفرة بيهم و ادهن بلعظم.
 {{< carousel images="gallery/braiding/*" aspectRatio="16-9" interval="2500" >}}
 
 
