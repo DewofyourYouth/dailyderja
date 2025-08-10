@@ -19,7 +19,7 @@ The template:
 ---
 title: Daily reflection in Tunisian Arabic for practice
 image: banana.jpg
-date: “{{DATE:YYYY-MM-DDTHH:mm:ss}}”
+date: "{{DATE:YYYY-MM-DDTHH:mm:ss}}"
 tags:
 categories:
 draft: false 
