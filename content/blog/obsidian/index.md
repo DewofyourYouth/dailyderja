@@ -43,6 +43,8 @@ This note is related to [[Another Note]]!
 ```
 {{< /ltr>}}
 
+![Another Note](another-note.png)
+
 و نلقدها في graph view
 
 ![Graph View](graph-view.png)
