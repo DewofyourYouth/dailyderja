@@ -47,7 +47,7 @@
 
 
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/carousel-carousel-1687b6fe117dd2dbf8500845a87c24a0-1754851392900087000.min.f622383b11d14e02374e86aa59a939881c1b63873b33551345b1a107e970db133a35caf33bc84807807e297c58465441663fcc97fa0e125dd5c3afdee2880bfe.css&#34; integrity=&#34;sha512-9iI4OxHRTgI3ToaqWak5iBwbY4c7M1UTRbGhB&amp;#43;lw2xM6NcrzO8hIB4B&amp;#43;KXxYRlRBZj/Ml/oOEl3Vw6/e4ogL/g==&#34;&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/carousel-carousel-1687b6fe117dd2dbf8500845a87c24a0-1754917376512357000.min.78d56289b1ef2127e723950db5f519b14bb6ab26e6bffebb711068fa14eb1e33e210198f31180f54905e5d5477022d6f9dd6196b9ef719816337e6a15f93335b.css&#34; integrity=&#34;sha512-eNViibHvISfnI5UNtfUZsUu2qybmv/67cRBo&amp;#43;hTrHjPiEBmPMRgPVJBeXVR3Ai1vndYZa573GYFjN&amp;#43;ahX5MzWw==&#34;&gt;
 
 
 
@@ -63,7 +63,7 @@
 
 
 &lt;div
-  id=&#34;carousel-1687b6fe117dd2dbf8500845a87c24a0-1754851392900087000&#34;
+  id=&#34;carousel-1687b6fe117dd2dbf8500845a87c24a0-1754917376512357000&#34;
   class=&#34;relative&#34;
   data-twe-carousel-init
   data-twe-ride=&#34;carousel&#34;
@@ -75,7 +75,7 @@
     
       &lt;button
         type=&#34;button&#34;
-        data-twe-target=&#34;#carousel-1687b6fe117dd2dbf8500845a87c24a0-1754851392900087000&#34;
+        data-twe-target=&#34;#carousel-1687b6fe117dd2dbf8500845a87c24a0-1754917376512357000&#34;
         data-twe-slide-to=&#34;0&#34;
         data-twe-carousel-active aria-current=&#34;true&#34;
         class=&#34;mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-neutral bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none&#34;
@@ -84,7 +84,7 @@
     
       &lt;button
         type=&#34;button&#34;
-        data-twe-target=&#34;#carousel-1687b6fe117dd2dbf8500845a87c24a0-1754851392900087000&#34;
+        data-twe-target=&#34;#carousel-1687b6fe117dd2dbf8500845a87c24a0-1754917376512357000&#34;
         data-twe-slide-to=&#34;1&#34;
         
         class=&#34;mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-neutral bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none&#34;
@@ -126,7 +126,7 @@
   &lt;button
     class=&#34;absolute top-0 bottom-0 left-0 z-2 flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none&#34;
     type=&#34;button&#34;
-    data-twe-target=&#34;#carousel-1687b6fe117dd2dbf8500845a87c24a0-1754851392900087000&#34;
+    data-twe-target=&#34;#carousel-1687b6fe117dd2dbf8500845a87c24a0-1754917376512357000&#34;
     data-twe-slide=&#34;prev&#34;&gt;
     &lt;span class=&#34;inline-block h-8 w-8&#34;&gt;
       &lt;svg
@@ -148,7 +148,7 @@
   &lt;button
     class=&#34;absolute top-0 bottom-0 right-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none&#34;
     type=&#34;button&#34;
-    data-twe-target=&#34;#carousel-1687b6fe117dd2dbf8500845a87c24a0-1754851392900087000&#34;
+    data-twe-target=&#34;#carousel-1687b6fe117dd2dbf8500845a87c24a0-1754917376512357000&#34;
     data-twe-slide=&#34;next&#34;&gt;
     &lt;span class=&#34;inline-block h-8 w-8&#34;&gt;
       &lt;svg

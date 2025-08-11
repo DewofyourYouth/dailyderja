@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ar</language>
     <copyright>© 2025 </copyright>
-    <lastBuildDate>Sun, 10 Aug 2025 17:03:03 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Aug 2025 12:56:24 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Complaining About Buying A Suit</title>
+      <link>http://localhost:1313/blog/suit/</link>
+      <pubDate>Mon, 11 Aug 2025 12:56:24 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/suit/</guid>
+      <description>&lt;p&gt;اليوم شريت كوستيم جديد. كيف نكره يشري كوستيم! ما نحبش نلبس كوستيم و هوا ديما غالي برشة. نلبسها كان في الشبات، لعيد، و كي نمشي عرس. كيف نقيس كوستيم ديما نحس روحي سمين!&lt;/p&gt;
+&lt;p&gt;موش كان نصرف فلوس برشة، نحس روحي سمين وخايب زادة!&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/suit/featured.jpeg" />
+    </item>
     
     <item>
       <title>How I Use Obsidian to Learn Derja</title>
@@ -94,7 +105,7 @@
 
 
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/carousel-carousel-1687b6fe117dd2dbf8500845a87c24a0-1754855661774974000.min.cdf868752278f804fa281595b271fbb1c95b3399ee4aa32deab157fb8911a7a3c212235bb0d1ee4782634697a19c36b442b1121397694080f83f9848ddc0f0a2.css&#34; integrity=&#34;sha512-zfhodSJ4&amp;#43;AT6KBWVsnH7sclbM5nuSqMt6rFX&amp;#43;4kRp6PCEiNbsNHuR4JjRpehnDa0QrESE5dpQID4P5hI3cDwog==&#34;&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/carousel-carousel-1687b6fe117dd2dbf8500845a87c24a0-1754917739563379000.min.870f3aa400b10ffba7390d18f4d13ce07869ccd4d17f58fe49728b85400e3b9aae811d75f92c7487584fbb604a5798da70f0f297022422e52bc6f04fdd701497.css&#34; integrity=&#34;sha512-hw86pACxD/unOQ0Y9NE84HhpzNTRf1j&amp;#43;SXKLhUAOO5qugR11&amp;#43;Sx0h1hPu2BKV5jacPDylwIkIuUrxvBP3XAUlw==&#34;&gt;
 
 
 
@@ -110,7 +121,7 @@
 
 
 &lt;div
-  id=&#34;carousel-1687b6fe117dd2dbf8500845a87c24a0-1754855661774974000&#34;
+  id=&#34;carousel-1687b6fe117dd2dbf8500845a87c24a0-1754917739563379000&#34;
   class=&#34;relative&#34;
   data-twe-carousel-init
   data-twe-ride=&#34;carousel&#34;
@@ -122,7 +133,7 @@
     
       &lt;button
         type=&#34;button&#34;
-        data-twe-target=&#34;#carousel-1687b6fe117dd2dbf8500845a87c24a0-1754855661774974000&#34;
+        data-twe-target=&#34;#carousel-1687b6fe117dd2dbf8500845a87c24a0-1754917739563379000&#34;
         data-twe-slide-to=&#34;0&#34;
         data-twe-carousel-active aria-current=&#34;true&#34;
         class=&#34;mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-neutral bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none&#34;
@@ -131,7 +142,7 @@
     
       &lt;button
         type=&#34;button&#34;
-        data-twe-target=&#34;#carousel-1687b6fe117dd2dbf8500845a87c24a0-1754855661774974000&#34;
+        data-twe-target=&#34;#carousel-1687b6fe117dd2dbf8500845a87c24a0-1754917739563379000&#34;
         data-twe-slide-to=&#34;1&#34;
         
         class=&#34;mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-neutral bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none&#34;
@@ -173,7 +184,7 @@
   &lt;button
     class=&#34;absolute top-0 bottom-0 left-0 z-2 flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none&#34;
     type=&#34;button&#34;
-    data-twe-target=&#34;#carousel-1687b6fe117dd2dbf8500845a87c24a0-1754855661774974000&#34;
+    data-twe-target=&#34;#carousel-1687b6fe117dd2dbf8500845a87c24a0-1754917739563379000&#34;
     data-twe-slide=&#34;prev&#34;&gt;
     &lt;span class=&#34;inline-block h-8 w-8&#34;&gt;
       &lt;svg
@@ -195,7 +206,7 @@
   &lt;button
     class=&#34;absolute top-0 bottom-0 right-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none&#34;
     type=&#34;button&#34;
-    data-twe-target=&#34;#carousel-1687b6fe117dd2dbf8500845a87c24a0-1754855661774974000&#34;
+    data-twe-target=&#34;#carousel-1687b6fe117dd2dbf8500845a87c24a0-1754917739563379000&#34;
     data-twe-slide=&#34;next&#34;&gt;
     &lt;span class=&#34;inline-block h-8 w-8&#34;&gt;
       &lt;svg

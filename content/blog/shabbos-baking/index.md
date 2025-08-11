@@ -1,6 +1,5 @@
 ---
 title: Baking For Shabbat
-image: banana.jpg
 date: 2025-08-08T17:54:44
 tags:
   - baking

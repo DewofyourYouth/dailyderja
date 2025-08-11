@@ -5,7 +5,6 @@ tags:
   - obsidian
   - notes
   - productivity
-categories: 
 draft: false
 rtl: true
 ---
