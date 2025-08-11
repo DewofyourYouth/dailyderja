@@ -35,7 +35,7 @@
     &lt;/span&gt;        
     
 &lt;/h2&gt;
-&lt;p&gt;نعلم لغرة جديدة صعيب. نستعمل برشة أدوات. ليوم نحكي شوية في &lt;a
+&lt;p&gt;نعلم لغرة جديدة صعيب. نستعمل برشة أدوات. ليوم باس نحكي شوية في &lt;a
   href=&#34;https://obsidian.md/&#34;
     target=&#34;_blank&#34;
   &gt;Obsidian&lt;/a&gt;. نكتب ملاحظاتي بيهو. Obsidian هوا edituer Markdown فيه ردط ساهل و إيكوسيستام قوي متاع plugins و templates. مثلأ فمة plugin يسمهو QuickAdd. عندي template لالديلي دارجة و كي نحب نكيب post نعمل QuickAdd ويعمل frontmatter و هكا.&lt;/p&gt;
@@ -105,7 +105,7 @@
 
 
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/carousel-carousel-1687b6fe117dd2dbf8500845a87c24a0-1754917804998515000.min.6c58c7b08f68b6012914a3be663eedd8e6f8266b5bc2ad2a0f0c2a62637aaafa93c87d2bb8da658e9ca610301714e526113d2ed0cfbec1db815c8b19ed4f3874.css&#34; integrity=&#34;sha512-bFjHsI9otgEpFKO&amp;#43;Zj7t2Ob4Jmtbwq0qDwwqYmN6qvqTyH0ruNpljpymEDAXFOUmET0u0M&amp;#43;&amp;#43;wduBXIsZ7U84dA==&#34;&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/carousel-carousel-1687b6fe117dd2dbf8500845a87c24a0-1754917824505663000.min.1b4a6bce2770a7886418b8b0fc0fdc48c65b954a1bcc5e98980ca41da14484166904dbbde5f4eaec8f2662251998ee2e32da1f61e8fc309deef8c3fe208d1c15.css&#34; integrity=&#34;sha512-G0przidwp4hkGLiw/A/cSMZblUobzF6YmAykHaFEhBZpBNu95fTq7I8mYiUZmO4uMtofYej8MJ3u&amp;#43;MP&amp;#43;II0cFQ==&#34;&gt;
 
 
 
@@ -121,7 +121,7 @@
 
 
 &lt;div
-  id=&#34;carousel-1687b6fe117dd2dbf8500845a87c24a0-1754917804998515000&#34;
+  id=&#34;carousel-1687b6fe117dd2dbf8500845a87c24a0-1754917824505663000&#34;
   class=&#34;relative&#34;
   data-twe-carousel-init
   data-twe-ride=&#34;carousel&#34;
@@ -133,7 +133,7 @@
     
       &lt;button
         type=&#34;button&#34;
-        data-twe-target=&#34;#carousel-1687b6fe117dd2dbf8500845a87c24a0-1754917804998515000&#34;
+        data-twe-target=&#34;#carousel-1687b6fe117dd2dbf8500845a87c24a0-1754917824505663000&#34;
         data-twe-slide-to=&#34;0&#34;
         data-twe-carousel-active aria-current=&#34;true&#34;
         class=&#34;mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-neutral bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none&#34;
@@ -142,7 +142,7 @@
     
       &lt;button
         type=&#34;button&#34;
-        data-twe-target=&#34;#carousel-1687b6fe117dd2dbf8500845a87c24a0-1754917804998515000&#34;
+        data-twe-target=&#34;#carousel-1687b6fe117dd2dbf8500845a87c24a0-1754917824505663000&#34;
         data-twe-slide-to=&#34;1&#34;
         
         class=&#34;mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-neutral bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none&#34;
@@ -184,7 +184,7 @@
   &lt;button
     class=&#34;absolute top-0 bottom-0 left-0 z-2 flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none&#34;
     type=&#34;button&#34;
-    data-twe-target=&#34;#carousel-1687b6fe117dd2dbf8500845a87c24a0-1754917804998515000&#34;
+    data-twe-target=&#34;#carousel-1687b6fe117dd2dbf8500845a87c24a0-1754917824505663000&#34;
     data-twe-slide=&#34;prev&#34;&gt;
     &lt;span class=&#34;inline-block h-8 w-8&#34;&gt;
       &lt;svg
@@ -206,7 +206,7 @@
   &lt;button
     class=&#34;absolute top-0 bottom-0 right-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none&#34;
     type=&#34;button&#34;
-    data-twe-target=&#34;#carousel-1687b6fe117dd2dbf8500845a87c24a0-1754917804998515000&#34;
+    data-twe-target=&#34;#carousel-1687b6fe117dd2dbf8500845a87c24a0-1754917824505663000&#34;
     data-twe-slide=&#34;next&#34;&gt;
     &lt;span class=&#34;inline-block h-8 w-8&#34;&gt;
       &lt;svg

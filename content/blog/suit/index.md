@@ -5,6 +5,8 @@ tags:
   - Suit
   - Complaining 
   - Weight Loss
+categories:
+  - complaining
 draft: false
 rtl: true
 ---
