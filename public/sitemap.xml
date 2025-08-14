@@ -4,11 +4,19 @@
 
   <url>
     <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2025-08-11T13:56:24+00:00</lastmod>
+    <lastmod>2025-08-14T16:57:27+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/blog/son-connection/</loc>
+    <lastmod>2025-08-14T16:57:27+00:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-08-11T13:56:24+00:00</lastmod>
+    <lastmod>2025-08-14T16:57:27+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/blog/suit/</loc>
+    <lastmod>2025-08-11T12:56:24+00:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/blog/obsidian/</loc>
