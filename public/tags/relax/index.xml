@@ -1,25 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Relax on الديلي دارجة</title>
-    <link>http://localhost:1313/tags/relax/</link>
-    <description>Recent content in Relax on الديلي دارجة</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ar</language>
-    <copyright>© 2025 </copyright>
-    <lastBuildDate>Fri, 08 Aug 2025 00:01:32 +0300</lastBuildDate><atom:link href="http://localhost:1313/tags/relax/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Relaxed Day</title>
-      <link>http://localhost:1313/blog/relaxed-day/</link>
-      <pubDate>Fri, 08 Aug 2025 00:01:32 +0300</pubDate>
-      
-      <guid>http://localhost:1313/blog/relaxed-day/</guid>
-      <description>&lt;p&gt;الصبح قررت ما نمشيش للمعبد، نحب نكمّل نومي. خدمت من داري اليوم، و هكاكا كان أسهل شوية. ما عادش نلزم نخرج فيسع فيسع النهار الكل.&lt;/p&gt;
-&lt;p&gt;بعدها عيطلي الحاخام و طلب مني باش نقدّم الدّرس اليومي متاعه بلاصتو و وافقت باش نعملو. حبت سالتو لسين يمشي خاطر عرفت اللي كل عبد باش يسألني - اما ما سالت.&lt;/p&gt;
-&lt;p&gt;لحظت اللي كي أنا في داري نشرب قهوة اقل. يمكن هذاك علاش أنا اكثر متوتر كي نمشي لتل ابيب لما توا أنا تعب برشة. 🤣&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/relaxed-day/featured.jpg" />
-    </item>
-    
-  </channel>
-</rss>
