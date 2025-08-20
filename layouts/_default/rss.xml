@@ -1,0 +1,64 @@
+{{- /* Minimal, XML-safe RSS for BLOG only on home. Keeps MRSS/enclosure. */ -}}
+{{- $now := now -}}
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\"?>" | safeHTML -}}
+<rss version="2.0"
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>{{ .Site.Title | htmlEscape }}</title>
+    <link>{{ .Site.BaseURL }}</link>
+    <description>{{ (or .Site.Params.description .Site.Title) | htmlEscape }}</description>
+    <language>{{ .Site.Language.Lang | default "en" }}</language>
+    <lastBuildDate>{{ $now.Format "Mon, 02 Jan 2006 15:04:05 MST" }}</lastBuildDate>
+
+    {{- /* Choose items:
+          - On home: only posts in section "blog"
+          - Elsewhere (section/taxonomy): use the page's own .Pages
+       */ -}}
+    {{- $items := .Pages -}}
+    {{- if .IsHome -}}
+      {{- $items = where .Site.RegularPages "Section" "blog" -}}
+    {{- end -}}
+
+    {{- range $items.ByDate.Reverse -}}
+    {{- $title := .Title | htmlEscape -}}
+    {{- $desc  := (.Summary | plainify) | htmlEscape -}}
+
+    {{- /* Resolve image (absolute URL + mime) */ -}}
+    {{- $imgURL := "" -}}
+    {{- $imgType := "image/jpeg" -}}
+    {{- with .Params.featuredImage }}{{- $imgURL = absURL . -}}{{- end -}}
+    {{- if not $imgURL -}}
+      {{- $imgs := where .Resources "ResourceType" "image" -}}
+      {{- if gt (len $imgs) 0 -}}
+        {{- $r := index $imgs 0 -}}
+        {{- $imgURL = $r.Permalink -}}
+        {{- with $r.MediaType }}{{- if .SubType -}}{{- $imgType = printf "image/%s" .SubType -}}{{- end -}}{{- end -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if not $imgURL -}}
+      {{- $m := findRE `<img[^>]*src=["']([^"']+)["']` .Content 1 -}}
+      {{- with $m -}}
+        {{- $rel := replaceRE `.*src=['"]([^'"]+)['"].*` "$1" (index . 0) -}}
+        {{- $imgURL = absURL $rel -}}
+      {{- end -}}
+    {{- end -}}
+
+    <item>
+      <title>{{ $title }}</title>
+      <link>{{ .Permalink }}</link>
+      <guid isPermaLink="true">{{ .Permalink }}</guid>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" }}</pubDate>
+      {{- with .Params.author }}<author>{{ . | htmlEscape }}</author>{{ end }}
+      {{- if $imgURL -}}
+        <enclosure url="{{ $imgURL }}" type="{{ $imgType }}"/>
+        <media:content url="{{ $imgURL }}" medium="image"/>
+      {{- end }}
+      <description>{{ $desc }}</description>
+
+      {{- /* Optional: include full HTML safely — uncomment next line if needed
+      <content:encoded>{{ (replace (replace .Content "]]>" "]]&gt;") "&nbsp;" " ") | safeHTML }}</content:encoded>
+      */ -}}
+    </item>
+    {{- end -}}
+  </channel>
+</rss>
