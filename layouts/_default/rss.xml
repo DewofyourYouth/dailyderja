@@ -11,7 +11,7 @@
     <language>{{ .Site.Language.Lang | default "en" }}</language>
     <lastBuildDate>{{ $now.Format "Mon, 02 Jan 2006 15:04:05 MST" }}</lastBuildDate>
 
-    {{- /* List posts; change to .RegularPages if needed */ -}}
+    {{- /* Emit items for whatever this feed is (home, section, taxonomy, etc.) */ -}}
     {{- range .Pages.ByDate.Reverse -}}
     <item>
       <title>{{ .Title }}</title>
@@ -20,26 +20,30 @@
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" }}</pubDate>
       {{- with .Params.author }}<author>{{ . }}</author>{{ end }}
 
-      {{- /* ===== Image resolution logic ===== */ -}}
-      {{- $imgRes := (dict) -}}
+      {{- /* ===== Resolve an image URL (absolute) and MIME type ===== */ -}}
       {{- $imgURL := "" -}}
       {{- $imgType := "image/jpeg" -}}
 
-      {{- /* 1) front matter param: featuredImage (string) */ -}}
+      {{- /* 1) front matter: featuredImage (string path or URL) */ -}}
       {{- with .Params.featuredImage -}}
         {{- $imgURL = absURL . -}}
       {{- end -}}
 
-      {{- /* 2) if not set, first Page Resource image (for bundles) */ -}}
+      {{- /* 2) page bundle resource (first image) */ -}}
       {{- if not $imgURL -}}
-        {{- $r := (where .Resources "ResourceType" "image" | first) -}}
-        {{- with $r -}}
-          {{- $imgURL = .Permalink -}}
-          {{- with .MediaType }}{{- if .SubType -}}{{- $imgType = printf "image/%s" .SubType -}}{{- end -}}{{- end -}}
+        {{- $imgs := where .Resources "ResourceType" "image" -}}
+        {{- if gt (len $imgs) 0 -}}
+          {{- $r := index $imgs 0 -}}
+          {{- $imgURL = $r.Permalink -}}
+          {{- with $r.MediaType -}}
+            {{- if .SubType -}}
+              {{- $imgType = printf "image/%s" .SubType -}}
+            {{- end -}}
+          {{- end -}}
         {{- end -}}
       {{- end -}}
 
-      {{- /* 3) else, first <img src="..."> from rendered content */ -}}
+      {{- /* 3) first <img src="..."> in content (fallback) */ -}}
       {{- if not $imgURL -}}
         {{- $m := findRE `<img[^>]*src=["']([^"']+)["']` .Content 1 -}}
         {{- with $m -}}
@@ -48,14 +52,13 @@
         {{- end -}}
       {{- end -}}
 
-      {{- /* Emit media/enclosure if we found an image URL */ -}}
+      {{- /* Output enclosure + MRSS if image resolved */ -}}
       {{- if $imgURL -}}
         <enclosure url="{{ $imgURL }}" type="{{ $imgType }}"/>
         <media:content url="{{ $imgURL }}" medium="image"/>
         <media:thumbnail url="{{ $imgURL }}"/>
       {{- end -}}
 
-      {{- /* Summary + full HTML */ -}}
       <description>{{ .Summary | plainify }}</description>
       <content:encoded><![CDATA[{{ .Content }}]]></content:encoded>
     </item>
