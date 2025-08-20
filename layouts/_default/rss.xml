@@ -11,7 +11,6 @@
     <language>{{ .Site.Language.Lang | default "en" }}</language>
     <lastBuildDate>{{ $now.Format "Mon, 02 Jan 2006 15:04:05 MST" }}</lastBuildDate>
 
-    {{- /* Emit items for whatever this feed is (home, section, taxonomy, etc.) */ -}}
     {{- range .Pages.ByDate.Reverse -}}
     <item>
       <title>{{ .Title }}</title>
@@ -24,12 +23,10 @@
       {{- $imgURL := "" -}}
       {{- $imgType := "image/jpeg" -}}
 
-      {{- /* 1) front matter: featuredImage (string path or URL) */ -}}
       {{- with .Params.featuredImage -}}
         {{- $imgURL = absURL . -}}
       {{- end -}}
 
-      {{- /* 2) page bundle resource (first image) */ -}}
       {{- if not $imgURL -}}
         {{- $imgs := where .Resources "ResourceType" "image" -}}
         {{- if gt (len $imgs) 0 -}}
@@ -43,7 +40,6 @@
         {{- end -}}
       {{- end -}}
 
-      {{- /* 3) first <img src="..."> in content (fallback) */ -}}
       {{- if not $imgURL -}}
         {{- $m := findRE `<img[^>]*src=["']([^"']+)["']` .Content 1 -}}
         {{- with $m -}}
@@ -52,7 +48,6 @@
         {{- end -}}
       {{- end -}}
 
-      {{- /* Output enclosure + MRSS if image resolved */ -}}
       {{- if $imgURL -}}
         <enclosure url="{{ $imgURL }}" type="{{ $imgType }}"/>
         <media:content url="{{ $imgURL }}" medium="image"/>
@@ -60,7 +55,7 @@
       {{- end -}}
 
       <description>{{ .Summary | plainify }}</description>
-      <content:encoded><![CDATA[{{ .Content }}]]></content:encoded>
+      <content:encoded>{{ .Content | safeHTML }}</content:encoded>
     </item>
     {{- end -}}
   </channel>
