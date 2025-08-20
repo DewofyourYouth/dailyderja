@@ -1,4 +1,4 @@
-{{- /* Minimal, XML-safe RSS for BLOG only on home. Keeps MRSS/enclosure. */ -}}
+{{- /* Minimal, XML-safe RSS for BLOG only. Inline <img> in <description>; no content:encoded. */ -}}
 {{- $now := now -}}
 {{- printf "<?xml version=\"1.0\" encoding=\"utf-8\"?>" | safeHTML -}}
 <rss version="2.0"
@@ -10,10 +10,7 @@
     <language>{{ .Site.Language.Lang | default "en" }}</language>
     <lastBuildDate>{{ $now.Format "Mon, 02 Jan 2006 15:04:05 MST" }}</lastBuildDate>
 
-    {{- /* Choose items:
-          - On home: only posts in section "blog"
-          - Elsewhere (section/taxonomy): use the page's own .Pages
-       */ -}}
+    {{- /* Home feed: only posts in section "blog" */ -}}
     {{- $items := .Pages -}}
     {{- if .IsHome -}}
       {{- $items = where .Site.RegularPages "Section" "blog" -}}
@@ -21,7 +18,7 @@
 
     {{- range $items.ByDate.Reverse -}}
     {{- $title := .Title | htmlEscape -}}
-    {{- $desc  := (.Summary | plainify) | htmlEscape -}}
+    {{- $summary := (.Summary | plainify) | htmlEscape -}}
 
     {{- /* Resolve image (absolute URL + mime) */ -}}
     {{- $imgURL := "" -}}
@@ -43,21 +40,26 @@
       {{- end -}}
     {{- end -}}
 
+    {{- /* Build a tiny, valid HTML snippet for <description>. No <p>, no <br>, no CDATA. */ -}}
+    {{- $imgHTML := "" -}}
+    {{- if $imgURL -}}
+      {{- $imgHTML = printf `<img src="%s" alt="%s" /> ` $imgURL $title -}}
+    {{- end -}}
+
     <item>
       <title>{{ $title }}</title>
       <link>{{ .Permalink }}</link>
       <guid isPermaLink="true">{{ .Permalink }}</guid>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" }}</pubDate>
       {{- with .Params.author }}<author>{{ . | htmlEscape }}</author>{{ end }}
+
       {{- if $imgURL -}}
         <enclosure url="{{ $imgURL }}" type="{{ $imgType }}"/>
         <media:content url="{{ $imgURL }}" medium="image"/>
       {{- end }}
-      <description>{{ $desc }}</description>
 
-      {{- /* Optional: include full HTML safely — uncomment next line if needed
-      <content:encoded>{{ (replace (replace .Content "]]>" "]]&gt;") "&nbsp;" " ") | safeHTML }}</content:encoded>
-      */ -}}
+      <description>{{ printf `%s%s` $imgHTML $summary | safeHTML }}</description>
+      {{- /* No <content:encoded> on purpose */ -}}
     </item>
     {{- end -}}
   </channel>
