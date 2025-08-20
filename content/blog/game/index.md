@@ -2,7 +2,8 @@
 title: A Game That Stuck With Me
 date: 2025-08-19T21:12:38
 tags:
-  - arabic
+  - games
+  - gamification 
 categories: 
 draft: false
 rtl: true
