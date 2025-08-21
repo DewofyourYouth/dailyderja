@@ -5,3 +5,18 @@ main:
 - name: About
   url: /about/
   weight: 2
+- name: Dew of Your Youth
+  url: https://dewofyouryouth.com
+  weight: 3
+- identifier: github
+  pre: GitHub
+  url: https://github.com/dewofyouryouth 
+  weight: 4
+- identifier: youtube
+  pre: YouTube
+  url: https://www.youtube.com/channel/UC-rJLeLJVWLKQKnXyLkw3bw
+  weight: 5
+- identifier: instagram
+  pre: Instagram
+  url: https://www.instagram.com/yaakshore/
+  weight: 6
