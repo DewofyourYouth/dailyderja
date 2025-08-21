@@ -1,0 +1,9 @@
+params:
+  author:
+    name: "Jacob"
+    links:
+      - github: "https://github.com/dewofyouryouth"
+      - youtube: "https://www.youtube.com/channel/UC-rJLeLJVWLKQKnXyLkw3bw"
+      - instagram: "https://www.instagram.com/yaakshore/"
+  article:
+    showAuthor: true    # ensure the author box (with links) appears on posts
