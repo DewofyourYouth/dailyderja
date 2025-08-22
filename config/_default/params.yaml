@@ -3,6 +3,10 @@ homepage:
   title: The Daily Derja
   showRecent: true
   homepageImage: "/images/tunisia.jpg"
+# homeBanner:
+#   title: "Daily Derja الديلي دارجة"
+#   href: "https://dailyderja.com"
+#   showSocial: true
 colorScheme: marvel
 logo: "/images/logo.png"
 secondaryLogo: "/images/logo-dark.png"
@@ -37,3 +41,4 @@ footer:
   showMenu: true
   social:
     github: "dewofyouryouth"
+     # use our custom partial on the home page
