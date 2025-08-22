@@ -7,6 +7,7 @@ params:
       - youtube: "https://www.youtube.com/channel/UC-rJLeLJVWLKQKnXyLkw3bw"
       - instagram: "https://www.instagram.com/yaakshore/"
       - ko-fi: "https://ko-fi.com/dewofyouryouth"
+      - discord: "https://discord.com/users/dew_of_your_youth"
       - rss: "/index.xml"
   article:
     showAuthor: true    # ensure the author box (with links) appears on posts
