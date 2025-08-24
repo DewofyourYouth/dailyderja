@@ -9,6 +9,7 @@ tags:
 categories: 
 draft: false
 rtl: true
+showTableOfContents: true
 ---
 
 ## تأمُّل:
