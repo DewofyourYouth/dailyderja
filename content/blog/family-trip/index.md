@@ -2,7 +2,10 @@
 title: An End of Summer Family Trip!
 date: 2025-08-22T13:17:10
 tags:
-  - arabic
+  - trip
+  - summer vacation 
+  - family
+  - kids
 categories: 
 draft: false
 rtl: true
