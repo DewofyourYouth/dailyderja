@@ -2,7 +2,7 @@
 title: New Year’s Resolutions
 date: '2025-08-25T21:09:04+03:00'
 tags:
-  - newYearsResolutions
+  - new year's resolutions
   - gratitude
   - meditation
 categories: []
