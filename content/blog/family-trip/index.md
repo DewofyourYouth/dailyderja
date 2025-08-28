@@ -20,7 +20,7 @@ showTableOfContents: true
 
 ## ڤيديو:
 
-{{< youtube W9H3VT5p4pI >}}
+{{< youtube id="W9H3VT5p4pI" class="yt-embed" >}}
 
 ## تصاور
 
