@@ -30,5 +30,3 @@ article:
   showNextPrev: true
   showRelatedPosts: true
   relatedPostsCount: 3
-
-     # use our custom partial on the home page
