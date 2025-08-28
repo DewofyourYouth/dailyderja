@@ -25,5 +25,5 @@ rtl: true
 
 ## ڤيديو:
 
-{{< youtube GgVqwiGgBko >}}
+{{< youtube id="GgVqwiGgBko" class="yt-embed yt-embed--fullbleed" >}}
 

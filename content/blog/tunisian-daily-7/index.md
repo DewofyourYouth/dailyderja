@@ -33,4 +33,4 @@ description: "Tunisian Daily Journal: Entry 7"
 
 ## ڤيديو:
 
-{{< youtube olh2H2RnT2o >}}
+{{< youtube id="olh2H2RnT2o" class="yt-embed" >}}

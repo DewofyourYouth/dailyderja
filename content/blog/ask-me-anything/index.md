@@ -13,5 +13,5 @@ rtl: true
 
 ## ڤيديو
 
-{{< youtube id="YhGsK8XtQyw" class=video >}}
+{{< youtube id="YhGsK8XtQyw" class="yt-embed yt-embed--short" >}}
 

@@ -30,6 +30,6 @@ rtl: true
 
 ## ڤيديو:
 
-{{< youtube N2ArzzMj5eU >}}
-{{<youtube id="xrKlp4BDujU" class="video">}}
-{{<youtube id="KHBEThHJXEM" class="video">}}
+{{< youtube id="N2ArzzMj5eU" class="yt-embed yt-embed--fullbleed" >}}
+{{< youtube id="xrKlp4BDujU" class="yt-embed yt-embed--short" >}}
+{{< youtube id="KHBEThHJXEM" class="yt-embed yt-embed--short" >}}

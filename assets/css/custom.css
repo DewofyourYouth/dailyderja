@@ -18,5 +18,51 @@
     }
 } 
 
+/* Responsive YouTube embeds (Blowfish) */
+.yt-embed {
+  /* center in article column; grow on larger screens */
+  margin: 1.5rem auto;
+  width: 100%;
+  max-width: 680px; /* base size for laptops */
+}
 
+.yt-embed iframe {
+  width: 100% !important;
+  aspect-ratio: 16/9;
+  height: auto;
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0 6px 24px rgba(0,0,0,.12);
+}
 
+/* Scale up progressively on wider viewports */
+@media (min-width: 768px)   { .yt-embed { max-width: 800px; } }   /* tablets/landscape */
+@media (min-width: 1024px)  { .yt-embed { max-width: 960px; } }   /* desktops */
+@media (min-width: 1280px)  { .yt-embed { max-width: 1100px; } }  /* big desktops */
+
+/* Alternative: single-line size rule if you prefer clamp() over breakpoints */
+.yt-embed { max-width: clamp(560px, 70vw, 1100px); }
+
+/* Shorts (vertical 9:16) */
+.yt-embed--short {
+  margin: 1.5rem auto;
+  width: 100%;
+  max-width: 420px;  /* sane default for vertical video */
+}
+
+/* let Shorts get a bit larger on desktop, but cap by viewport height */
+@media (min-width: 1024px) { .yt-embed--short { max-width: 520px; } }
+@media (min-width: 1280px) { .yt-embed--short { max-width: 600px; } }
+
+.yt-embed--short iframe {
+  aspect-ratio: 9/16;
+  width: 100% !important;
+  height: auto;
+  max-height: 85vh; /* never exceed screen height */
+}
+
+/* Optional: full-bleed variant when using a wide layout (e.g., layout: "simple") */
+.yt-embed--fullbleed {
+  width: min(100vw, 1000px);
+  max-width: none;
+}

@@ -33,4 +33,4 @@ description: "Tunisian Daily Journal: Entry 9"
 
 ## ڤيديو
 
-{{< youtube jQsale97Jhs >}}
+{{< youtube id="jQsale97Jhs" class="yt-embed" >}}

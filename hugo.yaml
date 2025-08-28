@@ -27,3 +27,7 @@ outputs:
     - HTML
     - RSS
     - JSON
+privacy:
+  youTube:
+    disable: false
+    privacyEnhanced: true

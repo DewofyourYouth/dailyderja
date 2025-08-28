@@ -19,4 +19,4 @@ description: "Tunisian Daily Journal: Entry 8"
 
 ## ڤيديو:
 
-{{< youtube khsS1AfXEkc >}}
+{{< youtube id="khsS1AfXEkc" class="yt-embed" >}}
