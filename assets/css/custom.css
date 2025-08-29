@@ -1,5 +1,9 @@
-/* Optional: shrink overall width */
-
+:root{
+  --dd-heading-size: clamp(1.8rem, 2.2vw + 1rem, 2.6rem);
+  --dd-body-size:    clamp(1.05rem, 0.4vw + 0.95rem, 1.2rem);
+  --dd-line-height:  1.8;
+  --dd-quote-size:   clamp(1.15rem, 0.6vw + 1rem, 1.35rem);
+}
 /* label before titles linking to /derj-words/ */
 .group-hover-card {
     a[href^="/derj-words/"]::before {
@@ -66,3 +70,64 @@
   width: min(100vw, 1000px);
   max-width: none;
 }
+
+/* 2) Headings */
+.article-content h1,
+.article-content > h2,
+.article-content > h3,
+.article-content > h4 {
+  font-family: "Lalezar", system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-weight: 400;              /* Lalezar has 400 only */
+  font-size: var(--dd-heading-size);
+  line-height: 1.2;
+  margin: 1.2em 0 .6em;
+}
+
+/* 3) Body text */
+.article-content > p,
+.article-content > ul,
+.article-content > ol {
+  font-family: "Zain", system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-weight: 400;
+  font-size: var(--dd-body-size);
+  line-height: var(--dd-line-height);
+  text-wrap: pretty;
+}
+
+/* 4) Blockquotes (RTL-safe border) */
+.article-content > blockquote {
+  font-family: "Zain", system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: var(--dd-quote-size);
+  line-height: var(--dd-line-height);
+  padding-inline-start: 1rem;
+  margin: 1.2rem 0;
+  color: var(--color-text-400); 
+}
+
+/* 5) Language-aware direction (applies to Arabic spans/blocks only) */
+.article-content :lang(ar) {
+  direction: rtl;
+  unicode-bidi: isolate;
+  text-align: start;
+  /* Arabic usually benefits from a touch more line-height */
+  line-height: calc(var(--dd-line-height) + 0.05);
+}
+
+/* 6) Optional: keep browsers from faking weights/styles on display fonts */
+.article-content { font-synthesis-weight: auto; }
+.article-content :lang(ar) { font-synthesis-style: none; } /* Zain has real italics; Lalezar does not */
+
+/* 7) If you still want your weight utility classes, keep just these: */
+.zain-200{ font-family:"Zain",sans-serif; font-weight:200; }
+.zain-300{ font-family:"Zain",sans-serif; font-weight:300; }
+.zain-400{ font-family:"Zain",sans-serif; font-weight:400; }
+.zain-700{ font-family:"Zain",sans-serif; font-weight:700; }
+.zain-800{ font-family:"Zain",sans-serif; font-weight:800; }
+.zain-900{ font-family:"Zain",sans-serif; font-weight:900; }
+.lalezar { font-family:"Lalezar",sans-serif; font-weight:400; }
+
+
+
+
