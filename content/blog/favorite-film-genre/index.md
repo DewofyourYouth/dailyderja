@@ -13,6 +13,6 @@ rtl: true
 
 عندي فاش نفضل نوع فيلم؟ منيش ميتعقيد! نحب نوع آخر في فيلم على حسب المود. و زيدا فمة أفلام نحبهم خاطر نذكر كيف حبيتهم المرّة اللّولة فرجتهم وانا صغير - حتا كن فرجتهم توا المرّة اللّولة - يضور لي ما نكونش حبيتهم قد هكا.
 
-كيف عندي insomnia - ديما نلاقى بعد نرقد صاحي في فرشي لساعة رلا ساعتين - نحب نفرج أفلام أكشن. مثلأ فرجت لكل عربع افلام في Jason Bourne كي صفرت ليل امريكة و ما ينجمت نرقد في الطيّارة!
+كيف عندي insomnia - ديما نلاقى بعد نرقد صاحي في فرشي لساعة ولا ساعتين - نحب نفرج أفلام أكشن. مثلأ فرجت لكل عربع افلام في Jason Bourne كي صفرت ليل امريكة و ما ينجمت نرقد في الطيّارة!
 
 Photo by [Corina Rainer](https://unsplash.com/@corina_rainer_?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/white-and-red-plastic-packs-9FDI-_E29fk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
