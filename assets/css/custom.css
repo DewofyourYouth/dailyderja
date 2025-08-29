@@ -4,6 +4,7 @@
   --dd-line-height:  1.8;
   --dd-quote-size:   clamp(1.15rem, 0.6vw + 1rem, 1.35rem);
 }
+
 /* label before titles linking to /derj-words/ */
 .group-hover-card {
     a[href^="/derj-words/"]::before {
@@ -13,7 +14,7 @@
     letter-spacing: .04em;
     padding: 5px 6px;
     color: var(--color-secondary-600);
-        background-color: #ebd15087;
+    background-color: #ebd15087;
     border: 1px solid var(--color-secondary-200);
     border-radius: 4px;
     margin-right: 8px;
@@ -130,4 +131,13 @@
 
 
 
+/* Force hand cursor on real links everywhere, even inside rich text */
+a[href] { cursor: pointer; }
+a[href] * { cursor: inherit; }  /* children inside links keep the hand */
+
+/* If you use “stretched link”/overlay patterns, include the pseudo-element */
+a[href].stretched-link, a[href].stretched-link::after { cursor: pointer; }
+
+/* Optional: make buttons show hand too, if you want that look */
+button, [role="button"] { cursor: pointer; }
 
