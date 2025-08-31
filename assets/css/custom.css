@@ -68,7 +68,7 @@
 
 /* Optional: full-bleed variant when using a wide layout (e.g., layout: "simple") */
 .yt-embed--fullbleed {
-  width: min(100vw, 1000px);
+  width: min(95vw, 1000px);
   max-width: none;
 }
 
