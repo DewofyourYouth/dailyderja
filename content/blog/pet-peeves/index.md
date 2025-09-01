@@ -1,5 +1,5 @@
 ---
-title: Daily reflection in Tunisian Arabic for practice
+title: Sone of My Pet Peeves 
 date: '2025-09-01T21:40:09+03:00'
 tags:
   - petPeeves
