@@ -1,5 +1,5 @@
 ---
-title: Sone of My Pet Peeves 
+title: Some of My Pet Peeves 
 date: '2025-09-01T21:40:09+03:00'
 tags:
   - petPeeves
