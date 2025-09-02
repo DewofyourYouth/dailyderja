@@ -5,6 +5,12 @@
   --dd-quote-size:   clamp(1.15rem, 0.6vw + 1rem, 1.35rem);
 }
 
+html[lang="ar"] *{
+  letter-spacing: 0 !important;
+  font-feature-settings: "calt" 1, "liga" 1, "rlig" 1;
+}
+
+
 /* label before titles linking to /derj-words/ */
 .group-hover-card {
     a[href^="/derj-words/"]::before {
