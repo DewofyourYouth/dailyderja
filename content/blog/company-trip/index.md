@@ -8,6 +8,7 @@ tags:
 categories: []
 draft: false
 rtl: true
+featured_image: IMG_5234.jpeg
 ---
 
 ## تأمُّل:
