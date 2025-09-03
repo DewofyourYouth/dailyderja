@@ -26,3 +26,5 @@ featured_image: IMG_5234.jpeg
 
 {{< youtube id="HVGL1wTM9DA" class="yt-embed" >}}
 {{< youtube id="Btqg3VNJFbA" class="yt-embed yt-embed--short" >}}
+
+![Kerem Baraq](IMG_5215.jpeg)
