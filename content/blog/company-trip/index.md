@@ -23,5 +23,5 @@ rtl: true
 
 ## ڤيديو:
 
-{{< youtube id="HVGL1wTM9DA" class="yt-embed" />}}
-{{< youtube id="Btqg3VNJFbA" class="yt-embed yt-embed--short" />}}
+{{< youtube id="HVGL1wTM9DA" class="yt-embed" >}}
+{{< youtube id="Btqg3VNJFbA" class="yt-embed yt-embed--short" >}}
