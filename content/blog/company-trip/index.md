@@ -8,7 +8,6 @@ tags:
 categories: []
 draft: false
 rtl: true
-featured_image: IMG_5234.jpeg
 ---
 
 ## تأمُّل:
@@ -24,7 +23,9 @@ featured_image: IMG_5234.jpeg
 
 ## ڤيديو:
 
-{{< youtube id="HVGL1wTM9DA" class="yt-embed" >}}
+{{< youtube id="HVGL1wTM9DA" class="yt-embed yt-embed--short" >}}
 {{< youtube id="Btqg3VNJFbA" class="yt-embed yt-embed--short" >}}
 
-![Kerem Baraq](IMG_5215.jpeg)
+{{< figure src="/images/napkin.jpeg" caption="Kerem Baraq Logo on Napkin" >}}
+
+
