@@ -5,7 +5,7 @@ tags:
 categories:
   - reflection
 draft: false
-rtl: 
+rtl: true
 summary: "Reflecting on my experience learning Derja before going to an engagement party."
 ---
 
