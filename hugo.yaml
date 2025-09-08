@@ -4,6 +4,7 @@ languageCode: ar
 title: The Daily Derja
 theme: blowfish
 enableEmojis: true
+summaryLength: 15
 homepage:
   layout: hero
 params:

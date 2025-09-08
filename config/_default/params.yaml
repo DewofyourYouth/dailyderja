@@ -16,6 +16,7 @@ list:
   showTags: true
   showCategories: true
   showCards: true
+  showSummary: true
 article:
   showHero: true
   showSummary: true
