@@ -8,6 +8,7 @@ tags:
 categories: []
 draft: false
 rtl: true
+summary: A reflection on a company trip that wasn't as bad as expected
 ---
 
 ## تأمُّل:

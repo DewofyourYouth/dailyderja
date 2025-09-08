@@ -8,6 +8,7 @@ categories:
   - Complaining
 draft: false
 rtl: true
+summary: Some surprizing things I hate.
 ---
 
 ## تأمُّل:

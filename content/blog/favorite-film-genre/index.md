@@ -6,6 +6,7 @@ tags:
   - movies
 draft: false
 rtl: true
+summary: Discussing what kind of movies I like to watch.
 ---
 
 ## تأمُّل:
