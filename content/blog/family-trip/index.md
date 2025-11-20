@@ -8,7 +8,8 @@ tags:
   - kids
 categories: 
 draft: false
-rtl: true
+postLang: ar
+dialect: ["tunisian"]
 showTableOfContents: true
 ---
 

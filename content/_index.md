@@ -2,10 +2,10 @@
 title: Daily Derja
 ---
 
-### سلسلة تأملات يومية في الدارجة التونسية
+### يوميات شاميّة، مع أرشيف تونسي حلو { .tagline .tagline-bg }
 
-
-{{<button href="blog">}}
+<div class="hero-cta-wrapper">
+{{< button href="blog" class="hero-cta" >}}
 Take Me To The Blog
-{{</ button>}}
-
+{{< /button >}}
+</div>

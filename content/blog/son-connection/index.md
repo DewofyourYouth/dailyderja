@@ -7,7 +7,8 @@ tags:
 categories:
   - family
 draft: false
-rtl: true
+postLang: ar
+dialect: ["tunisian"]
 ---
 
 ## تأمُّل:

@@ -6,7 +6,8 @@ tags:
 categories:
 draft: false
 hidden: false
-rtl: true
+postLang: ar
+dialect: ["tunisian"]
 description: "Tunisian Daily Journal: Entry 3"
 ---
 

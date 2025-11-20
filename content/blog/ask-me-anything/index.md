@@ -2,7 +2,8 @@
 date: '2025-08-18T13:09:12+03:00'
 draft: false
 title: 'Ask Me Anything'
-rtl: true
+postLang: ar
+dialect: ["tunisian"]
 ---
 
 اليوم حاولت نمشي للخدمة، أما صار مشكل في الترانات – وصلت نص الطريق و رجعت نخدم من الدار.

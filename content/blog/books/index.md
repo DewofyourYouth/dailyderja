@@ -7,7 +7,8 @@ tags:
   - reading
   - negotiation
   - language learning
-rtl: true
+postLang: ar
+dialect: ["tunisian"]
 summary: I discuss two books I'm currently reading.
 ---
 

@@ -1,149 +1,332 @@
-:root{
+/* ================================
+   1. Global theme variables
+   ================================= */
+
+:root {
+  /* Petra-friendly accent palette */
+  --color-accent: #c46a50; /* warm terracotta */
+  --color-accent-dark: #9a4d37; /* deeper terracotta */
+  --color-accent-light: #e8c4b4; /* soft clay */
+
+  --color-primary-500: var(--color-accent);
+  --color-primary: var(--color-accent);
+  --color-primary-dark: var(--color-accent-dark);
+
+  --color-link: var(--color-accent);
+  --color-link-hover: var(--color-accent-dark);
+
+  /* Arabic typography scale */
   --dd-heading-size: clamp(1.8rem, 2.2vw + 1rem, 2.6rem);
-  --dd-body-size:    clamp(1.05rem, 0.4vw + 0.95rem, 1.2rem);
-  --dd-line-height:  1.8;
-  --dd-quote-size:   clamp(1.15rem, 0.6vw + 1rem, 1.35rem);
+  --dd-body-size: clamp(1.05rem, 0.4vw + 0.95rem, 1.2rem);
+  --dd-line-height: 1.8;
+  --dd-quote-size: clamp(1.15rem, 0.6vw + 1rem, 1.35rem);
+
+  /* For dialect badge + chips */
+  --accent-color: var(--color-accent-light);
 }
 
-html[lang="ar"] *{
+/* ================================
+   2. Language-level tweaks
+   ================================= */
+
+/* Arabic global shaping */
+html[lang="ar"] * {
   letter-spacing: 0 !important;
   font-feature-settings: "calt" 1, "liga" 1, "rlig" 1;
 }
 
+/* Arabic content typography (when page/lang is Arabic) */
+:lang(ar),
+[lang^="ar"] {
+  /* Headings */
+  .article-content h1,
+  .article-content > h2,
+  .article-content > h3,
+  .article-content > h4 {
+    font-family: "Lalezar", system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-weight: 400; /* Lalezar has 400 only */
+    font-size: var(--dd-heading-size);
+    line-height: 1.2;
+    margin: 1.2em 0 0.6em;
+  }
+
+  /* Body text */
+  .article-content > p,
+  .article-content > ul,
+  .article-content > ol {
+    font-family: "Zain", system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-weight: 400;
+    font-size: var(--dd-body-size);
+    line-height: var(--dd-line-height);
+    text-wrap: pretty;
+  }
+
+  /* Blockquotes */
+  .article-content > blockquote {
+    font-family: "Zain", system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: var(--dd-quote-size);
+    line-height: var(--dd-line-height);
+    padding-inline-start: 1rem;
+    margin: 1.2rem 0;
+    color: var(--color-text-400);
+  }
+
+  /* Direction for Arabic spans/blocks */
+  .article-content :lang(ar) {
+    direction: rtl;
+    unicode-bidi: isolate;
+    text-align: start;
+    /* Arabic usually benefits from a touch more line-height */
+    line-height: calc(var(--dd-line-height) + 0.05);
+  }
+
+  /* Avoid fake styles/weights where possible */
+  .article-content {
+    font-synthesis-weight: auto;
+  }
+
+  .article-content :lang(ar) {
+    font-synthesis-style: none; /* Zain has real italics; Lalezar does not */
+  }
+
+  /* Utility font classes */
+  .zain-200 {
+    font-family: "Zain", sans-serif;
+    font-weight: 200;
+  }
+  .zain-300 {
+    font-family: "Zain", sans-serif;
+    font-weight: 300;
+  }
+  .zain-400 {
+    font-family: "Zain", sans-serif;
+    font-weight: 400;
+  }
+  .zain-700 {
+    font-family: "Zain", sans-serif;
+    font-weight: 700;
+  }
+  .zain-800 {
+    font-family: "Zain", sans-serif;
+    font-weight: 800;
+  }
+  .zain-900 {
+    font-family: "Zain", sans-serif;
+    font-weight: 900;
+  }
+  .lalezar {
+    font-family: "Lalezar", sans-serif;
+    font-weight: 400;
+  }
+}
+
+/* Optional standalone utility for any tagline text */
+.tagline {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.55);
+}
+
+/* ================================
+   3. Links, cursors & general UX
+   ================================= */
+
+/* Force hand cursor on real links everywhere, even inside rich text */
+a[href] {
+  cursor: pointer;
+}
+a[href] * {
+  cursor: inherit;
+}
+
+/* Stretched links / overlays */
+a[href].stretched-link,
+a[href].stretched-link::after {
+  cursor: pointer;
+}
+
+/* Buttons and clickable roles */
+button,
+[role="button"] {
+  cursor: pointer;
+}
+
+/* ================================
+   4. Dialect / taxonomy chips
+   ================================= */
+
+.post-dialect {
+  margin: 0.5rem 0 1rem;
+  opacity: 0.8;
+  font-size: 0.9rem;
+}
+
+.dialect-tag {
+  background: var(--accent-color, #ddd);
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  margin-right: 0.3rem;
+  text-transform: capitalize;
+}
 
 /* label before titles linking to /derj-words/ */
-.group-hover-card {
-    a[href^="/derj-words/"]::before {
-    content: "DERJ WORDS";
-    font-size: 11px;
-    font-weight: 500;
-    letter-spacing: .04em;
-    padding: 5px 6px;
-    color: var(--color-secondary-600);
-    background-color: #ebd15087;
-    border: 1px solid var(--color-secondary-200);
-    border-radius: 4px;
-    margin-right: 8px;
-    margin-left: 8px;
-    text-transform: uppercase;
-    }
-} 
+.group-hover-card a[href^="/derj-words/"]::before {
+  content: "DERJ WORDS";
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  padding: 5px 6px;
+  color: var(--color-secondary-600);
+  background-color: #ebd15087;
+  border: 1px solid var(--color-secondary-200);
+  border-radius: 4px;
+  margin-right: 8px;
+  margin-left: 8px;
+  text-transform: uppercase;
+}
 
-/* Responsive YouTube embeds (Blowfish) */
+/* ================================
+   5. Hero / homepage banner
+   ================================= */
+
+/* Neutral overlay hook */
+.hero,
+.hero-image {
+  position: relative;
+}
+
+.hero::after,
+.hero-image::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+
+  /* Subtle desaturation + darkening */
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.05) 0%,
+    rgba(0, 0, 0, 0.25) 70%
+  );
+  mix-blend-mode: soft-light;
+}
+
+/* Tame the red gradient Blowfish adds on the hero image */
+.shadow-xl .bg-gradient-to-r {
+  opacity: 0.35; /* tweak 0.3–0.45 if needed */
+  mix-blend-mode: soft-light;
+}
+
+/* Hero title text */
+.shadow-xl h1 {
+  font-size: clamp(2.6rem, 4vw + 1rem, 3.4rem);
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  color: #fdfdfd;
+  text-shadow: 0 3px 10px rgba(0, 0, 0, 0.75);
+}
+
+/* Hero Arabic tagline (base style when not wrapped) */
+.shadow-xl section.prose.prose-invert h3 {
+  font-size: 1.35rem;
+  color: #fff7ec;
+  text-shadow: 0 3px 8px rgba(0, 0, 0, 0.7);
+}
+
+/* Tagline wrapper for homepage hero (your custom container) */
+.tagline-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.3rem;
+  transform: translateY(-6px);
+}
+
+/* Frosted pill behind tagline text */
+.tagline-container h3 {
+  backdrop-filter: blur(3px);
+  background: rgba(0, 0, 0, 0.22);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+  padding: 0.5rem 1rem;
+  border-radius: 0.6rem;
+  color: #fffdf7;
+}
+
+/* Hero CTA (button from shortcode wrapped in .hero-cta-wrapper) */
+.hero-cta-wrapper .dd-hero-cta {
+  background-color: #e65a00 !important;
+  border-radius: 0.75rem !important;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+  text-decoration: none !important;
+  transition: background-color 0.2s ease, transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.hero-cta-wrapper .dd-hero-cta:hover,
+.hero-cta-wrapper .dd-hero-cta:focus {
+  background-color: #cc5400 !important;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+}
+
+.hero-cta-wrapper .dd-hero-cta:active {
+  background-color: #b34900 !important;
+  transform: translateY(0);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.35);
+}
+
+/* ================================
+   6. YouTube embeds (Blowfish)
+   ================================= */
+
+/* Base responsive embed */
 .yt-embed {
-  /* center in article column; grow on larger screens */
   margin: 1.5rem auto;
   width: 100%;
-  max-width: 680px; /* base size for laptops */
+  max-width: clamp(
+    560px,
+    70vw,
+    1100px
+  ); /* replaces old fixed + media queries */
 }
 
 .yt-embed iframe {
   width: 100% !important;
-  aspect-ratio: 16/9;
+  aspect-ratio: 16 / 9;
   height: auto;
   border: 0;
   border-radius: 1rem;
-  box-shadow: 0 6px 24px rgba(0,0,0,.12);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.12);
 }
-
-/* Scale up progressively on wider viewports */
-@media (min-width: 768px)   { .yt-embed { max-width: 800px; } }   /* tablets/landscape */
-@media (min-width: 1024px)  { .yt-embed { max-width: 960px; } }   /* desktops */
-@media (min-width: 1280px)  { .yt-embed { max-width: 1100px; } }  /* big desktops */
-
-/* Alternative: single-line size rule if you prefer clamp() over breakpoints */
-.yt-embed { max-width: clamp(560px, 70vw, 1100px); }
 
 /* Shorts (vertical 9:16) */
 .yt-embed--short {
   margin: 1.5rem auto;
   width: 100%;
-  max-width: 420px;  /* sane default for vertical video */
+  max-width: 420px; /* sane default for vertical video */
 }
 
-/* let Shorts get a bit larger on desktop, but cap by viewport height */
-@media (min-width: 1024px) { .yt-embed--short { max-width: 520px; } }
-@media (min-width: 1280px) { .yt-embed--short { max-width: 600px; } }
+/* Let Shorts get a bit larger on desktop, but cap by viewport height */
+@media (min-width: 1024px) {
+  .yt-embed--short {
+    max-width: 520px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .yt-embed--short {
+    max-width: 600px;
+  }
+}
 
 .yt-embed--short iframe {
-  aspect-ratio: 9/16;
+  aspect-ratio: 9 / 16;
   width: 100% !important;
   height: auto;
   max-height: 85vh; /* never exceed screen height */
 }
 
-/* Optional: full-bleed variant when using a wide layout (e.g., layout: "simple") */
+/* Optional: full-bleed when using a wide layout (e.g., layout: "simple") */
 .yt-embed--fullbleed {
   width: min(95vw, 1000px);
   max-width: none;
 }
-
-/* 2) Headings */
-.article-content h1,
-.article-content > h2,
-.article-content > h3,
-.article-content > h4 {
-  font-family: "Lalezar", system-ui, -apple-system, "Segoe UI", sans-serif;
-  font-weight: 400;              /* Lalezar has 400 only */
-  font-size: var(--dd-heading-size);
-  line-height: 1.2;
-  margin: 1.2em 0 .6em;
-}
-
-/* 3) Body text */
-.article-content > p,
-.article-content > ul,
-.article-content > ol {
-  font-family: "Zain", system-ui, -apple-system, "Segoe UI", sans-serif;
-  font-weight: 400;
-  font-size: var(--dd-body-size);
-  line-height: var(--dd-line-height);
-  text-wrap: pretty;
-}
-
-/* 4) Blockquotes (RTL-safe border) */
-.article-content > blockquote {
-  font-family: "Zain", system-ui, -apple-system, "Segoe UI", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-  font-size: var(--dd-quote-size);
-  line-height: var(--dd-line-height);
-  padding-inline-start: 1rem;
-  margin: 1.2rem 0;
-  color: var(--color-text-400); 
-}
-
-/* 5) Language-aware direction (applies to Arabic spans/blocks only) */
-.article-content :lang(ar) {
-  direction: rtl;
-  unicode-bidi: isolate;
-  text-align: start;
-  /* Arabic usually benefits from a touch more line-height */
-  line-height: calc(var(--dd-line-height) + 0.05);
-}
-
-/* 6) Optional: keep browsers from faking weights/styles on display fonts */
-.article-content { font-synthesis-weight: auto; }
-.article-content :lang(ar) { font-synthesis-style: none; } /* Zain has real italics; Lalezar does not */
-
-/* 7) If you still want your weight utility classes, keep just these: */
-.zain-200{ font-family:"Zain",sans-serif; font-weight:200; }
-.zain-300{ font-family:"Zain",sans-serif; font-weight:300; }
-.zain-400{ font-family:"Zain",sans-serif; font-weight:400; }
-.zain-700{ font-family:"Zain",sans-serif; font-weight:700; }
-.zain-800{ font-family:"Zain",sans-serif; font-weight:800; }
-.zain-900{ font-family:"Zain",sans-serif; font-weight:900; }
-.lalezar { font-family:"Lalezar",sans-serif; font-weight:400; }
-
-
-
-/* Force hand cursor on real links everywhere, even inside rich text */
-a[href] { cursor: pointer; }
-a[href] * { cursor: inherit; }  /* children inside links keep the hand */
-
-/* If you use “stretched link”/overlay patterns, include the pseudo-element */
-a[href].stretched-link, a[href].stretched-link::after { cursor: pointer; }
-
-/* Optional: make buttons show hand too, if you want that look */
-button, [role="button"] { cursor: pointer; }
-

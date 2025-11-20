@@ -1,7 +1,10 @@
 {{ define "main" }}
+  {{ $lang := .Params.postLang | default "en" }}
+  {{ $rtlLangs := slice "ar" "he" }}
+
   {{ .Scratch.Set "scope" "single" }}
-  {{ if .Page.Params.rtl}}
-<article dir="rtl">
+  {{ if in $rtlLangs $lang }}
+<article dir="rtl" lang="{{ $lang }}">
     {{ else }}
 
   <article>

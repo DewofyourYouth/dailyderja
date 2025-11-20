@@ -10,7 +10,8 @@ categories:
  - food
 hidden: false
 draft: false
-rtl: true
+postLang: ar
+dialect: ["tunisian"]
 description: "Tunisian Daily Journal: Entry 7"
 ---
 ## تأمُّل:

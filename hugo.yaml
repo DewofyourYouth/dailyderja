@@ -10,14 +10,13 @@ homepage:
 params:
   mainSections:
     - blog
-    - derjwords
   assets:
     customCSS:
-     - "/css/plyr.css"
-     - "/css/custom.css"
+      - "/css/plyr.css"
+      - "/css/custom.css"
     customJS:
       - "/js/plyr.js"
-      - "/js/audio-init.js"      
+      - "/js/audio-init.js"
   description: "سلسلة تأملات يومية في الدارجة التونسية"
 googleAnalytics: "G-Z4E3K7B8ZR"
 services:

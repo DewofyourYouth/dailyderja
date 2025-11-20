@@ -5,7 +5,8 @@ title: 'Relaxed Day'
 tags:
   - relax
   - WFH
-rtl: true
+postLang: ar
+dialect: ["tunisian"]
 ---
 الصبح قررت ما نمشيش للمعبد، نحب نكمّل نومي. خدمت من داري اليوم، و هكاكا كان أسهل شوية. ما عادش نلزم نخرج فيسع فيسع النهار الكل.
 

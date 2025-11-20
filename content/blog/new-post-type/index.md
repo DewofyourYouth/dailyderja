@@ -9,7 +9,8 @@ categories:
   - Life Hacks
   - Learning 
 draft: false
-rtl: true
+postLang: ar
+dialect: ["tunisian"]
 ---
 
 ## تأمُّل:

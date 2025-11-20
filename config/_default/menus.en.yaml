@@ -1,14 +1,10 @@
 main:
-- name: Blog
-  url: /blog/
-  weight: 1
-- name: About
-  url: /about/
-  weight: 2
-- name: Dew of Your Youth
-  url: https://dewofyouryouth.com
-  weight: 3
-- name: DerjWords
-  url: /derj-words/
-  weight: 4
-
+  - name: Blog
+    url: /blog/
+    weight: 1
+  - name: About
+    url: /about/
+    weight: 2
+  - name: Dew of Your Youth
+    url: https://dewofyouryouth.com
+    weight: 3

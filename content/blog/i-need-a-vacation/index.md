@@ -11,7 +11,8 @@ categories:
  - family
 draft: false
 hidden: false
-rtl: true
+postLang: ar
+dialect: ["tunisian"]
 description: "Tunisian Daily Journal: Entry 10"
 ---
 يظهرلي بعد الحرب هاذي، يلزمني نمشي في عطلة. أنا وليت متوتر برشة. صغاري خايفين، وزادة الناس اللي نخدم معاهم متوترين. مثلاً عرفي راهو باش يطلق مرتو. حاولت ننقص في الميزان، أما في بلاصة ما ننقص، زدت.

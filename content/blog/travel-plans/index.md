@@ -9,7 +9,8 @@ categories:
   - Travel
   - Complaining
 draft: false
-rtl: true
+postLang: ar
+dialect: ["tunisian"]
 summary: Some early morning annoyances.
 ---
 

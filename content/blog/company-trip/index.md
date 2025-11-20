@@ -7,7 +7,8 @@ tags:
   - Jerusalem 
 categories: []
 draft: false
-rtl: true
+postLang: ar
+dialect: ["tunisian"]
 summary: A reflection on a company trip that wasn't as bad as expected
 ---
 

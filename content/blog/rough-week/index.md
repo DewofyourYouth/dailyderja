@@ -10,7 +10,8 @@ categories:
   - Judaism
   - Complaining
 draft: false
-rtl: true
+postLang: ar
+dialect: ["tunisian"]
 ---
 
 ## تأمُّل:

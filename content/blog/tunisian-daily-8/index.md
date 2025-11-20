@@ -8,7 +8,8 @@ categories:
   - language
 hidden: false
 draft: false
-rtl: true
+postLang: ar
+dialect: ["tunisian"]
 description: "Tunisian Daily Journal: Entry 8"
 ---
 ## تأمُّل:

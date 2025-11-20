@@ -1,6 +1,8 @@
 ---
 title: The Letters Park
 date: 2025-10-16T08:10:47
+postLang: ar
+dialect: ["tunisian"]
 tags:
   - history
   - letters
@@ -13,7 +15,6 @@ categories:
   - Learning
   - family
 draft: false
-rtl: true
 ---
 ## جنّينة الحروف
 

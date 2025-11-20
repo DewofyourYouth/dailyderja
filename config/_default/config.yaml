@@ -1,0 +1,13 @@
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+    parser:
+      attribute:
+        block: true
+        title: true
+taxonomies:
+  tag: tags
+  category: categories
+  dialect: dialects
+  series: series

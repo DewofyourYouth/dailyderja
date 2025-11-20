@@ -5,7 +5,8 @@ tags:
 categories:
   - reflection
 draft: false
-rtl: true
+postLang: ar
+dialect: ["tunisian"]
 summary: "Reflecting on my experience learning Derja before going to an engagement party."
 ---
 

@@ -7,7 +7,8 @@ tags:
 categories:
   - Complaining
 draft: false
-rtl: true
+postLang: ar
+dialect: ["tunisian"]
 summary: Some surprizing things I hate.
 ---
 

@@ -7,7 +7,8 @@ tags:
   - meditation
 categories: []
 draft: false
-rtl: true
+postLang: ar
+dialect: ["tunisian"]
 ---
 
 ## تأمُّل:

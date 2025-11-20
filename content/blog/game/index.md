@@ -6,7 +6,8 @@ tags:
   - gamification 
 categories: 
 draft: false
-rtl: true
+postLang: ar
+dialect: ["tunisian"]
 ---
 
 > *شنوة لعبة ولا أي حاجة أخرى من الميديا لعبتها توّا و بقات في مخّك؟ علاش لمستك هكا؟*

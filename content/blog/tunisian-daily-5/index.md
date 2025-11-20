@@ -9,7 +9,8 @@ categories:
  - testing
 draft: false
 hidden: false
-rtl: true
+postLang: ar
+dialect: ["tunisian"]
 description: "Tunisian Daily Journal: Entry 5"
 ---
 ما عنديش برشا كلام توا. حبيت نقرا على CKAD جمعة هاذي، اما ما قريتش. مرتي قالتلي ما لازمنيش نقسي على روحي خاطر  فمّا توا الحرب. شنوا نعمل؟ اما ديما هكّاكة. يظهرلي باش نأجّل التست مرا اخرا.
