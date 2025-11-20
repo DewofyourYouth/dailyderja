@@ -6,7 +6,7 @@ categories:
   - reflection
 draft: false
 postLang: ar
-dialect: ["tunisian"]
+dialects: ["tunisian"]
 summary: "Reflecting on my experience learning Derja before going to an engagement party."
 ---
 

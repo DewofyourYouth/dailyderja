@@ -1,7 +1,7 @@
 ---
 title: "Pivoting from Tunisian Derja to Shami"
 date: 2025-11-20T09:00:00+02:00
-tags: ["Meta", "Language Learning", "Shami", "Tunisian"]
+tags: ["Meta", "Language Learning", "site changes"]
 dialects: ["shami", "tunisian"]
 series: ["Meta"]
 ---

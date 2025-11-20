@@ -2,7 +2,7 @@
 draft: false
 title: 'More Complaining'
 postLang: ar
-dialect: ["tunisian"]
+dialects: ["tunisian"]
 date: 2025-08-06T14:02:34
 categories:
 - complaining

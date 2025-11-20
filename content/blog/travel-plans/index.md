@@ -10,7 +10,7 @@ categories:
   - Complaining
 draft: false
 postLang: ar
-dialect: ["tunisian"]
+dialects: ["tunisian"]
 summary: Some early morning annoyances.
 ---
 

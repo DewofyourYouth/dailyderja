@@ -11,7 +11,7 @@ categories:
 hidden: false
 draft: false
 postLang: ar
-dialect: ["tunisian"]
+dialects: ["tunisian"]
 description: "Tunisian Daily Journal: Entry 7"
 ---
 ## تأمُّل:

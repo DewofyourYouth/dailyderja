@@ -7,7 +7,7 @@ tags:
 categories: 
 draft: false
 postLang: ar
-dialect: ["tunisian"]
+dialects: ["tunisian"]
 ---
 
 > *شنوة لعبة ولا أي حاجة أخرى من الميديا لعبتها توّا و بقات في مخّك؟ علاش لمستك هكا؟*

@@ -11,7 +11,7 @@ categories:
   - Complaining
 draft: false
 postLang: ar
-dialect: ["tunisian"]
+dialects: ["tunisian"]
 ---
 
 ## تأمُّل:

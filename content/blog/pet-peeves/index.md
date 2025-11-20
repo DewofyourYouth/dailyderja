@@ -8,7 +8,7 @@ categories:
   - Complaining
 draft: false
 postLang: ar
-dialect: ["tunisian"]
+dialects: ["tunisian"]
 summary: Some surprizing things I hate.
 ---
 

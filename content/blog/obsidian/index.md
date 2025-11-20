@@ -7,7 +7,7 @@ tags:
   - productivity
 draft: false
 postLang: ar
-dialect: ["tunisian"]
+dialects: ["tunisian"]
 ---
 
 ## تأمُّل:
@@ -25,7 +25,7 @@ categories:
 draft: false 
 hidden: true
 postLang: ar
-dialect: ["tunisian"]
+dialects: ["tunisian"]
 ---
 
 ## تأمُّل:

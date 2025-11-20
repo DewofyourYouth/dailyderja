@@ -8,7 +8,7 @@ tags:
 categories: []
 draft: false
 postLang: ar
-dialect: ["tunisian"]
+dialects: ["tunisian"]
 summary: A reflection on a company trip that wasn't as bad as expected
 ---
 

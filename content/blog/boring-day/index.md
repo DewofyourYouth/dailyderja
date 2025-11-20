@@ -3,7 +3,7 @@ date: '2025-08-28T20:17:38+03:00'
 draft: false
 title: 'Boring Day'
 postLang: ar
-dialect: ["tunisian"]
+dialects: ["tunisian"]
 tags:
 - boring
 - about nothing

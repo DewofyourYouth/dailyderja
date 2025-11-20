@@ -6,7 +6,7 @@ tags:
   - movies
 draft: false
 postLang: ar
-dialect: ["tunisian"]
+dialects: ["tunisian"]
 summary: Discussing what kind of movies I like to watch.
 ---
 
