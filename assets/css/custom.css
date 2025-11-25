@@ -3,10 +3,10 @@
    ================================= */
 
 :root {
-  /* Petra-friendly accent palette */
-  --color-accent: #c46a50; /* warm terracotta */
-  --color-accent-dark: #9a4d37; /* deeper terracotta */
-  --color-accent-light: #e8c4b4; /* soft clay */
+  /* Shami Breeze accent palette */
+  --color-accent: #c6843a; /* Breeze Gold (main accent) */
+  --color-accent-dark: #9f6429; /* Deeper gold / bronze */
+  --color-accent-light: #ebd3aa; /* Soft light gold for chips/badges */
 
   --color-primary-500: var(--color-accent);
   --color-primary: var(--color-accent);
@@ -162,7 +162,7 @@ button,
 }
 
 .dialect-tag {
-  background: var(--accent-color, #ddd);
+  background: var(--accent-color, #ebd3aa);
   padding: 0.2rem 0.5rem;
   border-radius: 4px;
   margin-right: 0.3rem;
@@ -251,9 +251,18 @@ button,
   color: #fffdf7;
 }
 
-/* Hero CTA (button from shortcode wrapped in .hero-cta-wrapper) */
-.hero-cta-wrapper .dd-hero-cta {
-  background-color: #e65a00 !important;
+/* ================================
+   5. Hero / homepage banner
+   ================================= */
+
+/* ================================
+   Hero CTA hard override
+   ================================= */
+
+/* Base (light mode) */
+.hero-cta-wrapper a[role="button"] {
+  background-color: #c6843a !important; /* Breeze Gold */
+  color: #fff !important;
   border-radius: 0.75rem !important;
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
   text-decoration: none !important;
@@ -261,17 +270,29 @@ button,
     box-shadow 0.2s ease;
 }
 
-.hero-cta-wrapper .dd-hero-cta:hover,
-.hero-cta-wrapper .dd-hero-cta:focus {
-  background-color: #cc5400 !important;
+/* Hover / focus */
+.hero-cta-wrapper a[role="button"]:hover,
+.hero-cta-wrapper a[role="button"]:focus {
+  background-color: #b37431 !important; /* Hover gold */
   transform: translateY(-1px);
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
 }
 
-.hero-cta-wrapper .dd-hero-cta:active {
-  background-color: #b34900 !important;
+/* Active / pressed */
+.hero-cta-wrapper a[role="button"]:active {
+  background-color: #9f6429 !important; /* Active gold */
   transform: translateY(0);
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.35);
+}
+
+/* Dark mode tweak (optional but nice) */
+.dark .hero-cta-wrapper a[role="button"] {
+  background-color: #b37431 !important;
+}
+
+.dark .hero-cta-wrapper a[role="button"]:hover,
+.dark .hero-cta-wrapper a[role="button"]:focus {
+  background-color: #9f6429 !important;
 }
 
 /* ================================

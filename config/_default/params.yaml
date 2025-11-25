@@ -2,7 +2,7 @@ homepage:
   layout: hero
   title: The Daily Derja
   showRecent: true
-  homepageImage: "/images/petra.jpg"
+  homepageImage: "/images/hero.jpg"
 colorScheme: fire
 logo: "/images/logo.png"
 secondaryLogo: "/images/logo-dark.png"
