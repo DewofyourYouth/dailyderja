@@ -3,9 +3,7 @@ title: About
 date: 2025-08-07
 ---
 
-## What Is This Blog?
-
-About نسمة شامية
+## What Is نسمة شامية?
 
 Daily Derja started as a Tunisian Arabic practice blog.
 Over time, life pulled me northward — and now the project has become
