@@ -11,6 +11,7 @@ postLang: ar
 dialects:
   - shami
 series: ["نسمة نهار"]
+summary: "A lot of things are changing – all at once!"
 ---
 
 ## تأمُّل:
