@@ -1,5 +1,5 @@
 ---
-title: Daily reflection in Levantine Arabic for practice
+title: El Ghriba Photos
 date: '2025-11-26T10:45:29+02:00'
 tags:
   - laGhriba
