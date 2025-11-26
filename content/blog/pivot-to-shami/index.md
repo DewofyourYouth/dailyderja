@@ -24,4 +24,3 @@ From here on out, though, we’re shifting the camera northeast.
 ---
 
 Photo by [Alex Vasey](https://unsplash.com/@alexrvasey?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/brown-and-white-concrete-building-on-brown-rocky-mountain-during-daytime-5_Bu25SV6X8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-      
