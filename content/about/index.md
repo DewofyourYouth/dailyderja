@@ -5,24 +5,35 @@ date: 2025-08-07
 
 ## What Is This Blog?
 
-Since the beginning of Operation Rising Lion, I started writing daily reflections in Derja (Tunisian Arabic). The goal: improve my understanding of Derja through short daily posts and occasional videos explaining them.
+About نسمة شامية
 
-**Note:** After Operation Rising Lion ended and I was able to leave home, the consistency dropped. I still try to post a few times a week.
+Daily Derja started as a Tunisian Arabic practice blog.
+Over time, life pulled me northward — and now the project has become
+نسمة شامية: a Shami breeze moving through my day, one small post at a time.
+
+I’m learning Levantine Arabic as an adult, slowly and steadily, without perfectionism and without drama. Most days I write something short: a photo, a sentence, a word I learned, a little moment, a few lines about the things that are changing in my life.
+
+You’ll see a bit of Tunisian still floating around here — some notes, old posts, and an archive of vocabulary. That’s part of the story too.
+
+I keep the posts small on purpose.
+Not polished. Not academic. Just daily touches of Arabic as I try to build real language flow and stay consistent.
+
+The project is divided into simple series:
+
+- <span dir="rtl">نسمة صورة</span> — a photo and a short caption  
+- <span dir="rtl">نسمة كلمة</span> — a word I’m learning  
+- <span dir="rtl">نسمة لحظة</span> — a small moment from the day  
+- <span dir="rtl">نسمة سَمعة</span> — something I’m listening to  
+- <span dir="rtl">نسمة ناس</span> — conversations or lines I hear from people around me  
+- <span dir="rtl">نسمة كتابة</span> — practice writing  
+
+
+If you’re learning Arabic too — especially Levantine — maybe you’ll find something useful here.
+And if not, at least there’s always good coffee in the background.
+
+This is my space to keep moving, keep learning, and breathe a little every day.
+Slowly, slowly — شوي شوي — نسمة بنسمة.
 
 ## Who Am I?
 
-I’m Jacob Shore — middle-aged, married, father of five. I live in Israel and work in tech.
-
-## Why Learn Arabic?
-
-It started during a miserable company “team-building” trip to Dubai. I didn’t like the corporate culture, didn’t particularly enjoy the trip, and decided to ignore everyone and teach myself how to read Arabic. The tour guide basically became my tutor for the rest of the trip 😅. It gave me something to do and made the time more enjoyable.
-
-When I got back to Israel with my newly acquired skills, I started noticing Arabic on every sign. That reminded me there's an entire population here that speaks Arabic — often better than Hebrew. I wanted to understand them. But the political reality makes meaningful interaction rare and often tense.
-
-Then, on a trip to the U.S. for a friend’s wedding, I met a Jewish Tunisian at Ben Gurion Airport. He told me about the ancient Jewish community in Djerba — an island off the coast of North Africa with a continuous Jewish presence since the First Temple period. That stuck with me.
-
-Rather than trying to build awkward relationships with Palestinians here under difficult conditions, I decided to aim for something I actually wanted: a visit to Djerba, and conversations with Jews and locals there. So I started learning Tunisian Arabic. Perhaps when I get back I will pivot to the local dialect 🤷‍♂️.
-
-It’s less about politics. More about connection — on my terms. 
-
-
+I’m Jacob Shore — married, father of five, living in Israel. I work in tech, think too much, drink a lot of coffee, and write small daily posts as I try to learn Shami Arabic without getting swallowed by the rest of life.
