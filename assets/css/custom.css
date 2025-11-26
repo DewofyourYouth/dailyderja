@@ -39,15 +39,32 @@ html[lang="ar"] * {
 :lang(ar),
 [lang^="ar"] {
   /* Headings */
+  /* Headings – shared base styles */
   .article-content h1,
   .article-content > h2,
   .article-content > h3,
   .article-content > h4 {
     font-family: "Lalezar", system-ui, -apple-system, "Segoe UI", sans-serif;
     font-weight: 400; /* Lalezar has 400 only */
-    font-size: var(--dd-heading-size);
     line-height: 1.2;
     margin: 1.2em 0 0.6em;
+  }
+
+  /* Size hierarchy for Arabic headings */
+  .article-content h1 {
+    font-size: calc(var(--dd-heading-size) * 1.25);
+  }
+
+  .article-content > h2 {
+    font-size: var(--dd-heading-size);
+  }
+
+  .article-content > h3 {
+    font-size: calc(var(--dd-heading-size) * 0.8);
+  }
+
+  .article-content > h4 {
+    font-size: calc(var(--dd-heading-size) * 0.7);
   }
 
   /* Body text */

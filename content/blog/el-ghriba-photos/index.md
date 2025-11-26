@@ -60,7 +60,7 @@ summary: Pictures from our visit to the El Ghriba synagogue in Djerba, Tunisia.
 
 ## كلام:
 
-###  **أماكن وأشياء**
+### أماكن وأشياء
 
 - **كِنيِس** _(ˈkneːs)_ — synagogue
 - **هيكل التوراة** _(ˈheːkal et-toːˈraː)_ — Torah ark
@@ -73,7 +73,7 @@ summary: Pictures from our visit to the El Ghriba synagogue in Djerba, Tunisia.
 
 ---
 
-###  **أفعال**
+###  أفعال
 
 - **بايِن** _(ˈbaːjen)_ — visible
 - **مُعَلَّق** _(moˈʕallaʔ)_ — hanging
@@ -84,7 +84,7 @@ summary: Pictures from our visit to the El Ghriba synagogue in Djerba, Tunisia.
 
 ---
 
-###  **اتجاهات ومواقع**
+###  اتجاهات ومواقع
 
 - **بَرّا** _(ˈbar.ra)_ — outside
 - **جَنب** _(ʒamb)_ — next to
@@ -93,7 +93,7 @@ summary: Pictures from our visit to the El Ghriba synagogue in Djerba, Tunisia.
 
 ---
 
-###  **كلمات عامّة**
+###  كلمات عامّة
 
 - **هـدول** _(hadoːl)_ — these
 - **أقدم** _(ˈʔad.ma)_ — oldest
