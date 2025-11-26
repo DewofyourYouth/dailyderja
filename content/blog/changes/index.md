@@ -3,7 +3,7 @@ date: '2025-11-25T13:08:55+02:00'
 title: "Changes: Scary But Exciting"
 tags:
   - change
-  - job_search
+  - job search
   - worries
 categories: ["نسمة نهار"]
 draft: false

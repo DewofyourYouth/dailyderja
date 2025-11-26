@@ -2,12 +2,11 @@
 title: El Ghriba Photos
 date: '2025-11-26T10:45:29+02:00'
 tags:
-  - laGhriba
+  - La Ghriba
   - travel
   - architecture
   - ancient
   - synagogue
-  - Judaism
 categories:
   - Travel
   - Tunisian
