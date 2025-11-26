@@ -18,15 +18,17 @@ dialects:
 series: 
   - " نسمة صورة"
 postLang: ar
+summary: Pictures from our visit to the El Ghriba synagogue in Djerba, Tunisia.
 ---
 
 
 ## خاطِرة:
 
-هـدول صُوَر من كنيس الغريبة، أقدم كنيس بكلّ أفريقيا.  
+هـدول صُوَر من كنيس الغريبة، أقدم كنيس بكلّ أفريقيا، اِنبَنى من أكتر من ألفين وخَمسمِيّة سنة.  
 أنا ومرتي زُرناه لَمّا سافرنا على جزيرة جِربة.
 
 ## صور:
+
 {{< figure
     src="outside-sign.jpeg"
     alt="Outside the building"
@@ -58,6 +60,7 @@ postLang: ar
 
 
 ## كلام:
+
 ###  **أماكن وأشياء**
 
 - **كِنيِس** _(ˈkneːs)_ — synagogue
