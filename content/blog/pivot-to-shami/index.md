@@ -7,7 +7,7 @@ series: ["Meta"]
 ---
 
 For the first chapter of this project, **The Daily Derja** was all about Tunisian Arabic.  
-That made sense: I was heading toward Djerba, had Tunisian tutors, and “Derja” felt like the right flag to plant.
+That made sense: I was heading toward Djerba, had Tunisian friends, and “Derja” felt like the right flag to plant.
 
 Since that trip, my reality is back in Israel. Most of the Arabic I hear around me is **Levantine / Shami**, not Tunisian.  
 If I want my daily Arabic writing to connect to the people I actually meet on buses and in cafés, Shami has to move to the front of the stage.
