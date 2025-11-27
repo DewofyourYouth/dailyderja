@@ -1,5 +1,5 @@
 ---
-title: The Beginning of My Levantine Playlist
+title: The Beginnings of My Levantine Playlist
 date: '2025-11-27T10:49:39+02:00'
 tags:
   - music
@@ -20,6 +20,7 @@ draft: false
 postLang: ar
 dialects:
   - shami
+summary: "Some music I'm enjoying right now, to train my ear for Levantine Arabic."
 series:
   - نسمة نغمة
 ---
