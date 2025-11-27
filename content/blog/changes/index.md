@@ -32,7 +32,7 @@ summary: "A lot of things are changing – all at once!"
 | بنفس      | same          | {{<audio src="/audio/same.mp3" caption="bnafs" >}}            |
 | بخوّف     | scary         | {{<audio src="/audio/scary.mp3" caption="biˈxaw.wif" >}}           |
 | مرحلة     | stage / phase | {{<audio src="/audio/stage-phase.mp3" caption="ˈmar.ħa.le" >}}     |
-| أشيا | things / stuff | {{<audio src="/audio/things-stuff.mp3" caption="ˈaʃ.jaː">}}
+| أشيا | things / stuff | {{<audio src="/audio/things-stuff.mp3" caption="ˈaʃ.jaː">}} |
 
 {{< ltr >}}
 Photo by [Alexas Fotos](https://www.pexels.com/photo/time-for-change-sign-with-led-light-2277784/)
