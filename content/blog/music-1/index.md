@@ -33,12 +33,12 @@ series:
 
 واحدة من الغنيّات اللي بحبها هي "سعيدة" من Walaa Sbait — ستايل الإندي سكا بالعربي كتير حلو!
 
-{{< spotify "artist/7zm6lF98wKwyohB2zFetum" 380 >}}
+{{< spotify "artist/7zm6lF98wKwyohB2zFetum" 360 >}}
 
 وإذا بدك أكتر من هالستايل الإندي سكا، فيك تسمع Kazdoura!
 بحبّهم كتير!
 
-{{< spotify "artist/0dOAYwm9ZFUqHLczUorSxh" 380 >}}
+{{< spotify "artist/0dOAYwm9ZFUqHLczUorSxh" 360 >}}
 
 Bedouin Burger بيمزجوا أنغام شامية بالشغل الإلكتروني، وبيعملّوا مزيج دافي وساحر بين الفولكلور والإندي بوب.
 
