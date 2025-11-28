@@ -18,7 +18,7 @@ dialects:
 series:
   - " نسمة صورة"
 postLang: ar
-summary: "Some confusing graffiti in Tel Aviv"
+summary: "Some confusing graffiti in Tel Aviv."
 ---
 
 
