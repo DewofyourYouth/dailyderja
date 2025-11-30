@@ -35,3 +35,10 @@ Slowly, slowly — شوي شوي — نسمة بنسمة.
 ## Who Am I?
 
 I’m Jacob Shore — married, father of five, living in Israel. I work in tech, think too much, drink a lot of coffee, and write small daily posts as I try to learn Shami Arabic without getting swallowed by the rest of life.
+
+{{< figure
+    src="family.jpeg"
+    alt="Family Picture"
+    caption="Me and my five boys"
+    class="rtl-figure"
+    >}}
