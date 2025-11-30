@@ -23,8 +23,8 @@ postLang: ar
 
 | عربية   | English             | IPA           |
 | ------- | ------------------- | ------------- |
-| سِيوم   | completion ceremony | /sijˈom/      |
+| سِيوم  (Hebrew) | completion ceremony | /sijˈom/      |
 | قسم     | section / part      | /ʔɪsm/        |
-| التلمود | the Talmud          | /ɪt-talˈmuːd/ |
+| التلمود (Hebrew)| the Talmud          | /ɪt-talˈmuːd/ |
 | تنظيم   | organization        | /tanˈðˤiːm/   |
 | مَقْطَع | passage / section   | /ˈmaʔ.tˤaʕ/   |
