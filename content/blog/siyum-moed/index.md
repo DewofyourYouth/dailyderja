@@ -13,6 +13,7 @@ series:
   - "نسمة يوميات"
 series_order: 1
 postLang: ar
+summary: "Last night we celebrated the accomplishment of finishing Seder Moed"
 ---
 
 ## خاطِرة
