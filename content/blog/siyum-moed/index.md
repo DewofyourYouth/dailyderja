@@ -1,5 +1,5 @@
 ---
-title: Daily reflection in Levantine Arabic for practice
+title: "Siyum Seder Moed"
 date: '2025-11-30T14:54:51+02:00'
 tags:
   - siyum
