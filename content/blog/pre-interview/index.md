@@ -9,6 +9,7 @@ tags:
   - work life
 categories:
   - Life Updates
+  - Complaining
 draft: false
 dialects:
   - shami
