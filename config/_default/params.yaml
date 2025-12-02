@@ -31,3 +31,4 @@ article:
   showNextPrev: true
   showRelatedPosts: true
   relatedPostsCount: 3
+  showSocialLinks: true

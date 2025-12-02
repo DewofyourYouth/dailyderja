@@ -11,3 +11,5 @@ taxonomies:
   category: categories
   dialect: dialects
   series: series
+params:
+  showSocialLinks: true

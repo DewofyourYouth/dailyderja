@@ -1,0 +1,12 @@
+title: The Daily Derja
+params:
+  author:
+    name: "Jacob Shore"
+    headline: نَسْمة شاميّة كُلّ يوم… مع أرشيف تونسي حلو
+    bio: "Middle-aged, married, father of five. I write about Arabic, dialects, and daily life."
+    links:
+      - youtube: "https://www.youtube.com/@dewofyouryouth"
+      - substack: "https://dailyderja.substack.com/"
+      - github: "https://github.com/DewofyourYouth"
+      - instagram: "https://www.instagram.com/yaakshore/"
+      - link: "https://dewofyouryouth.com/"
