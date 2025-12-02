@@ -2,9 +2,15 @@ main:
   - name: Blog
     url: /blog/
     weight: 1
+  - name: Shami (Levantine)
+    url: /dialects/shami/
+    weight: 2
+  - name: Tunisian
+    url: /dialects/tunisian
+    weight: 3
   - name: About
     url: /about/
-    weight: 2
+    weight: 4
   - name: Dew of Your Youth
     url: https://dewofyouryouth.com
-    weight: 3
+    weight: 5
