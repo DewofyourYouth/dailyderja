@@ -1,8 +1,9 @@
 ---
 date: '2025-12-05T10:38:08+02:00'
-draft: true
+draft: false
 title: 'First Coffee'
 dialects: ["shami"]
+tags: ["coffee"]
 series:
 - "نسمة نهار"
 series_order: 2
