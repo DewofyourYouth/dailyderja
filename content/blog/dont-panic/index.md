@@ -1,13 +1,27 @@
 ---
 title: "Don't Panic"
 date: '2025-12-09T19:26:42+02:00'
+series:
+  - "نسمة نهار"
+series_order: 1
+
 tags:
-categories: []
+  - shami
+  - daily-reflection
+  - vocabulary
+  - grammar
+  - ipa
+  - "don't panic"
+  - لهجة-شامية
+  - يوميات
+categories:
+  - Arabic
+  - Levantine
+  - Learning-diary
 draft: false
 dialects:
   - shami
-series:
-series_order:
+series_order: 3
 postLang: ar
 ---
 
