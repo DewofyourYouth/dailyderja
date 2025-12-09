@@ -23,6 +23,7 @@ dialects:
   - shami
 series_order: 3
 postLang: ar
+summary: "Some good advice from Douglas Adams"
 ---
 
 ## خاطِرة
