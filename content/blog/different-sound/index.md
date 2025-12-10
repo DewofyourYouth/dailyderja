@@ -44,7 +44,7 @@ postLang: ar
 
 ---
 
-## Note (English)
+## Note
 
 *Heilung is a Northern European experimental group that blends reconstructed ancient instruments, ritual vocals, and
 atmospheric sound design. They call their style “amplified history.” It’s definitely a shift from Spotify’s usual
