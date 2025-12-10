@@ -34,7 +34,7 @@ postLang: ar
 {{< spotify "artist/7sTKZr30LqC928DZ5P9mNQ" 380 >}}
 ---
 
-## 🗂️ Vocabulary (New Only)
+## كلام 
 
 | Arabic                   | IPA                             | Meaning                  |
 | ------------------------ | ------------------------------- | ------------------------ |
