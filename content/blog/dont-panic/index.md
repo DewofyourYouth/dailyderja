@@ -3,8 +3,6 @@ title: "Don't Panic"
 date: '2025-12-09T19:26:42+02:00'
 series:
   - "نسمة نهار"
-series_order: 1
-
 tags:
   - shami
   - daily-reflection
