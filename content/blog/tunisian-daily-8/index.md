@@ -3,6 +3,8 @@ title: Arabic when I was a child in Israel
 image: cover.jpeg
 date: 2025-06-23
 tags:
+  - video
+  - vlog
 categories:
   - childhood
   - language

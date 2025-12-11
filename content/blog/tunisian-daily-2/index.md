@@ -8,12 +8,14 @@ tags:
   - journal
   - daily reflection
   - practice
+  - music
+  - Yuma
 categories:
-  
   - Arabic
   - Tunisian
   - Language
   - Journal
+  - Music
 draft: false
 hidden: false
 postLang: ar

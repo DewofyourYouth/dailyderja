@@ -12,6 +12,7 @@ tags:
   - vocabulary
   - semantics
   - vlog
+  - video
 categories:
   - Arabic
   - Language
@@ -44,15 +45,15 @@ class="yt-embed"
 
 ## كلام
 
-| English               | Tunisian                     | Levantine                         | Explanation |
-|-----------------------|------------------------------|-----------------------------------|-------------|
-| a lot / many / very   | برشة                         | كتير                              | Different high-frequency quantifier. |
-| work / job            | خِدمة                        | شُغل                              | Same meaning, different root. |
-| what                  | شنوّا                        | شو                                | Basic interrogative difference. |
-| now                   | تَوّا                        | هلّق                              | Same timing, different adverb. |
-| nice / pleasant       | مزيّن                        | حلو                               | Used for “looks good / feels nice.” |
-| good / OK             | باهي                         | تمام / منيح                       | General approval / status check. |
-| go / walk             | نمشي                         | بروح / بمشي                       | Tunisian collapses “go” and “walk”; Levantine splits them. |
-| fish / whale          | حوت = fish                   | حوت = whale / سمك = fish          | Same word, different animal by dialect. |
-| sentence packing      | شنبّيك / شنحوّلك             | شو بدّك / شو بدّي أحوّلك          | Tunisian compresses full sentences into one word. |
-| want vs love          | نحبّ                         | بدي (want) / بحبّ (love)          | Tunisian uses one verb for both; Levantine separates them. |
+| English             | Tunisian       | Levantine                | Explanation                                                |
+| ------------------- | -------------- | ------------------------ | ---------------------------------------------------------- |
+| a lot / many / very | برشة           | كتير                     | Different high-frequency quantifier.                       |
+| work / job          | خِدمة           | شُغل                      | Same meaning, different root.                              |
+| what                | شنوّا           | شو                       | Basic interrogative difference.                            |
+| now                 | تَوّا            | هلّق                      | Same timing, different adverb.                             |
+| nice / pleasant     | مزيّن           | حلو                      | Used for “looks good / feels nice.”                        |
+| good / OK           | باهي           | تمام / منيح              | General approval / status check.                           |
+| go / walk           | نمشي           | بروح / بمشي              | Tunisian collapses “go” and “walk”; Levantine splits them. |
+| fish / whale        | حوت = fish     | حوت = whale / سمك = fish | Same word, different animal by dialect.                    |
+| sentence packing    | شنبّيك / شنحوّلك | شو بدّك / شو بدّي أحوّلك    | Tunisian compresses full sentences into one word.          |
+| want vs love        | نحبّ            | بدي (want) / بحبّ (love)  | Tunisian uses one verb for both; Levantine separates them. |

@@ -6,8 +6,10 @@ postLang: ar
 dialects: ["tunisian"]
 tags:
 - boring
-- about nothing
-- cheat post
+- about-nothing
+- cheat-post
+- video
+- vlog
 ---
 
 ## تأمُّل:

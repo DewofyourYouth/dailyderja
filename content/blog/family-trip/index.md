@@ -6,6 +6,8 @@ tags:
   - summer vacation 
   - family
   - kids
+  - video
+  - vlog
 categories: 
 draft: false
 postLang: ar

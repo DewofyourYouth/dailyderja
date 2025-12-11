@@ -2,6 +2,9 @@
 date: '2025-08-18T13:09:12+03:00'
 draft: false
 title: 'Ask Me Anything'
+tags:
+  - video
+  - vlog
 postLang: ar
 dialects: ["tunisian"]
 ---

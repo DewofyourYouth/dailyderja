@@ -4,6 +4,9 @@ date: 2025-06-24
 tags:
  - fun
  - friends
+ - video
+ - vlog
+ - genealogy
 categories:
   - genealogy
 draft: false
@@ -22,6 +25,7 @@ description: "Tunisian Daily Journal: Entry 9"
 (خذيت تصويرة مع صاحبي الجديد موشى مردخاي)
 
 ---
+
 ## كلمات «جديدة»
 
 1. هِواية - תחביב

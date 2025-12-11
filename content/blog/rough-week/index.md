@@ -6,6 +6,8 @@ tags:
   - JewishYear
   - Elul
   - Complaining
+  - video
+  - vlog
 categories:
   - Judaism
   - Complaining

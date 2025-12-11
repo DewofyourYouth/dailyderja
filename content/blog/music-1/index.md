@@ -14,6 +14,7 @@ tags:
   - Kazdoura
   - Walaa Sbait
   - Bedouin Burger
+  - music-discovery
 categories:
   - music
 draft: false
@@ -45,21 +46,21 @@ Bedouin Burger بيمزجوا أنغام شامية بالشغل الإلكتر�
 
 ## كلام:
 
-| عربية                 | إنجليزي                       | IPA                          | صوت |
-|-----------------------|-------------------------------|------------------------------|-----|
-| أدرّب أذني            | train my ear                   | /ʔadˈdarrib ʔidni/          |     |
-| حبّيت الصوت           | I liked the sound              | /ħabˈbeːt əsˈsoːt/          |     |
-| عم بدوّر               | I’m looking                    | /ʕam bˈdawwer/              |     |
-| غنّية شامية           | a Shami song                   | /ɣanˈniyye ʃaːˈmiyye/        |     |
-| غنيّات                | songs (plural)                 | /ɣanˈniyyaːt/               |     |
-| ستايل الإندي سكا       | indie ska style                | /stajl elˈindi ska/         |     |
-| بيمزجوا               | they mix                       | /bimˈzɪʒu/                  |     |
-| أنغام شامية            | Levantine melodies             | /anˈɣaːm ʃaːˈmiyye/          |     |
-| الشغل الإلكتروني       | electronic production          | /ʃuɣˈɣəl l–elektrˈoːni/     |     |
-| مزيج دافي وساحر        | warm, hypnotic mix             | /maˈziːʒ daːfi w saːħir/     |     |
-| الفولكلور             | folk                           | /folˈkloːr/                 |     |
-| الإندي بوب            | indie pop                      | /ˈindi pop/                 |     |
-| بحبّهم كتير           | I love them a lot              | /baħˈʔɪbːhom kˈtiːr/        |     |
+| عربية            | إنجليزي               | IPA                      | صوت |
+| ---------------- | --------------------- | ------------------------ | --- |
+| أدرّب أذني        | train my ear          | /ʔadˈdarrib ʔidni/       |     |
+| حبّيت الصوت       | I liked the sound     | /ħabˈbeːt əsˈsoːt/       |     |
+| عم بدوّر          | I’m looking           | /ʕam bˈdawwer/           |     |
+| غنّية شامية       | a Shami song          | /ɣanˈniyye ʃaːˈmiyye/    |     |
+| غنيّات            | songs (plural)        | /ɣanˈniyyaːt/            |     |
+| ستايل الإندي سكا | indie ska style       | /stajl elˈindi ska/      |     |
+| بيمزجوا          | they mix              | /bimˈzɪʒu/               |     |
+| أنغام شامية      | Levantine melodies    | /anˈɣaːm ʃaːˈmiyye/      |     |
+| الشغل الإلكتروني | electronic production | /ʃuɣˈɣəl l–elektrˈoːni/  |     |
+| مزيج دافي وساحر  | warm, hypnotic mix    | /maˈziːʒ daːfi w saːħir/ |     |
+| الفولكلور        | folk                  | /folˈkloːr/              |     |
+| الإندي بوب       | indie pop             | /ˈindi pop/              |     |
+| بحبّهم كتير       | I love them a lot     | /baħˈʔɪbːhom kˈtiːr/     |     |
 
 {{< alert >}}
 {{< ltr >}}

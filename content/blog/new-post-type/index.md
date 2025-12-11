@@ -2,9 +2,11 @@
 title: Idea for New Kind of Post
 date: '2025-08-27T10:14:11+03:00'
 tags:
-  - life hacks
+  - life-hacks
   - arabic
-  - language learning
+  - language-learning
+  - video
+  - vlog
 categories:
   - Life Hacks
   - Learning 

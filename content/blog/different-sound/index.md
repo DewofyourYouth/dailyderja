@@ -14,6 +14,7 @@ tags:
   - Vocabulary
   - levantine-arabic
   - music-discovery
+  - music
 dialects:
   - shami
 postLang: ar
@@ -36,8 +37,8 @@ postLang: ar
 
 ## كلام 
 
-| Arabic                    | IPA                             | Meaning                  |
-|---------------------------|---------------------------------|--------------------------|
+| Arabic                   | IPA                             | Meaning                  |
+| ------------------------ | ------------------------------- | ------------------------ |
 | **مختلف تمامًا**          | /muxtˈtalif tamaːman/           | completely different     |
 | **بزهَق**                 | /bzaˈhaʔ/                       | I get bored              |
 | **سبوتيفاي بيقترحو عليّ** | /spotiˈfay bjiʔtˈriħu ʕalajˈya/ | Spotify recommends to me |

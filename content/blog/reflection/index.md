@@ -2,6 +2,10 @@
 title: A Reflection on the Journey
 date: '2025-09-08T20:32:15+03:00'
 tags:
+  - video
+  - vlog
+  - journey
+  - reflection
 categories:
   - reflection
 draft: false

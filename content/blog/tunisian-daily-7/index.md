@@ -5,6 +5,8 @@ date: 2025-06-22
 tags:
  - birthday
  - cake
+ - video
+ - vlog
 categories:
  - family
  - food

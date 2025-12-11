@@ -6,7 +6,9 @@ tags:
   - books
   - reading
   - negotiation
-  - language learning
+  - language-learning
+  - video
+  - vlog
 postLang: ar
 dialects: ["tunisian"]
 summary: I discuss two books I'm currently reading.

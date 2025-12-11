@@ -2,9 +2,11 @@
 title: A Company Trip
 date: 2025-09-03T16:15:30
 tags:
-  - company trip
+  - company-trip
   - Party 
   - Jerusalem 
+  - video
+  - vlog
 categories: []
 draft: false
 postLang: ar

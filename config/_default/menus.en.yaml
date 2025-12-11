@@ -8,9 +8,12 @@ main:
   - name: Tunisian
     url: /dialects/tunisian
     weight: 3
+  - name: Tags
+    url: /tags/
+    weight: 4
   - name: About
     url: /about/
-    weight: 4
+    weight: 5
   - name: Dew of Your Youth
     url: https://dewofyouryouth.com
-    weight: 5
+    weight: 6
