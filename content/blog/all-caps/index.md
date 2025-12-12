@@ -8,8 +8,6 @@ tags:
   - satire
   - street-culture
   - police
-  - arabic-practice
-  - vocabulary
   - headwear
 categories: []
 draft: false
@@ -23,7 +21,7 @@ summary: "Some confusing graffiti in Tel Aviv."
 ---
 
 
-### صور:
+### صور
 
 {{< figure
     src="caps-are-bastards.jpeg"
@@ -41,7 +39,7 @@ summary: "Some confusing graffiti in Tel Aviv."
     class="rtl-figure"
     >}}
 
-## كلام:
+## كلام
 
 | عربية            | English                        | IPA                     |
 | ---------------- | ------------------------------ | ----------------------- |
