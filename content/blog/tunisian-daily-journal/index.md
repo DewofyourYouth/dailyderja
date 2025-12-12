@@ -1,16 +1,21 @@
 ---
-title: "Tired of war and uncertainty."
+title: Tired of war and uncertainty.
 image: banana.jpg
 date: 2025-06-15T18:23:49+03:00
 tags:
-categories:
-- complaining
 - war
+- remote-work
+- family-safety
+- anxiety
+- shelter-life
+categories:
+- daily-journal
 draft: false
 hidden: false
 postLang: ar
-dialects: ["tunisian"]
-description: "Tunisian Daily Journal: Entry 1"
+dialects:
+- tunisian
+description: 'Tunisian Daily Journal: Entry 1'
 ---
 
 اليوم انا متوتر شوية خاتر إيران تضرب فينا صواريخ. وكول ولدي ما عندهومش مدرسة واحنا باقين في المخبأ. انا بش نخدم من داري خاتر ما لزمنيش نخرج لتو من المكان المحمي على حساب مكانك الحالي. خدما من داري مش ساهلة - و انا تعبت من الحرب.

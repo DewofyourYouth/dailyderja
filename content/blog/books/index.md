@@ -1,17 +1,20 @@
 ---
 date: '2025-08-31T16:05:51+03:00'
 draft: false
-title: "Some Books I'm Reading"
+title: Some Books I'm Reading
 tags:
-  - books
-  - reading
-  - negotiation
-  - language-learning
-  - video
-  - vlog
+- reading-list
+- book-notes
+- negotiation
+- language-learning
+- video
+- vlog
 postLang: ar
-dialects: ["tunisian"]
+dialects:
+- tunisian
 summary: I discuss two books I'm currently reading.
+categories:
+- language-learning
 ---
 
 ## تأمُّل:

@@ -2,22 +2,23 @@
 title: On The Way To The Interview
 date: '2025-12-01T17:40:54+02:00'
 tags:
-  - Job Search
-  - interviews
-  - career
-  - commute
-  - work life
+- job-search
+- interview-anxiety
+- jerusalem-commute
+- shorter-commute
+- work-life
+- career-move
 categories:
-  - Life Updates
-  - Complaining
+- work-and-career
+- daily-journal
 draft: false
 dialects:
-  - shami
+- shami
 series:
-  - نسمة يوميات
+- نسمة يوميات
 postLang: ar
 summary: The pre-interview jitters.
-series_order: "2"
+series_order: '2'
 ---
 
 ## خاطِرة

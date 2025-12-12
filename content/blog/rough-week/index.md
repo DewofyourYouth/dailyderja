@@ -2,18 +2,19 @@
 title: A Rough Week. We’ll Start Over Next Week
 date: 2025-08-21T00:31:50
 tags:
-  - teshuva
-  - JewishYear
-  - Elul
-  - Complaining
-  - video
-  - vlog
+- elul
+- teshuva
+- restart
+- daily-practice
+- tough-week
+- vlog
 categories:
-  - Judaism
-  - Complaining
+- faith-and-culture
+- daily-journal
 draft: false
 postLang: ar
-dialects: ["tunisian"]
+dialects:
+- tunisian
 ---
 
 ## تأمُّل:
@@ -29,4 +30,3 @@ dialects: ["tunisian"]
 ## ڤيديو:
 
 {{< youtube id="GgVqwiGgBko" class="yt-embed yt-embed--fullbleed" >}}
-

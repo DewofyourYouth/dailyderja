@@ -3,22 +3,23 @@ title: Rainy Days
 summary: A rainy day in December.
 date: '2025-12-11T17:09:32+02:00'
 tags:
-  - rain
-  - weather
-  - winter
-  - coffee
-  - mood
-  - daily-life
-categories: []
+- winter-rain
+- gloomy-weather
+- cozy-home
+- hot-coffee
+- mood-check
+- vocab-notes
+categories:
+- daily-journal
 draft: false
 dialects:
-  - shami
+- shami
 series:
-  - نسمة نهار
+- نسمة نهار
 series_order: 4
 postLang: ar
 cssclasses:
-  - arabic-note
+- arabic-note
 ---
 
 
@@ -36,4 +37,3 @@ cssclasses:
 | **بَعجبني**         | /baˈʕʒɪbni/ | I like to / it pleases me (Shami structure)     |
 | **ضِلّ** (as a verb) | /dˤɪlː/     | to stay / remain                                |
 | **سُخنة**           | /ˈsʊx.ne/   | hot (for drinks/food — not weather)             |
-

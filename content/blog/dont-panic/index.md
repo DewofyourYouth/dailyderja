@@ -1,27 +1,24 @@
 ---
-title: "Don't Panic"
+title: Don't Panic
 date: '2025-12-09T19:26:42+02:00'
 series:
-  - "نسمة نهار"
+- نسمة نهار
 tags:
-  - shami
-  - daily-reflection
-  - vocabulary
-  - grammar
-  - ipa
-  - don't-panic
-  - لهجة-شامية
-  - يوميات
+- shami-arabic
+- daily-reflection
+- vocabulary
+- grammar
+- ipa
+- dialect-notes
 categories:
-  - Arabic
-  - Levantine
-  - Learning-diary
+- language-learning
+- daily-journal
 draft: false
 dialects:
-  - shami
+- shami
 series_order: 3
 postLang: ar
-summary: "Some good advice from Douglas Adams"
+summary: Some good advice from Douglas Adams
 ---
 
 ## خاطِرة

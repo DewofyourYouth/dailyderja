@@ -1,13 +1,21 @@
 ---
-title: "Using Saar and Dall in Shami Arabic"
+title: Using Saar and Dall in Shami Arabic
 date: '2025-12-04T20:16:19+02:00'
 draft: false
 postLang: ar
-series: ["نسمة كلمة"]
+series:
+- نسمة كلمة
 series_order: 2
-dialects: ["shami"]
-tags: ["vocabulary", "grammar"]
-summary: "A focused all-Arabic guide to صار and ضلّ in Levantine Arabic."
+dialects:
+- shami
+tags:
+- shami-arabic
+- vocabulary
+- grammar
+- particles
+summary: A focused all-Arabic guide to صار and ضلّ in Levantine Arabic.
+categories:
+- language-learning
 ---
 
 لما شي يتغيّر، منستعمل "صار". ولما ما يتغيّر، منستعمل "ضلّ".  

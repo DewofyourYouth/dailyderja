@@ -2,22 +2,24 @@
 title: ALL CAPS
 date: '2025-11-28T14:32:31+02:00'
 tags:
-  - photos
-  - graffiti
-  - tel-aviv
-  - satire
-  - street-culture
-  - police
-  - headwear
-categories: []
+- tel-aviv
+- street-graffiti
+- wordplay
+- police-humor
+- israel-travel
+- photo-walk
+- headwear
+categories:
+- travel
+- photo-essay
 draft: false
 dialects:
-  - shami
+- shami
 series:
-  - " نسمة صورة"
+- " نسمة صورة"
 series_order: 2
 postLang: ar
-summary: "Some confusing graffiti in Tel Aviv."
+summary: Some confusing graffiti in Tel Aviv.
 ---
 
 

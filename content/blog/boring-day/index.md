@@ -1,15 +1,18 @@
 ---
 date: '2025-08-28T20:17:38+03:00'
 draft: false
-title: 'Boring Day'
+title: Boring Day
 postLang: ar
-dialects: ["tunisian"]
+dialects:
+- tunisian
 tags:
-- boring
-- about-nothing
-- cheat-post
+- daily-routine
+- low-energy
+- quick-update
 - video
 - vlog
+categories:
+- daily-journal
 ---
 
 ## تأمُّل:

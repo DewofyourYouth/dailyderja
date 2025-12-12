@@ -2,15 +2,18 @@
 title: A Company Trip
 date: 2025-09-03T16:15:30
 tags:
-  - company-trip
-  - Party 
-  - Jerusalem 
-  - video
-  - vlog
-categories: []
+- company-retreat
+- jerusalem
+- team-bonding
+- video
+- vlog
+categories:
+- work-and-career
+- travel
 draft: false
 postLang: ar
-dialects: ["tunisian"]
+dialects:
+- tunisian
 summary: A reflection on a company trip that wasn't as bad as expected
 ---
 

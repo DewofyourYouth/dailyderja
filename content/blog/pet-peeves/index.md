@@ -1,14 +1,19 @@
 ---
-title: Some of My Pet Peeves 
+title: Some of My Pet Peeves
 date: '2025-09-01T21:40:09+03:00'
 tags:
-  - pet peeves
-  - Complaining
+- pet-peeves
+- speech-tics
+- overpromising
+- topping-overload
+- ordering-annoyances
+- everyday-annoyances
 categories:
-  - Complaining
+- daily-journal
 draft: false
 postLang: ar
-dialects: ["tunisian"]
+dialects:
+- tunisian
 summary: Some surprizing things I hate.
 ---
 

@@ -1,16 +1,23 @@
 ---
-title: "Transportation woes and close encounters with Iranian missiles"
+title: Transportation woes and close encounters with Iranian missiles
 image: beitshemesh.jpg
 date: 2025-06-18T10:25:19+03:00
 tags:
+- commute
+- train
+- war-time
+- iran-missiles
+- remote-work
+- israel
 categories:
-  - war
-  - work
+- daily-journal
+- work-and-career
 draft: false
 hidden: false
 postLang: ar
-dialects: ["tunisian"]
-description: "Tunisian Daily Journal: Entry 4"
+dialects:
+- tunisian
+description: 'Tunisian Daily Journal: Entry 4'
 ---
 البارح حبيت نِمْشِي لالخدمة في تل ابيب اما لقيت ما فمماش ترين، محطة الترين يسكّر - و لكار ياخو اكثر من زوز سوايع! ما مشيتش. الليل اللي فات فرجت في إعتراض صاروخ من شبّاكتي و أنا في فرشي!   خذيت الصوّار هاذم:
 

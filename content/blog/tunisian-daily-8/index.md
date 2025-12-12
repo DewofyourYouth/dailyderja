@@ -3,16 +3,22 @@ title: Arabic when I was a child in Israel
 image: cover.jpeg
 date: 2025-06-23
 tags:
-  - video
-  - vlog
+- childhood
+- israel
+- hebrew
+- slang
+- code-switching
+- video
+- vlog
 categories:
-  - childhood
-  - language
+- language-learning
+- daily-journal
 hidden: false
 draft: false
 postLang: ar
-dialects: ["tunisian"]
-description: "Tunisian Daily Journal: Entry 8"
+dialects:
+- tunisian
+description: 'Tunisian Daily Journal: Entry 8'
 ---
 ## تأمُّل:
 

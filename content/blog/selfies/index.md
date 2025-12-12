@@ -1,5 +1,4 @@
 ---
-
 title: A Tale of Two Selfies
 date: '2025-12-03T13:01:55+02:00'
 tags:
@@ -7,16 +6,16 @@ tags:
 - time
 - memory
 - identity
-- night
-- photography
+- night-photography
+- selfies
 categories:
-- personal
-- visual-essay
+- photo-essay
+- daily-journal
 draft: false
 dialects:
 - shami
 series:
-  - " نسمة صورة"
+- " نسمة صورة"
 series_order: 3
 postLang: ar
 summary: Two photos. Seventeen years apart. Same face, different weather.

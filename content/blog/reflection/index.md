@@ -2,16 +2,20 @@
 title: A Reflection on the Journey
 date: '2025-09-08T20:32:15+03:00'
 tags:
-  - video
-  - vlog
-  - journey
-  - reflection
+- video
+- vlog
+- journey
+- reflection
+- progress
 categories:
-  - reflection
+- language-learning
+- daily-journal
 draft: false
 postLang: ar
-dialects: ["tunisian"]
-summary: "Reflecting on my experience learning Derja before going to an engagement party."
+dialects:
+- tunisian
+summary: Reflecting on my experience learning Derja before going to an engagement
+  party.
 ---
 
 ## تأمُّل:

@@ -1,21 +1,22 @@
 ---
 title: A Different Sound
-summary: A small thought about change, choice, and the paths we take when we want something different.
+summary: A small thought about change, choice, and the paths we take when we want
+  something different.
 series:
-  - نسمة نغمة
+- نسمة نغمة
 series_order: 2
 date: '2025-12-10T23:53:35+02:00'
 categories:
-  - Music
-  - Reflection
+- language-learning
+- music
 tags:
-  - shami
-  - vocabulary
-  - levantine-arabic
-  - music-discovery
-  - music
+- shami-arabic
+- vocabulary
+- levantine-arabic
+- music-discovery
+- playlist-notes
 dialects:
-  - shami
+- shami
 postLang: ar
 ---
 

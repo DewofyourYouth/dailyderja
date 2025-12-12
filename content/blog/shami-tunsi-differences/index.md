@@ -2,33 +2,24 @@
 title: Differences Between Tunisian and Levantine Arabic
 date: '2025-12-02T09:29:52+02:00'
 tags:
-  - shami
-  - tunisian
-  - spoken-arabic
-  - colloquial-arabic
-  - language-learning
-  - comparative-linguistics
-  - maghrebi
-  - vocabulary
-  - semantics
-  - vlog
-  - video
+- dialect-comparison
+- tunisian-vs-levantine
+- vocabulary-differences
+- semantics
+- usage-notes
+- vlog
+- video
 categories:
-  - Arabic
-  - Language
-  - Dialects
-  - Semantics
-  - Vlog
-  - YouTube
+- linguistics
 draft: false
 dialects:
-  - shami
-  - tunisian
+- shami
+- tunisian
 series:
-  - نسمة كلمة
+- نسمة كلمة
 postLang: en
-summary: "I made a video about some differences between Shami and Tunisian Derja."
-series_order: "1"
+summary: I made a video about some differences between Shami and Tunisian Derja.
+series_order: '1'
 ---
 
 ## خاطِرة

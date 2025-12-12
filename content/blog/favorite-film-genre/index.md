@@ -2,12 +2,16 @@
 title: Favorite Film Genre
 date: '2025-08-29T15:53:46+03:00'
 tags:
-  - film
-  - movies
+- movies
+- film-genre
+- favorites
 draft: false
 postLang: ar
-dialects: ["tunisian"]
+dialects:
+- tunisian
 summary: Discussing what kind of movies I like to watch.
+categories:
+- media-and-entertainment
 ---
 
 ## تأمُّل

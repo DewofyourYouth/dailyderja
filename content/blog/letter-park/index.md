@@ -2,18 +2,19 @@
 title: The Letters Park
 date: 2025-10-16T08:10:47
 postLang: ar
-dialects: ["tunisian"]
+dialects:
+- tunisian
 tags:
-  - history
-  - letters
-  - learning
-  - Hebrew
-  - fun
-  - Israel
+- hebrew-alphabet
+- gematria
+- script-history
+- beit-shemesh
+- kids-activities
+- park-review
+- sukkot-decor
 categories:
-  - Hebrew
-  - Learning
-  - family
+- language-learning
+- family-life
 draft: false
 ---
 ## جنّينة الحروف

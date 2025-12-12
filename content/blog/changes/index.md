@@ -1,18 +1,21 @@
 ---
 date: '2025-11-25T13:08:55+02:00'
-title: "Changes: Scary But Exciting"
+title: 'Changes: Scary But Exciting'
 tags:
-  - change
-  - job search
-  - worries
-categories: ["نسمة نهار"]
+- change
+- job-search
+- anxiety
+categories:
+- work-and-career
+- daily-journal
 draft: false
 postLang: ar
 dialects:
-  - shami
-series: ["نسمة نهار"]
+- shami
+series:
+- نسمة نهار
 series_order: 1
-summary: "A lot of things are changing – all at once!"
+summary: A lot of things are changing – all at once!
 ---
 
 ## تأمُّل:

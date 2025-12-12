@@ -2,28 +2,27 @@
 title: The Beginnings of My Levantine Playlist
 date: '2025-11-27T10:49:39+02:00'
 tags:
-  - music
-  - ear-training
-  - playlist
-  - ska
-  - electronica
-  - artists
-  - yuma
-  - ghoula
-  - young-rz
-  - kazdoura
-  - walaa-sbait
-  - bedouin-burger
-  - music-discovery
+- levantine-playlist
+- ear-training
+- indie-ska
+- electro-folk
+- music-discovery
+- artist-spotlight
+- yuma
+- ghoula
+- young-rz
+- kazdoura
+- walaa-sbait
+- bedouin-burger
 categories:
-  - music
+- music
 draft: false
 postLang: ar
 dialects:
-  - shami
-summary: "Some music I'm enjoying right now, to train my ear for Levantine Arabic."
+- shami
+summary: Some music I'm enjoying right now, to train my ear for Levantine Arabic.
 series:
-  - نسمة نغمة
+- نسمة نغمة
 series_order: 1
 ---
 

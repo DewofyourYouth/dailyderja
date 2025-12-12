@@ -2,14 +2,20 @@
 title: The Holiday Blues
 date: 2025-09-29T15:58:40
 tags:
-  - Jewish Year
-  - holidays
+- jewish-holidays
+- holiday-stress
+- sukkot
+- family-expectations
+- mood
+- reflection
+- self-compassion
 categories:
-  - Judaism
-  - Complaining
+- faith-and-culture
+- daily-journal
 draft: false
 postLang: ar
-dialects: ["tunisian"]
+dialects:
+- tunisian
 ---
 
 ## تأمُّل:

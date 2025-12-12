@@ -3,14 +3,20 @@ title: Relaxing day with my little boys.
 image: cover.jpg
 date: 2025-06-20
 tags:
+- parenting
+- war-time
+- weekend
+- shabbat
+- toddlers
 categories:
- - family
- - war
+- family-life
+- daily-journal
 draft: false
 hidden: false
 postLang: ar
-dialects: ["tunisian"]
-description: "Tunisian Daily Journal: Entry 6"
+dialects:
+- tunisian
+description: 'Tunisian Daily Journal: Entry 6'
 ---
 
 نهار جمعة ما نخدمش. الصباح لعبت مع الصغار. الليل لي فات كان هاني، الحمدلله. توا يلعبو مع مَغْنَاطِيسات. الدار مكركبة بارشة خلى المكان مسكّر و النهار الكل الصغار في الدار.

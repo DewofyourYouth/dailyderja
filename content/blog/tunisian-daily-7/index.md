@@ -3,18 +3,22 @@ title: New Month, Ezekiel's Vision.
 image: eye.jpg
 date: 2025-06-22
 tags:
- - birthday
- - cake
- - video
- - vlog
+- birthday
+- cake
+- tamuz
+- ezekiel
+- video
+- vlog
+- jewish-calendar
 categories:
- - family
- - food
+- faith-and-culture
+- family-life
 hidden: false
 draft: false
 postLang: ar
-dialects: ["tunisian"]
-description: "Tunisian Daily Journal: Entry 7"
+dialects:
+- tunisian
+description: 'Tunisian Daily Journal: Entry 7'
 ---
 ## تأمُّل:
 

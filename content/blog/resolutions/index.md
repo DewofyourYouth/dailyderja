@@ -2,13 +2,17 @@
 title: New Year’s Resolutions
 date: '2025-08-25T21:09:04+03:00'
 tags:
-  - new year's resolutions
-  - gratitude
-  - meditation
-categories: []
+- single-goal
+- gratitude-practice
+- daily-meditation
+- habit-tracking
+- elul-reflection
+categories:
+- productivity
 draft: false
 postLang: ar
-dialects: ["tunisian"]
+dialects:
+- tunisian
 ---
 
 ## تأمُّل:

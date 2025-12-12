@@ -2,16 +2,22 @@
 title: A Game That Stuck With Me
 date: 2025-08-19T21:12:38
 tags:
-  - games
-  - gamification 
-categories: 
+- habitica
+- gamified-productivity
+- rpg
+- habit-tracking
+- time-management
+- nostalgia
+categories:
+- productivity
+- media-and-entertainment
 draft: false
 postLang: ar
-dialects: ["tunisian"]
+dialects:
+- tunisian
 ---
 
 > *شنوة لعبة ولا أي حاجة أخرى من الميديا لعبتها توّا و بقات في مخّك؟ علاش لمستك هكا؟*
 
 بباش نكون صريح، كي نلعب لعبة، نتحرّج خاطر فمّة برشة حوايج لازمني نعملهم و ديما ما عنديش وقت!  
 أما لعبة وحدة نلعب فيها هي Habitica. هي لعبة RPG، معمول باش تعاونك تحسّن عاداتك بالـ gamification.
-

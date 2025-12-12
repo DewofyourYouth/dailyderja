@@ -2,17 +2,18 @@
 title: Idea for New Kind of Post
 date: '2025-08-27T10:14:11+03:00'
 tags:
-  - life-hacks
-  - arabic
-  - language-learning
-  - video
-  - vlog
+- life-hacks
+- arabic
+- language-learning
+- video
+- vlog
 categories:
-  - Life Hacks
-  - Learning 
+- blog-meta
+- language-learning
 draft: false
 postLang: ar
-dialects: ["tunisian"]
+dialects:
+- tunisian
 ---
 
 ## تأمُّل:

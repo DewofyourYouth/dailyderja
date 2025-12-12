@@ -2,21 +2,22 @@
 title: El Ghriba Photos
 date: '2025-11-26T10:45:29+02:00'
 tags:
-  - la-ghriba
-  - travel
-  - architecture
-  - ancient
-  - synagogue
-  - tunisia
+- el-ghriba-synagogue
+- djerba
+- jewish-heritage
+- pilgrimage
+- synagogue-architecture
+- bimah
+- torah-ark
+- travel-photos
 categories:
-  - Travel
-  - Tunisian
-  - Judaism
+- travel
+- faith-and-culture
 draft: false
 dialects:
-  - shami
-series: 
-  - " نسمة صورة"
+- shami
+series:
+- " نسمة صورة"
 series_order: 1
 postLang: ar
 summary: Pictures from our visit to the El Ghriba synagogue in Djerba, Tunisia.

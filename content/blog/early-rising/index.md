@@ -1,17 +1,21 @@
 ---
 draft: false
-title: 'Early Rising'
-image: late-trains.jpg
+title: Early Rising
+image: late-train.jpg
 date: 2025-08-03T16:28:43
 tags:
+- early-rising
+- sleep
+- routine
+- weight-loss
+- habits
 categories:
- - productivity
- - complaining
- - weight-loss
-image: late-train.jpg
-description: "It's nice to be productive"
+- productivity
+- daily-journal
+description: It's nice to be productive
 postLang: ar
-dialects: ["tunisian"]
+dialects:
+- tunisian
 ---
 
 ليوم أنا فرحان خاطر الحمدلله قمت بكري و كملت برشة خدمة. اما ما زلت، ما فرحتش علي خاطر كملت ماخر! توا باش نروح لداري ماخر كيما تسع الليل😢.

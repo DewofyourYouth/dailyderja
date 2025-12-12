@@ -2,15 +2,21 @@
 title: My Morning And Travel Plans So Far
 date: '2025-09-16T11:21:32+03:00'
 tags:
-  - travel
-  - brit
-  - morning
+- travel-planning
+- lufthansa
+- flight-changes
+- brit-milah
+- early-morning
+- shacharit
+- train-ride
+- annoyances
 categories:
-  - Travel
-  - Complaining
+- travel
+- daily-journal
 draft: false
 postLang: ar
-dialects: ["tunisian"]
+dialects:
+- tunisian
 summary: Some early morning annoyances.
 ---
 

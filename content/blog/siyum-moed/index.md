@@ -1,19 +1,23 @@
 ---
-title: "Siyum Seder Moed"
+title: Siyum Seder Moed
 date: '2025-11-30T14:54:51+02:00'
 tags:
-  - siyum
-  - party
+- siyum
+- seder-moed
+- talmud-study
+- daily-learning
+- community-celebration
+- father-son-time
 categories:
-  - Judaism
+- faith-and-culture
 draft: false
 dialects:
-  - shami
+- shami
 series:
-  - "نسمة يوميات"
+- نسمة يوميات
 series_order: 1
 postLang: ar
-summary: "Last night we celebrated the accomplishment of finishing Seder Moed"
+summary: Last night we celebrated the accomplishment of finishing Seder Moed
 ---
 
 ## خاطِرة

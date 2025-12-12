@@ -1,16 +1,18 @@
 ---
 draft: false
-title: 'More Complaining'
+title: More Complaining
 postLang: ar
-dialects: ["tunisian"]
+dialects:
+- tunisian
 date: 2025-08-06T14:02:34
 categories:
-- complaining
-- money
-- entreprenuership
-- work
+- daily-journal
+- work-and-career
 tags:
-
+- financial-stress
+- entrepreneurship
+- work-life
+- rant
 ---
 اليوم فيقت ماخر مرا اخرة و فاتني الترن! نكره نهارات كيف هكا! كي نقوم ماخر نحس روحي مكركب.
 

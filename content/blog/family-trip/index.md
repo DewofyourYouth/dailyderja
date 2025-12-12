@@ -2,16 +2,18 @@
 title: An End of Summer Family Trip!
 date: 2025-08-22T13:17:10
 tags:
-  - trip
-  - summer vacation 
-  - family
-  - kids
-  - video
-  - vlog
-categories: 
+- family-travel
+- summer-vacation
+- kids
+- video
+- vlog
+categories:
+- family-life
+- travel
 draft: false
 postLang: ar
-dialects: ["tunisian"]
+dialects:
+- tunisian
 showTableOfContents: true
 ---
 

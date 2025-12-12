@@ -2,18 +2,21 @@
 title: Genealogy Meetups and Taking a Day Off
 date: 2025-06-24
 tags:
- - fun
- - friends
- - video
- - vlog
- - genealogy
+- genealogy
+- family-research
+- friends
+- coffee-meetup
+- video
+- vlog
 categories:
-  - genealogy
+- daily-journal
+- history-and-genealogy
 draft: false
 hidden: false
 postLang: ar
-dialects: ["tunisian"]
-description: "Tunisian Daily Journal: Entry 9"
+dialects:
+- tunisian
+description: 'Tunisian Daily Journal: Entry 9'
 ---
 
 ## تأمُّل:

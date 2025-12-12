@@ -1,12 +1,17 @@
 ---
 date: '2025-08-18T13:09:12+03:00'
 draft: false
-title: 'Ask Me Anything'
+title: Ask Me Anything
 tags:
-  - video
-  - vlog
+- ask-me-anything
+- reader-questions
+- video
+- vlog
 postLang: ar
-dialects: ["tunisian"]
+dialects:
+- tunisian
+categories:
+- blog-meta
 ---
 
 اليوم حاولت نمشي للخدمة، أما صار مشكل في الترانات – وصلت نص الطريق و رجعت نخدم من الدار.

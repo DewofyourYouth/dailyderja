@@ -2,12 +2,15 @@
 title: Baking For Shabbat
 date: 2025-08-08T17:54:44
 tags:
-  - baking
-  - Shabbos
-  - babka
-categories: 
+- baking
+- shabbat
+- babka
+- family-tradition
+categories:
+- food-and-cooking
+- faith-and-culture
 draft: false
-rtl: "true"
+rtl: 'true'
 ---
 
 اليوم هو الجمعة و يلزمني نحضّر الدار لشبات القدس. عملت "بابكا" לכבוד שבת (اشرف الشبات)، هي حلويات يهودية يعملوها للسبت من عجينة بقايا من صنع الخبز "خالا".

@@ -1,10 +1,21 @@
 ---
-title: "Pivoting from Tunisian Derja to Shami"
+title: Pivoting from Tunisian Derja to Shami
 date: 2025-11-20T09:00:00+02:00
-tags: ["Meta", "Language Learning", "site changes"]
-dialects: ["shami", "tunisian"]
-series: ["Meta"]
-summary: "I discuss the change in the site – from the Tunisian dialect – to the Levantine one."
+tags:
+- meta
+- language-learning
+- site-changes
+- shami-arabic
+dialects:
+- shami
+- tunisian
+series:
+- Meta
+summary: I discuss the change in the site – from the Tunisian dialect – to the Levantine
+  one.
+categories:
+- language-learning
+- blog-meta
 ---
 
 For the first chapter of this project, **The Daily Derja** was all about Tunisian Arabic.  

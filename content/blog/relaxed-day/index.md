@@ -1,12 +1,18 @@
 ---
 date: '2025-08-08T00:01:32+03:00'
 draft: false
-title: 'Relaxed Day'
+title: Relaxed Day
 tags:
-  - relax
-  - WFH
+- slow-morning
+- wfh
+- quiet-day
+- substitute-teaching
+- coffee-cutback
 postLang: ar
-dialects: ["tunisian"]
+dialects:
+- tunisian
+categories:
+- daily-journal
 ---
 الصبح قررت ما نمشيش للمعبد، نحب نكمّل نومي. خدمت من داري اليوم، و هكاكا كان أسهل شوية. ما عادش نلزم نخرج فيسع فيسع النهار الكل.
 

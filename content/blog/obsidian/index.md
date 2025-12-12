@@ -2,12 +2,20 @@
 title: How I Use Obsidian to Learn Derja
 date: 2025-08-10T17:03:03
 tags:
-  - obsidian
-  - notes
-  - productivity
+- obsidian
+- note-taking
+- spaced-repetition
+- quickadd
+- templates
+- daily-notes
+- study-workflow
 draft: false
 postLang: ar
-dialects: ["tunisian"]
+dialects:
+- tunisian
+categories:
+- tech-and-tools
+- language-learning
 ---
 
 ## تأمُّل:
@@ -57,5 +65,4 @@ This note is related to [[Another Note]]!
 
 و نجم نستعمل في Obsidian في تلفوني زادة:
 ![Phone Obsidian](phone-obsidian.png)
-
 
