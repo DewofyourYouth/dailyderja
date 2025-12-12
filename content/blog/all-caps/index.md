@@ -4,11 +4,11 @@ date: '2025-11-28T14:32:31+02:00'
 tags:
   - photos
   - graffiti
-  - Tel Aviv
+  - tel-aviv
   - satire
-  - street culture
+  - street-culture
   - police
-  - Arabic practice
+  - arabic-practice
   - vocabulary
   - headwear
 categories: []
@@ -46,10 +46,10 @@ summary: "Some confusing graffiti in Tel Aviv."
 | عربية            | English                        | IPA                     |
 | ---------------- | ------------------------------ | ----------------------- |
 | كاتب (على الحيط) | written / writing (graffiti)   | **kaːtib**              |
-| الفنّان الكبير   | the “great artist” (sarcastic) | **hal-fannaːn l-kbiːr** |
+| الفنّان الكبير    | the “great artist” (sarcastic) | **hal-fannaːn l-kbiːr** |
 | رجال الشرطة      | police officers                | **rʒaːl ʔiʃ-ʃurṭa**     |
-| وْلاد حرام       | bastards                       | **wlaːd ħaraːm**        |
-| مُهان            | insulted / offended            | **mʔhaːn**              |
+| وْلاد حرام        | bastards                       | **wlaːd ħaraːm**        |
+| مُهان             | insulted / offended            | **mʔhaːn**              |
 | كرمال            | for the sake of / on behalf of | **kramaːl**             |
-| الطاقيّة تبعتي   | my cap                         | **ʔṭ-ṭaːʔijje tabaʕti** |
+| الطاقيّة تبعتي    | my cap                         | **ʔṭ-ṭaːʔijje tabaʕti** |
 | كابي البريء      | my innocent cap                | **kaːbi l-bariːʔ**      |

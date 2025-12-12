@@ -6,12 +6,11 @@ series:
 series_order: 2
 date: '2025-12-10T23:53:35+02:00'
 categories:
-  - Arabic Notes
   - Music
   - Reflection
 tags:
-  - Shami
-  - Vocabulary
+  - shami
+  - vocabulary
   - levantine-arabic
   - music-discovery
   - music

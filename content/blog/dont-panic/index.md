@@ -9,7 +9,7 @@ tags:
   - vocabulary
   - grammar
   - ipa
-  - "don't panic"
+  - don't-panic
   - لهجة-شامية
   - يوميات
 categories:

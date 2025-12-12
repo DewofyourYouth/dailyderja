@@ -2,11 +2,7 @@
 title: "The Fish-Tank Catastrophe"
 date: "2025-12-07T21:00:00+02:00"
 draft: false
-
-# SEO summary
 summary: A Shami mini-story about our accidental fish-soup disaster and how the tank finally got replaced.
-
-# Tags & Categories
 tags:
   - shami
   - story
@@ -15,16 +11,11 @@ tags:
   - humor
 categories:
   - نسمة قصة
-
-# Dialect
 dialects:
   - shami
-
-# Series
 series:
   - "نسمة قصة"
 series_order: 1
-
 postLang: ar
 showTranslation: true
 toc: false

@@ -7,7 +7,7 @@ tags:
 categories:
  - productivity
  - complaining
- - weight loss
+ - weight-loss
 image: late-train.jpg
 description: "It's nice to be productive"
 postLang: ar
