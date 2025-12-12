@@ -2,19 +2,19 @@
 title: The Beginnings of My Levantine Playlist
 date: '2025-11-27T10:49:39+02:00'
 tags:
-   music
-   ear-training
-   playlist
-   ska
-   electronica
-   artists
-   yuma
-   ghoula
-   young rz
-   kazdoura
-   walaa-sbait
-   bedouin-burger
-   music-discovery
+  - music
+  - ear-training
+  - playlist
+  - ska
+  - electronica
+  - artists
+  - yuma
+  - ghoula
+  - young rz
+  - kazdoura
+  - walaa-sbait
+  - bedouin-burger
+  - music-discovery
 categories:
   - music
 draft: false
