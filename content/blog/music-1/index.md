@@ -10,7 +10,7 @@ tags:
   - artists
   - yuma
   - ghoula
-  - young rz
+  - young-rz
   - kazdoura
   - walaa-sbait
   - bedouin-burger
