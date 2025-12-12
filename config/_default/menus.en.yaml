@@ -8,12 +8,19 @@ main:
   - name: Tunisian
     url: /dialects/tunisian
     weight: 3
-  - name: Tags
-    url: /tags/
-    weight: 4
   - name: About
     url: /about/
-    weight: 5
+    weight: 6
   - name: Dew of Your Youth
     url: https://dewofyouryouth.com
-    weight: 6
+    weight: 7
+footer:
+  - name: Series
+    url: /series/
+    weight: 1
+  - name: Categories
+    url: /categories/
+    weight: 2
+  - name: Tags
+    url: /tags/
+    weight: 3

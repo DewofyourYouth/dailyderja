@@ -15,7 +15,7 @@ draft: false
 dialects:
 - shami
 series:
-- " نسمة صورة"
+- "نسمة صورة"
 series_order: 3
 postLang: ar
 summary: Two photos. Seventeen years apart. Same face, different weather.

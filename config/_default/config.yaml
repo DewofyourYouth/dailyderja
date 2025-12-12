@@ -13,3 +13,5 @@ taxonomies:
   series: series
 params:
   showSocialLinks: true
+footer:
+  showMenu: true

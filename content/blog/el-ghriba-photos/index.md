@@ -17,7 +17,7 @@ draft: false
 dialects:
 - shami
 series:
-- " نسمة صورة"
+- "نسمة صورة"
 series_order: 1
 postLang: ar
 summary: Pictures from our visit to the El Ghriba synagogue in Djerba, Tunisia.

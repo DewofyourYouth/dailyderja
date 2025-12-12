@@ -16,7 +16,7 @@ draft: false
 dialects:
 - shami
 series:
-- " نسمة صورة"
+- "نسمة صورة"
 series_order: 2
 postLang: ar
 summary: Some confusing graffiti in Tel Aviv.

@@ -11,6 +11,7 @@ tags:
 categories:
 - work-and-career
 - daily-journal
+- life-updates
 draft: false
 dialects:
 - shami
@@ -27,13 +28,13 @@ series_order: '2'
 
 ## كلام
 
-| عربي            | English            | IPA                     |
-|-----------------|--------------------|--------------------------|
-| مقابلة          | job interview      | /muˈʔaː.ba.le/          |
-| عَرّوسلام       | Jerusalem          | /ʕar.ru.saːˈlam/        |
-| حاسِس           | feeling (I feel)   | /ˈħaː.ses/              |
-| متوتّر          | nervous            | /mʊˈtaw.tar/            |
-| الرّحلة الطويلة | the long commute   | /ərˈreħ.le tˤˈawiː.le/  |
-| مكتبي           | my office          | /ˈmak.ta.bi/            |
+| عربي           | English          | IPA                    |
+| -------------- | ---------------- | ---------------------- |
+| مقابلة         | job interview    | /muˈʔaː.ba.le/         |
+| عَرّوسلام        | Jerusalem        | /ʕar.ru.saːˈlam/       |
+| حاسِس           | feeling (I feel) | /ˈħaː.ses/             |
+| متوتّر          | nervous          | /mʊˈtaw.tar/           |
+| الرّحلة الطويلة | the long commute | /ərˈreħ.le tˤˈawiː.le/ |
+| مكتبي          | my office        | /ˈmak.ta.bi/           |
 
 Photo by [Mina Rad](https://unsplash.com/@miinrad?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/a-man-sitting-at-a-desk-talking-to-a-woman-FAWfiEh096E?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
