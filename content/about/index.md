@@ -1,40 +1,38 @@
 ---
 title: About
 date: 2025-08-07
+description: "Daily Derja is my Shami (Levantine) Arabic practice journal—short, steady posts about daily life, coffee, language, and the small shifts that keep me moving."
 ---
 
 ## What Is نسمة شامية?
 
-Daily Derja started as a Tunisian Arabic practice blog.
-Over time, life pulled me northward — and now the project has become
-نسمة شامية: a Shami breeze moving through my day, one small post at a time.
+Daily Derja started as a Tunisian Arabic practice blog. Life pulled me northward, so it became **نسمة شامية**—a Shami breeze through my day, one small post at a time.
 
-I’m learning Levantine Arabic as an adult, slowly and steadily, without perfectionism and without drama. Most days I write something short: a photo, a sentence, a word I learned, a little moment, a few lines about the things that are changing in my life.
+I’m learning Levantine Arabic as an adult—slow and steady, fitting practice around family and work. Most days I publish something small: a photo, a sentence, a word, a moment, or a note about whatever is shifting in life.
 
-You’ll see a bit of Tunisian still floating around here — some notes, old posts, and an archive of vocabulary. That’s part of the story too.
+You’ll still see some Tunisian notes and old posts here. That’s part of my path and I’m keeping the archive.
 
-I keep the posts small on purpose.
-Not polished. Not academic. Just daily touches of Arabic as I try to build real language flow and stay consistent.
+I keep posts small on purpose—unpolished, practical, and focused on consistency over polish.
 
-The project is divided into simple series:
+The project is organized into simple series (a few examples):
 
-- <span dir="rtl">نسمة صورة</span> — a photo and a short caption  
-- <span dir="rtl">نسمة كلمة</span> — a word I’m learning  
-- <span dir="rtl">نسمة لحظة</span> — a small moment from the day  
-- <span dir="rtl">نسمة سَمعة</span> — something I’m listening to  
-- <span dir="rtl">نسمة ناس</span> — conversations or lines I hear from people around me  
-- <span dir="rtl">نسمة كتابة</span> — practice writing  
+- <span dir="rtl">نسمة نهار</span> — daily reflections
+- <span dir="rtl">نسمة كلمة</span> — vocab bites
+- <span dir="rtl">نسمة صورة</span> — one photo, quick caption
+- <span dir="rtl">نسمة نغمة</span> — what I’m listening to
+- <span dir="rtl">نسمة معنى</span> — small cultural/meaning notes
+- <span dir="rtl">نسمة قصة</span> — short stories from family life
 
+Browse all the series: [Series](/series/).
 
-If you’re learning Arabic too — especially Levantine — maybe you’ll find something useful here.
-And if not, at least there’s always good coffee in the background.
+If you’re learning Arabic too—especially Levantine—you might find something useful. If not, it’s still a daily journal with photos, family notes, and plenty of coffee.
 
-This is my space to keep moving, keep learning, and breathe a little every day.
-Slowly, slowly — شوي شوي — نسمة بنسمة.
+This is my space to keep moving, keep learning, and breathe a little every day. Slowly, slowly — شوي شوي — نسمة بنسمة.
 
 ## Who Am I?
 
-I’m Jacob Shore — married, father of five, living in Israel. I work in tech, think too much, drink a lot of coffee, and write small daily posts as I try to learn Shami Arabic without getting swallowed by the rest of life.
+I’m Jacob Shore. I’m in tech, and Daily Derja is where I practice Shami Arabic in public, slowly and without ceremony. It’s a small discipline that survives even on the chaotic days. I live in Israel with my wife and our five boys.
+For the deeper, stranger threads, visit [Dew of your Youth](https://dewofyouryouth.com).
 
 {{< figure
     src="family.jpeg"
