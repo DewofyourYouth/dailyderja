@@ -31,8 +31,6 @@ This is my space to keep moving, keep learning, and breathe a little every day. 
 
 ## Who Am I?
 
-I’m Jacob Shore. I’m in tech, and Daily Derja is where I practice Shami Arabic in public, slowly and without ceremony. It’s a small discipline that survives even on the chaotic days. I live in Israel with my wife and our five boys.
-For the deeper, stranger threads, visit [Dew of your Youth](https://dewofyouryouth.com).
 
 {{< figure
     src="family.jpeg"
