@@ -7,4 +7,7 @@ title: Daily Derja
 {{< button href="blog" class="hero-cta" >}}
 Take Me To The Blog
 {{< /button >}}
+{{<button href="series" class="hero-cta">}}
+The Series
+{{</button>}}
 </div>

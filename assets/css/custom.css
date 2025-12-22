@@ -276,16 +276,26 @@ button,
    Hero CTA hard override
    ================================= */
 
-/* Base (light mode) */
-.hero-cta-wrapper a[role="button"] {
-  background-color: #c6843a !important; /* Breeze Gold */
-  color: #fff !important;
-  border-radius: 0.75rem !important;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
-  text-decoration: none !important;
-  transition: background-color 0.2s ease, transform 0.2s ease,
-    box-shadow 0.2s ease;
-}
+   
+   /* Base (light mode) */
+   .hero-cta-wrapper a[role="button"] {
+     background-color: #c6843a !important; /* Breeze Gold */
+     color: #fff !important;
+     border-radius: 0.75rem !important;
+     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+     text-decoration: none !important;
+     transition: background-color 0.2s ease, transform 0.2s ease,
+     box-shadow 0.2s ease;
+    }
+    
+    .hero-cta-wrapper {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
 
 /* Hover / focus */
 .hero-cta-wrapper a[role="button"]:hover,
