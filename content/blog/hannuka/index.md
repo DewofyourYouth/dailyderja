@@ -1,6 +1,6 @@
 ---
-title: Hannuka and Job Interview
-summary: Today I went to a job interview. Tonight I will celebrate the first night of Hannuka.
+title: Interview Morning, First Hanukkah Candle Tonight
+summary: Interviewed in Tel Aviv and heading home to light the first Hanukkah candle tonight.
 date: 2025-12-14T18:31:24+02:00
 tags:
   - job-search
