@@ -5,4 +5,4 @@ ipa: "/ˈnas.ma ˈʃaɣ.le/"
 english: "Thing Breeze"
 ---
 
-Thing Breeze is a grab-bag for quirky finds, confusions, or fun links in Arabic.
+**Thing Breeze** is a grab-bag for quirky finds, confusions, or fun links in Arabic.

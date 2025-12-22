@@ -5,4 +5,4 @@ ipa: "/ˈnas.ma ˈlaħ.zˤa/"
 english: "Moment Breeze"
 ---
 
-Moment Breeze captures one quick snapshot—a look, a sound, a feeling—in Arabic.
+**Moment Breeze** captures one quick snapshot—a look, a sound, a feeling—in Arabic.

@@ -5,4 +5,4 @@ ipa: "/ˈnas.ma ˈʔah.we/"
 english: "Coffee Breeze"
 ---
 
-Coffee Breeze is a café-and-coffee journal in Arabic—warm, aesthetic, and relaxed.
+**Coffee Breeze** is a café-and-coffee journal in Arabic—warm, aesthetic, and relaxed.
