@@ -19,8 +19,8 @@ draft: false
 dialects:
   - shami
 series:
-  - نسمة معنى
-series_order: 1
+  - نسمة كلمة
+series_order: 3
 postLang: en
 cssclasses:
   - arabic-note
