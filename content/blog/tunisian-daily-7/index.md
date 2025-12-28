@@ -11,8 +11,8 @@ tags:
 - vlog
 - jewish-calendar
 categories:
-- faith-and-culture
-- family-life
+  - faith-culture
+  - family
 hidden: false
 draft: false
 postLang: ar

@@ -11,9 +11,8 @@ dialects:
 - tunisian
 summary: Discussing what kind of movies I like to watch.
 categories:
-- media-and-entertainment
+  - art-media
 ---
-
 ## تأمُّل
 
 > شنوا نوع فيلم اكثر تحب؟

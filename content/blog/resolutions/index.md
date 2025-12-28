@@ -8,13 +8,12 @@ tags:
 - habit-tracking
 - elul-reflection
 categories:
-- productivity
+  - daily-life
 draft: false
 postLang: ar
 dialects:
 - tunisian
 ---
-
 ## تأمُّل:
 
  >  شنوما الأهداف إِلِّي حطّيتهم للعام 2025؟

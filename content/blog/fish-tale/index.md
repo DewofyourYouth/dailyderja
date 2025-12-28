@@ -13,8 +13,8 @@ tags:
 - kid-quotes
 - pets
 categories:
-- family-life
-- storytelling
+  - family
+  - art-media
 dialects:
 - shami
 series:
@@ -24,7 +24,6 @@ postLang: ar
 showTranslation: true
 toc: false
 ---
-
 ## النص
 
 الكِلّية بقصّة أحواض السّمك بلّشت من شهرين.

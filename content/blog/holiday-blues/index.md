@@ -10,14 +10,13 @@ tags:
 - reflection
 - self-compassion
 categories:
-- faith-and-culture
-- daily-journal
+  - faith-culture
+  - daily-life
 draft: false
 postLang: ar
 dialects:
 - tunisian
 ---
-
 ## تأمُّل:
   
 النّاس الكل يحبّو الأعياد، أمّا بالنّسبة ليّا راهو وقت متوتّر برشة. لا يزي أنا متوتّر، نزيد نعدّي التوتّر لمرتي و ولدي زايدة. كي نفكّر قداش أنا متوتّر نحسّها أخيب.

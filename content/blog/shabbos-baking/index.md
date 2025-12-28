@@ -7,12 +7,11 @@ tags:
 - babka
 - family-tradition
 categories:
-- food-and-cooking
-- faith-and-culture
+  - food
+  - faith-culture
 draft: false
 rtl: 'true'
 ---
-
 اليوم هو الجمعة و يلزمني نحضّر الدار لشبات القدس. عملت "بابكا" לכבוד שבת (اشرف الشبات)، هي حلويات يهودية يعملوها للسبت من عجينة بقايا من صنع الخبز "خالا".
 
 كيفاش نعملوها؟ هكّة!

@@ -9,8 +9,8 @@ tags:
 - night-photography
 - selfies
 categories:
-- photo-essay
-- daily-journal
+  - art-media
+  - daily-life
 draft: false
 dialects:
 - shami
@@ -20,8 +20,6 @@ series_order: 3
 postLang: ar
 summary: Two photos. Seventeen years apart. Same face, different weather.
 ---
-  
-
 ## خاطِرة
 
 سيلفي أخدتها من سبعتعش سنة، لما كنت طالب مضطرب باليشيفا، وبفكّر إنّي أخدتها عالساعة تلاتة الصبح.

@@ -11,8 +11,8 @@ tags:
 - torah-ark
 - travel-photos
 categories:
-- travel
-- faith-and-culture
+  - travel
+  - faith-culture
 draft: false
 dialects:
 - shami
@@ -22,8 +22,6 @@ series_order: 1
 postLang: ar
 summary: Pictures from our visit to the El Ghriba synagogue in Djerba, Tunisia.
 ---
-
-
 ## خاطِرة:
 
 هـدول صُوَر من كنيس الغريبة، أقدم كنيس بكلّ أفريقيا، اِنبَنى من أكتر من ألفين وخَمسمِيّة سنة.  

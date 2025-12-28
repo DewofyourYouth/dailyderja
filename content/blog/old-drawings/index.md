@@ -11,8 +11,7 @@ tags:
   - art-archive
   - throwback
 categories:
-  - art
-  - visual-journal
+  - art-media
 draft: false
 dialects:
   - shami
@@ -23,7 +22,6 @@ postLang: ar
 cssclasses:
   - arabic-note
 ---
-
 ## خاطِرة
 
 من زمان كنت أرسم أكتر بكتير. هالفترة صعب كتير نلاقي وقت للرسم. نحوّسها شوي. مشتاق إلها.

@@ -9,8 +9,8 @@ tags:
 - exam-prep
 - stress
 categories:
-- language-learning
-- tech-and-tools
+  - language-learning
+  - tech-and-tools
 draft: false
 hidden: false
 postLang: ar

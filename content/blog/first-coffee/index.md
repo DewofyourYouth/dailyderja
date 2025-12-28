@@ -14,7 +14,6 @@ series:
 series_order: 2
 postLang: ar
 categories:
-- daily-journal
+  - daily-life
 ---
-
 اليوم فِقت متأخّر شوي. هلق الساعة عشرة ونص، وعم بعمل قهوتي الأولى.

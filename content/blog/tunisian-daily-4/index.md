@@ -10,8 +10,8 @@ tags:
 - remote-work
 - israel
 categories:
-- daily-journal
-- work-and-career
+  - daily-life
+  - work-and-career
 draft: false
 hidden: false
 postLang: ar

@@ -14,7 +14,6 @@ tags:
   - example-sentences
 categories:
   - language-learning
-  - grammar-notes
 draft: false
 dialects:
   - shami
@@ -25,7 +24,6 @@ postLang: en
 cssclasses:
   - arabic-note
 ---
-
 ## Ability التعبير عن **القدرة**
 
 ### فيني  

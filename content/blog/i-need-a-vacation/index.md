@@ -10,8 +10,8 @@ tags:
 - weight-loss
 - stress-relief
 categories:
-- daily-journal
-- work-and-career
+  - daily-life
+  - work-and-career
 draft: false
 hidden: false
 postLang: ar

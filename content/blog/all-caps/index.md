@@ -10,8 +10,8 @@ tags:
 - photo-walk
 - headwear
 categories:
-- travel
-- photo-essay
+  - travel
+  - art-media
 draft: false
 dialects:
 - shami
@@ -21,8 +21,6 @@ series_order: 2
 postLang: ar
 summary: Some confusing graffiti in Tel Aviv.
 ---
-
-
 ### صور
 
 {{< figure

@@ -11,8 +11,8 @@ tags:
 - ipa
 - dialect-notes
 categories:
-- language-learning
-- daily-journal
+  - language-learning
+  - daily-life
 draft: false
 dialects:
 - shami
@@ -20,7 +20,6 @@ series_order: 3
 postLang: ar
 summary: Some good advice from Douglas Adams
 ---
-
 ## خاطِرة
 
 مبارح رُحت مع أصحابي على حفلة وما صارلي وقت أكتب بوست.  اليوم فِقت متأخّر كتير.  

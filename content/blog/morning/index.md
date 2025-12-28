@@ -11,10 +11,8 @@ tags:
   - afternoon-nap
   - sleep-rhythm
 categories:
-  - daily-journal
-  - spiritual-life
-  - life-updates
-  - health-and-wellness
+  - daily-life
+  - faith-culture
 draft: false
 dialects:
   - shami
@@ -25,7 +23,6 @@ postLang: ar
 cssclasses:
   - arabic-note
 ---
-
 ## خاطِرة
 
 اليوم فِقِت بكّير ورُحت عالكنيس بوقتها.

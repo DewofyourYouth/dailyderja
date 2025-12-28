@@ -7,8 +7,8 @@ series:
 series_order: 2
 date: '2025-12-10T23:53:35+02:00'
 categories:
-- language-learning
-- music
+  - language-learning
+  - art-media
 tags:
 - shami-arabic
 - vocabulary
@@ -19,7 +19,6 @@ dialects:
 - shami
 postLang: ar
 ---
-
 بوقت التغيير بيكون عندك فرصة تقرّر: بدّك نفس الشي بس أحسن؟ ولا بدّك شي مختلف تمامًا؟
 
 مو كل مرّة فيك تعمل اللي بدّك ياه.  

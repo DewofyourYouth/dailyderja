@@ -10,8 +10,7 @@ tags:
   - train-writing
 categories:
   - work-and-career
-  - daily-journal
-  - life-updates
+  - daily-life
 draft: true
 dialects:
   - shami
@@ -22,7 +21,6 @@ postLang: ar
 cssclasses:
   - arabic-note
 ---
-
 ## خاطِرة
 
 يلّا، عم بكتب مرة تانية بوست وأنا بالقطار لتل أبيب.

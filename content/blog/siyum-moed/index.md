@@ -9,7 +9,7 @@ tags:
 - community-celebration
 - father-son-time
 categories:
-- faith-and-culture
+  - faith-culture
 draft: false
 dialects:
 - shami
@@ -19,7 +19,6 @@ series_order: 1
 postLang: ar
 summary: Last night we celebrated the accomplishment of finishing Seder Moed
 ---
-
 ## خاطِرة
 
 مبارح بالليل رُحت أنا وصحبي وابني الكبير على حفلة "سِيوم سِدِر موئِد". السِّيوم هو احتفال كبير لَمّا نِخَلّص قسم كامل من التَّلمود. والسِّيوم بيِنْعِمَل مِن تَنْظيم أوريَتَا. وصار إلنا أكتر من أربع سنين منقرا مَقْطَع كل يوم، لحدّ ما خَلَّصنا سِدِر موئِد.

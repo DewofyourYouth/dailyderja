@@ -6,9 +6,8 @@ tags:
 - job-search
 - anxiety
 categories:
-- work-and-career
-- daily-journal
-- life-updates
+  - work-and-career
+  - daily-life
 draft: false
 postLang: ar
 dialects:
@@ -18,7 +17,6 @@ series:
 series_order: 1
 summary: A lot of things are changing – all at once!
 ---
-
 ## تأمُّل:
 
 دخلت بمرحلة تغيّر بحياتي. أشيا كتيرة عم تتغيّر بنفس الوقت. لازمني أدوّر على شغل جديد، بلّشت أتعلّم لهجة جديدة، وممكن رح لازمني أدوّر على شقّة جديدة. هدول بس شغلات من الأشيا اللي عم تتغيّر هلّق.

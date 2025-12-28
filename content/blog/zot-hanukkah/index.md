@@ -10,9 +10,8 @@ tags:
   - prayer
   - healing
 categories:
-  - daily-journal
-  - spiritual-life
-  - life-updates
+  - daily-life
+  - faith-culture
 draft: false
 dialects:
   - shami
@@ -23,7 +22,6 @@ postLang: ar
 cssclasses:
   - arabic-note
 ---
-
 ## خاطِرة
 
 الليلة الماضية واليوم كان آخر يوم بعيد الحانوكا.

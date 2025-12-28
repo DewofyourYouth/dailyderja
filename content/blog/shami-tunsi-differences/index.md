@@ -10,7 +10,7 @@ tags:
 - vlog
 - video
 categories:
-- linguistics
+  - language-learning
 draft: false
 dialects:
 - shami
@@ -21,7 +21,6 @@ postLang: en
 summary: I made a video about some differences between Shami and Tunisian Derja.
 series_order: '1'
 ---
-
 ## خاطِرة
 
 I haven’t made a video in a while, so yesterday I kicked off my pivot to Shami (Levantine) with a breakdown of some of the differences I kept running into between Levantine Arabic and the Tunisian Arabic I’ve been speaking so far.

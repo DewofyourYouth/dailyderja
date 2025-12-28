@@ -8,8 +8,8 @@ tags:
 - reflection
 - progress
 categories:
-- language-learning
-- daily-journal
+  - language-learning
+  - daily-life
 draft: false
 postLang: ar
 dialects:
@@ -17,7 +17,6 @@ dialects:
 summary: Reflecting on my experience learning Derja before going to an engagement
   party.
 ---
-
 ## تأمُّل:
 ما كتبتش الديلي دارجة من وقت برشة، حتى كان عملت فيديوهات. سماحني 🙏
 

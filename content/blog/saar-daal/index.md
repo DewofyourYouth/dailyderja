@@ -15,9 +15,8 @@ tags:
 - particles
 summary: A focused all-Arabic guide to صار and ضلّ in Levantine Arabic.
 categories:
-- language-learning
+  - language-learning
 ---
-
 لما شي يتغيّر، منستعمل "صار". ولما ما يتغيّر، منستعمل "ضلّ".  
 هدول الكلمتين بسيطات، بس كتير مهمّين بالحكي اليومي.
 

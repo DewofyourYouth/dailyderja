@@ -9,8 +9,8 @@ tags:
 - video
 - vlog
 categories:
-- daily-journal
-- history-and-genealogy
+  - daily-life
+  - faith-culture
 draft: false
 hidden: false
 postLang: ar
@@ -18,7 +18,6 @@ dialects:
 - tunisian
 description: 'Tunisian Daily Journal: Entry 9'
 ---
-
 ## تأمُّل:
 
 كي قررت نكتب كل يوم بالعربية، ما توقعتش قداش صعيب نفكر في حاجة تشدّ جديدة نحكي عليها. قداش من مرة نحكي على الحرب و عيلتي؟ و ديما ما نحبش نحكي على روحي برشة.

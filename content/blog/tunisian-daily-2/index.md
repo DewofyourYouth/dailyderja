@@ -12,9 +12,9 @@ tags:
 - bike-commute
 - war-anxiety
 categories:
-- language-learning
-- daily-journal
-- music
+  - language-learning
+  - daily-life
+  - art-media
 draft: false
 hidden: false
 postLang: ar

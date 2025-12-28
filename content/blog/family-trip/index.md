@@ -8,15 +8,14 @@ tags:
 - video
 - vlog
 categories:
-- family-life
-- travel
+  - family
+  - travel
 draft: false
 postLang: ar
 dialects:
 - tunisian
 showTableOfContents: true
 ---
-
 ## تأمُّل:
 
 توا آخر العطلة متاع الصيف - المدرسة تبدة الثنين الجاية لولادي الكبار (موش الأحد كيما فقدت البراح و كي قولت لصحبي صعيد) و نهار الأربعاء لولادي الصغار. دونك، مشينا العليلة الكل في رحلة مع بعضنا!

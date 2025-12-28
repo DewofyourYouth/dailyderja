@@ -9,8 +9,8 @@ tags:
 - shabbat
 - toddlers
 categories:
-- family-life
-- daily-journal
+  - family
+  - daily-life
 draft: false
 hidden: false
 postLang: ar
@@ -18,7 +18,6 @@ dialects:
 - tunisian
 description: 'Tunisian Daily Journal: Entry 6'
 ---
-
 نهار جمعة ما نخدمش. الصباح لعبت مع الصغار. الليل لي فات كان هاني، الحمدلله. توا يلعبو مع مَغْنَاطِيسات. الدار مكركبة بارشة خلى المكان مسكّر و النهار الكل الصغار في الدار.
 
 مرتي خرجت للحانوت و  موشي يخاف برشة - ديمه يسألني "وقتاش باش تروّح ماما؟" و "تظنّ فمّة صفّارة?". أنا حزين من هاذا.

@@ -11,8 +11,8 @@ tags:
   - jewish-holidays
 categories:
   - work-and-career
-  - faith-and-culture
-  - daily-journal
+  - faith-culture
+  - daily-life
 draft: false
 dialects:
   - shami
@@ -23,7 +23,6 @@ postLang: ar
 cssclasses:
   - arabic-note
 ---
-
 ## خاطِرة
 
 اليوم عم بروح ع مقابلة بتل أبيب، وهلّق أنا بالقطار. رح أوصل متأخّر شوي.

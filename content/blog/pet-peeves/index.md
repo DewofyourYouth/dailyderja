@@ -9,14 +9,13 @@ tags:
 - ordering-annoyances
 - everyday-annoyances
 categories:
-- daily-journal
+  - daily-life
 draft: false
 postLang: ar
 dialects:
 - tunisian
 summary: Some surprizing things I hate.
 ---
-
 ## تأمُّل:
 > شنية الحوايج الصغار الي ديما يغيظوك? 
 

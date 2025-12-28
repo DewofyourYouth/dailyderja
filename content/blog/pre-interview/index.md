@@ -9,9 +9,8 @@ tags:
 - work-life
 - career-move
 categories:
-- work-and-career
-- daily-journal
-- life-updates
+  - work-and-career
+  - daily-life
 draft: false
 dialects:
 - shami
@@ -21,7 +20,6 @@ postLang: ar
 summary: The pre-interview jitters.
 series_order: '2'
 ---
-
 ## خاطِرة
 
 رايح على مقابلة شُغِل بعَرّوسلام، وحاسِس شوي متوتّر. صح، بدي شُغِل بعَرّوسلام أحسن من تَل أَبيب لَأَنّو أقرب لبيتي. ما بحِبّ الرِّحلة الطويلة لمكتبي كل يوم.

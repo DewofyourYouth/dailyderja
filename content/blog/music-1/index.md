@@ -15,7 +15,7 @@ tags:
 - walaa-sbait
 - bedouin-burger
 categories:
-- music
+  - art-media
 draft: false
 postLang: ar
 dialects:
@@ -25,7 +25,6 @@ series:
 - نسمة نغمة
 series_order: 1
 ---
-
 ## خاطِرة:
 
 لمّا تعلّمت عربي تونسي، سمعت غنية تونسية مشان أدرب أذني. حبّيت الصوت عند Yuma، Ghoula و Young RZ. هلق عم بدوّر على غنية شامية. هدول كم فنان وغنية عم بسمعهم هلق:

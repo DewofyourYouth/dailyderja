@@ -8,14 +8,13 @@ tags:
 - video
 - vlog
 categories:
-- blog-meta
-- language-learning
+  - blog-meta
+  - language-learning
 draft: false
 postLang: ar
 dialects:
 - tunisian
 ---
-
 ## تأمُّل:
 البَراح بديت نعمل post أما ما كمّلتوش 😢.
 

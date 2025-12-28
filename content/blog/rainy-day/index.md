@@ -10,7 +10,7 @@ tags:
 - mood-check
 - vocab-notes
 categories:
-- daily-journal
+  - daily-life
 draft: false
 dialects:
 - shami
@@ -21,8 +21,6 @@ postLang: ar
 cssclasses:
 - arabic-note
 ---
-
-
 ## خاطِرة
 
 اليوم عمّ يِنزِل مَطَر ☔️.  

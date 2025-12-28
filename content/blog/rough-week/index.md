@@ -9,14 +9,13 @@ tags:
 - tough-week
 - vlog
 categories:
-- faith-and-culture
-- daily-journal
+  - faith-culture
+  - daily-life
 draft: false
 postLang: ar
 dialects:
 - tunisian
 ---
-
 ## تأمُّل:
 
 الجمعة هاذي كانت صعيبة برشة، خاطر ما عملتش كافي في الدارجة كل يوم.

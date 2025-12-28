@@ -9,8 +9,8 @@ tags:
 - vocabulary
 - morning-routine
 categories:
-- language-learning
-- daily-journal
+  - language-learning
+  - daily-life
 draft: false
 hidden: false
 postLang: ar
@@ -18,7 +18,6 @@ dialects:
 - tunisian
 description: 'Tunisian Daily Journal: Entry 3'
 ---
-
 الليلة إلي فاتت ما كانش فمّا صفارات الإنذار و رقدت كيف البيبي. الصباح حسّيت روحي متفاىٌل شوية.  مشيت للمعبد، شريت خبز من الخبازة و سفنجات من الحانوت.  غسلت الماعون - يظهر لي باش يكون النهار هاذة نهار عدي و مملّ - هذا هو المطلوب!
 
 كنت بالرسمي نحب نحكي على كلمات الأغاني مع أريج. نكون باهي كان نجم نعمل حكاية كيف هكا بالعربية، تخرج شوية على الموضوع.

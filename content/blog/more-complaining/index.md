@@ -6,8 +6,8 @@ dialects:
 - tunisian
 date: 2025-08-06T14:02:34
 categories:
-- daily-journal
-- work-and-career
+  - daily-life
+  - work-and-career
 tags:
 - financial-stress
 - entrepreneurship

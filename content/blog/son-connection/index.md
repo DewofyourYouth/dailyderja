@@ -9,14 +9,13 @@ tags:
 - vpn-issues
 - morning-walk
 categories:
-- family-life
-- daily-journal
+  - family
+  - daily-life
 draft: false
 postLang: ar
 dialects:
 - tunisian
 ---
-
 ## تأمُّل:
 
 

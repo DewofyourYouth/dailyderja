@@ -13,8 +13,8 @@ tags:
 - park-review
 - sukkot-decor
 categories:
-- language-learning
-- family-life
+  - language-learning
+  - family
 draft: false
 ---
 ## جنّينة الحروف

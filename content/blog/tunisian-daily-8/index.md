@@ -11,8 +11,8 @@ tags:
 - video
 - vlog
 categories:
-- language-learning
-- daily-journal
+  - language-learning
+  - daily-life
 hidden: false
 draft: false
 postLang: ar

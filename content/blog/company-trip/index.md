@@ -8,15 +8,14 @@ tags:
 - video
 - vlog
 categories:
-- work-and-career
-- travel
+  - work-and-career
+  - travel
 draft: false
 postLang: ar
 dialects:
 - tunisian
 summary: A reflection on a company trip that wasn't as bad as expected
 ---
-
 ## تأمُّل:
 ليوم و غدوة الشريكة الكلّ مشينا لرحلة “لهفة للصيف”. ديما نكره حكايات كيف هكّا، أمّا توا أقلّ خايب من ما تصوّرت، الحمد لله. قبلت ناس في الشريكة ما كنتش نعرفهم.
 

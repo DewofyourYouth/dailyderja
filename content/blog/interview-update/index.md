@@ -10,8 +10,7 @@ tags:
   - jewish-holidays
 categories:
   - work-and-career
-  - daily-journal
-  - life-updates
+  - daily-life
 draft: true
 dialects:
   - shami
@@ -22,7 +21,6 @@ postLang: ar
 cssclasses:
   - arabic-note
 ---
-
 ## خاطِرة
 
 اليوم هو اليوم التاني من خانوقة.

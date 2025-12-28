@@ -11,15 +11,14 @@ tags:
 - train-ride
 - annoyances
 categories:
-- travel
-- daily-journal
+  - travel
+  - daily-life
 draft: false
 postLang: ar
 dialects:
 - tunisian
 summary: Some early morning annoyances.
 ---
-
 ## تأمُّل:
 اليوم فقت بالوقت على العادة (ربع لسّيتي) و مشيت للمعبد باش نقرا مع الحاخام (العادة نقراو بعدنا كل صباح في ستّة و ربع)، أما هو ما جاش. بعد الصلاة مشيت لحفلة ختان و توا باش نمشي للخدمة، نكتب الديلي دارجة و نركب في الترن.
 
