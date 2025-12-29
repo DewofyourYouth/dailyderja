@@ -1,6 +1,6 @@
 ---
 title: Soul Tracks for Heavy Mornings
-summary: A Shami diary about hauling myself out of bed and letting a soul playlist brighten a dark winter morning.
+summary: A post about hauling myself out of bed and letting a soul playlist brighten a dark winter morning.
 date: 2025-12-29T12:19:24+02:00
 tags:
   - soul-music
