@@ -51,3 +51,7 @@ cssclasses:
 
 ---
 Image by [Pexels](https://pixabay.com/users/pexels-2286921/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1845534) from [Pixabay](https://pixabay.com/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1845534)
+
+---
+
+_I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too._
