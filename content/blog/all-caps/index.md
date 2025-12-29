@@ -21,6 +21,7 @@ series_order: 2
 postLang: ar
 summary: Some confusing graffiti in Tel Aviv.
 ---
+
 ### صور
 
 {{< figure
