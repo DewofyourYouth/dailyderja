@@ -8,6 +8,7 @@ tags:
 - weekend
 - shabbat
 - toddlers
+- spouse
 categories:
   - family
   - daily-life

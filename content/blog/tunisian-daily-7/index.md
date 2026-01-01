@@ -10,6 +10,7 @@ tags:
 - video
 - vlog
 - jewish-calendar
+- spouse
 categories:
   - faith-culture
   - family

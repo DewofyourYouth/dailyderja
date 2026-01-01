@@ -11,6 +11,7 @@ tags:
 - dj-ghoula
 - bike-commute
 - war-anxiety
+- spouse
 categories:
   - language-learning
   - daily-life

@@ -8,6 +8,7 @@ tags:
 - study-plans
 - exam-prep
 - stress
+- spouse
 categories:
   - language-learning
   - tech-and-tools

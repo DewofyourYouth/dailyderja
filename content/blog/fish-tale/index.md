@@ -12,6 +12,7 @@ tags:
 - goldfish
 - kid-quotes
 - pets
+- spouse
 categories:
   - family
   - art-media

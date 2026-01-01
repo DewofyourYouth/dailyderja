@@ -10,6 +10,7 @@ tags:
 - bimah
 - torah-ark
 - travel-photos
+- spouse
 categories:
   - travel
   - faith-culture

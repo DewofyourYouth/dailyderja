@@ -8,6 +8,7 @@ tags:
 - family-safety
 - anxiety
 - shelter-life
+- spouse
 categories:
   - daily-life
 draft: false

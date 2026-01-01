@@ -9,6 +9,7 @@ tags:
 - mood
 - reflection
 - self-compassion
+- spouse
 categories:
   - faith-culture
   - daily-life
