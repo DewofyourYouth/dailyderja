@@ -43,4 +43,6 @@ cssclasses:
 | على الحمّام       | /ʕala lħamˈmaːm/ | to the bathroom    | Fixed expression         |
 
 ---
+{{< ltr >}}
 *I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too.*
+{{</ ltr >}}

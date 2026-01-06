@@ -44,7 +44,9 @@ cssclasses:
 | كرمالها     | /kərˈmaːla/       | for her / for her sake        | Warm, idiomatic Shami expression (optional nuance)           |
 
 ---
+{{< ltr >}}
 *I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too.*
+{{</ ltr >}}
 
 ---
 

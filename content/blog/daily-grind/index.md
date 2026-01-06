@@ -54,4 +54,6 @@ Image by [Pexels](https://pixabay.com/users/pexels-2286921/?utm_source=link-attr
 
 ---
 
+{{< ltr >}}
 _I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too._
+{{</ ltr >}}

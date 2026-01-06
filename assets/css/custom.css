@@ -97,6 +97,7 @@ html[lang="ar"] * {
     text-align: start;
     /* Arabic usually benefits from a touch more line-height */
     line-height: calc(var(--dd-line-height) + 0.05);
+ 
   }
 
   /* Avoid fake styles/weights where possible */
@@ -377,4 +378,15 @@ button,
 .yt-embed--fullbleed {
   width: min(95vw, 1000px);
   max-width: none;
+}
+
+section.article-ltr {
+  direction: ltr !important;
+  unicode-bidi: isolate;
+  text-align: start;
+}
+
+.article-content > section.article-ltr :lang(ar) > * {
+  unicode-bidi: isolate !important;
+  text-align: start !important;
 }
