@@ -4,6 +4,7 @@ date: '2025-11-27T10:49:39+02:00'
 tags:
 - levantine-playlist
 - ear-training
+- music
 - indie-ska
 - electro-folk
 - music-discovery

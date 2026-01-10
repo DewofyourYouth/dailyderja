@@ -269,6 +269,21 @@ button,
   color: #fffdf7;
 }
 
+/* Homepage hero body text legibility */
+.tagline-container p {
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: #fffdf5;
+  background: rgba(0, 0, 0, 0.38);
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.75);
+  padding: 0.6rem 1.05rem;
+  border-radius: 0.6rem;
+  backdrop-filter: blur(4px);
+  max-width: 48rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* ================================
    5. Hero / homepage banner
    ================================= */

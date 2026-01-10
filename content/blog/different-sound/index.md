@@ -13,6 +13,7 @@ tags:
 - shami-arabic
 - vocabulary
 - levantine-arabic
+- music
 - music-discovery
 - playlist-notes
 dialects:

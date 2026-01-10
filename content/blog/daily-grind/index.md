@@ -5,6 +5,7 @@ date: 2025-12-29T12:19:24+02:00
 tags:
   - soul-music
   - morning-routine
+  - music
   - mood-boost
   - parenting
   - spotify-playlist
