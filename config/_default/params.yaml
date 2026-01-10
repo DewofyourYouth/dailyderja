@@ -7,6 +7,9 @@ colorScheme: fire
 logo: "/images/logo.png"
 secondaryLogo: "/images/logo-dark.png"
 description: "سلسلة تأملات يومية في الدارجة التونسية"
+disableImageOptimization: false
+disableImageOptimizationMD: false
+backgroundImageWidth: 1600
 smartToc: true
 list:
   showHero: true

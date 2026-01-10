@@ -19,6 +19,10 @@ params:
       - "/js/audio-init.js"
   description: "سلسلة تأملات يومية في الدارجة التونسية"
 googleAnalytics: "G-Z4E3K7B8ZR"
+imaging:
+  anchor: Smart
+  quality: 80
+  resampleFilter: Lanczos
 services:
   disqus:
     shortname: "dailyderja"
