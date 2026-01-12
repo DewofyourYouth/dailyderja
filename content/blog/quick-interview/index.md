@@ -22,6 +22,12 @@ cssclasses:
 الصبح صار معي انترفيو فيديو مع Wix، بس كان قصير كتير، لأنّي رجّعت 🤮.
 أجّلناه لوقت تاني.
 
+---
+
+{{< ltr >}}
+{{< followit >}}
+{{</ ltr >}}
+
 ## كلام
 
 | Arabic  | Transliteration | Meaning                          |
@@ -32,9 +38,8 @@ cssclasses:
 | أجّلنا   | ʔajjelnā        | we postponed                     |
 | تاني    | tāni            | another, later                   |
 
-
----
 {{< ltr >}}
+---
 *I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too.*
 
 ---

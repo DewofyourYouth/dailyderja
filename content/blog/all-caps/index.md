@@ -40,6 +40,12 @@ summary: Some confusing graffiti in Tel Aviv.
     class="rtl-figure"
     >}}
 
+---
+
+{{< ltr >}}
+{{< followit >}}
+{{</ ltr >}}
+
 ## كلام
 
 | عربية            | English                        | IPA                     |

@@ -32,6 +32,12 @@ cssclasses:
 
 بِفَكِّر لازِم أُفوت بإيقاع أحسن.
 
+---
+
+{{< ltr >}}
+{{< followit >}}
+{{</ ltr >}}
+
 ## كلام
 
 | Arabic    | IPA             | Meaning              |

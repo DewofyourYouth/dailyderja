@@ -36,6 +36,12 @@ Written on the train ride back...
 
 هلّق عم برجع عالبيت، الليلة بتبلّش عيد حانوكا، رح نضوّي أوّل شمعة ما شاء الله. 
 
+---
+
+{{< ltr >}}
+{{< followit >}}
+{{</ ltr >}}
+
 ## كلام
 
 | Arabic      | IPA               | English                           |

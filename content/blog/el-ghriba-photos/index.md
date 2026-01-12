@@ -60,6 +60,12 @@ summary: Pictures from our visit to the El Ghriba synagogue in Djerba, Tunisia.
 >}}
 
 
+---
+
+{{< ltr >}}
+{{< followit >}}
+{{</ ltr >}}
+
 ## كلام:
 
 ### أماكن وأشياء

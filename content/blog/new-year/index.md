@@ -29,6 +29,12 @@ cssclasses:
 
 شو رأيك، شو لازم أعمل كرمالها؟
 
+---
+
+{{< ltr >}}
+{{< followit >}}
+{{</ ltr >}}
+
 ## كلام
 
 | Arabic      | IPA               | Meaning                       | Corrections                                                  |

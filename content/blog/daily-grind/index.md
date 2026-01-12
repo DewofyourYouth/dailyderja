@@ -41,6 +41,12 @@ cssclasses:
 {{< spotify "track/6Vqcl3MFxmb7DargotDkw3" >}}
 {{< spotify "track/0X3Csp5UBxXNqfnzkngOvN" >}}
 
+---
+
+{{< ltr >}}
+{{< followit >}}
+{{</ ltr >}}
+
 ## كلام
 
 | Arabic | IPA          | English                      |

@@ -46,6 +46,12 @@ caption="أخدت هالسيلفي من شهرين."
 class="rtl-figure"
 >}}
 
+---
+
+{{< ltr >}}
+{{< followit >}}
+{{</ ltr >}}
+
 ## كلام
 
 | العربية    | Transliteration  | English                       | Origin / Notes                         |

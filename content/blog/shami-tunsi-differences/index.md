@@ -33,6 +33,12 @@ id="gAp7b2WnGx4"
 class="yt-embed"
 >}}
 
+---
+
+{{< ltr >}}
+{{< followit >}}
+{{</ ltr >}}
+
 ## كلام
 
 | English             | Tunisian       | Levantine                | Explanation                                                |

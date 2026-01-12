@@ -35,6 +35,12 @@ postLang: ar
 {{< spotify "artist/7sTKZr30LqC928DZ5P9mNQ" 380 >}}
 ---
 
+---
+
+{{< ltr >}}
+{{< followit >}}
+{{</ ltr >}}
+
 ## كلام 
 
 | Arabic                   | IPA                             | Meaning                  |

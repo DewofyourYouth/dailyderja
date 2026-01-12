@@ -25,6 +25,12 @@ summary: A lot of things are changing – all at once!
 
 اليوم شربت قهوة طيبة، و حسّيت إنّي ماشي بطريق جديد… شوي شوي.
 
+---
+
+{{< ltr >}}
+{{< followit >}}
+{{</ ltr >}}
+
 ## كلام:
 
 | عربية    | انجليزي        | صوت                                                                 |
