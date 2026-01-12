@@ -4,10 +4,13 @@
   flex-direction: column !important;
   justify-content: center !important;
   margin-top: 30px !important;
-  padding: clamp(17px, 5%, 40px) clamp(17px, 7%, 50px) !important;
+  padding: clamp(20px, 5%, 42px) clamp(18px, 7%, 52px) !important;
   max-width: none !important;
-  border-radius: 6px !important;
-  box-shadow: 0 5px 25px rgba(34, 60, 47, 0.25) !important;
+  border-radius: 12px !important;
+  border: 1px solid rgba(198, 132, 58, 0.25) !important;
+  border-left: 4px solid var(--color-accent, #c6843a) !important;
+  background: linear-gradient(180deg, rgba(255, 250, 243, 0.95), #ffffff) !important;
+  box-shadow: 0 12px 30px rgba(34, 60, 47, 0.14) !important;
 }
 .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview,
 .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview *{
@@ -19,6 +22,9 @@
 .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-heading h5{
   margin-top: 0 !important;
   margin-bottom: 0 !important;
+  font-family: "Zain", "Montserrat", system-ui, -apple-system, "Segoe UI", sans-serif !important;
+  font-size: clamp(1rem, 0.6vw + 0.95rem, 1.25rem) !important;
+  color: #2a2118 !important;
 }
 .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-input-field {
   margin-top: 20px !important;
@@ -26,22 +32,23 @@
 }
 .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-input-field input {
   width: 100% !important;
-  height: 40px !important;
-  border-radius: 6px !important;
-  border: 2px solid #e9e8e8 !important;
-  background-color: #fff;
+  height: 42px !important;
+  border-radius: 10px !important;
+  border: 1px solid #e6dccf !important;
+  background-color: #ffffff !important;
   outline: none !important;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease !important;
 }
 .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-input-field input {
-  color: #000000 !important;
-  font-family: "Montserrat" !important;
-  font-size: 14px;
+  color: #2a2118 !important;
+  font-family: "Montserrat", system-ui, -apple-system, "Segoe UI", sans-serif !important;
+  font-size: 14px !important;
   font-weight: 400;
   line-height: 20px;
   text-align: center;
 }
 .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-input-field input::placeholder {
-  color: #000000 !important;
+  color: #7c6a57 !important;
   opacity: 1 !important;
 }
 
@@ -58,16 +65,22 @@
 }
 .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-submit-button button {
   width: 100% !important;
-  height: 40px !important;
+  height: 42px !important;
   border: 0 !important;
-  border-radius: 6px !important;
+  border-radius: 10px !important;
+  background: linear-gradient(135deg, var(--color-accent, #c6843a), var(--color-accent-dark, #9f6429)) !important;
+  box-shadow: 0 10px 18px rgba(159, 100, 41, 0.25) !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease !important;
   line-height: 0px !important;
 }
 .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-submit-button button:hover {
   cursor: pointer !important;
+  transform: translateY(-1px) !important;
+  filter: brightness(1.05) !important;
+  box-shadow: 0 14px 24px rgba(159, 100, 41, 0.32) !important;
 }
 .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .powered-by-line {
-  color: #231f20 !important;
+  color: #6f5e4c !important;
   font-family: "Montserrat" !important;
   font-size: 13px !important;
   font-weight: 400 !important;
@@ -86,13 +99,69 @@
   max-height: 1.13em !important;
 }
 
+.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-input-field input:focus {
+  border-color: var(--color-accent, #c6843a) !important;
+  box-shadow: 0 0 0 3px rgba(198, 132, 58, 0.2) !important;
+}
+
+.dark .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview {
+  border-color: rgba(198, 132, 58, 0.4) !important;
+  background: linear-gradient(180deg, rgba(36, 30, 24, 0.95), rgba(24, 20, 16, 0.98)) !important;
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.45) !important;
+}
+
+.dark .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-heading h5 {
+  color: #f4eadc !important;
+}
+
+.dark .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-input-field input {
+  border-color: rgba(244, 234, 220, 0.18) !important;
+  background-color: #221c16 !important;
+  color: #f4eadc !important;
+}
+
+.dark .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-input-field input::placeholder {
+  color: rgba(244, 234, 220, 0.6) !important;
+}
+
+.dark .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .powered-by-line {
+  color: rgba(244, 234, 220, 0.7) !important;
+}
+
   </style>
-  <div class="followit--follow-form-container" attr-a attr-b attr-c attr-d attr-e attr-f>
+  <div class="followit--follow-form-container" data-followit-location="footer" attr-a attr-b attr-c attr-d attr-e attr-f>
     <form data-v-8541cdc9="" action="https://api.follow.it/subscription-form/NFR6ZTY5clNEOCtldFRHUldsU2FGMlhuNUNPWFVTd01IMnNFNGVuR0xuT2tlTjBGSzRDK05IOFAvK1h2WUUreWZkdUJMM01XUDE0UUI3WnZERlQvNjNBNFdJT3VIcDJnZVY2M0tLM2cwRWc1MGVJSEtucnRwdUJLNXhKelowbHJ8QTlPdFZsa1Z5bk13RlQ4U2tCNW1haTd4bnJZVnhmSmdxVHNQQ2t2OURNYz0=/8" method="post"><div data-v-8541cdc9="" class="form-preview" style="background-color: rgb(255, 255, 255); position: relative; border-style: solid; border-width: 1px; border-color: rgb(204, 204, 204);"><div data-v-8541cdc9="" class="preview-heading"><h5 data-v-8541cdc9="" style="font-family: Arial; font-weight: bold; color: rgb(0, 0, 0); font-size: 16px; text-align: center; text-transform: none !important;">Get new posts by email:</h5></div><div data-v-8541cdc9="" class="preview-input-field"><input data-v-8541cdc9="" type="email" name="email" required="" placeholder="Enter your email" spellcheck="false" style="font-family: Arial; font-weight: normal; color: rgb(0, 0, 0); font-size: 14px; text-align: center; background-color: rgb(255, 255, 255); text-transform: none !important;"></div><div data-v-8541cdc9="" class="preview-submit-button"><button data-v-8541cdc9="" type="submit" style="font-family: Arial; font-weight: bold; color: rgb(255, 255, 255); font-size: 16px; text-align: center; background-color: rgb(0, 0, 0); text-transform: none !important;">Subscribe</button></div></div></form><a href="https://follow.it" class="powered-by-line">Powered by <img src="https://follow.it/images/colored-logo.svg" alt="follow.it" height="17px"/></a>
   </div>
 
 {{- $plyr := resources.Get "js/plyr.min.js" | fingerprint -}}
 {{- $init := resources.Get "js/audio-init.js" | fingerprint -}}
+<script>
+  (function () {
+    var forms = document.querySelectorAll(".followit--follow-form-container form");
+    if (!forms.length) {
+      return;
+    }
+
+    forms.forEach(function (form) {
+      form.addEventListener("submit", function () {
+        var container = form.closest(".followit--follow-form-container");
+        var location = container && container.dataset.followitLocation
+          ? container.dataset.followitLocation
+          : "unknown";
+
+        if (typeof window.gtag === "function") {
+          window.gtag("event", "followit_subscribe", {
+            event_category: "followit",
+            event_label: location,
+            followit_location: location,
+            value: 1,
+            transport_type: "beacon"
+          });
+        }
+      });
+    });
+  })();
+</script>
 <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
 <script>
   kofiWidgetOverlay.draw('dewofyouryouth', {

@@ -1,13 +1,12 @@
 {{/* layouts/shortcodes/followit.html */}}
 {{ $action := .Get "action" | default "https://api.follow.it/subscription-form/NFR6ZTY5clNEOCtldFRHUldsU2FGMlhuNUNPWFVTd01IMnNFNGVuR0xuT2tlTjBGSzRDK05IOFAvK1h2WUUreWZkdUJMM01XUDE0UUI3WnZERlQvNjNBNFdJT3VIcDJnZVY2M0tLM2cwRWc1MGVJSEtucnRwdUJLNXhKelowbHJ8QTlPdFZsa1Z5bk13RlQ4U2tCNW1haTd4bnJZVnhmSmdxVHNQQ2t2OURNYz0=/8" }}
-{{ $heading := .Get "heading" | default "Get new posts by email:" }}
+{{ $heading := .Get "heading" | default "I post short Shami diary notes with vocab and translations. You can subscribe to get them by email." }}
 {{ $copy := .Get "copy" | default "Subscribe via follow.it to get new posts in your inbox." }}
 {{ $placeholder := .Get "placeholder" | default "Enter your email" }}
 {{ $button := .Get "button" | default "Subscribe" }}
 
-<div class="followit--follow-form-container followit-shortcode" attr-a attr-b attr-c attr-d attr-e attr-f>
+<div class="followit--follow-form-container followit-shortcode" data-followit-location="shortcode" attr-a attr-b attr-c attr-d attr-e attr-f>
   <div class="followit-copy">
-    {{ $copy | markdownify }}
   </div>
   <form action="{{ $action }}" method="post">
     <div class="form-preview" style="background-color: rgb(255, 255, 255); position: relative; border-style: solid; border-width: 1px; border-color: rgb(204, 204, 204);">
