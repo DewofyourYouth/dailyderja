@@ -4,8 +4,9 @@ false }} {{ $disableHeroImageFilter :=
 <article class="max-w-full prose dark:prose-invert">
   <div class="relative">
     <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100"></div>
+    {{ $heroTypography := .Site.Params.homepage.heroTypography | default "" }}
     <div class="mx-auto max-w-7xl p-0">
-      <div class="relative shadow-xl sm:overflow-hidden rounded-2xl">
+      <div class="relative shadow-xl sm:overflow-hidden rounded-2xl{{ if eq $heroTypography `solidarity` }} hero-theme-solidarity{{ end }}">
         <div class="absolute inset-0">
           {{ $homepageImage := "" }} {{ with .Site.Params.defaultBackgroundImage
           }} {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix .

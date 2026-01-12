@@ -2,7 +2,8 @@ homepage:
   layout: hero
   title: The Daily Derja
   showRecent: true
-  homepageImage: "/images/hero.jpg"
+  homepageImage: "/images/iran-solidarity.png"
+  heroTypography: solidarity
 colorScheme: fire
 logo: "/images/logo.png"
 secondaryLogo: "/images/logo-dark.png"

@@ -285,6 +285,61 @@ button,
 }
 
 /* ================================
+   Hero typography: solidarity preset
+   Toggle with params: homepage.heroTypography = "solidarity"
+   ================================= */
+
+.hero-theme-solidarity h1 {
+  color: #ffffff;
+  text-shadow: 0 6px 18px rgba(0, 0, 0, 0.75),
+    0 2px 4px rgba(0, 0, 0, 0.45);
+  letter-spacing: 0.05em;
+}
+
+.hero-theme-solidarity h2 {
+  color: rgba(255, 248, 236, 0.92);
+  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.65);
+}
+
+.hero-theme-solidarity .tagline-container h3 {
+  background: rgba(14, 10, 6, 0.55);
+  border: 1px solid rgba(255, 215, 178, 0.2);
+  text-shadow: 0 3px 10px rgba(0, 0, 0, 0.75);
+}
+
+.hero-theme-solidarity .tagline-container p {
+  background: rgba(12, 8, 6, 0.62);
+  border: 1px solid rgba(255, 215, 178, 0.15);
+  text-shadow: 0 3px 10px rgba(0, 0, 0, 0.75);
+}
+
+.hero-theme-solidarity a[aria-label] {
+  color: rgba(255, 232, 200, 0.95);
+}
+
+.hero-theme-solidarity a[aria-label]:hover {
+  color: #ffd28c;
+}
+
+.hero-theme-solidarity .tagline-container + .mt-3,
+.hero-theme-solidarity .mt-3.mb-10 {
+  background: rgba(8, 6, 4, 0.55);
+  border: 1px solid rgba(255, 214, 166, 0.2);
+  border-radius: 999px;
+  padding: 0.25rem 0.75rem;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.35);
+}
+
+.hero-theme-solidarity .mt-3.mb-10 a[aria-label] {
+  color: #ffe7c2;
+}
+
+.hero-theme-solidarity .mt-3.mb-10 a[aria-label]:hover {
+  color: #ffd28c;
+}
+
+/* ================================
    5. Hero / homepage banner
    ================================= */
 
