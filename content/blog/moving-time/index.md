@@ -39,8 +39,6 @@ cssclasses:
 | نضبّ    | /nḍˤobb/      | pack up / put away |
 | بالشقة | /biʃʃaʔʔa/    | in the apartment   |
 
-## فيديو
-
 ---
 {{< ltr >}}
 *I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too.*
