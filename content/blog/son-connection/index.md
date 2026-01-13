@@ -1,5 +1,6 @@
 ---
 title: Connection Issues and Quality Time With My Son
+summary: VPN issues slowed work but led to more time with my son.
 date: 2025-08-14T16:57:27
 tags:
 - father-son-time

@@ -1,5 +1,6 @@
 ---
 title: How I Use Obsidian to Learn Derja
+summary: How I use Obsidian to take notes and learn Derja.
 date: 2025-08-10T17:03:03
 tags:
 - obsidian

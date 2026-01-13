@@ -1,5 +1,6 @@
 ---
 title: Idea for New Kind of Post
+summary: Starting a new kind of post, but I did not finish it yet.
 date: '2025-08-27T10:14:11+03:00'
 tags:
 - life-hacks

@@ -1,6 +1,7 @@
 ---
 draft: false
 title: Early Rising
+summary: An early start with lots done, but I still finish late and tired.
 image: late-train.jpg
 date: 2025-08-03T16:28:43
 tags:

@@ -1,5 +1,6 @@
 ---
 title: Relaxing day with my little boys.
+summary: A Friday off with the kids and a messy, lively home.
 image: cover.jpg
 date: 2025-06-20
 tags:

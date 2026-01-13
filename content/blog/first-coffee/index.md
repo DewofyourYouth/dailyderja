@@ -2,6 +2,7 @@
 date: '2025-12-05T10:38:08+02:00'
 draft: false
 title: First Coffee
+summary: Woke up late and made my first coffee of the day.
 dialects:
 - shami
 tags:

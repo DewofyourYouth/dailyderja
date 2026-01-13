@@ -2,6 +2,7 @@
 date: '2025-08-28T20:17:38+03:00'
 draft: false
 title: Boring Day
+summary: Nothing much to share today, so I keep the update short and quiet.
 postLang: ar
 dialects:
 - tunisian

@@ -1,5 +1,6 @@
 ---
 title: An End of Summer Family Trip!
+summary: An end-of-summer family trip squeezed in before school starts.
 date: 2025-08-22T13:17:10
 tags:
 - family-travel

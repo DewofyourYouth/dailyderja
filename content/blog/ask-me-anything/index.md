@@ -2,6 +2,7 @@
 date: '2025-08-18T13:09:12+03:00'
 draft: false
 title: Ask Me Anything
+summary: A train issue cuts my commute short and turns the day into a work-from-home one.
 tags:
 - ask-me-anything
 - reader-questions

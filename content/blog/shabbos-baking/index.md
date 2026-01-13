@@ -1,5 +1,6 @@
 ---
 title: Baking For Shabbat
+summary: Baking babka for Shabbat and getting the house ready.
 date: 2025-08-08T17:54:44
 tags:
 - baking

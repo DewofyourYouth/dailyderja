@@ -1,5 +1,6 @@
 ---
 title: New Month, Ezekiel's Vision.
+summary: A new month, avoiding war talk, and Ezekiel's vision.
 image: eye.jpg
 date: 2025-06-22
 tags:

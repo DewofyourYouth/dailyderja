@@ -1,5 +1,6 @@
 ---
 title: Plans to sleep before work and listen to Tunisian music.
+summary: Siren wakeup, a bike ride, and thoughts of music and rest.
 image: banana.jpg
 date: 2025-06-16
 tags:

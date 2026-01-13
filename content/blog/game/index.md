@@ -1,5 +1,6 @@
 ---
 title: A Game That Stuck With Me
+summary: A prompt about a game or media that stayed with you and why.
 date: 2025-08-19T21:12:38
 tags:
 - habitica

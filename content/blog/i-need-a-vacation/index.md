@@ -1,5 +1,6 @@
 ---
 title: I need a vacation!
+summary: War fatigue and stress make me feel like I need a real break.
 date: 2025-07-30T10:00:00
 tags:
 - burnout

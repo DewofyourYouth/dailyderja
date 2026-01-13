@@ -1,5 +1,6 @@
 ---
 title: Arabic when I was a child in Israel
+summary: Childhood Arabic in Israel and how language shifted at home.
 image: cover.jpeg
 date: 2025-06-23
 tags:

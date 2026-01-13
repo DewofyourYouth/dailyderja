@@ -1,5 +1,6 @@
 ---
 title: Genealogy Meetups and Taking a Day Off
+summary: Struggling for fresh topics and taking a day off.
 date: 2025-06-24
 tags:
 - genealogy

@@ -1,5 +1,6 @@
 ---
 title: Transportation woes and close encounters with Iranian missiles
+summary: Transit shutdowns, a skipped commute, and missile interceptions.
 image: beitshemesh.jpg
 date: 2025-06-18T10:25:19+03:00
 tags:

@@ -1,5 +1,6 @@
 ---
 title: Tired of war and uncertainty.
+summary: Under rocket fire, stuck in the shelter and working from home.
 image: banana.jpg
 date: 2025-06-15T18:23:49+03:00
 tags:

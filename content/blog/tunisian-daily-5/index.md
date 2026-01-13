@@ -1,5 +1,6 @@
 ---
 title: Postponing the CKAD Exam
+summary: Postponed CKAD study amid war stress and self-critique.
 image: library.jpg
 date: 2025-06-19
 tags:

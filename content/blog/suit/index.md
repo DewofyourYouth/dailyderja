@@ -1,5 +1,6 @@
 ---
 title: Complaining About Buying A Suit
+summary: Complaining about buying an expensive suit I rarely wear.
 date: "2025-08-11T12:56:24"
 tags:
 - suit-shopping

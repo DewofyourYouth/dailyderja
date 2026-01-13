@@ -1,5 +1,6 @@
 ---
 title: The Holiday Blues
+summary: Holidays feel stressful, and the anxiety spills over to family.
 date: 2025-09-29T15:58:40
 tags:
 - jewish-holidays

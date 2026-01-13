@@ -2,6 +2,7 @@
 date: '2025-08-08T00:01:32+03:00'
 draft: false
 title: Relaxed Day
+summary: Skipped shul, worked from home, and kept the day slow.
 tags:
 - slow-morning
 - wfh

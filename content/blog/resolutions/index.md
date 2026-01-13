@@ -1,5 +1,6 @@
 ---
 title: New Year’s Resolutions
+summary: A quick prompt about goals and resolutions for 2025.
 date: '2025-08-25T21:09:04+03:00'
 tags:
 - single-goal

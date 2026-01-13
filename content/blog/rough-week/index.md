@@ -1,5 +1,6 @@
 ---
 title: A Rough Week. We’ll Start Over Next Week
+summary: A tough week for daily Derja practice, with a reset in mind.
 date: 2025-08-21T00:31:50
 tags:
 - elul

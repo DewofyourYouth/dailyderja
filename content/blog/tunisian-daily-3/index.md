@@ -1,5 +1,6 @@
 ---
 title: Boring is Good. Discussing Lyrics
+summary: A quiet night, morning errands, and a few lyric reflections.
 date: 2025-06-17T10:37:10+03:00
 image: notebook.jpg
 tags:
