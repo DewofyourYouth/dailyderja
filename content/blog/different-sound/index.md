@@ -51,6 +51,8 @@ postLang: ar
 
 ---
 
+{{< ltr >}}
+
 ## Note
 
 *Heilung is a Northern European experimental group that blends reconstructed ancient instruments, ritual vocals, and
@@ -58,3 +60,4 @@ atmospheric sound design. They call their style “amplified history.” It’s 
 algorithm — which is exactly the point of this post.*
 
 Photo by [Pavel Tolmachev](https://unsplash.com/@tolmachlegal?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/a-boat-floating-on-top-of-a-large-body-of-water-htyVNbdX2KU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+{{</ ltr >}}
