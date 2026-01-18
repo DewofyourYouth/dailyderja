@@ -48,6 +48,7 @@ cssclasses:
 | لازم ألعب فيها شوي | /ˈlaːzem ʔalʕab fiːha ʃwej/ | I had to play with it a bit |
 | عملت كم playlist   | /ʕaˈmalt kam pleɪlɪst/      | I made a few playlists      |
 | لَمّا بروح أمشي      | /ˈlamma broːħ ʔamʃi/        | when I go for a walk        |
+| مشان               | /miˈʃaːn/                   | for / because               |
 | تفضّلوا             | /tfaˈdːalu/                 | here you go / please enjoy  |
 
 ---
