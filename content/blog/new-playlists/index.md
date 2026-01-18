@@ -39,16 +39,16 @@ cssclasses:
 
 ## كلام
 
-| Arabic               | IPA                         | Meaning                      |
-| -------------------- | --------------------------- | ---------------------------- |
-| مؤخّرًا               | /muʔaxˈxaran/               | recently                     |
-| لقيت طريقة            | /laʔeːt tˤaˈriːʔa/           | I found a way                |
-| تستعمل               | /tɪsˈtaʕmel/                | you use                      |
-| قلت لنفسي             | /ʔʊlt lɪˈnafsi/             | I told myself                |
-| لازم ألعب فيها شوي     | /ˈlaːzem ʔalʕab fiːha ʃwej/  | I had to play with it a bit  |
-| عملت كم playlist      | /ʕaˈmalt kam pleɪlɪst/       | I made a few playlists       |
-| لَمّا بروح أمشي        | /ˈlamma broːħ ʔamʃi/         | when I go for a walk         |
-| تفضّلوا               | /tfaˈdːalu/                  | here you go / please enjoy   |
+| Arabic             | IPA                         | Meaning                     |
+| ------------------ | --------------------------- | --------------------------- |
+| مؤخّرًا              | /muʔaxˈxaran/               | recently                    |
+| لقيت طريقة         | /laʔeːt tˤaˈriːʔa/          | I found a way               |
+| تستعمل             | /tɪsˈtaʕmel/                | you use                     |
+| قلت لنفسي          | /ʔʊlt lɪˈnafsi/             | I told myself               |
+| لازم ألعب فيها شوي | /ˈlaːzem ʔalʕab fiːha ʃwej/ | I had to play with it a bit |
+| عملت كم playlist   | /ʕaˈmalt kam pleɪlɪst/      | I made a few playlists      |
+| لَمّا بروح أمشي      | /ˈlamma broːħ ʔamʃi/        | when I go for a walk        |
+| تفضّلوا             | /tfaˈdːalu/                 | here you go / please enjoy  |
 
 ---
 {{< ltr >}}
