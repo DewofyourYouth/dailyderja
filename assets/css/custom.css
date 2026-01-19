@@ -348,6 +348,22 @@ button,
    6. YouTube embeds (Blowfish)
    ================================= */
 
+/* Spotify embeds */
+.spotify-embed {
+  border-radius: 12px;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.spotify-embed iframe {
+  display: block;
+  border-radius: 12px;
+}
+
+.dark .spotify-embed {
+  background: #121212;
+}
+
 /* Base responsive embed */
 .yt-embed {
   margin: 1.5rem auto;
