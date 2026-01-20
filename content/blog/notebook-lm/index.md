@@ -16,8 +16,8 @@ draft: false
 dialects:
   - shami
 series:
-  - نسمة كلمة
-series_order: 5
+  - Meta
+series_order: 3
 postLang: en
 cssclasses: []
 ---
