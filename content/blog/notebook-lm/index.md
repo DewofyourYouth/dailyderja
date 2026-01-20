@@ -24,10 +24,6 @@ cssclasses: []
 
 ## Some Tips From NotebookLM
 
-> ⚠︎ NOTE: I haven't run this advice by a native speaker yet to verify that it is all accurrate.
-
----
-
 To move beyond simple dialect swaps and broaden your Shami (Levantine) vocabulary, the sources provide several advanced phrases and structures that can add nuance, personality, and professional polish to your posts.
 
 ### **Describing Internal States and Routines**
