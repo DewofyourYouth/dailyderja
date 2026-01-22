@@ -56,8 +56,9 @@ cssclasses:
 ---
 {{< ltr >}}
 *I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too.*
-{{</ ltr >}}
 
 ---
 
-Photo by <a href="https://unsplash.com/@inspiredbyart?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Seaview N.</a> on <a href="https://unsplash.com/photos/a-calendar-and-scissors-on-a-table-QfOQSM8nXCo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Photo by [Seaview N.](https://unsplash.com/@inspiredbyart?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/a-calendar-and-scissors-on-a-table-QfOQSM8nXCo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+{{</ ltr >}}
