@@ -52,6 +52,7 @@ cssclasses:
 | **تانية**     | /ˈtaːn.je/        | Second (feminine)         |
 | **يوم الأحد** | /joːm al.ˈʔa.ħad/ | Sunday                    |
 | **بضغط**      | /bi.dˤaɣtˤ/       | Under pressure / stressed |
+| **زاد معي**   | /zaːd ˈma.ʕi/     | I have left over          |
 
 ---
 {{< ltr >}}
