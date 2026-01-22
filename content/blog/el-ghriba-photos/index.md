@@ -23,7 +23,7 @@ series_order: 1
 postLang: ar
 summary: Pictures from our visit to the El Ghriba synagogue in Djerba, Tunisia.
 ---
-## خاطِرة:
+## حكاية الصور
 
 هـدول صُوَر من كنيس الغريبة، أقدم كنيس بكلّ أفريقيا، اِنبَنى من أكتر من ألفين وخَمسمِيّة سنة.  
 أنا ومرتي زُرناه لَمّا سافرنا على جزيرة جِربة.

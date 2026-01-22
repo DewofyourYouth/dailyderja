@@ -20,7 +20,7 @@ series_order: 3
 postLang: ar
 summary: Two photos. Seventeen years apart. Same face, different weather.
 ---
-## خاطِرة
+## حكاية الصور
 
 سيلفي أخدتها من سبعتعش سنة، لما كنت طالب مضطرب باليشيفا، وبفكّر إنّي أخدتها عالساعة تلاتة الصبح.
 

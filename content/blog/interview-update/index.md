@@ -21,7 +21,7 @@ postLang: ar
 cssclasses:
   - arabic-note
 ---
-## خاطِرة
+## تحديث
 
 اليوم هو اليوم التاني من خانوقة.
 
