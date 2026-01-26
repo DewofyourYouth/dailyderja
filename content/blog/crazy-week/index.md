@@ -52,6 +52,13 @@ cssclasses:
 | **الخميس**   | *il-khamis*     | /ilxaˈmiːs/              | Thursday             |                                            |
 | **الأربعا**  | *il-orb'a*      | /ilˈʔorbʕa/              | Wednesday            | Note the "O" vowel sound in dialect.       |
 
+
+## فيديو
+
+{{< youtube id="yXLG9FfbdJ0" class="yt-embed yt-embed--short" >}}
+
+_Even as I try to lean into the Levantine dialect, I’ll probably always carry a touch of Tunisian with me 😅._
+
 ---
 *I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too.*
 
