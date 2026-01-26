@@ -36,6 +36,8 @@ cssclasses:
 
 ## كلام
 
+{{< ltr >}}
+
 | Arabic       | Transliteration | IPA (Southern Levantine) | Meaning              | Context / Usage Notes                      |
 | :----------- | :-------------- | :----------------------- | :------------------- | :----------------------------------------- |
 | **مضغوط**    | *madghoot*      | /madˈɣuːtˤ/              | Pressured / Packed   | Used for work stress or a busy schedule.   |
@@ -50,10 +52,8 @@ cssclasses:
 | **الخميس**   | *il-khamis*     | /ilxaˈmiːs/              | Thursday             |                                            |
 | **الأربعا**  | *il-orb'a*      | /ilˈʔorbʕa/              | Wednesday            | Note the "O" vowel sound in dialect.       |
 
-## فيديو
 
 ---
-{{< ltr >}}
 *I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too.*
 
 ---
