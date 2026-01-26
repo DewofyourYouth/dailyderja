@@ -52,13 +52,10 @@ cssclasses:
 | **الخميس**   | *il-khamis*     | /ilxaˈmiːs/              | Thursday             |                                            |
 | **الأربعا**  | *il-orb'a*      | /ilˈʔorbʕa/              | Wednesday            | Note the "O" vowel sound in dialect.       |
 
-
 ---
 *I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too.*
 
 ---
 
 Photo by [Aarón Blanco Tejedor](https://unsplash.com/@the_meaning_of_love?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/painting-of-man-VBe9zj-JHBs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-
-
 {{</ ltr >}}
