@@ -30,6 +30,8 @@ I’ll keep adding to this over time, but I’d rather publish a useful shortlis
 
 Arij is my #1 Tunisian tutor pick. She’s encouraging, organized, and very responsive to feedback. Sessions feel structured without feeling stiff — and I leave remembering things.
 
+[Book with Arij Here](https://preply.in/ARIJ3EN2460644610?ts=17695271)
+
 ---
 
 ## Disclaimers
