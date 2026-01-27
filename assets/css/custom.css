@@ -427,3 +427,23 @@ section.article-ltr {
   unicode-bidi: isolate !important;
   text-align: start !important;
 }
+
+/* Tutor CTA injected after vocab tables */
+.tutor-cta {
+  margin: 0.75rem 0 2rem;
+  padding: 0.85rem 1rem;
+  border: 1px solid var(--color-primary-500);
+  border-radius: 0.75rem;
+  background: color-mix(in srgb, var(--color-primary-500) 10%, transparent);
+}
+
+.tutor-cta__link {
+  display: inline-block;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.tutor-cta__link:hover,
+.tutor-cta__link:focus {
+  text-decoration: underline;
+}
