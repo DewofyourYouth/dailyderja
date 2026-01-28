@@ -1,12 +1,11 @@
 ---
-title: A Trip to Ramla
-summary: مشوار سريع مع ابني يوسف على الرملة، وفيه كلمة عن كيف الناس بتكيف لما اليهودي يحكي عربي.
+title: A Trip to Ramle
+summary: A quick errand to Ramle with my son Yusuf, and a note on how locals react when a Jewish person speaks their language.
 date: 2026-01-28T17:15:20+02:00
 tags:
-  - ramla
+  - ramle
   - family
   - errands
-  - shami
 categories: []
 draft: false
 dialects:
