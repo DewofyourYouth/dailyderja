@@ -1,0 +1,29 @@
+{{- /* Home JSON feed: blog posts only with url, summary, date, featured_image */ -}}
+{{- $items := slice -}}
+{{- $pages := where .Site.RegularPages "Section" "blog" -}}
+{{- range $pages.ByDate.Reverse -}}
+  {{- $imgURL := "" -}}
+  {{- with .Params.featuredImage }}{{- $imgURL = absURL . -}}{{- end -}}
+  {{- if not $imgURL -}}
+    {{- $imgs := where .Resources "ResourceType" "image" -}}
+    {{- if gt (len $imgs) 0 -}}
+      {{- $r := index $imgs 0 -}}
+      {{- $imgURL = $r.Permalink -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if not $imgURL -}}
+    {{- $m := findRE `<img[^>]*src=["']([^"']+)["']` .Content 1 -}}
+    {{- with $m -}}
+      {{- $rel := replaceRE `.*src=['"]([^'"]+)['"].*` "$1" (index . 0) -}}
+      {{- $imgURL = absURL $rel -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $items = $items | append (dict
+      "title" (.Title | emojify | safeJS)
+      "url" .Permalink
+      "summary" (.Summary | plainify | htmlUnescape)
+      "date" (.Date.Format "2006-01-02T15:04:05Z07:00")
+      "featured_image" $imgURL
+    ) -}}
+{{- end -}}
+{{- $items | jsonify -}}
