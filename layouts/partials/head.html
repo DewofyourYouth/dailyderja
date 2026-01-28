@@ -153,6 +153,27 @@
   {{- $images := .Resources.ByType "image" -}}
   {{- $socialImage := $images.GetMatch "*feature*" -}}
 
+  {{- if .IsHome -}}
+    {{- $homepageImage := "" -}}
+    {{- with .Site.Params.defaultBackgroundImage -}}
+      {{- if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") -}}
+        {{- $homepageImage = resources.GetRemote . -}}
+      {{- else -}}
+        {{- $homepageImage = resources.Get . -}}
+      {{- end -}}
+    {{- end -}}
+    {{- with .Site.Params.homepage.homepageImage -}}
+      {{- if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") -}}
+        {{- $homepageImage = resources.GetRemote . -}}
+      {{- else -}}
+        {{- $homepageImage = resources.Get . -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if $homepageImage -}}
+      {{- $socialImage = $homepageImage -}}
+    {{- end -}}
+  {{- end -}}
+
   {{- if not $socialImage -}}
     {{- with .Site.Params.defaultSocialImage -}}
       {{- if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") -}}
