@@ -12,7 +12,7 @@ dialects:
   - shami
 series:
   - نسمة يوميات
-series_order:
+series_order: 9
 postLang: ar
 cssclasses:
   - arabic-note
