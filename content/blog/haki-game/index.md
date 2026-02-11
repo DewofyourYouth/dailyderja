@@ -45,6 +45,8 @@ Because **gahwe** and **ahwe** are not the same world.
 
 Right now the audio is clean and functional. I’m still working on getting regionally authentic TTS that actually sounds like it belongs in Amman or the Negev and not inside a polite pan-Arab robot. That part matters to me. Dialect isn’t just vocabulary, it’s sound.
 
+_Note: The text-to-speech is still really gnarly, I'm working it out and it shouldn't be relied upon for now._
+
 This is version 1.0. It’s lean. It works. It teaches the Arabic I hear every day.
 
 If you’ve been reading this site and thinking, “Nice… but I need reps,” this is the reps.
