@@ -11,6 +11,7 @@ dialects:
 - tunisian
 series:
 - Meta
+series_order: 1
 summary: I discuss the change in the site – from the Tunisian dialect – to the Levantine
   one.
 categories:
