@@ -27,6 +27,8 @@ Fair.
 
 Daily Derja is mostly observations. Phrases I hear. Things my kids say. Stuff I pick up in Ramle, Jerusalem, random government offices. It’s real Arabic. But reading it isn’t the same as drilling it.
 
+There aren't alot of great "off-the-shelf" options. Duolingo is MSA - and not really great for that either, and tutors are expensive.
+
 So I built something.
 
 It’s called **HAKI**.  
@@ -34,7 +36,7 @@ It’s called **HAKI**.
 
 It’s a small game for learning Levantine Arabic. Not MSA. Not classroom Arabic. The kind people actually use.
 
-You move north on a map of the Levant. You unlock vocabulary by city. Quick sessions. Ten cards at a time. Audio for everything.
+You move north on a map of the Levant. You unlock vocabulary by city. Quick sessions. Ten cards at a time. Audio for everything. Spaced repetition is worked into the app by design.
 
 The feature I cared about most:  
 You can switch between urban pronunciation and Bedouin pronunciation.
