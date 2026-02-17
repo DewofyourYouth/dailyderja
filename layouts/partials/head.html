@@ -153,6 +153,28 @@
   {{- $images := .Resources.ByType "image" -}}
   {{- $socialImage := $images.GetMatch "*feature*" -}}
 
+  {{- if not $socialImage -}}
+    {{- $featuredParam := "" -}}
+    {{- with .Params.featuredImage -}}
+      {{- $featuredParam = . -}}
+    {{- end -}}
+    {{- if and (eq $featuredParam "") (isset .Params "image") -}}
+      {{- with .Params.image -}}
+        {{- $featuredParam = . -}}
+      {{- end -}}
+    {{- end -}}
+    {{- with $featuredParam -}}
+      {{- if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") -}}
+        {{- $socialImage = resources.GetRemote . -}}
+      {{- else -}}
+        {{- $socialImage = $.Resources.GetMatch . -}}
+        {{- if not $socialImage -}}
+          {{- $socialImage = resources.Get . -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+
   {{- if .IsHome -}}
     {{- $homepageImage := "" -}}
     {{- with .Site.Params.defaultBackgroundImage -}}
