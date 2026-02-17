@@ -18,7 +18,7 @@ series:
 - نسمة يوميات
 postLang: ar
 summary: The pre-interview jitters.
-series_order: '2'
+series_order: 2
 ---
 ## يوميّات
 
