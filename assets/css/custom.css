@@ -29,8 +29,9 @@
    2. Language-level tweaks
    ================================= */
 
-/* Arabic global shaping */
-html[lang="ar"] * {
+/* Arabic global shaping (scope to Arabic text only) */
+html[lang="ar"] :lang(ar),
+html[lang="ar"] [dir="rtl"] {
   letter-spacing: 0 !important;
   font-feature-settings: "calt" 1, "liga" 1, "rlig" 1;
 }
@@ -446,4 +447,25 @@ section.article-ltr {
 .tutor-cta__link:hover,
 .tutor-cta__link:focus {
   text-decoration: underline;
+}
+
+/* ================================
+   7. Main menu typography
+   ================================= */
+
+.main-menu nav > a span.text-base,
+.main-menu nav .nested-menu > div > a span.text-bg {
+  font-family: "Montserrat", system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 0.97rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  line-height: 1.25;
+  white-space: nowrap;
+}
+
+@media (max-width: 1100px) {
+  .main-menu nav > a span.text-base,
+  .main-menu nav .nested-menu > div > a span.text-bg {
+    white-space: normal;
+  }
 }

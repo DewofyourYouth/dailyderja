@@ -11,7 +11,7 @@ main:
   - name: About
     url: /about/
     weight: 6
-  - name: Dew of Your Youth
+  - name: Jacob Shore
     url: https://jacob-shore.com
     weight: 7
 footer:
