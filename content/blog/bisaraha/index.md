@@ -1,15 +1,25 @@
 ---
 title: Bisaraha
-summary: I've found my new favorite Arabic song.
+summary: A quick Levantine note on Ziad Rahbani's "بصراحة" and why it became my current favorite.
+description: A short Arabic reflection on "بصراحة" by Ziad Rahbani with two Spotify tracks and key Levantine phrases.
+image: featured.jpg
 date: 2026-02-18T20:48:55+02:00
 tags:
-categories: []
+  - shami-arabic
+  - levantine-arabic
+  - music
+  - ziad-rahbani
+  - spotify
+  - playlist-notes
+categories:
+  - language-learning
+  - art-media
 draft: false
 dialects:
   - shami
 series:
   - نسمة نغمة
-series_order:
+series_order: 6
 postLang: ar
 cssclasses:
   - arabic-note
