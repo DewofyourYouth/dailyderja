@@ -17,11 +17,11 @@ cssclasses:
 ## خاطِرة
 بصراحة، بتهيألي إنّي لقيت أغنيتي المفضلة بالشامي لهلأ، وهي أغنية "بصراحة" لزياد رحباني! وبصراحة... ما في أحلى من هيك جو.
 
-{{< spotify “track/5EgethxS16eiTYwXqkgYV0”>}}
+{{< spotify "track/5EgethxS16eiTYwXqkgYV0" >}}
 
 بحب موسيقى زياد بشكل عام، وأغنية "أنا مش كافر" جوّها رهيب كمان! كلماته دايماً "عالوجع" وفيها صراحة وقوة مش طبيعية.
 
-{{< spotify "track/6BE0jeBho94oFSeF3a3nmP” >}}
+{{< spotify "track/6BE0jeBho94oFSeF3a3nmP" >}}
 
 **---
 title: Bisaraha
