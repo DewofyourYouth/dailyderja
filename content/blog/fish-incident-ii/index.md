@@ -38,8 +38,7 @@ cssclasses:
 
 الحمد لله نجحنا بنقل باقي السمكات لمزهريّة ورد، وغسلنا الحوض من الصابون منيح، وهيك أنقذنا السمكات اللي ضلّوا.
 
-{{< 
-followit >}}
+{{< followit >}}
 ## كلام
 
 | Arabic             | IPA                            | Meaning                                 |
@@ -59,6 +58,7 @@ followit >}}
 ---
 {{< ltr >}}
 *I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too.*
+{{< followit >}}
 ---
 
 Photo by [t j](https://unsplash.com/@tianjin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/orange-fish-on-gray-surface-zqVldaZKFAw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
