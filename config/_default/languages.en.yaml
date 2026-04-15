@@ -5,11 +5,13 @@ params:
     headline: نَسْمة شاميّة كُلّ يوم… مع أرشيف تونسي حلو
     bio: "Middle-aged, married, father of five. I write about Arabic, dialects, and daily life."
     links:
+      - whatsapp: "https://whatsapp.com/channel/0029VbBwSpQ7tkjIkExMTA2e"
+      - telegram: "https://t.me/+muANXhcSRCdmMDA0"
       - youtube: "https://www.youtube.com/@dewofyouryouth"
       - substack: "https://dailyderja.substack.com/"
       - github: "https://github.com/DewofyourYouth"
       - instagram: "https://www.instagram.com/yaakshore/"
-      - discord: "https://discordapp.com/users/dew_of_your_youth"
+      - discord: "https://discord.gg/mKGhJ3eQ"
       - link: "https://jacob-shore.com/"
 showMenu: true
 social:
