@@ -3,6 +3,7 @@ title: Arabic in Israel is Hard
 summary: A short note on why learning Arabic in Israel feels harder than it should.
 description: A short Arabic diary note about the practical and social friction of learning Arabic in Israel.
 image: featured.jpg
+socialImage: social.jpg
 date: 2026-04-14T14:11:02+02:00
 tags:
   - arabic
