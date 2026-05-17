@@ -16,6 +16,9 @@ draft: false
 postLang: ar
 dialects:
 - tunisian
+series:
+  - نسمة شغلة
+series_order: 1
 ---
 > *شنوة لعبة ولا أي حاجة أخرى من الميديا لعبتها توّا و بقات في مخّك؟ علاش لمستك هكا؟*
 

@@ -17,7 +17,7 @@ dialects:
   - shami
 series:
   - نسمة يوميات
-series_order: 7
+series_order: 28
 postLang: ar
 cssclasses:
   - arabic-note

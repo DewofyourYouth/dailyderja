@@ -21,8 +21,8 @@ categories:
   - language-learning
 draft: false
 series:
-  - meta
-series_order: 2
+  - نسمة مشوار
+series_order: 5
 postLang: en
 externalUrl: https://open.substack.com/pub/dailyderja/p/notes-from-djerba?r=6ygm98&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true
 ---

@@ -16,6 +16,9 @@ postLang: ar
 dialects:
 - tunisian
 showTableOfContents: true
+series:
+  - نسمة مشوار
+series_order: 1
 ---
 ## تأمُّل:
 

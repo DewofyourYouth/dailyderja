@@ -17,6 +17,9 @@ categories:
   - language-learning
   - family
 draft: false
+series:
+  - نسمة مشوار
+series_order: 4
 ---
 ## جنّينة الحروف
 

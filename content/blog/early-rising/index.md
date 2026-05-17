@@ -16,6 +16,9 @@ description: It's nice to be productive
 postLang: ar
 dialects:
 - tunisian
+series:
+  - نسمة يوميات
+series_order: 11
 ---
 ليوم أنا فرحان خاطر الحمدلله قمت بكري و كملت برشة خدمة. اما ما زلت، ما فرحتش علي خاطر كملت ماخر! توا باش نروح لداري ماخر كيما تسع الليل😢.
 

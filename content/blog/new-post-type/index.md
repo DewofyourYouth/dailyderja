@@ -15,6 +15,9 @@ draft: false
 postLang: ar
 dialects:
 - tunisian
+series:
+  - Meta
+series_order: 2
 ---
 ## تأمُّل:
 البَراح بديت نعمل post أما ما كمّلتوش 😢.

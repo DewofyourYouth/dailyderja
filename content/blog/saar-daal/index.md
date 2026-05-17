@@ -4,8 +4,8 @@ date: '2025-12-04T20:16:19+02:00'
 draft: false
 postLang: ar
 series:
-- نسمة كلمة
-series_order: 2
+  - نسمة كلمة
+series_order: 1
 dialects:
 - shami
 tags:

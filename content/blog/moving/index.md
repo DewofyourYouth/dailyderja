@@ -8,8 +8,8 @@ draft: false
 dialects:
   - shami
 series:
-  - نسمة يوميات
-series_order: 10
+  - نسمة نهار
+series_order: 12
 postLang: ar
 cssclasses:
   - arabic-note

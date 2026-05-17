@@ -15,7 +15,7 @@ draft: false
 dialects:
 - shami
 series:
-- نسمة يوميات
+  - نسمة نهار
 postLang: ar
 summary: The pre-interview jitters.
 series_order: 2

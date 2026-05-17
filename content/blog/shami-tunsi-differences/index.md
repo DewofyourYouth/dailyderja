@@ -16,7 +16,7 @@ dialects:
 - shami
 - tunisian
 series:
-- نسمة كلمة
+  - نسمة لهجة
 postLang: en
 summary: I made a video about some differences between Shami and Tunisian Derja.
 series_order: 1

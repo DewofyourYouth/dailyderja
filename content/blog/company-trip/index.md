@@ -15,6 +15,9 @@ postLang: ar
 dialects:
 - tunisian
 summary: A reflection on a company trip that wasn't as bad as expected
+series:
+  - نسمة مشوار
+series_order: 2
 ---
 ## تأمُّل:
 ليوم و غدوة الشريكة الكلّ مشينا لرحلة “لهفة للصيف”. ديما نكره حكايات كيف هكّا، أمّا توا أقلّ خايب من ما تصوّرت، الحمد لله. قبلت ناس في الشريكة ما كنتش نعرفهم.

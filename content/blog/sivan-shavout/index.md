@@ -17,7 +17,7 @@ dialects:
   - shami
 series:
   - نسمة فكرة
-series_order: 1
+series_order: 2
 postLang: ar
 cssclasses:
   - arabic-note

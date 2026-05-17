@@ -13,7 +13,7 @@ categories:
   - product
 series:
   - Meta
-series_order: 4
+series_order: 5
 draft: false
 ---
 

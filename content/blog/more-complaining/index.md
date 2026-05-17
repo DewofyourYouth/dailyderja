@@ -14,6 +14,9 @@ tags:
 - entrepreneurship
 - work-life
 - rant
+series:
+  - نسمة يوميات
+series_order: 12
 ---
 اليوم فيقت ماخر مرا اخرة و فاتني الترن! نكره نهارات كيف هكا! كي نقوم ماخر نحس روحي مكركب.
 

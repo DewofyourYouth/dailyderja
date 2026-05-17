@@ -13,7 +13,7 @@ postLang: ar
 dialects:
 - shami
 series:
-- نسمة نهار
+  - نسمة نهار
 series_order: 1
 summary: A lot of things are changing – all at once!
 ---

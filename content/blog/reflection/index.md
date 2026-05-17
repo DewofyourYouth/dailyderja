@@ -16,6 +16,9 @@ dialects:
 - tunisian
 summary: Reflecting on my experience learning Derja before going to an engagement
   party.
+series:
+  - نسمة يوميات
+series_order: 21
 ---
 ## تأمُّل:
 ما كتبتش الديلي دارجة من وقت برشة، حتى كان عملت فيديوهات. سماحني 🙏

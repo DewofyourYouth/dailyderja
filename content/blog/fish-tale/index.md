@@ -19,7 +19,7 @@ categories:
 dialects:
 - shami
 series:
-- نسمة قصة
+  - نسمة قصة
 series_order: 1
 postLang: ar
 showTranslation: true

@@ -13,6 +13,9 @@ dialects:
 - tunisian
 categories:
   - blog-meta
+series:
+  - نسمة يوميات
+series_order: 16
 ---
 اليوم حاولت نمشي للخدمة، أما صار مشكل في الترانات – وصلت نص الطريق و رجعت نخدم من الدار.
 

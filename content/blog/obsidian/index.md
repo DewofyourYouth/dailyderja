@@ -17,6 +17,9 @@ dialects:
 categories:
   - tech-and-tools
   - language-learning
+series:
+  - Meta
+series_order: 1
 ---
 ## تأمُّل:
 نعلم لغرة جديدة صعيب. نستعمل برشة أدوات. ليوم باس نحكي شوية في [Obsidian](https://obsidian.md/). نكتب ملاحظاتي بيهو. Obsidian هوا edituer Markdown فيه ردط ساهل و إيكوسيستام قوي متاع plugins و templates. مثلأ فمة plugin يسمهو QuickAdd. عندي template لالديلي دارجة و كي نحب نكيب post نعمل QuickAdd ويعمل frontmatter و هكا.

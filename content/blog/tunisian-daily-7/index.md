@@ -21,6 +21,9 @@ postLang: ar
 dialects:
 - tunisian
 description: 'Tunisian Daily Journal: Entry 7'
+series:
+  - نسمة يوميات
+series_order: 7
 ---
 ## تأمُّل:
 

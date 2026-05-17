@@ -18,6 +18,9 @@ postLang: ar
 dialects:
 - tunisian
 description: 'Tunisian Daily Journal: Entry 9'
+series:
+  - نسمة يوميات
+series_order: 9
 ---
 ## تأمُّل:
 

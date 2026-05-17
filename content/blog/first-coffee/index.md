@@ -11,8 +11,8 @@ tags:
 - slow-morning
 - hot-coffee
 series:
-- نسمة نهار
-series_order: 2
+  - نسمة قهوة
+series_order: 1
 postLang: ar
 categories:
   - daily-life

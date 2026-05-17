@@ -19,7 +19,7 @@ dialects:
   - shami
 series:
   - نسمة كلمة
-series_order: 3
+series_order: 2
 postLang: en
 cssclasses:
   - arabic-note

@@ -12,6 +12,9 @@ dialects:
 summary: Discussing what kind of movies I like to watch.
 categories:
   - art-media
+series:
+  - نسمة شغلة
+series_order: 2
 ---
 ## تأمُّل
 

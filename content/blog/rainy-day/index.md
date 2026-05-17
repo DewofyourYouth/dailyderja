@@ -15,7 +15,7 @@ draft: false
 dialects:
 - shami
 series:
-- نسمة نهار
+  - نسمة نهار
 series_order: 4
 postLang: ar
 cssclasses:

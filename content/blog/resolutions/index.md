@@ -14,6 +14,9 @@ draft: false
 postLang: ar
 dialects:
 - tunisian
+series:
+  - نسمة يوميات
+series_order: 18
 ---
 ## تأمُّل:
 

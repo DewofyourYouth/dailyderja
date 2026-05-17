@@ -15,7 +15,7 @@ draft: false
 dialects:
   - shami
 series:
-  - "نسمة صورة"
+  - نسمة صورة
 series_order: 5
 postLang: ar
 cssclasses:

@@ -14,8 +14,8 @@ draft: false
 dialects:
 - shami
 series:
-- نسمة يوميات
-series_order: 1
+  - نسمة يوميات
+series_order: 23
 postLang: ar
 summary: Last night we celebrated the accomplishment of finishing Seder Moed
 ---

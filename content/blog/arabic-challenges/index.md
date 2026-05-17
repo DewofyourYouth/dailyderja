@@ -17,8 +17,8 @@ draft: false
 dialects:
   - shami
 series:
-  - نسمة يوميات
-series_order: 13
+  - نسمة فكرة
+series_order: 1
 postLang: ar
 cssclasses:
   - arabic-note

@@ -23,7 +23,7 @@ dialects:
 - shami
 summary: Some music I'm enjoying right now, to train my ear for Levantine Arabic.
 series:
-- نسمة نغمة
+  - نسمة نغمة
 series_order: 1
 ---
 ## موسيقى

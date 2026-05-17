@@ -11,8 +11,8 @@ draft: false
 dialects:
   - shami
 series:
-  - نسمة يوميات
-series_order: 9
+  - نسمة مشوار
+series_order: 6
 postLang: ar
 cssclasses:
   - arabic-note
