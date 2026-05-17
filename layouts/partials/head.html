@@ -85,21 +85,25 @@
   {{/* JS deferred */}}
   {{ $jsResources := slice }}
   {{ if site.Params.footer.showScrollToTop | default true }}
-    {{ $jsResources = $jsResources | append (resources.Get "js/scroll-to-top.js") }}
+    {{ with resources.Get "js/scroll-to-top.js" }}{{ $jsResources = $jsResources | append . }}{{ end }}
   {{ end }}
   {{ if .Site.Params.enableSearch | default false }}
-    {{ $jsResources = $jsResources | append (resources.Get "lib/fuse/fuse.min.js") | append (resources.Get "js/search.js") }}
+    {{ $fuseRaw := resources.Get "lib/fuse/fuse.min.cjs" }}
+    {{ if $fuseRaw }}
+      {{ $fuse := resources.FromString "lib/fuse/fuse.min.js" (replace $fuseRaw.Content "module.exports=" "window.Fuse=") }}
+      {{ $jsResources = $jsResources | append $fuse }}
+    {{ end }}
+    {{ with resources.Get "js/search.js" }}{{ $jsResources = $jsResources | append . }}{{ end }}
   {{ end }}
   {{ if .Site.Params.enableCodeCopy | default false }}
-    {{ $jsResources = $jsResources | append (resources.Get "js/code.js") }}
+    {{ with resources.Get "js/code.js" }}{{ $jsResources = $jsResources | append . }}{{ end }}
   {{ end }}
   {{ if .Site.Params.rtl | default false }}
-    {{ $jsResources = $jsResources | append (resources.Get "js/rtl.js") }}
+    {{ with resources.Get "js/rtl.js" }}{{ $jsResources = $jsResources | append . }}{{ end }}
   {{ end }}
-
-  {{ $jsResources = $jsResources | append (resources.Get "js/katex-render.js") }}
-  {{ $jsResources = $jsResources | append (resources.Get "js/print-support.js") }}
-  {{ $jsResources = $jsResources | append (resources.Get "js/tutor-cta.js") }}
+  {{ with resources.Get "js/katex-render.js" }}{{ $jsResources = $jsResources | append . }}{{ end }}
+  {{ with resources.Get "js/print-support.js" }}{{ $jsResources = $jsResources | append . }}{{ end }}
+  {{ with resources.Get "js/tutor-cta.js" }}{{ $jsResources = $jsResources | append . }}{{ end }}
   {{ if $jsResources }}
     {{ $bundleJS := $jsResources | resources.Concat "js/main.bundle.js" | resources.Minify | resources.Fingerprint $alg }}
     <script
