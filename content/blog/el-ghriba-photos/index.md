@@ -1,6 +1,7 @@
 ---
 title: El Ghriba Photos
 date: '2025-11-26T10:45:29+02:00'
+last_modified: "2026-05-17"
 tags:
 - el-ghriba-synagogue
 - djerba
@@ -41,14 +42,14 @@ summary: Pictures from our visit to the El Ghriba synagogue in Djerba, Tunisia.
 {{< figure
     src="aron-kodesh.jpeg"
     alt="The Torah Ark"
-    caption="هَيْ صُوَرة لواجِهَة هيكل التوراة.  الألواح الفِضّيّة المعلّقة بَرّا الهيكل.  وهون الخزانة المُقدّسة اللي بيحطّوا فيها سِفِر التوراة."
+    caption="وهون الخزانة نفسها اللي بيحطّوا فيها سِفِر التوراة."
     >}}
 
 ---
 {{< figure
     src="interior-of-synagogue.jpeg"
     alt="Inside the sanctuary"
-    caption="هَيْ صُوَرة لواجِهَة هيكل التوراة.  الألواح الفِضّيّة المعلّقة بَرّا الهيكل.  وهون الخزانة المُقدّسة اللي بيحطّوا فيها سِفِر التوراة."
+caption="هون أنا ومرتي واقفين قدّام البيما، المكان اللي بيقروا فيه من التوراة."
     >}}
 
 
