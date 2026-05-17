@@ -1,4 +1,4 @@
-{{- $pageLang := .Params.postLang | default (site.Language.LanguageCode | default site.LanguageCode | default `en`) -}}
+{{- $pageLang := .Params.postLang | default (site.Language.Locale | default site.Language.Lang | default `en`) -}}
 <!doctype html>
 <html
   lang="{{ $pageLang }}"

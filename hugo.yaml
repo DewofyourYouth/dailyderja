@@ -1,6 +1,6 @@
 baseURL: "https://dailyderja.com/"
 publishDir: "public"
-languageCode: ar
+locale: ar
 title: The Daily Derja
 theme: blowfish
 enableEmojis: true
