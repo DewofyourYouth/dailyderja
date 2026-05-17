@@ -1,6 +1,6 @@
 <head>
   <meta charset="utf-8">
-  {{ with .Site.Language.Params.htmlCode | default .Site.LanguageCode }}
+  {{ with .Site.Language.Params.htmlCode | default .Site.Language.Locale }}
     <meta http-equiv="content-language" content="{{ . }}">
   {{ end }}
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -147,7 +147,7 @@
   {{- $isArticle := .IsPage -}}
   {{- $siteTitle := .Site.Title | emojify -}}
   {{- $pageTitle := cond .IsHome $siteTitle (printf "%s · %s" (.Title | emojify) $siteTitle) -}}
-  {{- $siteLocale := .Site.Language.LanguageCode | default .Site.Language.Lang -}}
+  {{- $siteLocale := .Site.Language.Locale | default .Site.Language.Lang -}}
   {{- $twitterSummary := .Params.Summary | default .Summary | default .Params.Description | default .Site.Params.description -}}
   {{- $socialImage := "" -}}
   {{- with .Params.socialImage -}}
