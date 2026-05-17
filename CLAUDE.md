@@ -115,3 +115,18 @@ Each series is named **نسمة X** ("Nasmat X" = "a breeze of X"). Posts use `s
 - **Faith/culture:** `jewish-holidays`, `hanukkah`, `faith-culture`, `el-ghriba-synagogue`
 - **Media:** `music`, `spotify-playlist`, `music-discovery`, `video`, `vlog`
 - **Tech:** `obsidian`, `notebooklm`, `ckad`, `kubernetes`
+
+### The كلام Section
+
+At the end of each post, there is a "كلام" ("Kalam" = "Words") section that breaks down key Arabic phrases from the post with IPA and English meanings. This is meant to help readers learn useful expressions in context. The table format includes:
+
+| Arabic | IPA | Meaning |
+| ------ | --- | ------- |
+
+The Arabic column shows the original phrase in Arabic script, the IPA column provides a phonetic transcription, and the Meaning column gives an English translation or explanation. This section is a key educational component of the site, reinforcing language learning through real-life examples.
+
+Only choose a few phrases that are particularly interesting, idiomatic, or relevant to the post's story. The goal is to provide readers with practical language takeaways that they can use in their own conversations, not to be an exhaustive translation of the entire post.
+
+## Arabic Typography
+
+In Arabic post body text, always use guillemets for quotation marks: «like this» — never straight ASCII quotes `"like this"`. Straight quotes render incorrectly in RTL context.
