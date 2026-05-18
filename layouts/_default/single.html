@@ -7,7 +7,7 @@
 <article dir="rtl" lang="{{ $lang }}">
     {{ else }}
 
-  <article>
+  <article lang="{{ $lang }}">
      {{ end }}
     {{/* Hero */}}
     {{ if .Params.showHero | default (site.Params.article.showHero | default false) }}
