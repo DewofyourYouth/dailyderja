@@ -34,6 +34,16 @@ Arij is my #1 Tunisian tutor pick. She’s encouraging, organized, and very resp
 
 ---
 
+## Levantine Arabic (Shami)
+
+### [Abodi](https://www.italki.com/en/i/reft/AaAcEbE/AcEC6A/arabic?hl=en&utm_medium=share_teacher&utm_source=copylink_share)
+
+Abodi is my go-to for Levantine Arabic. A friend I'd recommend without hesitation. He is from Syria and has a great teaching style. He’s patient, clear, and really good at giving feedback. I’ve learned a lot from him and always look forward to our sessions.
+
+[Book with Abodi Here](https://www.italki.com/en/i/reft/AaAcEbE/AcEC6A/arabic?hl=en&utm_medium=share_teacher&utm_source=copylink_share)
+
+---
+
 ## Disclaimers
 
 > I’m not paid by these tutors. Some links may give me platform credit.
