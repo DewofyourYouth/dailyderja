@@ -1,0 +1,16 @@
+{{/* layouts/shortcodes/tiktok.html */}}
+{{- $raw := .Get "id" | default (.Get 0) -}}
+{{- if hasPrefix $raw "http" -}}
+  {{- $raw = replaceRE `.*tiktok\.com/@[^/]+/video/(\d+).*` "$1" $raw -}}
+{{- end -}}
+{{- $class := .Get "class" | default "yt-embed--short" -}}
+
+<div class="tiktok-embed {{ $class }}">
+  <iframe
+    src="https://www.tiktok.com/embed/v2/{{ $raw }}"
+    allowfullscreen
+    allow="encrypted-media"
+    loading="lazy"
+    style="border: 0; width: 100%; height: 100%;"
+  ></iframe>
+</div>

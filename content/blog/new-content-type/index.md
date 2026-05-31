@@ -28,7 +28,7 @@ cssclasses:
 
 ## فيديو
 
-{{< youtube id="fQmXM-Z0kWc" class="yt-embed yt-embed--short" >}}
+{{< tiktok id="7646109828779199765"  >}}
 
 ---
 {{< ltr >}}
