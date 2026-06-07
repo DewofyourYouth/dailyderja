@@ -19,7 +19,7 @@ dialects:
   - shami
 series:
   - نسمة نهار
-series_order:
+series_order: 15
 postLang: ar
 cssclasses:
   - arabic-note
@@ -34,6 +34,7 @@ cssclasses:
 بعد الفطور، أنا عادةً بدوّر على شغل، وببلّش أعمل الأشياء اللي على جدول اليوم.
 
 {{< join-channels >}}
+
 ## كلام
 
 | Arabic | IPA | Meaning |
