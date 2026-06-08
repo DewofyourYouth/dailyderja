@@ -10,36 +10,85 @@
     {{ end }}
   {{- end -}}
 
+  {{ if eq .Data.Singular "series" }}
+    {{/* ---- Custom "Nasmat" series catalogue ---- */}}
+    {{ $breeze := `<svg viewBox="0 0 28 18" aria-hidden="true" focusable="false"><path d="M2 5h13a3 3 0 1 0-3-3"/><path d="M2 9h18a3.4 3.4 0 1 1-3.4 3.4"/><path d="M2 13h9a2.4 2.4 0 1 0-2.4 2.4"/></svg>` }}
+    <section class="sx">
+      <div class="sx__atmos" aria-hidden="true"><span class="sx__watermark">نسمات</span></div>
+      <header class="sx__head">
+        <span class="sx__eyebrow">{{ $breeze | safeHTML }}<span dir="rtl" lang="ar">نَسَمات</span></span>
+        <h1 class="sx__title">{{ .Title }}</h1>
+        {{ with .Content }}<div class="sx__intro">{{ . }}</div>{{ end }}
+      </header>
 
-  <header class="mt-5">
-    {{ if .Params.showBreadcrumbs | default (site.Params.taxonomy.showBreadcrumbs | default false) }}
-      {{ partial "breadcrumbs.html" . }}
-    {{ end }}
-    <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
-    <div class="mt-1 mb-2 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
-      {{ partial "article-meta/taxonomy.html" (dict "context" . "scope" "single") }}
-    </div>
-  </header>
-  {{ if .Content }}
-    <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
-      <div class="min-w-0 min-h-0 max-w-prose">
-        {{ .Content }}
+      <div class="sx__grid">
+        {{/* active series, most-published first */}}
+        {{ range .Data.Terms.ByCount }}
+          {{ $p := .Page }}
+          {{ $count := .Count }}
+          <a class="sx-card" href="{{ $p.RelPermalink }}">
+            <span class="sx-card__glyph" aria-hidden="true">{{ $breeze | safeHTML }}</span>
+            <span class="sx-card__count"><b>{{ $count }}</b><span>{{ if eq $count 1 }}post{{ else }}posts{{ end }}</span></span>
+            <h2 class="sx-card__ar" dir="rtl" lang="ar">{{ $p.Title | emojify }}</h2>
+            {{ with $p.Params.ipa }}<span class="sx-card__ipa">{{ . }}</span>{{ end }}
+            {{ with $p.Params.english }}<span class="sx-card__en">{{ . }}</span>{{ end }}
+            {{ $desc := $p.Params.description | default $p.Description | default $p.Summary }}
+            {{ with $desc }}<p class="sx-card__desc">{{ . }}</p>{{ end }}
+            <span class="sx-card__go" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+          </a>
+        {{ end }}
+
+        {{/* planned series with no posts yet — shown as «قريباً» */}}
+        {{ range (where (where site.Pages "Kind" "term") "Section" "series").ByTitle }}
+          {{ if eq (len .Pages) 0 }}
+            {{ $p := . }}
+            <a class="sx-card sx-card--empty" href="{{ $p.RelPermalink }}">
+              <span class="sx-card__glyph" aria-hidden="true">{{ $breeze | safeHTML }}</span>
+              <span class="sx-card__count sx-card__count--soon" dir="rtl" lang="ar">قريباً</span>
+              <h2 class="sx-card__ar" dir="rtl" lang="ar">{{ $p.Title | emojify }}</h2>
+              {{ with $p.Params.ipa }}<span class="sx-card__ipa">{{ . }}</span>{{ end }}
+              {{ with $p.Params.english }}<span class="sx-card__en">{{ . }}</span>{{ end }}
+              {{ $desc := $p.Params.description | default $p.Description | default $p.Summary }}
+              {{ with $desc }}<p class="sx-card__desc">{{ . }}</p>{{ end }}
+            </a>
+          {{ end }}
+        {{ end }}
       </div>
     </section>
-  {{ end }}
 
-  {{ if site.Params.taxonomy.cardView }}
-    <section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
-      {{ range .Data.Terms }}
-        {{ partial "term-link/card.html" . }}
-      {{ end }}
-    </section>
   {{ else }}
-
-    <section class="flex flex-wrap max-w-prose -mx-2 overflow-hidden">
-      {{ range .Data.Terms }}
-        {{ partial "term-link/text.html" . }}
+    {{/* ---- Default taxonomy term list (tags / categories / dialects) ---- */}}
+    <header class="mt-5">
+      {{ if .Params.showBreadcrumbs | default (site.Params.taxonomy.showBreadcrumbs | default false) }}
+        {{ partial "breadcrumbs.html" . }}
       {{ end }}
-    </section>
+      <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
+      <div class="mt-1 mb-2 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+        {{ partial "article-meta/taxonomy.html" (dict "context" . "scope" "single") }}
+      </div>
+    </header>
+    {{ if .Content }}
+      <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+        <div class="min-w-0 min-h-0 max-w-prose">
+          {{ .Content }}
+        </div>
+      </section>
+    {{ end }}
+
+    {{ if site.Params.taxonomy.cardView }}
+      <section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+        {{ range .Data.Terms }}
+          {{ partial "term-link/card.html" . }}
+        {{ end }}
+      </section>
+    {{ else }}
+      <section class="flex flex-wrap max-w-prose -mx-2 overflow-hidden">
+        {{ range .Data.Terms }}
+          {{ partial "term-link/text.html" . }}
+        {{ end }}
+      </section>
+    {{ end }}
   {{ end }}
 {{ end }}

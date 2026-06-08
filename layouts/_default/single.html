@@ -29,9 +29,21 @@
       <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
         {{ .Title | emojify }}
       </h1>
-      <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+      <div class="mt-1 mb-3 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
         {{ partial "article-meta/basic.html" (dict "context" . "scope" "single") }}
       </div>
+      {{ with .Params.dialects }}
+        <div class="post-dialects" dir="ltr">
+          {{ range . }}
+            {{ $d := . | lower }}
+            <a class="dialect-badge dialect-badge--{{ $d }}" href="{{ (printf "/dialects/%s/" (. | urlize)) | relLangURL }}" aria-label="Dialect: {{ . | title }}">
+              {{ if eq $d "shami" }}<b dir="rtl" lang="ar">شامي</b><i>Levantine</i>
+              {{ else if eq $d "tunisian" }}<b dir="rtl" lang="ar">تونسي</b><i>Tunisian</i>
+              {{ else }}<i>{{ . | title }}</i>{{ end }}
+            </a>
+          {{ end }}
+        </div>
+      {{ end }}
       {{ if not (.Params.showAuthorBottom | default (site.Params.article.showAuthorBottom | default false)) }}
         {{ template "SingleAuthor" . }}
       {{ end }}

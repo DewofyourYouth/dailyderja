@@ -1142,3 +1142,466 @@ section.article-ltr {
   .hp-hero__btn,
   .hp-hero__social-link { transition: none; }
 }
+
+/* ================================
+   Series catalogue — "Nasmat" cards
+   (layouts/_default/terms.html, series branch)
+   ================================= */
+
+.sx {
+  --s-gold: var(--color-accent, #c6843a);
+  --s-gold-deep: var(--color-accent-dark, #9f6429);
+  --s-gold-soft: var(--color-accent-light, #ebd3aa);
+  --s-ink: #2c2113;
+  --s-ink-soft: #6a5836;
+  --s-paper: #fbf4e7;
+  --s-paper-2: #f1e2c9;
+  --s-line: rgba(159, 100, 41, 0.26);
+  position: relative;
+  margin-top: 1rem;
+}
+.dark .sx {
+  --s-ink: #f1e4cc;
+  --s-ink-soft: #cbb68d;
+  --s-paper: #241c12;
+  --s-paper-2: #2e2316;
+  --s-line: rgba(235, 211, 170, 0.2);
+}
+
+.sx__atmos {
+  position: absolute;
+  inset: -1rem 0 auto 0;
+  height: 16rem;
+  overflow: hidden;
+  z-index: 0;
+  pointer-events: none;
+}
+.sx__watermark {
+  position: absolute;
+  right: -2%;
+  top: -3rem;
+  font-family: "Lalezar", system-ui, sans-serif;
+  font-size: clamp(8rem, 18vw, 16rem);
+  line-height: 1;
+  color: var(--s-gold);
+  opacity: 0.06;
+  white-space: nowrap;
+  user-select: none;
+}
+
+.sx__head {
+  position: relative;
+  z-index: 2;
+  margin: 0.5rem 0 2rem;
+}
+.sx__eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  font-family: "Lalezar", system-ui, sans-serif;
+  font-size: 1.05rem;
+  color: var(--s-gold-deep);
+}
+.dark .sx__eyebrow { color: var(--s-gold-soft); }
+.sx__eyebrow svg {
+  width: 1.7em;
+  height: 1.1em;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  opacity: 0.85;
+}
+.sx__title {
+  margin: 0.4rem 0 0;
+  font-family: "Lalezar", system-ui, sans-serif;
+  font-weight: 400;
+  font-size: clamp(2.6rem, 5vw, 3.8rem);
+  line-height: 1.05;
+  color: var(--s-ink);
+}
+.sx__intro {
+  margin: 0.5rem 0 0;
+  max-width: 42rem;
+  font-family: "Zain", system-ui, sans-serif;
+  font-size: clamp(1.05rem, 1.3vw, 1.18rem);
+  line-height: 1.6;
+  color: var(--s-ink-soft);
+}
+.sx__intro p { margin: 0; }
+
+.sx__grid {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(16.5rem, 1fr));
+  gap: 1.1rem;
+}
+
+.sx-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 1.4rem 1.5rem;
+  border-radius: 16px;
+  overflow: hidden;
+  isolation: isolate;
+  text-decoration: none !important;
+  color: var(--s-ink) !important;
+  background:
+    radial-gradient(120% 90% at 92% -10%, rgba(198, 132, 58, 0.14), transparent 56%),
+    linear-gradient(158deg, var(--s-paper) 0%, var(--s-paper-2) 100%);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.5) inset,
+    0 14px 34px -22px rgba(56, 38, 12, 0.5);
+  transition: transform 0.32s cubic-bezier(0.2, 0.7, 0.2, 1),
+    box-shadow 0.32s ease;
+}
+.sx-card::after {
+  content: "";
+  position: absolute;
+  inset: 8px;
+  border: 1px solid var(--s-line);
+  border-radius: 10px;
+  pointer-events: none;
+}
+.dark .sx-card {
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.04) inset,
+    0 16px 38px -22px rgba(0, 0, 0, 0.65);
+}
+.sx-card:hover {
+  transform: translateY(-4px);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.55) inset,
+    0 22px 44px -22px rgba(56, 38, 12, 0.6);
+}
+
+.sx-card__glyph {
+  color: var(--s-gold);
+  opacity: 0.5;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.sx-card__glyph svg {
+  width: 2rem;
+  height: 1.25rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+}
+.sx-card:hover .sx-card__glyph {
+  opacity: 0.95;
+  transform: translateX(3px);
+}
+
+.sx-card__count {
+  position: absolute;
+  top: 1.2rem;
+  right: 1.2rem;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1;
+  padding: 0.35rem 0.6rem;
+  border-radius: 10px;
+  color: #fff8ec;
+  background: radial-gradient(circle at 35% 28%, #e6b873, var(--s-gold) 55%, var(--s-gold-deep));
+  box-shadow: 0 5px 12px -4px rgba(159, 100, 41, 0.6);
+}
+.sx-card__count b {
+  font-family: "Zain", system-ui, sans-serif;
+  font-size: 1.15rem;
+  font-weight: 800;
+}
+.sx-card__count span {
+  font-family: "Zain", system-ui, sans-serif;
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  opacity: 0.92;
+}
+.sx-card__count--soon {
+  flex-direction: row;
+  padding: 0.3rem 0.6rem;
+  font-family: "Lalezar", system-ui, sans-serif;
+  font-size: 0.85rem;
+  letter-spacing: 0;
+  color: var(--s-gold-deep);
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid var(--s-line);
+  box-shadow: none;
+}
+.dark .sx-card__count--soon {
+  color: var(--s-gold-soft);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.sx-card__ar {
+  margin: 0.9rem 0 0;
+  font-family: "Lalezar", system-ui, sans-serif;
+  font-weight: 400;
+  font-size: clamp(2rem, 3.4vw, 2.5rem);
+  line-height: 1.1;
+  color: var(--s-ink);
+  transition: color 0.3s ease;
+}
+.sx-card:hover .sx-card__ar { color: var(--s-gold-deep); }
+.dark .sx-card:hover .sx-card__ar { color: var(--s-gold-soft); }
+
+.sx-card__ipa {
+  display: block;
+  margin-top: 0.3rem;
+  font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  font-size: 0.85rem;
+  letter-spacing: 0.02em;
+  color: var(--s-gold-deep);
+  opacity: 0.85;
+}
+.dark .sx-card__ipa { color: var(--s-gold-soft); }
+
+.sx-card__en {
+  display: block;
+  margin-top: 0.55rem;
+  font-family: "Zain", system-ui, sans-serif;
+  font-weight: 800;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--s-ink-soft);
+}
+
+.sx-card__desc {
+  margin: 0.6rem 0 0;
+  font-family: "Zain", system-ui, sans-serif;
+  font-size: 0.97rem;
+  line-height: 1.5;
+  color: var(--s-ink-soft);
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.sx-card__go {
+  margin-top: 1rem;
+  align-self: flex-end;
+  color: var(--s-gold-deep);
+  opacity: 0;
+  transform: translateX(-6px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.dark .sx-card__go { color: var(--s-gold-soft); }
+.sx-card__go svg { width: 1.3rem; height: 1.3rem; display: block; }
+.sx-card:hover .sx-card__go {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* empty / upcoming series */
+.sx-card--empty {
+  opacity: 0.66;
+  filter: saturate(0.7);
+}
+.sx-card--empty .sx-card__glyph { opacity: 0.3; }
+.sx-card--empty:hover { transform: translateY(-2px); }
+
+@media (prefers-reduced-motion: reduce) {
+  .sx-card,
+  .sx-card__glyph,
+  .sx-card__ar,
+  .sx-card__go { transition: none; }
+}
+
+/* ================================
+   Single post — reading enhancements
+   (layouts/_default/single.html + .article-content)
+   ================================= */
+
+.article-content {
+  --ac-gold: var(--color-accent, #c6843a);
+  --ac-gold-deep: var(--color-accent-dark, #9f6429);
+  --ac-gold-soft: var(--color-accent-light, #ebd3aa);
+  --ac-line: rgba(159, 100, 41, 0.22);
+  --ac-line-soft: rgba(159, 100, 41, 0.12);
+  --ac-fill: rgba(198, 132, 58, 0.06);
+}
+.dark .article-content {
+  --ac-line: rgba(235, 211, 170, 0.18);
+  --ac-line-soft: rgba(235, 211, 170, 0.09);
+  --ac-fill: rgba(235, 211, 170, 0.05);
+}
+
+/* --- scene-break: a breeze glyph instead of a rule --- */
+.article-content hr {
+  border: 0;
+  height: 1.4rem;
+  margin: 2.6rem 0;
+  background:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='18' fill='none' stroke='%23c6843a' stroke-width='1.7' stroke-linecap='round'%3E%3Cpath d='M2 5h13a3 3 0 1 0-3-3'/%3E%3Cpath d='M2 9h18a3.4 3.4 0 1 1-3.4 3.4'/%3E%3Cpath d='M2 13h9a2.4 2.4 0 1 0-2.4 2.4'/%3E%3C/svg%3E")
+    center / 2.1rem no-repeat;
+  opacity: 0.75;
+}
+
+/* --- manuscript tables (the كلام / vocab tables) --- */
+.article-content table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 1.9rem 0;
+  font-family: "Zain", system-ui, sans-serif;
+  font-size: 1rem;
+  line-height: 1.55;
+  border: 1px solid var(--ac-line);
+  border-radius: 13px;
+  overflow: hidden;
+  box-shadow: 0 14px 32px -22px rgba(56, 38, 12, 0.5);
+}
+.article-content thead th {
+  padding: 0.7rem 1rem;
+  text-align: start;
+  font-weight: 800;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ac-gold-deep);
+  background: linear-gradient(180deg, rgba(198, 132, 58, 0.16), rgba(198, 132, 58, 0.07));
+  border-bottom: 1px solid var(--ac-line);
+}
+.dark .article-content thead th { color: var(--ac-gold-soft); }
+.article-content tbody td {
+  padding: 0.65rem 1rem;
+  vertical-align: top;
+  border-top: 1px solid var(--ac-line-soft);
+}
+.article-content tbody tr:first-child td { border-top: 0; }
+.article-content tbody tr:nth-child(even) { background: var(--ac-fill); }
+/* first column of vocab tables usually holds the Arabic term */
+.article-content tbody td:first-child {
+  font-family: "Lalezar", system-ui, sans-serif;
+  font-size: 1.45rem;
+  line-height: 1.2;
+  color: var(--ac-gold-deep);
+  white-space: nowrap;
+}
+.dark .article-content tbody td:first-child { color: var(--ac-gold-soft); }
+
+/* --- blockquote: gold breeze callout --- */
+.article-content blockquote {
+  position: relative;
+  margin: 1.7rem 0;
+  padding: 1rem 1.25rem;
+  border-inline-start: 3px solid var(--ac-gold);
+  border-radius: 0 12px 12px 0;
+  background: linear-gradient(90deg, var(--ac-fill), transparent 72%);
+}
+[dir="rtl"] .article-content blockquote,
+.article-content [dir="rtl"] blockquote { border-radius: 12px 0 0 12px; }
+
+/* --- body text links --- */
+.article-content p a,
+.article-content li a {
+  color: var(--ac-gold-deep);
+  text-decoration: underline;
+  text-decoration-color: var(--ac-line);
+  text-underline-offset: 0.18em;
+  transition: text-decoration-color 0.18s ease, color 0.18s ease;
+}
+.article-content p a:hover,
+.article-content li a:hover {
+  color: var(--ac-gold);
+  text-decoration-color: var(--ac-gold);
+}
+.dark .article-content p a,
+.dark .article-content li a { color: var(--ac-gold-soft); }
+
+/* --- article header: gold kicker + dialect-coloured tag pills --- */
+#single_header h1::after {
+  content: "";
+  display: block;
+  width: 3rem;
+  height: 4px;
+  margin-top: 0.7rem;
+  border-radius: 2px;
+  background: linear-gradient(90deg, var(--color-accent, #c6843a), var(--color-accent-light, #ebd3aa));
+}
+#single_header a[href*="/tags/"] span,
+#single_header a[href*="/categories/"] span,
+#single_header a[href*="/dialects/"] span {
+  border-color: var(--color-accent, #c6843a) !important;
+  color: var(--color-accent-dark, #9f6429) !important;
+  background: rgba(198, 132, 58, 0.08);
+  border-radius: 999px !important;
+  padding: 0.12rem 0.62rem !important;
+  font-weight: 600;
+  transition: background 0.18s ease, color 0.18s ease;
+}
+.dark #single_header a[href*="/tags/"] span,
+.dark #single_header a[href*="/categories/"] span,
+.dark #single_header a[href*="/dialects/"] span {
+  color: var(--color-accent-light, #ebd3aa) !important;
+}
+#single_header a[href*="/tags/"]:hover span,
+#single_header a[href*="/categories/"]:hover span,
+#single_header a[href*="/dialects/"]:hover span {
+  background: var(--color-accent, #c6843a);
+  color: #fff8ec !important;
+}
+
+/* ================================
+   Dialect indicators — Tunisian vs Shami
+   ================================= */
+
+.post-dialects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.55rem 0 1rem;
+}
+.dialect-badge {
+  --dc: var(--color-accent, #c6843a);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  padding: 0.32rem 0.85rem 0.32rem 0.7rem;
+  border-radius: 999px;
+  font-family: "Zain", system-ui, sans-serif;
+  line-height: 1;
+  color: var(--dc);
+  background: color-mix(in srgb, var(--dc) 11%, transparent);
+  border: 1px solid color-mix(in srgb, var(--dc) 36%, transparent);
+  transition: transform 0.18s ease, background 0.18s ease;
+}
+a.dialect-badge:hover {
+  transform: translateY(-1px);
+  background: color-mix(in srgb, var(--dc) 18%, transparent);
+}
+.dialect-badge::before {
+  content: "";
+  width: 0.62rem;
+  height: 0.62rem;
+  border-radius: 50%;
+  background: var(--dc);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--dc) 20%, transparent);
+}
+.dialect-badge b {
+  font-family: "Lalezar", system-ui, sans-serif;
+  font-weight: 400;
+  font-size: 1.15em;
+}
+.dialect-badge i {
+  font-style: normal;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.11em;
+  opacity: 0.85;
+}
+.dialect-badge--shami { --dc: #b5781f; }
+.dialect-badge--tunisian { --dc: #3f8597; }
+.dark .dialect-badge--shami { --dc: #e0b667; }
+.dark .dialect-badge--tunisian { --dc: #6db3c4; }
+
+@media (prefers-reduced-motion: reduce) {
+  .dialect-badge { transition: none; }
+}
