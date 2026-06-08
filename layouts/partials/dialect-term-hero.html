@@ -1,0 +1,32 @@
+{{/* Accented header for /dialects/<term>/ pages — Sidi Bou Said (Tunisian) / Damascene mosaic (Shami). */}}
+{{- $d := lower (.Data.Term | default .Title) -}}
+{{- $isTun := eq $d "tunisian" -}}
+{{- $count := len .Pages -}}
+{{- $ar := cond $isTun "تونسي" "شامي" -}}
+{{- $region := cond $isTun "الدارجة التونسية" "اللهجة الشامية" -}}
+{{- $en := cond $isTun "Tunisian Derja" "Levantine · Shami Arabic" -}}
+{{- $desc := cond $isTun
+  "The Maghrebi Arabic of Tunisia — where Daily Derja began, kept here as a sweet archive."
+  "The everyday Arabic of Syria, Lebanon, Palestine and Jordan — and the current heart of Daily Derja." -}}
+
+<section class="dterm dterm--{{ $d }}">
+  <div class="dterm__pattern" aria-hidden="true"></div>
+  <div class="dterm__inner">
+    <div class="dterm__copy">
+      <span class="dterm__eyebrow" dir="rtl" lang="ar">{{ $region }}</span>
+      <h1 class="dterm__title" dir="rtl" lang="ar">{{ $ar }}</h1>
+      <p class="dterm__en">{{ $en }}</p>
+      <p class="dterm__desc">{{ $desc }}</p>
+      <span class="dterm__count">{{ $count }} {{ cond (eq $count 1) "post" "posts" }}</span>
+    </div>
+    <div class="dterm__emblem" aria-hidden="true">
+      <span class="dterm__tile">
+        {{- if $isTun -}}
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M5 21V11a7 7 0 0 1 14 0v10"/><path d="M4 21h16"/><path d="M12 5.5V21"/><path d="M8.4 8a5 5 0 0 1 7.2 0"/></svg>
+        {{- else -}}
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round" focusable="false"><rect x="5.6" y="5.6" width="12.8" height="12.8"/><rect x="5.6" y="5.6" width="12.8" height="12.8" transform="rotate(45 12 12)"/></svg>
+        {{- end -}}
+      </span>
+    </div>
+  </div>
+</section>

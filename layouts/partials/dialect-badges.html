@@ -1,0 +1,42 @@
+{{/*
+  Cultural dialect indicators — Tunisian vs Shami (Levantine).
+  Tunisian → Sidi Bou Said (cobalt door); Shami → Damascene mosaic star.
+
+  Call with a page, or a dict:
+    {{ partial "dialect-badges.html" . }}
+    {{ partial "dialect-badges.html" (dict "ctx" .Page "size" "sm" "link" false) }}
+*/}}
+{{- $ctx := . -}}
+{{- $size := "" -}}
+{{- $link := true -}}
+{{- if reflect.IsMap . -}}
+  {{- $ctx = .ctx -}}
+  {{- with .size }}{{ $size = . }}{{ end -}}
+  {{- if isset . "link" }}{{ $link = .link }}{{ end -}}
+{{- end -}}
+{{- with $ctx.Params.dialects -}}
+<div class="post-dialects{{ with $size }} post-dialects--{{ . }}{{ end }}" dir="ltr">
+  {{- range . -}}
+    {{- $d := . | lower -}}
+    {{- $cls := printf "dialect-badge dialect-badge--%s" $d -}}
+    {{- if $link -}}
+    <a class="{{ $cls }}" href="{{ (printf "/dialects/%s/" (. | urlize)) | relLangURL }}" aria-label="Dialect: {{ . | title }}">
+    {{- else -}}
+    <span class="{{ $cls }}">
+    {{- end -}}
+      <span class="dialect-badge__motif" aria-hidden="true">
+        {{- if eq $d "tunisian" -}}
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M5 21V11a7 7 0 0 1 14 0v10"/><path d="M4 21h16"/><path d="M12 5.5V21"/><path d="M8.4 8a5 5 0 0 1 7.2 0"/></svg>
+        {{- else if eq $d "shami" -}}
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" focusable="false"><rect x="5.6" y="5.6" width="12.8" height="12.8"/><rect x="5.6" y="5.6" width="12.8" height="12.8" transform="rotate(45 12 12)"/></svg>
+        {{- else -}}
+          <svg viewBox="0 0 24 24" fill="currentColor" focusable="false"><circle cx="12" cy="12" r="5"/></svg>
+        {{- end -}}
+      </span>
+      {{- if eq $d "shami" -}}<b dir="rtl" lang="ar">شامي</b><i>Levantine</i>
+      {{- else if eq $d "tunisian" -}}<b dir="rtl" lang="ar">تونسي</b><i>Tunisian</i>
+      {{- else -}}<i>{{ . | title }}</i>{{- end -}}
+    {{- if $link -}}</a>{{- else -}}</span>{{- end -}}
+  {{- end -}}
+</div>
+{{- end -}}
