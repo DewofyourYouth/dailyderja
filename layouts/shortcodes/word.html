@@ -1,0 +1,128 @@
+{{/*
+  Word-of-the-day block — "نسمة كلمة"
+  A manuscript-style single-word spotlight for Shami vocab.
+
+  Usage:
+    {{< word ar="شَلَح" ipa="ʃalaħ" meaning="to strip / take off"
+             root="ش · ل · ح" pos="verb"
+             note="Damascene; Palestinian usage drifts toward 'to flee'."
+             audio="/audio/shalah.mp3" >}}
+
+  Params:
+    ar       (required) Arabic word, fully vocalised.
+    meaning  (required) English gloss.
+    ipa      (optional) phonetic transcription, written WITHOUT slashes.
+    tr       (optional) transliteration (shown italic).
+    root     (optional) triliteral root, e.g. "ش · ل · ح".
+    pos      (optional) part of speech chip, e.g. "verb".
+    note     (optional) one-line usage note (LTR).
+    audio    (optional) path to an mp3 under static/, e.g. "/audio/qasab.mp3".
+             The play button only renders when the file actually exists, so it
+             is safe to set this before the recording is in place.
+*/}}
+{{- $ar := .Get "ar" -}}
+{{- $meaning := .Get "meaning" -}}
+{{- $ipa := .Get "ipa" -}}
+{{- $tr := .Get "tr" -}}
+{{- $root := .Get "root" -}}
+{{- $pos := .Get "pos" -}}
+{{- $note := .Get "note" -}}
+{{- $audio := .Get "audio" -}}
+{{/* only show the button when the referenced static file is present */}}
+{{- $hasAudio := false -}}
+{{- with $audio -}}
+  {{- $rel := . | strings.TrimPrefix "/" -}}
+  {{- $hasAudio = os.FileExists (printf "static/%s" $rel) -}}
+{{- end -}}
+
+<aside class="dd-word" dir="rtl" lang="ar">
+  <div class="dd-word__frame">
+
+    <span class="dd-word__eyebrow">
+      <svg class="dd-word__breeze" viewBox="0 0 28 18" aria-hidden="true" focusable="false">
+        <path d="M2 5h13a3 3 0 1 0-3-3"/>
+        <path d="M2 9h18a3.4 3.4 0 1 1-3.4 3.4"/>
+        <path d="M2 13h9a2.4 2.4 0 1 0-2.4 2.4"/>
+      </svg>
+      <span>نسمة كلمة</span>
+    </span>
+
+    {{- with $pos }}<span class="dd-word__pos" dir="ltr" lang="en">{{ . }}</span>{{ end }}
+
+    <div class="dd-word__hero">
+      <h3 class="dd-word__ar">{{ $ar }}</h3>
+      <svg class="dd-word__kashida" viewBox="0 0 200 22" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+        <path class="dd-word__kashida-soft" d="M6 15 C 48 15, 70 7, 110 7 C 156 7, 174 16, 194 12"/>
+        <path class="dd-word__kashida-ink" d="M6 15 C 48 15, 70 7, 110 7 C 156 7, 174 16, 194 12"/>
+      </svg>
+    </div>
+
+    {{- with $root }}<p class="dd-word__root">{{ . }}</p>{{ end }}
+
+    <div class="dd-word__phon" dir="ltr" lang="en">
+      {{- with $ipa }}<span class="dd-word__ipa">/{{ . }}/</span>{{ end }}
+      {{- with $tr }}<span class="dd-word__tr">{{ . }}</span>{{ end }}
+      {{- if $hasAudio }}
+      <button type="button" class="dd-word__audio" aria-pressed="false"
+              aria-label="Play pronunciation of {{ $ar }}">
+        <svg class="dd-word__icon dd-word__icon--play" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 5.14v13.72a1 1 0 0 0 1.54.84l10.3-6.86a1 1 0 0 0 0-1.68L9.54 4.3A1 1 0 0 0 8 5.14z"/></svg>
+        <svg class="dd-word__icon dd-word__icon--pause" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="6.5" y="5" width="4" height="14" rx="1.4"/><rect x="13.5" y="5" width="4" height="14" rx="1.4"/></svg>
+        <span class="dd-word__audio-label" aria-hidden="true">استمع</span>
+      </button>
+      <audio class="dd-word__audioel" preload="none">
+        <source src="{{ $audio | relURL }}" type="audio/mpeg">
+      </audio>
+      {{- end }}
+    </div>
+
+    <p class="dd-word__meaning" dir="ltr" lang="en">{{ $meaning }}</p>
+
+    {{- with $note }}<p class="dd-word__note" dir="ltr" lang="en">{{ . }}</p>{{ end }}
+
+  </div>
+</aside>
+
+{{- if $hasAudio }}{{ if not (.Page.Scratch.Get "ddWordAudioJS") }}{{ .Page.Scratch.Set "ddWordAudioJS" true }}
+<script>
+(function () {
+  if (window.__ddWordAudio) return;
+  window.__ddWordAudio = true;
+  function stopAll(except) {
+    document.querySelectorAll('.dd-word__audioel').forEach(function (a) {
+      if (a !== except) { a.pause(); }
+    });
+    document.querySelectorAll('.dd-word__audio.is-playing').forEach(function (b) {
+      if (!except || b.closest('.dd-word') !== except.closest('.dd-word')) {
+        b.classList.remove('is-playing');
+        b.setAttribute('aria-pressed', 'false');
+      }
+    });
+  }
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest('.dd-word__audio');
+    if (!btn) return;
+    var card = btn.closest('.dd-word');
+    var audio = card && card.querySelector('.dd-word__audioel');
+    if (!audio) return;
+    if (audio.paused) {
+      stopAll(audio);
+      var p = audio.play();
+      if (p && p.catch) { p.catch(function () {}); }
+      btn.classList.add('is-playing');
+      btn.setAttribute('aria-pressed', 'true');
+    } else {
+      audio.pause();
+      btn.classList.remove('is-playing');
+      btn.setAttribute('aria-pressed', 'false');
+    }
+  });
+  document.addEventListener('ended', function (e) {
+    var el = e.target;
+    if (!el.classList || !el.classList.contains('dd-word__audioel')) return;
+    var card = el.closest('.dd-word');
+    var btn = card && card.querySelector('.dd-word__audio');
+    if (btn) { btn.classList.remove('is-playing'); btn.setAttribute('aria-pressed', 'false'); }
+  }, true);
+})();
+</script>
+{{ end }}{{ end }}

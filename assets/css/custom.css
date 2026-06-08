@@ -469,3 +469,333 @@ section.article-ltr {
     white-space: normal;
   }
 }
+
+/* ================================
+   Word-of-the-day block — «نسمة كلمة»
+   Manuscript specimen card for a single Shami word.
+   (shortcode: layouts/shortcodes/word.html)
+   ================================= */
+
+.dd-word {
+  --w-gold: var(--color-accent, #c6843a);
+  --w-gold-deep: var(--color-accent-dark, #9f6429);
+  --w-gold-soft: var(--color-accent-light, #ebd3aa);
+  --w-ink: #322713;
+  --w-ink-soft: #6a5836;
+  --w-paper: #fbf4e7;
+  --w-paper-2: #f1e2c9;
+  --w-line: rgba(159, 100, 41, 0.26);
+
+  position: relative;
+  max-width: 41rem;
+  margin: clamp(1.8rem, 5vw, 3rem) auto;
+  font-family: "Zain", system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: var(--w-ink);
+  isolation: isolate;
+}
+
+.dark .dd-word {
+  --w-ink: #f1e4cc;
+  --w-ink-soft: #c9b48b;
+  --w-paper: #241c12;
+  --w-paper-2: #2e2316;
+  --w-line: rgba(235, 211, 170, 0.22);
+}
+
+.dd-word__frame {
+  position: relative;
+  padding: clamp(1.5rem, 4.5vw, 2.5rem) clamp(1.6rem, 5vw, 2.9rem) clamp(1.7rem, 4.5vw, 2.3rem);
+  border-radius: 16px;
+  background:
+    radial-gradient(135% 95% at 88% -10%, rgba(198, 132, 58, 0.18), transparent 58%),
+    linear-gradient(158deg, var(--w-paper) 0%, var(--w-paper-2) 100%);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.55) inset,
+    0 22px 48px -26px rgba(56, 38, 12, 0.55),
+    0 5px 16px -10px rgba(56, 38, 12, 0.4);
+  overflow: hidden;
+  transition: transform 0.45s cubic-bezier(0.2, 0.7, 0.2, 1), box-shadow 0.45s ease;
+}
+
+.dark .dd-word__frame {
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.06) inset,
+    0 24px 52px -26px rgba(0, 0, 0, 0.7),
+    0 4px 14px -8px rgba(0, 0, 0, 0.5);
+}
+
+/* paper grain */
+.dd-word__frame::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  opacity: 0.05;
+  mix-blend-mode: multiply;
+}
+.dark .dd-word__frame::before {
+  opacity: 0.07;
+  mix-blend-mode: screen;
+}
+
+/* inset manuscript frame */
+.dd-word__frame::after {
+  content: "";
+  position: absolute;
+  inset: 11px;
+  border: 1px solid var(--w-line);
+  border-radius: 10px;
+  pointer-events: none;
+}
+
+.dd-word:hover .dd-word__frame {
+  transform: translateY(-3px);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.6) inset,
+    0 30px 60px -28px rgba(56, 38, 12, 0.6),
+    0 8px 22px -12px rgba(56, 38, 12, 0.45);
+}
+
+/* eyebrow */
+.dd-word .dd-word__eyebrow {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  margin: 0 0 0.3rem;
+  font-family: "Lalezar", system-ui, sans-serif;
+  font-size: 1rem;
+  line-height: 1;
+  letter-spacing: 0.01em;
+  color: var(--w-gold-deep);
+}
+.dark .dd-word .dd-word__eyebrow { color: var(--w-gold-soft); }
+
+.dd-word__breeze {
+  width: 1.7em;
+  height: 1.1em;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  opacity: 0.85;
+}
+
+/* part-of-speech chip */
+.dd-word .dd-word__pos {
+  position: absolute;
+  top: clamp(1.2rem, 3.4vw, 1.8rem);
+  left: clamp(1.3rem, 4.5vw, 2rem);
+  margin: 0;
+  padding: 0.28em 0.78em;
+  font-family: "Zain", sans-serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--w-gold-deep);
+  background: rgba(255, 255, 255, 0.4);
+  border: 1px solid var(--w-line);
+  border-radius: 999px;
+}
+.dark .dd-word .dd-word__pos {
+  color: var(--w-gold-soft);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* hero word */
+.dd-word__hero {
+  position: relative;
+  margin: 0.5rem 0 0.1rem;
+}
+.dd-word .dd-word__ar {
+  margin: 0;
+  font-family: "Lalezar", system-ui, sans-serif;
+  font-weight: 400;
+  font-size: clamp(3.2rem, 9vw, 5.2rem);
+  line-height: 1;
+  color: var(--w-ink);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.45);
+}
+.dark .dd-word .dd-word__ar { text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4); }
+
+/* kashida flourish */
+.dd-word__kashida {
+  display: block;
+  width: min(68%, 15rem);
+  height: 1.3rem;
+  margin: -0.15rem 0 0;
+  overflow: visible;
+}
+.dd-word__kashida path {
+  fill: none;
+  stroke-linecap: round;
+}
+.dd-word__kashida-soft {
+  stroke: var(--w-gold-soft);
+  stroke-width: 6;
+  opacity: 0.5;
+}
+.dd-word__kashida-ink {
+  stroke: var(--w-gold);
+  stroke-width: 2.6;
+  stroke-dasharray: 230;
+  stroke-dashoffset: 230;
+  animation: ddKashidaDraw 1s cubic-bezier(0.65, 0, 0.35, 1) 0.35s forwards;
+}
+
+/* root */
+.dd-word .dd-word__root {
+  margin: 0.55rem 0 0;
+  font-family: "Zain", sans-serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: var(--w-gold-deep);
+  opacity: 0.85;
+}
+.dark .dd-word .dd-word__root { color: var(--w-gold-soft); }
+
+/* phonetics row */
+.dd-word__phon {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.4rem 1rem;
+  margin: 0.7rem 0 0;
+}
+.dd-word__ipa {
+  font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  font-size: 1.05rem;
+  letter-spacing: 0.04em;
+  color: var(--w-gold-deep);
+}
+.dark .dd-word__ipa { color: var(--w-gold-soft); }
+.dd-word__tr {
+  font-family: "Zain", sans-serif;
+  font-style: italic;
+  font-size: 1.05rem;
+  color: var(--w-ink-soft);
+}
+
+/* pronunciation button */
+.dd-word__audio {
+  margin-inline-start: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  position: relative;
+  padding: 0.4rem 0.95rem 0.4rem 0.5rem;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  font-family: "Zain", sans-serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #fff8ec;
+  background: radial-gradient(circle at 32% 28%, #e8bd7c, var(--w-gold) 52%, var(--w-gold-deep));
+  box-shadow:
+    0 6px 16px -5px rgba(159, 100, 41, 0.65),
+    0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, filter 0.25s ease;
+}
+.dd-word__audio:hover {
+  transform: translateY(-2px);
+  filter: saturate(1.08);
+  box-shadow:
+    0 9px 20px -6px rgba(159, 100, 41, 0.7),
+    0 1px 0 rgba(255, 255, 255, 0.55) inset;
+}
+.dd-word__audio:focus-visible {
+  outline: 2px solid var(--w-gold-deep);
+  outline-offset: 3px;
+}
+.dd-word__audio:active { transform: translateY(0) scale(0.98); }
+
+.dd-word__icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: currentColor;
+  flex: none;
+}
+.dd-word__icon--pause { display: none; }
+.dd-word__audio.is-playing .dd-word__icon--play { display: none; }
+.dd-word__audio.is-playing .dd-word__icon--pause { display: block; }
+
+.dd-word__audio-label { line-height: 1; }
+
+/* radiating rings while playing */
+.dd-word__audio::before,
+.dd-word__audio::after {
+  content: "";
+  position: absolute;
+  left: 0.9rem;
+  top: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: -0.75rem 0 0 -0.75rem;
+  border-radius: 50%;
+  border: 2px solid var(--w-gold);
+  opacity: 0;
+  pointer-events: none;
+}
+.dd-word__audio.is-playing::before { animation: ddRing 1.8s ease-out infinite; }
+.dd-word__audio.is-playing::after { animation: ddRing 1.8s ease-out 0.6s infinite; }
+
+/* meaning */
+.dd-word .dd-word__meaning {
+  margin: 0.7rem 0 0;
+  font-family: "Zain", sans-serif;
+  font-weight: 700;
+  font-size: clamp(1.35rem, 2.4vw, 1.75rem);
+  line-height: 1.3;
+  color: var(--w-ink);
+}
+
+/* usage note */
+.dd-word .dd-word__note {
+  margin: 0.5rem 0 0;
+  font-family: "Zain", sans-serif;
+  font-style: italic;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--w-ink-soft);
+}
+
+/* entrance choreography */
+.dd-word__eyebrow { animation: ddRise 0.6s both 0.05s; }
+.dd-word__hero   { animation: ddRise 0.7s both 0.12s; }
+.dd-word__root   { animation: ddRise 0.6s both 0.2s; }
+.dd-word__phon   { animation: ddRise 0.6s both 0.28s; }
+.dd-word__meaning{ animation: ddRise 0.6s both 0.36s; }
+.dd-word__note   { animation: ddRise 0.6s both 0.44s; }
+
+@keyframes ddRise {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: none; }
+}
+@keyframes ddKashidaDraw {
+  to { stroke-dashoffset: 0; }
+}
+@keyframes ddRing {
+  0%   { opacity: 0.55; transform: scale(1); }
+  100% { opacity: 0; transform: scale(2.4); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .dd-word__eyebrow,
+  .dd-word__hero,
+  .dd-word__root,
+  .dd-word__phon,
+  .dd-word__meaning,
+  .dd-word__note,
+  .dd-word__kashida-ink,
+  .dd-word__audio.is-playing::before,
+  .dd-word__audio.is-playing::after {
+    animation: none;
+  }
+  .dd-word__kashida-ink { stroke-dashoffset: 0; }
+  .dd-word__frame,
+  .dd-word__audio { transition: none; }
+}
