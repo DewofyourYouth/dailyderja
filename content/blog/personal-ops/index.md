@@ -2,7 +2,7 @@
 title: Reed, Not Cedar
 summary: I built a Telegram bot to catch my passing thoughts, then made it gentler — guided by a Talmudic line about being a reed, not a cedar.
 date: '2026-06-08T15:34:19+03:00'
-draft: true
+draft: false
 tags:
   - telegram-bot
   - ai
