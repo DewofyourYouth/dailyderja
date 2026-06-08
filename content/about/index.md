@@ -28,13 +28,3 @@ Browse all the series: [Series](/series/).
 If you’re learning Arabic too—especially Levantine—you might find something useful. If not, it’s still a daily journal with photos, family notes, and plenty of coffee.
 
 This is my space to keep moving, keep learning, and breathe a little every day. Slowly, slowly — شوي شوي — نسمة بنسمة.
-
-## Who Am I?
-
-
-{{< figure
-    src="family.jpeg"
-    alt="Family Picture"
-    caption="Me and my five boys"
-    class="rtl-figure"
-    >}}
