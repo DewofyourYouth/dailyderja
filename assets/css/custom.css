@@ -1379,6 +1379,7 @@ section.article-ltr {
   color: var(--s-ink-soft);
   display: -webkit-box;
   -webkit-line-clamp: 3;
+  line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
