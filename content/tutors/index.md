@@ -26,21 +26,15 @@ I’ll keep adding to this over time, but I’d rather publish a useful shortlis
 
 ## Tunisian Dialect (Derja)
 
-### [Arij C.](https://preply.in/ARIJ3EN2460644610?ts=17695271)
-
-Arij is my #1 Tunisian tutor pick. She’s encouraging, organized, and very responsive to feedback. Sessions feel structured without feeling stiff — and I leave remembering things.
-
-[Book with Arij Here](https://preply.in/ARIJ3EN2460644610?ts=17695271)
-
----
+{{< tutor name="Arij C." dialect="tunisian" platform="Preply" location="Tunisia" url="https://preply.in/ARIJ3EN2460644610?ts=17695271" >}}
+My #1 Tunisian tutor pick. She’s encouraging, organized, and very responsive to feedback. Sessions feel structured without feeling stiff — and I leave remembering things.
+{{< /tutor >}}
 
 ## Levantine Arabic (Shami)
 
-### [Abodi](https://www.italki.com/en/i/reft/AaAcEbE/AcEC6A/arabic?hl=en&utm_medium=share_teacher&utm_source=copylink_share)
-
-Abodi is my go-to for Levantine Arabic. A friend I'd recommend without hesitation. He is from Syria and has a great teaching style. He’s patient, clear, and really good at giving feedback. I’ve learned a lot from him and always look forward to our sessions.
-
-[Book with Abodi Here](https://www.italki.com/en/i/reft/AaAcEbE/AcEC6A/arabic?hl=en&utm_medium=share_teacher&utm_source=copylink_share)
+{{< tutor name="Abodi" dialect="shami" platform="italki" location="Syria" url="https://www.italki.com/en/i/reft/AaAcEbE/AcEC6A/arabic?hl=en&utm_medium=share_teacher&utm_source=copylink_share" >}}
+My go-to for Levantine Arabic — a friend I’d recommend without hesitation. He’s from Syria with a great teaching style: patient, clear, and really good at giving feedback. I’ve learned a lot from him and always look forward to our sessions.
+{{< /tutor >}}
 
 ---
 

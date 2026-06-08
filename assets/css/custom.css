@@ -2162,3 +2162,163 @@ a.dialect-badge:focus-visible {
   .about-hero__frame { animation: none; }
   .about-hero__frame { transition: none; }
 }
+
+/* ================================
+   Tutors page — dialect-keyed tutor cards
+   (layouts/tutors/single.html + tutor shortcode)
+   ================================= */
+
+.tutors__body {
+  max-width: 46rem;
+  margin: 1.6rem auto 4rem;
+}
+
+.tutor-card {
+  --tc: #9f6429;
+  --tc-tile: #c6843a;
+  --tc-text: #5a4a2e;
+  --tc-pat: none;
+  position: relative;
+  overflow: hidden;
+  margin: 1.6rem 0;
+  padding: clamp(1.3rem, 3vw, 1.7rem) clamp(1.4rem, 3vw, 1.9rem);
+  border-radius: 16px;
+  border: 1px solid color-mix(in srgb, var(--tc) 26%, transparent);
+  border-inline-start: 5px solid var(--tc-tile);
+  box-shadow: 0 16px 36px -26px rgba(56, 38, 12, 0.5);
+}
+.tutor-card__head {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.tutor-card__motif {
+  position: relative;
+  flex: none;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 11px;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  color: #fff;
+  background: var(--tc-tile);
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 255, 255, 0.28),
+    0 4px 10px -3px rgba(0, 0, 0, 0.4);
+}
+.tutor-card__motif::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: var(--tc-pat);
+  background-size: 18px 18px;
+  opacity: 0.25;
+}
+.tutor-card__motif svg { position: relative; width: 1.7rem; height: 1.7rem; }
+
+.tutor-card__name {
+  margin: 0;
+  font-family: "Zain", system-ui, sans-serif;
+  font-weight: 800;
+  font-size: 1.45rem;
+  line-height: 1.1;
+  color: var(--tc);
+}
+.tutor-card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem;
+  margin: 0.35rem 0 0;
+  font-family: "Zain", system-ui, sans-serif;
+  font-size: 0.82rem;
+  color: var(--tc-text);
+}
+.tutor-card__meta span { opacity: 0.78; }
+.tutor-card__meta span + span::before {
+  content: "·";
+  margin-inline-end: 0.45rem;
+  opacity: 0.6;
+}
+.tutor-card__tag {
+  opacity: 1 !important;
+  padding: 0.12rem 0.6rem;
+  border-radius: 999px;
+  color: #fff;
+  background: var(--tc-tile);
+  font-weight: 700;
+  font-size: 0.66rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.tutor-card__tag + span::before { content: none; }
+
+.tutor-card__body {
+  margin: 1rem 0 0;
+  font-family: "Zain", system-ui, sans-serif;
+  font-size: 1.06rem;
+  line-height: 1.6;
+  color: var(--tc-text);
+}
+.tutor-card__body p { margin: 0; }
+
+.tutor-card__cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1.15rem;
+  padding: 0.62rem 1.35rem;
+  border-radius: 999px;
+  text-decoration: none !important;
+  font-family: "Zain", system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #fff !important;
+  background: var(--tc-tile);
+  box-shadow:
+    0 8px 18px -7px color-mix(in srgb, var(--tc-tile) 65%, transparent),
+    inset 0 1px 0 rgba(255, 255, 255, 0.35);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+}
+.tutor-card__cta:hover {
+  transform: translateY(-2px);
+  filter: saturate(1.08);
+  box-shadow:
+    0 12px 24px -8px color-mix(in srgb, var(--tc-tile) 75%, transparent),
+    inset 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+.tutor-card__cta svg { width: 1.1rem; height: 1.1rem; transition: transform 0.2s ease; }
+.tutor-card__cta:hover svg { transform: translateX(3px); }
+
+/* Shami → Damascene mosaic, gold */
+.tutor-card--shami {
+  --tc: #9f6429;
+  --tc-tile: #c6843a;
+  --tc-text: #5a4a2e;
+  --tc-pat: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20'%3E%3Cg fill='none' stroke='%23ffffff' stroke-width='1.2'%3E%3Crect x='4' y='4' width='12' height='12'/%3E%3Crect x='4' y='4' width='12' height='12' transform='rotate(45 10 10)'/%3E%3C/g%3E%3C/svg%3E");
+  background: linear-gradient(160deg, #fbf4e7 0%, #f4e8d2 100%);
+}
+.dark .tutor-card--shami {
+  --tc: #e2ba6e;
+  --tc-text: #cbb68d;
+  background: linear-gradient(160deg, #241c12 0%, #2c2114 100%);
+}
+
+/* Tunisian → Sidi Bou Said, cobalt */
+.tutor-card--tunisian {
+  --tc: #155a9e;
+  --tc-tile: #1b6ec2;
+  --tc-text: #3a5f80;
+  --tc-pat: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Cg fill='none' stroke='%23ffffff' stroke-width='1.3'%3E%3Ccircle cx='0' cy='0' r='12'/%3E%3Ccircle cx='24' cy='0' r='12'/%3E%3Ccircle cx='0' cy='24' r='12'/%3E%3Ccircle cx='24' cy='24' r='12'/%3E%3Ccircle cx='12' cy='12' r='12'/%3E%3C/g%3E%3C/svg%3E");
+  background: linear-gradient(160deg, #f4f9fd 0%, #e7f0fa 100%);
+}
+.dark .tutor-card--tunisian {
+  --tc: #7ab6e8;
+  --tc-text: #9fc3e4;
+  background: linear-gradient(160deg, #0f1d2c 0%, #13243a 100%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tutor-card__cta { transition: none; }
+}

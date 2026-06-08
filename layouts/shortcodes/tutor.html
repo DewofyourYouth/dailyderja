@@ -1,0 +1,46 @@
+{{/*
+  Tutor recommendation card, colour-keyed by dialect.
+  Shami → Damascene mosaic (gold); Tunisian → Sidi Bou Said (cobalt).
+
+  {{< tutor name="Abodi" dialect="shami" platform="italki" location="Syria"
+            url="https://..." >}}
+  Markdown blurb about the tutor.
+  {{< /tutor >}}
+*/}}
+{{- $name := .Get "name" -}}
+{{- $d := lower (.Get "dialect") -}}
+{{- $platform := .Get "platform" -}}
+{{- $location := .Get "location" -}}
+{{- $url := .Get "url" -}}
+{{- $label := cond (eq $d "tunisian") "Tunisian" (cond (eq $d "shami") "Levantine" (title $d)) -}}
+
+<div class="tutor-card tutor-card--{{ $d }}">
+  <div class="tutor-card__head">
+    <span class="tutor-card__motif" aria-hidden="true">
+      {{- if eq $d "tunisian" -}}
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M5 21V11a7 7 0 0 1 14 0v10"/><path d="M4 21h16"/><path d="M12 5.5V21"/><path d="M8.4 8a5 5 0 0 1 7.2 0"/></svg>
+      {{- else -}}
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" focusable="false"><rect x="5.6" y="5.6" width="12.8" height="12.8"/><rect x="5.6" y="5.6" width="12.8" height="12.8" transform="rotate(45 12 12)"/></svg>
+      {{- end -}}
+    </span>
+    <div class="tutor-card__id">
+      <h3 class="tutor-card__name">{{ $name }}</h3>
+      <p class="tutor-card__meta">
+        <span class="tutor-card__tag">{{ $label }}</span>
+        {{ with $location }}<span>{{ . }}</span>{{ end }}
+        {{ with $platform }}<span>{{ . }}</span>{{ end }}
+      </p>
+    </div>
+  </div>
+
+  <div class="tutor-card__body">
+    {{ .Inner | .Page.RenderString }}
+  </div>
+
+  {{ with $url }}
+  <a class="tutor-card__cta" href="{{ . }}" target="_blank" rel="noopener noreferrer sponsored">
+    <span>Book with {{ $name }}</span>
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </a>
+  {{ end }}
+</div>

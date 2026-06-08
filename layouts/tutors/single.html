@@ -1,0 +1,19 @@
+{{ define "main" }}
+  {{ .Scratch.Set "scope" "single" }}
+  {{ $breeze := `<svg viewBox="0 0 28 18" aria-hidden="true" focusable="false"><path d="M2 5h13a3 3 0 1 0-3-3"/><path d="M2 9h18a3.4 3.4 0 1 1-3.4 3.4"/><path d="M2 13h9a2.4 2.4 0 1 0-2.4 2.4"/></svg>` }}
+
+  <article class="tutors" lang="en">
+    <section class="sx">
+      <div class="sx__atmos" aria-hidden="true"><span class="sx__watermark">معلّم</span></div>
+      <header class="sx__head">
+        <span class="sx__eyebrow">{{ $breeze | safeHTML }}<span dir="rtl" lang="ar">معلّمين</span></span>
+        <h1 class="sx__title">{{ .Title }}</h1>
+        {{ with .Params.summary }}<div class="sx__intro"><p>{{ . }}</p></div>{{ end }}
+      </header>
+    </section>
+
+    <section class="article-content tutors__body">
+      {{ .Content }}
+    </section>
+  </article>
+{{ end }}
