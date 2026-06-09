@@ -1,0 +1,13 @@
+{{/* Compact dialect markers for a series-dropdown row. Pass a page. */}}
+{{- with .Params.dialects -}}
+<span class="series-dialects" dir="ltr">
+  {{- range . -}}
+    {{- $d := . | lower -}}
+    <span class="series-dialect series-dialect--{{ $d }}" title="{{ . | title }}">
+      {{- if eq $d "tunisian" -}}Tunisian
+      {{- else if eq $d "shami" -}}Levantine
+      {{- else -}}{{ . | title }}{{- end -}}
+    </span>
+  {{- end -}}
+</span>
+{{- end -}}

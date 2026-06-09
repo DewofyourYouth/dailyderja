@@ -1,0 +1,5 @@
+{{/* Bilingual date — English primary, Arabic companion */}}
+<time datetime="{{ . | time.Format "2006-01-02T15:04:05-07:00" }}">
+  <span class="bi-en">{{ .Format "2 January 2006" }}</span><span class="bi-ar" dir="rtl" lang="ar">{{ time.Format "January" . }}</span>
+</time>
+{{- /* Trim EOF */ -}}

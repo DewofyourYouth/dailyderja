@@ -2322,3 +2322,186 @@ a.dialect-badge:focus-visible {
 @media (prefers-reduced-motion: reduce) {
   .tutor-card__cta { transition: none; }
 }
+
+/* ================================
+   Bilingual meta & series banner (English + Arabic)
+   ================================= */
+
+/* Arabic companion text — muted, secondary to the English */
+.bi-ar {
+  margin-inline-start: 0.45em;
+  font-size: 0.9em;
+  font-weight: 400;
+  opacity: 0.6;
+}
+.bi-en + .bi-ar { unicode-bidi: isolate; }
+
+/* ---- series banner: clearly an expandable toggle ---- */
+.series-details {
+  --se-gold: var(--color-accent, #c6843a);
+  --se-gold-deep: var(--color-accent-dark, #9f6429);
+  --se-line: rgba(159, 100, 41, 0.25);
+  --se-paper: #fbf4e7;
+  --se-ink: #4a3a1f;
+  margin: 1.3rem 0 1.7rem !important;
+  padding: 0 !important;
+  border: 1px solid var(--se-line);
+  border-radius: 13px !important;
+  background: var(--se-paper);
+  box-shadow: 0 12px 30px -22px rgba(56, 38, 12, 0.45);
+}
+.dark .series-details {
+  --se-line: rgba(235, 211, 170, 0.2);
+  --se-paper: #241c12;
+  --se-ink: #e7d6b4;
+  --se-gold: #e0b667;
+  --se-gold-deep: #e0b667;
+}
+
+.series-summary {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5em 0.7em;
+  margin: 0;
+  padding: 0.85rem 1.1rem;
+  cursor: pointer;
+  font-family: "Zain", system-ui, sans-serif;
+  color: var(--se-gold-deep);
+  background: linear-gradient(90deg, rgba(198, 132, 58, 0.16), rgba(198, 132, 58, 0.06));
+  transition: background 0.2s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+.series-summary::-webkit-details-marker { display: none; }
+.series-summary::marker { content: ""; }
+.series-summary:hover {
+  background: linear-gradient(90deg, rgba(198, 132, 58, 0.26), rgba(198, 132, 58, 0.12));
+}
+.series-details[open] .series-summary {
+  border-bottom: 1px solid var(--se-line);
+}
+
+.series-summary__eyebrow {
+  padding: 0.16rem 0.55rem;
+  border: 1px solid var(--se-line);
+  border-radius: 999px;
+  font-size: 0.66rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.13em;
+  opacity: 0.85;
+}
+.series-summary__eyebrow .bi-ar { opacity: 0.8; }
+.series-summary__name {
+  font-family: "Lalezar", system-ui, sans-serif;
+  font-size: 1.3rem;
+  line-height: 1;
+  color: var(--se-ink);
+}
+.dark .series-summary__name { color: var(--se-ink); }
+.series-summary__name-en {
+  font-style: italic;
+  font-weight: 600;
+  opacity: 0.85;
+}
+
+.series-summary__toggle {
+  margin-inline-start: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  padding: 0.34rem 0.55rem 0.34rem 0.85rem;
+  border-radius: 999px;
+  color: #fff8ec;
+  background: radial-gradient(circle at 30% 25%, #e6b873, var(--se-gold) 55%, var(--color-accent-dark, #9f6429));
+  box-shadow: 0 5px 13px -5px rgba(159, 100, 41, 0.6);
+}
+.series-summary__count { font-size: 0.84rem; font-weight: 800; letter-spacing: 0.02em; }
+.series-summary__count .bi-ar { color: #fff8ec; opacity: 0.8; }
+.series-chevron {
+  width: 1.15rem;
+  height: 1.15rem;
+  transition: transform 0.28s ease;
+}
+.series-details[open] .series-chevron { transform: rotate(180deg); }
+.series-summary:hover .series-summary__toggle { filter: saturate(1.08); }
+
+/* revealed list */
+.series-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.55rem 1.15rem;
+  border-top: 1px dashed var(--se-line);
+  font-family: "Zain", system-ui, sans-serif;
+  font-size: 1rem;
+  color: var(--se-ink);
+}
+.series-item__link {
+  flex: 1 1 auto;
+  min-width: 0;
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.18s ease;
+}
+.series-item a.series-item__link:hover { color: var(--se-gold-deep); }
+.dark .series-item a.series-item__link:hover { color: var(--se-gold); }
+.series-item--current {
+  background: rgba(198, 132, 58, 0.07);
+  font-style: italic;
+}
+.series-item__ext {
+  margin-inline-start: 0.3em;
+  font-size: 0.85em;
+  color: var(--se-gold-deep);
+  opacity: 0.8;
+}
+.dark .series-item__ext { color: var(--se-gold); }
+
+/* per-post dialect markers in the dropdown */
+.series-dialects {
+  flex: none;
+  display: inline-flex;
+  gap: 0.3rem;
+}
+.series-dialect {
+  --sd: var(--color-accent, #c6843a);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+  padding: 0.12rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.64rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-style: normal;
+  color: var(--sd);
+  background: color-mix(in srgb, var(--sd) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--sd) 30%, transparent);
+  white-space: nowrap;
+}
+.series-dialect::before {
+  content: "";
+  width: 0.42rem;
+  height: 0.42rem;
+  border-radius: 50%;
+  background: var(--sd);
+}
+.series-dialect--tunisian { --sd: #1862a8; }
+.series-dialect--shami { --sd: #a96f1c; }
+.dark .series-dialect--tunisian { --sd: #7ab6e8; }
+.dark .series-dialect--shami { --sd: #e2ba6e; }
+@media (max-width: 520px) {
+  .series-dialect { font-size: 0; padding: 0.3rem; gap: 0; }
+  .series-dialect::before { width: 0.5rem; height: 0.5rem; }
+}
+.series-part {
+  font-weight: 800;
+  color: var(--se-gold-deep);
+  margin-inline-end: 0.3em;
+}
+.dark .series-part { color: var(--se-gold); }
+.series-part .bi-ar { font-weight: 400; }
+.series-sep { opacity: 0.4; margin: 0 0.2em; }

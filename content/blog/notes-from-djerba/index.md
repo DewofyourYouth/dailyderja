@@ -26,3 +26,5 @@ series_order: 5
 postLang: en
 externalUrl: https://open.substack.com/pub/dailyderja/p/notes-from-djerba?r=6ygm98&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true
 ---
+
+البوست مية في [Substack](https://open.substack.com/pub/dailyderja/p/notes-from-djerba?r=6ygm98&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true) لأنه فيه صور كتير، وكتبت فيه بالإنجليزي عشان أقدر أشارك التجربة مع ناس ما بتفهمش عربي.

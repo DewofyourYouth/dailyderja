@@ -1,0 +1,5 @@
+{{/* Bilingual word count */}}
+<span>
+  <span class="bi-en">{{ .WordCount }} {{ cond (eq .WordCount 1) "word" "words" }}</span><span class="bi-ar" dir="rtl" lang="ar">كلمة</span>
+</span>
+{{- /* Trim EOF */ -}}

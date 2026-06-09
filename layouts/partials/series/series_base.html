@@ -1,0 +1,41 @@
+{{ if .Params.series }}
+  {{ $seriesName := index .Params.series 0 }}
+  {{ $seriesLower := strings.ToLower $seriesName }}
+  {{ $seriesPage := site.GetPage (printf "/series/%s" $seriesName) }}
+  {{ $english := "" }}
+  {{ with $seriesPage }}{{ $english = .Params.english }}{{ end }}
+  {{ $count := len (index .Site.Taxonomies.series $seriesLower) }}
+
+  <summary class="series-summary">
+    <span class="series-summary__eyebrow"><span class="bi-en">Series</span><span class="bi-ar" dir="rtl" lang="ar">سلسلة</span></span>
+    <span class="series-summary__name" dir="rtl" lang="ar">{{ $seriesName }}</span>
+    {{ with $english }}<span class="series-summary__name-en">{{ . }}</span>{{ end }}
+    <span class="series-summary__toggle">
+      <span class="series-summary__count"><span class="bi-en">{{ $count }} posts</span><span class="bi-ar" dir="rtl" lang="ar">مقالات</span></span>
+      <svg class="series-chevron" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </span>
+  </summary>
+
+  {{ range $post := sort (index .Site.Taxonomies.series $seriesLower) "Params.series_order" }}
+    {{ if eq $post.Permalink $.Page.Permalink }}
+      <div class="series-item series-item--current">
+        <span class="series-item__link">
+          <span class="series-part">Part {{ $post.Params.series_order }}<span class="bi-ar" dir="rtl" lang="ar">{{ i18n "article.part" }}</span></span>
+          <span class="series-sep">·</span>
+          <span class="bi-en">This article</span><span class="bi-ar" dir="rtl" lang="ar">{{ i18n "article.this_article" }}</span>
+        </span>
+        {{ partial "series-dialects.html" $post }}
+      </div>
+    {{ else }}
+      <div class="series-item">
+        <a class="series-item__link"
+          {{ with $post.Params.externalUrl }}href="{{ . }}" target="_blank" rel="external noopener noreferrer"{{ else }}href="{{ $post.RelPermalink }}"{{ end }}>
+          <span class="series-part">Part {{ $post.Params.series_order }}<span class="bi-ar" dir="rtl" lang="ar">{{ i18n "article.part" }}</span></span>
+          <span class="series-sep">·</span>
+          {{ $post.Params.title }}{{ with $post.Params.externalUrl }}<span class="series-item__ext" aria-label="external link">↗</span>{{ end }}
+        </a>
+        {{ partial "series-dialects.html" $post }}
+      </div>
+    {{ end }}
+  {{ end }}
+{{ end }}
