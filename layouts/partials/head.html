@@ -226,7 +226,8 @@
     {{- $socialImageSubtype := .MediaType.SubType | lower -}}
     {{- $canProcessSocialImage := and (not ($.Site.Params.disableImageOptimization | default false)) (not (in (slice "svg" "gif") $socialImageSubtype)) -}}
     {{- if $canProcessSocialImage -}}
-      {{- $socialImageOutput = .Fill "1200x630 q85" -}}
+      {{/* q72 keeps the 1200x630 card well under WhatsApp's ~300KB preview limit so it renders on every platform */}}
+      {{- $socialImageOutput = .Fill "1200x630 q72" -}}
     {{- end -}}
     {{- $socialImageURL := $socialImageOutput.RelPermalink | absURL -}}
     <meta name="twitter:card" content="summary_large_image">
