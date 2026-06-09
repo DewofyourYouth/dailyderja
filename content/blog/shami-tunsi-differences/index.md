@@ -41,15 +41,15 @@ class="yt-embed"
 
 ## كلام
 
-| English             | Tunisian       | Levantine                | Explanation                                                |
-| ------------------- | -------------- | ------------------------ | ---------------------------------------------------------- |
-| a lot / many / very | برشة           | كتير                     | Different high-frequency quantifier.                       |
-| work / job          | خِدمة           | شُغل                      | Same meaning, different root.                              |
-| what                | شنوّا           | شو                       | Basic interrogative difference.                            |
-| now                 | تَوّا            | هلّق                      | Same timing, different adverb.                             |
-| nice / pleasant     | مزيّن           | حلو                      | Used for “looks good / feels nice.”                        |
-| good / OK           | باهي           | تمام / منيح              | General approval / status check.                           |
-| go / walk           | نمشي           | بروح / بمشي              | Tunisian collapses “go” and “walk”; Levantine splits them. |
-| fish / whale        | حوت = fish     | حوت = whale / سمك = fish | Same word, different animal by dialect.                    |
-| sentence packing    | شنبّيك / شنحوّلك | شو بدّك / شو بدّي أحوّلك    | Tunisian compresses full sentences into one word.          |
-| want vs love        | نحبّ            | بدي (want) / بحبّ (love)  | Tunisian uses one verb for both; Levantine separates them. |
+{{< cheatsheet title="Tunisian vs Levantine" titleAr="تونسي ضدّ شامي" kind="compare" >}}
+{{< compare en="a lot / many / very" tn="برشة" sh="كتير" note="Different high-frequency quantifier." >}}
+{{< compare en="work / job" tn="خِدمة" sh="شُغل" note="Same meaning, different root." >}}
+{{< compare en="what" tn="شنوّا" sh="شو" note="Basic interrogative difference." >}}
+{{< compare en="now" tn="تَوّا" sh="هلّق" note="Same timing, different adverb." >}}
+{{< compare en="nice / pleasant" tn="مزيّن" sh="حلو" note="Used for “looks good / feels nice.”" >}}
+{{< compare en="good / OK" tn="باهي" sh="تمام / منيح" note="General approval / status check." >}}
+{{< compare en="go / walk" tn="نمشي" sh="بروح / بمشي" note="Tunisian collapses “go” and “walk”; Levantine splits them." >}}
+{{< compare en="fish / whale" tn="حوت = fish" sh="حوت = whale / سمك = fish" note="Same word, different animal by dialect." >}}
+{{< compare en="sentence packing" tn="شنبّيك / شنحوّلك" sh="شو بدّك / شو بدّي أحوّلك" note="Tunisian compresses full sentences into one word." >}}
+{{< compare en="want vs love" tn="نحبّ" sh="بدي (want) / بحبّ (love)" note="Tunisian uses one verb for both; Levantine separates them." >}}
+{{< /cheatsheet >}}

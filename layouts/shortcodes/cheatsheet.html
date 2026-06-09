@@ -1,0 +1,24 @@
+{{/*
+  Responsive grid wrapper for {{< cheat >}} cards.
+
+  {{< cheatsheet title="Ability" titleAr="القدرة" >}}
+    {{< cheat … >}}
+    {{< cheat … >}}
+  {{< /cheatsheet >}}
+
+  Optional: kind="pick" for the compact summary / quick-pick row.
+*/}}
+{{- $title := .Get "title" -}}
+{{- $titleAr := .Get "titleAr" -}}
+{{- $kind := .Get "kind" -}}
+<section class="cheat-block{{ with $kind }} cheat-block--{{ . }}{{ end }}">
+  {{- if or $title $titleAr }}
+  <h3 class="cheat-block__head">
+    {{- with $title }}<span class="cheat-block__title">{{ . }}</span>{{ end -}}
+    {{- with $titleAr }}<span class="cheat-block__title-ar" dir="rtl" lang="ar">{{ . }}</span>{{ end -}}
+  </h3>
+  {{- end }}
+  <div class="cheat-grid">
+    {{ .Inner }}
+  </div>
+</section>

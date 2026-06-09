@@ -2505,3 +2505,225 @@ a.dialect-badge:focus-visible {
 .dark .series-part { color: var(--se-gold); }
 .series-part .bi-ar { font-weight: 400; }
 .series-sep { opacity: 0.4; margin: 0 0.2em; }
+
+/* ================================
+   Cheat sheet — reference card grid
+   (shortcodes: cheatsheet / cheat)
+   ================================= */
+
+.cheat-block {
+  --cs-gold: var(--color-accent, #c6843a);
+  --cs-gold-deep: var(--color-accent-dark, #9f6429);
+  --cs-ink: #322713;
+  --cs-ink-soft: #6a5836;
+  --cs-line: rgba(159, 100, 41, 0.2);
+  --cs-paper: rgba(251, 244, 231, 0.72);
+  --cs-paper-2: rgba(241, 226, 201, 0.4);
+  margin: 1.6rem 0 2rem;
+}
+.dark .cheat-block {
+  --cs-gold-deep: #e0b667;
+  --cs-ink: #f1e4cc;
+  --cs-ink-soft: #cbb68d;
+  --cs-line: rgba(235, 211, 170, 0.16);
+  --cs-paper: rgba(46, 35, 22, 0.5);
+  --cs-paper-2: rgba(34, 26, 16, 0.4);
+}
+
+.cheat-block__head {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin: 0 0 0.85rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--cs-line);
+}
+.cheat-block__title {
+  font-family: "Zain", system-ui, sans-serif;
+  font-weight: 800;
+  font-size: 1.3rem;
+  color: var(--cs-ink);
+}
+.cheat-block__title-ar {
+  font-family: "Lalezar", system-ui, sans-serif;
+  font-size: 1.45rem;
+  line-height: 1;
+  color: var(--cs-gold-deep);
+}
+
+.cheat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15.5rem, 1fr));
+  gap: 0.8rem;
+}
+
+.cheat-card {
+  position: relative;
+  padding: 0.85rem 1rem 0.9rem;
+  border-radius: 12px;
+  border: 1px solid var(--cs-line);
+  background: linear-gradient(160deg, var(--cs-paper), var(--cs-paper-2));
+  box-shadow: 0 8px 22px -18px rgba(56, 38, 12, 0.5);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+.cheat-card:hover {
+  transform: translateY(-2px);
+  border-color: color-mix(in srgb, var(--cs-gold) 50%, transparent);
+  box-shadow: 0 14px 30px -18px rgba(56, 38, 12, 0.55);
+}
+.cheat-card__top {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.6rem;
+}
+.cheat-card__ar {
+  font-family: "Lalezar", system-ui, sans-serif;
+  font-size: 2rem;
+  line-height: 1;
+  color: var(--cs-gold-deep);
+}
+.cheat-card__ipa {
+  font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  font-size: 0.78rem;
+  color: var(--cs-gold-deep);
+  opacity: 0.75;
+  white-space: nowrap;
+}
+.cheat-card__en {
+  margin: 0.35rem 0 0;
+  font-family: "Zain", system-ui, sans-serif;
+  font-weight: 800;
+  font-size: 1.05rem;
+  line-height: 1.25;
+  color: var(--cs-ink);
+}
+.cheat-card__tag {
+  margin-inline-start: 0.2em;
+  padding: 0.06rem 0.45rem;
+  border-radius: 999px;
+  font-size: 0.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--cs-gold-deep);
+  background: color-mix(in srgb, var(--cs-gold) 14%, transparent);
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.cheat-card__ex {
+  display: flex;
+  flex-direction: column;
+  gap: 0.12rem;
+  margin-top: 0.55rem;
+  padding-top: 0.5rem;
+  border-top: 1px dashed var(--cs-line);
+}
+.cheat-card__ex-ar {
+  font-family: "Zain", system-ui, sans-serif;
+  font-size: 1.12rem;
+  line-height: 1.4;
+  color: var(--cs-ink);
+}
+.cheat-card__ex-gloss {
+  font-family: "Zain", system-ui, sans-serif;
+  font-style: italic;
+  font-size: 0.92rem;
+  line-height: 1.35;
+  color: var(--cs-ink-soft);
+}
+.cheat-card__ex-ipa {
+  font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  font-size: 0.7rem;
+  opacity: 0.55;
+  color: var(--cs-ink-soft);
+}
+
+/* quick-pick summary row */
+.cheat-block--pick .cheat-card {
+  border-inline-start: 4px solid var(--cs-gold);
+}
+.cheat-block--pick .cheat-card__ar { font-size: 1.7rem; }
+
+/* dialect comparison cards */
+.cheat-block--compare .cheat-grid {
+  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+}
+.compare-card {
+  padding: 0.9rem 1rem 1rem;
+  border-radius: 12px;
+  border: 1px solid var(--cs-line);
+  background: linear-gradient(160deg, var(--cs-paper), var(--cs-paper-2));
+  box-shadow: 0 8px 22px -18px rgba(56, 38, 12, 0.5);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.compare-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 30px -18px rgba(56, 38, 12, 0.55);
+}
+.compare-card__en {
+  margin: 0 0 0.65rem;
+  font-family: "Zain", system-ui, sans-serif;
+  font-weight: 800;
+  font-size: 1.02rem;
+  color: var(--cs-ink);
+}
+.compare-card__pair {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: stretch;
+  gap: 0.5rem;
+}
+.compare-card__side {
+  --side: var(--cs-gold);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.15rem;
+  padding: 0.5rem 0.4rem;
+  border-radius: 10px;
+  border: 1px solid color-mix(in srgb, var(--side) 30%, transparent);
+  background: color-mix(in srgb, var(--side) 9%, transparent);
+}
+.compare-card__lang {
+  font-family: "Zain", system-ui, sans-serif;
+  font-size: 0.6rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--side);
+  opacity: 0.9;
+}
+.compare-card__word {
+  font-family: "Lalezar", system-ui, sans-serif;
+  font-size: 1.65rem;
+  line-height: 1.15;
+  color: var(--side);
+  text-align: center;
+}
+.compare-card__side--tunisian { --side: #1862a8; }
+.compare-card__side--shami { --side: #a96f1c; }
+.dark .compare-card__side--tunisian { --side: #7ab6e8; }
+.dark .compare-card__side--shami { --side: #e2ba6e; }
+.compare-card__vs {
+  align-self: center;
+  font-size: 0.95rem;
+  color: var(--cs-ink-soft);
+  opacity: 0.6;
+}
+.compare-card__note {
+  margin: 0.7rem 0 0;
+  padding-top: 0.55rem;
+  border-top: 1px dashed var(--cs-line);
+  font-family: "Zain", system-ui, sans-serif;
+  font-size: 0.92rem;
+  line-height: 1.45;
+  color: var(--cs-ink-soft);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cheat-card,
+  .compare-card { transition: none; }
+}

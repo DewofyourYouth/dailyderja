@@ -1,0 +1,28 @@
+{{/*
+  One reference card for a cheat sheet. Use inside {{< cheatsheet >}} … {{< /cheatsheet >}}.
+
+  {{< cheat ar="فيني" ipa="ˈfiː.ni" en="can / be able to"
+            ex="فيني أجي بكرا" exipa="ˈfiː.ni ˈʔe.ʒi ˈbuk.ra"
+            gloss="I can come tomorrow" tag="" >}}
+*/}}
+{{- $ar := .Get "ar" -}}
+{{- $ipa := .Get "ipa" -}}
+{{- $en := .Get "en" -}}
+{{- $ex := .Get "ex" -}}
+{{- $exipa := .Get "exipa" -}}
+{{- $gloss := .Get "gloss" -}}
+{{- $tag := .Get "tag" -}}
+<div class="cheat-card">
+  <div class="cheat-card__top">
+    <span class="cheat-card__ar" dir="rtl" lang="ar">{{ $ar }}</span>
+    {{- with $ipa }}<span class="cheat-card__ipa">/{{ . }}/</span>{{ end -}}
+  </div>
+  {{- with $en }}<p class="cheat-card__en">{{ . }}{{ with $tag }} <span class="cheat-card__tag">{{ . }}</span>{{ end }}</p>{{ end -}}
+  {{- if $ex }}
+  <div class="cheat-card__ex">
+    <span class="cheat-card__ex-ar" dir="rtl" lang="ar">{{ $ex }}</span>
+    {{- with $gloss }}<span class="cheat-card__ex-gloss">{{ . }}</span>{{ end -}}
+    {{- with $exipa }}<span class="cheat-card__ex-ipa">/{{ . }}/</span>{{ end -}}
+  </div>
+  {{- end }}
+</div>
