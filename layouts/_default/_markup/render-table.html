@@ -1,0 +1,26 @@
+{{- /* Wrap every Markdown table in a horizontally-scrollable container so wide
+       tables (the كلام / comparison tables) never clip on mobile. */ -}}
+<div class="table-scroll">
+  <table
+    {{- range $k, $v := .Attributes }}{{ with $v }} {{ $k }}="{{ $v }}"{{ end }}{{ end -}}
+  >
+    <thead>
+      {{- range .THead }}
+      <tr>
+        {{- range . }}
+        <th{{ with .Alignment }} style="text-align: {{ . }};"{{ end }}>{{ .Text }}</th>
+        {{- end }}
+      </tr>
+      {{- end }}
+    </thead>
+    <tbody>
+      {{- range .TBody }}
+      <tr>
+        {{- range . }}
+        <td{{ with .Alignment }} style="text-align: {{ . }};"{{ end }}>{{ .Text }}</td>
+        {{- end }}
+      </tr>
+      {{- end }}
+    </tbody>
+  </table>
+</div>
