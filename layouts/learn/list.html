@@ -1,0 +1,64 @@
+{{ define "main" }}
+  {{ .Scratch.Set "scope" "learn" }}
+  {{ $breeze := `<svg viewBox="0 0 28 18" aria-hidden="true" focusable="false"><path d="M2 5h13a3 3 0 1 0-3-3"/><path d="M2 9h18a3.4 3.4 0 1 1-3.4 3.4"/><path d="M2 13h9a2.4 2.4 0 1 0-2.4 2.4"/></svg>` }}
+  {{ $shamiCount := len (index site.Taxonomies.dialects "shami") }}
+  {{ $tunCount := len (index site.Taxonomies.dialects "tunisian") }}
+  {{ $wordBreeze := site.GetPage "/series/نسمة كلمة" }}
+
+  <article class="learn">
+    <section class="sx">
+      <div class="sx__atmos" aria-hidden="true"><span class="sx__watermark">تعلّم</span></div>
+      <header class="sx__head">
+        <span class="sx__eyebrow">{{ $breeze | safeHTML }}<span dir="rtl" lang="ar">تعلّم</span></span>
+        <h1 class="sx__title">{{ .Title }}</h1>
+        {{ with .Content }}<div class="sx__intro">{{ . }}</div>{{ end }}
+      </header>
+    </section>
+
+    <h2 class="learn__h"><span>Pick your dialect</span></h2>
+    <div class="hp-wayfind__grid">
+      <a class="wf-tile wf-tile--shami" href="{{ "dialects/shami/" | relLangURL }}">
+        <span class="wf-tile__glyph" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"><rect x="5.6" y="5.6" width="12.8" height="12.8"/><rect x="5.6" y="5.6" width="12.8" height="12.8" transform="rotate(45 12 12)"/></svg></span>
+        <span class="wf-tile__title"><b dir="rtl" lang="ar">شامي</b> Levantine</span>
+        <span class="wf-tile__desc">The everyday Arabic of Syria, Lebanon, Palestine &amp; Jordan &middot; {{ $shamiCount }} posts</span>
+      </a>
+      <a class="wf-tile wf-tile--tunisian" href="{{ "dialects/tunisian/" | relLangURL }}">
+        <span class="wf-tile__glyph" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 21V11a7 7 0 0 1 14 0v10"/><path d="M4 21h16"/><path d="M12 5.5V21"/><path d="M8.4 8a5 5 0 0 1 7.2 0"/></svg></span>
+        <span class="wf-tile__title"><b dir="rtl" lang="ar">تونسي</b> Tunisian</span>
+        <span class="wf-tile__desc">The Maghrebi Arabic where Daily Derja began &middot; {{ $tunCount }} posts</span>
+      </a>
+    </div>
+
+    {{ $refs := where site.RegularPages "Params.learn" true }}
+    {{ with $refs }}
+      <h2 class="learn__h"><span>Cheat sheets &amp; references</span></h2>
+      <p class="learn__lead">Scannable guides — vocab, modals, and Tunisian-vs-Levantine differences at a glance.</p>
+      <section class="space-y-8 w-full">
+        {{ range .ByDate.Reverse }}
+          {{ partial "article-link/simple.html" . }}
+        {{ end }}
+      </section>
+    {{ end }}
+
+    <h2 class="learn__h"><span>More ways to learn</span></h2>
+    <div class="hp-wayfind__grid">
+      {{ with $wordBreeze }}
+      <a class="wf-tile wf-tile--series" href="{{ .RelPermalink }}">
+        <span class="wf-tile__glyph" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h12a3 3 0 0 1 3 3v11a2.5 2.5 0 0 0-2.5-2.5H4z"/><path d="M4 5a2 2 0 0 0-2 2v12.5A2.5 2.5 0 0 1 4.5 17"/></svg></span>
+        <span class="wf-tile__title"><b dir="rtl" lang="ar">نسمة كلمة</b> Word Breeze</span>
+        <span class="wf-tile__desc">Quick Shami vocab drops</span>
+      </a>
+      {{ end }}
+      <a class="wf-tile wf-tile--tutors" href="{{ "tutors/" | relLangURL }}">
+        <span class="wf-tile__glyph" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-4 9 4-9 4-9-4z"/><path d="M7 11v4c0 1.1 2.2 2 5 2s5-.9 5-2v-4"/><path d="M21 9v4"/></svg></span>
+        <span class="wf-tile__title">Tutors</span>
+        <span class="wf-tile__desc">Who I'd actually recommend</span>
+      </a>
+      <a class="wf-tile wf-tile--series" href="{{ "series/" | relLangURL }}">
+        <span class="wf-tile__glyph" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l9 5-9 5-9-5 9-5z"/><path d="M3 12l9 5 9-5"/><path d="M3 16.5l9 5 9-5"/></svg></span>
+        <span class="wf-tile__title">All series</span>
+        <span class="wf-tile__desc">Every Nasmat track</span>
+      </a>
+    </div>
+  </article>
+{{ end }}

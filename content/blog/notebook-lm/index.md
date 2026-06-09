@@ -13,6 +13,7 @@ categories:
   - language-learning
   - writing
 draft: false
+learn: true
 dialects:
   - shami
 series:

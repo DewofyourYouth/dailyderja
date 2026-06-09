@@ -15,6 +15,7 @@ tags:
 categories:
   - language-learning
 draft: false
+learn: true
 dialects:
   - shami
 series:

@@ -72,4 +72,38 @@
   {{ end }}
 </section>
 
+{{/* Wayfinding — keep the journal central, make the learning paths obvious */}}
+{{ $shamiCount := len (index site.Taxonomies.dialects "shami") }}
+{{ $tunCount := len (index site.Taxonomies.dialects "tunisian") }}
+<section class="hp-wayfind" aria-label="Find your way around the site">
+  <p class="hp-wayfind__eyebrow">{{ $breeze | safeHTML }}<span>Learning here? Start with one of these</span></p>
+  <div class="hp-wayfind__grid">
+    <a class="wf-tile wf-tile--shami" href="{{ "dialects/shami/" | relLangURL }}">
+      <span class="wf-tile__glyph" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"><rect x="5.6" y="5.6" width="12.8" height="12.8"/><rect x="5.6" y="5.6" width="12.8" height="12.8" transform="rotate(45 12 12)"/></svg></span>
+      <span class="wf-tile__title"><b dir="rtl" lang="ar">شامي</b> Levantine</span>
+      <span class="wf-tile__desc">The current focus &middot; {{ $shamiCount }} posts</span>
+    </a>
+    <a class="wf-tile wf-tile--tunisian" href="{{ "dialects/tunisian/" | relLangURL }}">
+      <span class="wf-tile__glyph" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 21V11a7 7 0 0 1 14 0v10"/><path d="M4 21h16"/><path d="M12 5.5V21"/><path d="M8.4 8a5 5 0 0 1 7.2 0"/></svg></span>
+      <span class="wf-tile__title"><b dir="rtl" lang="ar">تونسي</b> Tunisian</span>
+      <span class="wf-tile__desc">The sweet archive &middot; {{ $tunCount }} posts</span>
+    </a>
+    <a class="wf-tile wf-tile--learn" href="{{ "learn/" | relLangURL }}">
+      <span class="wf-tile__glyph" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="6" width="13" height="13" rx="2"/><path d="M7.5 9.5h5M7.5 12.5h5M7.5 15.5h3"/><path d="M16.5 6V4.6a1 1 0 0 1 1.3-1l2.7 1v13l-2.7-1a1 1 0 0 0-1.3 1"/></svg></span>
+      <span class="wf-tile__title">Cheat sheets</span>
+      <span class="wf-tile__desc">Vocab &amp; grammar, at a glance</span>
+    </a>
+    <a class="wf-tile wf-tile--series" href="{{ "series/" | relLangURL }}">
+      <span class="wf-tile__glyph" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l9 5-9 5-9-5 9-5z"/><path d="M3 12l9 5 9-5"/><path d="M3 16.5l9 5 9-5"/></svg></span>
+      <span class="wf-tile__title">Series</span>
+      <span class="wf-tile__desc">Nasmat tracks by mood</span>
+    </a>
+    <a class="wf-tile wf-tile--tutors" href="{{ "tutors/" | relLangURL }}">
+      <span class="wf-tile__glyph" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-4 9 4-9 4-9-4z"/><path d="M7 11v4c0 1.1 2.2 2 5 2s5-.9 5-2v-4"/><path d="M21 9v4"/></svg></span>
+      <span class="wf-tile__title">Tutors</span>
+      <span class="wf-tile__desc">Who I'd actually recommend</span>
+    </a>
+  </div>
+</section>
+
 <section class="hp-recent">{{ partial "recent-articles/main.html" . }}</section>
