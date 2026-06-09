@@ -12,6 +12,10 @@
     ar       (required) Arabic word, fully vocalised.
     meaning  (required) English gloss.
     ipa      (optional) phonetic transcription, written WITHOUT slashes.
+    sh       (optional) Shami form when it differs from ar.
+    sh_ipa   (optional) Shami IPA, written WITHOUT slashes.
+    tn       (optional) Tunisian form when it differs from ar.
+    tn_ipa   (optional) Tunisian IPA, written WITHOUT slashes.
     tr       (optional) transliteration (shown italic).
     root     (optional) triliteral root, e.g. "ش · ل · ح".
     pos      (optional) part of speech chip, e.g. "verb".
@@ -23,11 +27,19 @@
 {{- $ar := .Get "ar" -}}
 {{- $meaning := .Get "meaning" -}}
 {{- $ipa := .Get "ipa" -}}
+{{- $sh := .Get "sh" -}}
+{{- $shIPA := .Get "sh_ipa" -}}
+{{- $tn := .Get "tn" -}}
+{{- $tnIPA := .Get "tn_ipa" -}}
 {{- $tr := .Get "tr" -}}
 {{- $root := .Get "root" -}}
 {{- $pos := .Get "pos" -}}
 {{- $note := .Get "note" -}}
 {{- $audio := .Get "audio" -}}
+{{- $hasAudio := false -}}
+{{- with $audio -}}
+  {{- $hasAudio = os.FileExists (printf "static/%s" (strings.TrimPrefix "/" .)) -}}
+{{- end -}}
 
 <aside class="dd-word" dir="rtl" lang="ar">
   <div class="dd-word__frame">
@@ -53,11 +65,32 @@
 
     {{- with $root }}<p class="dd-word__root">{{ . }}</p>{{ end }}
 
-    <div class="dd-word__phon" dir="ltr" lang="en">
-      {{- with $ipa }}<span class="dd-word__ipa">/{{ . }}/</span>{{ end }}
-      {{- with $tr }}<span class="dd-word__tr">{{ . }}</span>{{ end }}
-      {{- with $audio }}{{ partial "audio-pron.html" (dict "src" . "page" $.Page "label" $ar "text" "استمع") }}{{ end }}
-    </div>
+    {{- if or $ipa $tr $hasAudio }}
+      <div class="dd-word__phon" dir="ltr" lang="en">
+        {{- with $ipa }}<span class="dd-word__ipa">/{{ . }}/</span>{{ end }}
+        {{- with $tr }}<span class="dd-word__tr">{{ . }}</span>{{ end }}
+        {{- with $audio }}{{ partial "audio-pron.html" (dict "src" . "page" $.Page "label" $ar "text" "استمع") }}{{ end }}
+      </div>
+    {{- end }}
+
+    {{- if or $sh $shIPA $tn $tnIPA }}
+      <div class="dd-word__dialects" dir="ltr" lang="en">
+        {{- if or $sh $shIPA }}
+          <span class="dd-word__dialect dd-word__dialect--shami">
+            <b>Shami</b>
+            {{- with $sh }}<span class="dd-word__dialect-word" dir="rtl" lang="ar">{{ . }}</span>{{ end -}}
+            {{- with $shIPA }}<span class="dd-word__dialect-ipa">/{{ . }}/</span>{{ end -}}
+          </span>
+        {{- end }}
+        {{- if or $tn $tnIPA }}
+          <span class="dd-word__dialect dd-word__dialect--tunisian">
+            <b>Tunisian</b>
+            {{- with $tn }}<span class="dd-word__dialect-word" dir="rtl" lang="ar">{{ . }}</span>{{ end -}}
+            {{- with $tnIPA }}<span class="dd-word__dialect-ipa">/{{ . }}/</span>{{ end -}}
+          </span>
+        {{- end }}
+      </div>
+    {{- end }}
 
     <p class="dd-word__meaning" dir="ltr" lang="en">{{ $meaning }}</p>
 

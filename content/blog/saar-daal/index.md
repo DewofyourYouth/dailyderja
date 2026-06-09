@@ -20,6 +20,8 @@ categories:
 لما شي يتغيّر، منستعمل "صار". ولما ما يتغيّر، منستعمل "ضلّ".  
 هدول الكلمتين بسيطات، بس كتير مهمّين بالحكي اليومي.
 
+{{< word ar="صَار" sh_ipa="sˤaːr" meaning="became; happened; started to be" root="ص · ي · ر" pos="verb" note="Core Shami change-of-state verb. صار marks that something changed, started, or happened." >}}
+
 {{< cheatsheet titleAr="بلمحة" >}}
 {{< cheat ar="صار" en="تغيّر — بلّش شي جديد" ex="صار برد" >}}
 {{< cheat ar="ضلّ" en="استمرار — الوضع بقي متل ما هو" ex="ضلّيت عم بستنى" >}}

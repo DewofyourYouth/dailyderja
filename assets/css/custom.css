@@ -678,70 +678,47 @@ section.article-ltr {
   font-size: 1.05rem;
   color: var(--w-ink-soft);
 }
-
-/* pronunciation button */
-.dd-word__audio {
-  margin-inline-start: auto;
+.dd-word__dialects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.7rem 0 0;
+}
+.dd-word__dialect {
   display: inline-flex;
   align-items: center;
-  gap: 0.5em;
-  position: relative;
-  padding: 0.4rem 0.95rem 0.4rem 0.5rem;
-  border: none;
+  gap: 0.45rem;
+  padding: 0.22rem 0.55rem;
+  border: 1px solid color-mix(in srgb, var(--w-gold) 34%, transparent);
   border-radius: 999px;
-  cursor: pointer;
-  font-family: "Zain", sans-serif;
-  font-size: 0.95rem;
-  font-weight: 700;
-  color: #fff8ec;
-  background: radial-gradient(circle at 32% 28%, #e8bd7c, var(--w-gold) 52%, var(--w-gold-deep));
-  box-shadow:
-    0 6px 16px -5px rgba(159, 100, 41, 0.65),
-    0 1px 0 rgba(255, 255, 255, 0.5) inset;
-  transition: transform 0.25s ease, box-shadow 0.25s ease, filter 0.25s ease;
+  font-family: "Zain", system-ui, sans-serif;
+  color: var(--w-ink-soft);
+  background: color-mix(in srgb, var(--w-paper) 72%, white);
 }
-.dd-word__audio:hover {
-  transform: translateY(-2px);
-  filter: saturate(1.08);
-  box-shadow:
-    0 9px 20px -6px rgba(159, 100, 41, 0.7),
-    0 1px 0 rgba(255, 255, 255, 0.55) inset;
+.dark .dd-word__dialect {
+  border-color: color-mix(in srgb, var(--w-gold-soft) 26%, transparent);
+  background: color-mix(in srgb, var(--w-paper) 80%, black);
 }
-.dd-word__audio:focus-visible {
-  outline: 2px solid var(--w-gold-deep);
-  outline-offset: 3px;
+.dd-word__dialect b {
+  font-size: 0.78rem;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--w-gold-deep);
 }
-.dd-word__audio:active { transform: translateY(0) scale(0.98); }
-
-.dd-word__icon {
-  width: 1.5rem;
-  height: 1.5rem;
-  fill: currentColor;
-  flex: none;
+.dark .dd-word__dialect b { color: var(--w-gold-soft); }
+.dd-word__dialect-word {
+  font-size: 1rem;
+  line-height: 1;
+  color: var(--w-ink);
 }
-.dd-word__icon--pause { display: none; }
-.dd-word__audio.is-playing .dd-word__icon--play { display: none; }
-.dd-word__audio.is-playing .dd-word__icon--pause { display: block; }
-
-.dd-word__audio-label { line-height: 1; }
-
-/* radiating rings while playing */
-.dd-word__audio::before,
-.dd-word__audio::after {
-  content: "";
-  position: absolute;
-  left: 0.9rem;
-  top: 50%;
-  width: 1.5rem;
-  height: 1.5rem;
-  margin: -0.75rem 0 0 -0.75rem;
-  border-radius: 50%;
-  border: 2px solid var(--w-gold);
-  opacity: 0;
-  pointer-events: none;
+.dd-word__dialect-ipa {
+  font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  font-size: 0.85rem;
+  line-height: 1;
+  color: var(--w-gold-deep);
 }
-.dd-word__audio.is-playing::before { animation: ddRing 1.8s ease-out infinite; }
-.dd-word__audio.is-playing::after { animation: ddRing 1.8s ease-out 0.6s infinite; }
+.dark .dd-word__dialect-ipa { color: var(--w-gold-soft); }
 
 /* meaning */
 .dd-word .dd-word__meaning {
@@ -777,10 +754,6 @@ section.article-ltr {
 }
 @keyframes ddKashidaDraw {
   to { stroke-dashoffset: 0; }
-}
-@keyframes ddRing {
-  0%   { opacity: 0.55; transform: scale(1); }
-  100% { opacity: 0; transform: scale(2.4); }
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -26,6 +26,8 @@ cssclasses:
 ---
 A quick reference for the four everyday modal moves in Shami: **ability, desire, obligation, and the hypothetical**. Skim the cards, or jump to the quick-pick at the bottom.
 
+{{< word ar="فِينِي" sh_ipa="ˈfiː.ni" meaning="I can; I am able to" pos="modal phrase" note="Everyday Shami ability marker. Use it when English reaches for can, could, or be able to." >}}
+
 {{< cheatsheet title="Ability" titleAr="القدرة" >}}
 {{< cheat ar="فيني" ipa="ˈfiː.ni" en="can / be able to" ex="فيني أجي بكرا" exipa="ˈfiː.ni ˈʔe.ʒi ˈbuk.ra" gloss="I can come tomorrow" >}}
 {{< cheat ar="بقدر" ipa="ˈbaʔ.der" en="can" tag="more formal" ex="بقدر ساعدك" exipa="ˈbaʔ.der ˈsaː.ʕed.ak" gloss="I can help you" >}}

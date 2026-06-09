@@ -28,3 +28,5 @@ externalUrl: https://open.substack.com/pub/dailyderja/p/notes-from-djerba?r=6ygm
 ---
 
 البوست مية في [Substack](https://open.substack.com/pub/dailyderja/p/notes-from-djerba?r=6ygm98&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true) لأنه فيه صور كتير، وكتبت فيه بالإنجليزي عشان أقدر أشارك التجربة مع ناس ما بتفهمش عربي.
+
+{{< word ar="تَجْرِبة" sh_ipa="taˈʒrɪ.be" tn_ipa="taˈʒrba" meaning="experience; trial" root="ج · ر · ب" pos="noun" note="A useful travel-writing word. Shami tends to keep a small vowel before the final consonants; Tunisian compresses it more." >}}

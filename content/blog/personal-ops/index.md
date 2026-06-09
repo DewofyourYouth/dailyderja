@@ -35,7 +35,7 @@ cssclasses:
 
 يعني: لازم الواحد يكون رخو متل القصب، مش قاسي متل الأرز. القصب بينحني لما الريح تيجي قوية، وبيرجع. والأرز بينكسر.
 
-{{< word ar="قَصَب" ipa="ʔasˤab" meaning="reed, cane" root="ق · ص · ب" pos="noun" audio="/audio/qasab.mp3" note="What you'd actually say in urban Shami — it bends when the wind comes hard and springs back; the cedar breaks." >}}
+{{< word ar="قَصَب" sh_ipa="ˈʔasˤab" tn_ipa="ˈqasˤab" meaning="reed, cane" root="ق · ص · ب" pos="noun" audio="/audio/qasab.mp3" note="What you'd actually say in urban Shami — the qaf becomes a glottal stop. Tunisian keeps the /q/." >}}
 
 هديت البوت. شلت منه الصرامة. صار يقترح بس، وما عاد يأمر. لما فات يوم وما عملت كل شي على ليستي، ما سألني ليش، ولا بلّش يشخّص حالتي. بس قال:
 "تمام، خلّينا نشوف بكرا."

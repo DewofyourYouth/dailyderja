@@ -35,6 +35,8 @@ cssclasses:
 - وعندي مقابلة اليوم كمان.
 - وإذا زاد معي وقت، لازم أحل «LeetCode» عشان عندي مقابلة تانية يوم الأحد.
 
+{{< word ar="نِضَبْضِب" sh_ipa="nɪˈdˤab.dˤib" meaning="to pack up; tidy up; get things in order" pos="verb" note="Useful moving-day Shami: not just putting things away, but restoring order when the house is chaos." >}}
+
 حاسس بضغط كبير بسبب الإمتحان والبيت.
 {{< followit >}}
 

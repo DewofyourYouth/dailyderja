@@ -30,6 +30,8 @@ series_order: 1
 
 لمّا تعلّمت عربي تونسي، سمعت غنية تونسية مشان أدرب أذني. حبّيت الصوت عند Yuma، Ghoula و Young RZ. هلق عم بدوّر على غنية شامية. هدول كم فنان وغنية عم بسمعهم هلق:
 
+{{< word ar="غَنِّيّة" sh_ipa="ɣanˈnij.je" tn="غْنَايَة" tn_ipa="ɣˈneː.ja" meaning="song" root="غ · ن · ي" pos="noun" note="The music word shifts by dialect: Shami غنّية, while Tunisian conversation often uses غناية." >}}
+
 {{< spotify "track/7x3gdpBN2r8nZl7qYFuUL8" >}}
 
 واحدة من الغنيّات اللي بحبها هي "سعيدة" من Walaa Sbait — ستايل الإندي سكا بالعربي كتير حلو!
