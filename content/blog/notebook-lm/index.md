@@ -24,51 +24,51 @@ cssclasses: []
 
 ## Some Tips From NotebookLM
 
-To move beyond simple dialect swaps and broaden your Shami (Levantine) vocabulary, the sources provide several advanced phrases and structures that can add nuance, personality, and professional polish to your posts.
+To move beyond simple dialect swaps and broaden my Shami (Levantine) vocabulary, I fed my posts into NotebookLM and asked for upgrades. Here's the keeper list — phrases that add nuance, personality, and a bit of professional polish.
 
-### **Describing Internal States and Routines**
+When writing about daily life, these help express mental load and habits more naturally:
 
-When writing about your daily life, these phrases help express mental load and personal habits more naturally:
+{{< cheatsheet title="Internal states & routines" titleAr="الحالة والروتين" >}}
+{{< cheat ar="معبّي" ipa="maʕˈab.bi" en="mind is full / mentally overloaded" >}}
+{{< cheat ar="بزهَق" ipa="bzaˈhaʔ" en="get bored easily — esp. with repetition" >}}
+{{< cheat ar="أُفوت بإيقاع" ipa="ʔuːfuːt bi-ʔiːqaːʕ" en="getting into a rhythm (sleep / work)" >}}
+{{< cheat ar="هالفترة" ipa="halˈfat.ra" en="lately / these days" >}}
+{{< cheat ar="مشتاق" ipa="mʃˈtaːʔ" en="longing for / missing (a hobby)" >}}
+{{< cheat ar="نحوّس" ipa="nħaˈwːes" en="hunting for / trying to find" tag="colloquial" >}}
+{{< /cheatsheet >}}
 
-- **معبّي (maʕˈab.bi):** Use this to describe your mind being "full" or mentally overloaded with tasks.
-- **بزهَق (bzaˈhaʔ):** Use this to express that you "get bored" easily, particularly with repetitive things.
-- **أُفوت بإيقاع (ʔuːfuːt bi-ʔiːqaːʕ):** A sophisticated way to say "getting into a rhythm," particularly regarding sleep or work schedules.
-- **هالفترة (halˈfat.ra):** A very common Shami way to say "lately" or "these days".
-- **مشتاق (mʃˈtaːʔ):** Use this to express "longing for" or "missing" a hobby or activity, such as drawing.
-- **نحوّس (nħaˈwːes):** A very colloquial term for "trying to find" or "hunting for" something.
+To make storytelling more vivid:
 
-### **Narrative and Descriptive Enhancements**
+{{< cheatsheet title="Narrative & description" titleAr="السرد والوصف" >}}
+{{< cheat ar="خبصة" ipa="khabsa" en="a mess / a muddle — a chaotic situation" >}}
+{{< cheat ar="بِيِعْتِم" ipa="bijˈʕtɪm" en="(light or mood) turns dim / gloomy" >}}
+{{< cheat ar="لمّحت" ipa="lamːaħt" en="I caught a glimpse / glanced at" >}}
+{{< cheat ar="سرعان ما" ipa="surʕāna mā" en="quickly / soon after" >}}
+{{< cheat ar="مِشاغِب" ipa="mishāghib" en="a troublemaker — often for kids" tag="playful" >}}
+{{< cheat ar="بالنصّ" ipa="binˈnoss" en="in the center / in the middle of it" >}}
+{{< /cheatsheet >}}
 
-To make your storytelling more vivid, the sources suggest these descriptive terms:
+For the job search or dev work, a little more precision:
 
-- **خبصة (khabsa):** Perfect for describing a "mess" or a "muddle," like a chaotic situation involving kids or pets.
-- **بِيِعْتِم (bijˈʕtɪm):** A specialized word for when the atmosphere or light becomes "dim" or "gloomy".
-- **لمّحت (lamːaħt):** Instead of just saying "I saw," use this to mean "I caught a glimpse" or "I glanced at" something.
-- **سرعان ما (surʕāna mā):** A useful transition phrase meaning "quickly" or "soon after".
-- **مِشاغِب (mishāghib):** A playful word for a "troublemaker," often used for young children.
-- **بالنصّ (binˈnoss) or بنصّه (bi-nosːo):** Used to mean "in the center" or "in the middle of it" (e.g., in the middle of an exam).
+{{< cheatsheet title="Professional & technical" titleAr="الشغل والتقنية" >}}
+{{< cheat ar="مؤخّرًا" ipa="muʔaxˈxaran" en="recently — introducing a new method" tag="formal" >}}
+{{< cheat ar="أجّلناه" ipa="ʔajjelnāh" en="we postponed it (a meeting / interview)" >}}
+{{< cheat ar="قدّم امتحان" ipa="ʔaddam imtiˈħæn" en="to sit for / take an exam" >}}
+{{< cheat ar="يسمحولي / يخلّوني" ipa="jismaˈħuːli / jxallːuːni" en="to allow / let me (do something)" >}}
+{{< cheat ar="مُرتّب" ipa="muratːab" en="organized / tidy" >}}
+{{< cheat ar="بتواصل مع" ipa="btawæːsˤal maʕ" en="I’m in contact with" >}}
+{{< /cheatsheet >}}
 
-### **Professional and Technical Contexts**
+And these starters help posts flow like a native speaker's:
 
-If you are writing about your job search or software development, these phrases offer more precision:
-
-- **مؤخّرًا (muʔaxˈxaran):** A formal way to say "recently," often used when introducing a new method or discovery.
-- **أجّلناه (ʔajjelnāh):** Specifically used for "we postponed it" (referring to a meeting or interview).
-- **قدّم امتحان (ʔaddam imtiˈħæn):** The standard phrase for "sitting for" or "taking" an exam.
-- **يسمحولي (jismaˈħuːli) or يخلّوني (jxallːuːni):** Useful for "allowing me" or "getting someone to allow/let me" do something.
-- **مُرتّب (muratːab):** Use this to describe being "organized" or "tidy" in your work or goals.
-- **بتواصل مع (btawæːsˤal maʕ):** A professional way to say "I am in contact with" an organization or person.
-
-### **Natural Shami Sentence Starters**
-
-Using these structures will help your posts flow more like a native speaker's:
-
-- **صار معي (ṣār maʕi):** Use this to introduce an event: "Something happened to me" or "I had [an interview]".
-- **بَعجبني (baˈʕʒɪbni):** A specific Shami structure for "I like to" or "It pleases me".
-- **شو رأيك (ʃuː raʔjak):** A common conversational opener for "What do you think?".
-- **مفروض (mafˈruːd):** Use this when you are "supposed to" or "expected to" be somewhere or do something.
-- **لو فيني (law ˈfiːni):** An advanced conditional for "If I could [I would have...]".
-- **كرمال (kərmāl):** A quintessentially Shami word meaning "for the sake of" or "for [someone]".
+{{< cheatsheet title="Shami sentence starters" titleAr="بدايات شامية" >}}
+{{< cheat ar="صار معي" ipa="ṣār maʕi" en="something happened to me / I had…" >}}
+{{< cheat ar="بَعجبني" ipa="baˈʕʒɪbni" en="I like to / it pleases me" >}}
+{{< cheat ar="شو رأيك" ipa="ʃuː raʔjak" en="what do you think?" >}}
+{{< cheat ar="مفروض" ipa="mafˈruːd" en="supposed to / expected to" >}}
+{{< cheat ar="لو فيني" ipa="law ˈfiːni" en="if I could (I would have…)" tag="conditional" >}}
+{{< cheat ar="كرمال" ipa="kərmāl" en="for the sake of / for someone" >}}
+{{< /cheatsheet >}}
 
 {{< followit >}}
 

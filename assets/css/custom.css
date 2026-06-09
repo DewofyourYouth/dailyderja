@@ -2727,3 +2727,99 @@ a.dialect-badge:focus-visible {
   .cheat-card,
   .compare-card { transition: none; }
 }
+
+/* cheat-card top row: word ··· (ipa + audio) */
+.cheat-card__top { align-items: center; }
+.cheat-card__top-r {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  flex: none;
+}
+
+/* ================================
+   Pronunciation control — compact gold "coin"
+   (partial: audio-pron.html; class: .dd-aud)
+   ================================= */
+
+.dd-aud-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45em;
+  line-height: 0;
+}
+.dd-aud {
+  /* themeable: ancestors can set --aud / --aud-deep / --aud-hi (e.g. dialect sides) */
+  position: relative;
+  flex: none;
+  width: 1.95rem;
+  height: 1.95rem;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-grid;
+  place-items: center;
+  color: #fff8ec;
+  background: radial-gradient(circle at 32% 28%,
+    var(--aud-hi, #e6b873),
+    var(--aud, var(--color-accent, #c6843a)) 55%,
+    var(--aud-deep, var(--color-accent-dark, #9f6429)));
+  box-shadow:
+    0 3px 8px -2px color-mix(in srgb, var(--aud, #c6843a) 55%, transparent),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+.dd-aud__text {
+  font-family: "Zain", system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 0.95rem;
+  line-height: 1;
+  color: var(--aud-deep, var(--color-accent-dark, #9f6429));
+}
+.dark .dd-aud__text { color: var(--aud, var(--color-accent-light, #ebd3aa)); }
+.dd-aud:hover {
+  transform: translateY(-1px) scale(1.06);
+  filter: saturate(1.06);
+  box-shadow:
+    0 5px 12px -3px rgba(159, 100, 41, 0.65),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.35);
+}
+.dd-aud:active { transform: scale(0.96); }
+.dd-aud:focus-visible {
+  outline: 2px solid var(--aud-deep, var(--color-accent-dark, #9f6429));
+  outline-offset: 2px;
+}
+.dd-aud svg {
+  width: 0.95rem;
+  height: 0.95rem;
+  fill: currentColor;
+}
+.dd-aud__play { margin-inline-start: 1px; }
+.dd-aud__pause { display: none; }
+.dd-aud.is-playing .dd-aud__play { display: none; }
+.dd-aud.is-playing .dd-aud__pause { display: block; }
+
+/* radiating rings while playing */
+.dd-aud::before,
+.dd-aud::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: 2px solid var(--aud, var(--color-accent, #c6843a));
+  opacity: 0;
+  pointer-events: none;
+}
+.dd-aud.is-playing::before { animation: ddAudRing 1.7s ease-out infinite; }
+.dd-aud.is-playing::after { animation: ddAudRing 1.7s ease-out 0.55s infinite; }
+@keyframes ddAudRing {
+  0% { opacity: 0.5; transform: scale(1); }
+  100% { opacity: 0; transform: scale(2.25); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .dd-aud { transition: none; }
+  .dd-aud.is-playing::before,
+  .dd-aud.is-playing::after { animation: none; }
+}

@@ -3,7 +3,9 @@
 
   {{< cheat ar="فيني" ipa="ˈfiː.ni" en="can / be able to"
             ex="فيني أجي بكرا" exipa="ˈfiː.ni ˈʔe.ʒi ˈbuk.ra"
-            gloss="I can come tomorrow" tag="" >}}
+            gloss="I can come tomorrow" tag="" audio="/audio/fini.mp3" >}}
+
+  audio is optional — the play button only appears once the file exists in static/.
 */}}
 {{- $ar := .Get "ar" -}}
 {{- $ipa := .Get "ipa" -}}
@@ -12,10 +14,14 @@
 {{- $exipa := .Get "exipa" -}}
 {{- $gloss := .Get "gloss" -}}
 {{- $tag := .Get "tag" -}}
+{{- $audio := .Get "audio" -}}
 <div class="cheat-card">
   <div class="cheat-card__top">
     <span class="cheat-card__ar" dir="rtl" lang="ar">{{ $ar }}</span>
-    {{- with $ipa }}<span class="cheat-card__ipa">/{{ . }}/</span>{{ end -}}
+    <span class="cheat-card__top-r">
+      {{- with $ipa }}<span class="cheat-card__ipa">/{{ . }}/</span>{{ end -}}
+      {{- with $audio }}{{ partial "audio-pron.html" (dict "src" . "page" $.Page "label" $ar) }}{{ end -}}
+    </span>
   </div>
   {{- with $en }}<p class="cheat-card__en">{{ . }}{{ with $tag }} <span class="cheat-card__tag">{{ . }}</span>{{ end }}</p>{{ end -}}
   {{- if $ex }}

@@ -1,0 +1,65 @@
+{{/*
+  Reusable pronunciation control — a compact gold play/pause "coin".
+  Self-contained (no Plyr dependency); renders ONLY when the static file exists,
+  so `audio="/audio/x.mp3"` can be set before the recording is in place.
+
+  {{ partial "audio-pron.html" (dict "src" $audio "page" .Page "label" "صار") }}
+*/}}
+{{- $src := .src -}}
+{{- $page := .page -}}
+{{- $label := .label -}}
+{{- $exists := false -}}
+{{- with $src -}}
+  {{- $exists = os.FileExists (printf "static/%s" (strings.TrimPrefix "/" .)) -}}
+{{- end -}}
+{{- if $exists -}}
+<span class="dd-aud-wrap">
+  <button type="button" class="dd-aud" aria-pressed="false" aria-label="Play pronunciation{{ with $label }} of {{ . }}{{ end }}">
+    <svg class="dd-aud__play" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 5.14v13.72a1 1 0 0 0 1.54.84l10.3-6.86a1 1 0 0 0 0-1.68L9.54 4.3A1 1 0 0 0 8 5.14z"/></svg>
+    <svg class="dd-aud__pause" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="6.5" y="5" width="4" height="14" rx="1.4"/><rect x="13.5" y="5" width="4" height="14" rx="1.4"/></svg>
+  </button>
+  <audio class="dd-aud__el" preload="none"><source src="{{ $src | relURL }}" type="audio/mpeg"></audio>
+</span>
+{{- if and $page (not ($page.Scratch.Get "ddAudJS")) -}}
+{{- $page.Scratch.Set "ddAudJS" true -}}
+<script>
+(function () {
+  if (window.__ddAud) return;
+  window.__ddAud = true;
+  function stopOthers(except) {
+    document.querySelectorAll('.dd-aud__el').forEach(function (a) { if (a !== except) a.pause(); });
+    document.querySelectorAll('.dd-aud.is-playing').forEach(function (b) {
+      if (!except || b.closest('.dd-aud-wrap') !== except.closest('.dd-aud-wrap')) {
+        b.classList.remove('is-playing'); b.setAttribute('aria-pressed', 'false');
+      }
+    });
+  }
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest('.dd-aud');
+    if (!btn) return;
+    var wrap = btn.closest('.dd-aud-wrap');
+    var audio = wrap && wrap.querySelector('.dd-aud__el');
+    if (!audio) return;
+    if (audio.paused) {
+      stopOthers(audio);
+      var p = audio.play();
+      if (p && p.catch) p.catch(function () {});
+      btn.classList.add('is-playing');
+      btn.setAttribute('aria-pressed', 'true');
+    } else {
+      audio.pause();
+      btn.classList.remove('is-playing');
+      btn.setAttribute('aria-pressed', 'false');
+    }
+  });
+  document.addEventListener('ended', function (e) {
+    var el = e.target;
+    if (!el.classList || !el.classList.contains('dd-aud__el')) return;
+    var wrap = el.closest('.dd-aud-wrap');
+    var btn = wrap && wrap.querySelector('.dd-aud');
+    if (btn) { btn.classList.remove('is-playing'); btn.setAttribute('aria-pressed', 'false'); }
+  }, true);
+})();
+</script>
+{{- end -}}
+{{- end -}}
