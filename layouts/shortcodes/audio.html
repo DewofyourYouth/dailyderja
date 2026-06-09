@@ -1,12 +1,12 @@
-{{ $src := .Get "src" | default (.Get 0) }}
-{{ $caption := .Get "caption" | default (.Get 1) }}
-{{ $preload := .Get "preload" | default (.Get 2) | default "metadata" }}
+{{/*
+  Inline pronunciation: a compact gold "coin" play button + its caption (IPA / gloss).
+  Uses the shared, self-contained audio system (partials/audio-pron.html).
 
-<div class="audio-wrapper">
-  <figure class="audio-player">
-    <audio class="js-player" controls preload="{{ $preload }}">
-      {{ with $src }}<source src="{{ . | relURL }}" type="audio/mpeg">{{ end }}
-    </audio>
-    {{ with $caption }}<figcaption>{{ . }}</figcaption>{{ end }}
-  </figure>
-</div>
+  {{< audio src="/audio/change.mp3" caption="taˈɣaj.jor" >}}
+*/}}
+{{- $src := .Get "src" | default (.Get 0) -}}
+{{- $caption := .Get "caption" | default (.Get 1) -}}
+<span class="dd-aud-inline">
+  {{ partial "audio-pron.html" (dict "src" $src "page" .Page "label" $caption) }}
+  {{- with $caption }}<span class="dd-aud-cap">{{ . }}</span>{{ end -}}
+</span>

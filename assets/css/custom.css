@@ -2703,10 +2703,21 @@ a.dialect-badge:focus-visible {
   color: var(--side);
   text-align: center;
 }
-.compare-card__side--tunisian { --side: #1862a8; }
-.compare-card__side--shami { --side: #a96f1c; }
+.compare-card__side--tunisian {
+  --side: #1862a8;
+  --aud: #1b6ec2;
+  --aud-deep: #155a9e;
+  --aud-hi: #6fb0e6;
+}
+.compare-card__side--shami {
+  --side: #a96f1c;
+  --aud: #c6843a;
+  --aud-deep: #9f6429;
+  --aud-hi: #e6b873;
+}
 .dark .compare-card__side--tunisian { --side: #7ab6e8; }
 .dark .compare-card__side--shami { --side: #e2ba6e; }
+.compare-card__side .dd-aud-wrap { margin-top: 0.4rem; }
 .compare-card__vs {
   align-self: center;
   font-size: 0.95rem;
@@ -2778,6 +2789,22 @@ a.dialect-badge:focus-visible {
   color: var(--aud-deep, var(--color-accent-dark, #9f6429));
 }
 .dark .dd-aud__text { color: var(--aud, var(--color-accent-light, #ebd3aa)); }
+/* in the word-block phon row, push the control to the trailing edge */
+.dd-word__phon .dd-aud-wrap { margin-inline-start: auto; }
+
+/* inline pronunciation (audio shortcode): coin + caption */
+.dd-aud-inline {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.dd-aud-cap {
+  font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  font-size: 0.85rem;
+  letter-spacing: 0.02em;
+  color: var(--color-accent-dark, #9f6429);
+}
+.dark .dd-aud-cap { color: var(--color-accent-light, #ebd3aa); }
 .dd-aud:hover {
   transform: translateY(-1px) scale(1.06);
   filter: saturate(1.06);

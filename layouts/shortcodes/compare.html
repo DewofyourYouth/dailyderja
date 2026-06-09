@@ -9,17 +9,21 @@
 {{- $tn := .Get "tn" -}}
 {{- $sh := .Get "sh" -}}
 {{- $note := .Get "note" -}}
+{{- $tnAudio := .Get "tnAudio" -}}
+{{- $shAudio := .Get "shAudio" -}}
 <div class="compare-card">
   {{- with $en }}<p class="compare-card__en">{{ . }}</p>{{ end -}}
   <div class="compare-card__pair">
     <span class="compare-card__side compare-card__side--tunisian">
       <span class="compare-card__lang">Tunisian</span>
       <span class="compare-card__word" dir="rtl" lang="ar">{{ $tn }}</span>
+      {{- with $tnAudio }}{{ partial "audio-pron.html" (dict "src" . "page" $.Page "label" $tn) }}{{ end -}}
     </span>
     <span class="compare-card__vs" aria-hidden="true">↔</span>
     <span class="compare-card__side compare-card__side--shami">
       <span class="compare-card__lang">Levantine</span>
       <span class="compare-card__word" dir="rtl" lang="ar">{{ $sh }}</span>
+      {{- with $shAudio }}{{ partial "audio-pron.html" (dict "src" . "page" $.Page "label" $sh) }}{{ end -}}
     </span>
   </div>
   {{- with $note }}<p class="compare-card__note">{{ . }}</p>{{ end -}}
