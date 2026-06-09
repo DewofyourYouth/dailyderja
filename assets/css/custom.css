@@ -1560,6 +1560,15 @@ section.article-ltr {
   opacity: 0.75;
 }
 
+/* --- horizontal scroll wrapper so wide tables don't clip on mobile --- */
+.article-content .table-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 1.9rem 0;
+  border-radius: 13px;
+}
+.article-content .table-scroll > table { margin: 0; }
+
 /* --- manuscript tables (the كلام / vocab tables) --- */
 .article-content table {
   width: 100%;
