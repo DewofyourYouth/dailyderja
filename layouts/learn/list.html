@@ -15,7 +15,18 @@
       </header>
     </section>
 
-    <h2 class="learn__h"><span>Pick your dialect</span></h2>
+    {{ $refs := where site.RegularPages "Params.learn" true }}
+    {{ with $refs }}
+      <h2 class="learn__h" id="cheat-sheets"><span>Cheat sheets &amp; references</span></h2>
+      <p class="learn__lead">Scannable guides — vocab, modals, and Tunisian-vs-Levantine differences at a glance.</p>
+      <section class="space-y-8 w-full">
+        {{ range .ByDate.Reverse }}
+          {{ partial "article-link/simple.html" . }}
+        {{ end }}
+      </section>
+    {{ end }}
+
+    <h2 class="learn__h"><span>Browse by dialect</span></h2>
     <div class="hp-wayfind__grid">
       <a class="wf-tile wf-tile--shami" href="{{ "dialects/shami/" | relLangURL }}">
         <span class="wf-tile__glyph" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"><rect x="5.6" y="5.6" width="12.8" height="12.8"/><rect x="5.6" y="5.6" width="12.8" height="12.8" transform="rotate(45 12 12)"/></svg></span>
@@ -28,17 +39,6 @@
         <span class="wf-tile__desc">The Maghrebi Arabic where Daily Derja began &middot; {{ $tunCount }} posts</span>
       </a>
     </div>
-
-    {{ $refs := where site.RegularPages "Params.learn" true }}
-    {{ with $refs }}
-      <h2 class="learn__h"><span>Cheat sheets &amp; references</span></h2>
-      <p class="learn__lead">Scannable guides — vocab, modals, and Tunisian-vs-Levantine differences at a glance.</p>
-      <section class="space-y-8 w-full">
-        {{ range .ByDate.Reverse }}
-          {{ partial "article-link/simple.html" . }}
-        {{ end }}
-      </section>
-    {{ end }}
 
     <h2 class="learn__h"><span>More ways to learn</span></h2>
     <div class="hp-wayfind__grid">

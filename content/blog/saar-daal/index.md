@@ -2,6 +2,7 @@
 title: Using Saar and Dall in Shami Arabic
 date: '2025-12-04T20:16:19+02:00'
 draft: false
+learn: true
 postLang: ar
 series:
   - نسمة كلمة

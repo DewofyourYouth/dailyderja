@@ -2,12 +2,18 @@ main:
   - name: Blog
     url: /blog/
     weight: 1
+  - name: Learn
+    url: /learn/
+    weight: 2
   - name: Shami (Levantine)
     url: /dialects/shami/
-    weight: 2
-  - name: Tunisian
-    url: /dialects/tunisian
     weight: 3
+  - name: Tunisian
+    url: /dialects/tunisian/
+    weight: 4
+  - name: Tutors
+    url: /tutors/
+    weight: 5
   - name: About
     url: /about/
     weight: 6
