@@ -53,7 +53,6 @@ cssclasses:
 
 {{% examples title="Physical things" titleAr="للأشياء المادية" %}}
 {{< example ar="الخشب ضعيف، ما بيقدر يشيل وزن كبير." en="The wood is weak, it can’t hold a lot of weight." audio="/audio/weak-wood.mp3" >}}
-{{< example ar="الحديد قوي، ما بيكسر بسهولة." en="The iron is strong, it doesn’t break easily." audio="/audio/strong-iron.mp3" >}}
 {{< example ar="الضعيف بيموت بسرعة، والقوي بيضل واقف." en="The weak one dies quickly, and the strong one remains standing." tag="masc." audio="/audio/weak-one-dies-masc.mp3" >}}
 {{< example ar="الضعيفة بتموت بسرعة، والقوية بتضل واقفة." en="The weak one dies quickly, and the strong one remains standing." tag="fem." audio="/audio/weak-one-dies-fem.mp3" >}}
 {{% /examples %}}
