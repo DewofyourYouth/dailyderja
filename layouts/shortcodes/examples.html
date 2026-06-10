@@ -1,0 +1,22 @@
+{{/*
+  Sentence example group. Use with {{< example >}} rows.
+  Use percent delimiters so Hugo renders the nested example shortcodes.
+
+  {{% examples title="People" titleAr="للناس" %}}
+    {{< example ar="..." en="..." tag="masc." >}}
+  {{% /examples %}}
+*/}}
+{{- $title := .Get "title" -}}
+{{- $titleAr := .Get "titleAr" -}}
+{{- $kind := .Get "kind" -}}
+<section class="example-block{{ with $kind }} example-block--{{ . }}{{ end }}">
+  {{- if or $title $titleAr }}
+  <h3 class="example-block__head">
+    {{- with $title }}<span class="example-block__title">{{ . }}</span>{{ end -}}
+    {{- with $titleAr }}<span class="example-block__title-ar" dir="rtl" lang="ar">{{ . }}</span>{{ end -}}
+  </h3>
+  {{- end }}
+  <div class="example-list">
+    {{ .InnerDeindent }}
+  </div>
+</section>

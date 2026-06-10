@@ -1,0 +1,26 @@
+{{/*
+  One sentence example for use inside {{< examples >}}.
+
+  {{< example ar="باللعبة هاي..." en="In this game..."
+              ipa="..." tag="masc." audio="/audio/example.mp3" >}}
+*/}}
+{{- $ar := .Get "ar" -}}
+{{- $en := .Get "en" -}}
+{{- $ipa := .Get "ipa" | default (.Get "sh_ipa") -}}
+{{- $tag := .Get "tag" -}}
+{{- $note := .Get "note" -}}
+{{- $audio := .Get "audio" -}}
+<article class="example-card">
+  <div class="example-card__top">
+    <p class="example-card__ar" dir="rtl" lang="ar">{{ $ar }}</p>
+    {{- with $audio }}{{ partial "audio-pron.html" (dict "src" . "page" $.Page "label" $ar) }}{{ end -}}
+  </div>
+  {{- with $en }}<p class="example-card__en" dir="ltr" lang="en">{{ . }}</p>{{ end -}}
+  {{- if or $tag $ipa $note }}
+  <div class="example-card__meta" dir="ltr" lang="en">
+    {{- with $tag }}<span class="example-card__tag">{{ . }}</span>{{ end -}}
+    {{- with $ipa }}<span class="example-card__ipa">/{{ . }}/</span>{{ end -}}
+    {{- with $note }}<span class="example-card__note">{{ . }}</span>{{ end -}}
+  </div>
+  {{- end }}
+</article>

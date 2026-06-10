@@ -2874,6 +2874,157 @@ a.dialect-badge:focus-visible {
 }
 
 /* ================================
+   Sentence examples — compact study rows
+   (shortcodes: examples / example)
+   ================================= */
+
+.example-block {
+  --ex-gold: var(--color-accent, #c6843a);
+  --ex-gold-deep: var(--color-accent-dark, #9f6429);
+  --ex-gold-soft: var(--color-accent-light, #ebd3aa);
+  --ex-ink: #322713;
+  --ex-ink-soft: #6a5836;
+  --ex-line: rgba(159, 100, 41, 0.18);
+  --ex-paper: rgba(251, 244, 231, 0.6);
+  --ex-paper-2: rgba(241, 226, 201, 0.28);
+  margin: 1.45rem 0 1.9rem;
+}
+.dark .example-block {
+  --ex-gold-deep: #e0b667;
+  --ex-ink: #f1e4cc;
+  --ex-ink-soft: #cbb68d;
+  --ex-line: rgba(235, 211, 170, 0.16);
+  --ex-paper: rgba(46, 35, 22, 0.44);
+  --ex-paper-2: rgba(34, 26, 16, 0.34);
+}
+
+.example-block__head {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin: 0 0 0.75rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid var(--ex-line);
+}
+.example-block__title {
+  font-family: "Zain", system-ui, sans-serif;
+  font-weight: 800;
+  font-size: 1.16rem;
+  color: var(--ex-ink);
+}
+.example-block__title-ar {
+  font-family: "Lalezar", system-ui, sans-serif;
+  font-weight: 400;
+  font-size: 1.38rem;
+  line-height: 1;
+  color: var(--ex-gold-deep);
+}
+
+.example-list {
+  display: grid;
+  gap: 0.7rem;
+}
+
+.example-card {
+  position: relative;
+  padding: 0.85rem 1rem 0.9rem;
+  border: 1px solid var(--ex-line);
+  border-radius: 12px;
+  background: linear-gradient(160deg, var(--ex-paper), var(--ex-paper-2));
+  box-shadow: 0 8px 22px -19px rgba(56, 38, 12, 0.42);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+.example-card::before {
+  content: "";
+  position: absolute;
+  inset-block: 0.75rem;
+  inset-inline-start: 0;
+  width: 3px;
+  border-radius: 999px;
+  background: linear-gradient(180deg, var(--ex-gold), color-mix(in srgb, var(--ex-gold) 35%, transparent));
+  opacity: 0.75;
+}
+.example-card:hover {
+  transform: translateY(-1px);
+  border-color: color-mix(in srgb, var(--ex-gold) 45%, transparent);
+  box-shadow: 0 14px 30px -20px rgba(56, 38, 12, 0.5);
+}
+
+.example-card__top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.8rem;
+}
+.example-card__ar {
+  margin: 0;
+  font-family: "Zain", system-ui, sans-serif;
+  font-weight: 700;
+  font-size: clamp(1.22rem, 2.4vw, 1.48rem);
+  line-height: 1.45;
+  color: var(--ex-ink);
+  text-align: start;
+}
+.example-card__top .dd-aud-wrap {
+  flex: none;
+  margin-top: 0.08rem;
+}
+.example-card__en {
+  margin: 0.28rem 0 0;
+  font-family: "Zain", system-ui, sans-serif;
+  font-size: 1.03rem;
+  line-height: 1.4;
+  color: var(--ex-ink-soft);
+}
+.example-card__meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.55rem;
+  margin-top: 0.48rem;
+  padding-top: 0.5rem;
+  border-top: 1px dashed var(--ex-line);
+  font-family: "Zain", system-ui, sans-serif;
+  color: var(--ex-ink-soft);
+}
+.example-card__tag {
+  padding: 0.08rem 0.48rem;
+  border-radius: 999px;
+  font-size: 0.64rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ex-gold-deep);
+  background: color-mix(in srgb, var(--ex-gold) 14%, transparent);
+}
+.example-card__ipa {
+  font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  font-size: 0.72rem;
+  line-height: 1.35;
+  color: var(--ex-gold-deep);
+  opacity: 0.78;
+}
+.example-card__note {
+  font-style: italic;
+  font-size: 0.9rem;
+  line-height: 1.35;
+}
+
+@media (max-width: 520px) {
+  .example-card {
+    padding: 0.8rem 0.85rem 0.85rem;
+  }
+  .example-card__top {
+    gap: 0.65rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .example-card { transition: none; }
+}
+
+/* ================================
    Pronunciation control — compact gold "coin"
    (partial: audio-pron.html; class: .dd-aud)
    ================================= */
