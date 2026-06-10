@@ -17,6 +17,7 @@ draft: false
 learn: true
 dialects:
   - shami
+  - tunisian
 series:
   - نسمة كلمة
 series_order: 5

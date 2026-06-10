@@ -2898,6 +2898,30 @@ a.dialect-badge:focus-visible {
   --ex-paper-2: rgba(34, 26, 16, 0.34);
 }
 
+/* Tunisian variant */
+.example-block--tunisian {
+  --ex-gold: #1b6ec2;
+  --ex-gold-deep: #155a9e;
+  --ex-gold-soft: #e7f1f9;
+  --ex-ink: #0f1d2c;
+  --ex-ink-soft: #3a5f80;
+  --ex-line: rgba(27, 110, 194, 0.16);
+  --ex-paper: #f5f9fd;
+  --ex-paper-2: #e6f0fa;
+  --aud: #1b6ec2;
+  --aud-deep: #155a9e;
+  --aud-hi: #6fb0e6;
+}
+.dark .example-block--tunisian {
+  --ex-gold-deep: #7ab6e8;
+  --ex-ink: #9fc3e4;
+  --ex-ink-soft: #7ab6e8;
+  --ex-line: rgba(122, 182, 232, 0.16);
+  --ex-paper: rgba(15, 29, 44, 0.44);
+  --ex-paper-2: rgba(19, 36, 58, 0.34);
+  --aud: #7ab6e8;
+}
+
 .example-block__head {
   display: flex;
   align-items: baseline;

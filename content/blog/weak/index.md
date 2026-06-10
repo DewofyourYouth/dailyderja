@@ -17,6 +17,7 @@ draft: false
 learn: true
 dialects:
   - shami
+  - tunisian
 series:
   - نسمة كلمة
 series_order: 4
@@ -39,6 +40,10 @@ cssclasses:
 {{< example ar="باللعبة هاي، إذا كنتِ ضعيفة، ما بتعيشي كتير." en="In this game, if you’re weak, you won’t survive long." tag="fem." ipa="bɪlˈlʕabɪ ɦaːj, ʔiːðā kʊnti daˈʕiːfe, ma bɪtaʕīʃi ktiːr" audio="/audio/in-this-game-fem.mp3" >}}
 {{< example ar="هون ما في مجال تكون ضعيف." en="Here, there’s no room to be weak." tag="masc." audio="/audio/no-room-for-weak-masc.mp3" >}}
 {{< example ar="هون ما في مجال تكوني ضعيفة." en="Here, there’s no room to be weak." tag="fem." audio="/audio/no-room-for-weak-fem.mp3" >}}
+{{% /examples %}}
+
+{{% examples title="Tunisian" titleAr="بالتونسي" kind="tunisian" %}}
+{{< example ar="في اللعبة هاذي، كانك ضعيف، ما تعيشش برشا." en="In this game, if you’re weak, you won’t survive long." audio="/audio/in-this-game-tunisian.mp3" >}}
 {{% /examples %}}
 
 {{% examples title="Animals" titleAr="للحيوانات" %}}
