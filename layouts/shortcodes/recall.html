@@ -1,0 +1,65 @@
+{{/*
+  Mnemonic + flashcard block for a single word.
+
+  {{< recall ar="ضعيف" translit="da3if / daif" meaning="weak"
+      mnemonic="You **DIE IF** you're weak."
+      note="DIE IF sounds like daif." audio="/audio/daif.mp3"
+      image="weak-flashcard.jpg" >}}
+*/}}
+{{- $ar := .Get "ar" -}}
+{{- $translit := .Get "translit" -}}
+{{- $meaning := .Get "meaning" -}}
+{{- $mnemonic := .Get "mnemonic" -}}
+{{- $note := .Get "note" -}}
+{{- $audio := .Get "audio" -}}
+{{- $image := .Get "image" -}}
+{{- $imageAlt := .Get "imageAlt" | default (printf "Flashcard for %s" $meaning) -}}
+{{- $imageSrc := "" -}}
+{{- with $image -}}
+  {{- with $.Page.Resources.GetMatch . -}}
+    {{- $imageSrc = .RelPermalink -}}
+  {{- else -}}
+    {{- $imageSrc = ($image | relURL) -}}
+  {{- end -}}
+{{- end -}}
+
+<section class="recall-block" dir="ltr" lang="en">
+  <h3 class="recall-block__head">
+    <span class="recall-block__title">Memory hook</span>
+    <span class="recall-block__title-ar" dir="rtl" lang="ar">تذكّرها</span>
+  </h3>
+
+  <div class="recall-grid">
+    <article class="recall-card recall-card--mnemonic">
+      <span class="recall-card__label">Mnemonic</span>
+      {{- with $mnemonic }}<p class="recall-card__line">{{ . | markdownify }}</p>{{ end -}}
+      {{- with $note }}<p class="recall-card__note">{{ . }}</p>{{ end -}}
+    </article>
+
+    <article class="recall-card recall-card--flash">
+      <span class="recall-card__label">Flashcard</span>
+      {{- if $imageSrc }}
+        <figure class="recall-flash-image">
+          <img src="{{ $imageSrc }}" alt="{{ $imageAlt }}" loading="lazy" decoding="async">
+          <figcaption>
+            <span class="recall-flash-image__word" dir="rtl" lang="ar">{{ $ar }}</span>
+            <span>{{ $meaning }}</span>
+            {{- with $audio }}{{ partial "audio-pron.html" (dict "src" . "page" $.Page "label" $ar) }}{{ end -}}
+          </figcaption>
+        </figure>
+      {{- else }}
+        <div class="recall-flash">
+          <div class="recall-flash__front">
+            <span class="recall-flash__ar" dir="rtl" lang="ar">{{ $ar }}</span>
+            <span class="recall-flash__translit">{{ $translit }}</span>
+            {{- with $audio }}{{ partial "audio-pron.html" (dict "src" . "page" $.Page "label" $ar) }}{{ end -}}
+          </div>
+          <div class="recall-flash__back">
+            <span class="recall-flash__answer">{{ $meaning }}</span>
+            {{- with $mnemonic }}<span class="recall-flash__cue">{{ . | markdownify }}</span>{{ end -}}
+          </div>
+        </div>
+      {{- end }}
+    </article>
+  </div>
+</section>

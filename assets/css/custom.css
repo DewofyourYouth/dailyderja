@@ -3025,6 +3025,185 @@ a.dialect-badge:focus-visible {
 }
 
 /* ================================
+   Recall block — mnemonic + flashcard
+   (shortcode: recall)
+   ================================= */
+
+.recall-block {
+  --rc-gold: var(--color-accent, #c6843a);
+  --rc-gold-deep: var(--color-accent-dark, #9f6429);
+  --rc-gold-soft: var(--color-accent-light, #ebd3aa);
+  --rc-ink: #322713;
+  --rc-ink-soft: #6a5836;
+  --rc-line: rgba(159, 100, 41, 0.2);
+  --rc-paper: rgba(251, 244, 231, 0.66);
+  --rc-paper-2: rgba(241, 226, 201, 0.36);
+  margin: 1.45rem 0 2rem;
+  font-family: "Zain", system-ui, sans-serif;
+}
+.dark .recall-block {
+  --rc-gold-deep: #e0b667;
+  --rc-ink: #f1e4cc;
+  --rc-ink-soft: #cbb68d;
+  --rc-line: rgba(235, 211, 170, 0.16);
+  --rc-paper: rgba(46, 35, 22, 0.48);
+  --rc-paper-2: rgba(34, 26, 16, 0.36);
+}
+
+.recall-block__head {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin: 0 0 0.75rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid var(--rc-line);
+}
+.recall-block__title {
+  font-weight: 800;
+  font-size: 1.16rem;
+  color: var(--rc-ink);
+}
+.recall-block__title-ar {
+  font-family: "Lalezar", system-ui, sans-serif;
+  font-size: 1.38rem;
+  line-height: 1;
+  color: var(--rc-gold-deep);
+}
+
+.recall-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 0.8rem;
+}
+.recall-card {
+  position: relative;
+  padding: 0.9rem 1rem 1rem;
+  border: 1px solid var(--rc-line);
+  border-radius: 12px;
+  background: linear-gradient(160deg, var(--rc-paper), var(--rc-paper-2));
+  box-shadow: 0 8px 22px -19px rgba(56, 38, 12, 0.42);
+}
+.recall-card__label {
+  display: inline-flex;
+  margin-bottom: 0.45rem;
+  padding: 0.08rem 0.48rem;
+  border-radius: 999px;
+  font-size: 0.64rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--rc-gold-deep);
+  background: color-mix(in srgb, var(--rc-gold) 14%, transparent);
+}
+.recall-card__line {
+  margin: 0;
+  font-weight: 800;
+  font-size: clamp(1.25rem, 2.8vw, 1.65rem);
+  line-height: 1.18;
+  color: var(--rc-ink);
+}
+.recall-card__line strong,
+.recall-flash__cue strong {
+  color: var(--rc-gold-deep);
+}
+.recall-card__note {
+  margin: 0.45rem 0 0;
+  font-style: italic;
+  font-size: 0.98rem;
+  line-height: 1.4;
+  color: var(--rc-ink-soft);
+}
+
+.recall-flash {
+  display: grid;
+  gap: 0.65rem;
+}
+.recall-flash__front,
+.recall-flash__back {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+  min-height: 4.2rem;
+  padding: 0.7rem 0.75rem;
+  border-radius: 10px;
+  border: 1px dashed var(--rc-line);
+}
+.recall-flash__front {
+  background: color-mix(in srgb, var(--rc-gold) 9%, transparent);
+}
+.recall-flash__back {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.recall-flash__ar {
+  font-family: "Lalezar", system-ui, sans-serif;
+  font-size: 2.15rem;
+  line-height: 1;
+  color: var(--rc-gold-deep);
+}
+.recall-flash__translit {
+  margin-inline-start: auto;
+  font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  font-size: 0.86rem;
+  color: var(--rc-ink-soft);
+}
+.recall-flash__answer {
+  font-weight: 800;
+  font-size: 1.35rem;
+  line-height: 1.15;
+  color: var(--rc-ink);
+}
+.recall-flash__cue {
+  font-size: 0.98rem;
+  line-height: 1.35;
+  color: var(--rc-ink-soft);
+}
+.recall-flash__cue p {
+  margin: 0;
+}
+.recall-flash-image {
+  margin: 0;
+}
+.recall-flash-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid var(--rc-line);
+  box-shadow: 0 10px 24px -18px rgba(56, 38, 12, 0.55);
+}
+.recall-flash-image figcaption {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.45rem 0.65rem;
+  margin-top: 0.65rem;
+  font-weight: 800;
+  font-size: 1rem;
+  line-height: 1.25;
+  color: var(--rc-ink);
+}
+.recall-flash-image__word {
+  font-family: "Lalezar", system-ui, sans-serif;
+  font-size: 1.45rem;
+  line-height: 1;
+  color: var(--rc-gold-deep);
+}
+
+@media (max-width: 520px) {
+  .recall-flash__front {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .recall-flash__translit {
+    margin-inline-start: 0;
+  }
+}
+
+/* ================================
    Pronunciation control — compact gold "coin"
    (partial: audio-pron.html; class: .dd-aud)
    ================================= */
