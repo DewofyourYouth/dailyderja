@@ -41,7 +41,6 @@ cssclasses:
 | حَكي    | ḥaki            | talk / speech / conversation | Common Shami noun for speech or talking.                                                 |
 | زَبَّط    | zabbaṭ          | to fix, adjust, or sort out  | Very common Shami verb for making something work or fixing it. "أزبطه" means "I fix it." |
 
-## فيديو
 
 ---
 {{< ltr >}}
