@@ -30,8 +30,6 @@ cssclasses:
 
 {{< recall ar="ضعيف" translit="da3if / daif" meaning="weak" mnemonic="You **DIE IF** you're weak." note="DIE IF sounds like daif." audio="/audio/daif.mp3" image="weak-flashcard.jpg" imageAlt="The Daily Derja flashcard for ضعيف, weak" >}}
 
-
-
 {{< join-channels >}}
 
 ## أمثلة
