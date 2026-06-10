@@ -28,18 +28,18 @@ cssclasses:
 
 بس صاحبي موشيه قالّي إنّه في إشي اسمه ElevenLabs، وبيعمل TTS منيح كتير.
 
-إن شاء الله اليوم بجرّب أستعمله عشان أحسّن الـ TTS تبع حكي اللعبة. هلّق هو مش منيح، وإن شاء الله بقدر أزبطه.
+إن شاء الله اليوم بجرّب أستعمله عشان أحسّن الـ TTS تبع [حكي](https://haki-game.com) اللعبة. هلّق هو مش منيح، وإن شاء الله بقدر أزبطه.
 
 {{< join-channels >}}
 
 ## كلام
 
-| Arabic | Transliteration | English | Notes |
-| --- | --- | --- | --- |
-| ناشِر | nāshir | publishing / publisher | Active participle of نَشَر (to publish). Used here to mean "having published". |
-| حَسَّن | ḥassan | to improve | Form II verb. Meaning to make better or improve. |
-| حَكي | ḥaki | talk / speech / conversation | Common Shami noun for speech or talking. |
-| زَبَّط | zabbaṭ | to fix, adjust, or sort out | Very common Shami verb for making something work or fixing it. "أزبطه" means "I fix it." |
+| Arabic | Transliteration | English                      | Notes                                                                                    |
+| ------ | --------------- | ---------------------------- | ---------------------------------------------------------------------------------------- |
+| ناشِر   | nāshir          | publishing / publisher       | Active participle of نَشَر (to publish). Used here to mean "having published".             |
+| حَسَّن    | ḥassan          | to improve                   | Form II verb. Meaning to make better or improve.                                         |
+| حَكي    | ḥaki            | talk / speech / conversation | Common Shami noun for speech or talking.                                                 |
+| زَبَّط    | zabbaṭ          | to fix, adjust, or sort out  | Very common Shami verb for making something work or fixing it. "أزبطه" means "I fix it." |
 
 ## فيديو
 
