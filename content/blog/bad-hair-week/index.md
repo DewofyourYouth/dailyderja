@@ -23,7 +23,7 @@ cssclasses:
   - arabic-note
 ---
 
-{{< word ar="كارثة" sh_ipa="ˈkaː.ri.se" meaning="disaster; catastrophe; calamity" root="ك · ر · ث" pos="noun (feminine)" note="Calibrated by tone — the same word covers a burnt coffee and a genuine crisis. Context (and how dramatic you sound) does the work." >}}
+{{< word ar="كارثة" sh_ipa="ˈkaː.ri.se" meaning="disaster; catastrophe; calamity" root="ك · ر · ث" pos="noun (feminine)" audio="/audio/karsa.mp3" note="Calibrated by tone — the same word covers a burnt coffee and a genuine crisis. Context (and how dramatic you sound) does the work." >}}
 
 ## صور
 

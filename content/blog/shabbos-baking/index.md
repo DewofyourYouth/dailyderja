@@ -63,8 +63,8 @@ series_order: 1
 
 ## كلام «جديد»:
 
-1. عجينه - בצק - /ʕˈʒiː.næ/
-2. خليط - תערובת -  /xˤlæˈjˤtˤ/
-3. القرفة - קינמון - /lˈqɪrfæ/
-4. فرّق - למרוח -  /ˈfærːəq/
-5. ضفرة - קליעה - /ˈðˤfɾæ/
+1. عجينه - בצק - /ʕˈʒiː.næ/ {{< audio src="/audio/ajina.mp3" >}}
+2. خليط - תערובת -  /xˤlæˈjˤtˤ/ {{< audio src="/audio/khalet.mp3" >}}
+3. القرفة - קינמון - /lˈqɪrfæ/ {{< audio src="/audio/qirfa.mp3" >}}
+4. فرّق - למרוח -  /ˈfærːəq/ {{< audio src="/audio/farraq.mp3" >}}
+5. ضفرة - קליעה - /ˈðˤfɾæ/ {{< audio src="/audio/dafra.mp3" >}}

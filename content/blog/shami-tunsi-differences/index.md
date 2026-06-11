@@ -43,14 +43,14 @@ class="yt-embed"
 ## كلام
 
 {{< cheatsheet title="Tunisian vs Levantine" titleAr="تونسي ضدّ شامي" kind="compare" >}}
-{{< compare en="a lot / many / very" tn="برشة" sh="كتير" note="Different high-frequency quantifier." >}}
-{{< compare en="work / job" tn="خِدمة" sh="شُغل" note="Same meaning, different root." >}}
-{{< compare en="what" tn="شنوّا" sh="شو" note="Basic interrogative difference." >}}
-{{< compare en="now" tn="تَوّا" sh="هلّق" note="Same timing, different adverb." >}}
-{{< compare en="nice / pleasant" tn="مزيّن" sh="حلو" note="Used for “looks good / feels nice.”" >}}
-{{< compare en="good / OK" tn="باهي" sh="تمام / منيح" note="General approval / status check." >}}
-{{< compare en="go / walk" tn="نمشي" sh="بروح / بمشي" note="Tunisian collapses “go” and “walk”; Levantine splits them." >}}
-{{< compare en="fish / whale" tn="حوت = fish" sh="حوت = whale / سمك = fish" note="Same word, different animal by dialect." >}}
-{{< compare en="sentence packing" tn="شنبّيك / شنحوّلك" sh="شو بدّك / شو بدّي أحوّلك" note="Tunisian compresses full sentences into one word." >}}
-{{< compare en="want vs love" tn="نحبّ" sh="بدي (want) / بحبّ (love)" note="Tunisian uses one verb for both; Levantine separates them." >}}
+{{< compare en="a lot / many / very" tn="برشة" sh="كتير" tnAudio="/audio/barsha.mp3" shAudio="/audio/ktir.mp3" note="Different high-frequency quantifier." >}}
+{{< compare en="work / job" tn="خِدمة" sh="شُغل" tnAudio="/audio/khidma.mp3" shAudio="/audio/shughel.mp3" note="Same meaning, different root." >}}
+{{< compare en="what" tn="شنوّا" sh="شو" tnAudio="/audio/shnuwwa.mp3" shAudio="/audio/shu.mp3" note="Basic interrogative difference." >}}
+{{< compare en="now" tn="تَوّا" sh="هلّق" tnAudio="/audio/tawwa.mp3" shAudio="/audio/hallaq.mp3" note="Same timing, different adverb." >}}
+{{< compare en="nice / pleasant" tn="مزيّن" sh="حلو" tnAudio="/audio/mzayyun.mp3" shAudio="/audio/helu.mp3" note="Used for “looks good / feels nice.”" >}}
+{{< compare en="good / OK" tn="باهي" sh="تمام / منيح" tnAudio="/audio/bahi.mp3" shAudio="/audio/tamam.mp3" note="General approval / status check." >}}
+{{< compare en="go / walk" tn="نمشي" sh="بروح / بمشي" tnAudio="/audio/nemshi.mp3" shAudio="/audio/brooh.mp3" note="Tunisian collapses “go” and “walk”; Levantine splits them." >}}
+{{< compare en="fish / whale" tn="حوت = fish" sh="حوت = whale / سمك = fish" tnAudio="/audio/hwut-tn.mp3" shAudio="/audio/hwut-sh.mp3" note="Same word, different animal by dialect." >}}
+{{< compare en="sentence packing" tn="شنبّيك / شنحوّلك" sh="شو بدّك / شو بدّي أحوّلك" tnAudio="/audio/shanbiik.mp3" shAudio="/audio/shu-biddak.mp3" note="Tunisian compresses full sentences into one word." >}}
+{{< compare en="want vs love" tn="نحبّ" sh="بدي (want) / بحبّ (love)" tnAudio="/audio/nhebb.mp3" shAudio="/audio/bidi-bhebb.mp3" note="Tunisian uses one verb for both; Levantine separates them." >}}
 {{< /cheatsheet >}}

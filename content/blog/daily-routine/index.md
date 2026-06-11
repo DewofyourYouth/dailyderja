@@ -29,7 +29,7 @@ cssclasses:
 
 كل يوم لمّا بفيق الصبح بحاول أصحى بنفس الوقت وأعمل نفس الروتين.
 
-{{< word ar="فَاق" sh_ipa="faːʔ" tn_ipa="faːq" meaning="to wake up; to notice/realize" root="ف · ي · ق" pos="verb" note="Same written verb, different qaf: urban Shami often has hamza, while Tunisian keeps /q/." >}}
+{{< word ar="فَاق" sh_ipa="faːʔ" tn_ipa="faːq" meaning="to wake up; to notice/realize" root="ف · ي · ق" pos="verb" audio="/audio/faaq.mp3" note="Same written verb, different qaf: urban Shami often has hamza, while Tunisian keeps /q/." >}}
 
 كل صباح بفيق عالساعة خمسة ونص، بغسل إيدي وسناني، وبقيس وزني. وبعدين بحضّر قهوة وبمشي عالكنيس. عالساعة ستة وربع بدرس تلمود يروشلمي مع رابي تورسكي، وصلاة الصبح بتبلّش عالساعة سبعة. بالساعة تمانية برجع عالبيت وبفطر.
 

@@ -32,7 +32,7 @@ series_order: 2
  ممكن نمشي نرقد شوية بعد ما نخدم. مرتي حنّا و موشى (4) و صموئيل (2) راهم قامو و تاو يفطرو.
 
 لقيت شوية موسيقى تونسية ثنائي فولكلوري Ÿuma و DJ غولة - ناوي نسمعهم باش نطوّر في الفهم بالسّمع.
-{{< word ar="نَرْقُد" tn_ipa="narqod" sh="بْنَام" sh_ipa="bnaːm" meaning="I sleep; I go to sleep" pos="verb" note="Tunisian uses رقد for sleeping in everyday speech. In Shami, the natural equivalent here is بنام." >}}
+{{< word ar="نَرْقُد" tn_ipa="narqod" sh="بْنَام" sh_ipa="bnaːm" meaning="I sleep; I go to sleep" pos="verb" audio="/audio/narqod.mp3" note="Tunisian uses رقد for sleeping in everyday speech. In Shami, the natural equivalent here is بنام." >}}
 
 لقيت شوية موسيقى تونسية ثنائي فولكلوري Ÿuma و DJ غولة - ناوي نسمعهم باش نطوّر في الفهم بالسّمع.
 

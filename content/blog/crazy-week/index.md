@@ -24,7 +24,7 @@ cssclasses:
   - arabic-note
 ---
 
-{{< word ar="مضغوط" sh_ipa="madˈɣuːtˤ" meaning="pressured; stressed; packed" root="ض · غ · ط" pos="adjective (passive participle)" note="Covers everything from a packed schedule to emotional pressure. Feminine: مضغوطة. If your week is مضغوط, everyone will understand." >}}
+{{< word ar="مضغوط" sh_ipa="madˈɣuːtˤ" meaning="pressured; stressed; packed" root="ض · غ · ط" pos="adjective (passive participle)" audio="/audio/madghut.mp3" note="Covers everything from a packed schedule to emotional pressure. Feminine: مضغوطة. If your week is مضغوط, everyone will understand." >}}
 
 ## خاطِرة
 

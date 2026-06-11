@@ -36,8 +36,8 @@ cssclasses:
 
 {{% examples title="Usage" titleAr="الاستخدام" %}}
 {{< example ar="الحديد قوي، ما بيكسر بسهولة." en="The iron is strong, it doesn't break easily." audio="/audio/strong-iron.mp3" >}}
-{{< example ar="إضرب الحديد وهو حامي." en="Strike the iron while it's hot." audio="/audio/placeholder.mp3" note="Placeholder example" >}}
-{{< example ar="قلبه متل الحديد." en="His heart is like iron." audio="/audio/placeholder.mp3" note="Placeholder example" >}}
+{{< example ar="إضرب الحديد وهو حامي." en="Strike the iron while it's hot." audio="/audio/strike-iron-hot.mp3" >}}
+{{< example ar="قلبه متل الحديد." en="His heart is like iron." audio="/audio/heart-like-iron.mp3" >}}
 {{% /examples %}}
 
 ---

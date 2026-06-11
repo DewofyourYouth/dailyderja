@@ -1,95 +1,95 @@
 slug,voice,text,en,post,dialect
-hadid,male,حَديد,"iron; metal",iron,both
+hadid,female,حَديد,"iron; metal",iron,both
 strike-iron-hot,male,"إضرب الحديد وهو حامي.","Strike the iron while it's hot.",iron,shami
-heart-like-iron,male,"قلبه متل الحديد.","His heart is like iron.",iron,shami
+heart-like-iron,female,"قلبه متل الحديد.","His heart is like iron.",iron,shami
 qasab,male,قَصَب,"reed; cane",personal-ops,both
-bisaraha,male,بصراحة,"honestly; frankly",bisaraha,shami
+bisaraha,female,بصراحة,"honestly; frankly",bisaraha,shami
 madghut,male,مضغوط,"pressured; stressed; packed",crazy-week,shami
-karsa,male,كارثة,"disaster; catastrophe; calamity",bad-hair-week,shami
+karsa,female,كارثة,"disaster; catastrophe; calamity",bad-hair-week,shami
 saar,male,صَار,"became; happened; started to be",saar-daal,shami
-dall,male,ضَلَّ,"stayed; remained; kept (doing)",saar-daal,shami
+dall,female,ضَلَّ,"stayed; remained; kept (doing)",saar-daal,shami
 saar-cold,male,"صار برد.","It's gotten cold.",saar-daal,shami
-saar-want-change-job,male,"صار بدّي أغيّر الشغل.","I've started wanting to change jobs.",saar-daal,shami
+saar-want-change-job,female,"صار بدّي أغيّر الشغل.","I've started wanting to change jobs.",saar-daal,shami
 sho-saar,male,"شو صار؟","What happened?",saar-daal,shami
-saar-time-go,male,"صار الوقت نروح.","It's time for us to go.",saar-daal,shami
+saar-time-go,female,"صار الوقت نروح.","It's time for us to go.",saar-daal,shami
 dall-kept-waiting,male,"ضلّيت عم بستنى.","I kept waiting.",saar-daal,shami
-dall-weather-cold,male,"ضلّ الجو برد.","The weather stayed cold.",saar-daal,shami
+dall-weather-cold,female,"ضلّ الجو برد.","The weather stayed cold.",saar-daal,shami
 dall-situation-all-day,male,"ضلّ الوضع هيك طول النهار.","The situation stayed like that all day.",saar-daal,shami
-dall-kept-thinking,male,"ضلّ عم يفكّر بالموضوع.","He kept thinking about the matter.",saar-daal,shami
+dall-kept-thinking,female,"ضلّ عم يفكّر بالموضوع.","He kept thinking about the matter.",saar-daal,shami
 fini,male,فِينِي,"I can; I am able to",ability-and-intent,shami
-fini-come-tomorrow,male,"فيني أجي بكرا","I can come tomorrow",ability-and-intent,shami
+fini-come-tomorrow,female,"فيني أجي بكرا","I can come tomorrow",ability-and-intent,shami
 baqdar-help-you,male,"بقدر ساعدك","I can help you",ability-and-intent,shami
-mumkin-meet-today,male,"ممكن نلتقي اليوم","We might meet today",ability-and-intent,shami
+mumkin-meet-today,female,"ممكن نلتقي اليوم","We might meet today",ability-and-intent,shami
 bidi-talk-to-you,male,"بدي إحكي معك","I want to talk to you",ability-and-intent,shami
-kan-bidi-come,male,"كان بدي أجي","I was going to come",ability-and-intent,shami
-nawi-travel,male,"ناوي سافر","I'm planning to travel",ability-and-intent,shami
+kan-bidi-come,female,"كان بدي أجي","I was going to come",ability-and-intent,shami
+nawi-travel,female,"ناوية سافر","I'm planning to travel",ability-and-intent,shami
 lazem-go-now,male,"لازم روح هلّق","I have to go now",ability-and-intent,shami
-mafrud-be-there,male,"مفروض نكون هناك","We're supposed to be there",ability-and-intent,shami
+mafrud-be-there,female,"مفروض نكون هناك","We're supposed to be there",ability-and-intent,shami
 mo-lazem-come,male,"مو لازم تيجي","You don't have to come",ability-and-intent,shami
-kunt-go-if-time,male,"كنت روح لو في وقت","I would go if there were time",ability-and-intent,shami
+kunt-go-if-time,female,"كنت روح لو في وقت","I would go if there were time",ability-and-intent,shami
 law-fini-traveled,male,"لو فيني، كنت سافرت","If I could, I would've traveled",ability-and-intent,shami
-fini-come-if-nothing,male,"فيني أجي بكرا، إذا ما صار شي.","I can come tomorrow, if nothing comes up.",ability-and-intent,shami
+fini-come-if-nothing,female,"فيني أجي بكرا، إذا ما صار شي.","I can come tomorrow, if nothing comes up.",ability-and-intent,shami
 baqdar-help-afternoon,male,"بقدر ساعدك بعد الظهر.","I can help you after noon.",ability-and-intent,shami
-mish-fini-two-places,male,"مش فيني أكون بمكانين بنفس الوقت.","I can't be in two places at the same time.",ability-and-intent,shami
+mish-fini-two-places,female,"مش فيني أكون بمكانين بنفس الوقت.","I can't be in two places at the same time.",ability-and-intent,shami
 bidi-talk-important,male,"بدي إحكي معك عن شي مهم.","I want to talk to you about something important.",ability-and-intent,shami
-kan-bidi-come-couldnt,male,"كان بدي أجي، بس ما قدرت.","I was going to come, but I couldn't.",ability-and-intent,shami
+kan-bidi-come-couldnt,female,"كان بدي أجي، بس ما قدرت.","I was going to come, but I couldn't.",ability-and-intent,shami
 nawi-travel-next-week,male,"ناوي سافر الأسبوع الجاي.","I'm planning to travel next week.",ability-and-intent,shami
 lazem-go-now-late,male,"لازم روح هلّق، رح تأخر.","I have to go now, you'll be late.",ability-and-intent,shami
-mafrud-be-there-nine,male,"مفروض نكون هناك الساعة تسعة.","We're supposed to be there at nine.",ability-and-intent,shami
+mafrud-be-there-nine,female,"مفروض نكون هناك الساعة تسعة.","We're supposed to be there at nine.",ability-and-intent,shami
 mo-lazem-come-not-up,male,"مو لازم تيجي إذا مش فيك.","You don't have to come if you're not up for it.",ability-and-intent,shami
-law-fini-traveled-with-you,male,"لو فيني، كنت سافرت معك.","If I could, I would have traveled with you.",ability-and-intent,shami
+law-fini-traveled-with-you,female,"لو فيني، كنت سافرت معك.","If I could, I would have traveled with you.",ability-and-intent,shami
 maabi,male,معبّي,"mind is full / mentally overloaded",notebook-lm,shami
-bzhaq,male,بزهَق,"get bored easily — esp. with repetition",notebook-lm,shami
+bzhaq,female,بزهَق,"get bored easily — esp. with repetition",notebook-lm,shami
 ufut-bi-iqaa,male,أُفوت بإيقاع,"getting into a rhythm (sleep / work)",notebook-lm,shami
-hal-fatra,male,هالفترة,"lately / these days",notebook-lm,shami
+hal-fatra,female,هالفترة,"lately / these days",notebook-lm,shami
 mushtaq,male,مشتاق,"longing for / missing (a hobby)",notebook-lm,shami
-nhawwes,male,نحوّس,"hunting for / trying to find",notebook-lm,shami
+nhawwes,female,نحوّس,"hunting for / trying to find",notebook-lm,shami
 khabsa,male,خبصة,"a mess / a muddle — a chaotic situation",notebook-lm,shami
-byiitim,male,بِيِعْتِم,"(light or mood) turns dim / gloomy",notebook-lm,shami
+byiitim,female,بِيِعْتِم,"(light or mood) turns dim / gloomy",notebook-lm,shami
 lammaht,male,لمّحت,"I caught a glimpse / glanced at",notebook-lm,shami
-suraan-ma,male,سرعان ما,"quickly / soon after",notebook-lm,shami
+suraan-ma,female,سرعان ما,"quickly / soon after",notebook-lm,shami
 mishaghib,male,مِشاغِب,"a troublemaker — often for kids",notebook-lm,shami
-bil-noss,male,بالنصّ,"in the center / in the middle of it",notebook-lm,shami
+bil-noss,female,بالنصّ,"in the center / in the middle of it",notebook-lm,shami
 muakhkharan,male,مؤخّرًا,recently,notebook-lm,shami
-ajjelnah,male,أجّلناه,"we postponed it (a meeting / interview)",notebook-lm,shami
+ajjelnah,female,أجّلناه,"we postponed it (a meeting / interview)",notebook-lm,shami
 qaddam-imtihan,male,قدّم امتحان,"to sit for / take an exam",notebook-lm,shami
-yismahuli,male,"يسمحولي / يخلّوني","to allow / let me (do something)",notebook-lm,shami
+yismahuli,female,"يسمحولي / يخلّوني","to allow / let me (do something)",notebook-lm,shami
 murattab,male,مُرتّب,"organized / tidy",notebook-lm,shami
-btawassal-maa,male,بتواصل مع,"I'm in contact with",notebook-lm,shami
+btawassal-maa,female,بتواصل مع,"I'm in contact with",notebook-lm,shami
 saar-maai,male,صار معي,"something happened to me / I had…",notebook-lm,shami
-baajibni,male,بَعجبني,"I like to / it pleases me",notebook-lm,shami
+baajibni,female,بَعجبني,"I like to / it pleases me",notebook-lm,shami
 shu-rayek,male,شو رأيك,"what do you think?",notebook-lm,shami
-mafrud,male,مفروض,"supposed to / expected to",notebook-lm,shami
+mafrud,female,مفروض,"supposed to / expected to",notebook-lm,shami
 law-fini,male,لو فيني,"if I could (I would have…)",notebook-lm,shami
-karmaal,male,كرمال,"for the sake of / for someone",notebook-lm,shami
-ghaniyye,male,غَنِّيّة,song,music-1,shami
+karmaal,female,كرمال,"for the sake of / for someone",notebook-lm,shami
+ghaniyye,female,غَنِّيّة,song,music-1,shami
 narqod,male,نَرْقُد,"I sleep; I go to sleep",tunisian-daily-2,tunisian
-nidabdib,male,نِضَبْضِب,"to pack up; tidy up; get things in order",todos,shami
+nidabdib,female,نِضَبْضِب,"to pack up; tidy up; get things in order",todos,shami
 tajriba,male,تَجْرِبة,"experience; trial",notes-from-djerba,both
-faaq,male,فَاق,"to wake up; to notice / realize",daily-routine,both
+faaq,female,فَاق,"to wake up; to notice / realize",daily-routine,both
 barsha,male,برشة,"a lot / many / very",shami-tunsi-differences,tunisian
-khidma,male,خِدمة,"work / job",shami-tunsi-differences,tunisian
+khidma,female,خِدمة,"work / job",shami-tunsi-differences,tunisian
 shnuwwa,male,شنوّا,"what (interrogative)",shami-tunsi-differences,tunisian
-tawwa,male,تَوّا,now,shami-tunsi-differences,tunisian
+tawwa,female,تَوّا,now,shami-tunsi-differences,tunisian
 mzayyun,male,مزيّن,"nice / pleasant",shami-tunsi-differences,tunisian
-bahi,male,باهي,"good / OK",shami-tunsi-differences,tunisian
+bahi,female,باهي,"good / OK",shami-tunsi-differences,tunisian
 nemshi,male,نمشي,"I go / I walk",shami-tunsi-differences,tunisian
-hwut-tn,male,حوت,"fish (Tunisian meaning)",shami-tunsi-differences,tunisian
+hwut-tn,female,حوت,"fish (Tunisian meaning)",shami-tunsi-differences,tunisian
 shanbiik,male,"شنبّيك / شنحوّلك","what do you want / what can I do for you",shami-tunsi-differences,tunisian
-nhebb,male,نحبّ,"I want / I love",shami-tunsi-differences,tunisian
+nhebb,female,نحبّ,"I want / I love",shami-tunsi-differences,tunisian
 ktir,male,كتير,"a lot / many / very",shami-tunsi-differences,shami
-shughel,male,شُغل,"work / job",shami-tunsi-differences,shami
+shughel,female,شُغل,"work / job",shami-tunsi-differences,shami
 shu,male,شو,"what (interrogative)",shami-tunsi-differences,shami
-hallaq,male,هلّق,now,shami-tunsi-differences,shami
+hallaq,female,هلّق,now,shami-tunsi-differences,shami
 helu,male,حلو,"nice / pleasant",shami-tunsi-differences,shami
-tamam,male,"تمام / منيح","good / OK",shami-tunsi-differences,shami
+tamam,female,"تمام / منيح","good / OK",shami-tunsi-differences,shami
 brooh,male,"بروح / بمشي","I go / I walk",shami-tunsi-differences,shami
-hwut-sh,male,حوت,"whale (Shami meaning)",shami-tunsi-differences,shami
+hwut-sh,female,حوت,"whale (Shami meaning)",shami-tunsi-differences,shami
 samak,male,سمك,"fish (Shami word)",shami-tunsi-differences,shami
-shu-biddak,male,"شو بدّك","what do you want",shami-tunsi-differences,shami
+shu-biddak,female,"شو بدّك","what do you want",shami-tunsi-differences,shami
 bidi-bhebb,male,"بدي / بحبّ","I want / I love",shami-tunsi-differences,shami
-ajina,male,عجينه,dough,shabbos-baking,tunisian
+ajina,female,عجينه,dough,shabbos-baking,tunisian
 khalet,male,خليط,mixture,shabbos-baking,tunisian
-qirfa,male,القرفة,cinnamon,shabbos-baking,tunisian
+qirfa,female,القرفة,cinnamon,shabbos-baking,tunisian
 farraq,male,فرّق,"spread / distribute",shabbos-baking,tunisian
-dafra,male,ضفرة,braid,shabbos-baking,tunisian
+dafra,female,ضفرة,braid,shabbos-baking,tunisian
