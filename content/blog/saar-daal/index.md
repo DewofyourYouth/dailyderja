@@ -36,10 +36,12 @@ categories:
 
 ### أمثلة
 
-- صار برد.  
-- صار بدّي أغيّر الشغل.  
-- شو صار؟  
-- صار الوقت نروح.
+{{% examples title="صار" titleAr="التغيير" %}}
+{{< example ar="صار برد." en="It's gotten cold." ipa="sˤaːr bard" >}}
+{{< example ar="صار بدّي أغيّر الشغل." en="I've started wanting to change jobs." ipa="sˤaːr ˈbaddi ˈʔɣajjer ʃ-ʃuɣl" >}}
+{{< example ar="شو صار؟" en="What happened?" ipa="ʃuː sˤaːr" >}}
+{{< example ar="صار الوقت نروح." en="It's time for us to go." ipa="sˤaːr l-waʔt nruːħ" >}}
+{{% /examples %}}
 
 ---
 
@@ -49,10 +51,12 @@ categories:
 
 ### أمثلة
 
-- ضلّيت عم بستنى.  
-- ضلّ الجو برد.  
-- ضلّ الوضع هيك طول النهار.  
-- ضلّ عم يفكّر بالموضوع.
+{{% examples title="ضلّ" titleAr="الاستمرار" %}}
+{{< example ar="ضلّيت عم بستنى." en="I kept waiting." ipa="dˤalˈliːt ʕam bɪsˈtannā" >}}
+{{< example ar="ضلّ الجو برد." en="The weather stayed cold." ipa="dˤall il-ʒaw bard" >}}
+{{< example ar="ضلّ الوضع هيك طول النهار." en="The situation stayed like that all day." ipa="dˤall il-wadˤʕ heːk tˤuːl n-nhāːr" >}}
+{{< example ar="ضلّ عم يفكّر بالموضوع." en="He kept thinking about the matter." ipa="dˤall ʕam jɪfˈkɪr bɪl-mawdˤuːʕ" >}}
+{{% /examples %}}
 
 ---
 
