@@ -6,7 +6,7 @@ on:
   push:
     branches: ["main"]
   schedule:
-    - cron: '30 5 * * *'  # Runs at 8:30 AM Israel time (5:30 AM UTC) every day
+    - cron: '30 2 * * *'  # Runs at 5:30 AM Israel time (5:30 AM UTC) every day
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:

@@ -2,7 +2,7 @@
 title: "Hadid (Iron) — Shami Arabic Word of the Day"
 summary: "Learn the word for 'iron' in Shami Arabic (Hadid - حديد)."
 description: "Master the Shami Arabic word 'Hadid' (حديد) meaning iron or metal. Includes audio, IPA, and examples."
-date: "2026-06-11T12:00:00+03:00"
+date: "2026-06-11T14:00:00+03:00"
 image: featured.jpg
 tags:
   - shami-arabic
