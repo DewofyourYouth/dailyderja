@@ -61,4 +61,31 @@ A quick reference for the four everyday modal moves in Shami: **ability, desire,
 
 ---
 
+## أمثلة
+
+{{% examples title="Ability" titleAr="القدرة" %}}
+{{< example ar="فيني أجي بكرا، إذا ما صار شي." en="I can come tomorrow, if nothing comes up." ipa="ˈfiː.ni ˈʔe.ʒi ˈbuk.ra ˈʔiː.ðaː maː sˤaːr ʃi" >}}
+{{< example ar="بقدر ساعدك بعد الظهر." en="I can help you after noon." ipa="ˈbaʔ.der ˈsaː.ʕed.ak baʕd idˤ-dˤohr" >}}
+{{< example ar="مش فيني أكون بمكانين بنفس الوقت." en="I can't be in two places at the same time." ipa="miʃ ˈfiː.ni ʔkuːn bɪmkaːˈneːn bɪnˈnafs il-waʔt" >}}
+{{% /examples %}}
+
+{{% examples title="Desire" titleAr="الرغبة" %}}
+{{< example ar="بدي إحكي معك عن شي مهم." en="I want to talk to you about something important." ipa="ˈbid.di ˈʔeħ.ki maʕ.ak ʕan ʃi mˈhim" >}}
+{{< example ar="كان بدي أجي، بس ما قدرت." en="I was going to come, but I couldn't." ipa="ˈkaːn ˈbid.di ˈʔe.ʒi bass maː ˈʔadart" >}}
+{{< example ar="ناوي سافر الأسبوع الجاي." en="I'm planning to travel next week." ipa="ˈnaː.wi ˈsaː.fər il-ˈʔusbūʕ il-ˈʒaːji" >}}
+{{% /examples %}}
+
+{{% examples title="Obligation" titleAr="الواجب" %}}
+{{< example ar="لازم روح هلّق، رح تأخر." en="I have to go now, you'll be late." ipa="ˈlaː.zem ruːħ ˈhal.laʔ raħ tˈʔaxar" >}}
+{{< example ar="مفروض نكون هناك الساعة تسعة." en="We're supposed to be there at nine." ipa="mafˈruːd nkuːn ˈhiː.nik is-sāʕa ˈtisʕa" >}}
+{{< example ar="مو لازم تيجي إذا مش فيك." en="You don't have to come if you're not up for it." ipa="mo ˈlaː.zem ˈtiː.ʒi ˈʔiː.ðaː miʃ ˈfiː.k" >}}
+{{% /examples %}}
+
+{{% examples title="Hypothetical" titleAr="الافتراض" %}}
+{{< example ar="كنت روح لو في وقت." en="I would go if there were time." ipa="ˈkunt ruːħ law fiː waʔt" >}}
+{{< example ar="لو فيني، كنت سافرت معك." en="If I could, I would have traveled with you." ipa="law ˈfiː.ni ˈkunt saːˈfar.t maʕ.ak" >}}
+{{% /examples %}}
+
+---
+
 Illustration by [DA VECTOR](https://unsplash.com/@davector?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/illustrations/man-performing-a-push-up-exercise-B_eO6utxoU8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)

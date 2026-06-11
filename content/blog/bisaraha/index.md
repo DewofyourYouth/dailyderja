@@ -24,6 +24,9 @@ postLang: ar
 cssclasses:
   - arabic-note
 ---
+
+{{< word ar="بصراحة" sh_ipa="bɪ.sˤɑ.rɑː.ħa" meaning="honestly; frankly" root="ص · ر · ح" pos="adverb / discourse marker" note="A prepositional phrase: بـِ + صراحة (candour). Drop it at the start of a sentence to signal you're about to say something real." >}}
+
 ## خاطِرة
 بصراحة، بتهيألي إنّي لقيت أغنيتي المفضلة بالشامي لهلأ، وهي أغنية «بصراحة» لزياد رحباني! وبصراحة... ما في أحلى من هيك جو.
 
