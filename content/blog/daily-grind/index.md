@@ -18,7 +18,7 @@ dialects:
   - shami
 series:
   - نسمة نغمة
-series_order: 3
+series_order: 4
 postLang: ar
 cssclasses:
   - arabic-note

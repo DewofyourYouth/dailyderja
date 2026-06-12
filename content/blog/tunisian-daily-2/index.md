@@ -24,8 +24,9 @@ dialects:
 - tunisian
 description: 'Tunisian Daily Journal: Entry 2'
 series:
-  - نسمة يوميات
-series_order: 2
+  - نسمة نغمة
+series_order: 1
+ear_training: true
 ---
 الصباح قمت الأربعة وربع بسبب صفارات الإنذار، وما نجمتش نرجع نرقد.
 ركبت بسكليتي خطار العيشة ديما خير كي تكون فوق البسكليتة.

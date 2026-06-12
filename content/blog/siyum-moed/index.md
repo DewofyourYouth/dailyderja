@@ -15,7 +15,7 @@ dialects:
 - shami
 series:
   - نسمة يوميات
-series_order: 23
+series_order: 22
 postLang: ar
 summary: Last night we celebrated the accomplishment of finishing Seder Moed
 ---

@@ -19,10 +19,11 @@ dialects:
   - shami
 series:
   - نسمة نغمة
-series_order: 6
+series_order: 7
 postLang: ar
 cssclasses:
   - arabic-note
+ear_training: true
 ---
 
 {{< word ar="بصراحة" sh_ipa="bɪ.sˤɑ.rɑː.ħa" meaning="honestly; frankly" root="ص · ر · ح" pos="adverb / discourse marker" audio="/audio/bisaraha.mp3" note="A prepositional phrase: بـِ + صراحة (candour). Drop it at the start of a sentence to signal you're about to say something real." >}}

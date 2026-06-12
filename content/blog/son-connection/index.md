@@ -18,7 +18,7 @@ dialects:
 - tunisian
 series:
   - نسمة يوميات
-series_order: 15
+series_order: 14
 ---
 ## تأمُّل:
 

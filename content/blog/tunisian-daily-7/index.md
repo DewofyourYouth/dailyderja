@@ -23,7 +23,7 @@ dialects:
 description: 'Tunisian Daily Journal: Entry 7'
 series:
   - نسمة يوميات
-series_order: 7
+series_order: 6
 ---
 ## تأمُّل:
 

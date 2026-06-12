@@ -18,7 +18,7 @@ summary: Reflecting on my experience learning Derja before going to an engagemen
   party.
 series:
   - نسمة يوميات
-series_order: 21
+series_order: 20
 ---
 ## تأمُّل:
 ما كتبتش الديلي دارجة من وقت برشة، حتى كان عملت فيديوهات. سماحني 🙏

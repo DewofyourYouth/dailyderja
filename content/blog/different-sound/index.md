@@ -4,7 +4,7 @@ summary: A small thought about change, choice, and the paths we take when we wan
   something different.
 series:
   - نسمة نغمة
-series_order: 2
+series_order: 3
 date: '2025-12-10T23:53:35+02:00'
 categories:
   - language-learning

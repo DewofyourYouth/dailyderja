@@ -17,7 +17,7 @@ dialects:
 summary: Some surprizing things I hate.
 series:
   - نسمة يوميات
-series_order: 20
+series_order: 19
 ---
 ## تأمُّل:
 > شنية الحوايج الصغار الي ديما يغيظوك? 

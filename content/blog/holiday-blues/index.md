@@ -20,7 +20,7 @@ dialects:
 - tunisian
 series:
   - نسمة يوميات
-series_order: 22
+series_order: 21
 ---
 ## تأمُّل:
   

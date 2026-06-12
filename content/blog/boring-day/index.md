@@ -16,7 +16,7 @@ categories:
   - daily-life
 series:
   - نسمة يوميات
-series_order: 19
+series_order: 18
 ---
 ## تأمُّل:
 ما عنديش حاجة نحكي عليها، ولا قول: ما نحبش نحكي اليوم.  
