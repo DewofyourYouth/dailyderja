@@ -1912,8 +1912,16 @@ section.article-ltr {
 .article-content .table-scroll > table { margin: 0; }
 
 /* --- manuscript tables (the كلام / vocab tables) --- */
+
+/* Scroll wrapper: table becomes the scroll container itself on narrow screens.
+   display:block + overflow-x:auto preserves table structure while allowing
+   horizontal scroll — safer than stacking since column count varies (3–5). */
 .article-content table {
-  width: 100%;
+  display: block;
+  width: max-content;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
   border-collapse: separate;
   border-spacing: 0;
   margin: 1.9rem 0;
@@ -1922,7 +1930,6 @@ section.article-ltr {
   line-height: 1.55;
   border: 1px solid var(--ac-line);
   border-radius: 13px;
-  overflow: hidden;
   box-shadow: 0 14px 32px -22px rgba(56, 38, 12, 0.5);
 }
 .article-content thead th {
@@ -1935,6 +1942,7 @@ section.article-ltr {
   color: var(--ac-gold-deep);
   background: linear-gradient(180deg, rgba(198, 132, 58, 0.16), rgba(198, 132, 58, 0.07));
   border-bottom: 1px solid var(--ac-line);
+  white-space: nowrap;
 }
 .dark .article-content thead th { color: var(--ac-gold-soft); }
 .article-content tbody td {
@@ -1953,6 +1961,25 @@ section.article-ltr {
   white-space: nowrap;
 }
 .dark .article-content tbody td:first-child { color: var(--ac-gold-soft); }
+
+/* Mobile: tighten padding and font sizes so the table fits more comfortably
+   before the user needs to scroll. */
+@media (max-width: 640px) {
+  .article-content table {
+    font-size: 0.9rem;
+  }
+  .article-content thead th {
+    padding: 0.55rem 0.7rem;
+    font-size: 0.7rem;
+  }
+  .article-content tbody td {
+    padding: 0.5rem 0.7rem;
+  }
+  .article-content tbody td:first-child {
+    font-size: 1.2rem;
+    padding: 0.5rem 0.7rem;
+  }
+}
 
 /* --- blockquote: gold breeze callout --- */
 .article-content blockquote {
