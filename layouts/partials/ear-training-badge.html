@@ -1,0 +1,20 @@
+{{/*
+  Ear-training indicator badge — shown on posts where ear_training: true.
+  Call with a page, or a dict:
+    {{ partial "ear-training-badge.html" . }}
+    {{ partial "ear-training-badge.html" (dict "ctx" .Page "size" "sm") }}
+*/}}
+{{- $ctx := . -}}
+{{- $size := "" -}}
+{{- if reflect.IsMap . -}}
+  {{- $ctx = .ctx -}}
+  {{- with .size }}{{ $size = . }}{{ end -}}
+{{- end -}}
+{{- if $ctx.Params.ear_training -}}
+<span class="et-badge{{ with $size }} et-badge--{{ . }}{{ end }}" dir="ltr" title="This post is for ear training">
+  <span class="et-badge__motif" aria-hidden="true">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3z"/><path d="M3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg>
+  </span>
+  <b dir="rtl" lang="ar">أذن</b><i>EAR TRAINING</i>
+</span>
+{{- end -}}

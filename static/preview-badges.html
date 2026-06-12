@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Badge Preview</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Lalezar&family=Zain:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: system-ui, sans-serif;
+    background: #f5f0eb;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding: 3rem;
+  }
+  body.dark { background: #1a1612; }
+
+  .card {
+    background: white;
+    border-radius: 12px;
+    padding: 1.25rem 1.5rem;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    max-width: 320px;
+    width: 100%;
+  }
+  .dark .card { background: #252017; border: 1px solid #3a3428; }
+
+  .card-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 0.35rem;
+  }
+  .dark .card-title { color: #f0ebe3; }
+
+  .card-meta {
+    font-size: 0.75rem;
+    color: #888;
+    margin-bottom: 0.75rem;
+  }
+
+  /* ---- pill row ---- */
+  .pill-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.45rem;
+  }
+
+  /* ---- dialect badge ---- */
+  .dialect-badge {
+    --dc: #a96f1c;
+    --tile: #c6843a;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45em;
+    padding: 0.2rem 0.6rem 0.2rem 0.2rem;
+    border-radius: 999px;
+    font-family: "Zain", system-ui, sans-serif;
+    line-height: 1;
+    color: var(--dc);
+    background: color-mix(in srgb, var(--dc) 10%, transparent);
+    border: 1px solid color-mix(in srgb, var(--dc) 32%, transparent);
+    text-decoration: none;
+  }
+  .dark .dialect-badge { --dc: #e2ba6e; }
+  .dialect-badge__motif {
+    flex: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.35rem; height: 1.35rem;
+    border-radius: 6px;
+    color: #fff;
+    background: var(--tile);
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,0.3), 0 2px 6px -2px rgba(0,0,0,0.45);
+  }
+  .dialect-badge__motif svg { width: 0.85rem; height: 0.85rem; }
+  .dialect-badge b { font-family: "Lalezar", system-ui; font-weight: 400; font-size: 1.05em; }
+  .dialect-badge i { font-style: normal; font-size: 0.64rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; opacity: 0.82; }
+
+  /* ---- ear-training badge ---- */
+  .et-badge {
+    --etc: #1a6b4a;
+    --et-tile: #1a6b4a;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45em;
+    padding: 0.2rem 0.6rem 0.2rem 0.2rem;
+    border-radius: 999px;
+    font-family: "Zain", system-ui, sans-serif;
+    line-height: 1;
+    color: var(--etc);
+    background: color-mix(in srgb, var(--etc) 10%, transparent);
+    border: 1px solid color-mix(in srgb, var(--etc) 32%, transparent);
+  }
+  .dark .et-badge { --etc: #4ecb96; }
+  .et-badge__motif {
+    flex: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.35rem; height: 1.35rem;
+    border-radius: 6px;
+    color: #fff;
+    background: var(--et-tile);
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,0.3), 0 2px 6px -2px rgba(0,0,0,0.45);
+  }
+  .et-badge__motif svg { width: 0.85rem; height: 0.85rem; }
+  .et-badge b { font-family: "Lalezar", system-ui; font-weight: 400; font-size: 1.05em; }
+  .et-badge i { font-style: normal; font-size: 0.64rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; opacity: 0.82; }
+
+  .label { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: #aaa; margin-bottom: 0.5rem; }
+
+  button {
+    position: fixed; top: 1rem; right: 1rem;
+    padding: 0.4rem 0.8rem; border-radius: 6px;
+    background: #333; color: #fff; border: none; cursor: pointer; font-size: 0.8rem;
+  }
+</style>
+</head>
+<body id="body">
+<button onclick="document.getElementById('body').classList.toggle('dark')">Toggle dark</button>
+
+<!-- Card: both dialects + ear training -->
+<div class="card">
+  <div class="label">Shami + ear training</div>
+  <div class="card-title">The Beginnings of My Levantine Playlist</div>
+  <div class="card-meta">Nov 27, 2025 · 2 min read</div>
+  <div class="pill-row">
+    <span class="dialect-badge">
+      <span class="dialect-badge__motif">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><rect x="5.6" y="5.6" width="12.8" height="12.8"/><rect x="5.6" y="5.6" width="12.8" height="12.8" transform="rotate(45 12 12)"/></svg>
+      </span>
+      <b dir="rtl" lang="ar">شامي</b><i>Levantine</i>
+    </span>
+    <span class="et-badge">
+      <span class="et-badge__motif">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3z"/><path d="M3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg>
+      </span>
+      <b dir="rtl" lang="ar">أذن</b><i>EAR TRAINING</i>
+    </span>
+  </div>
+</div>
+
+<!-- Card: Shami only, no ear training -->
+<div class="card">
+  <div class="label">Shami only (no ear training)</div>
+  <div class="card-title">Sounds from Ethiopia</div>
+  <div class="card-meta">Jun 12, 2026 · 1 min read</div>
+  <div class="pill-row">
+    <span class="dialect-badge">
+      <span class="dialect-badge__motif">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><rect x="5.6" y="5.6" width="12.8" height="12.8"/><rect x="5.6" y="5.6" width="12.8" height="12.8" transform="rotate(45 12 12)"/></svg>
+      </span>
+      <b dir="rtl" lang="ar">شامي</b><i>Levantine</i>
+    </span>
+  </div>
+</div>
+
+<!-- Card: Tunisian + ear training -->
+<div class="card">
+  <div class="label">Tunisian + ear training</div>
+  <div class="card-title">Plans to sleep before work…</div>
+  <div class="card-meta">Jun 16, 2025 · 2 min read</div>
+  <div class="pill-row">
+    <span class="dialect-badge" style="--dc:#1862a8;--tile:#1b6ec2;">
+      <span class="dialect-badge__motif">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 21V11a7 7 0 0 1 14 0v10"/><path d="M4 21h16"/><path d="M12 5.5V21"/><path d="M8.4 8a5 5 0 0 1 7.2 0"/></svg>
+      </span>
+      <b dir="rtl" lang="ar">تونسي</b><i>Tunisian</i>
+    </span>
+    <span class="et-badge">
+      <span class="et-badge__motif">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3z"/><path d="M3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg>
+      </span>
+      <b dir="rtl" lang="ar">أذن</b><i>EAR TRAINING</i>
+    </span>
+  </div>
+</div>
+</body>
+</html>
