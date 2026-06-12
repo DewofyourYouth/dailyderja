@@ -1,8 +1,8 @@
 ---
 title: "نسمة نغمة"
-description: "Melody Breeze features Levantine tracks, Shami artists, and ear-training notes for Arabic listening."
+description: "Melody Breeze — music I'm listening to. Some for Arabic ear training, some just because."
 ipa: "/ˈnas.ma ˈnaɣ.ma/"
 english: "Melody Breeze"
 ---
 
-**Melody Breeze** features Levantine tracks, Shami artists, and ear-training notes for Arabic listening.
+**Melody Breeze** — music I'm listening to. Some for Arabic ear training, some just because.
