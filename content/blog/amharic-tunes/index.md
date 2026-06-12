@@ -48,7 +48,7 @@ cssclasses:
 | **بلّشت**       | /ˈballaʃt/          | I started (Levantine for شروع) |
 | **ضليت أدوّر**  | /dˤaˈlijt ˈadawwir/ | I kept searching               |
 
-## فيديو
+
 
 ---
 {{< ltr >}}
