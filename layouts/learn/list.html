@@ -40,6 +40,43 @@
       </a>
     </div>
 
+    {{/* Ear training section */}}
+    {{ $etPosts := where site.RegularPages "Params.ear_training" true }}
+    {{ $recentEt := first 4 ($etPosts.ByDate.Reverse) }}
+    {{ $naghma := site.GetPage "/series/نسمة نغمة" }}
+    {{ if $etPosts }}
+    <h2 class="learn__h" id="ear-training"><span>Ear training</span></h2>
+    <p class="learn__lead">Real music, real listening — posts built to sharpen your ear for Levantine Arabic.</p>
+    <div class="et-playlist">
+      <div class="et-playlist__head">
+        <span class="et-playlist__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3z"/><path d="M3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg>
+        </span>
+        <span class="et-playlist__info">
+          <b class="et-playlist__name" dir="rtl" lang="ar">نسمة نغمة</b>
+          <span class="et-playlist__sub">Melody Breeze &middot; {{ len $etPosts }} ear training posts</span>
+        </span>
+        <span class="et-playlist__bars" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span>
+        </span>
+      </div>
+      <ol class="et-playlist__tracks">
+        {{ range $i, $p := $recentEt }}
+        <li>
+          <a class="et-playlist__track" href="{{ $p.RelPermalink }}">
+            <span class="et-playlist__num" aria-hidden="true">{{ printf "%02d" (add $i 1) }}</span>
+            <span class="et-playlist__title">{{ $p.Title }}</span>
+            <time class="et-playlist__date">{{ $p.Date.Format "Jan 2006" }}</time>
+          </a>
+        </li>
+        {{ end }}
+      </ol>
+      <div class="et-playlist__footer">
+        {{ with $naghma }}<a href="{{ .RelPermalink }}" class="et-playlist__all">See all ear training posts →</a>{{ end }}
+      </div>
+    </div>
+    {{ end }}
+
     <h2 class="learn__h"><span>More ways to learn</span></h2>
     <div class="hp-wayfind__grid">
       {{ with $wordBreeze }}

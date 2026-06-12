@@ -1260,6 +1260,348 @@ section.article-ltr {
 }
 
 /* ================================
+   Ear-training playlist card (learn page)
+   ================================= */
+
+.et-playlist {
+  --etp: #1a6b4a;
+  --etp-dark: #145539;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid color-mix(in srgb, #1a6b4a 22%, transparent);
+  box-shadow: 0 8px 28px -16px rgba(26, 107, 74, 0.32);
+  margin-bottom: 0.25rem;
+}
+
+/* header strip */
+.et-playlist__head {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.1rem 1.4rem;
+  background: var(--etp);
+  color: #fff;
+}
+.dark .et-playlist__head { background: #104030; }
+
+.et-playlist__icon {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 11px;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25);
+}
+.et-playlist__icon svg { width: 1.4rem; height: 1.4rem; }
+
+.et-playlist__info { flex: 1 1 auto; min-width: 0; }
+.et-playlist__name {
+  display: block;
+  font-family: "Lalezar", system-ui, sans-serif;
+  font-size: 1.45rem;
+  font-weight: 400;
+  line-height: 1.1;
+  color: #fff;
+}
+.et-playlist__sub {
+  font-family: "Zain", system-ui, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+/* animated equalizer bars */
+.et-playlist__bars {
+  flex: none;
+  display: flex;
+  align-items: flex-end;
+  gap: 3px;
+  height: 1.6rem;
+  padding-bottom: 2px;
+}
+.et-playlist__bars span {
+  width: 3px;
+  border-radius: 2px 2px 0 0;
+  background: rgba(255, 255, 255, 0.65);
+  transform-origin: bottom;
+  animation: etBarPulse 1.4s ease-in-out infinite;
+}
+.et-playlist__bars span:nth-child(1) { height: 35%; animation-delay: 0.0s; }
+.et-playlist__bars span:nth-child(2) { height: 75%; animation-delay: 0.15s; }
+.et-playlist__bars span:nth-child(3) { height: 95%; animation-delay: 0.3s; }
+.et-playlist__bars span:nth-child(4) { height: 55%; animation-delay: 0.1s; }
+.et-playlist__bars span:nth-child(5) { height: 70%; animation-delay: 0.25s; }
+@keyframes etBarPulse {
+  0%, 100% { transform: scaleY(0.45); }
+  50%       { transform: scaleY(1); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .et-playlist__bars span { animation: none; transform: scaleY(0.7); }
+}
+
+/* track list */
+.et-playlist__tracks {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: var(--wf-paper, white);
+}
+.dark .et-playlist__tracks { background: #1a1814; }
+
+.et-playlist__track {
+  display: flex;
+  align-items: baseline;
+  gap: 0.85rem;
+  padding: 0.75rem 1.4rem;
+  text-decoration: none !important;
+  color: inherit;
+  border-bottom: 1px solid color-mix(in srgb, #1a6b4a 10%, transparent);
+  transition: background 0.14s ease;
+}
+.et-playlist__track:last-child { border-bottom: none; }
+.et-playlist__track:hover { background: color-mix(in srgb, #1a6b4a 6%, transparent); }
+
+.et-playlist__num {
+  flex: none;
+  font-family: "Zain", monospace, system-ui;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: color-mix(in srgb, #1a6b4a 55%, transparent);
+  letter-spacing: 0.05em;
+  min-width: 1.5rem;
+  text-align: right;
+}
+.dark .et-playlist__num { color: color-mix(in srgb, #4ecb96 55%, transparent); }
+
+.et-playlist__title {
+  flex: 1 1 auto;
+  font-family: "Zain", system-ui, sans-serif;
+  font-size: 0.97rem;
+  font-weight: 700;
+  color: #2a2218;
+  line-height: 1.3;
+  min-width: 0;
+}
+.dark .et-playlist__title { color: #f0ebe0; }
+.et-playlist__track:hover .et-playlist__title { color: #1a6b4a; }
+.dark .et-playlist__track:hover .et-playlist__title { color: #4ecb96; }
+
+.et-playlist__date {
+  flex: none;
+  font-family: "Zain", system-ui, sans-serif;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #9a8e7e;
+  white-space: nowrap;
+}
+.dark .et-playlist__date { color: #6a6052; }
+
+/* footer */
+.et-playlist__footer {
+  padding: 0.7rem 1.4rem;
+  text-align: right;
+  background: color-mix(in srgb, #1a6b4a 5%, var(--wf-paper, white));
+  border-top: 1px solid color-mix(in srgb, #1a6b4a 12%, transparent);
+}
+.dark .et-playlist__footer { background: #141210; }
+.et-playlist__all {
+  font-family: "Zain", system-ui, sans-serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: #1a6b4a;
+  text-decoration: none !important;
+  transition: color 0.15s ease;
+}
+.dark .et-playlist__all { color: #4ecb96; }
+.et-playlist__all:hover { color: #145539; }
+.dark .et-playlist__all:hover { color: #6edba8; }
+
+/* ================================
+   Ear-training series filter
+   ================================= */
+
+.et-filter {
+  display: flex;
+  gap: 0.5rem;
+  margin: 0 0 1.5rem;
+  flex-wrap: wrap;
+}
+.et-filter__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45em;
+  padding: 0.38rem 0.9rem 0.38rem 0.65rem;
+  border-radius: 999px;
+  font-family: "Zain", system-ui, sans-serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  border: 1.5px solid color-mix(in srgb, #1a6b4a 30%, transparent);
+  background: transparent;
+  color: #6a6052;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+.dark .et-filter__btn { color: #8a8070; border-color: color-mix(in srgb, #4ecb96 25%, transparent); }
+.et-filter__btn svg { width: 0.85rem; height: 0.85rem; opacity: 0.7; }
+.et-filter__btn:hover {
+  background: color-mix(in srgb, #1a6b4a 8%, transparent);
+  color: #1a6b4a;
+  border-color: color-mix(in srgb, #1a6b4a 50%, transparent);
+}
+.dark .et-filter__btn:hover { color: #4ecb96; }
+
+.et-filter__btn--active {
+  background: #1a6b4a;
+  color: #fff !important;
+  border-color: #1a6b4a;
+}
+.dark .et-filter__btn--active {
+  background: #4ecb96;
+  color: #0a2a1e !important;
+  border-color: #4ecb96;
+}
+.et-filter__btn--active svg { opacity: 1; }
+
+.et-filter__count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.3em;
+  height: 1.3em;
+  padding: 0 0.3em;
+  border-radius: 999px;
+  font-size: 0.78em;
+  background: rgba(255, 255, 255, 0.22);
+  line-height: 1;
+}
+.et-filter__btn:not(.et-filter__btn--active) .et-filter__count {
+  background: color-mix(in srgb, currentColor 15%, transparent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .et-filter__btn { transition: none; }
+}
+
+/* ================================
+   Ear-training feature card (learn page)
+   ================================= */
+
+.et-feature {
+  --etf: #1a6b4a;
+  --etf-deep: #145539;
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 1.25rem 1.4rem;
+  border-radius: 16px;
+  text-decoration: none !important;
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, #1a6b4a 7%, var(--wf-paper, #faf6f0)),
+    color-mix(in srgb, #1a6b4a 3%, var(--wf-paper, #faf6f0)) 70%
+  );
+  border: 1px solid color-mix(in srgb, #1a6b4a 22%, transparent);
+  border-top: 3px solid var(--etf);
+  box-shadow: 0 8px 24px -16px rgba(26, 107, 74, 0.35);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 0.25rem;
+}
+.et-feature:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 32px -16px rgba(26, 107, 74, 0.45);
+}
+.dark .et-feature {
+  --etf: #4ecb96;
+  --etf-deep: #3db882;
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, #4ecb96 9%, #1c1a16),
+    color-mix(in srgb, #4ecb96 4%, #1c1a16) 70%
+  );
+  border-color: color-mix(in srgb, #4ecb96 28%, transparent);
+  border-top-color: #4ecb96;
+}
+
+.et-feature__icon {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 14px;
+  color: #fff;
+  background: var(--etf);
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 255, 255, 0.22),
+    0 4px 12px -4px rgba(26, 107, 74, 0.55);
+}
+.et-feature__icon svg { width: 1.6rem; height: 1.6rem; }
+
+.et-feature__body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.18rem;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.et-feature__series {
+  font-family: "Lalezar", system-ui, sans-serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: var(--etf-deep);
+  line-height: 1.1;
+}
+.dark .et-feature__series { color: var(--etf); }
+.et-feature__title {
+  font-family: "Zain", system-ui, sans-serif;
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: #2a2218;
+  line-height: 1.15;
+}
+.dark .et-feature__title { color: #f0ebe0; }
+.et-feature__meta {
+  font-family: "Zain", system-ui, sans-serif;
+  font-size: 0.82rem;
+  color: color-mix(in srgb, var(--etf) 70%, #555);
+  line-height: 1.3;
+}
+.dark .et-feature__meta { color: color-mix(in srgb, #4ecb96 60%, #aaa); }
+
+.et-feature__wave {
+  flex: none;
+  display: flex;
+  align-items: center;
+  width: 5rem;
+  height: 2rem;
+  color: color-mix(in srgb, var(--etf) 30%, transparent);
+  opacity: 0.7;
+}
+.et-feature__wave svg { width: 100%; height: 100%; }
+
+@media (max-width: 480px) {
+  .et-feature__wave { display: none; }
+  .et-feature__icon { width: 2.6rem; height: 2.6rem; }
+  .et-feature__icon svg { width: 1.3rem; height: 1.3rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .et-feature { transition: none; }
+}
+
+/* ================================
    Series catalogue — "Nasmat" cards
    (layouts/_default/terms.html, series branch)
    ================================= */

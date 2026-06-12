@@ -1,0 +1,110 @@
+{{ define "main" }}
+  {{ .Scratch.Set "scope" "term" }}
+  {{ $showHero := .Params.showHero | default site.Params.term.showHero | default false }}
+  {{ if $showHero }}
+    {{ $heroStyle := print "hero/" site.Params.term.heroStyle ".html" }}
+    {{ if templates.Exists ( printf "partials/%s" $heroStyle ) }}
+      {{ partial $heroStyle . }}
+    {{ else }}
+      {{ partial "hero/basic.html" . }}
+    {{ end }}
+  {{- end -}}
+
+  <header class="mt-5">
+    {{ if .Params.showBreadcrumbs | default (site.Params.term.showBreadcrumbs | default false) }}
+      {{ partial "breadcrumbs.html" . }}
+    {{ end }}
+    <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
+    <div class="mt-1 mb-2 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+      {{ partial "article-meta/term.html" (dict "context" . "scope" "single") }}
+    </div>
+  </header>
+
+  <section class="flex flex-col max-w-full mt-0 mb-5 prose dark:prose-invert lg:flex-row">
+    {{ if .Content }}
+      <div class="min-w-0 min-h-0 max-w-prose">
+        {{ .Content }}
+      </div>
+    {{ end }}
+  </section>
+
+  {{ if gt .Pages 0 }}
+    {{ $cardView := .Params.cardView | default (site.Params.term.cardView | default false) }}
+    {{ $groupByYear := .Params.groupByYear | default (site.Params.term.groupByYear | default false) }}
+
+    {{/* Ear-training filter — only on series pages that opt in */}}
+    {{ if .Params.earTrainingFilter }}
+      {{ $etCount := len (where .Pages "Params.ear_training" true) }}
+      {{ $totalCount := len .Pages }}
+      <div class="et-filter" id="et-filter" data-et-count="{{ $etCount }}" data-total="{{ $totalCount }}">
+        <button class="et-filter__btn et-filter__btn--active" data-mode="all">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l9 5-9 5-9-5 9-5z"/><path d="M3 12l9 5 9-5"/><path d="M3 16.5l9 5 9-5"/></svg>
+          All posts <span class="et-filter__count">{{ $totalCount }}</span>
+        </button>
+        <button class="et-filter__btn" data-mode="ear-training">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3z"/><path d="M3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg>
+          Ear training <span class="et-filter__count">{{ $etCount }}</span>
+        </button>
+      </div>
+      <script>
+      (function () {
+        var filter = document.getElementById('et-filter');
+        if (!filter) return;
+        var btns = filter.querySelectorAll('.et-filter__btn');
+        var mode = 'all';
+
+        function getArticles() {
+          return document.querySelectorAll('section.space-y-10 article');
+        }
+
+        function applyFilter() {
+          getArticles().forEach(function (art) {
+            var isET = art.querySelector('.et-badge') !== null;
+            art.style.display = (mode === 'ear-training' && !isET) ? 'none' : '';
+          });
+        }
+
+        btns.forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            mode = btn.dataset.mode;
+            btns.forEach(function (b) { b.classList.toggle('et-filter__btn--active', b === btn); });
+            applyFilter();
+          });
+        });
+      })();
+      </script>
+    {{ end }}
+
+    {{ if not $cardView }}
+      <section class="space-y-10 w-full">
+        {{ range (.Paginate (.Pages.GroupByDate "2006")).PageGroups }}
+          {{ if $groupByYear }}
+            <h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">
+              {{ .Key }}
+            </h2>
+          {{ end }}
+          {{ range .Pages }}
+            {{ partial "article-link/simple.html" . }}
+          {{ end }}
+        {{ end }}
+      </section>
+    {{ else }}
+      <section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+        {{ range (.Paginate (.Pages.GroupByDate "2006")).PageGroups }}
+          {{ range .Pages }}
+            {{ partial "article-link/card.html" . }}
+          {{ end }}
+        {{ end }}
+      </section>
+    {{ end }}
+
+  {{ else }}
+    <section class="mt-10 prose dark:prose-invert">
+      <p class="py-8 border-t">
+        <em>{{ i18n "term.no_articles" | emojify }}</em>
+      </p>
+    </section>
+  {{ end }}
+
+  {{ partial "pagination.html" . }}
+{{ end }}
