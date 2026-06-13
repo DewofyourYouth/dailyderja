@@ -26,7 +26,7 @@ cssclasses:
 ## خاطِرة
 
 
-{{< word ar="دوش" sh_ipa="duːʃ" tn_ipa="duːʃ" meaning="shower" root="" pos="noun (loan word)" audio="" note="Borrowed from French douche — used unchanged across Levantine and Tunisian Arabic. The verb is تدوّش (to shower)." >}}
+{{< word ar="دوش" sh_ipa="duːʃ" tn_ipa="duːʃ" meaning="shower" root="" pos="noun (loan word)" audio="" note="Borrowed from French douche — used unchanged across Levantine and Tunisian Arabic. The verb is تدوّش (to shower)." audio="/audio/doush.mp3" >}}
 
 هون بإسرائيل، برأيي، بيعملوا أشياء مفكّرينها ذكيّة، بس هي مش عمليّة. متل اليوم — اليوم أخدت دوش بارد! ما بحبّه! بتسألني ليش أخدت دوش بارد إذا ما بدي؟ الجواب: السخّان الشمسي!
 
