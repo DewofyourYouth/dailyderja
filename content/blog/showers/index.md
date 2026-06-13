@@ -1,15 +1,23 @@
 ---
 title: Taking Showers In Israel
-summary: My shower becomes a commentary on Israeli mentality.
+summary: A cold shower in summer — because the solar water heater ran out. A short Shami story about Israeli logic that makes sense until it doesn't.
 date: 2026-06-12T14:41:47+03:00
 tags:
-categories: []
+  - shami-arabic
+  - israel
+  - daily-life
+  - solar-energy
+  - vocabulary
+  - humor
+  - dialect-notes
+categories:
+  - language-learning
 draft: false
 dialects:
   - shami
 series:
-  - نسمة قصة 
-series_order:
+  - نسمة قصة
+series_order: 3
 postLang: ar
 cssclasses:
   - arabic-note
