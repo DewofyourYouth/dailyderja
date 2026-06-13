@@ -18,7 +18,7 @@ cssclasses:
 ## خاطِرة
 
 
-{{< word ar="" sh_ipa="" tn_ipa="" meaning="" root="" pos="" audio="" note="" >}}
+{{< word ar="دوش" sh_ipa="duːʃ" tn_ipa="duːʃ" meaning="shower" root="" pos="noun (loan word)" audio="" note="Borrowed from French douche — used unchanged across Levantine and Tunisian Arabic. The verb is تدوّش (to shower)." >}}
 
 هون بإسرائيل، برأيي، بيعملوا أشياء مفكّرينها ذكيّة، بس هي مش عمليّة. متل اليوم — اليوم أخدت دوش بارد! ما بحبّه! بتسألني ليش أخدت دوش بارد إذا ما بدي؟ الجواب: السخّان الشمسي!
 
@@ -31,15 +31,14 @@ cssclasses:
 قدّامك خيارين: يا بتشغّل الكهربا وتسخّن الميّة، متل ما بتعمل بالشتا — وساعتها شو استفدنا؟ لِسّاك عم تدفع كهربا — يا بتغامر وبتخلّي أمرك للسخّان الشمسي. وهيك بتلاقي حالك عم تاخد دوش بارد بالصيف!
 
 {{< join-channels >}}
+
 ## كلام
 
-| Arabic | IPA | Meaning |
-| ------ | --- | ------- |
+| Arabic          | IPA               | Meaning                             |
+| --------------- | ----------------- | ----------------------------------- |
 | **بتلاقي حالك** | /btlaːʔi ˈħaːlak/ | you find yourself (doing something) |
-| **بتغامر** | /btɣaːmir/ | you take a risk; you gamble |
-| **شو استفدنا** | /ʃoː stafˈdana/ | what did we gain from it? |
-
-## فيديو
+| **بتغامر**      | /btɣaːmir/        | you take a risk; you gamble         |
+| **شو استفدنا**  | /ʃoː stafˈdana/   | what did we gain from it?           |
 
 ---
 {{< ltr >}}
