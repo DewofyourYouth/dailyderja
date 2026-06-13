@@ -1,7 +1,7 @@
 ---
 title: Taking Showers In Israel
 summary: A cold shower in summer — because the solar water heater ran out. A short Shami story about Israeli logic that makes sense until it doesn't.
-date: 2026-06-12T14:41:47+03:00
+date: 2026-06-13T14:41:47+03:00
 tags:
   - shami-arabic
   - israel
@@ -39,7 +39,6 @@ cssclasses:
 قدّامك خيارين: يا بتشغّل الكهربا وتسخّن الميّة، متل ما بتعمل بالشتا — وساعتها شو استفدنا؟ لِسّاك عم تدفع كهربا — يا بتغامر وبتخلّي أمرك للسخّان الشمسي. وهيك بتلاقي حالك عم تاخد دوش بارد بالصيف!
 
 {{< join-channels >}}
-
 ## كلام
 
 | Arabic          | IPA               | Meaning                             |
