@@ -3784,3 +3784,23 @@ a.dialect-badge:focus-visible {
 @media (prefers-reduced-motion: reduce) {
   .et-badge { transition: none; }
 }
+
+/* ================================
+   Image display: 16:9 enforcement
+   ================================ */
+
+/* List-view thumbnail: fix to 16:9 so crop is consistent regardless of title length */
+.thumbnail {
+  aspect-ratio: 16 / 9;
+  min-height: unset;
+  align-self: flex-start;
+}
+
+/* Single-post hero (heroStyle: big): let 16:9 images breathe at natural ratio */
+.single_hero_round {
+  aspect-ratio: 16 / 9;
+  max-height: none;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
