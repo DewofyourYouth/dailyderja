@@ -1,0 +1,19 @@
+slug,voice,text,en,post,dialect
+kfaya,male,كفاية,"enough; sufficient; that's enough",enough,both
+kfaya-no-more,female,"كفاية! ما عاد بدي أسمع.","Enough! I don't want to hear any more.",enough,shami
+kfaya-talking,female,"كفاية حكي، خلّي الناس يحكوا.","Enough talking — let other people speak.",enough,shami
+kfaya-3aleik-masc,male,"كفاية عليك! بتعرف شو قصدي.","Enough from you! You know what I mean.",enough,shami
+kfaya-3aleik-fem,female,"كفاية عليكِ! بتعرفي شو قصدي.","Enough from you! You know what I mean.",enough,shami
+had-kfaya-q,female,هاد كفاية؟,"Is this enough?",enough,shami
+had-kfaya-yes,male,"آه، هاد كفاية.","Yes, this is enough.",enough,shami
+water-not-enough,male,المي ما كفاية لكل الناس.,"The water isn't enough for everyone.",enough,shami
+money-not-enough,female,الفلوس ما كانت كفاية.,"The money wasn't enough.",enough,shami
+enough-bread,female,جبت كفاية خبز؟,"Did you bring enough bread?",enough,shami
+sleep-enough-q,female,نمت كفاية البارح؟,"Did you sleep enough last night?",enough,shami
+didnt-sleep-masc,male,"ما نمت كفاية، حاسس حالي تعبان.","I didn't sleep enough, I feel tired.",enough,shami
+didnt-sleep-fem,female,"ما نمت كفاية، حاسّة حالي تعبانة.","I didn't sleep enough, I feel tired.",enough,shami
+eat-enough,male,"أكلت كفاية؟ — لأ، بدي شوي كمان.","Did you eat enough? — No, I want a little more.",enough,shami
+worked-enough,male,"شغلت كفاية اليوم، وقت أرتاح.","I worked enough today, time to rest.",enough,shami
+barka-kfaya-tn,male,"بركا! كفاية هيكا.","Enough! That's enough of that.",enough,tunisian
+time-not-enough-tn,female,الوقت ما كفاش.,"The time wasn't enough.",enough,tunisian
+eat-enough-tn,male,كليت كفاية؟,"Did you eat enough?",enough,tunisian
