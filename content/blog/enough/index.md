@@ -13,7 +13,7 @@ tags:
   - example-sentences
 categories:
   - language-learning
-draft: true
+draft: false
 learn: true
 dialects:
   - shami
