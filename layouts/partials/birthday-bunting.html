@@ -1,19 +1,51 @@
 {{/* TEMPORARY — 1st-anniversary bunting for the homepage hero.
      Remove this partial (and its single include in partials/home/hero.html)
-     once the celebration window is over. */}}
-{{ $n := 11 }}
-{{ $mid := div (sub $n 1) 2 }}
+     once the celebration window is over.
+
+     Flags are anchored directly on the same quadratic-bezier curve as the
+     cord (control point sits at the horizontal midpoint, so x(t) = 1200*t
+     exactly) — this guarantees each flag's top edge sits exactly on the
+     string with no gap. */}}
+{{ $ts := slice 0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0 }}
+{{ $mid := 5 }}
+{{ $y0 := 14.0 }}
+{{ $yc := 74.0 }}
+{{ $y1 := 14.0 }}
 <div class="bday-bunting" aria-hidden="true">
-  <svg class="bday-bunting__cord" viewBox="0 0 1200 36" preserveAspectRatio="none">
-    <path d="M0,4 Q600,42 1200,4" fill="none"/>
-  </svg>
-  <div class="bday-bunting__row">
-    {{ range $i := (seq 0 (sub $n 1)) }}
+  <svg class="bday-bunting__svg" viewBox="0 0 1200 100" preserveAspectRatio="none">
+    <defs>
+      <linearGradient id="bdayFlagA" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#e9bd7e"/>
+        <stop offset="100%" stop-color="var(--color-accent, #c6843a)"/>
+      </linearGradient>
+      <linearGradient id="bdayFlagB" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="var(--color-accent-light, #ebd3aa)"/>
+        <stop offset="100%" stop-color="#e0c499"/>
+      </linearGradient>
+      <linearGradient id="bdayFlagC" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="var(--color-accent, #c6843a)"/>
+        <stop offset="100%" stop-color="var(--color-accent-dark, #9f6429)"/>
+      </linearGradient>
+    </defs>
+
+    <path class="bday-bunting__cordpath" d="M0,{{ $y0 }} Q600,{{ $yc }} 1200,{{ $y1 }}" fill="none"/>
+
+    {{ range $i, $t := $ts }}
+      {{ $x := mul 1200.0 $t }}
+      {{ $omt := sub 1.0 $t }}
+      {{ $y := add (add (mul (mul $omt $omt) $y0) (mul (mul 2.0 (mul $omt $t)) $yc)) (mul (mul $t $t) $y1) }}
+      {{ $isMark := eq $i $mid }}
       {{ $variant := mod $i 3 }}
-      <span
-        class="bday-bunting__flag bday-bunting__flag--{{ $variant }}{{ if eq $i $mid }} bday-bunting__flag--mark{{ end }}"
-        style="--i:{{ $i }};--n:{{ $n }};"
-      >{{ if eq $i $mid }}1{{ end }}</span>
+      {{ $w := 22.0 }}{{ $h := 30.0 }}
+      {{ if $isMark }}{{ $w = 32.0 }}{{ $h = 42.0 }}{{ end }}
+      <polygon
+        class="bday-bunting__flag bday-bunting__flag--{{ $variant }}{{ if $isMark }} bday-bunting__flag--mark{{ end }}"
+        style="animation-delay:{{ mul $i 0.09 }}s;"
+        points="{{ sub $x (div $w 2.0) }},{{ $y }} {{ add $x (div $w 2.0) }},{{ $y }} {{ $x }},{{ add $y $h }}"
+      ></polygon>
+      {{ if $isMark }}
+      <text class="bday-bunting__num" x="{{ $x }}" y="{{ add $y 22.0 }}" text-anchor="middle">1</text>
+      {{ end }}
     {{ end }}
-  </div>
+  </svg>
 </div>
