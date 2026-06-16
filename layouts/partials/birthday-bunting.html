@@ -1,0 +1,19 @@
+{{/* TEMPORARY — 1st-anniversary bunting for the homepage hero.
+     Remove this partial (and its single include in partials/home/hero.html)
+     once the celebration window is over. */}}
+{{ $n := 11 }}
+{{ $mid := div (sub $n 1) 2 }}
+<div class="bday-bunting" aria-hidden="true">
+  <svg class="bday-bunting__cord" viewBox="0 0 1200 36" preserveAspectRatio="none">
+    <path d="M0,4 Q600,42 1200,4" fill="none"/>
+  </svg>
+  <div class="bday-bunting__row">
+    {{ range $i := (seq 0 (sub $n 1)) }}
+      {{ $variant := mod $i 3 }}
+      <span
+        class="bday-bunting__flag bday-bunting__flag--{{ $variant }}{{ if eq $i $mid }} bday-bunting__flag--mark{{ end }}"
+        style="--i:{{ $i }};--n:{{ $n }};"
+      >{{ if eq $i $mid }}1{{ end }}</span>
+    {{ end }}
+  </div>
+</div>
