@@ -2,8 +2,8 @@ homepage:
   layout: hero
   title: The Daily Derja
   showRecent: true
-  homepageImage: "/images/hero.jpg"
-defaultSocialImage: "images/hero.jpg"
+  homepageImage: "/images/daily-derja-birthday.jpg"
+defaultSocialImage: "images/daily-derja-birthday.jpg"
 colorScheme: fire
 logo: "/images/logo.png"
 secondaryLogo: "/images/logo-dark.png"

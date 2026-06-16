@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Derja — Anki Card Template</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lalezar&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;1,300;1,400&family=Lora:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+
+  <style>
+    /* ─── Page chrome (preview only) ─── */
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --gold:        #c6843a;
+      --gold-deep:   #9f6429;
+      --gold-soft:   #ebd3aa;
+      --gold-faint:  rgba(198, 132, 58, 0.12);
+      --card-bg:     #18100a;
+      --surface:     #211608;
+      --surface-2:   #2e1f0f;
+      --text:        #f0e4ce;
+      --text-muted:  #a08060;
+      --text-dim:    #6a5038;
+      --rule:        rgba(198,132,58,0.22);
+      --page-bg:     #0d0805;
+    }
+
+    body {
+      background: var(--page-bg);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 60px 24px 96px;
+      font-family: 'Lora', Georgia, serif;
+    }
+
+    .page-header {
+      text-align: center;
+      margin-bottom: 56px;
+    }
+    .page-header .eyebrow {
+      font-family: 'Zain', sans-serif;
+      font-size: 11px;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 10px;
+    }
+    .page-header h1 {
+      font-family: 'Lalezar', sans-serif;
+      font-size: 48px;
+      color: var(--text);
+      line-height: 1;
+      letter-spacing: 0.01em;
+    }
+    .page-header .subtitle {
+      font-size: 15px;
+      font-style: italic;
+      color: var(--text-muted);
+      margin-top: 6px;
+    }
+
+    /* ─── Cards preview ─── */
+    .cards-row {
+      display: flex;
+      gap: 36px;
+      align-items: flex-start;
+      width: 100%;
+      max-width: 1040px;
+      justify-content: center;
+    }
+
+    .card-slot { flex: 1; max-width: 480px; }
+
+    .slot-label {
+      font-size: 10px;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--text-dim);
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    /* ─── THE CARD ─── */
+    /* This block is also what goes in Anki's Styling section */
+    .card {
+      background: var(--card-bg);
+      border-radius: 4px;
+      overflow: hidden;
+      position: relative;
+      box-shadow:
+        0 0 0 1px rgba(198,132,58,0.18),
+        0 32px 80px rgba(0,0,0,0.8),
+        0 6px 24px rgba(0,0,0,0.5);
+    }
+
+    /* Gold top bar */
+    .card::before {
+      content: '';
+      position: absolute;
+      inset: 0 0 auto 0;
+      height: 3px;
+      background: linear-gradient(to right, var(--gold-deep), var(--gold), var(--gold-soft), var(--gold));
+    }
+
+    /* ─── FRONT ─── */
+    .card.front {
+      padding: 52px 44px 48px;
+      min-height: 280px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .meaning {
+      font-family: 'Lora', Georgia, serif;
+      font-size: 28px;
+      font-weight: 400;
+      color: var(--text);
+      line-height: 1.35;
+      margin-bottom: 26px;
+      letter-spacing: 0.01em;
+    }
+
+    .ornament {
+      color: var(--gold);
+      font-size: 18px;
+      letter-spacing: 0.25em;
+      margin-bottom: 24px;
+      opacity: 0.7;
+    }
+
+    .mnemonic-block {
+      width: 100%;
+      padding: 16px 20px 16px 22px;
+      background: var(--gold-faint);
+      border-left: 3px solid var(--gold);
+      text-align: left;
+    }
+
+    .mnemonic-label {
+      font-family: 'Zain', sans-serif;
+      font-size: 9px;
+      letter-spacing: 0.24em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 7px;
+    }
+
+    .mnemonic-text {
+      font-family: 'Lora', serif;
+      font-size: 17px;
+      font-style: italic;
+      color: var(--gold-soft);
+      line-height: 1.5;
+    }
+
+    /* ─── BACK ─── */
+    .card.back { min-height: 360px; }
+
+    .hero {
+      padding: 44px 44px 18px;
+      text-align: center;
+    }
+
+    .arabic-word {
+      display: block;
+      font-family: 'Lalezar', sans-serif;
+      font-size: 90px;
+      color: var(--gold-soft);
+      direction: rtl;
+      line-height: 1;
+      letter-spacing: 0.01em;
+    }
+
+    .meta {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      margin-top: 14px;
+    }
+
+    .translit {
+      font-family: 'Lora', serif;
+      font-size: 20px;
+      font-style: italic;
+      font-weight: 400;
+      color: var(--text-muted);
+      letter-spacing: 0.02em;
+    }
+
+    /* Wraps {{Audio}} — Anki renders it as a replay button */
+    .audio-wrap {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .audio-wrap .replaybutton,
+    .play-btn {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background: var(--gold);
+      border: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: #1a0e04;
+      font-size: 10px;
+      padding-left: 1px;
+      transition: background 0.14s, transform 0.1s;
+    }
+
+    .audio-wrap .replaybutton:hover,
+    .play-btn:hover {
+      background: var(--gold-deep);
+      transform: scale(1.1);
+    }
+
+    .audio-wrap .replaybutton svg { fill: #1a0e04; width: 11px; height: 11px; }
+
+    .ipa {
+      font-family: 'Lora', serif;
+      font-size: 13px;
+      color: var(--text-dim);
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 26px;
+      letter-spacing: 0.03em;
+    }
+
+    .divider {
+      height: 1px;
+      background: linear-gradient(to right, transparent, var(--rule) 15%, var(--rule) 85%, transparent);
+      margin: 0 32px;
+    }
+
+    .examples {
+      padding: 22px 36px 36px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .example-item {
+      padding: 14px 0;
+      border-bottom: 1px solid var(--rule);
+    }
+
+    .example-item:last-child { border-bottom: none; padding-bottom: 0; }
+    .example-item:first-child { padding-top: 0; }
+
+    .ar {
+      font-family: 'Zain', sans-serif;
+      font-size: 22px;
+      font-weight: 400;
+      color: var(--text);
+      direction: rtl;
+      line-height: 1.55;
+      margin-bottom: 4px;
+    }
+
+    .en {
+      font-family: 'Lora', serif;
+      font-size: 13.5px;
+      font-style: italic;
+      color: var(--text-muted);
+      line-height: 1.45;
+    }
+
+    /* ─── Code section ─── */
+    .code-section {
+      margin-top: 72px;
+      width: 100%;
+      max-width: 960px;
+    }
+
+    .code-header {
+      text-align: center;
+      margin-bottom: 28px;
+    }
+
+    .code-header .eyebrow {
+      font-family: 'Zain', sans-serif;
+      font-size: 10px;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 8px;
+    }
+
+    .code-header h2 {
+      font-family: 'Lora', serif;
+      font-size: 22px;
+      font-weight: 400;
+      font-style: italic;
+      color: var(--text);
+    }
+
+    .tabs { display: flex; gap: 2px; }
+
+    .tab-btn {
+      padding: 8px 24px;
+      background: #181008;
+      color: var(--text-dim);
+      border: none;
+      cursor: pointer;
+      font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+      font-size: 11px;
+      letter-spacing: 0.06em;
+      border-radius: 3px 3px 0 0;
+      transition: color 0.14s, background 0.14s;
+    }
+
+    .tab-btn.active { background: #0a0603; color: var(--gold); }
+
+    .tab-panel {
+      background: #0a0603;
+      border-radius: 0 3px 3px 3px;
+      padding: 28px 32px;
+      display: none;
+    }
+
+    .tab-panel.active { display: block; }
+
+    .tab-panel pre {
+      color: #c8b498;
+      font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+      font-size: 12px;
+      line-height: 1.8;
+      white-space: pre;
+      overflow-x: auto;
+      tab-size: 2;
+    }
+
+    .note {
+      margin-top: 16px;
+      padding: 12px 16px;
+      border-left: 2px solid var(--gold);
+      background: var(--gold-faint);
+    }
+
+    .note p {
+      font-family: 'Zain', sans-serif;
+      font-size: 13px;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    .note strong { color: var(--gold-soft); font-weight: 700; }
+
+    @media (max-width: 680px) {
+      .cards-row { flex-direction: column; align-items: center; }
+      .card-slot { max-width: 100%; width: 100%; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="page-header">
+    <div class="eyebrow">Daily Derja · Anki Card Template</div>
+    <h1>كفاية</h1>
+    <div class="subtitle">kfāya — enough; sufficient</div>
+  </header>
+
+  <div class="cards-row">
+
+    <!-- ── FRONT ── -->
+    <div class="card-slot">
+      <div class="slot-label">Front</div>
+      <div class="card front">
+        <div class="meaning">enough; sufficient<br>that's enough</div>
+        <div class="ornament">· · ·</div>
+        <div class="mnemonic-block">
+          <div class="mnemonic-label">Mnemonic</div>
+          <div class="mnemonic-text">"Enough with these kaffiyas!"</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── BACK ── -->
+    <div class="card-slot">
+      <div class="slot-label">Back</div>
+      <div class="card back">
+        <div class="hero">
+          <span class="arabic-word">كفاية</span>
+          <div class="meta">
+            <span class="translit">kfāya</span>
+            <span class="audio-wrap">
+              <button class="play-btn" title="Play audio">▶</button>
+            </span>
+          </div>
+          <div class="ipa">kɪˈfaːja</div>
+        </div>
+        <div class="divider"></div>
+        <div class="examples">
+          <div class="example-item">
+            <div class="ar">كفاية عليك! بتعرف شو قصدي.</div>
+            <div class="en">Enough from you! You know what I mean.</div>
+          </div>
+          <div class="example-item">
+            <div class="ar">الفلوس ما كانت كفاية.</div>
+            <div class="en">The money wasn't enough.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ── ANKI TEMPLATE CODE ── -->
+  <div class="code-section">
+    <div class="code-header">
+      <div class="eyebrow">Anki Template</div>
+      <h2>Copy into your note type</h2>
+    </div>
+
+    <div class="tabs">
+      <button class="tab-btn active" onclick="switchTab('tpl-front')">Front</button>
+      <button class="tab-btn" onclick="switchTab('tpl-back')">Back</button>
+      <button class="tab-btn" onclick="switchTab('tpl-css')">CSS</button>
+      <button class="tab-btn" onclick="switchTab('tpl-fields')">Fields</button>
+    </div>
+
+    <!-- FRONT TEMPLATE -->
+    <div id="tpl-front" class="tab-panel active">
+      <pre>&lt;div class="meaning"&gt;{{Meaning}}&lt;/div&gt;
+&lt;div class="ornament"&gt;&amp;middot; &amp;middot; &amp;middot;&lt;/div&gt;
+&lt;div class="mnemonic-block"&gt;
+  &lt;div class="mnemonic-label"&gt;Mnemonic&lt;/div&gt;
+  &lt;div class="mnemonic-text"&gt;{{Mnemonic}}&lt;/div&gt;
+&lt;/div&gt;</pre>
+      <div class="note"><p><strong>Tip:</strong> Add <code>{{#Image}}&lt;img src="{{Image}}"&gt;{{/Image}}</code> above <code>.meaning</code> if you want the flashcard image on the front.</p></div>
+    </div>
+
+    <!-- BACK TEMPLATE -->
+    <div id="tpl-back" class="tab-panel">
+      <pre>&lt;div class="hero"&gt;
+  &lt;span class="arabic-word"&gt;{{Word}}&lt;/span&gt;
+  &lt;div class="meta"&gt;
+    &lt;span class="translit"&gt;{{Transliteration}}&lt;/span&gt;
+    &lt;span class="audio-wrap"&gt;{{Audio}}&lt;/span&gt;
+  &lt;/div&gt;
+  {{#IPA}}&lt;div class="ipa"&gt;{{IPA}}&lt;/div&gt;{{/IPA}}
+&lt;/div&gt;
+
+&lt;div class="divider"&gt;&lt;/div&gt;
+
+&lt;div class="examples"&gt;
+  {{#Example1}}
+  &lt;div class="example-item"&gt;
+    &lt;div class="ar"&gt;{{Example1}}&lt;/div&gt;
+    &lt;div class="en"&gt;{{Example1En}}&lt;/div&gt;
+  &lt;/div&gt;
+  {{/Example1}}
+  {{#Example2}}
+  &lt;div class="example-item"&gt;
+    &lt;div class="ar"&gt;{{Example2}}&lt;/div&gt;
+    &lt;div class="en"&gt;{{Example2En}}&lt;/div&gt;
+  &lt;/div&gt;
+  {{/Example2}}
+&lt;/div&gt;</pre>
+      <div class="note"><p><strong>Audio:</strong> Anki renders <code>{{Audio}}</code> as a replay button automatically. The <code>.audio-wrap .replaybutton</code> CSS rule styles it to match the gold circle above.</p></div>
+    </div>
+
+    <!-- CSS TEMPLATE -->
+    <div id="tpl-css" class="tab-panel">
+      <pre>@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Zain:ital,wght@0,300;0,400;0,700;1,400&family=Lora:ital,wght@0,400;1,400&display=swap');
+
+:root {
+  --gold:       #c6843a;
+  --gold-deep:  #9f6429;
+  --gold-soft:  #ebd3aa;
+  --gold-faint: rgba(198,132,58,0.12);
+  --card-bg:    #18100a;
+  --surface:    #2e1f0f;
+  --text:       #f0e4ce;
+  --text-muted: #a08060;
+  --text-dim:   #6a5038;
+  --rule:       rgba(198,132,58,0.22);
+}
+
+.card {
+  background: var(--card-bg);
+  color: var(--text);
+  font-family: 'Lora', Georgia, serif;
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 0;
+  border-radius: 4px;
+  border-top: 3px solid var(--gold);
+  overflow: hidden;
+}
+
+/* ── FRONT ── */
+#front .card,
+.front .card {
+  padding: 52px 44px 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 280px;
+}
+
+.meaning {
+  font-size: 28px;
+  font-weight: 400;
+  color: var(--text);
+  line-height: 1.35;
+  margin-bottom: 26px;
+}
+
+.ornament {
+  color: var(--gold);
+  font-size: 18px;
+  letter-spacing: 0.25em;
+  margin-bottom: 24px;
+  opacity: 0.7;
+}
+
+.mnemonic-block {
+  width: 100%;
+  padding: 16px 20px 16px 22px;
+  background: var(--gold-faint);
+  border-left: 3px solid var(--gold);
+  text-align: left;
+}
+
+.mnemonic-label {
+  font-family: 'Zain', sans-serif;
+  font-size: 9px;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 7px;
+}
+
+.mnemonic-text {
+  font-size: 17px;
+  font-style: italic;
+  color: var(--gold-soft);
+  line-height: 1.5;
+}
+
+/* ── BACK ── */
+.hero {
+  padding: 44px 44px 18px;
+  text-align: center;
+}
+
+.arabic-word {
+  display: block;
+  font-family: 'Lalezar', sans-serif;
+  font-size: 90px;
+  color: var(--gold-soft);
+  direction: rtl;
+  line-height: 1;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 14px;
+}
+
+.translit {
+  font-size: 20px;
+  font-style: italic;
+  color: var(--text-muted);
+}
+
+.audio-wrap {
+  display: inline-flex;
+  align-items: center;
+}
+
+.audio-wrap .replaybutton {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--gold);
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.audio-wrap .replaybutton svg {
+  fill: #1a0e04;
+  width: 11px;
+  height: 11px;
+}
+
+.ipa {
+  font-size: 13px;
+  color: var(--text-dim);
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 26px;
+  letter-spacing: 0.03em;
+}
+
+.divider {
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--rule) 15%,
+    var(--rule) 85%, transparent);
+  margin: 0 32px;
+}
+
+.examples {
+  padding: 22px 36px 36px;
+  display: flex;
+  flex-direction: column;
+}
+
+.example-item {
+  padding: 14px 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.example-item:last-child { border-bottom: none; padding-bottom: 0; }
+.example-item:first-child { padding-top: 0; }
+
+.ar {
+  font-family: 'Zain', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: var(--text);
+  direction: rtl;
+  line-height: 1.55;
+  margin-bottom: 4px;
+}
+
+.en {
+  font-size: 13.5px;
+  font-style: italic;
+  color: var(--text-muted);
+  line-height: 1.45;
+}</pre>
+    </div>
+
+    <!-- FIELDS -->
+    <div id="tpl-fields" class="tab-panel">
+      <pre>Word          →  كفاية
+Meaning       →  enough; sufficient; that's enough
+Transliteration → kfāya
+Audio         →  [sound:kfaya.mp3]
+IPA           →  kɪˈfaːja
+Mnemonic      →  "Enough with these kaffiyas!"
+Example1      →  كفاية عليك! بتعرف شو قصدي.
+Example1En    →  Enough from you! You know what I mean.
+Example2      →  الفلوس ما كانت كفاية.
+Example2En    →  The money wasn't enough.
+Image         →  enough-flashcard.jpg   (optional)</pre>
+      <div class="note"><p><strong>Example2</strong> and <strong>Image</strong> are optional — wrap them in <code>{{#FieldName}}...{{/FieldName}}</code> guards in the Back template so the card renders cleanly when they're empty.</p></div>
+    </div>
+  </div>
+
+  <script>
+    const TAB_IDS = ['tpl-front','tpl-back','tpl-css','tpl-fields'];
+    function switchTab(id) {
+      document.querySelectorAll('.tab-btn').forEach((btn, i) => {
+        btn.classList.toggle('active', TAB_IDS[i] === id);
+      });
+      document.querySelectorAll('.tab-panel').forEach(p => {
+        p.classList.toggle('active', p.id === id);
+      });
+    }
+  </script>
+</body>
+</html>
