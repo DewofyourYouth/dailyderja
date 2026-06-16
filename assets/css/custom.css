@@ -3808,39 +3808,58 @@ a.dialect-badge:focus-visible {
 .bday-bunting {
   position: relative;
   z-index: 3;
-  margin: 0.5rem 0 -30px;
+  height: 72px;
+  margin: 0.5rem 0 -28px;
   padding: 0 clamp(1.2rem, 4vw, 2.4rem);
   pointer-events: none;
 }
-.bday-bunting__svg {
+.bday-bunting__cord {
+  position: absolute;
+  inset: 0;
   display: block;
   width: 100%;
-  height: 84px;
+  height: 100%;
 }
-.bday-bunting__cordpath {
+.bday-bunting__cord path {
+  fill: none;
   stroke: var(--color-accent-dark, #9f6429);
-  stroke-width: 2.2;
-  stroke-linecap: round;
-  opacity: 0.6;
+  stroke-width: 2;
   vector-effect: non-scaling-stroke;
+  opacity: 0.6;
 }
-.dark .bday-bunting__cordpath { opacity: 0.45; }
+.dark .bday-bunting__cord path { opacity: 0.45; }
 
+.bday-bunting__row {
+  position: absolute;
+  inset: 0;
+}
 .bday-bunting__flag {
-  filter: drop-shadow(0 3px 4px rgba(56, 38, 12, 0.4));
-  transform-box: fill-box;
+  position: absolute;
+  top: 0;
+  width: 17px;
+  height: 23px;
+  margin-left: -8.5px;
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+  box-shadow: 0 3px 5px -2px rgba(56, 38, 12, 0.4);
   transform-origin: 50% 0%;
   animation: bdayFlagSway 3.6s ease-in-out infinite;
-}
-.bday-bunting__flag--0 { fill: url(#bdayFlagA); }
-.bday-bunting__flag--1 { fill: url(#bdayFlagB); }
-.bday-bunting__flag--2 { fill: url(#bdayFlagC); }
-.bday-bunting__flag--mark { filter: drop-shadow(0 4px 6px rgba(56, 38, 12, 0.5)); }
-
-.bday-bunting__num {
+  display: flex;
+  justify-content: center;
   font-family: "Lalezar", system-ui, sans-serif;
-  font-size: 17px;
-  fill: #fff8ec;
+  font-size: 0.7rem;
+  line-height: 1;
+  color: #fff8ec;
+  padding-top: 2px;
+}
+.bday-bunting__flag--0 { background: linear-gradient(165deg, #e9bd7e, var(--color-accent, #c6843a)); }
+.bday-bunting__flag--1 { background: linear-gradient(165deg, var(--color-accent-light, #ebd3aa), #e0c499); }
+.bday-bunting__flag--2 { background: linear-gradient(165deg, var(--color-accent, #c6843a), var(--color-accent-dark, #9f6429)); }
+.bday-bunting__flag--mark {
+  width: 24px;
+  height: 32px;
+  margin-left: -12px;
+  font-size: 0.85rem;
+  box-shadow: 0 4px 8px -3px rgba(56, 38, 12, 0.5);
 }
 
 @keyframes bdayFlagSway {
@@ -3851,6 +3870,7 @@ a.dialect-badge:focus-visible {
   .bday-bunting__flag { animation: none; }
 }
 @media (max-width: 640px) {
-  .bday-bunting { margin-bottom: -20px; }
-  .bday-bunting__svg { height: 64px; }
+  .bday-bunting { height: 54px; margin-bottom: -18px; }
+  .bday-bunting__flag { width: 13px; height: 18px; margin-left: -6.5px; font-size: 0.6rem; }
+  .bday-bunting__flag--mark { width: 19px; height: 26px; margin-left: -9.5px; font-size: 0.7rem; }
 }
