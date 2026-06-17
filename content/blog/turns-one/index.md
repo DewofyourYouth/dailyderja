@@ -38,7 +38,7 @@ cssclasses:
 
 وفي إشي تاني ما اتغيّر: إنّي بتشكّى كتير! الحمد لله، أنا بخير، ومرتي بخير، وولادي بصحّة! الحمد لله، أنا واقف، لِسّا هون، ولِسّا عم بتشكّى!
 
-إمبارح، احتفالًا بعيد الميلاد الأوّل لـ Daily Derja، كتبت بوست على dewofyouryouth.com عن عشرين أغنية من أغانيّي المفضّلة بالعربي.
+إمبارح، احتفالًا بعيد الميلاد الأوّل لـ Daily Derja، كتبت بوست على [Dew of your Youth](https://dewofyouryouth.com/post/my-arabic-music-liner-notes/) عن عشرين أغنية من أغانيّي المفضّلة بالعربي.
 
 {{< featured-link url="https://dewofyouryouth.com/post/my-arabic-music-liner-notes/" >}}
 
@@ -46,12 +46,12 @@ cssclasses:
 
 ## كلام
 
-| Arabic                  | IPA                       | Meaning                          |
-| ----------------------- | ------------------------- | -------------------------------- |
-| **مكفّي**                | /mkaffi/                  | still going strong; holding up   |
-| **أنا واقف، لِسّا هون**   | /ana waːʔif ˈlissa hoːn/  | I'm still standing, still here   |
-| **لِسّا عم بتشكّى**       | /ˈlissa ʕam batˈʃakka/    | still complaining                |
-| **إشي تاني ما اتغيّر**    | /ˈʔiʃi ˈtaːni ma tɣajjar/ | another thing that didn't change |
+| Arabic                | IPA                       | Meaning                          |
+| --------------------- | ------------------------- | -------------------------------- |
+| **مكفّي**              | /mkaffi/                  | still going strong; holding up   |
+| **أنا واقف، لِسّا هون** | /ana waːʔif ˈlissa hoːn/  | I'm still standing, still here   |
+| **لِسّا عم بتشكّى**      | /ˈlissa ʕam batˈʃakka/    | still complaining                |
+| **إشي تاني ما اتغيّر** | /ˈʔiʃi ˈtaːni ma tɣajjar/ | another thing that didn't change |
 
 
 ---
