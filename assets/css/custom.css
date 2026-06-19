@@ -23,6 +23,34 @@
 
   /* For dialect badge + chips */
   --accent-color: var(--color-accent-light);
+
+  /* Latin (English) typography — elevated editorial pairing.
+     Fraunces = display, Newsreader = body. Arabic glyphs fall through
+     to Lalezar/Zain in these stacks, and the :lang(ar)/.article-content
+     rules below out-specify these, so the Arabic styling is untouched. */
+  --font-display: "Fraunces", "Lalezar", Georgia, "Times New Roman", serif;
+  --font-body: "Newsreader", "Zain", ui-serif, Georgia, serif;
+  /* Override Blowfish/Tailwind base so the whole site inherits it */
+  --font-sans: var(--font-body);
+  --default-font-family: var(--font-body);
+}
+
+/* ================================
+   1b. Latin base typography
+   ================================= */
+
+body {
+  font-family: var(--font-body);
+  font-optical-sizing: auto;
+}
+
+/* Latin headings site-wide. Arabic headings keep Lalezar via the
+   more-specific :lang(ar)/.article-content rules further down. */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  font-optical-sizing: auto;
+  font-weight: 600;
+  letter-spacing: -0.011em;
 }
 
 /* ================================

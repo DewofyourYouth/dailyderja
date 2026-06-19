@@ -1,0 +1,359 @@
+{{ define "main" }}
+{{/* Fraunces + Newsreader are now loaded site-wide in partials/extend-head.html */}}
+<style>
+  .dd-start {
+    /* ---- palette: warm Mediterranean paper, Breeze-Gold brand accent ---- */
+    --paper:    #f5edde;
+    --paper-2:  #efe3cd;
+    --ink:      #2c2419;
+    --ink-soft: #5c5040;
+    --ink-mute: #8a7c66;
+    --gold:     #c6843a;
+    --gold-dk:  #9f6429;
+    --gold-sf:  #ebd3aa;
+    --espresso: #221a11;
+    --line:     rgba(44, 36, 25, .14);
+
+    --serif:   "Newsreader", Georgia, "Times New Roman", serif;
+    --display: "Fraunces", Georgia, serif;
+    --arabic:  "Lalezar", system-ui, sans-serif;
+
+    position: relative;
+    margin: 0 auto;
+    padding: clamp(1.4rem, 3vw, 3rem) 0 0;
+    color: var(--ink);
+    font-family: var(--serif);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  .dd-start :is(h1, h2, h3) { font-family: var(--display); font-weight: 500; }
+
+  /* paper grain laid over everything in this page */
+  .dd-start::before {
+    content: ""; position: absolute; inset: 0; z-index: 0; pointer-events: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.5'/%3E%3C/svg%3E");
+    opacity: .35; mix-blend-mode: multiply;
+  }
+  .dd-start > * { position: relative; z-index: 1; }
+
+  /* ============================ HERO ============================ */
+  .dd-hero {
+    position: relative; overflow: hidden;
+    display: grid; grid-template-columns: 1.1fr .9fr; align-items: center;
+    gap: clamp(1.8rem, 4vw, 3.6rem);
+    border-radius: 26px;
+    background: linear-gradient(160deg, var(--paper) 0%, var(--paper-2) 100%);
+    border: 1px solid var(--line);
+    padding: clamp(2rem, 4vw, 3.4rem) clamp(1.6rem, 4vw, 3.6rem);
+    box-shadow: 0 30px 60px -38px rgba(60, 42, 16, .5);
+  }
+  /* morning-light glow */
+  .dd-hero::after {
+    content: ""; position: absolute; z-index: 0;
+    top: -38%; inset-inline-end: -14%;
+    width: min(640px, 80%); aspect-ratio: 1;
+    background: radial-gradient(circle, rgba(198,132,58,.34), rgba(198,132,58,0) 64%);
+    filter: blur(8px);
+  }
+  /* drifting breeze strokes */
+  .dd-breeze { position: absolute; inset: 0; z-index: 0; opacity: .5; pointer-events: none; }
+  .dd-breeze path { fill: none; stroke: var(--gold); stroke-width: 1.4; opacity: .4; }
+  .dd-breeze .b1 { animation: dd-drift 19s ease-in-out infinite; }
+  .dd-breeze .b2 { animation: dd-drift 26s ease-in-out infinite reverse; }
+  .dd-breeze .b3 { animation: dd-drift 33s ease-in-out infinite; }
+  @keyframes dd-drift {
+    0%, 100% { transform: translateX(0); }
+    50%      { transform: translateX(26px); }
+  }
+
+  .dd-hero__inner { position: relative; z-index: 1; }
+  .dd-eyebrow {
+    display: inline-flex; align-items: center; gap: .6rem;
+    font-family: var(--serif); font-size: .82rem; font-weight: 500;
+    letter-spacing: .22em; text-transform: uppercase; color: var(--gold-dk);
+    margin-bottom: 1.4rem;
+  }
+  .dd-eyebrow::before { content: ""; width: 30px; height: 1.5px; background: var(--gold); display: inline-block; }
+
+  .dd-wordmark {
+    font-family: var(--arabic); direction: rtl;
+    font-size: clamp(3.4rem, 8vw, 6rem); line-height: .92;
+    color: var(--ink); margin: 0 0 .2em;
+    letter-spacing: .01em;
+  }
+  .dd-wordmark .dot { color: var(--gold); }
+  .dd-romanized {
+    font-family: var(--display); font-style: italic; font-weight: 400;
+    font-size: clamp(1.05rem, 1.4vw, 1.3rem); color: var(--ink-mute);
+    margin: 0 0 1.6rem; letter-spacing: .01em;
+  }
+  .dd-lead {
+    font-size: clamp(1.12rem, 1.1vw, 1.32rem); line-height: 1.62;
+    color: var(--ink-soft); max-width: 44ch; margin: 0 0 2.1rem;
+  }
+  .dd-cta { display: flex; flex-wrap: wrap; gap: .9rem; }
+  .dd-btn {
+    display: inline-flex; align-items: center; gap: .5rem;
+    font-family: var(--serif); font-size: 1.02rem; font-weight: 500;
+    padding: .82rem 1.5rem; border-radius: 999px; text-decoration: none;
+    transition: transform .25s ease, box-shadow .25s ease, background .25s ease, color .25s ease;
+  }
+  .dd-btn .arr { transition: transform .25s ease; }
+  .dd-btn:hover .arr { transform: translateX(4px); }
+  .dd-btn--solid { background: var(--ink); color: var(--paper); box-shadow: 0 14px 26px -16px rgba(34,26,17,.9); }
+  .dd-btn--solid:hover { background: var(--gold-dk); transform: translateY(-2px); }
+  .dd-btn--ghost { color: var(--ink); border: 1.5px solid var(--line); }
+  .dd-btn--ghost:hover { border-color: var(--gold); color: var(--gold-dk); transform: translateY(-2px); }
+
+  /* ============================ LETTER ============================ */
+  .dd-letter { max-width: 60ch; margin: clamp(3rem, 7vw, 5.5rem) auto; padding: 0 .4rem; }
+  .dd-letter__body { font-size: 1.22rem; line-height: 1.72; color: var(--ink); }
+  .dd-letter__body p { margin: 0 0 1.3rem; }
+  .dd-letter__body p:first-of-type::first-letter {
+    font-family: var(--display); font-weight: 600;
+    float: left; font-size: 3.9rem; line-height: .76;
+    padding: .12em .12em 0 0; color: var(--gold-dk);
+  }
+  .dd-letter__body strong { font-weight: 500; color: var(--ink); box-shadow: inset 0 -.5em 0 var(--gold-sf); }
+  .dd-sign {
+    margin-top: 1.6rem; font-family: var(--display); font-style: italic;
+    font-size: 1.25rem; color: var(--ink-soft);
+  }
+  .dd-sign::before { content: ""; display: block; width: 46px; height: 2px; background: var(--gold); margin-bottom: 1.1rem; }
+
+  /* section heading shared */
+  .dd-sec-head { display: flex; align-items: baseline; gap: 1rem; margin-bottom: 2.2rem; }
+  .dd-sec-head h2 { font-size: clamp(1.7rem, 2.6vw, 2.4rem); margin: 0; color: var(--ink); }
+  .dd-sec-head .ar { font-family: var(--arabic); direction: rtl; font-size: 1.5rem; color: var(--gold-dk); }
+  .dd-sec-head .rule { flex: 1; height: 1px; background: var(--line); }
+
+  /* ============================ STEPS ============================ */
+  .dd-steps { margin: clamp(2.5rem, 6vw, 4.5rem) 0; }
+  .dd-steps__grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: clamp(1.4rem, 3vw, 2.4rem); }
+  .dd-step { display: flex; gap: 1.2rem; align-items: flex-start; }
+  .dd-step__n {
+    font-family: var(--arabic); direction: rtl; flex: none;
+    font-size: 3.1rem; line-height: 1; color: var(--gold);
+    width: 1.5em; text-align: center;
+    opacity: .9;
+  }
+  .dd-step__t { font-family: var(--display); font-weight: 600; font-size: 1.18rem; margin: .15em 0 .35rem; color: var(--ink); }
+  .dd-step__b { font-size: 1.04rem; line-height: 1.6; color: var(--ink-soft); }
+  .dd-step__b :is([lang="ar"]) { font-family: var(--arabic); font-size: 1.15em; color: var(--gold-dk); }
+
+  /* ============================ BEGIN / CARDS ============================ */
+  .dd-begin { margin: clamp(2.5rem, 6vw, 4.5rem) 0; }
+  .dd-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.3rem; }
+  .dd-card {
+    position: relative; display: flex; flex-direction: column;
+    background: var(--paper); border: 1px solid var(--line); border-radius: 18px;
+    padding: 1.7rem 1.5rem 1.5rem; text-decoration: none; color: var(--ink);
+    transition: transform .28s ease, box-shadow .28s ease, border-color .28s ease;
+    overflow: hidden;
+  }
+  .dd-card::before {
+    content: ""; position: absolute; top: 0; inset-inline-start: 0; height: 3px; width: 100%;
+    background: linear-gradient(90deg, var(--gold), var(--gold-sf));
+    transform: scaleX(0); transform-origin: left; transition: transform .35s ease;
+  }
+  .dd-card:hover { transform: translateY(-5px); box-shadow: 0 26px 44px -30px rgba(60,42,16,.7); border-color: var(--gold-sf); }
+  .dd-card:hover::before { transform: scaleX(1); }
+  .dd-card__idx { font-family: var(--display); font-style: italic; font-size: .95rem; color: var(--gold-dk); margin-bottom: .9rem; }
+  .dd-card__t { font-family: var(--display); font-weight: 600; font-size: 1.28rem; line-height: 1.2; margin: 0 0 .6rem; }
+  .dd-card__s { font-size: 1rem; line-height: 1.55; color: var(--ink-soft); margin: 0 0 1.3rem; flex: 1; }
+  .dd-card__go { font-family: var(--serif); font-weight: 500; font-size: .98rem; color: var(--gold-dk); display: inline-flex; gap: .4rem; align-items: center; }
+  .dd-card:hover .dd-card__go .arr { transform: translateX(4px); }
+  .dd-card__go .arr { transition: transform .25s ease; }
+
+  .dd-chips { margin-top: 2.2rem; display: flex; flex-wrap: wrap; gap: .7rem; align-items: center; }
+  .dd-chips__label { font-family: var(--display); font-style: italic; color: var(--ink-mute); margin-inline-end: .4rem; }
+  .dd-chip {
+    display: inline-flex; align-items: baseline; gap: .5rem;
+    background: var(--paper-2); border: 1px solid var(--line); border-radius: 999px;
+    padding: .42rem .95rem; text-decoration: none; color: var(--ink); transition: background .2s ease, border-color .2s ease;
+  }
+  .dd-chip:hover { background: var(--gold-sf); border-color: var(--gold); }
+  .dd-chip .ar { font-family: var(--arabic); direction: rtl; font-size: 1.18rem; line-height: 1; }
+  .dd-chip .en { font-size: .82rem; color: var(--ink-mute); }
+
+  /* ============================ CODA ============================ */
+  .dd-coda {
+    position: relative; overflow: hidden; text-align: center;
+    margin: clamp(2.5rem, 6vw, 4rem) 0 clamp(2rem, 5vw, 3.5rem);
+    border-radius: 26px; padding: clamp(3rem, 7vw, 5rem) 1.5rem;
+    background: radial-gradient(120% 130% at 50% 0%, #3a2c19 0%, var(--espresso) 70%);
+    color: var(--paper);
+  }
+  .dd-coda::after {
+    content: ""; position: absolute; inset: 0; pointer-events: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.6'/%3E%3C/svg%3E");
+    opacity: .18; mix-blend-mode: overlay;
+  }
+  .dd-coda > * { position: relative; }
+  .dd-coda__ar { font-family: var(--arabic); direction: rtl; font-size: clamp(2.8rem, 9vw, 4.6rem); line-height: 1; color: var(--gold-sf); margin: 0 0 .25em; }
+  .dd-coda__en { font-family: var(--display); font-style: italic; font-size: clamp(1.2rem, 2vw, 1.55rem); color: #e9ddc8; margin: 0 auto 2rem; max-width: 32ch; }
+  .dd-coda .dd-btn--solid { background: var(--gold); color: var(--espresso); }
+  .dd-coda .dd-btn--solid:hover { background: var(--gold-sf); }
+
+  /* ============================ HERO TASTE CARD ============================ */
+  .dd-taste {
+    position: relative; z-index: 1;
+    background: rgba(255, 252, 245, .72); backdrop-filter: blur(2px);
+    border: 1px solid var(--line); border-radius: 20px;
+    padding: 1.5rem 1.6rem 1.4rem;
+    box-shadow: 0 22px 44px -32px rgba(60, 42, 16, .6);
+  }
+  .dd-taste__tag {
+    font-family: var(--display); font-style: italic; font-size: .95rem;
+    color: var(--ink-mute); display: block; margin-bottom: .8rem;
+  }
+  .dd-taste__ar {
+    font-family: var(--arabic); direction: rtl; text-align: right;
+    font-size: clamp(1.7rem, 3.4vw, 2.3rem); line-height: 1.35; color: var(--ink);
+    margin: 0 0 1.1rem;
+  }
+  .dd-taste__gloss { display: flex; align-items: center; gap: .9rem; padding-top: 1.1rem; border-top: 1px solid var(--line); }
+  .dd-taste__play {
+    flex: none; width: 46px; height: 46px; border-radius: 50%; border: none; cursor: pointer;
+    background: var(--gold); display: grid; place-items: center;
+    transition: transform .2s ease, background .2s ease; box-shadow: 0 6px 14px -6px var(--gold-dk);
+  }
+  .dd-taste__play:hover { background: var(--gold-dk); transform: scale(1.07); }
+  .dd-taste__play .tri { width: 0; height: 0; border-style: solid; border-width: 7px 0 7px 12px; border-color: transparent transparent transparent #fffdf8; margin-left: 3px; }
+  .dd-taste__play.is-playing .tri { border: none; width: 11px; height: 11px; background: #fffdf8; margin: 0; border-radius: 1.5px; }
+  .dd-taste__word { font-family: var(--arabic); direction: rtl; font-size: 1.25rem; line-height: 1; color: var(--ink); }
+  .dd-taste__ipa { display: block; font-size: .92rem; color: var(--gold-dk); margin-top: .2rem; }
+  .dd-taste__en { display: block; font-size: .95rem; color: var(--ink-soft); font-style: italic; font-family: var(--display); }
+  .dd-taste__src { display: inline-block; margin-top: 1.1rem; font-size: .9rem; color: var(--ink-mute); text-decoration: none; }
+  .dd-taste__src em { font-style: italic; color: var(--ink-soft); }
+  .dd-taste__src:hover { color: var(--gold-dk); }
+
+  /* ============================ reveal animation ============================ */
+  @keyframes dd-rise { from { opacity: 0; transform: translateY(22px); } to { opacity: 1; transform: translateY(0); } }
+  .dd-rise { opacity: 0; animation: dd-rise .9s cubic-bezier(.2,.7,.2,1) forwards; }
+  .dd-d1 { animation-delay: .05s; } .dd-d2 { animation-delay: .18s; }
+  .dd-d3 { animation-delay: .31s; } .dd-d4 { animation-delay: .44s; } .dd-d5 { animation-delay: .57s; }
+
+  /* ============================ responsive ============================ */
+  @media (max-width: 860px) {
+    .dd-hero { grid-template-columns: 1fr; }
+    .dd-taste { order: 2; }
+  }
+  @media (max-width: 720px) {
+    .dd-steps__grid { grid-template-columns: 1fr; }
+    .dd-cards { grid-template-columns: 1fr; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .dd-rise { opacity: 1; animation: none; }
+    .dd-breeze .b1, .dd-breeze .b2, .dd-breeze .b3 { animation: none; }
+    .dd-btn, .dd-card, .dd-card__go .arr, .dd-btn .arr { transition: none; }
+  }
+</style>
+
+{{ $hero := .Params.hero }}
+<div class="dd-start" dir="ltr">
+
+  {{/* ---------- HERO ---------- */}}
+  <section class="dd-hero">
+    <svg class="dd-breeze" viewBox="0 0 800 400" preserveAspectRatio="none" aria-hidden="true">
+      <path class="b1" d="M-40 110 C 160 60, 320 160, 520 110 S 880 60, 1040 120" />
+      <path class="b2" d="M-40 210 C 180 150, 340 260, 540 200 S 900 150, 1060 220" />
+      <path class="b3" d="M-40 300 C 160 250, 360 350, 560 290 S 920 250, 1060 320" />
+    </svg>
+    <div class="dd-hero__inner">
+      <p class="dd-eyebrow dd-rise dd-d1">{{ $hero.eyebrow }}</p>
+      <h1 class="dd-wordmark dd-rise dd-d2" lang="ar" dir="rtl">{{ $hero.arabic }}<span class="dot">.</span></h1>
+      <p class="dd-romanized dd-rise dd-d3">nasmeh shāmiyyeh — “a Levantine breeze”</p>
+      <p class="dd-lead dd-rise dd-d4">{{ $hero.lead }}</p>
+      <div class="dd-cta dd-rise dd-d5">
+        <a class="dd-btn dd-btn--solid" href="/blog/">Start reading <span class="arr">→</span></a>
+        <a class="dd-btn dd-btn--ghost" href="#begin">Where to begin</a>
+      </div>
+    </div>
+
+    {{/* live "taste" — a real line of easy Shami with audio + gloss */}}
+    <aside class="dd-taste dd-rise dd-d3" aria-label="A taste of the journal">
+      <span class="dd-taste__tag">a taste —</span>
+      <p class="dd-taste__ar" lang="ar" dir="rtl">بْفيق الصُّبح وبْحَضِّر قَهوة.</p>
+      <div class="dd-taste__gloss">
+        <button class="dd-taste__play" type="button" aria-label="Play pronunciation of بفيق"
+          onclick="(function(b){var a=b.querySelector('audio');if(a.paused){a.play();b.classList.add('is-playing');}else{a.pause();a.currentTime=0;b.classList.remove('is-playing');}a.onended=function(){b.classList.remove('is-playing');};})(this)">
+          <span class="tri"></span>
+          <audio src="/audio/bafqi.mp3" preload="none"></audio>
+        </button>
+        <div>
+          <span class="dd-taste__word" lang="ar" dir="rtl">بْفيق</span>
+          <span class="dd-taste__ipa">/baˈfiːʔ/</span>
+          <span class="dd-taste__en">“I wake up in the morning, and make coffee.”</span>
+        </div>
+      </div>
+      <a class="dd-taste__src" href="/blog/daily-routine/">from <em>My Morning Routine</em> →</a>
+    </aside>
+  </section>
+
+  {{/* ---------- LETTER ---------- */}}
+  <section class="dd-letter">
+    <div class="dd-letter__body">
+      {{ .Content }}
+    </div>
+    <p class="dd-sign">— Jacob</p>
+  </section>
+
+  {{/* ---------- HOW TO READ ---------- */}}
+  <section class="dd-steps">
+    <div class="dd-sec-head">
+      <h2>How to read it</h2>
+      <span class="ar" lang="ar" dir="rtl">شوي شوي</span>
+      <span class="rule"></span>
+    </div>
+    <div class="dd-steps__grid">
+      {{ range .Params.steps }}
+      <div class="dd-step">
+        <div class="dd-step__n" lang="ar" dir="rtl">{{ .num }}</div>
+        <div>
+          <h3 class="dd-step__t">{{ .title }}</h3>
+          <p class="dd-step__b">{{ .body | markdownify }}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </section>
+
+  {{/* ---------- WHERE TO BEGIN ---------- */}}
+  <section class="dd-begin" id="begin">
+    <div class="dd-sec-head">
+      <h2>Good places to begin</h2>
+      <span class="rule"></span>
+    </div>
+    <div class="dd-cards">
+      {{ range $i, $slug := .Params.entries }}
+        {{ with site.GetPage (printf "/blog/%s" $slug) }}
+        <a class="dd-card" href="{{ .RelPermalink }}">
+          <span class="dd-card__idx">{{ printf "0%d" (add $i 1) }}</span>
+          <h3 class="dd-card__t">{{ .Title }}</h3>
+          <p class="dd-card__s">{{ .Params.summary | default .Summary }}</p>
+          <span class="dd-card__go">Read this one <span class="arr">→</span></span>
+        </a>
+        {{ end }}
+      {{ end }}
+    </div>
+    <div class="dd-chips">
+      <span class="dd-chips__label">or wander by series —</span>
+      {{ range .Params.series }}
+      <a class="dd-chip" href="/series/">
+        <span class="ar" lang="ar" dir="rtl">{{ .ar }}</span>
+        <span class="en">{{ .en }}</span>
+      </a>
+      {{ end }}
+    </div>
+  </section>
+
+  {{/* ---------- CODA ---------- */}}
+  <section class="dd-coda">
+    <p class="dd-coda__ar" lang="ar" dir="rtl">نَسمة بنَسمة</p>
+    <p class="dd-coda__en">Breeze by breeze. Pour a coffee and start reading.</p>
+    <a class="dd-btn dd-btn--solid" href="/blog/">Open the journal <span class="arr">→</span></a>
+  </section>
+
+</div>
+{{ end }}

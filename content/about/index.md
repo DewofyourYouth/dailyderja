@@ -1,30 +1,15 @@
 ---
 title: About
 date: 2025-08-07
-description: "Daily Derja is my Shami (Levantine) Arabic practice journal—short, steady posts about daily life, coffee, language, and the small shifts that keep me moving."
+description: "About Jacob Shore, the person behind Daily Derja — a middle-aged adult learner keeping a daily Levantine (Shami) Arabic journal around family, work, and coffee."
 ---
 
-## What Is نسمة شامية?
+I'm Jacob — middle-aged, married, father of five, learning Levantine Arabic the slow way: as an adult, in the cracks between family and work.
 
-Daily Derja started as a Tunisian Arabic practice blog. Life pulled me northward, so it became **نسمة شامية**—a Shami breeze through my day, one small post at a time.
+Daily Derja started as a Tunisian Arabic practice blog. Life pulled me northward, so it became **نسمة شامية** — a Shami breeze through my day. You'll still find Tunisian notes and older posts in the archive; that's part of the path and I'm keeping it.
 
-I’m learning Levantine Arabic as an adult—slow and steady, fitting practice around family and work. Most days I publish something small: a photo, a sentence, a word, a moment, or a note about whatever is shifting in life.
+The whole thing runs on one rule: **keep it small.** A photo, a sentence, a word, a moment — unpolished, practical, consistency over polish. It's how I keep moving, keep learning, and breathe a little every day.
 
-You’ll still see some Tunisian notes and old posts here. That’s part of my path and I’m keeping the archive.
+New here? The best place to begin is **[Start Here](/start/)** — it explains what the journal is and how to read along. And if you want the rest of me, that lives over at [jacob-shore.com](https://jacob-shore.com).
 
-I keep posts small on purpose—unpolished, practical, and focused on consistency over polish.
-
-The project is organized into simple series (a few examples):
-
-- <span dir="rtl">نسمة نهار</span> — daily reflections
-- <span dir="rtl">نسمة كلمة</span> — vocab bites
-- <span dir="rtl">نسمة صورة</span> — one photo, quick caption
-- <span dir="rtl">نسمة نغمة</span> — what I’m listening to
-- <span dir="rtl">نسمة معنى</span> — small cultural/meaning notes
-- <span dir="rtl">نسمة قصة</span> — short stories from family life
-
-Browse all the series: [Series](/series/).
-
-If you’re learning Arabic too—especially Levantine—you might find something useful. If not, it’s still a daily journal with photos, family notes, and plenty of coffee.
-
-This is my space to keep moving, keep learning, and breathe a little every day. Slowly, slowly — شوي شوي — نسمة بنسمة.
+Slowly, slowly — شوي شوي — نسمة بنسمة.

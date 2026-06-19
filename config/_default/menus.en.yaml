@@ -1,9 +1,9 @@
 main:
+  - name: Start Here
+    url: /start/
+    weight: 1
   - name: Blog
     url: /blog/
-    weight: 1
-  - name: Learn
-    url: /learn/
     weight: 2
   - name: Shami (Levantine)
     url: /dialects/shami/
@@ -11,14 +11,14 @@ main:
   - name: Tunisian
     url: /dialects/tunisian/
     weight: 4
+  - name: Learn
+    url: /learn/
+    weight: 5
   - name: Tutors
     url: /tutors/
-    weight: 5
+    weight: 6
   - name: About
     url: /about/
-    weight: 6
-  - name: Jacob Shore
-    url: https://jacob-shore.com
     weight: 7
 footer:
   - name: Series
@@ -30,3 +30,6 @@ footer:
   - name: Tags
     url: /tags/
     weight: 3
+  - name: Jacob Shore
+    url: https://jacob-shore.com
+    weight: 4
