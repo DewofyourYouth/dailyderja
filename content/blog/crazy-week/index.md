@@ -1,5 +1,6 @@
 ---
 title: Crazy Week
+description: "A packed week of job interviews, a CKAD exam, and family logistics — told in Shami Arabic. Key Levantine vocab: مضغوط (stressed/packed), مقابلة (interview), ألحّق (to manage in time). IPA included."
 summary: I don't know how I'm going to manage this week with interviews, exams, and family logistics.
 date: 2026-01-25T21:59:29+02:00
 tags:

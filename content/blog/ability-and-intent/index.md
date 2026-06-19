@@ -1,5 +1,6 @@
 ---
 title: Can, Want, Must, Would in Shami Arabic
+description: "Reference guide to the four everyday modal verbs in Levantine Arabic: فيني/بقدر (can), بدي (want), لازم/مفروض (must), and the hypothetical كنت/لو فيني (would). Includes IPA, cheat-card examples, and full sentence examples."
 summary: Quick guide to فيني/بقدر (can), بدي (want), لازم/مفروض (must), كنت/لو فيني (would) with IPA and examples.
 date: 2025-12-25T09:51:24+02:00
 tags:

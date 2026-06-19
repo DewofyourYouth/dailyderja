@@ -1,5 +1,6 @@
 ---
 title: My Morning Routine
+description: "A 5:30 AM morning routine written in Shami Arabic — waking up, praying, walking to the synagogue, and starting the day. Introduces the Levantine verb فاق (faaq — to wake up / to notice) with IPA."
 summary: A 5:30 wake-up in Shami Arabic — coffee, a walk to the synagogue, Jerusalem Talmud, morning prayers, then breakfast and the job hunt.
 date: 2026-06-07T06:32:41+02:00
 tags:

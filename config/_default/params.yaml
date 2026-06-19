@@ -7,7 +7,8 @@ defaultSocialImage: "images/hero.jpg"
 colorScheme: fire
 logo: "/images/logo.png"
 secondaryLogo: "/images/logo-dark.png"
-description: "سلسلة تأملات يومية في الدارجة التونسية"
+description: "Daily reflections in Levantine (Shami) and Tunisian Arabic — vocabulary with IPA, audio pronunciation, and real-life examples. A learner's log for spoken Arabic dialects."
+keywords: ["Levantine Arabic", "Shami Arabic", "Tunisian Arabic", "Derja", "Darija", "learn Levantine Arabic", "Shami vocabulary", "Arabic dialect", "Arabic pronunciation", "IPA Arabic", "colloquial Arabic"]
 disableImageOptimization: false
 disableImageOptimizationMD: false
 backgroundImageWidth: 1600

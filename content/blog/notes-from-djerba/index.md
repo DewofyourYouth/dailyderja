@@ -1,5 +1,6 @@
 ---
 title: 'Notes From Djerba'
+description: "Travel notes from Djerba, Tunisia written in Arabic — practicing Tunisian dialect in real conversations, encounters at El-Ghriba synagogue, and daily life observations. Includes the word تجربة (tajriba — experience) with Shami and Tunisian IPA."
 summary: "Notes from a sixteenth-anniversary trip to Djerba: warm encounters, everyday religious life, practicing Arabic in passing conversations, and impressions gathered without rushing or explanation."
 date: '2026-01-05T09:28:41+02:00'
 tags:
