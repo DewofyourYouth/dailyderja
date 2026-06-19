@@ -1,5 +1,6 @@
 ---
 title: To-Do List Jitters
+description: "A moving-day to-do list in Shami Arabic — introduces the Levantine verb نِضَبْضِب (nidabdib — to tidy up, pack up, restore order) with IPA."
 summary: A packed day of moving tasks, CKAD prep, and interviews has me on edge.
 date: 2026-01-22T10:08:30+02:00
 tags:

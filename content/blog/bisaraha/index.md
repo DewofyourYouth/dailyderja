@@ -1,7 +1,7 @@
 ---
 title: Bisaraha
 summary: A quick Levantine note on Ziad Rahbani's "بصراحة" and why it became my current favorite.
-description: A short Arabic reflection on "بصراحة" by Ziad Rahbani with two Spotify tracks and key Levantine phrases.
+description: "A Shami Arabic reflection on Ziad Rahbani's song بصراحة (honestly/frankly) — with key Levantine phrases for expressing opinions, describing atmosphere, and speaking candidly. Two Spotify tracks included."
 image: featured.jpg
 date: 2026-02-18T20:48:55+02:00
 tags:

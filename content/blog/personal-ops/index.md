@@ -1,5 +1,6 @@
 ---
 title: Reed, Not Cedar
+description: "A personal Telegram bot for capturing daily notes — and a Talmudic reflection on being a reed, not a cedar. Introduces the Shami/Tunisian word قصب (qasab — reed, cane) with IPA and dialect notes."
 summary: I built a Telegram bot to catch my passing thoughts, then made it gentler — guided by a Talmudic line about being a reed, not a cedar.
 date: '2026-06-08T15:34:19+03:00'
 draft: false

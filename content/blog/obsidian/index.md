@@ -1,5 +1,6 @@
 ---
 title: How I Use Obsidian to Learn Derja
+description: "How I use Obsidian to take notes and learn Arabic dialect vocabulary — a personal workflow for language learners using spaced repetition, daily logs, and linked notes."
 summary: How I use Obsidian to take notes and learn Derja.
 date: 2025-08-10T17:03:03
 tags:

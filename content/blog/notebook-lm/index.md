@@ -1,5 +1,6 @@
 ---
 title: NotebookLM Notes for Daily Derja
+description: "24 practical Shami Arabic phrases for everyday speech — mental states, storytelling, professional situations, and sentence starters. Sourced by feeding real Levantine Arabic posts into NotebookLM. IPA included for every word."
 summary: I fed my Daily Derja posts into NotebookLM and asked for Shami vocabulary and style upgrades; here are the best suggestions.
 date: 2026-01-20T22:18:19+02:00
 tags:

@@ -17,11 +17,19 @@
   </script>
 {{ else }}
   {{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
+  {{- $isLearn := .Params.learn | default false -}}
   <script type="application/ld+json">
   [{
     "@context": "https://schema.org",
+    {{ if $isLearn -}}
+    "@type": "LearningResource",
+    "learningResourceType": "vocabulary",
+    "educationalLevel": "beginner",
+    "about": { "@type": "Language", "name": "Arabic" },
+    {{- else -}}
     "@type": "Article",
     "articleSection": "{{ (site.GetPage .Section).Title | safeJS }}",
+    {{- end }}
     "name": "{{ .Title | safeJS }}",
     "headline": "{{ .Title | safeJS }}",
     {{ with .Description }}"description": "{{ . | safeJS }}",{{ end }}

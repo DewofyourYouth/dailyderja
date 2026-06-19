@@ -1,5 +1,6 @@
 ---
 title: A Bad Hair Week
+description: "A DIY haircut disaster told in Shami Arabic — with Levantine vocabulary for chaos: كارثة (disaster), خبيصة (mess), دمار (destruction). IPA included."
 summary: A DIY trim goes off the rails, with fresh Levantine vocab for disaster moments.
 date: 2026-01-23T12:00:08+02:00
 tags:

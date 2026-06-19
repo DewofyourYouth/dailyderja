@@ -44,6 +44,13 @@
     if (!audio) return;
     if (audio.paused) {
       stopOthers(audio);
+      if (typeof window.gtag === 'function') {
+        var src = (audio.querySelector('source') || {}).src || '';
+        window.gtag('event', 'audio_play', {
+          audio_file: src.split('/').pop(),
+          page_path: window.location.pathname
+        });
+      }
       var p = audio.play();
       if (p && p.catch) p.catch(function () {});
       btn.classList.add('is-playing');

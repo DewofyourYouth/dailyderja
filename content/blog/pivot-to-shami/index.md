@@ -1,5 +1,6 @@
 ---
 title: Pivoting from Tunisian Derja to Shami
+description: "Why I switched from learning Tunisian Derja to Levantine (Shami) Arabic — and what that pivot means for the site's content, vocabulary posts, and dialect focus going forward."
 date: 2025-11-20T09:00:00+02:00
 tags:
 - meta
