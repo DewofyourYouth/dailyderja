@@ -17,7 +17,7 @@
 
   /* Arabic typography scale */
   --dd-heading-size: clamp(1.8rem, 2.2vw + 1rem, 2.6rem);
-  --dd-body-size: clamp(1.05rem, 0.4vw + 0.95rem, 1.2rem);
+  --dd-body-size: clamp(1.1rem, 0.4vw + 0.95rem, 1.2rem); /* floor 1.05→1.1: Arabic detail reads easier a touch larger */
   --dd-line-height: 1.8;
   --dd-quote-size: clamp(1.15rem, 0.6vw + 1rem, 1.35rem);
 
@@ -61,7 +61,11 @@ h1, h2, h3, h4, h5, h6 {
 html[lang="ar"] :lang(ar),
 html[lang="ar"] [dir="rtl"] {
   letter-spacing: 0 !important;
-  font-feature-settings: "calt" 1, "liga" 1, "rlig" 1;
+  /* calt/liga/rlig: contextual + required ligatures.
+     mark/mkmk/curs: explicit harakat (vowel) mark positioning so
+     diacritics sit cleanly on letters across browsers — matters for
+     beginner-readable vowelized text. */
+  font-feature-settings: "calt" 1, "liga" 1, "rlig" 1, "mark" 1, "mkmk" 1, "curs" 1;
 }
 
 /* Arabic content typography (when page/lang is Arabic) */
@@ -75,7 +79,8 @@ html[lang="ar"] [dir="rtl"] {
   .article-content > h4 {
     font-family: "Lalezar", system-ui, -apple-system, "Segoe UI", sans-serif;
     font-weight: 400; /* Lalezar has 400 only */
-    line-height: 1.2;
+    line-height: 1.3; /* a touch more than 1.2 so top harakat aren't clipped */
+    text-wrap: balance; /* even multi-line Arabic headings; no lonely last word */
     margin: 1.2em 0 0.6em;
   }
 
@@ -614,7 +619,7 @@ section.article-ltr {
   left: clamp(1.3rem, 4.5vw, 2rem);
   margin: 0;
   padding: 0.28em 0.78em;
-  font-family: "Zain", sans-serif;
+  font-family: var(--font-body); /* English POS label → Latin */
   font-size: 0.7rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -698,7 +703,7 @@ section.article-ltr {
 }
 .dark .dd-word__ipa { color: var(--w-gold-soft); }
 .dd-word__tr {
-  font-family: "Zain", sans-serif;
+  font-family: var(--font-body); /* transliteration → Latin */
   font-style: italic;
   font-size: 1.05rem;
   color: var(--w-ink-soft);
@@ -748,7 +753,7 @@ section.article-ltr {
 /* meaning */
 .dd-word .dd-word__meaning {
   margin: 0.7rem 0 0;
-  font-family: "Zain", sans-serif;
+  font-family: var(--font-body); /* English meaning → Latin */
   font-weight: 700;
   font-size: clamp(1.35rem, 2.4vw, 1.75rem);
   line-height: 1.3;
@@ -758,7 +763,7 @@ section.article-ltr {
 /* usage note */
 .dd-word .dd-word__note {
   margin: 0.5rem 0 0;
-  font-family: "Zain", sans-serif;
+  font-family: var(--font-body); /* English usage note → Latin */
   font-style: italic;
   font-size: 1rem;
   line-height: 1.5;
@@ -1224,7 +1229,7 @@ section.article-ltr {
 .wf-tile__glyph svg { width: 1.3rem; height: 1.3rem; }
 .wf-tile__title {
   margin-top: 0.15rem;
-  font-family: "Zain", system-ui, sans-serif;
+  font-family: var(--font-body); /* English title → Latin; Arabic <b> stays Lalezar */
   font-weight: 800;
   font-size: 1.08rem;
   line-height: 1.15;
@@ -1238,7 +1243,7 @@ section.article-ltr {
   margin-inline-end: 0.25em;
 }
 .wf-tile__desc {
-  font-family: "Zain", system-ui, sans-serif;
+  font-family: var(--font-body); /* English description → Latin */
   font-size: 0.85rem;
   line-height: 1.35;
   color: var(--wf-ink-soft);
@@ -1953,7 +1958,9 @@ section.article-ltr {
   border-collapse: separate;
   border-spacing: 0;
   margin: 1.9rem 0;
-  font-family: "Zain", system-ui, sans-serif;
+  /* Latin-aware: IPA + English "Meaning" column render in Newsreader,
+     Arabic glyphs fall back to Zain; first column is Lalezar (below). */
+  font-family: var(--font-body);
   font-size: 1rem;
   line-height: 1.55;
   border: 1px solid var(--ac-line);
@@ -2862,9 +2869,12 @@ a.dialect-badge:focus-visible {
    Bilingual meta & series banner (English + Arabic)
    ================================= */
 
-/* Arabic companion text — muted, secondary to the English */
+/* Arabic companion text — muted, secondary to the English.
+   The span is dir="rtl", so its inline-START resolves to the RIGHT edge;
+   the gap we want sits on the LEFT (between the English and this companion).
+   Use margin-left so the space lands between them, not after the Arabic. */
 .bi-ar {
-  margin-inline-start: 0.45em;
+  margin-left: 0.4em;
   font-size: 0.9em;
   font-weight: 400;
   opacity: 0.6;
