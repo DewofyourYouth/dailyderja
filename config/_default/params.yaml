@@ -11,6 +11,10 @@ description: "Daily reflections in Levantine (Shami) and Tunisian Arabic — voc
 keywords: ["Levantine Arabic", "Shami Arabic", "Tunisian Arabic", "Derja", "Darija", "learn Levantine Arabic", "Shami vocabulary", "Arabic dialect", "Arabic pronunciation", "IPA Arabic", "colloquial Arabic"]
 disableImageOptimization: false
 disableImageOptimizationMD: false
+# Include taxonomy & term pages (tags, categories, series, dialects) in sitemap.xml.
+# Blowfish excludes ["taxonomy", "term"] by default; override to include them all.
+sitemap:
+  excludedKinds: []
 backgroundImageWidth: 1600
 smartToc: true
 list:
