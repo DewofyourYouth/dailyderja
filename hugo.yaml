@@ -30,6 +30,7 @@ outputs:
     - HTML
     - RSS
     - JSON
+    - Sitemap
 privacy:
   youTube:
     disable: false
