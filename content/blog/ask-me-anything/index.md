@@ -9,6 +9,7 @@ tags:
 - video
 - vlog
 postLang: ar
+difficulty_level: easy
 dialects:
 - tunisian
 categories:

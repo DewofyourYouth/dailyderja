@@ -13,6 +13,7 @@ tags:
 - study-workflow
 draft: false
 postLang: ar
+difficulty_level: intermediate
 dialects:
 - tunisian
 categories:

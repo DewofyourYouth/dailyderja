@@ -94,9 +94,12 @@
     </div>
   {{ end }}
 
-  {{/* Ear-training indicator — single post view only */}}
+  {{/* Difficulty + ear-training indicators — single post view only */}}
   {{ if eq $scope "single" }}
-    {{ partial "ear-training-badge.html" (dict "ctx" $context) }}
+    <div class="post-badges" dir="ltr">
+      {{ partial "difficulty-badge.html" (dict "ctx" $context) }}
+      {{ partial "ear-training-badge.html" (dict "ctx" $context) }}
+    </div>
   {{ end }}
 
   {{/* Output taxonomies */}}

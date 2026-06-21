@@ -12,6 +12,7 @@ categories:
   - work-and-career
 draft: false
 postLang: ar
+difficulty_level: intermediate
 dialects:
 - tunisian
 series:

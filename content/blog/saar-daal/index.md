@@ -5,6 +5,7 @@ date: '2025-12-04T20:16:19+02:00'
 draft: false
 learn: true
 postLang: ar
+difficulty_level: easy
 series:
   - نسمة كلمة
 series_order: 1

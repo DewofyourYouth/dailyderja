@@ -19,6 +19,7 @@ series:
   - نسمة نهار
 series_order: 6
 postLang: ar
+difficulty_level: intermediate
 cssclasses:
   - arabic-note
 ---

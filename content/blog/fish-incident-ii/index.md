@@ -20,6 +20,7 @@ series:
   - نسمة قصة
 series_order: 2
 postLang: ar
+difficulty_level: intermediate
 cssclasses:
   - arabic-note
 ---

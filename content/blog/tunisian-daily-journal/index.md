@@ -15,6 +15,7 @@ categories:
 draft: false
 hidden: false
 postLang: ar
+difficulty_level: intermediate
 dialects:
 - tunisian
 description: 'Tunisian Daily Journal: Entry 1'

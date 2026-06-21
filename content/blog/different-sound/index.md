@@ -19,6 +19,7 @@ tags:
 dialects:
 - shami
 postLang: ar
+difficulty_level: intermediate
 ---
 بوقت التغيير بيكون عندك فرصة تقرّر: بدّك نفس الشي بس أحسن؟ ولا بدّك شي مختلف تمامًا؟
 

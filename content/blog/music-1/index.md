@@ -19,6 +19,7 @@ categories:
   - art-media
 draft: false
 postLang: ar
+difficulty_level: intermediate
 dialects:
 - shami
 summary: Some music I'm enjoying right now, to train my ear for Levantine Arabic.

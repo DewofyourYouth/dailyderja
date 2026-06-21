@@ -3,6 +3,7 @@ title: The Letters Park
 summary: Back to daily Derja after a long pause, trying to rebuild momentum.
 date: 2025-10-16T08:10:47
 postLang: ar
+difficulty_level: advanced
 dialects:
 - tunisian
 tags:

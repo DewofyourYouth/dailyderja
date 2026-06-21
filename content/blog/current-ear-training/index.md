@@ -8,4 +8,5 @@ series:
   - نسمة نغمة
 series_order: 9
 ear_training: true
+difficulty_level: easy
 ---

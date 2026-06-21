@@ -21,6 +21,7 @@ series:
   - نسمة نغمة
 series_order: 7
 postLang: ar
+difficulty_level: intermediate
 cssclasses:
   - arabic-note
 ear_training: true

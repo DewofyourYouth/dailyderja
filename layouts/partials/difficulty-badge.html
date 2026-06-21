@@ -1,0 +1,32 @@
+{{/*
+  Difficulty indicator badge — shown on posts with difficulty_level set.
+  Levels: easy → سهل, intermediate → متوسط, advanced → متقدّم.
+  A rising-bars "signal strength" motif fills 1/2/3 bars per level.
+
+  Call with a page, or a dict:
+    {{ partial "difficulty-badge.html" . }}
+    {{ partial "difficulty-badge.html" (dict "ctx" .Page "size" "sm") }}
+*/}}
+{{- $ctx := . -}}
+{{- $size := "" -}}
+{{- if reflect.IsMap . -}}
+  {{- $ctx = .ctx -}}
+  {{- with .size }}{{ $size = . }}{{ end -}}
+{{- end -}}
+{{- with $ctx.Params.difficulty_level -}}
+  {{- $d := . | lower -}}
+  {{- $known := dict "easy" "سهل" "intermediate" "متوسط" "advanced" "متقدّم" -}}
+  {{- if isset $known $d -}}
+    {{- $ar := index $known $d -}}
+<span class="difficulty-badge difficulty-badge--{{ $d }}{{ with $size }} difficulty-badge--{{ . }}{{ end }}" dir="ltr" title="Difficulty: {{ $d | title }}">
+  <span class="difficulty-badge__motif" aria-hidden="true">
+    <svg viewBox="0 0 24 24" focusable="false">
+      <rect class="bar b1" x="3.5" y="13" width="4" height="7" rx="1"/>
+      <rect class="bar b2" x="10" y="8" width="4" height="12" rx="1"/>
+      <rect class="bar b3" x="16.5" y="3" width="4" height="17" rx="1"/>
+    </svg>
+  </span>
+  <b dir="rtl" lang="ar">{{ $ar }}</b><i>{{ $d | title }}</i>
+</span>
+  {{- end -}}
+{{- end -}}

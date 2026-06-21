@@ -23,6 +23,7 @@ series:
   - نسمة كلمة
 series_order: 2
 postLang: en
+difficulty_level: easy
 cssclasses:
   - arabic-note
 ---

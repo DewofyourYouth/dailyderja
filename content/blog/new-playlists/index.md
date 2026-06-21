@@ -20,6 +20,7 @@ series:
   - نسمة نغمة
 series_order: 6
 postLang: ar
+difficulty_level: easy
 cssclasses:
   - arabic-note
 ---

@@ -13,6 +13,7 @@ categories:
   - travel
 draft: false
 postLang: ar
+difficulty_level: intermediate
 dialects:
 - tunisian
 showTableOfContents: true

@@ -12,6 +12,7 @@ categories:
   - travel
 draft: false
 postLang: ar
+difficulty_level: intermediate
 dialects:
 - tunisian
 summary: A reflection on a company trip that wasn't as bad as expected

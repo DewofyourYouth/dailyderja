@@ -1,5 +1,6 @@
 {{/* Blowfish extension hook — adds cultural dialect stamps and ear-training indicator to list/recent items. */}}
 <div class="post-badges" dir="ltr">
   {{ partial "dialect-badges.html" (dict "ctx" .Page "size" "sm" "link" false) }}
+  {{ partial "difficulty-badge.html" (dict "ctx" .Page "size" "sm") }}
   {{ partial "ear-training-badge.html" (dict "ctx" .Page "size" "sm") }}
 </div>

@@ -12,6 +12,7 @@ categories:
   - daily-life
 draft: false
 postLang: ar
+difficulty_level: intermediate
 dialects:
 - tunisian
 summary: Reflecting on my experience learning Derja before going to an engagement

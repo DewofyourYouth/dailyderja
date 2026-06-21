@@ -4,6 +4,7 @@ draft: false
 title: Boring Day
 summary: Nothing much to share today, so I keep the update short and quiet.
 postLang: ar
+difficulty_level: intermediate
 dialects:
 - tunisian
 tags:

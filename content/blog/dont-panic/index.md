@@ -18,6 +18,7 @@ dialects:
 - shami
 series_order: 3
 postLang: ar
+difficulty_level: intermediate
 summary: Some good advice from Douglas Adams
 ---
 ## خاطِرة

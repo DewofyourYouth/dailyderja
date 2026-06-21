@@ -12,6 +12,7 @@ categories:
   - daily-life
 draft: false
 postLang: ar
+difficulty_level: intermediate
 dialects:
 - tunisian
 summary: Some surprizing things I hate.

@@ -16,6 +16,7 @@ categories:
   - daily-life
 draft: false
 postLang: ar
+difficulty_level: advanced
 dialects:
 - tunisian
 series:

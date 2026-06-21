@@ -10,6 +10,7 @@ tags:
 - substitute-teaching
 - coffee-cutback
 postLang: ar
+difficulty_level: intermediate
 dialects:
 - tunisian
 categories:

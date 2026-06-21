@@ -18,6 +18,7 @@ summary: I discuss the change in the site – from the Tunisian dialect – to t
 categories:
   - language-learning
   - blog-meta
+difficulty_level: easy
 ---
 For the first chapter of this project, **The Daily Derja** was all about Tunisian Arabic.  
 That made sense: I was heading toward Djerba, had Tunisian friends, and “Derja” felt like the right flag to plant.

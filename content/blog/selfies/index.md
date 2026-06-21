@@ -18,6 +18,7 @@ series:
   - نسمة صورة
 series_order: 3
 postLang: ar
+difficulty_level: intermediate
 summary: Two photos. Seventeen years apart. Same face, different weather.
 ---
 ## حكاية الصور

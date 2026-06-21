@@ -22,6 +22,7 @@ series:
   - Meta
 series_order: 6
 postLang: ar
+difficulty_level: advanced
 cssclasses:
   - arabic-note
 ---
