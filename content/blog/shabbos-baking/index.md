@@ -10,6 +10,8 @@ tags:
 categories:
   - food
   - faith-culture
+dialects:
+  - tunisian
 draft: false
 postLang: "ar"
 rtl: 'true'

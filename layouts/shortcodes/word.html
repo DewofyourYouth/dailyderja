@@ -23,6 +23,8 @@
     audio    (optional) path to an mp3 under static/, e.g. "/audio/qasab.mp3".
              The play button only renders when the file actually exists, so it
              is safe to set this before the recording is in place.
+    sh_audio (optional) Shami pronunciation mp3, shown on the Shami dialect row.
+    tn_audio (optional) Tunisian pronunciation mp3, shown on the Tunisian dialect row.
 */}}
 {{- $ar := .Get "ar" -}}
 {{- $meaning := .Get "meaning" -}}
@@ -36,6 +38,8 @@
 {{- $pos := .Get "pos" -}}
 {{- $note := .Get "note" -}}
 {{- $audio := .Get "audio" -}}
+{{- $shAudio := .Get "sh_audio" -}}
+{{- $tnAudio := .Get "tn_audio" -}}
 {{- $hasAudio := false -}}
 {{- with $audio -}}
   {{- $hasAudio = os.FileExists (printf "static/%s" (strings.TrimPrefix "/" .)) -}}
@@ -75,18 +79,20 @@
 
     {{- if or $sh $shIPA $tn $tnIPA }}
       <div class="dd-word__dialects" dir="ltr" lang="en">
-        {{- if or $sh $shIPA }}
+        {{- if or $sh $shIPA $shAudio }}
           <span class="dd-word__dialect dd-word__dialect--shami">
             <b>Shami</b>
             {{- with $sh }}<span class="dd-word__dialect-word" dir="rtl" lang="ar">{{ . }}</span>{{ end -}}
             {{- with $shIPA }}<span class="dd-word__dialect-ipa">/{{ . }}/</span>{{ end -}}
+            {{- with $shAudio }}{{ partial "audio-pron.html" (dict "src" . "page" $.Page "label" (or $sh $ar)) }}{{ end -}}
           </span>
         {{- end }}
-        {{- if or $tn $tnIPA }}
+        {{- if or $tn $tnIPA $tnAudio }}
           <span class="dd-word__dialect dd-word__dialect--tunisian">
             <b>Tunisian</b>
             {{- with $tn }}<span class="dd-word__dialect-word" dir="rtl" lang="ar">{{ . }}</span>{{ end -}}
             {{- with $tnIPA }}<span class="dd-word__dialect-ipa">/{{ . }}/</span>{{ end -}}
+            {{- with $tnAudio }}{{ partial "audio-pron.html" (dict "src" . "page" $.Page "label" (or $tn $ar)) }}{{ end -}}
           </span>
         {{- end }}
       </div>

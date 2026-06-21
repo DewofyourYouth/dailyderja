@@ -180,6 +180,27 @@ html[lang="ar"] [dir="rtl"] {
 }
 
 /* ================================
+   Post cover (hero "big") — aligned to the content measure + warm frame
+   ================================= */
+.dd-cover {
+  max-width: 42rem;      /* a touch wider than the ~37rem text measure */
+  margin-inline: auto;   /* centered */
+  margin-bottom: 0.4rem;
+}
+.dd-cover img.single_hero_round {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  border: 1px solid rgba(159, 100, 41, 0.18);
+  box-shadow: 0 22px 50px -30px rgba(56, 38, 12, 0.55);
+}
+.dark .dd-cover img.single_hero_round {
+  border-color: rgba(235, 211, 170, 0.16);
+  box-shadow: 0 24px 54px -30px rgba(0, 0, 0, 0.6);
+}
+
+/* ================================
    3. Links, cursors & general UX
    ================================= */
 
@@ -937,7 +958,7 @@ section.article-ltr {
 .hp-hero__lede {
   margin: 0.85rem 0 0;
   max-width: 34rem;
-  font-family: "Zain", system-ui, sans-serif;
+  font-family: var(--font-body); /* English → Latin body */
   font-size: clamp(1.05rem, 1.3vw, 1.2rem);
   line-height: 1.6;
   color: var(--h-ink-soft);
@@ -956,7 +977,7 @@ section.article-ltr {
   padding: 0.7rem 1.35rem;
   border-radius: 999px;
   border: 1.5px solid var(--h-line);
-  font-family: "Zain", system-ui, sans-serif;
+  font-family: var(--font-body); /* English → Latin body */
   font-weight: 700;
   font-size: 1.02rem;
   text-decoration: none !important;
@@ -1101,7 +1122,7 @@ section.article-ltr {
   padding-top: 1.3rem;
   border-top: 1px dashed var(--h-line);
   max-width: 42rem;
-  font-family: "Zain", system-ui, sans-serif;
+  font-family: var(--font-body); /* English → Latin body */
   font-style: italic;
   font-size: 1.02rem;
   line-height: 1.6;
@@ -1170,7 +1191,7 @@ section.article-ltr {
   align-items: center;
   gap: 0.5em;
   margin: 0 0 0.9rem;
-  font-family: "Zain", system-ui, sans-serif;
+  font-family: var(--font-body); /* English → Latin body */
   font-weight: 700;
   font-size: 0.95rem;
   letter-spacing: 0.01em;
@@ -1270,7 +1291,7 @@ section.article-ltr {
   align-items: center;
   gap: 0.8rem;
   margin: 2.6rem 0 0.6rem;
-  font-family: "Zain", system-ui, sans-serif;
+  font-family: var(--font-display); /* English heading → Latin display */
   font-weight: 800;
   font-size: 1.4rem;
   color: var(--color-accent-dark, #9f6429);
@@ -1286,7 +1307,7 @@ section.article-ltr {
 .learn__lead {
   margin: 0 0 1.1rem;
   max-width: 42rem;
-  font-family: "Zain", system-ui, sans-serif;
+  font-family: var(--font-body); /* English → Latin body */
   font-size: 1.05rem;
   line-height: 1.55;
   color: var(--color-text-500, #6a5836);
@@ -1339,7 +1360,7 @@ section.article-ltr {
   color: #fff;
 }
 .et-playlist__sub {
-  font-family: "Zain", system-ui, sans-serif;
+  font-family: var(--font-body); /* English → Latin body */
   font-size: 0.78rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -1412,7 +1433,7 @@ section.article-ltr {
 
 .et-playlist__title {
   flex: 1 1 auto;
-  font-family: "Zain", system-ui, sans-serif;
+  font-family: var(--font-body); /* English → Latin body */
   font-size: 0.97rem;
   font-weight: 700;
   color: #2a2218;
@@ -1425,7 +1446,7 @@ section.article-ltr {
 
 .et-playlist__date {
   flex: none;
-  font-family: "Zain", system-ui, sans-serif;
+  font-family: var(--font-body); /* English → Latin body */
   font-size: 0.72rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -1444,7 +1465,7 @@ section.article-ltr {
 }
 .dark .et-playlist__footer { background: #141210; }
 .et-playlist__all {
-  font-family: "Zain", system-ui, sans-serif;
+  font-family: var(--font-body); /* English → Latin body */
   font-size: 0.82rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -1473,7 +1494,7 @@ section.article-ltr {
   gap: 0.45em;
   padding: 0.38rem 0.9rem 0.38rem 0.65rem;
   border-radius: 999px;
-  font-family: "Zain", system-ui, sans-serif;
+  font-family: var(--font-body); /* English → Latin body */
   font-size: 0.82rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -1598,7 +1619,7 @@ section.article-ltr {
 }
 .dark .et-feature__series { color: var(--etf); }
 .et-feature__title {
-  font-family: "Zain", system-ui, sans-serif;
+  font-family: var(--font-display); /* English heading → Latin display */
   font-size: 1.05rem;
   font-weight: 800;
   color: #2a2218;
@@ -1606,7 +1627,7 @@ section.article-ltr {
 }
 .dark .et-feature__title { color: #f0ebe0; }
 .et-feature__meta {
-  font-family: "Zain", system-ui, sans-serif;
+  font-family: var(--font-body); /* English → Latin body */
   font-size: 0.82rem;
   color: color-mix(in srgb, var(--etf) 70%, #555);
   line-height: 1.3;
@@ -1714,7 +1735,7 @@ section.article-ltr {
 .sx__intro {
   margin: 0.5rem 0 0;
   max-width: 42rem;
-  font-family: "Zain", system-ui, sans-serif;
+  font-family: var(--font-body); /* English → Latin body */
   font-size: clamp(1.05rem, 1.3vw, 1.18rem);
   line-height: 1.6;
   color: var(--s-ink-soft);
@@ -1801,12 +1822,12 @@ section.article-ltr {
   box-shadow: 0 5px 12px -4px rgba(159, 100, 41, 0.6);
 }
 .sx-card__count b {
-  font-family: "Zain", system-ui, sans-serif;
+  font-family: var(--font-body); /* English → Latin body */
   font-size: 1.15rem;
   font-weight: 800;
 }
 .sx-card__count span {
-  font-family: "Zain", system-ui, sans-serif;
+  font-family: var(--font-body); /* English → Latin body */
   font-size: 0.6rem;
   text-transform: uppercase;
   letter-spacing: 0.14em;
@@ -1854,7 +1875,7 @@ section.article-ltr {
 .sx-card__en {
   display: block;
   margin-top: 0.55rem;
-  font-family: "Zain", system-ui, sans-serif;
+  font-family: var(--font-body); /* English → Latin body */
   font-weight: 800;
   font-size: 0.8rem;
   text-transform: uppercase;
@@ -1864,7 +1885,7 @@ section.article-ltr {
 
 .sx-card__desc {
   margin: 0.6rem 0 0;
-  font-family: "Zain", system-ui, sans-serif;
+  font-family: var(--font-body); /* English → Latin body */
   font-size: 0.97rem;
   line-height: 1.5;
   color: var(--s-ink-soft);
@@ -2112,7 +2133,7 @@ section.article-ltr {
   gap: 0.55em;
   padding: 0.28rem 0.85rem 0.28rem 0.28rem;
   border-radius: 999px;
-  font-family: "Zain", system-ui, sans-serif;
+  font-family: var(--font-body); /* English → Latin body */
   line-height: 1;
   color: var(--dc);
   background: color-mix(in srgb, var(--dc) 10%, transparent);
@@ -2274,7 +2295,7 @@ a.dialect-badge:focus-visible {
 }
 .dterm__en {
   margin: 0.55rem 0 0;
-  font-family: "Zain", system-ui, sans-serif;
+  font-family: var(--font-body); /* English → Latin body */
   font-weight: 800;
   font-size: 0.9rem;
   text-transform: uppercase;
@@ -2284,7 +2305,7 @@ a.dialect-badge:focus-visible {
 .dterm__desc {
   margin: 0.7rem 0 0;
   max-width: 34rem;
-  font-family: "Zain", system-ui, sans-serif;
+  font-family: var(--font-body); /* English → Latin body */
   font-size: clamp(1.05rem, 1.4vw, 1.22rem);
   line-height: 1.6;
   color: var(--dt-text);
@@ -2294,7 +2315,7 @@ a.dialect-badge:focus-visible {
   margin-top: 1.15rem;
   padding: 0.32rem 0.95rem;
   border-radius: 999px;
-  font-family: "Zain", system-ui, sans-serif;
+  font-family: var(--font-body); /* English → Latin body */
   font-weight: 800;
   font-size: 0.82rem;
   letter-spacing: 0.04em;
@@ -2411,7 +2432,7 @@ a.dialect-badge:focus-visible {
   margin-top: 1.15rem;
   padding: 0.34rem 0.95rem;
   border-radius: 999px;
-  font-family: "Zain", system-ui, sans-serif;
+  font-family: var(--font-body); /* English → Latin body */
   font-weight: 700;
   font-size: 0.85rem;
   letter-spacing: 0.04em;
@@ -2986,7 +3007,7 @@ a.dialect-badge:focus-visible {
   margin: 0;
   padding: 0.85rem 1.1rem;
   cursor: pointer;
-  font-family: "Zain", system-ui, sans-serif;
+  font-family: var(--font-body); /* English → Latin body */
   color: var(--se-gold-deep);
   background: linear-gradient(90deg, rgba(198, 132, 58, 0.16), rgba(198, 132, 58, 0.06));
   transition: background 0.2s ease;
@@ -3053,7 +3074,7 @@ a.dialect-badge:focus-visible {
   gap: 0.6rem;
   padding: 0.55rem 1.15rem;
   border-top: 1px dashed var(--se-line);
-  font-family: "Zain", system-ui, sans-serif;
+  font-family: var(--font-body); /* English → Latin body */
   font-size: 1rem;
   color: var(--se-ink);
 }
@@ -3159,7 +3180,7 @@ a.dialect-badge:focus-visible {
   border-bottom: 1px solid var(--cs-line);
 }
 .cheat-block__title {
-  font-family: "Zain", system-ui, sans-serif;
+  font-family: var(--font-display); /* English heading → Latin display */
   font-weight: 800;
   font-size: 1.3rem;
   color: var(--cs-ink);
@@ -3212,7 +3233,7 @@ a.dialect-badge:focus-visible {
 }
 .cheat-card__en {
   margin: 0.35rem 0 0;
-  font-family: "Zain", system-ui, sans-serif;
+  font-family: var(--font-body); /* English → Latin body */
   font-weight: 800;
   font-size: 1.05rem;
   line-height: 1.25;
@@ -3246,7 +3267,7 @@ a.dialect-badge:focus-visible {
   color: var(--cs-ink);
 }
 .cheat-card__ex-gloss {
-  font-family: "Zain", system-ui, sans-serif;
+  font-family: var(--font-body); /* English → Latin body */
   font-style: italic;
   font-size: 0.92rem;
   line-height: 1.35;
@@ -3283,7 +3304,7 @@ a.dialect-badge:focus-visible {
 }
 .compare-card__en {
   margin: 0 0 0.65rem;
-  font-family: "Zain", system-ui, sans-serif;
+  font-family: var(--font-body); /* English → Latin body */
   font-weight: 800;
   font-size: 1.02rem;
   color: var(--cs-ink);
@@ -3307,7 +3328,7 @@ a.dialect-badge:focus-visible {
   background: color-mix(in srgb, var(--side) 9%, transparent);
 }
 .compare-card__lang {
-  font-family: "Zain", system-ui, sans-serif;
+  font-family: var(--font-body); /* English → Latin body */
   font-size: 0.6rem;
   font-weight: 800;
   text-transform: uppercase;
@@ -3347,7 +3368,7 @@ a.dialect-badge:focus-visible {
   margin: 0.7rem 0 0;
   padding-top: 0.55rem;
   border-top: 1px dashed var(--cs-line);
-  font-family: "Zain", system-ui, sans-serif;
+  font-family: var(--font-body); /* English → Latin body */
   font-size: 0.92rem;
   line-height: 1.45;
   color: var(--cs-ink-soft);
@@ -3426,7 +3447,7 @@ a.dialect-badge:focus-visible {
   border-bottom: 1px solid var(--ex-line);
 }
 .example-block__title {
-  font-family: "Zain", system-ui, sans-serif;
+  font-family: var(--font-display); /* English heading → Latin display */
   font-weight: 800;
   font-size: 1.16rem;
   color: var(--ex-ink);
@@ -3490,7 +3511,7 @@ a.dialect-badge:focus-visible {
 }
 .example-card__en {
   margin: 0.28rem 0 0;
-  font-family: "Zain", system-ui, sans-serif;
+  font-family: var(--font-body); /* English → Latin body */
   font-size: 1.03rem;
   line-height: 1.4;
   color: var(--ex-ink-soft);
@@ -3503,7 +3524,7 @@ a.dialect-badge:focus-visible {
   margin-top: 0.48rem;
   padding-top: 0.5rem;
   border-top: 1px dashed var(--ex-line);
-  font-family: "Zain", system-ui, sans-serif;
+  font-family: var(--font-body); /* English → Latin body */
   color: var(--ex-ink-soft);
 }
 .example-card__tag {
@@ -3557,7 +3578,7 @@ a.dialect-badge:focus-visible {
   --rc-paper: rgba(251, 244, 231, 0.66);
   --rc-paper-2: rgba(241, 226, 201, 0.36);
   margin: 1.45rem 0 2rem;
-  font-family: "Zain", system-ui, sans-serif;
+  font-family: var(--font-body); /* English → Latin body */
 }
 .dark .recall-block {
   --rc-gold-deep: #e0b667;
@@ -3755,7 +3776,7 @@ a.dialect-badge:focus-visible {
   -webkit-tap-highlight-color: transparent;
 }
 .dd-aud__text {
-  font-family: "Zain", system-ui, sans-serif;
+  font-family: var(--font-body); /* English → Latin body */
   font-weight: 700;
   font-size: 0.95rem;
   line-height: 1;
@@ -3836,7 +3857,7 @@ a.dialect-badge:focus-visible {
   gap: 0.55em;
   padding: 0.28rem 0.85rem 0.28rem 0.28rem;
   border-radius: 999px;
-  font-family: "Zain", system-ui, sans-serif;
+  font-family: var(--font-body); /* English → Latin body */
   line-height: 1;
   color: var(--etc);
   background: color-mix(in srgb, var(--etc) 10%, transparent);

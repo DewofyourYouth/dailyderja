@@ -22,7 +22,7 @@
     {{ end }}
 
     {{/* Header */}}
-    <header id="single_header" style="direction: ltr;" class="mt-5 max-w-prose">
+    <header id="single_header" style="direction: ltr;" class="mt-5 max-w-prose mx-auto">
       {{ if .Params.showBreadcrumbs | default (site.Params.article.showBreadcrumbs | default false) }}
         {{ partial "breadcrumbs.html" . }}
       {{ end }}
@@ -58,7 +58,7 @@
       {{ end }}
 
 
-      <div class="min-w-0 min-h-0 max-w-fit">
+      <div class="min-w-0 min-h-0 max-w-fit mx-auto">
         {{ partial "series/series.html" . }}
         <div class="article-content max-w-prose mb-20">
           {{ .Content }}
