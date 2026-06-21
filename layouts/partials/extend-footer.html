@@ -190,6 +190,48 @@ body {
     });
   })();
 </script>
+<script>
+  /* Self-contained image lightbox. Blowfish's body-scroll layout breaks
+     medium-zoom (it positions against the window, so the zoomed image lands
+     off-screen). We intercept image clicks in the CAPTURE phase — before
+     medium-zoom's own per-image listeners — and show a viewport-fixed overlay
+     appended to <body>, which is immune to the scroll container. */
+  (function () {
+    if (window.__ddLightbox) return;
+    window.__ddLightbox = true;
+    var SEL = ".gallery img, .article-content img:not(.nozoom), figure.dd-cover img";
+    var lb, lbImg;
+    function build() {
+      lb = document.createElement("div");
+      lb.className = "dd-lb";
+      lb.setAttribute("role", "dialog");
+      lb.setAttribute("aria-modal", "true");
+      lbImg = document.createElement("img");
+      lbImg.alt = "";
+      lb.appendChild(lbImg);
+      lb.addEventListener("click", close);
+      document.body.appendChild(lb);
+    }
+    function open(src, alt) {
+      if (!lb) build();
+      lbImg.src = src;
+      lbImg.alt = alt || "";
+      requestAnimationFrame(function () { lb.classList.add("is-open"); });
+    }
+    function close() { if (lb) lb.classList.remove("is-open"); }
+    document.addEventListener("click", function (e) {
+      var t = e.target;
+      var img = t && t.closest ? t.closest(SEL) : null;
+      if (!img) return;
+      e.preventDefault();
+      e.stopImmediatePropagation(); /* prevents medium-zoom on the image */
+      open(img.currentSrc || img.src, img.alt);
+    }, true);
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape") close();
+    });
+  })();
+</script>
 <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
 <script>
   kofiWidgetOverlay.draw('dewofyouryouth', {

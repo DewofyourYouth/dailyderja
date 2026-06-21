@@ -1,0 +1,8 @@
+{{- /*
+  Compact pronunciation coin for inline / table use.
+  Wraps the audio-pron partial (gold play/pause coin, file-existence guarded).
+
+  Usage (e.g. inside a كلام table cell):
+    {{< say src="/audio/beid.mp3" label="بيض" >}}
+*/ -}}
+{{- partial "audio-pron.html" (dict "src" (.Get "src") "page" .Page "label" (.Get "label")) -}}

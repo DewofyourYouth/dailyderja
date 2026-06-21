@@ -187,6 +187,31 @@ html[lang="ar"] [dir="rtl"] {
   margin-inline: auto;   /* centered */
   margin-bottom: 0.4rem;
 }
+
+/* Image lightbox — custom, self-contained.
+   Blowfish makes <body> the scroll container (h-screen + overflow:hidden auto),
+   which breaks medium-zoom's window-based math (image lands off-screen). We
+   intercept image clicks in the capture phase (see extend-footer.html) and show
+   this viewport-fixed overlay instead. */
+.dd-lb {
+  position: fixed; inset: 0; z-index: 100000;
+  display: flex; align-items: center; justify-content: center;
+  padding: clamp(16px, 4vw, 48px);
+  background: rgba(20, 14, 6, 0.88);
+  opacity: 0; visibility: hidden; cursor: zoom-out;
+  transition: opacity 0.25s ease, visibility 0.25s ease;
+}
+.dd-lb.is-open { opacity: 1; visibility: visible; }
+.dd-lb img {
+  max-width: min(96vw, 1200px); max-height: 92vh; width: auto; height: auto;
+  object-fit: contain; border-radius: 10px;
+  box-shadow: 0 30px 80px -20px rgba(0, 0, 0, 0.7);
+  transform: scale(0.96); transition: transform 0.25s ease;
+}
+.dd-lb.is-open img { transform: scale(1); }
+@media (prefers-reduced-motion: reduce) {
+  .dd-lb, .dd-lb img { transition: none; }
+}
 .dd-cover img.single_hero_round {
   display: block;
   width: 100%;
