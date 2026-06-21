@@ -20,6 +20,7 @@ series:
   - نسمة فكرة
 series_order: 1
 postLang: ar
+difficulty_level: intermediate
 cssclasses:
   - arabic-note
 ---

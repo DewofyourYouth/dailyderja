@@ -14,6 +14,7 @@ series:
   - نسمة قهوة
 series_order: 1
 postLang: ar
+difficulty_level: easy
 categories:
   - daily-life
 ---

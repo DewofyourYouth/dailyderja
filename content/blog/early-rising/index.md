@@ -14,6 +14,7 @@ categories:
   - daily-life
 description: It's nice to be productive
 postLang: ar
+difficulty_level: intermediate
 dialects:
 - tunisian
 series:

@@ -10,6 +10,7 @@ tags:
 - video
 - vlog
 postLang: ar
+difficulty_level: intermediate
 dialects:
 - tunisian
 summary: I discuss two books I'm currently reading.

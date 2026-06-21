@@ -16,6 +16,7 @@ series:
   - Meta
 series_order: 5
 draft: false
+difficulty_level: easy
 ---
 
 ## I Built a Levantine Arabic Game

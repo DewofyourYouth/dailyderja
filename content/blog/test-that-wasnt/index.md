@@ -19,6 +19,7 @@ series:
   - نسمة يوميات
 series_order: 26
 postLang: ar
+difficulty_level: easy
 cssclasses:
   - arabic-note
 ---

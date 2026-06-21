@@ -19,6 +19,7 @@ series:
   - نسمة صورة
 series_order: 2
 postLang: ar
+difficulty_level: easy
 summary: Some confusing graffiti in Tel Aviv.
 ---
 

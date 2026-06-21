@@ -18,6 +18,7 @@ categories:
 hidden: false
 draft: false
 postLang: ar
+difficulty_level: advanced
 dialects:
 - tunisian
 description: 'Tunisian Daily Journal: Entry 7'

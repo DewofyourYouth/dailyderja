@@ -22,6 +22,7 @@ series:
   - نسمة طعمة
 series_order: 2
 postLang: ar
+difficulty_level: advanced
 cssclasses:
   - arabic-note
 ---

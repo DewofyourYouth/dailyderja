@@ -7,6 +7,7 @@ tags:
 - favorites
 draft: false
 postLang: ar
+difficulty_level: intermediate
 dialects:
 - tunisian
 summary: Discussing what kind of movies I like to watch.

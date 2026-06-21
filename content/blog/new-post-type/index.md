@@ -13,6 +13,7 @@ categories:
   - language-learning
 draft: false
 postLang: ar
+difficulty_level: intermediate
 dialects:
 - tunisian
 series:

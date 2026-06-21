@@ -17,6 +17,7 @@ series:
   - نسمة نغمة
 series_order: 5
 postLang: ar
+difficulty_level: intermediate
 cssclasses:
   - arabic-note
 ---

@@ -22,6 +22,7 @@ series:
   - نسمة قصة
 series_order: 1
 postLang: ar
+difficulty_level: intermediate
 showTranslation: true
 toc: false
 ---

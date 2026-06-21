@@ -17,6 +17,7 @@ dialects:
 series:
   - نسمة نهار
 postLang: ar
+difficulty_level: easy
 summary: The pre-interview jitters.
 series_order: 2
 ---

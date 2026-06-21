@@ -10,6 +10,7 @@ categories:
   - daily-life
 draft: false
 postLang: ar
+difficulty_level: intermediate
 dialects:
 - shami
 series:

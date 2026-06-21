@@ -22,6 +22,7 @@ series:
   - نسمة صورة
 series_order: 1
 postLang: ar
+difficulty_level: easy
 summary: Pictures from our visit to the El Ghriba synagogue in Djerba, Tunisia.
 ---
 ## حكاية الصور

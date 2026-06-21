@@ -21,6 +21,7 @@ series:
   - Meta
 series_order: 4
 postLang: en
+difficulty_level: easy
 cssclasses: []
 ---
 

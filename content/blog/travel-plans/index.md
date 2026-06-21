@@ -15,6 +15,7 @@ categories:
   - daily-life
 draft: false
 postLang: ar
+difficulty_level: intermediate
 dialects:
 - tunisian
 summary: Some early morning annoyances.

@@ -18,6 +18,7 @@ series:
   - نسمة صورة
 series_order: 5
 postLang: ar
+difficulty_level: easy
 cssclasses:
   - arabic-note
 ---

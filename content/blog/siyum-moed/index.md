@@ -17,6 +17,7 @@ series:
   - نسمة يوميات
 series_order: 22
 postLang: ar
+difficulty_level: intermediate
 summary: Last night we celebrated the accomplishment of finishing Seder Moed
 ---
 ## يوميّات

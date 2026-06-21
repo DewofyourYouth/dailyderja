@@ -14,6 +14,7 @@ dialects:
   - tunisian
 draft: false
 postLang: "ar"
+difficulty_level: advanced
 rtl: 'true'
 series:
   - نسمة طعمة
