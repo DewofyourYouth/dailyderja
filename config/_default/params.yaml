@@ -2,11 +2,11 @@ homepage:
   layout: hero
   title: The Daily Derja
   showRecent: true
-  homepageImage: "/images/daily-derja-birthday.jpg"
-defaultSocialImage: "images/daily-derja-birthday.jpg"
+  homepageImage: "/images/new-hero.jpg"
+defaultSocialImage: "images/new-hero.jpg"
 colorScheme: fire
-logo: "/images/logo.png"
-secondaryLogo: "/images/logo-dark.png"
+logo: "/images/logo-nasma-light.png"
+secondaryLogo: "/images/logo-nasma-dark.png"
 description: "Daily reflections in Levantine (Shami) and Tunisian Arabic — vocabulary with IPA, audio pronunciation, and real-life examples. A learner's log for spoken Arabic dialects."
 keywords: ["Levantine Arabic", "Shami Arabic", "Tunisian Arabic", "Derja", "Darija", "learn Levantine Arabic", "Shami vocabulary", "Arabic dialect", "Arabic pronunciation", "IPA Arabic", "colloquial Arabic"]
 disableImageOptimization: false
