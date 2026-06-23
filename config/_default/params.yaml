@@ -3,7 +3,7 @@ homepage:
   title: The Daily Derja
   showRecent: true
   homepageImage: "/images/new-hero.jpg"
-defaultSocialImage: "images/new-hero.jpg"
+defaultSocialImage: "images/social-share-card.jpg"
 colorScheme: fire
 logo: "/images/logo-nasma-light.png"
 secondaryLogo: "/images/logo-nasma-dark.png"
