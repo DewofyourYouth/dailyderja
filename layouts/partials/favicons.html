@@ -1,0 +1,16 @@
+{{/* نسمة favicon set — light/dark variants via prefers-color-scheme.
+     Referenced by partials/head.html when this file exists. */}}
+
+{{/* Light mode */}}
+<link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon-light-32x32.png" | relURL }}" media="(prefers-color-scheme: light)">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ "favicon-light-16x16.png" | relURL }}" media="(prefers-color-scheme: light)">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ "apple-touch-icon-light.png" | relURL }}" media="(prefers-color-scheme: light)">
+
+{{/* Dark mode */}}
+<link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon-dark-32x32.png" | relURL }}" media="(prefers-color-scheme: dark)">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ "favicon-dark-16x16.png" | relURL }}" media="(prefers-color-scheme: dark)">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ "apple-touch-icon-dark.png" | relURL }}" media="(prefers-color-scheme: dark)">
+
+{{/* Fallback for browsers that ignore the media attribute */}}
+<link rel="icon" href="{{ "favicon-light.ico" | relURL }}" sizes="any">
+<link rel="manifest" href="{{ "site.webmanifest" | relURL }}">

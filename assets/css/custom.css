@@ -8,6 +8,13 @@
   --color-accent-dark: #9f6429; /* Deeper gold / bronze */
   --color-accent-light: #ebd3aa; /* Soft light gold for chips/badges */
 
+  /* نسمة logo palette — terracotta is the "dot": a punctuation accent used
+     only for small high-emphasis moments (the diacritic dots in the wordmark),
+     never as a broad fill. Gold above stays the structural workhorse. */
+  --color-terracotta: #b4663c; /* sampled from the logo's diacritic dots */
+  --color-terracotta-deep: #9c5230; /* pressed / active terracotta */
+  --color-ink: #282818; /* warm brush ink from the logo (not pure black) */
+
   --color-primary-500: var(--color-accent);
   --color-primary: var(--color-accent);
   --color-primary-dark: var(--color-accent-dark);
@@ -526,6 +533,43 @@ section.article-ltr {
 .tutor-cta__link:hover,
 .tutor-cta__link:focus {
   text-decoration: underline;
+}
+
+/* ================================
+   نسمة header wordmark + terracotta "dot" accent
+   ================================= */
+
+/* Wide calligraphic wordmark — size by height, not the theme's max-w-20
+   (which would crush a 3:1/4:1 logo to a sliver). The light variant is 3:1
+   and the dark 4:1; at a shared height they read at the same word size, the
+   dark one's brush tail just trails a little further. */
+.dd-logo {
+  height: clamp(2.1rem, 1.5rem + 1.5vw, 2.7rem);
+  width: auto;
+  max-width: min(60vw, 15rem); /* never let the wordmark crowd the nav */
+}
+.dd-logo--dark { display: none; }
+.dark .dd-logo--light { display: none; }
+.dark .dd-logo--dark { display: block; }
+
+/* Terracotta is the "dot": reserved for the moment of emphasis. Gold owns the
+   resting state; pressing a control resolves to terracotta. */
+.hero-cta-wrapper a[role="button"]:active {
+  background-color: var(--color-terracotta-deep) !important;
+}
+.hp-hero__btn:active {
+  border-color: var(--color-terracotta);
+  color: var(--color-terracotta-deep) !important;
+}
+.dark .hp-hero__btn:active { color: var(--color-terracotta) !important; }
+
+/* In-body links: gold on hover (unchanged), but the underline that appears is
+   terracotta — a small brand fleck rather than a full restyle. */
+.article-content a[href]:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--color-terracotta);
+  text-underline-offset: 0.16em;
+  text-decoration-thickness: 2px;
 }
 
 /* ================================
@@ -4038,81 +4082,4 @@ a.dialect-badge:focus-visible {
   object-fit: cover;
   width: 100%;
   height: auto;
-}
-
-/* ================================
-   Birthday bunting — 1st anniversary
-   (TEMPORARY: layouts/partials/birthday-bunting.html,
-   included once from partials/home/hero.html — remove both
-   the include and this block after the celebration window)
-   ================================ */
-
-.bday-bunting {
-  position: relative;
-  z-index: 3;
-  height: 72px;
-  margin: 0.5rem 0 -28px;
-  padding: 0 clamp(1.2rem, 4vw, 2.4rem);
-  pointer-events: none;
-}
-.bday-bunting__cord {
-  position: absolute;
-  inset: 0;
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-.bday-bunting__cord path {
-  fill: none;
-  stroke: var(--color-accent-dark, #9f6429);
-  stroke-width: 2;
-  vector-effect: non-scaling-stroke;
-  opacity: 0.6;
-}
-.dark .bday-bunting__cord path { opacity: 0.45; }
-
-.bday-bunting__row {
-  position: absolute;
-  inset: 0;
-}
-.bday-bunting__flag {
-  position: absolute;
-  top: 0;
-  width: 17px;
-  height: 23px;
-  margin-left: -8.5px;
-  clip-path: polygon(0 0, 100% 0, 50% 100%);
-  box-shadow: 0 3px 5px -2px rgba(56, 38, 12, 0.4);
-  transform-origin: 50% 0%;
-  animation: bdayFlagSway 3.6s ease-in-out infinite;
-  display: flex;
-  justify-content: center;
-  font-family: "Lalezar", system-ui, sans-serif;
-  font-size: 0.7rem;
-  line-height: 1;
-  color: #fff8ec;
-  padding-top: 2px;
-}
-.bday-bunting__flag--0 { background: linear-gradient(165deg, #e9bd7e, var(--color-accent, #c6843a)); }
-.bday-bunting__flag--1 { background: linear-gradient(165deg, var(--color-accent-light, #ebd3aa), #e0c499); }
-.bday-bunting__flag--2 { background: linear-gradient(165deg, var(--color-accent, #c6843a), var(--color-accent-dark, #9f6429)); }
-.bday-bunting__flag--mark {
-  width: 24px;
-  height: 32px;
-  margin-left: -12px;
-  font-size: 0.85rem;
-  box-shadow: 0 4px 8px -3px rgba(56, 38, 12, 0.5);
-}
-
-@keyframes bdayFlagSway {
-  0%, 100% { transform: rotate(-3deg); }
-  50% { transform: rotate(3deg); }
-}
-@media (prefers-reduced-motion: reduce) {
-  .bday-bunting__flag { animation: none; }
-}
-@media (max-width: 640px) {
-  .bday-bunting { height: 54px; margin-bottom: -18px; }
-  .bday-bunting__flag { width: 13px; height: 18px; margin-left: -6.5px; font-size: 0.6rem; }
-  .bday-bunting__flag--mark { width: 19px; height: 26px; margin-left: -9.5px; font-size: 0.7rem; }
 }
