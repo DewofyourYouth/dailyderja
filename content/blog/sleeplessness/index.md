@@ -17,7 +17,7 @@ dialects:
   - shami
 series:
   - نسمة نهار
-series_order: 3
+series_order: 17
 postLang: ar
 difficulty_level: easy
 cssclasses:
@@ -48,11 +48,14 @@ cssclasses:
 
 مرات بسمع بودكاست للنوم اسمه "Boring History for Sleep".
 
-الحلقة كانت أربع ساعات.
+الحلقة كانت ستة ساعات.
+
+{{< spotify "/episode/1f6JcgPlPWh0bGvvubwn80?si=air1FeXQTP6vHkSha5uVig" >}}
 
 إمبارح بالليل سمعت البودكاست، بس ما قدرت أنام، فسمعت كل تاريخ الموز بأمريكا اللاتينية.
 
 {{< join-channels >}}
+
 ## كلام
 
 | Arabic               | IPA                              | Meaning                           |
