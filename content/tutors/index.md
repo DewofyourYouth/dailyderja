@@ -32,9 +32,14 @@ My #1 Tunisian tutor pick. She’s encouraging, organized, and very responsive t
 
 ## Levantine Arabic (Shami)
 
-{{< tutor name="Abodi" dialect="shami" platform="italki" location="Syria" url="https://www.italki.com/en/i/reft/AaAcEbE/AcEC6A/arabic?hl=en&utm_medium=share_teacher&utm_source=copylink_share" >}}
-My go-to for Levantine Arabic — a friend I’d recommend without hesitation. He’s from Syria with a great teaching style: patient, clear, and really good at giving feedback. I’ve learned a lot from him and always look forward to our sessions.
+{{< tutor name="Sereen" dialect="shami" platform="italki" location="Gaza" url="https://www.italki.com/en/i/reft/AaAcEbE/6bdfFc/arabic?hl=en&utm_medium=share_teacher&utm_source=copylink_share" >}}
+My go-to for Levantine Arabic — I'd recommend her without hesitation. She’s from Gaza with a great teaching style: patient, clear, and really good at giving feedback. She is very good at reviewing what you've learnt and building on it. I’ve learned a lot from her and always look forward to our sessions. She has also helped a lot with my pronunciation and accent, which is a big part of learning a dialect.
 {{< /tutor >}}
+
+{{< tutor name="Abodi" dialect="shami" platform="italki" location="Syria" url="https://www.italki.com/en/i/reft/AaAcEbE/AcEC6A/arabic?hl=en&utm_medium=share_teacher&utm_source=copylink_share" >}}
+If you want a tutor for the Syrian dialect, Abodi is a great choice. He’s patient and clear and knowledgeable about many things. I’ve learned a lot from him and always look forward to our sessions.
+{{< /tutor >}}
+
 
 ---
 
