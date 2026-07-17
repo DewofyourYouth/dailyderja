@@ -50,9 +50,9 @@ cssclasses:
 
 الحلقة كانت ستة ساعات.
 
-{{< spotify "/episode/1f6JcgPlPWh0bGvvubwn80?si=air1FeXQTP6vHkSha5uVig" >}}
-
 إمبارح بالليل سمعت البودكاست، بس ما قدرت أنام، فسمعت كل تاريخ الموز بأمريكا اللاتينية.
+
+{{< spotify "/episode/1f6JcgPlPWh0bGvvubwn80?si=air1FeXQTP6vHkSha5uVig" >}}
 
 {{< join-channels >}}
 
