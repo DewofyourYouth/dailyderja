@@ -1,0 +1,11 @@
+{
+  "name": "dailyderja",
+  "private": true,
+  "scripts": {
+    "format": "prettier --write \"content/**/*.md\"",
+    "format:check": "prettier --check \"content/**/*.md\""
+  },
+  "devDependencies": {
+    "prettier": "^3.9.4"
+  }
+}

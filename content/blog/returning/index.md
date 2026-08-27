@@ -25,6 +25,7 @@ cssclasses:
 ---
 
 ## خاطِرة
+
 <!-- raw-transcript
 ما قدرت عامل بوست من زمان
 
@@ -48,18 +49,19 @@ cssclasses:
 إن شاء الله رح أرجع أعمل بوستات متل العادة.
 
 {{< join-channels >}}
+
 ## كلام
 
 | Arabic     | IPA             | Meaning                                               |
 | ---------- | --------------- | ----------------------------------------------------- |
 | ما قدرت    | /maː ʔedret/    | «I couldn't» / wasn't able to                         |
 | من زمان    | /mn zaˈmaːn/    | «in a long time», a common Levantine time marker      |
-| هلّق        | /halˈlaʔ/       | «now» — everyday Shami marker word                    |
+| هلّق       | /halˈlaʔ/       | «now» — everyday Shami marker word                    |
 | اشتقتلكم   | /iʃtaʔˈtelkon/  | «I missed you (all)» — verb + attached plural pronoun |
 | متل العادة | /mitl elˈʕaːde/ | «as usual»                                            |
 
-
 ---
+
 {{< ltr >}}
-*I post something short here most days while learning Arabic. If this helped, you'll probably like the next one too.*
+_I post something short here most days while learning Arabic. If this helped, you'll probably like the next one too._
 {{</ ltr >}}
