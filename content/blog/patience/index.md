@@ -1,7 +1,7 @@
 ---
 title: Patience is Hard
 summary: Two interviews, one rejection, one maybe — and the strange feeling that the world moved without asking permission.
-date: '2026-05-25T18:57:29+03:00'
+date: "2026-05-25T18:57:29+03:00"
 tags:
   - job-search
   - job-interview
@@ -22,7 +22,6 @@ difficulty_level: intermediate
 cssclasses:
   - arabic-note
 ---
-
 
 ## خاطِرة
 
@@ -47,6 +46,7 @@ cssclasses:
 | زيادة عن اللزوم | /zɪˈjaː.de ʕan el.luˈzuːm/ | more than necessary              |
 
 ---
+
 {{< ltr >}}
-*I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too.*
+_I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too._
 {{</ ltr >}}

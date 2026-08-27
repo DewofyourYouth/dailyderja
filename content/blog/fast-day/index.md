@@ -37,19 +37,19 @@ cssclasses:
 
 ## كلام
 
-
 | الكلمة / التعبير | IPA              | English            | ملاحظة                   |
 | ---------------- | ---------------- | ------------------ | ------------------------ |
 | يوم صيام         | /joːm sˤiˈjaːm/  | a fast day         | Fixed phrase             |
-| ما صُمت           | /maː sˤumt/      | I didn’t fast      | Past negation            |
-| لأنّي             | /laˈʔenːi/       | because I          | Structural connector     |
+| ما صُمت          | /maː sˤumt/      | I didn’t fast      | Past negation            |
+| لأنّي            | /laˈʔenːi/       | because I          | Structural connector     |
 | معدتي            | /maʕˈditi/       | my stomach         | Neutral / clean register |
 | طول الليل        | /tˤuːl elˈleːl/  | all night          | Idiomatic                |
 | كنت عم           | /kunt ʕam/       | I was (continuous) | Core Shami structure     |
 | بلف              | /bifˈləf/        | go back and forth  | Figurative use           |
-| على الحمّام       | /ʕala lħamˈmaːm/ | to the bathroom    | Fixed expression         |
+| على الحمّام      | /ʕala lħamˈmaːm/ | to the bathroom    | Fixed expression         |
 
 ---
+
 {{< ltr >}}
-*I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too.*
+_I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too._
 {{</ ltr >}}

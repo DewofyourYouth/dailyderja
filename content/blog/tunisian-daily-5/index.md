@@ -4,12 +4,12 @@ summary: Postponed CKAD study amid war stress and self-critique.
 image: library.jpg
 date: 2025-06-19
 tags:
-- ckad
-- kubernetes
-- study-plans
-- exam-prep
-- stress
-- spouse
+  - ckad
+  - kubernetes
+  - study-plans
+  - exam-prep
+  - stress
+  - spouse
 categories:
   - language-learning
   - tech-and-tools
@@ -18,10 +18,11 @@ hidden: false
 postLang: ar
 difficulty_level: intermediate
 dialects:
-- tunisian
-description: 'Tunisian Daily Journal: Entry 5'
+  - tunisian
+description: "Tunisian Daily Journal: Entry 5"
 series:
   - نسمة يوميات
 series_order: 4
 ---
-ما عنديش برشا كلام توا. حبيت نقرا على CKAD جمعة هاذي، اما ما قريتش. مرتي قالتلي ما لازمنيش نقسي على روحي خاطر  فمّا توا الحرب. شنوا نعمل؟ اما ديما هكّاكة. يظهرلي باش نأجّل التست مرا اخرا.
+
+ما عنديش برشا كلام توا. حبيت نقرا على CKAD جمعة هاذي، اما ما قريتش. مرتي قالتلي ما لازمنيش نقسي على روحي خاطر فمّا توا الحرب. شنوا نعمل؟ اما ديما هكّاكة. يظهرلي باش نأجّل التست مرا اخرا.

@@ -24,18 +24,20 @@ difficulty_level: intermediate
 cssclasses:
   - arabic-note
 ---
+
 ## يوميّات
 
 اليوم عم بروح ع مقابلة بتل أبيب، وهلّق أنا بالقطار. رح أوصل متأخّر شوي.
 
-----
+---
+
 {{< ltr >}}
 Written on the train ride back...
 {{< /ltr >}}
 
 رُحت ع المقابلة وحكيت كتير حلو مع الـCTO. طلعت من الشركة وأنا حاسس إيجابي كتير تجاهها.
 
-هلّق عم برجع عالبيت، الليلة بتبلّش عيد حانوكا، رح نضوّي أوّل شمعة ما شاء الله. 
+هلّق عم برجع عالبيت، الليلة بتبلّش عيد حانوكا، رح نضوّي أوّل شمعة ما شاء الله.
 
 ---
 
@@ -47,8 +49,8 @@ Written on the train ride back...
 
 | Arabic      | IPA               | English                           |
 | ----------- | ----------------- | --------------------------------- |
-| بتبلّش       | /btˈballiʃ/       | starts / begins                   |
-| نضوّي        | /nḍawwi/          | we light                          |
+| بتبلّش      | /btˈballiʃ/       | starts / begins                   |
+| نضوّي       | /nḍawwi/          | we light                          |
 | عيد         | /ʕiːd/            | holiday                           |
 | حانوكا      | /ħaˈnuːka/        | Hanukkah                          |
 | ما شاء الله | /maː ʃaːʔa llaːh/ | God willing / what God has willed |

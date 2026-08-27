@@ -3,10 +3,10 @@ title: Baking For Shabbat
 summary: Baking babka for Shabbat and getting the house ready.
 date: 2025-08-08T17:54:44
 tags:
-- baking
-- shabbat
-- babka
-- family-tradition
+  - baking
+  - shabbat
+  - babka
+  - family-tradition
 categories:
   - food
   - faith-culture
@@ -15,11 +15,12 @@ dialects:
 draft: false
 postLang: "ar"
 difficulty_level: advanced
-rtl: 'true'
+rtl: "true"
 series:
   - نسمة طعمة
 series_order: 1
 ---
+
 اليوم هو الجمعة و يلزمني نحضّر الدار لشبات القدس. عملت "بابكا" לכבוד שבת (اشرف الشبات)، هي حلويات يهودية يعملوها للسبت من عجينة بقايا من صنع الخبز "خالا".
 
 كيفاش نعملوها؟ هكّة!
@@ -53,7 +54,6 @@ series_order: 1
 عمل ضفرة بيهم و ادهن بلالعظم.
 {{< carousel images="gallery/braiding/*" aspectRatio="16-9" interval="2500" >}}
 
-
 #### الخطوة السابعة
 
 حطه في الكوشة.
@@ -67,7 +67,7 @@ series_order: 1
 ## كلام «جديد»:
 
 1. عجينه - בצק - /ʕˈʒiː.næ/ {{< audio src="/audio/ajina.mp3" >}}
-2. خليط - תערובת -  /xˤlæˈjˤtˤ/ {{< audio src="/audio/khalet.mp3" >}}
+2. خليط - תערובת - /xˤlæˈjˤtˤ/ {{< audio src="/audio/khalet.mp3" >}}
 3. القرفة - קינמון - /lˈqɪrfæ/ {{< audio src="/audio/qirfa.mp3" >}}
-4. فرّق - למרוח -  /ˈfærːəq/ {{< audio src="/audio/farraq.mp3" >}}
+4. فرّق - למרוח - /ˈfærːəq/ {{< audio src="/audio/farraq.mp3" >}}
 5. ضفرة - קליעה - /ˈðˤfɾæ/ {{< audio src="/audio/dafra.mp3" >}}

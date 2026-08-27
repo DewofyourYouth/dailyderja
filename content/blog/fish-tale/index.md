@@ -6,18 +6,18 @@ draft: false
 summary: A Shami mini-story about our accidental fish-soup disaster and how the tank
   finally got replaced.
 tags:
-- family-story
-- parenting-humor
-- fish-tank
-- goldfish
-- kid-quotes
-- pets
-- spouse
+  - family-story
+  - parenting-humor
+  - fish-tank
+  - goldfish
+  - kid-quotes
+  - pets
+  - spouse
 categories:
   - family
   - art-media
 dialects:
-- shami
+  - shami
 series:
   - نسمة قصة
 series_order: 1
@@ -26,6 +26,7 @@ difficulty_level: intermediate
 showTranslation: true
 toc: false
 ---
+
 ## النص
 
 الكِلّية بقصّة أحواض السّمك بلّشت من شهرين.
@@ -48,19 +49,22 @@ toc: false
 اشترينا واحد، وهلّق السّمك فرحانين.
 
 {{< figure
-    src="the-tupperware.jpg"
-    alt="The Tupperware home for the fish"
-    caption="بيت التَبُّروير اللي عاشوا فيه السّمكات شهر."
->}}
-    
+src="the-tupperware.jpg"
+alt="The Tupperware home for the fish"
+caption="بيت التَبُّروير اللي عاشوا فيه السّمكات شهر."
+
+> }}
+
 {{< figure
-  src="tank-and-stand.jpg"
-  alt="New fish tank"
-  caption="الحوض الجديد."
->}}
+src="tank-and-stand.jpg"
+alt="New fish tank"
+caption="الحوض الجديد."
+
+> }}
 
 {{< figure
 src="the-troublemaker.jpg"
 alt="New fish tank"
 caption="المِشاغِب الصغَنّون."
->}}
+
+> }}

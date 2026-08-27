@@ -40,7 +40,6 @@ My go-to for Levantine Arabic — I'd recommend her without hesitation. She’s 
 If you want a tutor for the Syrian dialect, Abodi is a great choice. He’s patient and clear and knowledgeable about many things. I’ve learned a lot from him and always look forward to our sessions.
 {{< /tutor >}}
 
-
 ---
 
 ## Disclaimers

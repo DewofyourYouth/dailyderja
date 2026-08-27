@@ -49,16 +49,17 @@ cssclasses:
 
 ## كلام
 
-| Arabic              | IPA                               | Meaning                                                             |
-| ------------------- | --------------------------------- | ------------------------------------------------------------------- |
+| Arabic               | IPA                               | Meaning                                                             |
+| -------------------- | --------------------------------- | ------------------------------------------------------------------- |
 | تَعبان               | /taʕˈbaːn/                        | tired                                                               |
-| ما بدي أعمل إشي     | /ma ˈbiddi ˈʔaʕmel ˈʔiʃi/         | I don't want to do anything (بدّي = «I want» + إشي = «anything»)     |
-| ما في نفسي فيهم     | /ma fi ˈnafsi ˈfiːhon/            | I'm not in the mood for them (في نفسي = «to feel like / be up for») |
-| لازم أقدّم على شغلات | /ˈlaːzem ʔaˈʔaddem ʕala ʃaɣˈlaːt/ | I have to apply for some jobs (قدّم على = «to apply for»)            |
+| ما بدي أعمل إشي      | /ma ˈbiddi ˈʔaʕmel ˈʔiʃi/         | I don't want to do anything (بدّي = «I want» + إشي = «anything»)    |
+| ما في نفسي فيهم      | /ma fi ˈnafsi ˈfiːhon/            | I'm not in the mood for them (في نفسي = «to feel like / be up for») |
+| لازم أقدّم على شغلات | /ˈlaːzem ʔaˈʔaddem ʕala ʃaɣˈlaːt/ | I have to apply for some jobs (قدّم على = «to apply for»)           |
 | راح أتمشّى           | /raħ ʔatˈmaʃʃa/                   | I'm going to take a walk (راح = the Levantine future «going to»)    |
-| العين القريبة       | /elˈʕeːn elʔaˈriːbe/              | the nearby spring (عين = a natural «spring / water source»)         |
+| العين القريبة        | /elˈʕeːn elʔaˈriːbe/              | the nearby spring (عين = a natural «spring / water source»)         |
 
 ---
+
 {{< ltr >}}
-*I post something short here most days while learning Arabic. If this helped, you'll probably like the next one too.*
+_I post something short here most days while learning Arabic. If this helped, you'll probably like the next one too._
 {{</ ltr >}}

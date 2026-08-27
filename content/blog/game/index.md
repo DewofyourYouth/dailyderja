@@ -3,12 +3,12 @@ title: A Game That Stuck With Me
 summary: A prompt about a game or media that stayed with you and why.
 date: 2025-08-19T21:12:38
 tags:
-- habitica
-- gamified-productivity
-- rpg
-- habit-tracking
-- time-management
-- nostalgia
+  - habitica
+  - gamified-productivity
+  - rpg
+  - habit-tracking
+  - time-management
+  - nostalgia
 categories:
   - daily-life
   - art-media
@@ -16,12 +16,13 @@ draft: false
 postLang: ar
 difficulty_level: intermediate
 dialects:
-- tunisian
+  - tunisian
 series:
   - نسمة شغلة
 series_order: 1
 ---
-> *شنوة لعبة ولا أي حاجة أخرى من الميديا لعبتها توّا و بقات في مخّك؟ علاش لمستك هكا؟*
+
+> _شنوة لعبة ولا أي حاجة أخرى من الميديا لعبتها توّا و بقات في مخّك؟ علاش لمستك هكا؟_
 
 بباش نكون صريح، كي نلعب لعبة، نتحرّج خاطر فمّة برشة حوايج لازمني نعملهم و ديما ما عنديش وقت!  
 أما لعبة وحدة نلعب فيها هي Habitica. هي لعبة RPG، معمول باش تعاونك تحسّن عاداتك بالـ gamification.

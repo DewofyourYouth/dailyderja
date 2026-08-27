@@ -4,18 +4,18 @@ description: "How I use Obsidian to take notes and learn Arabic dialect vocabula
 summary: How I use Obsidian to take notes and learn Derja.
 date: 2025-08-10T17:03:03
 tags:
-- obsidian
-- note-taking
-- spaced-repetition
-- quickadd
-- templates
-- daily-notes
-- study-workflow
+  - obsidian
+  - note-taking
+  - spaced-repetition
+  - quickadd
+  - templates
+  - daily-notes
+  - study-workflow
 draft: false
 postLang: ar
 difficulty_level: intermediate
 dialects:
-- tunisian
+  - tunisian
 categories:
   - tech-and-tools
   - language-learning
@@ -23,11 +23,14 @@ series:
   - Meta
 series_order: 1
 ---
+
 ## تأمُّل:
+
 نعلم لغرة جديدة صعيب. نستعمل برشة أدوات. ليوم باس نحكي شوية في [Obsidian](https://obsidian.md/). نكتب ملاحظاتي بيهو. Obsidian هوا edituer Markdown فيه ردط ساهل و إيكوسيستام قوي متاع plugins و templates. مثلأ فمة plugin يسمهو QuickAdd. عندي template لالديلي دارجة و كي نحب نكيب post نعمل QuickAdd ويعمل frontmatter و هكا.
 
 {{< ltr>}}
 The template:
+
 ```markdown
 ---
 title: Daily reflection in Tunisian Arabic for practice
@@ -35,7 +38,7 @@ image: banana.jpg
 date: "{{DATE:YYYY-MM-DDTHH:mm:ss}}"
 tags:
 categories:
-draft: false 
+draft: false
 hidden: true
 postLang: ar
 dialects: ["tunisian"]
@@ -52,8 +55,8 @@ dialects: ["tunisian"]
 ## كلام «جديد»:
 
 ## ڤيديو:
-
 ```
+
 {{< /ltr >}}
 كي ناخو ملاحظة مرتبطة بملاحظة أخرى نخم نعمل link هكا.
 {{< ltr>}}
@@ -61,6 +64,7 @@ dialects: ["tunisian"]
 ```markdown
 This note is related to [[Another Note]]!
 ```
+
 {{< /ltr>}}
 
 ![Another Note](another-note.png)
@@ -76,4 +80,3 @@ This note is related to [[Another Note]]!
 
 و نجم نستعمل في Obsidian في تلفوني زادة:
 ![Phone Obsidian](phone-obsidian.png)
-

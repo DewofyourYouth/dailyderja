@@ -47,14 +47,16 @@ cssclasses:
 | للأسف            | unfortunately                    | /lalˈʔasaf/        |
 | تعب              | got worn out, struggled          | /tʕɪb/             |
 | الدفن            | the burial                       | /ɪdˈdafn/          |
-| يصبّر أهله        | may He comfort his family        | /jsˤabˈbir ˈʔahlo/ |
+| يصبّر أهله       | may He comfort his family        | /jsˤabˈbir ˈʔahlo/ |
 
 {{< ltr >}}
 
 ---
-*I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too.*
+
+_I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too._
 
 ---
+
 Photo by [Snowscat](https://unsplash.com/@snowscat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/man-standing-on-graveyard-JHTG-aVa3fA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 {{</ ltr >}}

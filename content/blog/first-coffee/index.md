@@ -1,15 +1,15 @@
 ---
-date: '2025-12-05T10:38:08+02:00'
+date: "2025-12-05T10:38:08+02:00"
 draft: false
 title: First Coffee
 summary: Woke up late and made my first coffee of the day.
 dialects:
-- shami
+  - shami
 tags:
-- first-cup
-- late-start
-- slow-morning
-- hot-coffee
+  - first-cup
+  - late-start
+  - slow-morning
+  - hot-coffee
 series:
   - نسمة قهوة
 series_order: 1
@@ -18,4 +18,5 @@ difficulty_level: easy
 categories:
   - daily-life
 ---
+
 اليوم فِقت متأخّر شوي. هلق الساعة عشرة ونص، وعم بعمل قهوتي الأولى.

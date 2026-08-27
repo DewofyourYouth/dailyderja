@@ -28,7 +28,6 @@ cssclasses:
 
 ## خاطِرة
 
-
 {{< word ar="بتشكّى" sh_ipa="batˈʃakka" tn_ipa="nitˈʃakka" tn="نتشكّى" meaning="I complain / I keep complaining" root="ش · ك · و" pos="verb" audio="/audio/batshakka.mp3" note="Levantine 1st-person present of تشكّى ‘to complain’ — here, affectionate self-deprecation. Tunisian uses the n- prefix: نتشكّى." >}}
 
 هالأسبوع كان عيد الميلاد الأوّل لـ Daily Derja.
@@ -47,15 +46,15 @@ cssclasses:
 
 ## كلام
 
-| Arabic                | IPA                       | Meaning                          |
-| --------------------- | ------------------------- | -------------------------------- |
-| **مكفّي**              | /mkaffi/                  | still going strong; holding up   |
+| Arabic                  | IPA                       | Meaning                          |
+| ----------------------- | ------------------------- | -------------------------------- |
+| **مكفّي**               | /mkaffi/                  | still going strong; holding up   |
 | **أنا واقف، لِسّا هون** | /ana waːʔif ˈlissa hoːn/  | I'm still standing, still here   |
-| **لِسّا عم بتشكّى**      | /ˈlissa ʕam batˈʃakka/    | still complaining                |
-| **إشي تاني ما اتغيّر** | /ˈʔiʃi ˈtaːni ma tɣajjar/ | another thing that didn't change |
-
+| **لِسّا عم بتشكّى**     | /ˈlissa ʕam batˈʃakka/    | still complaining                |
+| **إشي تاني ما اتغيّر**  | /ˈʔiʃi ˈtaːni ma tɣajjar/ | another thing that didn't change |
 
 ---
+
 {{< ltr >}}
-*I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too.*
+_I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too._
 {{</ ltr >}}

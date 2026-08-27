@@ -4,13 +4,13 @@ summary: Childhood Arabic in Israel and how language shifted at home.
 image: cover.jpeg
 date: 2025-06-23
 tags:
-- childhood
-- israel
-- hebrew
-- slang
-- code-switching
-- video
-- vlog
+  - childhood
+  - israel
+  - hebrew
+  - slang
+  - code-switching
+  - video
+  - vlog
 categories:
   - language-learning
   - daily-life
@@ -19,15 +19,16 @@ draft: false
 postLang: ar
 difficulty_level: intermediate
 dialects:
-- tunisian
-description: 'Tunisian Daily Journal: Entry 8'
+  - tunisian
+description: "Tunisian Daily Journal: Entry 8"
 series:
   - نسمة يوميات
 series_order: 7
 ---
+
 ## تأمُّل:
 
-توا نعيش في إسرائيل، يخي والديّ يعيشو في أمريكا، أما كي كنت صغير، عيشنا في أمريكا و زادة في إسرائيل. الصباح، فكرت في شبابي في إسرائيل - كنّا حكينة باعبرية - اما عنا برشة كلام  "slang" من اللهجة الاعربية هنا. مثلاً، العبري هو اللّسان المقدّس بالنسبة لينا و ما كانش لازمنا نقولو كلام خايب بالعبري. خاطر هكا، كل كلمة خايبة كنّا نقولوها بالعربي. و زيد كلمة اخرة:
+توا نعيش في إسرائيل، يخي والديّ يعيشو في أمريكا، أما كي كنت صغير، عيشنا في أمريكا و زادة في إسرائيل. الصباح، فكرت في شبابي في إسرائيل - كنّا حكينة باعبرية - اما عنا برشة كلام "slang" من اللهجة الاعربية هنا. مثلاً، العبري هو اللّسان المقدّس بالنسبة لينا و ما كانش لازمنا نقولو كلام خايب بالعبري. خاطر هكا، كل كلمة خايبة كنّا نقولوها بالعربي. و زيد كلمة اخرة:
 
 "أهلاً"، "أحلى"، "مبسوط"، "أشكرة"، "خالاص"... إلخ.
 

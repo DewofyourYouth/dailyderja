@@ -1,12 +1,12 @@
 ---
 title: A Reflection on the Journey
-date: '2025-09-08T20:32:15+03:00'
+date: "2025-09-08T20:32:15+03:00"
 tags:
-- video
-- vlog
-- journey
-- reflection
-- progress
+  - video
+  - vlog
+  - journey
+  - reflection
+  - progress
 categories:
   - language-learning
   - daily-life
@@ -14,14 +14,16 @@ draft: false
 postLang: ar
 difficulty_level: intermediate
 dialects:
-- tunisian
+  - tunisian
 summary: Reflecting on my experience learning Derja before going to an engagement
   party.
 series:
   - نسمة يوميات
 series_order: 20
 ---
+
 ## تأمُّل:
+
 ما كتبتش الديلي دارجة من وقت برشة، حتى كان عملت فيديوهات. سماحني 🙏
 
 الجمعة الجاية تبدأ الجمع في الصلاوات السليحات. السليحات هوما صلاوات بالليل قبل عيد الكبير متاع اليهود، فيها استغفار و طلب الرحمة من ربي.

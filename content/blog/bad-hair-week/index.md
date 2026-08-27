@@ -30,11 +30,11 @@ cssclasses:
 ## صور
 
 {{< figure
-    alt="bad haircut"
-    src="featured.jpeg"
-    caption="مبارح كنت عم بحلق ونسيت أركب النمرة على الماكينة. والنتيجة كانت زي ما توقعت.. كارثة!"
->}}
+alt="bad haircut"
+src="featured.jpeg"
+caption="مبارح كنت عم بحلق ونسيت أركب النمرة على الماكينة. والنتيجة كانت زي ما توقعت.. كارثة!"
 
+> }}
 
 {{< followit >}}
 
@@ -47,12 +47,13 @@ cssclasses:
 | **Predictably**  | زي ما توقعت      | "Just as I expected."       | /zeː ma ta.waʔ.ʔat/      |
 | **Disastrous**   | كارثة            | "A disaster" (Very common). | /ˈkaː.ri.se/             |
 | **A Total Mess** | خبيصة            | "A jumbled mess."           | /xa.biː.sˤa/             |
-| **Of Course**    | طبعاً             | "Naturally" / "Obviously."  | /ˈtˤab.ʕan/              |
+| **Of Course**    | طبعاً            | "Naturally" / "Obviously."  | /ˈtˤab.ʕan/              |
 | **Destruction**  | دمار             | Used for a "wrecked" look.  | /da.maːr/                |
 
 {{</ ltr >}}
 
 ---
+
 {{< ltr >}}
-*I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too.*
+_I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too._
 {{</ ltr >}}

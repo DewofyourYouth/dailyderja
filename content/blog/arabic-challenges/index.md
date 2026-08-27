@@ -37,16 +37,17 @@ cssclasses:
 
 | Arabic                                  | Transliteration                                      | English                                                 |
 | --------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------- |
-| كتير صعب الواحد يتعلم عربي بإسرائيل     | *ktīr ṣaʿb el-wāḥed yetʿallam ʿarabi b-Isrāʾīl*      | It is really hard for someone to learn Arabic in Israel |
-| أغلب الناس اللي بيحكوا عربي ساكنين بعيد | *aġlab en-nās elli byiḥku ʿarabi sākinīn baʿīd*      | Most of the Arabic speakers live far away               |
-| ما في فرصة أحكي معهم                    | *mā fī furṣa ʾaḥki maʿ-hon*                          | There is no chance for me to talk with them             |
-| العربي الفلسطيني                        | *el-ʿarabi el-filasṭīnī*                             | Palestinian Arabic                                      |
-| مش جاي أعمل ديبلوماسية بالأمم المتحدة   | *mish jāy ʾaʿmel diplōmāsiyya bil-ʾumam el-muttaḥda* | I’m not here to do UN-level diplomacy                   |
-| ما كانوا يعرفوا إني يهودي               | *mā kānū yaʿrifū innī yehūdī*                        | They didn’t know that I was Jewish                      |
+| كتير صعب الواحد يتعلم عربي بإسرائيل     | _ktīr ṣaʿb el-wāḥed yetʿallam ʿarabi b-Isrāʾīl_      | It is really hard for someone to learn Arabic in Israel |
+| أغلب الناس اللي بيحكوا عربي ساكنين بعيد | _aġlab en-nās elli byiḥku ʿarabi sākinīn baʿīd_      | Most of the Arabic speakers live far away               |
+| ما في فرصة أحكي معهم                    | _mā fī furṣa ʾaḥki maʿ-hon_                          | There is no chance for me to talk with them             |
+| العربي الفلسطيني                        | _el-ʿarabi el-filasṭīnī_                             | Palestinian Arabic                                      |
+| مش جاي أعمل ديبلوماسية بالأمم المتحدة   | _mish jāy ʾaʿmel diplōmāsiyya bil-ʾumam el-muttaḥda_ | I’m not here to do UN-level diplomacy                   |
+| ما كانوا يعرفوا إني يهودي               | _mā kānū yaʿrifū innī yehūdī_                        | They didn’t know that I was Jewish                      |
 
 ## فيديو
 
 ---
+
 {{< ltr >}}
-*I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too.*
+_I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too._
 {{</ ltr >}}

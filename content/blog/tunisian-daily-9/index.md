@@ -3,12 +3,12 @@ title: Genealogy Meetups and Taking a Day Off
 summary: Struggling for fresh topics and taking a day off.
 date: 2025-06-24
 tags:
-- genealogy
-- family-research
-- friends
-- coffee-meetup
-- video
-- vlog
+  - genealogy
+  - family-research
+  - friends
+  - coffee-meetup
+  - video
+  - vlog
 categories:
   - daily-life
   - faith-culture
@@ -17,12 +17,13 @@ hidden: false
 postLang: ar
 difficulty_level: intermediate
 dialects:
-- tunisian
-description: 'Tunisian Daily Journal: Entry 9'
+  - tunisian
+description: "Tunisian Daily Journal: Entry 9"
 series:
   - نسمة يوميات
 series_order: 8
 ---
+
 ## تأمُّل:
 
 كي قررت نكتب كل يوم بالعربية، ما توقعتش قداش صعيب نفكر في حاجة تشدّ جديدة نحكي عليها. قداش من مرة نحكي على الحرب و عيلتي؟ و ديما ما نحبش نحكي على روحي برشة.

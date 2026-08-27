@@ -37,13 +37,13 @@ cssclasses:
 
 | Arabic | Transliteration | English                      | Notes                                                                                    |
 | ------ | --------------- | ---------------------------- | ---------------------------------------------------------------------------------------- |
-| ناشِر   | nāshir          | publishing / publisher       | Active participle of نَشَر (to publish). Used here to mean "having published".             |
-| حَسَّن    | ḥassan          | to improve                   | Form II verb. Meaning to make better or improve.                                         |
-| حَكي    | ḥaki            | talk / speech / conversation | Common Shami noun for speech or talking.                                                 |
-| زَبَّط    | zabbaṭ          | to fix, adjust, or sort out  | Very common Shami verb for making something work or fixing it. "أزبطه" means "I fix it." |
-
+| ناشِر  | nāshir          | publishing / publisher       | Active participle of نَشَر (to publish). Used here to mean "having published".           |
+| حَسَّن | ḥassan          | to improve                   | Form II verb. Meaning to make better or improve.                                         |
+| حَكي   | ḥaki            | talk / speech / conversation | Common Shami noun for speech or talking.                                                 |
+| زَبَّط | zabbaṭ          | to fix, adjust, or sort out  | Very common Shami verb for making something work or fixing it. "أزبطه" means "I fix it." |
 
 ---
+
 {{< ltr >}}
-*I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too.*
+_I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too._
 {{</ ltr >}}

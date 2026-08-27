@@ -22,9 +22,10 @@ difficulty_level: easy
 cssclasses:
   - arabic-note
 ---
+
 اليوم بتبلّش سنة جديدة 🎊. كل سنة وإنتو طيّبين! 🎉🪬
 
-مبارح كان عيد ميلاد مرتي❤️، بس أنا كنت مريض كتير 🤢 وما عملت شي. الصبح ☀️ ما كان فيني أطلع من الحمّام 🚽، وبعدين ما كان فيني أطلع من سريري 🛌.  
+مبارح كان عيد ميلاد مرتي❤️، بس أنا كنت مريض كتير 🤢 وما عملت شي. الصبح ☀️ ما كان فيني أطلع من الحمّام 🚽، وبعدين ما كان فيني أطلع من سريري 🛌.
 
 اليوم أنا أحسن شوي، الحمد لله، وبدي أعمل شي لعيد ميلادها.
 
@@ -40,19 +41,20 @@ cssclasses:
 
 | Arabic      | IPA               | Meaning                       | Corrections                                                  |
 | ----------- | ----------------- | ----------------------------- | ------------------------------------------------------------ |
-| بتبلّش       | /bətˈballeʃ/      | begins / starts               | Natural Shami verb for events or time periods starting       |
-| الصبح       | /eːsˈsˤobħ/       | in the morning                | Time expressions in Shami usually take **الـ**, not *في صبح* |
+| بتبلّش      | /bətˈballeʃ/      | begins / starts               | Natural Shami verb for events or time periods starting       |
+| الصبح       | /eːsˈsˤobħ/       | in the morning                | Time expressions in Shami usually take **الـ**, not _في صبح_ |
 | ما كان فيني | /maː kaːn ˈfiːni/ | I couldn’t / I wasn’t able to | Very common Shami structure for inability or exhaustion      |
 | أطلع        | /ˈʔatˤlaʕ/        | get out                       | The natural verb used with bed or bathroom                   |
-| شي          | /ʃiː/             | something                     | More natural Shami choice than *حاجة*                        |
+| شي          | /ʃiː/             | something                     | More natural Shami choice than _حاجة_                        |
 | بدي أعمل    | /ˈbiddi ˈʔaʕmel/  | I want to do                  | **بدي** already functions as the modal; no extra **بـ**      |
 | شو رأيك     | /ʃuː ˈraʔjak/     | what do you think             | Common conversational opener in spoken Shami                 |
 | لازم        | /ˈlaːzem/         | should / need to              | Everyday spoken Shami, not formal                            |
 | كرمالها     | /kərˈmaːla/       | for her / for her sake        | Warm, idiomatic Shami expression (optional nuance)           |
 
 ---
+
 {{< ltr >}}
-*I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too.*
+_I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too._
 {{</ ltr >}}
 
 ---

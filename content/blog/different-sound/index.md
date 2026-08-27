@@ -5,22 +5,23 @@ summary: A small thought about change, choice, and the paths we take when we wan
 series:
   - نسمة نغمة
 series_order: 3
-date: '2025-12-10T23:53:35+02:00'
+date: "2025-12-10T23:53:35+02:00"
 categories:
   - language-learning
   - art-media
 tags:
-- shami-arabic
-- vocabulary
-- levantine-arabic
-- music
-- music-discovery
-- playlist-notes
+  - shami-arabic
+  - vocabulary
+  - levantine-arabic
+  - music
+  - music-discovery
+  - playlist-notes
 dialects:
-- shami
+  - shami
 postLang: ar
 difficulty_level: intermediate
 ---
+
 بوقت التغيير بيكون عندك فرصة تقرّر: بدّك نفس الشي بس أحسن؟ ولا بدّك شي مختلف تمامًا؟
 
 مو كل مرّة فيك تعمل اللي بدّك ياه.  
@@ -31,7 +32,7 @@ difficulty_level: intermediate
 اليوم قلت لنفسي:  
 **"بدي إسمَع صوت جديد… مو مثل اللي سبوتيفاي دايمًا بيقترحو عليّ — نفس الشي كل مرّة!"**
 
-وهيك لقيت *Heilung*.
+وهيك لقيت _Heilung_.
 
 {{< spotify "artist/7sTKZr30LqC928DZ5P9mNQ" 380 >}}
 ---
@@ -42,10 +43,10 @@ difficulty_level: intermediate
 {{< followit >}}
 {{</ ltr >}}
 
-## كلام 
+## كلام
 
-| Arabic                   | IPA                             | Meaning                  |
-| ------------------------ | ------------------------------- | ------------------------ |
+| Arabic                    | IPA                             | Meaning                  |
+| ------------------------- | ------------------------------- | ------------------------ |
 | **مختلف تمامًا**          | /muxtˈtalif tamaːman/           | completely different     |
 | **بزهَق**                 | /bzaˈhaʔ/                       | I get bored              |
 | **سبوتيفاي بيقترحو عليّ** | /spotiˈfay bjiʔtˈriħu ʕalajˈya/ | Spotify recommends to me |
@@ -56,9 +57,9 @@ difficulty_level: intermediate
 
 ## Note
 
-*Heilung is a Northern European experimental group that blends reconstructed ancient instruments, ritual vocals, and
+_Heilung is a Northern European experimental group that blends reconstructed ancient instruments, ritual vocals, and
 atmospheric sound design. They call their style “amplified history.” It’s definitely a shift from Spotify’s usual
-algorithm — which is exactly the point of this post.*
+algorithm — which is exactly the point of this post._
 
 Photo by [Pavel Tolmachev](https://unsplash.com/@tolmachlegal?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/a-boat-floating-on-top-of-a-large-body-of-water-htyVNbdX2KU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 {{</ ltr >}}

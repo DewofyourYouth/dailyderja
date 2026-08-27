@@ -1,27 +1,28 @@
 ---
 title: New Year’s Resolutions
 summary: A quick prompt about goals and resolutions for 2025.
-date: '2025-08-25T21:09:04+03:00'
+date: "2025-08-25T21:09:04+03:00"
 tags:
-- single-goal
-- gratitude-practice
-- daily-meditation
-- habit-tracking
-- elul-reflection
+  - single-goal
+  - gratitude-practice
+  - daily-meditation
+  - habit-tracking
+  - elul-reflection
 categories:
   - daily-life
 draft: false
 postLang: ar
 difficulty_level: advanced
 dialects:
-- tunisian
+  - tunisian
 series:
   - نسمة يوميات
 series_order: 17
 ---
+
 ## تأمُّل:
 
- >  شنوما الأهداف إِلِّي حطّيتهم للعام 2025؟
+> شنوما الأهداف إِلِّي حطّيتهم للعام 2025؟
 
 اسلامة! اليوم بدا الشهر — آخر شهر في العام اليهودي.  
 الخميسة اللي فاتت، سألتني صديقتي رباب على الأهداف متاعي ل2025.  

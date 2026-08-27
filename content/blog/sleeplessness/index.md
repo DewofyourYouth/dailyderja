@@ -58,16 +58,16 @@ cssclasses:
 
 ## كلام
 
-| Arabic               | IPA                              | Meaning                           |
-| -------------------- | -------------------------------- | --------------------------------- |
-| بِالفَتْرَة الأَخِيرَة      | /bilˈfatra l-ʔaˈxiːra/           | recently; lately                  |
-| عَشان هَيْك             | /ʕaˈʃaːn heːk/                   | that's why                        |
+| Arabic                     | IPA                              | Meaning                           |
+| -------------------------- | -------------------------------- | --------------------------------- |
+| بِالفَتْرَة الأَخِيرَة     | /bilˈfatra l-ʔaˈxiːra/           | recently; lately                  |
+| عَشان هَيْك                | /ʕaˈʃaːn heːk/                   | that's why                        |
 | ما عَمِل إِشِي وَما فادْني | /maː ˈʕimil ˈʔiʃi w-maː ˈfaːdni/ | It did nothing and didn't help me |
-| ما قِدِرْت أَنام         | /maː ˈʔidirt ʔaˈnaːm/            | I couldn't sleep                  |
-| تاريخ المَوْز          | /taːˈriːx ilˈmoːz/               | the history of bananas            |
-
+| ما قِدِرْت أَنام           | /maː ˈʔidirt ʔaˈnaːm/            | I couldn't sleep                  |
+| تاريخ المَوْز              | /taːˈriːx ilˈmoːz/               | the history of bananas            |
 
 ---
+
 {{< ltr >}}
-*I post something short here most days while learning Arabic. If this helped, you'll probably like the next one too.*
+_I post something short here most days while learning Arabic. If this helped, you'll probably like the next one too._
 {{</ ltr >}}

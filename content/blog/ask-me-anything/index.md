@@ -1,30 +1,30 @@
 ---
-date: '2025-08-18T13:09:12+03:00'
+date: "2025-08-18T13:09:12+03:00"
 draft: false
 title: Ask Me Anything
 summary: A train issue cuts my commute short and turns the day into a work-from-home one.
 tags:
-- ask-me-anything
-- reader-questions
-- video
-- vlog
+  - ask-me-anything
+  - reader-questions
+  - video
+  - vlog
 postLang: ar
 difficulty_level: easy
 dialects:
-- tunisian
+  - tunisian
 categories:
   - blog-meta
 series:
   - نسمة يوميات
 series_order: 15
 ---
+
 اليوم حاولت نمشي للخدمة، أما صار مشكل في الترانات – وصلت نص الطريق و رجعت نخدم من الدار.
 
 أما تعبت نحكي على المجيّة و الرجعة للخدمة.
 
- نقبل اقتراحات لمواضيع نحكي عليهم، إسألوني في أي حاجة في الcomments.
+نقبل اقتراحات لمواضيع نحكي عليهم، إسألوني في أي حاجة في الcomments.
 
 ## ڤيديو
 
 {{< youtube id="YhGsK8XtQyw" class="yt-embed yt-embed--short" >}}
-

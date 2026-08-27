@@ -33,7 +33,7 @@ cssclasses:
 🌙 **امبارح بالليل ما نِمت منيح.**  
 😴 ما نِمت إلا نص ساعة، ولدي الصغير عنده التهاب بالرئة وكان عم يفيق طول الليل. 🫁🤒  
 🛌 بالآخر نام بتختي.  
-😵 نِمت نص ساعة وبعدين أكلت ضربة عَوجهي.  
+😵 نِمت نص ساعة وبعدين أكلت ضربة عَوجهي.
 
 😬 **ما بعرف كيف أعمل شي اليوم.**
 
@@ -48,7 +48,7 @@ cssclasses:
 | الكلمة / التعبير | المعنى           | IPA                  |
 | ---------------- | ---------------- | -------------------- |
 | امبارح بالليل    | last night       | /ʔimbaːreħ belˈleːl/ |
-| ما نِمت إلا       | I only slept     | /ma nɪmt ʔɪlːa/      |
+| ما نِمت إلا      | I only slept     | /ma nɪmt ʔɪlːa/      |
 | نص ساعة          | half an hour     | /nɪsˤ ˈsaːʕa/        |
 | التهاب بالرئة    | pneumonia        | /iltɪˈhaːb bɪrˈriʔa/ |
 | كان عم يفيق      | was waking up    | /kaːn ʕam yfiːʔ/     |
@@ -60,9 +60,11 @@ cssclasses:
 {{< ltr >}}
 
 ---
- *I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too.*
 
- ---
- Photo by [cottonbro studio](https://www.pexels.com/photo/woman-relaxation-bedroom-reflection-6756097/)
+_I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too._
 
- {{</ ltr >}}
+---
+
+Photo by [cottonbro studio](https://www.pexels.com/photo/woman-relaxation-bedroom-reflection-6756097/)
+
+{{</ ltr >}}

@@ -33,22 +33,22 @@ cssclasses:
 
 ## كلام
 
-| Arabic       | IPA                   | Meaning                   |
-| ------------ | --------------------- | ------------------------- |
-| قدّم امتحان   | /ʔaddam imtiˈħæn/     | to take / sit for an exam |
-| برنامج       | /barːnæːmeʒ/          | software / program        |
-| وقّف          | /waʔːaf/              | stopped                   |
-| فجأة         | /fad͡ʒʔatan/           | suddenly                  |
-| بنصّه         | /bi-nosːo/            | in the middle of it       |
-| يسمحولي      | /jismaˈħuːli/         | allow me                  |
-| أعيد         | /ʔaʕiːd/              | retake / do again         |
-| بتواصل مع    | /btawæːsˤal maʕ/      | I’m in contact with       |
+| Arabic         | IPA                   | Meaning                   |
+| -------------- | --------------------- | ------------------------- |
+| قدّم امتحان    | /ʔaddam imtiˈħæn/     | to take / sit for an exam |
+| برنامج         | /barːnæːmeʒ/          | software / program        |
+| وقّف           | /waʔːaf/              | stopped                   |
+| فجأة           | /fad͡ʒʔatan/           | suddenly                  |
+| بنصّه          | /bi-nosːo/            | in the middle of it       |
+| يسمحولي        | /jismaˈħuːli/         | allow me                  |
+| أعيد           | /ʔaʕiːd/              | retake / do again         |
+| بتواصل مع      | /btawæːsˤal maʕ/      | I’m in contact with       |
 | خلّي / يخلّوني | /xallːi – jxallːuːni/ | get (someone) to allow    |
 
-
 ---
+
 {{< ltr >}}
-*I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too.*
+_I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too._
 {{</ ltr >}}
 
 ---

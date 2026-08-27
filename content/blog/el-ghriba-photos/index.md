@@ -1,23 +1,23 @@
 ---
 title: El Ghriba Photos
-date: '2025-11-26T10:45:29+02:00'
+date: "2025-11-26T10:45:29+02:00"
 last_modified: "2026-05-17"
 tags:
-- el-ghriba-synagogue
-- djerba
-- jewish-heritage
-- pilgrimage
-- synagogue-architecture
-- bimah
-- torah-ark
-- travel-photos
-- spouse
+  - el-ghriba-synagogue
+  - djerba
+  - jewish-heritage
+  - pilgrimage
+  - synagogue-architecture
+  - bimah
+  - torah-ark
+  - travel-photos
+  - spouse
 categories:
   - travel
   - faith-culture
 draft: false
 dialects:
-- shami
+  - shami
 series:
   - نسمة صورة
 series_order: 1
@@ -25,6 +25,7 @@ postLang: ar
 difficulty_level: easy
 summary: Pictures from our visit to the El Ghriba synagogue in Djerba, Tunisia.
 ---
+
 ## حكاية الصور
 
 هـدول صُوَر من كنيس الغريبة، أقدم كنيس بكلّ أفريقيا، اِنبَنى من أكتر من ألفين وخَمسمِيّة سنة.  
@@ -40,6 +41,7 @@ summary: Pictures from our visit to the El Ghriba synagogue in Djerba, Tunisia.
     >}}
 
 ---
+
 {{< figure
     src="aron-kodesh.jpeg"
     alt="The Torah Ark"
@@ -47,20 +49,21 @@ summary: Pictures from our visit to the El Ghriba synagogue in Djerba, Tunisia.
     >}}
 
 ---
+
 {{< figure
     src="interior-of-synagogue.jpeg"
     alt="Inside the sanctuary"
 caption="هون أنا ومرتي واقفين قدّام البيما، المكان اللي بيقروا فيه من التوراة."
     >}}
 
-
 ---
-{{< figure
-    src="wider-interior.jpeg"
-    alt="Inside the sanctuary"
-    caption="البِيْمَا بالنصّ، وهيكل التوراة باين لبعيد."
->}}
 
+{{< figure
+src="wider-interior.jpeg"
+alt="Inside the sanctuary"
+caption="البِيْمَا بالنصّ، وهيكل التوراة باين لبعيد."
+
+> }}
 
 ---
 
@@ -83,7 +86,7 @@ caption="هون أنا ومرتي واقفين قدّام البيما، الم�
 
 ---
 
-###  أفعال
+### أفعال
 
 - **بايِن** _(ˈbaːjen)_ — visible
 - **مُعَلَّق** _(moˈʕallaʔ)_ — hanging
@@ -94,7 +97,7 @@ caption="هون أنا ومرتي واقفين قدّام البيما، الم�
 
 ---
 
-###  اتجاهات ومواقع
+### اتجاهات ومواقع
 
 - **بَرّا** _(ˈbar.ra)_ — outside
 - **جَنب** _(ʒamb)_ — next to
@@ -103,7 +106,7 @@ caption="هون أنا ومرتي واقفين قدّام البيما، الم�
 
 ---
 
-###  كلمات عامّة
+### كلمات عامّة
 
 - **هـدول** _(hadoːl)_ — these
 - **أقدم** _(ˈʔad.ma)_ — oldest

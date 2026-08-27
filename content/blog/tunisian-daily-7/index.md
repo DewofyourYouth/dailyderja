@@ -4,14 +4,14 @@ summary: A new month, avoiding war talk, and Ezekiel's vision.
 image: eye.jpg
 date: 2025-06-22
 tags:
-- birthday
-- cake
-- tamuz
-- ezekiel
-- video
-- vlog
-- jewish-calendar
-- spouse
+  - birthday
+  - cake
+  - tamuz
+  - ezekiel
+  - video
+  - vlog
+  - jewish-calendar
+  - spouse
 categories:
   - faith-culture
   - family
@@ -20,12 +20,13 @@ draft: false
 postLang: ar
 difficulty_level: advanced
 dialects:
-- tunisian
-description: 'Tunisian Daily Journal: Entry 7'
+  - tunisian
+description: "Tunisian Daily Journal: Entry 7"
 series:
   - نسمة يوميات
 series_order: 6
 ---
+
 ## تأمُّل:
 
 اليوم ما نحبش نحكي في الحرب.
@@ -40,8 +41,8 @@ series_order: 6
 كل عام, مرتي الغالية تعمل كيكة من نوع اخر. العام لي فات عمات كيكة ليمون.
 
 {{< gallery >}}
-  <img src="birthday_cake.jpg" class="grid-w60" />
-  <img src="cake-slice.jpg" class="grid-w40" />
+<img src="birthday_cake.jpg" class="grid-w60" />
+<img src="cake-slice.jpg" class="grid-w40" />
 {{< /gallery >}}
 
 ## ڤيديو:

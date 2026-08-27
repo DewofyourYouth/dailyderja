@@ -2,7 +2,7 @@
 title: Reed, Not Cedar
 description: "A personal Telegram bot for capturing daily notes — and a Talmudic reflection on being a reed, not a cedar. Introduces the Shami/Tunisian word قصب (qasab — reed, cane) with IPA and dialect notes."
 summary: I built a Telegram bot to catch my passing thoughts, then made it gentler — guided by a Talmudic line about being a reed, not a cedar.
-date: '2026-06-08T15:34:19+03:00'
+date: "2026-06-08T15:34:19+03:00"
 draft: false
 tags:
   - telegram-bot
@@ -26,6 +26,7 @@ difficulty_level: advanced
 cssclasses:
   - arabic-note
 ---
+
 بكرا عندي عرض قدّام شويّة ناس بيشتغلوا بالـ AI.
 
 الشي اللي بدي ورجيهن ياه — بوت صغير على تليغرام، بنيته لحالي، عشان يمسك خواطري قبل ما تفلّ.
@@ -50,9 +51,9 @@ cssclasses:
 
 ## كلام
 
-| Arabic | Transliteration | English                 | Notes                                                                                                                                                                               |
-| ------ | --------------- | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| شَلَح    | shalaḥ          | to strip / take off     | Originally "to take off clothes." Idiomatic for stripping an attitude off something. Beiruti/Damascene; Palestinian usage drifts toward "to flee" — flag if your audience is mixed. |
-| ما عاد | mā ʿād          | no longer               | عاد here is auxiliary, not "to return." Pairs with present-tense verb: ما عاد يِأْمُر = "no longer orders."                                                                            |
-| قَصَب    | ʔasˤab          | reed, cane              | The everyday Shami word for the marsh plant. Hebrew קָנֶה and Arabic قَناة are the tighter cognates (root q-n-h, also "channel"), but قَصَب is what you'd actually say in conversation.  |
-| لَبَّس    | labbas          | to dress (something) up | From لِبِس "to wear." Used here for clothing an old teaching in a new technical medium.                                                                                               |
+| Arabic | Transliteration | English                 | Notes                                                                                                                                                                                   |
+| ------ | --------------- | ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| شَلَح  | shalaḥ          | to strip / take off     | Originally "to take off clothes." Idiomatic for stripping an attitude off something. Beiruti/Damascene; Palestinian usage drifts toward "to flee" — flag if your audience is mixed.     |
+| ما عاد | mā ʿād          | no longer               | عاد here is auxiliary, not "to return." Pairs with present-tense verb: ما عاد يِأْمُر = "no longer orders."                                                                             |
+| قَصَب  | ʔasˤab          | reed, cane              | The everyday Shami word for the marsh plant. Hebrew קָנֶה and Arabic قَناة are the tighter cognates (root q-n-h, also "channel"), but قَصَب is what you'd actually say in conversation. |
+| لَبَّس | labbas          | to dress (something) up | From لِبِس "to wear." Used here for clothing an old teaching in a new technical medium.                                                                                                 |

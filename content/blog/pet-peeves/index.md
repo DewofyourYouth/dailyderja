@@ -1,27 +1,29 @@
 ---
 title: Some of My Pet Peeves
-date: '2025-09-01T21:40:09+03:00'
+date: "2025-09-01T21:40:09+03:00"
 tags:
-- pet-peeves
-- speech-tics
-- overpromising
-- topping-overload
-- ordering-annoyances
-- everyday-annoyances
+  - pet-peeves
+  - speech-tics
+  - overpromising
+  - topping-overload
+  - ordering-annoyances
+  - everyday-annoyances
 categories:
   - daily-life
 draft: false
 postLang: ar
 difficulty_level: intermediate
 dialects:
-- tunisian
+  - tunisian
 summary: Some surprizing things I hate.
 series:
   - نسمة يوميات
 series_order: 19
 ---
+
 ## تأمُّل:
-> شنية الحوايج الصغار الي ديما يغيظوك? 
+
+> شنية الحوايج الصغار الي ديما يغيظوك?
 
 في انجيسي نقلهم pet peeves و عندي برشة.
 
@@ -30,4 +32,3 @@ series_order: 19
 وزيد، كي نشري مكلة من مطعم وعندو **تُوبِينْغ** (مثلاً شورما ولا نوا كروكيت)، موش فمّة set عادي يجي وحدو؟ علاش لازمني نفكّر شنوّة نزيد كل مرّة كي نشري من المطعم؟ علاش نمشي للمطعم كان لازمني نوريهم كيفاش يعملو خدمتهم!؟
 
 Photo by [Ryan Snaadt](https://unsplash.com/@ryansnaadt?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/man-in-white-and-blue-crew-neck-t-shirt-_LZbDkRaedE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
-      

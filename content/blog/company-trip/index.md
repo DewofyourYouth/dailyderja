@@ -2,11 +2,11 @@
 title: A Company Trip
 date: 2025-09-03T16:15:30
 tags:
-- company-retreat
-- jerusalem
-- team-bonding
-- video
-- vlog
+  - company-retreat
+  - jerusalem
+  - team-bonding
+  - video
+  - vlog
 categories:
   - work-and-career
   - travel
@@ -14,13 +14,15 @@ draft: false
 postLang: ar
 difficulty_level: intermediate
 dialects:
-- tunisian
+  - tunisian
 summary: A reflection on a company trip that wasn't as bad as expected
 series:
   - نسمة مشوار
 series_order: 2
 ---
+
 ## تأمُّل:
+
 ليوم و غدوة الشريكة الكلّ مشينا لرحلة “لهفة للصيف”. ديما نكره حكايات كيف هكّا، أمّا توا أقلّ خايب من ما تصوّرت، الحمد لله. قبلت ناس في الشريكة ما كنتش نعرفهم.
 
 صحيح، غالب الأوقات نركب بالكار للبلايص و ناكل و هذا هو. زيدا عملنا معارك متاع ما كبار.
@@ -29,7 +31,7 @@ series_order: 2
 
 كان رسّام كرتون، و اللّوغو متاع الخمر في الكرم هو واحد من الكرتونات اللّي عملهم باراق.
 
-و زيد قبل من الكرم، ذُقنا بيرة في برُوَري، أمّا ما عادش برُوَري على خاطر توا كان للجولات، و البيرة يتعمل في بلاصة أُخرى. 
+و زيد قبل من الكرم، ذُقنا بيرة في برُوَري، أمّا ما عادش برُوَري على خاطر توا كان للجولات، و البيرة يتعمل في بلاصة أُخرى.
 
 ## ڤيديو:
 
@@ -37,5 +39,3 @@ series_order: 2
 {{< youtube id="Btqg3VNJFbA" class="yt-embed yt-embed--short" >}}
 
 {{< figure src="/images/napkin.jpeg" caption="Kerem Baraq Logo on Napkin" >}}
-
-

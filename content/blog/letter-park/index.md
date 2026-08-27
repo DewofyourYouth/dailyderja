@@ -5,15 +5,15 @@ date: 2025-10-16T08:10:47
 postLang: ar
 difficulty_level: advanced
 dialects:
-- tunisian
+  - tunisian
 tags:
-- hebrew-alphabet
-- gematria
-- script-history
-- beit-shemesh
-- kids-activities
-- park-review
-- sukkot-decor
+  - hebrew-alphabet
+  - gematria
+  - script-history
+  - beit-shemesh
+  - kids-activities
+  - park-review
+  - sukkot-decor
 categories:
   - language-learning
   - family
@@ -22,6 +22,7 @@ series:
   - نسمة مشوار
 series_order: 4
 ---
+
 ## جنّينة الحروف
 
 ما كتبتش بوست ديلي دارجة لوقت طويل.  
@@ -40,42 +41,48 @@ series_order: 4
 
 في العبرية فما برشة أنواع متاع كتابة، وكلّ نوع جا في وقت، وعندو استعمال خاصّ.
 
-#### كتب عبري عتيق 
+#### كتب عبري عتيق
+
 ##### (حوالي 1000–500 قبل الميلاد)
+
 هذا أقدم خطّ، يشبه الخطّ الفينيقي. كانو يكتبو بيه في النقوش القديمة قبل المنفى في بابل.
 
 {{< carousel images="ivri/*" aspectRatio="21-9" interval="2500" >}}
 
-
 #### كتب أشوري
-#####  (من بعد 500 قبل الميلاد تقريبًا)
+
+##### (من بعد 500 قبل الميلاد تقريبًا)
+
 بعد المنفى، اليهود تبنّاو خطّ جديد من الآرامية، يسمّيوه **"أشوري"**.  
 هو الخطّ اللي نلقاو بيه التوراة اليوم.
 
 {{< carousel images="ashuri/*" aspectRatio="21-9" interval="2500" >}}
 
+#### كتب مربّع
 
-#### كتب مربّع 
 ##### (من القرن الثالث قبل الميلاد و ما بعد)
+
 مع الوقت، الخطّ الأشوري ولى مربّع أكثر، وهو اللي نطبعو بيه الكتوب الحديثة والعبرية اليومية.  
 يعني، الكتبة اللي تشوفها في أي كتاب عبري، هذا يسمّيوه **"كتب مربّع"**.
 
 {{< carousel images="block-letters.jpeg" aspectRatio="21-9" interval="2500" >}}
 
+#### كتب راشي
 
-#### كتب راشي  
 ##### (من القرن الخامس عشر ميلادي)
+
 في التفاسير القديمة، الحروف يجيّو بطريقة أخرى يسمّيوها **"خطّ راشي"**.  
 راشي هو مفسّر مشهور، والمطابع طبعو تفسيرو بالحروف ذيك، والاسم بقى.
 
 ![Rashi script](rashi.png)
 
-#### خطّ اليد / خطّ مدوّر 
+#### خطّ اليد / خطّ مدوّر
+
 ##### (من العصور الوسطى و من بعد)
+
 وقت الناس تكتب باليد، ما تستعملش الخطّ المربّع، تستعمل خطّ يدوي يسمّيوه **"خطّ مدوّر"**.  
 هذا اللي نلقاو بيه الملاحظات، الرسائل، والكتابة اليومية.
 {{< carousel images="script.jpeg" aspectRatio="21-9" interval="2500" >}}
-
 
 ---
 
@@ -89,7 +96,7 @@ series_order: 4
 
 في الطّريق متاع **"جنّينة الحروف"**، كلّ مكعّب عندو حرف عبري مكتوب بثلاثة طرق:  
 الخطّ العصري اللي نكتبو بيه توّا، و الخطّ العبري العتيق، و زادا الخطّ راشي.  
-فوق الحروف فما رقم صغير يورّي القيمة متاع الحرف في الجِمَطْرِيّا، يعني الحساب بالأحرف.  
+فوق الحروف فما رقم صغير يورّي القيمة متاع الحرف في الجِمَطْرِيّا، يعني الحساب بالأحرف.
 
 اللّعب هو تمشّي في الطّريق و تلقى الحروف واحد بواحد، و كلّ مرّة تتعلّم شكل جديد و معنى جديد.
 
@@ -109,10 +116,10 @@ series_order: 4
 ولادي كانوا فرحانين برشة كي شافو التصاور متاع العام اللي فات، و شافو أساميهم مكتوبة بالتصاور متاع الحروف!
 
 {{< gallery >}}
-  <img src="kids/ashi.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
-  <img src="kids/eliyahu.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
-  <img src="kids/moishy.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
-  <img src="kids/shmuli.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
-  <img src="kids/yosef.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
-  <img src="kids/yosef-name.jpg" class="grid-w100 md:grid-w33 xl:grid-w75" />
+<img src="kids/ashi.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
+<img src="kids/eliyahu.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
+<img src="kids/moishy.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
+<img src="kids/shmuli.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
+<img src="kids/yosef.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
+<img src="kids/yosef-name.jpg" class="grid-w100 md:grid-w33 xl:grid-w75" />
 {{< /gallery >}}

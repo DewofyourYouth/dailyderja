@@ -1,15 +1,15 @@
 ---
 title: Favorite Film Genre
-date: '2025-08-29T15:53:46+03:00'
+date: "2025-08-29T15:53:46+03:00"
 tags:
-- movies
-- film-genre
-- favorites
+  - movies
+  - film-genre
+  - favorites
 draft: false
 postLang: ar
 difficulty_level: intermediate
 dialects:
-- tunisian
+  - tunisian
 summary: Discussing what kind of movies I like to watch.
 categories:
   - art-media
@@ -17,6 +17,7 @@ series:
   - نسمة شغلة
 series_order: 2
 ---
+
 ## تأمُّل
 
 > شنوا نوع فيلم اكثر تحب؟

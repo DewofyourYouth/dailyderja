@@ -2,7 +2,7 @@
 title: "HAKI: A Levantine Arabic Practice Game"
 description: "HAKI is a Levantine Arabic vocabulary practice game with real Shami dialect audio, city-by-city word drills, and dialect toggle. A practical tool for learners of spoken Levantine Arabic."
 summary: A lightweight, city-by-city game for drilling real Levantine Arabic with audio and dialect toggles.
-date: '2026-02-11T11:50:50+02:00'
+date: "2026-02-11T11:50:50+02:00"
 tags:
   - haki
   - game
@@ -23,7 +23,7 @@ difficulty_level: easy
 
 For a while now, people have been asking me some version of:
 
-“Okay, but how do I actually *practice* this?”
+“Okay, but how do I actually _practice_ this?”
 
 Fair.
 

@@ -38,16 +38,17 @@ cssclasses:
 
 ## كلام
 
-| Arabic      | IPA                  | Meaning                                                              |
-| ----------- | -------------------- | -------------------------------------------------------------------- |
-| تيليجرام    | /tiliˈɡraːm/         | Telegram (loanword; the ج stands in for the foreign «g» sound)       |
-| هلّأ         | /halˈlaʔ/            | now (the everyday Shami word for «الآن»)                             |
+| Arabic        | IPA                  | Meaning                                                              |
+| ------------- | -------------------- | -------------------------------------------------------------------- |
+| تيليجرام      | /tiliˈɡraːm/         | Telegram (loanword; the ج stands in for the foreign «g» sound)       |
+| هلّأ          | /halˈlaʔ/            | now (the everyday Shami word for «الآن»)                             |
 | لِسّه عم بعمل | /ˈlissa ʕam ˈbaʕmel/ | I'm still making it (لسه = «still» + عم marks an action in progress) |
-| بقدر أعمل   | /baʔˈder ʔaʕˈmel/    | I can make/do (بقدر = «I can» in Levantine)                          |
-| بدل ما أكتب | /ˈbadal ma ˈʔiktob/  | instead of writing (بدل ما = «instead of» + verb)                    |
-| صعب شوي     | /sˤaʕb ˈʃwajj/       | a bit hard (شْوَي = «a little», softens the adjective)                 |
+| بقدر أعمل     | /baʔˈder ʔaʕˈmel/    | I can make/do (بقدر = «I can» in Levantine)                          |
+| بدل ما أكتب   | /ˈbadal ma ˈʔiktob/  | instead of writing (بدل ما = «instead of» + verb)                    |
+| صعب شوي       | /sˤaʕb ˈʃwajj/       | a bit hard (شْوَي = «a little», softens the adjective)               |
 
 ---
+
 {{< ltr >}}
-*I post something short here most days while learning Arabic. If this helped, you'll probably like the next one too.*
+_I post something short here most days while learning Arabic. If this helped, you'll probably like the next one too._
 {{</ ltr >}}

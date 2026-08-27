@@ -1,18 +1,18 @@
 ---
 title: Siyum Seder Moed
-date: '2025-11-30T14:54:51+02:00'
+date: "2025-11-30T14:54:51+02:00"
 tags:
-- siyum
-- seder-moed
-- talmud-study
-- daily-learning
-- community-celebration
-- father-son-time
+  - siyum
+  - seder-moed
+  - talmud-study
+  - daily-learning
+  - community-celebration
+  - father-son-time
 categories:
   - faith-culture
 draft: false
 dialects:
-- shami
+  - shami
 series:
   - نسمة يوميات
 series_order: 22
@@ -20,6 +20,7 @@ postLang: ar
 difficulty_level: intermediate
 summary: Last night we celebrated the accomplishment of finishing Seder Moed
 ---
+
 ## يوميّات
 
 مبارح بالليل رُحت أنا وصحبي وابني الكبير على حفلة "سِيوم سِدِر موئِد". السِّيوم هو احتفال كبير لَمّا نِخَلّص قسم كامل من التَّلمود. والسِّيوم بيِنْعِمَل مِن تَنْظيم أوريَتَا. وصار إلنا أكتر من أربع سنين منقرا مَقْطَع كل يوم، لحدّ ما خَلَّصنا سِدِر موئِد.
@@ -32,10 +33,10 @@ summary: Last night we celebrated the accomplishment of finishing Seder Moed
 
 ## كلام
 
-| عربية   | English             | IPA           |
-| ------- | ------------------- | ------------- |
-| سِيوم  (Hebrew) | completion ceremony | /sijˈom/      |
-| قسم     | section / part      | /ʔɪsm/        |
-| التلمود (Hebrew)| the Talmud          | /ɪt-talˈmuːd/ |
-| تنظيم   | organization        | /tanˈðˤiːm/   |
-| مَقْطَع | passage / section   | /ˈmaʔ.tˤaʕ/   |
+| عربية            | English             | IPA           |
+| ---------------- | ------------------- | ------------- |
+| سِيوم (Hebrew)   | completion ceremony | /sijˈom/      |
+| قسم              | section / part      | /ʔɪsm/        |
+| التلمود (Hebrew) | the Talmud          | /ɪt-talˈmuːd/ |
+| تنظيم            | organization        | /tanˈðˤiːm/   |
+| مَقْطَع          | passage / section   | /ˈmaʔ.tˤaʕ/   |

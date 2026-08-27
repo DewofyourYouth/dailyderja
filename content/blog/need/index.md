@@ -27,12 +27,9 @@ cssclasses:
   - arabic-note
 ---
 
-
 {{< word ar="داعي" sh_ipa="ˈdaːʕi" tn_ipa="ˈdaːʕi" meaning="Need, Reason, Call for" root="د · ع · و" pos="noun / active participle" audio="/audio/daia.mp3" note="Add usage notes here." >}}
 
 {{< recall ar="داعي" translit="da3i" meaning="Need, Reason, Call for" mnemonic="I need to dye (my hair)!" note="Add recall note here." audio="/audio/daia.mp3" image="daaie-flashcard.jpg" imageAlt="The Daily Derja flashcard for داعي, Need, Reason, Call for" >}}
-
-
 
 {{< join-channels >}}
 
@@ -48,6 +45,7 @@ cssclasses:
 {{% /examples %}}
 
 ---
+
 {{< ltr >}}
-*I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too.*
+_I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too._
 {{</ ltr >}}

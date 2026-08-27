@@ -25,6 +25,7 @@ cssclasses:
 ---
 
 ## خاطِرة
+
 صارلي شهرين، وما لقيت شغل. يمكن المشكلة فيّ. بصراحة، ما بدي شغل زي زمان، بس ما عندي أمل كبير إنه الأمور تتغير.
 
 بكرة، لازم أروح مع ابني عالمستشفى، عنده عملية بعينه.
@@ -37,15 +38,15 @@ cssclasses:
 
 | Arabic          | Transliteration   | Context / Meaning                                                                     |
 | :-------------- | :---------------- | :------------------------------------------------------------------------------------ |
-| **صارلي شهرين** | *Sar-li shahrein* | "It's been two months for me." The standard way to express duration.                  |
-| **زي زمان**     | *Zei zaman*       | "Like the old days" or "Like before." Much more natural than *el-madi*.               |
-| **فيّ**          | *Fiyye*           | "In me." Used here to mean the problem is internal or a matter of luck/self.          |
-| **ابني**        | *Ibni*            | "My son." Preferred over *waladi* in Southern Levantine.                              |
-| **عالمستشفى**   | *'Al-mustashfa*   | "To the hospital." A contraction of *'ala* (to) and *al-mustashfa*.                   |
-| **عملية**       | *'Amaliyya*       | "Surgery" or "Procedure." Used for any medical operation.                             |
-| **بعينه**       | *B-'eino*         | "In his eye." Using the **بـ** prefix is the standard way to say "in" for body parts. |
+| **صارلي شهرين** | _Sar-li shahrein_ | "It's been two months for me." The standard way to express duration.                  |
+| **زي زمان**     | _Zei zaman_       | "Like the old days" or "Like before." Much more natural than _el-madi_.               |
+| **فيّ**         | _Fiyye_           | "In me." Used here to mean the problem is internal or a matter of luck/self.          |
+| **ابني**        | _Ibni_            | "My son." Preferred over _waladi_ in Southern Levantine.                              |
+| **عالمستشفى**   | _'Al-mustashfa_   | "To the hospital." A contraction of _'ala_ (to) and _al-mustashfa_.                   |
+| **عملية**       | _'Amaliyya_       | "Surgery" or "Procedure." Used for any medical operation.                             |
+| **بعينه**       | _B-'eino_         | "In his eye." Using the **بـ** prefix is the standard way to say "in" for body parts. |
 
 ---
 
-*I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too.*
+_I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too._
 {{< / ltr >}}

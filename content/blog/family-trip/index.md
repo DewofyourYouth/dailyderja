@@ -3,11 +3,11 @@ title: An End of Summer Family Trip!
 summary: An end-of-summer family trip squeezed in before school starts.
 date: 2025-08-22T13:17:10
 tags:
-- family-travel
-- summer-vacation
-- kids
-- video
-- vlog
+  - family-travel
+  - summer-vacation
+  - kids
+  - video
+  - vlog
 categories:
   - family
   - travel
@@ -15,12 +15,13 @@ draft: false
 postLang: ar
 difficulty_level: intermediate
 dialects:
-- tunisian
+  - tunisian
 showTableOfContents: true
 series:
   - نسمة مشوار
 series_order: 1
 ---
+
 ## تأمُّل:
 
 توا آخر العطلة متاع الصيف - المدرسة تبدة الثنين الجاية لولادي الكبار (موش الأحد كيما فقدت البراح و كي قولت لصحبي صعيد) و نهار الأربعاء لولادي الصغار. دونك، مشينا العليلة الكل في رحلة مع بعضنا!
@@ -34,27 +35,27 @@ series_order: 1
 ## تصاور
 
 {{< gallery >}}
-    <img src="featured.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25">
-    <img src="gallery/a-water-hike-0.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25">
-    <img src="gallery/a-water-hike-1.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25">
-    <img src="gallery/water-hike-4.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25">
-    <img src="gallery/water-hike-5.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25">
-    <img src="gallery/a-water-hike-2.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25">
-    <img src="gallery/water-hike-3.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25">
-    <img src="gallery/water-hike-4.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25">
-    <img src="gallery/crusades-farm.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25">
-    <img src="gallery/fun-farm-0.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25">
-    <img src="gallery/fun-farm-2.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25">
-    <img src="gallery/wine-press.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25">
-    <img src="gallery/fun-farm-3.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25">
-    <img src="gallery/fun-farm-4.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25">
-    <img src="gallery/fun-farm-5.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25">
-    <img src="gallery/fun-farm-6.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25">
-    <img src="gallery/water-hike-5.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25">
-    <img src="gallery/water-hike-6.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25">
-    <img src="gallery/water-hike-7.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25">
-    <img src="gallery/water-hike-8.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25">
-    <img src="gallery/deer.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25">
-    <img src="gallery/ending.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25">
-    <img src="gallery/panoramic-indoors.jpeg" >   
+<img src="featured.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25">
+<img src="gallery/a-water-hike-0.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25">
+<img src="gallery/a-water-hike-1.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25">
+<img src="gallery/water-hike-4.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25">
+<img src="gallery/water-hike-5.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25">
+<img src="gallery/a-water-hike-2.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25">
+<img src="gallery/water-hike-3.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25">
+<img src="gallery/water-hike-4.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25">
+<img src="gallery/crusades-farm.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25">
+<img src="gallery/fun-farm-0.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25">
+<img src="gallery/fun-farm-2.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25">
+<img src="gallery/wine-press.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25">
+<img src="gallery/fun-farm-3.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25">
+<img src="gallery/fun-farm-4.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25">
+<img src="gallery/fun-farm-5.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25">
+<img src="gallery/fun-farm-6.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25">
+<img src="gallery/water-hike-5.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25">
+<img src="gallery/water-hike-6.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25">
+<img src="gallery/water-hike-7.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25">
+<img src="gallery/water-hike-8.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25">
+<img src="gallery/deer.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25">
+<img src="gallery/ending.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25">
+<img src="gallery/panoramic-indoors.jpeg" >  
 {{< /gallery >}}

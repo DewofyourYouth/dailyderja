@@ -30,6 +30,7 @@ ear_training: true
 {{< word ar="بصراحة" sh_ipa="bɪ.sˤɑ.rɑː.ħa" meaning="honestly; frankly" root="ص · ر · ح" pos="adverb / discourse marker" audio="/audio/bisaraha.mp3" note="A prepositional phrase: بـِ + صراحة (candour). Drop it at the start of a sentence to signal you're about to say something real." >}}
 
 ## خاطِرة
+
 بصراحة، بتهيألي إنّي لقيت أغنيتي المفضلة بالشامي لهلأ، وهي أغنية «بصراحة» لزياد رحباني! وبصراحة... ما في أحلى من هيك جو.
 
 {{< spotify "track/5EgethxS16eiTYwXqkgYV0" >}}
@@ -39,7 +40,6 @@ ear_training: true
 {{< spotify "track/6BE0jeBho94oFSeF3a3nmP" >}}
 
 **شو أكثر أغنية لزياد رحباني بتحبوها؟ وشو رأيكم بكلمات «بصراحة»؟**
-
 
 {{< followit >}}
 
@@ -61,11 +61,9 @@ ear_training: true
 | **مش طبيعية**         | /mɪʃ tˤbiː.ʕij.je/      | Insane / Extraordinary      |
 | **شو رأيكم؟**         | /ʃuː raʔ.jʊ.kum/        | What is your opinion?       |
 
-
-
 ---
-*I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too.*
-{{</ ltr >}}شو أكثر أغنية لزياد رحباني بتحبوها؟ وشو رأيكم بكلمات «بصراحة»؟**
 
+_I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too._
+{{</ ltr >}}شو أكثر أغنية لزياد رحباني بتحبوها؟ وشو رأيكم بكلمات «بصراحة»؟**
 
 {{< followit >}}

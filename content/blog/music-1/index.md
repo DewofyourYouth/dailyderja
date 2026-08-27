@@ -1,33 +1,34 @@
 ---
 title: The Beginnings of My Levantine Playlist
-date: '2025-11-27T10:49:39+02:00'
+date: "2025-11-27T10:49:39+02:00"
 tags:
-- levantine-playlist
-- ear-training
-- music
-- indie-ska
-- electro-folk
-- music-discovery
-- artist-spotlight
-- yuma
-- ghoula
-- young-rz
-- kazdoura
-- walaa-sbait
-- bedouin-burger
+  - levantine-playlist
+  - ear-training
+  - music
+  - indie-ska
+  - electro-folk
+  - music-discovery
+  - artist-spotlight
+  - yuma
+  - ghoula
+  - young-rz
+  - kazdoura
+  - walaa-sbait
+  - bedouin-burger
 categories:
   - art-media
 draft: false
 postLang: ar
 difficulty_level: intermediate
 dialects:
-- shami
+  - shami
 summary: Some music I'm enjoying right now, to train my ear for Levantine Arabic.
 series:
   - نسمة نغمة
 series_order: 2
 ear_training: true
 ---
+
 ## موسيقى
 
 لمّا تعلّمت عربي تونسي، سمعت غنية تونسية مشان أدرب أذني. حبّيت الصوت عند Yuma، Ghoula و Young RZ. هلق عم بدوّر على غنية شامية. هدول كم فنان وغنية عم بسمعهم هلق:
@@ -57,11 +58,11 @@ Bedouin Burger بيمزجوا أنغام شامية بالشغل الإلكتر�
 
 | عربية            | إنجليزي               | IPA                      | صوت |
 | ---------------- | --------------------- | ------------------------ | --- |
-| أدرّب أذني        | train my ear          | /ʔadˈdarrib ʔidni/       |     |
-| حبّيت الصوت       | I liked the sound     | /ħabˈbeːt əsˈsoːt/       |     |
-| عم بدوّر          | I’m looking           | /ʕam bˈdawwer/           |     |
-| غنّية شامية       | a Shami song          | /ɣanˈniyye ʃaːˈmiyye/    |     |
-| غنيّات            | songs (plural)        | /ɣanˈniyyaːt/            |     |
+| أدرّب أذني       | train my ear          | /ʔadˈdarrib ʔidni/       |     |
+| حبّيت الصوت      | I liked the sound     | /ħabˈbeːt əsˈsoːt/       |     |
+| عم بدوّر         | I’m looking           | /ʕam bˈdawwer/           |     |
+| غنّية شامية      | a Shami song          | /ɣanˈniyye ʃaːˈmiyye/    |     |
+| غنيّات           | songs (plural)        | /ɣanˈniyyaːt/            |     |
 | ستايل الإندي سكا | indie ska style       | /stajl elˈindi ska/      |     |
 | بيمزجوا          | they mix              | /bimˈzɪʒu/               |     |
 | أنغام شامية      | Levantine melodies    | /anˈɣaːm ʃaːˈmiyye/      |     |
@@ -69,7 +70,7 @@ Bedouin Burger بيمزجوا أنغام شامية بالشغل الإلكتر�
 | مزيج دافي وساحر  | warm, hypnotic mix    | /maˈziːʒ daːfi w saːħir/ |     |
 | الفولكلور        | folk                  | /folˈkloːr/              |     |
 | الإندي بوب       | indie pop             | /ˈindi pop/              |     |
-| بحبّهم كتير       | I love them a lot     | /baħˈʔɪbːhom kˈtiːr/     |     |
+| بحبّهم كتير      | I love them a lot     | /baħˈʔɪbːhom kˈtiːr/     |     |
 
 {{< alert >}}
 {{< ltr >}}

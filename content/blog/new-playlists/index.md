@@ -37,22 +37,22 @@ cssclasses:
 {{< spotify "playlist/5L2OoENQXqMTsQFqFGHTX7"  >}}
 {{< spotify "playlist/2UL9mKdF4F0fJVrbmf1aNa"  >}}
 
-
 ## كلام
 
 | Arabic             | IPA                         | Meaning                     |
 | ------------------ | --------------------------- | --------------------------- |
-| مؤخّرًا              | /muʔaxˈxaran/               | recently                    |
+| مؤخّرًا            | /muʔaxˈxaran/               | recently                    |
 | لقيت طريقة         | /laʔeːt tˤaˈriːʔa/          | I found a way               |
 | تستعمل             | /tɪsˈtaʕmel/                | you use                     |
 | قلت لنفسي          | /ʔʊlt lɪˈnafsi/             | I told myself               |
 | لازم ألعب فيها شوي | /ˈlaːzem ʔalʕab fiːha ʃwej/ | I had to play with it a bit |
 | عملت كم playlist   | /ʕaˈmalt kam pleɪlɪst/      | I made a few playlists      |
-| لَمّا بروح أمشي      | /ˈlamma broːħ ʔamʃi/        | when I go for a walk        |
+| لَمّا بروح أمشي    | /ˈlamma broːħ ʔamʃi/        | when I go for a walk        |
 | مشان               | /miˈʃaːn/                   | for / because               |
-| تفضّلوا             | /tfaˈdːalu/                 | here you go / please enjoy  |
+| تفضّلوا            | /tfaˈdːalu/                 | here you go / please enjoy  |
 
 ---
+
 {{< ltr >}}
-*I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too.*
+_I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too._
 {{</ ltr >}}

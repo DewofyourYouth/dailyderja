@@ -1,18 +1,18 @@
 ---
-date: '2025-08-31T16:05:51+03:00'
+date: "2025-08-31T16:05:51+03:00"
 draft: false
 title: Some Books I'm Reading
 tags:
-- reading-list
-- book-notes
-- negotiation
-- language-learning
-- video
-- vlog
+  - reading-list
+  - book-notes
+  - negotiation
+  - language-learning
+  - video
+  - vlog
 postLang: ar
 difficulty_level: intermediate
 dialects:
-- tunisian
+  - tunisian
 summary: I discuss two books I'm currently reading.
 categories:
   - language-learning
@@ -20,12 +20,15 @@ series:
   - نسمة شغلة
 series_order: 3
 ---
+
 ## تأمُّل:
-النهار جمعة اللي فاتت جابولي الكتب شريتهم من Amazonو  بديت نقراهم في الشبات اللي فاتت. الكتاب اللول هو *Never Split the Difference* من Chris Voss و هو مفاوِض بوليس في الرهائن. الكتاب هذا يعلّم كيفاش تعمل مُفَاوَضَة باهية. الكتاب الثاني هو *Forever Fluent* من Gabriel Wyner و هو على كيفاش تنجّم تتعلّم لوغة جديدة و تحكي باهي.
+
+النهار جمعة اللي فاتت جابولي الكتب شريتهم من Amazonو بديت نقراهم في الشبات اللي فاتت. الكتاب اللول هو _Never Split the Difference_ من Chris Voss و هو مفاوِض بوليس في الرهائن. الكتاب هذا يعلّم كيفاش تعمل مُفَاوَضَة باهية. الكتاب الثاني هو _Forever Fluent_ من Gabriel Wyner و هو على كيفاش تنجّم تتعلّم لوغة جديدة و تحكي باهي.
 
 ## ڤيديو:
 
-{{< youtube 
-    id="9uTDTXxGGls"     
-    class="yt-embed yt-embed--fullbleed" 
- >}}
+{{< youtube
+id="9uTDTXxGGls"  
+class="yt-embed yt-embed--fullbleed"
+
+> }}

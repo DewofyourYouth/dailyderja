@@ -41,14 +41,15 @@ cssclasses:
 
 ## كلام
 
-| Arabic | IPA | Meaning |
-| ------ | --- | ------- |
-| بفيق الصبح | /baˈfiːʔ esˤˈsˤobeħ/ | I wake up in the morning (فاق = «to wake up» in Shami) |
-| بمشي عالكنيس | /bamˈʃiː ʕalkˈniːs/ | I walk to the synagogue (عـ + الكنيس = على الكنيس) |
-| بدوّر على شغل | /bdaˈwwer ʕala ˈʃoɣol/ | I look for work (دوّر على = «to search for») |
-| اللي على جدول اليوم | /ˈʔilli ʕala ˈʒadwal elˈjoːm/ | what's on today's schedule |
+| Arabic              | IPA                           | Meaning                                                |
+| ------------------- | ----------------------------- | ------------------------------------------------------ |
+| بفيق الصبح          | /baˈfiːʔ esˤˈsˤobeħ/          | I wake up in the morning (فاق = «to wake up» in Shami) |
+| بمشي عالكنيس        | /bamˈʃiː ʕalkˈniːs/           | I walk to the synagogue (عـ + الكنيس = على الكنيس)     |
+| بدوّر على شغل       | /bdaˈwwer ʕala ˈʃoɣol/        | I look for work (دوّر على = «to search for»)           |
+| اللي على جدول اليوم | /ˈʔilli ʕala ˈʒadwal elˈjoːm/ | what's on today's schedule                             |
 
 ---
+
 {{< ltr >}}
-*I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too.*
+_I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too._
 {{</ ltr >}}

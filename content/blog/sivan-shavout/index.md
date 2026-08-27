@@ -1,7 +1,7 @@
 ---
 title: The Month of Sivan
 summary: A short Shami Arabic reflection on the Jewish month of Sivan, the holiday of Shavuot, and a teaching from the Chida.
-date: '2026-05-17T13:26:13+03:00'
+date: "2026-05-17T13:26:13+03:00"
 tags:
   - jewish-holidays
   - shavuot
@@ -41,7 +41,6 @@ cssclasses:
 
 للي ما بيعرفش، «الحيدأ» هو اختصار لاسم الحاخام حاييم يوسف داود أزولاي. عاش قبل حوالي ٢٥٠ سنة، وولد بالقدس. كان عالم دين كبير ومتبحر بالتصوف اليهودي، ومش بس هيك، كان معروف بإنو بيلف العالم — زار أوروبا وشمال أفريقيا — وخلّف مذكرات ومؤلفات كتير مهمة لليوم.
 
-
 {{< join-channels >}}
 
 ## كلام
@@ -56,6 +55,7 @@ cssclasses:
 | بيلف العالم      | he traveled the world (lit. he went around the world) | /bɪˈlaff ɪlˈʕaːlam/      |
 
 ---
+
 {{< ltr >}}
-*I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too.*
+_I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too._
 {{</ ltr >}}

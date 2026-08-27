@@ -32,12 +32,13 @@ cssclasses:
 {{< followit >}}
 {{< youtube  id="Yl6s6DGapug" class="yt-embed yt-embed--fullbleed" >}}
 
-
 ---
+
 {{< ltr >}}
-*I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too.*
+_I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too._
 
 ---
+
 Photo by [Simon Infanger](https://unsplash.com/@photosimon?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/foot-prints-on-white-sand-Ta_73_AdKqU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 {{</ ltr >}}

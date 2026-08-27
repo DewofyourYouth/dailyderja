@@ -34,14 +34,15 @@ cssclasses:
 | Arabic  | Transliteration | Meaning                          |
 | ------- | --------------- | -------------------------------- |
 | صار معي | ṣār maʕi        | I had (something happened to me) |
-| لأنّي    | laʔanni         | because I                        |
-| رجّعت    | rajjaʕet        | I vomited, I threw up            |
-| أجّلنا   | ʔajjelnā        | we postponed                     |
+| لأنّي   | laʔanni         | because I                        |
+| رجّعت   | rajjaʕet        | I vomited, I threw up            |
+| أجّلنا  | ʔajjelnā        | we postponed                     |
 | تاني    | tāni            | another, later                   |
 
 {{< ltr >}}
 ---
-*I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too.*
+
+_I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too._
 
 ---
 

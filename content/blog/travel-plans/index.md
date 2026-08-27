@@ -1,15 +1,15 @@
 ---
 title: My Morning And Travel Plans So Far
-date: '2025-09-16T11:21:32+03:00'
+date: "2025-09-16T11:21:32+03:00"
 tags:
-- travel-planning
-- lufthansa
-- flight-changes
-- brit-milah
-- early-morning
-- shacharit
-- train-ride
-- annoyances
+  - travel-planning
+  - lufthansa
+  - flight-changes
+  - brit-milah
+  - early-morning
+  - shacharit
+  - train-ride
+  - annoyances
 categories:
   - travel
   - daily-life
@@ -17,13 +17,15 @@ draft: false
 postLang: ar
 difficulty_level: intermediate
 dialects:
-- tunisian
+  - tunisian
 summary: Some early morning annoyances.
 series:
   - نسمة مشوار
 series_order: 3
 ---
+
 ## تأمُّل:
+
 اليوم فقت بالوقت على العادة (ربع لسّيتي) و مشيت للمعبد باش نقرا مع الحاخام (العادة نقراو بعدنا كل صباح في ستّة و ربع)، أما هو ما جاش. بعد الصلاة مشيت لحفلة ختان و توا باش نمشي للخدمة، نكتب الديلي دارجة و نركب في الترن.
 
 جاني إيميل من Lufthansa، بدلو أوقات الطيّارة، و لازمني نقوللهم خاتر هو وقت خايب برشة! كيفاش يعملو هكّا!؟ نحاول و نجمّع نعمل حاجة باش نصلّح هذا!

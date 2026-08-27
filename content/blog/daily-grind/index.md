@@ -50,14 +50,15 @@ cssclasses:
 
 ## كلام
 
-| Arabic | IPA          | English                      |
-| ------ | ------------ | ---------------------------- |
+| Arabic  | IPA          | English                      |
+| ------- | ------------ | ---------------------------- |
 | معبّي   | /maʕˈab.bi/  | full (mentally / overloaded) |
-| ودّيتُه  | /wadˈdeː.tu/ | I took him / dropped him off |
-| عفرشي  | /ʕa ˈfar.ʃi/ | to my bed                    |
+| ودّيتُه | /wadˈdeː.tu/ | I took him / dropped him off |
+| عفرشي   | /ʕa ˈfar.ʃi/ | to my bed                    |
 | بحسّ    | /bɪˈħess/    | I feel                       |
 
 ---
+
 Image by [Pexels](https://pixabay.com/users/pexels-2286921/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1845534) from [Pixabay](https://pixabay.com/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1845534)
 
 ---

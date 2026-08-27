@@ -2069,11 +2069,32 @@ section.article-ltr {
   border-bottom: 1px solid var(--ac-line);
   white-space: nowrap;
 }
+/* Tailwind Typography's prose defaults zero the outer-edge padding on
+   thead th:first-child/:last-child (padding-inline-start/end: 0), assuming
+   a flush table whose text lines up with surrounding prose. This table
+   design is a bordered/boxed card instead, so that leaves the header text
+   touching the table's outer border on one side — restore symmetric padding. */
+.article-content thead th:first-child,
+.article-content thead th:last-child {
+  padding-inline-start: 1rem;
+  padding-inline-end: 1rem;
+}
 .dark .article-content thead th { color: var(--ac-gold-soft); }
 .article-content tbody td {
   padding: 0.65rem 1rem;
   vertical-align: top;
   border-top: 1px solid var(--ac-line-soft);
+  /* كلام tables mix Arabic/IPA/English per cell with no fixed column
+     order across posts; plaintext lets each cell resolve its own bidi
+     direction from its own first-strong character instead of inheriting
+     the page's RTL context, which otherwise mirrors/reorders neutral
+     punctuation (guillemets, dashes, slashes) at line wraps.
+     !important is needed: every cell inherits lang="ar" from <html>,
+     so the blanket `.article-content :lang(ar) { unicode-bidi: isolate }`
+     rule above (two class-level selectors) otherwise wins the cascade
+     over this one (one class + two type selectors) regardless of
+     source order. */
+  unicode-bidi: plaintext !important;
 }
 .article-content tbody tr:first-child td { border-top: 0; }
 .article-content tbody tr:nth-child(even) { background: var(--ac-fill); }
@@ -2096,6 +2117,11 @@ section.article-ltr {
   .article-content thead th {
     padding: 0.55rem 0.7rem;
     font-size: 0.7rem;
+  }
+  .article-content thead th:first-child,
+  .article-content thead th:last-child {
+    padding-inline-start: 0.7rem;
+    padding-inline-end: 0.7rem;
   }
   .article-content tbody td {
     padding: 0.5rem 0.7rem;

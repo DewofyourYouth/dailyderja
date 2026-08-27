@@ -24,6 +24,7 @@ difficulty_level: easy
 cssclasses:
   - arabic-note
 ---
+
 ## يوميّات
 
 اليوم فِقِت بكّير ورُحت عالكنيس بوقتها.
@@ -43,11 +44,11 @@ cssclasses:
 
 | Arabic    | IPA             | Meaning              |
 | --------- | --------------- | -------------------- |
-| غِفِت       | /ˈɣifit/        | I dozed off          |
-| عالسّاعة   | /ʕasˈsæːʕa/     | at (a specific time) |
-| تِنْتين     | /tinˈteːn/      | two (o’clock)        |
+| غِفِت     | /ˈɣifit/        | I dozed off          |
+| عالسّاعة  | /ʕasˈsæːʕa/     | at (a specific time) |
+| تِنْتين   | /tinˈteːn/      | two (o’clock)        |
 | بعد الظهر | /baʕd idˈðˤohr/ | in the afternoon     |
-| بِفَكِّر      | /bfaˈkkir/      | I think              |
+| بِفَكِّر  | /bfaˈkkir/      | I think              |
 | إيقاع     | /ʔiˈqaːʕ/       | rhythm               |
 
 Photo by [Catherine Hughes](https://unsplash.com/@cathughes6?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/silver-and-white-round-analog-clock-PkEQHH6R7Eg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)

@@ -3,13 +3,13 @@ title: I need a vacation!
 summary: War fatigue and stress make me feel like I need a real break.
 date: 2025-07-30T10:00:00
 tags:
-- burnout
-- war-stress
-- family-safety
-- vacation-plans
-- work-from-home
-- weight-loss
-- stress-relief
+  - burnout
+  - war-stress
+  - family-safety
+  - vacation-plans
+  - work-from-home
+  - weight-loss
+  - stress-relief
 categories:
   - daily-life
   - work-and-career
@@ -18,11 +18,11 @@ hidden: false
 postLang: ar
 difficulty_level: intermediate
 dialects:
-- tunisian
-description: 'Tunisian Daily Journal: Entry 10'
+  - tunisian
+description: "Tunisian Daily Journal: Entry 10"
 series:
   - نسمة يوميات
 series_order: 9
 ---
+
 يظهرلي بعد الحرب هاذي، يلزمني نمشي في عطلة. أنا وليت متوتر برشة. صغاري خايفين، وزادة الناس اللي نخدم معاهم متوترين. مثلاً عرفي راهو باش يطلق مرتو. حاولت ننقص في الميزان، أما في بلاصة ما ننقص، زدت.
- 

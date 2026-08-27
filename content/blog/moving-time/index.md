@@ -33,17 +33,19 @@ cssclasses:
 
 ## كلام
 
-| Arabic | IPA           | Meaning            |
-| ------ | ------------- | ------------------ |
+| Arabic  | IPA           | Meaning            |
+| ------- | ------------- | ------------------ |
 | ووقّعنا | /w wwaqqaʕna/ | and we signed      |
-| عقد    | /ʕaʔd/        | contract / lease   |
+| عقد     | /ʕaʔd/        | contract / lease   |
 | نضبّ    | /nḍˤobb/      | pack up / put away |
-| بالشقة | /biʃʃaʔʔa/    | in the apartment   |
+| بالشقة  | /biʃʃaʔʔa/    | in the apartment   |
 
 ---
+
 {{< ltr >}}
-*I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too.*
+_I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too._
 {{</ ltr >}}
 
 ---
+
 Photo by [Tierra Mallorca](https://unsplash.com/@tierramallorca?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/white-and-red-wooden-house-miniature-on-brown-table-rgJ1J8SDEAY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)

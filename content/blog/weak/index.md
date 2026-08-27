@@ -27,7 +27,6 @@ cssclasses:
   - arabic-note
 ---
 
-
 {{< word ar="ضعيف" sh_ipa="dˤaˈʕiːf" tn_ipa="dˤaˈʕiːf" meaning="weak; faint; poor-quality; not strong" root="ض · ع · ف" pos="adjective" audio="/audio/daif.mp3" note="In Shami, ضعيف can describe physical weakness, a weak argument, weak coffee, weak sound, or poor signal. Feminine: ضعيفة. Plural: ضعاف." >}}
 
 {{< recall ar="ضعيف" translit="da3if / daif" meaning="weak" mnemonic="You **DIE IF** you're weak." note="DIE IF sounds like daif." audio="/audio/daif.mp3" image="weak-flashcard.jpg" imageAlt="The Daily Derja flashcard for ضعيف, weak" >}}
@@ -67,6 +66,7 @@ cssclasses:
 {{% /examples %}}
 
 ---
+
 {{< ltr >}}
-*I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too.*
+_I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too._
 {{</ ltr >}}

@@ -1,10 +1,10 @@
 ---
-date: '2025-11-25T13:08:55+02:00'
-title: 'Changes: Scary But Exciting'
+date: "2025-11-25T13:08:55+02:00"
+title: "Changes: Scary But Exciting"
 tags:
-- change
-- job-search
-- anxiety
+  - change
+  - job-search
+  - anxiety
 categories:
   - work-and-career
   - daily-life
@@ -12,19 +12,20 @@ draft: false
 postLang: ar
 difficulty_level: intermediate
 dialects:
-- shami
+  - shami
 series:
   - نسمة نهار
 series_order: 1
 summary: A lot of things are changing – all at once!
 ---
+
 ## تأمُّل:
 
 دخلت بمرحلة تغيّر بحياتي. أشيا كتيرة عم تتغيّر بنفس الوقت. لازمني أدوّر على شغل جديد، بلّشت أتعلّم لهجة جديدة، وممكن رح لازمني أدوّر على شقّة جديدة. هدول بس شغلات من الأشيا اللي عم تتغيّر هلّق.
 
 {{< word ar="مَرْحَلِة" sh_ipa="ˈmar.ħa.le" tn_ipa="ˈmarħ.la" meaning="stage; phase" root="ر · ح · ل" pos="noun" audio="/audio/stage-phase.mp3" note="A useful word for transitions: Shami keeps the final vowel clearer; Tunisian usually tightens it." >}}
 
-التغيير بخوّف شوي، بس صراحة أنا متحمّس زيادة. اشتغلت بنفس الشركة لأكتر من تلات سنين، وهلّق عم بدوّر على شركة تانية. كان لازم أبدا أدور على شغل جديد من زمان. على الأقل من سنة، لما شفت مدير القسم صار التعامل معه كتير صعب. بالعِبريّة في مثل: ״כל ההתחלות קשות״ — كل البدايات صعبة. 
+التغيير بخوّف شوي، بس صراحة أنا متحمّس زيادة. اشتغلت بنفس الشركة لأكتر من تلات سنين، وهلّق عم بدوّر على شركة تانية. كان لازم أبدا أدور على شغل جديد من زمان. على الأقل من سنة، لما شفت مدير القسم صار التعامل معه كتير صعب. بالعِبريّة في مثل: ״כל ההתחלות קשות״ — كل البدايات صعبة.
 
 اليوم شربت قهوة طيبة، و حسّيت إنّي ماشي بطريق جديد… شوي شوي.
 
@@ -36,15 +37,15 @@ summary: A lot of things are changing – all at once!
 
 ## كلام:
 
-| عربية    | انجليزي        | صوت                                                                 |
-| -------- | -------------- | ------------------------------------------------------------------- |
+| عربية     | انجليزي        | صوت                                                                 |
+| --------- | -------------- | ------------------------------------------------------------------- |
 | شقّة      | apartment      | {{<audio src="/audio/apartment.mp3" caption="ˈʃaʔ.ʔa" >}}           |
 | تتغيّر    | change         | {{<audio src="/audio/change.mp3" caption="taˈɣaj.jor" >}}           |
 | أدوّر على | look for       | {{<audio src="/audio/look-for.mp3" caption="ʔadˈdaw.wer ʕaˈlaː" >}} |
-| بنفس     | same           | {{<audio src="/audio/same.mp3" caption="bnafs" >}}                  |
+| بنفس      | same           | {{<audio src="/audio/same.mp3" caption="bnafs" >}}                  |
 | بخوّف     | scary          | {{<audio src="/audio/scary.mp3" caption="biˈxaw.wif" >}}            |
-| مرحلة    | stage / phase  | {{<audio src="/audio/stage-phase.mp3" caption="ˈmar.ħa.le" >}}      |
-| أشيا     | things / stuff | {{<audio src="/audio/things-stuff.mp3" caption="ˈaʃ.jaː">}}         |
+| مرحلة     | stage / phase  | {{<audio src="/audio/stage-phase.mp3" caption="ˈmar.ħa.le" >}}      |
+| أشيا      | things / stuff | {{<audio src="/audio/things-stuff.mp3" caption="ˈaʃ.jaː">}}         |
 
 {{< ltr >}}
 Photo by [Alexas Fotos](https://www.pexels.com/photo/time-for-change-sign-with-led-light-2277784/)

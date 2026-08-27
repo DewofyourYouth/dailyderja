@@ -27,6 +27,7 @@ difficulty_level: easy
 cssclasses:
   - arabic-note
 ---
+
 A quick reference for the four everyday modal moves in Shami: **ability, desire, obligation, and the hypothetical**. Skim the cards, or jump to the quick-pick at the bottom.
 
 {{< word ar="فِينِي" sh_ipa="ˈfiː.ni" meaning="I can; I am able to" pos="modal phrase" audio="/audio/fini.mp3" note="Everyday Shami ability marker. Use it when English reaches for can, could, or be able to." >}}

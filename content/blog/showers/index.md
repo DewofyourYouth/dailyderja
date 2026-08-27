@@ -26,7 +26,6 @@ cssclasses:
 
 ## خاطِرة
 
-
 {{< word ar="دوش" sh_ipa="duːʃ" tn_ipa="duːʃ" meaning="shower" root="" pos="noun (loan word)" audio="" note="Borrowed from French douche — used unchanged across Levantine and Tunisian Arabic. The verb is تدوّش (to shower)." audio="/audio/doush.mp3" >}}
 
 هون بإسرائيل، برأيي، بيعملوا أشياء مفكّرينها ذكيّة، بس هي مش عمليّة. متل اليوم — اليوم أخدت دوش بارد! ما بحبّه! بتسألني ليش أخدت دوش بارد إذا ما بدي؟ الجواب: السخّان الشمسي!
@@ -40,6 +39,7 @@ cssclasses:
 قدّامك خيارين: يا بتشغّل الكهربا وتسخّن الميّة، متل ما بتعمل بالشتا — وساعتها شو استفدنا؟ لِسّاك عم تدفع كهربا — يا بتغامر وبتخلّي أمرك للسخّان الشمسي. وهيك بتلاقي حالك عم تاخد دوش بارد بالصيف!
 
 {{< join-channels >}}
+
 ## كلام
 
 | Arabic          | IPA               | Meaning                             |
@@ -49,6 +49,7 @@ cssclasses:
 | **شو استفدنا**  | /ʃoː stafˈdana/   | what did we gain from it?           |
 
 ---
+
 {{< ltr >}}
-*I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too.*
+_I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too._
 {{</ ltr >}}

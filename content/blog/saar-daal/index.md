@@ -1,7 +1,7 @@
 ---
 title: Using Saar and Dall in Shami Arabic
 description: "Learn صار and ضلّ — the two essential Levantine Arabic verbs for change and continuation. صار (saar) means 'became / happened'; ضلّ (dall) means 'stayed / kept doing'. Includes IPA and example sentences in Shami dialect."
-date: '2025-12-04T20:16:19+02:00'
+date: "2025-12-04T20:16:19+02:00"
 draft: false
 learn: true
 postLang: ar
@@ -10,16 +10,17 @@ series:
   - نسمة كلمة
 series_order: 1
 dialects:
-- shami
+  - shami
 tags:
-- shami-arabic
-- vocabulary
-- grammar
-- particles
+  - shami-arabic
+  - vocabulary
+  - grammar
+  - particles
 summary: A focused all-Arabic guide to صار and ضلّ in Levantine Arabic.
 categories:
   - language-learning
 ---
+
 لما شي يتغيّر، منستعمل "صار". ولما ما يتغيّر، منستعمل "ضلّ".  
 هدول الكلمتين بسيطات، بس كتير مهمّين بالحكي اليومي.
 
@@ -32,7 +33,7 @@ categories:
 
 ---
 
-## صار  
+## صار
 
 صار يعني إنّو الوضع تغيّر أو بلّش شي جديد.
 
@@ -47,7 +48,7 @@ categories:
 
 ---
 
-## ضلّ  
+## ضلّ
 
 ضلّ يعني إنّو الوضع بقي متل ما هو، وما صار عليه أي تغيّر.
 
@@ -64,6 +65,5 @@ categories:
 
 هدول الكلمتين بيعطوا وضوح بالحكي:  
 "صار" للتغيّر، و"ضلّ" للاستمرار.
-
 
 [Photo by Lars Schneider on Unsplash](https://unsplash.com/photos/grayscale-photo-of-coin-operated-telescope-q9fpTQlWKV4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)

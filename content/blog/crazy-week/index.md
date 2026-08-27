@@ -44,18 +44,17 @@ cssclasses:
 
 | Arabic       | Transliteration | IPA (Southern Levantine) | Meaning              | Context / Usage Notes                      |
 | :----------- | :-------------- | :----------------------- | :------------------- | :----------------------------------------- |
-| **مضغوط**    | *madghoot*      | /madˈɣuːtˤ/              | Pressured / Packed   | Used for work stress or a busy schedule.   |
-| **مقابلة**   | *muqabala*      | /muˈqaːbala/             | Interview            | Distinct from *muqabbilat* (appetizers).   |
-| **نضب**      | *nidub*         | /niˈdˤub/                | We pack up           | Used for moving houses or packing luggage. |
-| **نضبضب**    | *nidubdub*      | /niˈdˤubdˤub/            | We tidy up           | Used for cleaning/decluttering mess.       |
-| **ألحّق**     | *alaḥḥeq*       | /aˈlaħħeq/               | To catch up / Manage | Implies racing against time/deadlines.     |
-| **غير هيك**  | *gheir heik*    | /ɣeːr heːk/              | Other than that      | Very common connector phrase.              |
-| **القدس**    | *Il-Quds*       | /ilˈʔuds/                | Jerusalem            | *Al-Quds* is the standard Arabic name.     |
-| **مش عارفة** | *mish 'arfe*    | /miʃ ˈʕarfe/             | I don't know (f)     | Male version: *mish 'aref*.                |
-| **اليوم**    | *il-yom*        | /ilˈjoːm/                | Today                | Replaces *li-yom*.                         |
-| **الخميس**   | *il-khamis*     | /ilxaˈmiːs/              | Thursday             |                                            |
-| **الأربعا**  | *il-orb'a*      | /ilˈʔorbʕa/              | Wednesday            | Note the "O" vowel sound in dialect.       |
-
+| **مضغوط**    | _madghoot_      | /madˈɣuːtˤ/              | Pressured / Packed   | Used for work stress or a busy schedule.   |
+| **مقابلة**   | _muqabala_      | /muˈqaːbala/             | Interview            | Distinct from _muqabbilat_ (appetizers).   |
+| **نضب**      | _nidub_         | /niˈdˤub/                | We pack up           | Used for moving houses or packing luggage. |
+| **نضبضب**    | _nidubdub_      | /niˈdˤubdˤub/            | We tidy up           | Used for cleaning/decluttering mess.       |
+| **ألحّق**    | _alaḥḥeq_       | /aˈlaħħeq/               | To catch up / Manage | Implies racing against time/deadlines.     |
+| **غير هيك**  | _gheir heik_    | /ɣeːr heːk/              | Other than that      | Very common connector phrase.              |
+| **القدس**    | _Il-Quds_       | /ilˈʔuds/                | Jerusalem            | _Al-Quds_ is the standard Arabic name.     |
+| **مش عارفة** | _mish 'arfe_    | /miʃ ˈʕarfe/             | I don't know (f)     | Male version: _mish 'aref_.                |
+| **اليوم**    | _il-yom_        | /ilˈjoːm/                | Today                | Replaces _li-yom_.                         |
+| **الخميس**   | _il-khamis_     | /ilxaˈmiːs/              | Thursday             |                                            |
+| **الأربعا**  | _il-orb'a_      | /ilˈʔorbʕa/              | Wednesday            | Note the "O" vowel sound in dialect.       |
 
 ## فيديو
 
@@ -64,7 +63,8 @@ cssclasses:
 _Even as I try to lean into the Levantine dialect, I’ll probably always carry a touch of Tunisian with me 😅._
 
 ---
-*I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too.*
+
+_I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too._
 
 ---
 

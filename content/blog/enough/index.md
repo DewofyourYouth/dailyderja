@@ -65,6 +65,7 @@ cssclasses:
 {{% /examples %}}
 
 ---
+
 {{< ltr >}}
-*I post something short here most days while learning Arabic. If this helped, you'll probably like the next one too.*
+_I post something short here most days while learning Arabic. If this helped, you'll probably like the next one too._
 {{</ ltr >}}

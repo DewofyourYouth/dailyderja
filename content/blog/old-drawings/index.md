@@ -30,41 +30,46 @@ cssclasses:
 ## صور
 
 {{<figure
-    src="chozen1.jpeg"
-    alt="men saying kaddish at grave."
-    caption="رسمة لكتاب صاحبي شاي أفساي «The Cho-Zen»."
->}}
+src="chozen1.jpeg"
+alt="men saying kaddish at grave."
+caption="رسمة لكتاب صاحبي شاي أفساي «The Cho-Zen»."
+
+> }}
 
 {{<figure
-    src="chozen2.jpeg"
-    alt="man walking to shul."
-    caption="رسمة لكتاب صاحبي شاي أفساي «The Cho-Zen»."
->}}
+src="chozen2.jpeg"
+alt="man walking to shul."
+caption="رسمة لكتاب صاحبي شاي أفساي «The Cho-Zen»."
 
-
-{{<figure
-    src="sketch-page.jpeg"
-    alt="page from sketch book."
-    caption="صفحة من دفتري للرسم، وفيها رسمة إلي من انعكاسي بلمبة. عملتها كي سكنت في بالتيمور. (Baltimore, MD)"
->}}
+> }}
 
 {{<figure
-    src="still-life-1.jpeg"
-    alt="page from sketch book."
-    caption="ستيل لايف من غرفتي باليشيفا"
->}}
+src="sketch-page.jpeg"
+alt="page from sketch book."
+caption="صفحة من دفتري للرسم، وفيها رسمة إلي من انعكاسي بلمبة. عملتها كي سكنت في بالتيمور. (Baltimore, MD)"
+
+> }}
 
 {{<figure
-    src="still-life-2.jpeg"
-    alt="page from sketch book."
-    caption="ستيل لايف من غرفتي باليشيفا"
->}}
+src="still-life-1.jpeg"
+alt="page from sketch book."
+caption="ستيل لايف من غرفتي باليشيفا"
+
+> }}
 
 {{<figure
-    src="still-life-3.jpeg"
-    alt="page from sketch book."
-    caption="وحدة التكييف والتدفئة المكسورة باليشيفا بوقت حانوكا."
->}}
+src="still-life-2.jpeg"
+alt="page from sketch book."
+caption="ستيل لايف من غرفتي باليشيفا"
+
+> }}
+
+{{<figure
+src="still-life-3.jpeg"
+alt="page from sketch book."
+caption="وحدة التكييف والتدفئة المكسورة باليشيفا بوقت حانوكا."
+
+> }}
 
 ---
 
@@ -78,10 +83,10 @@ cssclasses:
 | ----------- | ------------- | ------------------------- | ------------------- |
 | **هالفترة** | /halˈfat.ra/  | lately, these days        | شامي شائع           |
 | **نلاقي**   | /nəˈlaːʔi/    | to find                   | فعل دارج (MSA: أجد) |
-| **نحوّس**    | /nħaˈwːes/    | to look for / try to find | عامي جدًا            |
+| **نحوّس**   | /nħaˈwːes/    | to look for / try to find | عامي جدًا           |
 | **مشتاق**   | /mʃˈtaːʔ/     | missing / longing for     | صفة مستخدمة كحالة   |
 | **بمراحل**  | /bmaˈraːħil/  | in stages                 | جمع مرحلة           |
-| **تصوّر**    | /taˈsˤaw.wor/ | sketches / drawings       | جمع عامي            |
+| **تصوّر**   | /taˈsˤaw.wor/ | sketches / drawings       | جمع عامي            |
 | **أغلبها**  | /ˈʔaɣ.lab.ha/ | most of them              | شائع بالمقارنة      |
 | **كرمال**   | /kərˈmaːl/    | for / for the sake of     | شامي صرف            |
 | **حالي**    | /ˈħaː.li/     | myself                    | استخدام دارج        |

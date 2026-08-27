@@ -32,21 +32,21 @@ cssclasses:
 
 ## كلام
 
-| Arabic | English | Meaning |
-| :--- | :--- | :--- |
-| كراتين | boxes | cardboard boxes |
-| غرقان | drowning | overwhelmed (literally: drowning) |
-| رتب | arrange | organize / tidy up |
-| النقلة | the move | moving house |
-| مجهود | effort | |
-| يستقر | settle down | stabilize |
-| عنجد | really | seriously / truly |
+| Arabic | English     | Meaning                           |
+| :----- | :---------- | :-------------------------------- |
+| كراتين | boxes       | cardboard boxes                   |
+| غرقان  | drowning    | overwhelmed (literally: drowning) |
+| رتب    | arrange     | organize / tidy up                |
+| النقلة | the move    | moving house                      |
+| مجهود  | effort      |                                   |
+| يستقر  | settle down | stabilize                         |
+| عنجد   | really      | seriously / truly                 |
 
 ---
 
 {{< ltr >}}
-*I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too.*
+_I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too._
 
 Photo by [hayato togashi](https://unsplash.com/@hayato_no_kiroku?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/a-woman-with-a-yellow-cone-on-her-head-is-pushing-a-cart-full-of-boxes-v-8Ht-qbZ4Y?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-      
+
 {{</ ltr >}}

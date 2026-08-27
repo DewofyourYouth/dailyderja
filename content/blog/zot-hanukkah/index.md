@@ -23,6 +23,7 @@ difficulty_level: intermediate
 cssclasses:
   - arabic-note
 ---
+
 ## يوميّات
 
 الليلة الماضية واليوم كان آخر يوم بعيد الحانوكا.
