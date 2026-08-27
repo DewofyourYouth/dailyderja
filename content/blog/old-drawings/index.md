@@ -32,44 +32,32 @@ cssclasses:
 {{<figure
 src="chozen1.jpeg"
 alt="men saying kaddish at grave."
-caption="رسمة لكتاب صاحبي شاي أفساي «The Cho-Zen»."
-
-> }}
+caption="رسمة لكتاب صاحبي شاي أفساي «The Cho-Zen»." >}}
 
 {{<figure
 src="chozen2.jpeg"
 alt="man walking to shul."
-caption="رسمة لكتاب صاحبي شاي أفساي «The Cho-Zen»."
-
-> }}
+caption="رسمة لكتاب صاحبي شاي أفساي «The Cho-Zen»." >}}
 
 {{<figure
 src="sketch-page.jpeg"
 alt="page from sketch book."
-caption="صفحة من دفتري للرسم، وفيها رسمة إلي من انعكاسي بلمبة. عملتها كي سكنت في بالتيمور. (Baltimore, MD)"
-
-> }}
+caption="صفحة من دفتري للرسم، وفيها رسمة إلي من انعكاسي بلمبة. عملتها كي سكنت في بالتيمور. (Baltimore, MD)" >}}
 
 {{<figure
 src="still-life-1.jpeg"
 alt="page from sketch book."
-caption="ستيل لايف من غرفتي باليشيفا"
-
-> }}
+caption="ستيل لايف من غرفتي باليشيفا" >}}
 
 {{<figure
 src="still-life-2.jpeg"
 alt="page from sketch book."
-caption="ستيل لايف من غرفتي باليشيفا"
-
-> }}
+caption="ستيل لايف من غرفتي باليشيفا" >}}
 
 {{<figure
 src="still-life-3.jpeg"
 alt="page from sketch book."
-caption="وحدة التكييف والتدفئة المكسورة باليشيفا بوقت حانوكا."
-
-> }}
+caption="وحدة التكييف والتدفئة المكسورة باليشيفا بوقت حانوكا." >}}
 
 ---
 

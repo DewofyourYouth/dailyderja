@@ -33,9 +33,7 @@ I haven’t made a video in a while, so yesterday I kicked off my pivot to Shami
 
 {{< youtube
 id="gAp7b2WnGx4"
-class="yt-embed"
-
-> }}
+class="yt-embed" >}}
 
 ---
 

@@ -37,33 +37,28 @@ summary: Pictures from our visit to the El Ghriba synagogue in Djerba, Tunisia.
     src="outside-sign.jpeg"
     alt="Outside the building"
     caption="اللافتة اللي بَرّا البِناية."
-    class="rtl-figure"
-    >}}
+    class="rtl-figure" >}}
 
 ---
 
 {{< figure
     src="aron-kodesh.jpeg"
     alt="The Torah Ark"
-    caption="وهون الخزانة نفسها اللي بيحطّوا فيها سِفِر التوراة."
-    >}}
+    caption="وهون الخزانة نفسها اللي بيحطّوا فيها سِفِر التوراة." >}}
 
 ---
 
 {{< figure
     src="interior-of-synagogue.jpeg"
     alt="Inside the sanctuary"
-caption="هون أنا ومرتي واقفين قدّام البيما، المكان اللي بيقروا فيه من التوراة."
-    >}}
+caption="هون أنا ومرتي واقفين قدّام البيما، المكان اللي بيقروا فيه من التوراة." >}}
 
 ---
 
 {{< figure
 src="wider-interior.jpeg"
 alt="Inside the sanctuary"
-caption="البِيْمَا بالنصّ، وهيكل التوراة باين لبعيد."
-
-> }}
+caption="البِيْمَا بالنصّ، وهيكل التوراة باين لبعيد." >}}
 
 ---
 

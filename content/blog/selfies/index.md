@@ -38,17 +38,13 @@ summary: Two photos. Seventeen years apart. Same face, different weather.
 src="college-selfy.jpeg"
 alt="A selfie of me from 17 years ago in college"
 caption=" أخدت هالسيلفي من سبعتعش سنة، وقت اللي كنت طالب مضطرب باليشيفا. وبفكّر إنّي أخدتها عالساعة تلاتة الصبح."
-class="rtl-figure"
-
-> }}
+class="rtl-figure" >}}
 
 {{< figure
 src="recent-selfy.jpeg"
 alt="A selfie of me from 12 months ago"
 caption="أخدت هالسيلفي من شهرين."
-class="rtl-figure"
-
-> }}
+class="rtl-figure" >}}
 
 ---
 

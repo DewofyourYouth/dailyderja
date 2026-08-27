@@ -34,6 +34,4 @@ series_order: 18
 
 {{< youtube
 id="7yts4VGjDto"
-class="yt-embed"
-
-> }}
+class="yt-embed" >}}

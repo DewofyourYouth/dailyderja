@@ -28,7 +28,5 @@ series_order: 3
 ## ڤيديو:
 
 {{< youtube
-id="9uTDTXxGGls"  
-class="yt-embed yt-embed--fullbleed"
-
-> }}
+id="9uTDTXxGGls"
+class="yt-embed yt-embed--fullbleed" >}}

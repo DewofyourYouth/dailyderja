@@ -51,20 +51,14 @@ toc: false
 {{< figure
 src="the-tupperware.jpg"
 alt="The Tupperware home for the fish"
-caption="بيت التَبُّروير اللي عاشوا فيه السّمكات شهر."
-
-> }}
+caption="بيت التَبُّروير اللي عاشوا فيه السّمكات شهر." >}}
 
 {{< figure
 src="tank-and-stand.jpg"
 alt="New fish tank"
-caption="الحوض الجديد."
-
-> }}
+caption="الحوض الجديد." >}}
 
 {{< figure
 src="the-troublemaker.jpg"
 alt="New fish tank"
-caption="المِشاغِب الصغَنّون."
-
-> }}
+caption="المِشاغِب الصغَنّون." >}}

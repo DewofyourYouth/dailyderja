@@ -2,8 +2,9 @@
   "name": "dailyderja",
   "private": true,
   "scripts": {
-    "format": "prettier --write \"content/**/*.md\"",
-    "format:check": "prettier --check \"content/**/*.md\""
+    "format": "prettier --write \"content/**/*.md\" && npm run verify",
+    "format:check": "prettier --check \"content/**/*.md\"",
+    "verify": "hugo --quiet --buildDrafts --destination /tmp/dailyderja-format-check && rm -rf /tmp/dailyderja-format-check"
   },
   "devDependencies": {
     "prettier": "^3.9.4"

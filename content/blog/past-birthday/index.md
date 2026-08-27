@@ -29,6 +29,4 @@ cssclasses:
 figure
 src="featured.jpeg"
 caption="هاي صورة قديمة من عيد ميلادي، قبل 20 سنة. كانت سكنت بـ-Providence, Rhode Island.<br /> تذكار من أيّام أبسط."
-alt="Old birthday picture"
-
-> }}
+alt="Old birthday picture" >}}
