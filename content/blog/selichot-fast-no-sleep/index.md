@@ -24,6 +24,7 @@ series:
 series_order: 18
 postLang: ar
 difficulty_level: easy
+pullquote: هيك كانت الأسابيع الأخيرة، بين الأعياد والصوم والصغار.
 cssclasses:
   - arabic-note
 ---
