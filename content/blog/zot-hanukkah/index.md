@@ -17,7 +17,7 @@ dialects:
   - shami
 series:
   - نسمة نهار
-series_order: 6
+series_order: 5
 postLang: ar
 difficulty_level: intermediate
 cssclasses:
