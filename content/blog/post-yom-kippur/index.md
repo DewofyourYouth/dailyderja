@@ -57,6 +57,7 @@ cssclasses:
 | بس لشحريت | /bass lʃaħˈriːt/ | «just for Shacharit» — the morning prayer service (Hebrew loanword) |
 | ما في مشكلة | /maː fiː muʃˈkele/ | «no problem» / «it's fine» |
 | عالأربعة الصبح | /ʕalʔarˈbʕa esˤˈsˤobeħ/ | «at four in the morning» |
+| نومي مخربط | /ˈnoːmi mχarˈbatˤ/ | «my sleep is messed up» / «out of whack» |
 
 ---
 {{< ltr >}}
