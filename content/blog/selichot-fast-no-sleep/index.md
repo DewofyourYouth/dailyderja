@@ -20,8 +20,8 @@ draft: false
 dialects:
   - shami
 series:
-  - نسمة نهار
-series_order: 18
+  - نسمة تقويم
+series_order: 5
 postLang: ar
 difficulty_level: easy
 pullquote: هيك كانت الأسابيع الأخيرة، بين الأعياد والصوم والصغار.
@@ -60,7 +60,6 @@ cssclasses:
 | صار لي ساعتين صاحي | /sˤɑːr li saːʕˈteːn sˤaːħi/ | «I've been awake for two hours already» |
 | وصلت عالكنيس بكّير | /wsˤelt ʕalˈkniːs bakˈkiːr/ | «I got to synagogue early» |
 
-## فيديو
 
 ---
 {{< ltr >}}

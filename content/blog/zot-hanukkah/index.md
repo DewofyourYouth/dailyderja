@@ -16,8 +16,8 @@ draft: false
 dialects:
   - shami
 series:
-  - نسمة نهار
-series_order: 5
+  - نسمة تقويم
+series_order: 2
 postLang: ar
 difficulty_level: intermediate
 cssclasses:

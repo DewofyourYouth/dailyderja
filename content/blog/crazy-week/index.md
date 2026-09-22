@@ -19,7 +19,7 @@ dialects:
   - shami
 series:
   - نسمة يوميات
-series_order: 27
+series_order: 25
 postLang: ar
 difficulty_level: intermediate
 cssclasses:

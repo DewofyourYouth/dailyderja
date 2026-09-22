@@ -15,7 +15,7 @@ dialects:
   - shami
 series:
   - نسمة يوميات
-series_order: 22
+series_order: 21
 postLang: ar
 difficulty_level: intermediate
 summary: Last night we celebrated the accomplishment of finishing Seder Moed

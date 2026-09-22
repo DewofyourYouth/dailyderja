@@ -16,8 +16,8 @@ categories:
 dialects:
   - shami
 series:
-  - نسمة فكرة
-series_order: 2
+  - نسمة تقويم
+series_order: 4
 postLang: ar
 difficulty_level: advanced
 cssclasses:

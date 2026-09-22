@@ -20,8 +20,8 @@ difficulty_level: advanced
 dialects:
   - tunisian
 series:
-  - نسمة يوميات
-series_order: 21
+  - نسمة تقويم
+series_order: 1
 ---
 
 ## تأمُّل:
