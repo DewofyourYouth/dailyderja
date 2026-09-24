@@ -37,6 +37,8 @@ ear_training: true
 لقيت شوية موسيقى تونسية ثنائي فولكلوري Ÿuma و DJ غولة - ناوي نسمعهم باش نطوّر في الفهم بالسّمع.
 {{< word ar="نَرْقُد" tn_ipa="narqod" sh="بْنَام" sh_ipa="bnaːm" meaning="I sleep; I go to sleep" pos="verb" audio="/audio/narqod.mp3" note="Tunisian uses رقد for sleeping in everyday speech. In Shami, the natural equivalent here is بنام." >}}
 
+{{< subscribe >}}
+
 لقيت شوية موسيقى تونسية ثنائي فولكلوري Ÿuma و DJ غولة - ناوي نسمعهم باش نطوّر في الفهم بالسّمع.
 
 {{< spotify "artist/1PRH2VLBHk1kMY2BFI0GQW" 360 >}}

@@ -30,6 +30,8 @@ series_order: 3
 
 جاني إيميل من Lufthansa، بدلو أوقات الطيّارة، و لازمني نقوللهم خاتر هو وقت خايب برشة! كيفاش يعملو هكّا!؟ نحاول و نجمّع نعمل حاجة باش نصلّح هذا!
 
+{{< subscribe >}}
+
 بالرغم من كلّ الإحباطات، نشكر ربّي – الحمد لله على كلّ خير هو يعمللي!
 
 Photo by [Nils Nedel](https://unsplash.com/@nilsnedel?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/airplane-on-sky-during-golden-hour-ONpGBpns3cs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)

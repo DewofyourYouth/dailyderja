@@ -34,6 +34,8 @@ cssclasses:
 
 واحدة من الأغاني اللي بحبّها من زمان، من Nina Simone.
 
+{{< subscribe >}}
+
 {{<  spotify "track/2es1IszSccn9Dzx0SD2uHj" >}}
 
 هاي شوية أغاني جديدة لقيتُهم اليوم.
@@ -44,9 +46,6 @@ cssclasses:
 
 ---
 
-{{< ltr >}}
-{{< subscribe >}}
-{{</ ltr >}}
 
 ## كلام
 

@@ -29,6 +29,8 @@ series_order: 19
 
 واحد من الـ pet peeves متاعي هو: كي واحد يعطي خطاب ويقول حاجات كيما "عندي حاجة مهمة برشة نقولها" ولا "توا تسمع حاجة مزينة برشة وأنترسانت..." قبل ما يقولها. خلّينا احنا نقرّر إذا هي مهمّة ولا مزينة ولا أنترسانت.
 
+{{< subscribe >}}
+
 وزيد، كي نشري مكلة من مطعم وعندو **تُوبِينْغ** (مثلاً شورما ولا نوا كروكيت)، موش فمّة set عادي يجي وحدو؟ علاش لازمني نفكّر شنوّة نزيد كل مرّة كي نشري من المطعم؟ علاش نمشي للمطعم كان لازمني نوريهم كيفاش يعملو خدمتهم!؟
 
 Photo by [Ryan Snaadt](https://unsplash.com/@ryansnaadt?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/man-in-white-and-blue-crew-neck-t-shirt-_LZbDkRaedE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)

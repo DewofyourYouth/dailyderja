@@ -60,7 +60,7 @@ Series landing pages live in `content/series/`.
 - `layouts/shortcodes/audio.html` — Plyr-based audio player (used for pronunciation files)
 - `layouts/shortcodes/spotify.html`, `youtube` — media embeds
 - `layouts/shortcodes/ltr.html` — wraps English/LTR text inside RTL pages
-- `layouts/shortcodes/join-channels.html`, `followit.html` — community CTAs
+- `layouts/shortcodes/subscribe.html` — email signup card (follow.it) with WhatsApp/Telegram/Discord as a secondary line; markup lives in `layouts/partials/subscribe-card.html`, which the footer also uses (compact variant). Place it after the first couple of paragraphs of a post, not at the end — most readers never scroll to the bottom. Always English/LTR, even in Arabic posts.
 
 ### Assets
 

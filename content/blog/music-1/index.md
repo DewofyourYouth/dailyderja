@@ -39,6 +39,8 @@ ear_training: true
 
 واحدة من الغنيّات اللي بحبها هي "سعيدة" من Walaa Sbait — ستايل الإندي سكا بالعربي كتير حلو!
 
+{{< subscribe >}}
+
 {{< spotify "artist/7zm6lF98wKwyohB2zFetum" 360 >}}
 
 وإذا بدك أكتر من هالستايل الإندي سكا، فيك تسمع Kazdoura!
@@ -50,9 +52,6 @@ Bedouin Burger بيمزجوا أنغام شامية بالشغل الإلكتر�
 
 ---
 
-{{< ltr >}}
-{{< subscribe >}}
-{{</ ltr >}}
 
 ## كلام:
 

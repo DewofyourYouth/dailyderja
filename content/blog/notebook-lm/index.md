@@ -31,6 +31,8 @@ To move beyond simple dialect swaps and broaden my Shami (Levantine) vocabulary,
 
 When writing about daily life, these help express mental load and habits more naturally:
 
+{{< subscribe >}}
+
 {{< cheatsheet title="Internal states & routines" titleAr="الحالة والروتين" >}}
 {{< cheat ar="معبّي" ipa="maʕˈab.bi" en="mind is full / mentally overloaded" audio="/audio/maabi.mp3" >}}
 {{< cheat ar="بزهَق" ipa="bzaˈhaʔ" en="get bored easily — esp. with repetition" audio="/audio/bzhaq.mp3" >}}
@@ -72,8 +74,6 @@ And these starters help posts flow like a native speaker's:
 {{< cheat ar="لو فيني" ipa="law ˈfiːni" en="if I could (I would have…)" tag="conditional" audio="/audio/law-fini.mp3" >}}
 {{< cheat ar="كرمال" ipa="kərmāl" en="for the sake of / for someone" audio="/audio/karmaal.mp3" >}}
 {{< /cheatsheet >}}
-
-{{< subscribe >}}
 
 ---
 

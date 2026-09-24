@@ -28,6 +28,8 @@ summary: Two photos. Seventeen years apart. Same face, different weather.
 
 والتانية أخدتها من شهرين.
 
+{{< subscribe >}}
+
 يمكن الفرق هو الهواجس اللي بتيجي بس عالـ3 الصبح.
 
 أو يمكن بعد 17 سنة تعلّمت خبّي قلقي الوجودي ورا نظّارات شمس.
@@ -48,9 +50,6 @@ class="rtl-figure" >}}
 
 ---
 
-{{< ltr >}}
-{{< subscribe >}}
-{{</ ltr >}}
 
 ## كلام
 

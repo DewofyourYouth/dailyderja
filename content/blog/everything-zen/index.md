@@ -26,15 +26,14 @@ cssclasses:
 
 كل شي عم يجي شوي شوي، وما عندي صبر. لما بفكّر بهالإحساس، بتذكّر غنية من أيّام مراهقتي: _Everything Zen_.
 
+{{< subscribe >}}
+
 {{< spotify "track/5l2DXYLyBVZWhdpgqa3a9k" >}}
 
 بس يمكن السبب إنّي عم بفكّر بهالغنية هو إنّي هلّق عم بقرأ كتاب _Zen Mind, Beginner’s Mind_. 🤷‍♂️
 
 ---
 
-{{< ltr >}}
-{{< subscribe >}}
-{{</ ltr >}}
 
 ## كلام
 

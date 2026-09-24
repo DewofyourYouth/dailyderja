@@ -34,6 +34,8 @@ cssclasses:
 
 كتير أشياء بتتغيّر بسنة وحدة: اللهجة بتتغيّر، الشغل بيتغيّر، بس Daily Derja مكفّي.
 
+{{< subscribe >}}
+
 وشفت إنه في أشياء كتير ما بتتغيّر. مثلًا، بأوّل بوست بـ Daily Derja، حكيت عن الحرب مع إيران وكيف قرأنا الخبر… وهلّق إحنا لِسّا بالحرب مع إيران. 🙄
 
 وفي إشي تاني ما اتغيّر: إنّي بتشكّى كتير! الحمد لله، أنا بخير، ومرتي بخير، وولادي بصحّة! الحمد لله، أنا واقف، لِسّا هون، ولِسّا عم بتشكّى!
@@ -41,8 +43,6 @@ cssclasses:
 إمبارح، احتفالًا بعيد الميلاد الأوّل لـ Daily Derja، كتبت بوست على [Dew of your Youth](https://dewofyouryouth.com/post/my-arabic-music-liner-notes/) عن عشرين أغنية من أغانيّي المفضّلة بالعربي.
 
 {{< featured-link url="https://dewofyouryouth.com/post/my-arabic-music-liner-notes/" >}}
-
-{{< subscribe >}}
 
 ## كلام
 

@@ -29,6 +29,8 @@ series_order: 1
 
 I haven’t made a video in a while, so yesterday I kicked off my pivot to Shami (Levantine) with a breakdown of some of the differences I kept running into between Levantine Arabic and the Tunisian Arabic I’ve been speaking so far.
 
+{{< subscribe >}}
+
 ## فيديو
 
 {{< youtube
@@ -37,9 +39,6 @@ class="yt-embed" >}}
 
 ---
 
-{{< ltr >}}
-{{< subscribe >}}
-{{</ ltr >}}
 
 ## كلام
 

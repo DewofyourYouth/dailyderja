@@ -25,6 +25,8 @@ For a while now, people have been asking me some version of:
 
 “Okay, but how do I actually _practice_ this?”
 
+{{< subscribe >}}
+
 Fair.
 
 Daily Derja is mostly observations. Phrases I hear. Things my kids say. Stuff I pick up in Ramle, Jerusalem, random government offices. It’s real Arabic. But reading it isn’t the same as drilling it.

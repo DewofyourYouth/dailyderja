@@ -37,6 +37,8 @@ categories:
 
 صار يعني إنّو الوضع تغيّر أو بلّش شي جديد.
 
+{{< subscribe >}}
+
 ### أمثلة
 
 {{% examples title="صار" titleAr="التغيير" %}}

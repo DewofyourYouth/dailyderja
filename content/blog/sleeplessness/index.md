@@ -44,6 +44,8 @@ cssclasses:
 
 عشان هيك، صحيت متأخّر كتير طول الأسبوع.
 
+{{< subscribe >}}
+
 بلّشت آخد دوا بالليل عشان أنام، بس ما عمل إشي وما فادني.
 
 مرات بسمع بودكاست للنوم اسمه "Boring History for Sleep".
@@ -53,8 +55,6 @@ cssclasses:
 إمبارح بالليل سمعت البودكاست، بس ما قدرت أنام، فسمعت كل تاريخ الموز بأمريكا اللاتينية.
 
 {{< spotify "/episode/1f6JcgPlPWh0bGvvubwn80?si=air1FeXQTP6vHkSha5uVig" >}}
-
-{{< subscribe >}}
 
 ## كلام
 

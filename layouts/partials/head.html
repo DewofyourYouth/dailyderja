@@ -264,8 +264,10 @@
   {{/* Vendor */}}
   {{ partial "vendor.html" . }}
 
-  {{/* Analytics */}}
-  {{ partial "analytics/main.html" .Site }}
+  {{/* Analytics — production only, so local `hugo server` visits stay out of GA */}}
+  {{ if hugo.IsProduction }}
+    {{ partial "analytics/main.html" .Site }}
+  {{ end }}
 
   {{/* Extend head - eg. for custom analytics scripts, etc. */}}
   {{ if templates.Exists "partials/extend-head.html" }}

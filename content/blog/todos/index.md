@@ -31,6 +31,8 @@ cssclasses:
 
 اليوم فقت بكير ورحت عالكنيس. أنا شوي متوتر لأنه عندي أشياء كثيرة لازم نعملها اليوم.
 
+{{< subscribe >}}
+
 - لازم أفحص البيت الجديد.
 - لازم نضبضب أغراضنا.
 - لازم أدرس لإمتحان الـ CKAD اللي جاي بآخر هالأسبوع.
@@ -40,7 +42,6 @@ cssclasses:
 {{< word ar="نِضَبْضِب" sh_ipa="nɪˈdˤab.dˤib" meaning="to pack up; tidy up; get things in order" pos="verb" audio="/audio/nidabdib.mp3" note="Useful moving-day Shami: not just putting things away, but restoring order when the house is chaos." >}}
 
 حاسس بضغط كبير بسبب الإمتحان والبيت.
-{{< subscribe >}}
 
 ## كلام
 

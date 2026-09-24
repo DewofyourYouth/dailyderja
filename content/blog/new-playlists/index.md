@@ -27,13 +27,14 @@ cssclasses:
 
 مؤخّرًا لقيت طريقة فيك تستعمل فيها ChatGPT وتعمل فيها playlists على سبوتيفاي. قلت لنفسي لازم ألعب فيها شوي. عملت كم playlist مشان لَمّا بروح أمشي.
 
+{{< subscribe >}}
+
 **تفضّلوا!**
 
 {{< spotify "playlist/3HQenZKSw1PiydaC1lGnji" 380 >}}
 {{< spotify "playlist/2qy7Yrtiwz7nvpkziVg6zZ" 380 >}}
 {{< spotify "playlist/5FgvkztkmMGK0tU1Mjjiu1"  >}}
 {{< spotify "playlist/7tJGHgb21aDtiiRsVH0KGt"  >}}
-{{< subscribe >}}
 {{< spotify "playlist/5L2OoENQXqMTsQFqFGHTX7"  >}}
 {{< spotify "playlist/2UL9mKdF4F0fJVrbmf1aNa"  >}}
 

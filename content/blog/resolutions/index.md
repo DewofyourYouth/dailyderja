@@ -31,4 +31,6 @@ series_order: 17
 
 عامين اللي فاتو، عملت blog اسمو [Dew of your Youth](https://dewofyouryouth.com)، و تواكا حكيت على الأهداف — [استنتجت إلّي خير نخدم على هدف واحد في نفس الوقت](https://www.dewofyouryouth.com/post/elul-5783-postmortem/). ياخي، ما عندي "الأهداف" - عندي هدف وحد!
 
+{{< subscribe >}}
+
 الهدف هو باش نوقف و نتأمّل (كل يوم لعشرة دقيقة) في كل الحوايج اللي لازمني نكون [شاكر عليهم لربي](https://www.dewofyouryouth.com/post/elul-logs-rebooted/)، و في كل الطرق اللي يبيّن بيهم محبّتو ليا و للناس الكل.

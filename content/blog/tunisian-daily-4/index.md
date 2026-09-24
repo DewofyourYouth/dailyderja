@@ -27,4 +27,6 @@ series_order: 3
 
 البارح حبيت نِمْشِي لالخدمة في تل ابيب اما لقيت ما فمماش ترين، محطة الترين يسكّر - و لكار ياخو اكثر من زوز سوايع! ما مشيتش. الليل اللي فات فرجت في إعتراض صاروخ من شبّاكتي و أنا في فرشي! خذيت الصوّار هاذم:
 
+{{< subscribe >}}
+
 ![a present from Iran](missile1.jpeg)![some more gifts from Persia](missile.jpeg)![the train station in Beit Shemesh now closed](beitshemeshtrain.jpg)

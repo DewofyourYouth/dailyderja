@@ -26,4 +26,6 @@ series_order: 2
 
 كيف عندي insomnia - ديما نلاقى بعد نرقد صاحي في فرشي لساعة ولا ساعتين - نحب نفرج أفلام أكشن. مثلأ فرجت لكل عربع افلام في Jason Bourne كي صفرت ليل امريكة و ما ينجمت نرقد في الطيّارة!
 
+{{< subscribe >}}
+
 Photo by [Corina Rainer](https://unsplash.com/@corina_rainer_?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/white-and-red-plastic-packs-9FDI-_E29fk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
