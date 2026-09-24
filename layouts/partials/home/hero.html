@@ -54,6 +54,8 @@
         <span dir="rtl" lang="ar">اليوم</span> &middot; Latest entry
       </span>
 
+      <p class="hp-hero__tagline" dir="ltr" lang="en">A daily diary in Levantine and Tunisian Arabic &mdash; real life, in real sentences, with English and audio alongside.</p>
+
       {{ if $quoteAr }}
       <a class="hp-hero__quote-link" href="{{ $latest.RelPermalink }}">
         <blockquote class="hp-hero__quote" dir="rtl" lang="ar">{{ $quoteAr }}</blockquote>
@@ -66,14 +68,21 @@
       <p class="hp-hero__caption"><a href="{{ $latest.RelPermalink }}">{{ $latest.Title }}</a> &middot; {{ $latest.Date.Format "2 January 2006" }}</p>
       {{ end }}
 
-      <a class="hp-hero__seal" href="{{ $latest.RelPermalink }}">
-        <span>Read today's entry</span>
-        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h13M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </a>
+      <div class="hp-hero__ctas">
+        <a class="hp-hero__seal" href="{{ $latest.RelPermalink }}">
+          <span>Read today's entry</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h13M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a class="hp-hero__seal hp-hero__seal--ghost" href="{{ "start/" | relLangURL }}">
+          <span>New here? Start reading</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h13M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
     </div>
   </div>
 
   <div class="hp-hero__stats">
+    <span class="hp-hero__stats-label">Browse by dialect</span>
     <a class="hp-stat hp-stat--shami" href="{{ "dialects/shami/" | relLangURL }}"><b dir="rtl" lang="ar">شامي</b> {{ $shamiCount }} Levantine notes</a>
     <a class="hp-stat hp-stat--tunisian" href="{{ "dialects/tunisian/" | relLangURL }}"><b dir="rtl" lang="ar">تونسي</b> {{ $tunCount }} Tunisian archive</a>
     <a class="hp-hero__link" href="{{ "series/" | relLangURL }}">Series</a>
@@ -97,7 +106,7 @@
 
 {{ if gt (len $moodTags) 0 }}
 <section class="hp-browse" aria-label="Browse by topic">
-  <span class="hp-browse__label">Browse by mood</span>
+  <span class="hp-browse__label">Browse by what's on my mind</span>
   {{ range $moodTags }}
   <a class="hp-chip" href="{{ (printf "/tags/%s/" (.Name | urlize)) | relLangURL }}">{{ .Name }}</a>
   {{ end }}
