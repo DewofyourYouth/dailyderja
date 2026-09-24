@@ -41,7 +41,7 @@ cssclasses:
 
 وإن شاء الله نلاقي مفاتيح السيارة قريب.
 
-{{< join-channels >}}
+{{< subscribe >}}
 
 ## كلام
 

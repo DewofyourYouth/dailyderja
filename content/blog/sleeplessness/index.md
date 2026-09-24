@@ -54,7 +54,7 @@ cssclasses:
 
 {{< spotify "/episode/1f6JcgPlPWh0bGvvubwn80?si=air1FeXQTP6vHkSha5uVig" >}}
 
-{{< join-channels >}}
+{{< subscribe >}}
 
 ## كلام
 

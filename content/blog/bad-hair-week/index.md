@@ -34,7 +34,7 @@ alt="bad haircut"
 src="featured.jpeg"
 caption="مبارح كنت عم بحلق ونسيت أركب النمرة على الماكينة. والنتيجة كانت زي ما توقعت.. كارثة!" >}}
 
-{{< followit >}}
+{{< subscribe >}}
 
 ## كلام
 

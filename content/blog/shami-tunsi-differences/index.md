@@ -38,7 +38,7 @@ class="yt-embed" >}}
 ---
 
 {{< ltr >}}
-{{< followit >}}
+{{< subscribe >}}
 {{</ ltr >}}
 
 ## كلام

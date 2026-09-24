@@ -37,7 +37,7 @@ cssclasses:
 
 {{< spotify "artist/0PfmdkL8bPMhKQ1WszR2xj" 380 >}}
 
-{{< join-channels >}}
+{{< subscribe >}}
 
 ## كلام
 

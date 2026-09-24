@@ -32,7 +32,7 @@ summary: A lot of things are changing – all at once!
 ---
 
 {{< ltr >}}
-{{< followit >}}
+{{< subscribe >}}
 {{</ ltr >}}
 
 ## كلام:

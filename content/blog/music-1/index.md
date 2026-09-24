@@ -51,7 +51,7 @@ Bedouin Burger بيمزجوا أنغام شامية بالشغل الإلكتر�
 ---
 
 {{< ltr >}}
-{{< followit >}}
+{{< subscribe >}}
 {{</ ltr >}}
 
 ## كلام:

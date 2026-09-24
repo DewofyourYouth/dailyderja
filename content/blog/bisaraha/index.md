@@ -41,7 +41,7 @@ ear_training: true
 
 **شو أكثر أغنية لزياد رحباني بتحبوها؟ وشو رأيكم بكلمات «بصراحة»؟**
 
-{{< followit >}}
+{{< subscribe >}}
 
 ## كلام
 
@@ -64,6 +64,5 @@ ear_training: true
 ---
 
 _I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too._
-{{</ ltr >}}شو أكثر أغنية لزياد رحباني بتحبوها؟ وشو رأيكم بكلمات «بصراحة»؟**
+{{</ ltr >}}
 
-{{< followit >}}

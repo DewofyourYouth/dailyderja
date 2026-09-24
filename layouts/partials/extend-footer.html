@@ -178,14 +178,14 @@ body {
 {{- $init := resources.Get "js/audio-init.js" | fingerprint -}}
 <script>
   (function () {
-    var forms = document.querySelectorAll(".followit--follow-form-container form");
+    var forms = document.querySelectorAll(".followit--follow-form-container form, .dd-sub form");
     if (!forms.length) {
       return;
     }
 
     forms.forEach(function (form) {
       form.addEventListener("submit", function () {
-        var container = form.closest(".followit--follow-form-container");
+        var container = form.closest(".followit--follow-form-container, .dd-sub");
         var location = container && container.dataset.followitLocation
           ? container.dataset.followitLocation
           : "unknown";
@@ -199,6 +199,23 @@ body {
             transport_type: "beacon"
           });
         }
+      });
+    });
+  })();
+  (function () {
+    document.addEventListener("click", function (e) {
+      var link = e.target.closest && e.target.closest("a[data-channel]");
+      if (!link || typeof window.gtag !== "function") {
+        return;
+      }
+      var container = link.closest("[data-followit-location]");
+      var location = container ? container.dataset.followitLocation : "unknown";
+      window.gtag("event", "channel_click", {
+        event_category: "channels",
+        event_label: link.dataset.channel,
+        channel: link.dataset.channel,
+        channel_location: location,
+        transport_type: "beacon"
       });
     });
   })();

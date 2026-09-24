@@ -37,7 +37,7 @@ cssclasses:
 ---
 
 {{< ltr >}}
-{{< followit >}}
+{{< subscribe >}}
 {{</ ltr >}}
 
 ## كلام

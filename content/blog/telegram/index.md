@@ -34,7 +34,7 @@ cssclasses:
 
 حتى هاي التدوينة انعملت عن طريق تيليجرام.
 
-{{< join-channels >}}
+{{< subscribe >}}
 
 ## كلام
 

@@ -49,7 +49,7 @@ dialects: ["tunisian"]
 ---
 
 {{< ltr >}}
-{{< followit >}}
+{{< subscribe >}}
 {{</ ltr >}}
 
 ## كلام «جديد»:

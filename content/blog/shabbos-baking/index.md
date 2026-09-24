@@ -61,7 +61,7 @@ series_order: 1
 ---
 
 {{< ltr >}}
-{{< followit >}}
+{{< subscribe >}}
 {{</ ltr >}}
 
 ## كلام «جديد»:

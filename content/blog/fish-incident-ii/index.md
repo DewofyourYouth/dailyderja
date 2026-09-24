@@ -39,7 +39,7 @@ cssclasses:
 
 الحمد لله نجحنا بنقل باقي السمكات لمزهريّة ورد، وغسلنا الحوض من الصابون منيح، وهيك أنقذنا السمكات اللي ضلّوا.
 
-{{< followit >}}
+{{< subscribe >}}
 
 ## كلام
 
@@ -61,7 +61,6 @@ cssclasses:
 
 {{< ltr >}}
 _I post something short here most days while learning Arabic. If this helped, you’ll probably like the next one too._
-{{< followit >}}
 
 ---
 

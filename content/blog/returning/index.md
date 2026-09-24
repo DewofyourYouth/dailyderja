@@ -48,7 +48,7 @@ cssclasses:
 
 إن شاء الله رح أرجع أعمل بوستات متل العادة.
 
-{{< join-channels >}}
+{{< subscribe >}}
 
 ## كلام
 

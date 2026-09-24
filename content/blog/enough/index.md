@@ -33,7 +33,7 @@ cssclasses:
 
 **More نسمة كلمة:** [ضعيف — Weak](/blog/weak/) · [داعي — Need, Reason](/blog/need/) · [Can, Want, Must, Would](/blog/ability-and-intent/)
 
-{{< join-channels >}}
+{{< subscribe >}}
 
 ## أمثلة
 

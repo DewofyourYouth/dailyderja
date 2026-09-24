@@ -73,7 +73,7 @@ And these starters help posts flow like a native speaker's:
 {{< cheat ar="كرمال" ipa="kərmāl" en="for the sake of / for someone" audio="/audio/karmaal.mp3" >}}
 {{< /cheatsheet >}}
 
-{{< followit >}}
+{{< subscribe >}}
 
 ---
 

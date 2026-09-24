@@ -40,7 +40,7 @@ difficulty_level: intermediate
 ---
 
 {{< ltr >}}
-{{< followit >}}
+{{< subscribe >}}
 {{</ ltr >}}
 
 ## كلام

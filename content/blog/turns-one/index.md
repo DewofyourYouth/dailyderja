@@ -42,7 +42,7 @@ cssclasses:
 
 {{< featured-link url="https://dewofyouryouth.com/post/my-arabic-music-liner-notes/" >}}
 
-{{< join-channels >}}
+{{< subscribe >}}
 
 ## كلام
 

@@ -4221,3 +4221,173 @@ a.dialect-badge:focus-visible {
   width: 100%;
   height: auto;
 }
+
+/* ================================
+   Subscribe card (layouts/shortcodes/subscribe.html)
+   One dictionary entry is the hook; everything else stays quiet.
+   ================================= */
+.dd-sub {
+  --ds-gold: var(--color-accent, #c6843a);
+  --ds-bronze: var(--color-accent-dark, #9f6429);
+  --ds-ink: #322713;
+  --ds-ink-soft: #6a5836;
+  --ds-paper: #fbf4e7;
+  --ds-field: #fffdf8;
+  --ds-line: rgba(159, 100, 41, 0.28);
+  margin: 2.75rem 0;
+}
+html.dark .dd-sub {
+  --ds-gold: var(--color-accent-light, #ebd3aa);
+  --ds-ink: #f1e4cc;
+  --ds-ink-soft: #c9b48b;
+  --ds-paper: #241c12;
+  --ds-field: #1b150d;
+  --ds-line: rgba(235, 211, 170, 0.22);
+}
+
+.dd-sub-card {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) auto;
+  border: 1px solid var(--ds-line);
+  border-radius: 12px;
+  background: var(--ds-paper);
+  box-shadow: 0 8px 22px -18px rgba(56, 38, 12, 0.5);
+}
+
+.dd-sub-main {
+  padding: clamp(1.25rem, 4vw, 1.75rem) clamp(1.25rem, 4vw, 2rem);
+}
+.dd-sub .dd-sub-heading {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(1.3rem, 2.6vw, 1.55rem);
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+  color: var(--ds-ink);
+}
+.dd-sub .dd-sub-text {
+  margin: 0.4rem 0 0;
+  max-width: 34em;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--ds-ink-soft);
+}
+
+.dd-sub-form {
+  display: flex !important;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1.1rem 0 0;
+}
+.dd-sub-form input[type="email"] {
+  flex: 1 1 12rem;
+  min-width: 0;
+  padding: 0.65rem 0.9rem;
+  border-radius: 10px;
+  border: 1px solid var(--ds-line);
+  background: var(--ds-field);
+  color: var(--ds-ink);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.3;
+  direction: ltr !important; /* site-wide RTL rules use !important */
+  text-align: start;
+}
+.dd-sub-form input[type="email"]::placeholder { color: var(--ds-ink-soft); opacity: 0.65; }
+.dd-sub-form input[type="email"]:focus {
+  outline: none;
+  border-color: var(--ds-bronze);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--ds-gold) 28%, transparent);
+}
+.dd-sub-form button {
+  flex: 0 0 auto;
+  padding: 0.65rem 1.2rem;
+  border: 0;
+  border-radius: 10px;
+  background: var(--ds-bronze);
+  color: #fff;
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.3;
+  cursor: pointer;
+}
+.dd-sub-form button:hover { background: #87531f; }
+.dd-sub-form button:focus-visible { outline: 2px solid var(--ds-bronze); outline-offset: 3px; }
+
+.dd-sub .dd-sub-channels,
+.dd-sub .dd-sub-fine {
+  margin: 0.9rem 0 0;
+  font-family: var(--font-body);
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: var(--ds-ink-soft);
+}
+.dd-sub .dd-sub-fine { margin-top: 0.2rem; font-size: 0.8rem; opacity: 0.8; }
+.dd-sub-channels a,
+.dd-sub-fine a {
+  color: var(--ds-ink) !important;
+  text-decoration: underline !important;
+  text-decoration-color: var(--ds-line) !important;
+  text-underline-offset: 3px;
+}
+.dd-sub-channels a:hover,
+.dd-sub-fine a:hover { text-decoration-color: currentColor !important; }
+.dd-sub-channels a { font-weight: 600; white-space: nowrap; }
+.dd-sub-channels a:focus-visible,
+.dd-sub-fine a:focus-visible { outline: 2px solid var(--ds-bronze); outline-offset: 2px; border-radius: 2px; }
+
+/* the entry: a preview of what the emails teach */
+.dd-sub-word {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.35rem;
+  min-width: 9.5rem;
+  padding: 1.25rem clamp(1.25rem, 3vw, 2rem);
+  border-inline-start: 1px dashed var(--ds-line);
+  text-align: center;
+}
+.dd-sub .dd-sub-word__ar {
+  margin: 0;
+  font-family: "Lalezar", system-ui, sans-serif;
+  font-weight: 400;
+  font-size: clamp(3.2rem, 7vw, 4.25rem);
+  line-height: 1.05;
+  color: var(--ds-bronze);
+}
+html.dark .dd-sub .dd-sub-word__ar { color: var(--ds-gold); }
+.dd-sub .dd-sub-word__ipa {
+  font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  font-size: 0.82rem;
+  color: var(--ds-bronze);
+  opacity: 0.8;
+}
+html.dark .dd-sub .dd-sub-word__ipa { color: var(--ds-gold); }
+.dd-sub .dd-sub-word__en {
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: 1rem;
+  color: var(--ds-ink);
+}
+
+@media (max-width: 36rem) {
+  .dd-sub-card { grid-template-columns: 1fr; }
+  .dd-sub-word {
+    order: -1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    gap: 0.2rem 0.75rem;
+    padding: 1.1rem 1.25rem 0.9rem;
+    border-inline-start: 0;
+    border-bottom: 1px dashed var(--ds-line);
+    text-align: start;
+  }
+  .dd-sub .dd-sub-word__ar { font-size: 2.6rem; }
+}

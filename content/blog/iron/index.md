@@ -31,7 +31,7 @@ cssclasses:
 
 {{< recall ar="حديد" translit="hadid" meaning="iron" mnemonic="Placeholder mnemonic for hadid." audio="/audio/hadid.mp3" image="placeholder-flashcard.jpg" imageAlt="The Daily Derja flashcard for حديد, iron" >}}
 
-{{< join-channels >}}
+{{< subscribe >}}
 
 ## أمثلة
 

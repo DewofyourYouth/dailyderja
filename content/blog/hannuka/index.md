@@ -42,7 +42,7 @@ Written on the train ride back...
 ---
 
 {{< ltr >}}
-{{< followit >}}
+{{< subscribe >}}
 {{</ ltr >}}
 
 ## كلام

@@ -47,7 +47,7 @@ cssclasses:
 
 بس ما في مشكلة. هلأ أنا بروح عالكنيس بس لشحريت، وبعدين برجع أنام.
 
-{{< join-channels >}}
+{{< subscribe >}}
 ## كلام
 
 | Arabic | IPA | Meaning |

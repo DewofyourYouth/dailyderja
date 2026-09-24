@@ -29,7 +29,7 @@ series_order: 12
 ---
 
 {{< ltr >}}
-{{< followit >}}
+{{< subscribe >}}
 {{</ ltr >}}
 
 ## كلام «جديد»:

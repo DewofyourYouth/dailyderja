@@ -49,7 +49,7 @@ class="rtl-figure" >}}
 ---
 
 {{< ltr >}}
-{{< followit >}}
+{{< subscribe >}}
 {{</ ltr >}}
 
 ## كلام

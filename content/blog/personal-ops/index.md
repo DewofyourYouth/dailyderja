@@ -47,7 +47,7 @@ cssclasses:
 
 رح أعرض جملة عمرها قرون، لبّستها Python.
 
-{{< join-channels >}}
+{{< subscribe >}}
 
 ## كلام
 

@@ -28,7 +28,7 @@ summary: Last night we celebrated the accomplishment of finishing Seder Moed
 ---
 
 {{< ltr >}}
-{{< followit >}}
+{{< subscribe >}}
 {{</ ltr >}}
 
 ## كلام

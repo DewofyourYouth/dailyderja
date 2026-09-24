@@ -1,0 +1,41 @@
+{{/* layouts/shortcodes/subscribe.html
+     Email-first signup card. Always English + LTR, even inside Arabic posts:
+     learners shouldn't have to decode the signup form. The Arabic entry on the
+     side is the hook — a preview of what the emails teach. */}}
+{{- $heading     := .Get "heading"     | default "Tomorrow’s post, in your inbox" -}}
+{{- $sub         := .Get "sub"         | default "Short Shami diary entries most days, with the useful phrases broken down like the one here." -}}
+{{- $placeholder := .Get "placeholder" | default "you@email.com" -}}
+{{- $button      := .Get "button"      | default "Email me" -}}
+{{- $wordAr      := .Get "ar"          | default "بكرا" -}}
+{{- $wordIpa     := .Get "ipa"         | default "ˈbuk.ra" -}}
+{{- $wordEn      := .Get "en"          | default "tomorrow" -}}
+{{- $location    := .Get "location"    | default "post-card" -}}
+{{- $action := "https://api.follow.it/subscription-form/NFR6ZTY5clNEOCtldFRHUldsU2FGMlhuNUNPWFVTd01IMnNFNGVuR0xuT2tlTjBGSzRDK05IOFAvK1h2WUUreWZkdUJMM01XUDE0UUI3WnZERlQvNjNBNFdJT3VIcDJnZVY2M0tLM2cwRWc1MGVJSEtucnRwdUJLNXhKelowbHJ8QTlPdFZsa1Z5bk13RlQ4U2tCNW1haTd4bnJZVnhmSmdxVHNQQ2t2OURNYz0=/8" -}}
+
+<aside class="not-prose dd-sub" dir="ltr" lang="en" data-followit-location="{{ $location }}">
+  <div class="dd-sub-card">
+    <div class="dd-sub-main">
+      <p class="dd-sub-heading">{{ $heading }}</p>
+      <p class="dd-sub-text">{{ $sub }}</p>
+
+      <form class="dd-sub-form" action="{{ $action }}" method="post">
+        <input type="email" dir="ltr" name="email" required placeholder="{{ $placeholder }}" spellcheck="false" autocomplete="email" aria-label="Email address">
+        <button type="submit">{{ $button }}</button>
+      </form>
+
+      <p class="dd-sub-channels">
+        Rather use
+        <a href="https://whatsapp.com/channel/0029VbBwSpQ7tkjIkExMTA2e" target="_blank" rel="noopener noreferrer" data-channel="whatsapp">WhatsApp</a>,
+        <a href="https://t.me/+muANXhcSRCdmMDA0" target="_blank" rel="noopener noreferrer" data-channel="telegram">Telegram</a>, or
+        <a href="https://discord.gg/wZuMGdUr3H" target="_blank" rel="noopener noreferrer" data-channel="discord">Discord</a>?
+      </p>
+      <p class="dd-sub-fine">Delivered by <a href="https://follow.it" target="_blank" rel="noopener">follow.it</a>. Unsubscribe anytime.</p>
+    </div>
+
+    <div class="dd-sub-word">
+      <p class="dd-sub-word__ar" lang="ar" dir="rtl">{{ $wordAr }}</p>
+      <span class="dd-sub-word__ipa">/{{ $wordIpa }}/</span>
+      <span class="dd-sub-word__en">{{ $wordEn }}</span>
+    </div>
+  </div>
+</aside>

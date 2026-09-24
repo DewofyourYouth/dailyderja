@@ -29,7 +29,7 @@ cssclasses:
 
 وهيك صارت حياتي. ما بقول لحالي «لازم أعزّل البيت»، بس بقول: «اعملي كرتونة وحدة». وهلا، كتبت Daily Derja وحدة!
 
-{{< followit >}}
+{{< subscribe >}}
 {{< youtube  id="Yl6s6DGapug" class="yt-embed yt-embed--fullbleed" >}}
 
 ---

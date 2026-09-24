@@ -42,7 +42,7 @@ summary: Some confusing graffiti in Tel Aviv.
 ---
 
 {{< ltr >}}
-{{< followit >}}
+{{< subscribe >}}
 {{</ ltr >}}
 
 ## كلام

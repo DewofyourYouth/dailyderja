@@ -33,7 +33,7 @@ cssclasses:
 {{< spotify "playlist/2qy7Yrtiwz7nvpkziVg6zZ" 380 >}}
 {{< spotify "playlist/5FgvkztkmMGK0tU1Mjjiu1"  >}}
 {{< spotify "playlist/7tJGHgb21aDtiiRsVH0KGt"  >}}
-{{< followit >}}
+{{< subscribe >}}
 {{< spotify "playlist/5L2OoENQXqMTsQFqFGHTX7"  >}}
 {{< spotify "playlist/2UL9mKdF4F0fJVrbmf1aNa"  >}}
 

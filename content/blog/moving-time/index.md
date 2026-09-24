@@ -29,7 +29,7 @@ cssclasses:
 
 هلّق لازمنا نضبّ كل شي بالشقة.
 
-{{< followit >}}
+{{< subscribe >}}
 
 ## كلام
 
