@@ -2534,6 +2534,83 @@ a.dialect-badge:focus-visible {
     linear-gradient(155deg, #0e1a28 0%, #13243a 100%);
 }
 
+.dterm__begin {
+  position: relative;
+  z-index: 2;
+  margin-top: clamp(1.6rem, 3.5vw, 2.4rem);
+  padding-top: clamp(1.3rem, 3vw, 1.8rem);
+  border-top: 1px solid color-mix(in srgb, var(--dt) 22%, transparent);
+}
+.dterm__begin-label {
+  display: block;
+  margin-bottom: 0.7rem;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--dt-soft);
+}
+.dterm__begin-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+.dterm__begin-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  padding: 0.5em 1em;
+  border-radius: 999px;
+  border: 1px solid color-mix(in srgb, var(--dt) 35%, transparent);
+  font-family: var(--font-body);
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--dt-text);
+  text-decoration: none !important;
+  transition: background-color 0.15s ease, transform 0.15s ease;
+}
+.dterm__begin-item:hover { background: color-mix(in srgb, var(--dt) 10%, transparent); transform: translateY(-1px); }
+.dterm__begin-num {
+  font-family: var(--font-display);
+  font-weight: 700;
+  color: var(--dt);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .dterm__begin-item { transition: none; }
+}
+
+.dd-diff-filter {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 0 0 1.8rem;
+}
+.dd-diff-filter__label {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--color-accent-dark, #9f6429);
+  margin-inline-end: 0.2rem;
+}
+.dd-diff-filter__btn {
+  padding: 0.4em 1em;
+  border-radius: 999px;
+  border: 1px solid var(--color-accent, #c6843a);
+  background: transparent;
+  color: var(--color-accent-dark, #9f6429);
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+.dd-diff-filter__btn:hover { background: color-mix(in srgb, var(--color-accent, #c6843a) 12%, transparent); }
+.dd-diff-filter__btn.is-active {
+  background: var(--color-accent, #c6843a);
+  color: #fff;
+}
+
 @media (max-width: 760px) {
   .dterm__inner { grid-template-columns: 1fr; }
   .dterm__emblem { order: -1; justify-content: flex-start; }

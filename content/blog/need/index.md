@@ -31,6 +31,8 @@ cssclasses:
 
 {{< recall ar="داعي" translit="da3i" meaning="Need, Reason, Call for" mnemonic="I need to dye (my hair)!" note="Add recall note here." audio="/audio/daia.mp3" image="daaie-flashcard.jpg" imageAlt="The Daily Derja flashcard for داعي, Need, Reason, Call for" >}}
 
+**More نسمة كلمة:** [ضعيف — Weak](/blog/weak/) · [كفاية — Enough](/blog/enough/) · [Can, Want, Must, Would](/blog/ability-and-intent/)
+
 {{< join-channels >}}
 
 ## أمثلة

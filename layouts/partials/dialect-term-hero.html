@@ -29,4 +29,21 @@
       </span>
     </div>
   </div>
+
+  {{- $beginSlugs := cond $isTun (slice) (slice "daily-routine" "fish-tale" "trip-to-ramla") -}}
+  {{- if $beginSlugs -}}
+  <div class="dterm__begin">
+    <span class="dterm__begin-label">New to {{ $ar }}? Begin with these three</span>
+    <div class="dterm__begin-list">
+      {{- range $i, $slug := $beginSlugs -}}
+        {{- with site.GetPage (printf "/blog/%s" $slug) -}}
+        <a class="dterm__begin-item" href="{{ .RelPermalink }}">
+          <span class="dterm__begin-num">0{{ add $i 1 }}</span>
+          <span class="dterm__begin-title">{{ .Title }}</span>
+        </a>
+        {{- end -}}
+      {{- end -}}
+    </div>
+  </div>
+  {{- end -}}
 </section>

@@ -31,6 +31,8 @@ cssclasses:
 
 {{< recall ar="كفاية" translit="kfāya" meaning="enough; sufficient" mnemonic="**Enough** with these kaffiyas!" note="kfāya sounds like kaffiya — the headscarf." audio="/audio/kfaya.mp3" image="enough-flashcard.jpg" imageAlt="The Daily Derja flashcard for كفاية, enough" >}}
 
+**More نسمة كلمة:** [ضعيف — Weak](/blog/weak/) · [داعي — Need, Reason](/blog/need/) · [Can, Want, Must, Would](/blog/ability-and-intent/)
+
 {{< join-channels >}}
 
 ## أمثلة

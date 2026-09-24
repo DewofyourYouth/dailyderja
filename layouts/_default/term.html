@@ -36,10 +36,38 @@
   {{ end }}
 
   {{/* ---- Shared post list ---- */}}
+  {{ $isDialect := eq .Data.Singular "dialect" }}
   {{ if gt .Pages 0 }}
     {{ $cardView := .Params.cardView | default (site.Params.term.cardView | default false) }}
     {{ $cardViewScreenWidth := site.Params.term.cardViewScreenWidth | default false }}
     {{ $groupByYear := .Params.groupByYear | default (site.Params.term.groupByYear | default false) }}
+
+    {{ if $isDialect }}
+      <div class="dd-diff-filter" role="group" aria-label="Filter by difficulty">
+        <span class="dd-diff-filter__label">Filter by difficulty</span>
+        <button type="button" class="dd-diff-filter__btn is-active" data-diff-filter="all">All</button>
+        <button type="button" class="dd-diff-filter__btn" data-diff-filter="easy">Easy</button>
+        <button type="button" class="dd-diff-filter__btn" data-diff-filter="intermediate">Intermediate</button>
+        <button type="button" class="dd-diff-filter__btn" data-diff-filter="advanced">Advanced</button>
+      </div>
+      <script>
+        (function () {
+          var group = document.currentScript.previousElementSibling;
+          if (!group) return;
+          group.addEventListener("click", function (e) {
+            var btn = e.target.closest("[data-diff-filter]");
+            if (!btn) return;
+            var level = btn.dataset.diffFilter;
+            group.querySelectorAll(".dd-diff-filter__btn").forEach(function (b) {
+              b.classList.toggle("is-active", b === btn);
+            });
+            document.querySelectorAll("[data-difficulty]").forEach(function (item) {
+              item.style.display = (level === "all" || item.dataset.difficulty === level) ? "" : "none";
+            });
+          });
+        })();
+      </script>
+    {{ end }}
 
     {{ if not $cardView }}
       <section class="space-y-10 w-full">
@@ -50,7 +78,13 @@
             </h2>
           {{ end }}
           {{ range .Pages }}
-            {{ partial "article-link/simple.html" . }}
+            {{ if $isDialect }}
+            <div data-difficulty="{{ .Params.difficulty_level }}">
+              {{ partial "article-link/simple.html" . }}
+            </div>
+            {{ else }}
+              {{ partial "article-link/simple.html" . }}
+            {{ end }}
           {{ end }}
         {{ end }}
       </section>
