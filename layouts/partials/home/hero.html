@@ -31,6 +31,8 @@
   <span class="hp-hero__corner hp-hero__corner--bl">{{ $medallion | safeHTML }}</span>
   <span class="hp-hero__corner hp-hero__corner--br">{{ $medallion | safeHTML }}</span>
 
+  <p class="hp-hero__tagline" dir="ltr" lang="en">A daily diary in Levantine and Tunisian Arabic &mdash; real life, in real sentences, with English and audio alongside.</p>
+
   {{ $seriesTerm := "" }}
   {{ with $latest.GetTerms "series" }}{{ $seriesTerm = index . 0 }}{{ end }}
 
@@ -53,8 +55,6 @@
         {{ $breeze | safeHTML }}
         <span dir="rtl" lang="ar">اليوم</span> &middot; Latest entry
       </span>
-
-      <p class="hp-hero__tagline" dir="ltr" lang="en">A daily diary in Levantine and Tunisian Arabic &mdash; real life, in real sentences, with English and audio alongside.</p>
 
       {{ if $quoteAr }}
       <a class="hp-hero__quote-link" href="{{ $latest.RelPermalink }}">

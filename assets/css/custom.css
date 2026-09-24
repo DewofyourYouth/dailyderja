@@ -1028,8 +1028,14 @@ section.article-ltr {
 .hp-hero__eyebrow svg { width: 1.6em; height: 1.05em; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; opacity: 0.85; }
 
 .hp-hero__tagline {
-  margin: 0 0 1.3rem;
-  max-width: 34em;
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  padding: clamp(1.6rem, 4vw, 2.4rem) clamp(1.5rem, 4vw, 3.75rem) clamp(1.3rem, 3vw, 1.8rem);
+  max-width: 40em;
+  margin-inline: auto;
+  border-bottom: 1px solid var(--h-line);
+  text-align: center;
   font-family: var(--font-body);
   font-weight: 500;
   font-size: var(--dd-quote-size, clamp(1.15rem, 0.6vw + 1rem, 1.35rem));
