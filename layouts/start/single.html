@@ -13,6 +13,9 @@
     --gold-sf:  #ebd3aa;
     --espresso: #221a11;
     --line:     rgba(44, 36, 25, .14);
+    /* fixed — never flips in dark mode; .dd-coda is deliberately an always-dark
+       box (espresso bg regardless of theme) and needs light text in both modes */
+    --cream:    #fbf4e7;
 
     --serif:   "Newsreader", Georgia, "Times New Roman", serif;
     --display: "Fraunces", Georgia, serif;
@@ -20,12 +23,32 @@
 
     position: relative;
     margin: 0 auto;
-    padding: clamp(1.4rem, 3vw, 3rem) 0 0;
+    padding: clamp(1.2rem, 2.5vw, 2.4rem) clamp(0.9rem, 2.2vw, 1.6rem) 0;
+    background: var(--paper);
     color: var(--ink);
     font-family: var(--serif);
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
   }
+  /* This page hardcodes a warm-paper palette that doesn't participate in the
+     site's light/dark toggle by default (no .dark overrides existed at all,
+     which made it illegible in dark mode — dark ink text on the theme's dark
+     page background). Flip paper/ink/line so the page stays a self-contained,
+     legible "paper" card in either mode; gold/espresso/cream deliberately
+     don't flip — they're already tuned to work against both. */
+  .dark .dd-start {
+    --paper:    #241c12;
+    --paper-2:  #2c2114;
+    --ink:      #f1e4cc;
+    --ink-soft: #cbb68d;
+    --ink-mute: #a4916c;
+    --line:     rgba(235, 211, 170, 0.18);
+  }
+  .dark .dd-start::before { opacity: .18; mix-blend-mode: overlay; }
+  .dark .dd-taste { background: rgba(28, 22, 14, .78); }
+  .dark .dd-letter__body strong { box-shadow: inset 0 -.5em 0 rgba(198, 132, 58, 0.32); }
+  .dark .dd-chip:hover { background: var(--gold-sf); color: var(--espresso) !important; }
+  .dark .dd-chip:hover .en { color: var(--espresso); }
   .dd-start :is(h1, h2, h3) { font-family: var(--display); font-weight: 500; }
 
   /* paper grain laid over everything in this page */
@@ -44,7 +67,7 @@
     border-radius: 26px;
     background: linear-gradient(160deg, var(--paper) 0%, var(--paper-2) 100%);
     border: 1px solid var(--line);
-    padding: clamp(2rem, 4vw, 3.4rem) clamp(1.6rem, 4vw, 3.6rem);
+    padding: clamp(1.8rem, 3.5vw, 3rem) clamp(1.5rem, 3.5vw, 3.2rem);
     box-shadow: 0 30px 60px -38px rgba(60, 42, 16, .5);
   }
   /* morning-light glow */
@@ -182,7 +205,7 @@
     margin: clamp(2.5rem, 6vw, 4rem) 0 clamp(2rem, 5vw, 3.5rem);
     border-radius: 26px; padding: clamp(3rem, 7vw, 5rem) 1.5rem;
     background: radial-gradient(120% 130% at 50% 0%, #3a2c19 0%, var(--espresso) 70%);
-    color: var(--paper);
+    color: var(--cream);
   }
   .dd-coda::after {
     content: ""; position: absolute; inset: 0; pointer-events: none;

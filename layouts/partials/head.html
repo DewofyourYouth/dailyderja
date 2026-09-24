@@ -104,6 +104,7 @@
   {{ with resources.Get "js/katex-render.js" }}{{ $jsResources = $jsResources | append . }}{{ end }}
   {{ with resources.Get "js/print-support.js" }}{{ $jsResources = $jsResources | append . }}{{ end }}
   {{ with resources.Get "js/tutor-cta.js" }}{{ $jsResources = $jsResources | append . }}{{ end }}
+  {{ with resources.Get "js/community-cta.js" }}{{ $jsResources = $jsResources | append . }}{{ end }}
   {{ if $jsResources }}
     {{ $bundleJS := $jsResources | resources.Concat "js/main.bundle.js" | resources.Minify | resources.Fingerprint $alg }}
     <script
