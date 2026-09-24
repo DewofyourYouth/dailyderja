@@ -52,6 +52,10 @@ cssclasses:
 | بحلم إنه ييجي يوم      | /baħlam ʔinno yiːʒi yoːm/    | I dream that a day will come        |
 | زلمات                  | /zlaˈmaːt/                  | guys, men («زلمة» = zalame, sing.)  |
 
+## فيديو
+
+{{< youtube id="Ch0KIw96mr8" class="yt-embed" >}}
+
 ---
 {{< ltr >}}
 *I post something short here most days while learning Arabic. If this helped, you'll probably like the next one too.*
