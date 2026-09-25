@@ -17,7 +17,7 @@ dialects:
   - tunisian
 summary: Some surprizing things I hate.
 series:
-  - نسمة يوميات
+  - نسمة نهار
 series_order: 19
 ---
 

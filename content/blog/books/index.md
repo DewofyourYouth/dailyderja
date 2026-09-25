@@ -17,7 +17,7 @@ summary: I discuss two books I'm currently reading.
 categories:
   - language-learning
 series:
-  - نسمة شغلة
+  - نسمة فكرة
 series_order: 3
 ---
 

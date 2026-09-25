@@ -11,8 +11,8 @@ tags:
   - slow-morning
   - hot-coffee
 series:
-  - نسمة قهوة
-series_order: 1
+  - نسمة طعمة
+series_order: 2
 postLang: ar
 difficulty_level: easy
 categories:

@@ -16,7 +16,7 @@ tags:
   - work-life
   - rant
 series:
-  - نسمة يوميات
+  - نسمة نهار
 series_order: 11
 ---
 

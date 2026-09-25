@@ -20,7 +20,7 @@ dialects:
   - tunisian
 series:
   - نسمة كلمة
-series_order: 4
+series_order: 5
 postLang: ar
 difficulty_level: easy
 cssclasses:

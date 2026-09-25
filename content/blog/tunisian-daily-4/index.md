@@ -21,7 +21,7 @@ dialects:
   - tunisian
 description: "Tunisian Daily Journal: Entry 4"
 series:
-  - نسمة يوميات
+  - نسمة نهار
 series_order: 3
 ---
 

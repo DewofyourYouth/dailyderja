@@ -15,7 +15,7 @@ dialects:
 categories:
   - blog-meta
 series:
-  - نسمة يوميات
+  - نسمة نهار
 series_order: 15
 ---
 

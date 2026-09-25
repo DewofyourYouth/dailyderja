@@ -21,7 +21,7 @@ dialects:
   - shami
 series:
   - نسمة كلمة
-series_order: 2
+series_order: 3
 postLang: en
 difficulty_level: easy
 cssclasses:

@@ -8,7 +8,7 @@ postLang: ar
 difficulty_level: easy
 series:
   - نسمة كلمة
-series_order: 1
+series_order: 2
 dialects:
   - shami
 tags:

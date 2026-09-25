@@ -15,8 +15,8 @@ draft: false
 dialects:
   - shami
 series:
-  - نسمة يوميات
-series_order: 23
+  - نسمة نهار
+series_order: 28
 postLang: ar
 difficulty_level: easy
 cssclasses:

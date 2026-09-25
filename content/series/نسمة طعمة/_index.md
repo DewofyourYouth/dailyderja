@@ -1,8 +1,10 @@
 ---
 title: "نسمة طعمة"
-description: "Taste Breeze logs coffee, food, and small tasting moments—café vibes in Arabic."
+description: "Taste Breeze logs food and drink in Arabic: coffee, baking, and small tasting moments."
 ipa: "/ˈnas.ma ˈtˤaʕ.me/"
 english: "Taste Breeze"
+aliases:
+  - /series/نسمة-قهوة/
 ---
 
-**Taste Breeze** logs coffee, food, and small tasting moments—café vibes in Arabic.
+**Taste Breeze** logs food and drink in Arabic: coffee, baking, and small tasting moments.

@@ -20,7 +20,7 @@ dialects:
   - shami
 series:
   - نسمة طعمة
-series_order: 2
+series_order: 3
 postLang: ar
 difficulty_level: advanced
 cssclasses:

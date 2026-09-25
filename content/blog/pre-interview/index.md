@@ -19,7 +19,7 @@ series:
 postLang: ar
 difficulty_level: easy
 summary: The pre-interview jitters.
-series_order: 2
+series_order: 23
 ---
 
 ## يوميّات

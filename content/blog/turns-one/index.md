@@ -18,8 +18,8 @@ draft: false
 dialects:
   - shami
 series:
-  - نسمة لحظة
-series_order: 1
+  - Meta
+series_order: 8
 postLang: ar
 difficulty_level: intermediate
 cssclasses:

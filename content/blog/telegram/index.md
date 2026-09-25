@@ -16,8 +16,8 @@ draft: false
 dialects:
   - shami
 series:
-  - نسمة شغلة
-series_order: 4
+  - Meta
+series_order: 9
 postLang: ar
 difficulty_level: easy
 cssclasses:

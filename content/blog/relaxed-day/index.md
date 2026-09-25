@@ -16,7 +16,7 @@ dialects:
 categories:
   - daily-life
 series:
-  - نسمة يوميات
+  - نسمة نهار
 series_order: 12
 ---
 

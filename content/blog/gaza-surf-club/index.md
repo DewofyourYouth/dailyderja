@@ -18,7 +18,7 @@ dialects:
   - shami
 series:
   - نسمة فكرة
-series_order: 2
+series_order: 5
 postLang: ar
 difficulty_level: intermediate
 pullquote: وبحلم إنه ييجي يوم أقدر أشرب قهوة مع زلمات بغزة.

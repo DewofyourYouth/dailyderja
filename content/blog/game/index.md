@@ -18,7 +18,7 @@ difficulty_level: intermediate
 dialects:
   - tunisian
 series:
-  - نسمة شغلة
+  - نسمة فكرة
 series_order: 1
 ---
 

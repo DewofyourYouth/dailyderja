@@ -1,8 +1,10 @@
 ---
 title: "نسمة فكرة"
-description: "Idea Breeze gathers light ideas sparked by Arabic or culture—thoughtful but easy."
+description: "Idea Breeze gathers ideas and opinions in Arabic: books, films, games, and culture."
 ipa: "/ˈnas.ma ˈfik.ra/"
 english: "Idea Breeze"
+aliases:
+  - /series/نسمة-شغلة/
 ---
 
-**Idea Breeze** gathers light ideas sparked by Arabic or culture—thoughtful but easy.
+**Idea Breeze** gathers ideas and opinions in Arabic: books, films, games, and culture.

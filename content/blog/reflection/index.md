@@ -18,7 +18,7 @@ dialects:
 summary: Reflecting on my experience learning Derja before going to an engagement
   party.
 series:
-  - نسمة يوميات
+  - نسمة نهار
 series_order: 20
 ---
 

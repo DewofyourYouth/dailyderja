@@ -15,7 +15,7 @@ dialects:
   - shami
 series:
   - نسمة نهار
-series_order: 1
+series_order: 21
 summary: A lot of things are changing – all at once!
 ---
 

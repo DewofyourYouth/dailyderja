@@ -16,7 +16,7 @@ difficulty_level: advanced
 dialects:
   - tunisian
 series:
-  - نسمة يوميات
+  - نسمة نهار
 series_order: 17
 ---
 

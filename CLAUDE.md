@@ -87,23 +87,18 @@ The site pivoted from Tunisian (Derja) to **Shami (Levantine)** as the primary d
 
 Each series is named **نسمة X** ("Nasmat X" = "a breeze of X"). Posts use `series_order` to sequence within a series.
 
-| Series      | English         | Focus                                       |
-| ----------- | --------------- | ------------------------------------------- |
-| نسمة يوميات | Diary Breeze    | General Arabic journaling (catch-all)       |
-| نسمة نهار   | Day Breeze      | Daily micro-journal of moods and moments    |
-| نسمة كلمة   | Word Breeze     | Quick Shami vocab drops                     |
-| نسمة نغمة   | Melody Breeze   | Levantine music & ear training              |
-| نسمة صورة   | Picture Breeze  | Single-photo caption stories                |
-| نسمة قصة    | Story Breeze    | Short Shami narratives (family life, humor) |
-| نسمة قهوة   | Coffee Breeze   | Café/coffee journal                         |
-| نسمة طعمة   | Taste Breeze    | Food & tasting moments                      |
-| نسمة فكرة   | Idea Breeze     | Light cultural ideas                        |
-| نسمة لهجة   | Dialect Breeze  | Tunisian vs. Levantine comparisons          |
-| نسمة مشوار  | Journey Breeze  | Walks, commutes, errands                    |
-| نسمة لحظة   | Moment Breeze   | One-snapshot posts                          |
-| نسمة شغلة   | Thing Breeze    | Quirky finds and links                      |
-| نسمة تقويم  | Calendar Breeze | Jewish holidays and fasts through the year  |
-| Meta        | Meta            | Behind-the-scenes tools and workflow notes  |
+| Series     | English         | Focus                                                        |
+| ---------- | --------------- | ------------------------------------------------------------ |
+| نسمة نهار  | Day Breeze      | Daily micro-journal: moods, routines, small life shifts (default) |
+| نسمة قصة   | Story Breeze    | Short Shami narratives with an arc (family life, humor)      |
+| نسمة مشوار | Journey Breeze  | Trips, walks, commutes, errands                              |
+| نسمة صورة  | Picture Breeze  | Single-photo caption stories                                 |
+| نسمة نغمة  | Melody Breeze   | Levantine music & ear training                               |
+| نسمة كلمة  | Word Breeze     | Language notes: vocab, phrases, grammar, dialect comparisons |
+| نسمة طعمة  | Taste Breeze    | Food & drink: coffee, baking, tasting moments                |
+| نسمة فكرة  | Idea Breeze     | Ideas & opinions: books, films, games, culture               |
+| نسمة تقويم | Calendar Breeze | Jewish holidays and fasts through the year                   |
+| Meta       | Meta            | Behind-the-scenes: tools, workflow, site milestones          |
 
 ### Common Tag Clusters
 

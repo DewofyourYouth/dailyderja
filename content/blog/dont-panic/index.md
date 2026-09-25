@@ -16,7 +16,7 @@ categories:
 draft: false
 dialects:
   - shami
-series_order: 3
+series_order: 24
 postLang: ar
 difficulty_level: intermediate
 summary: Some good advice from Douglas Adams

@@ -17,7 +17,7 @@ dialects:
   - shami
   - tunisian
 series:
-  - نسمة لهجة
+  - نسمة كلمة
 postLang: en
 difficulty_level: easy
 description: "Side-by-side comparison of 10 everyday vocabulary differences between Tunisian Derja and Levantine (Shami) Arabic — words for 'a lot', 'now', 'what', 'work', 'want vs love', and more. With a video breakdown."

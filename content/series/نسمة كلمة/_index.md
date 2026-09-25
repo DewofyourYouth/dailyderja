@@ -1,8 +1,10 @@
 ---
 title: "نسمة كلمة"
-description: "Word Breeze is a quick Shami vocabulary drop with useful chunks and short phrase notes."
+description: "Word Breeze is short Shami language notes: vocabulary, useful phrases, grammar patterns, and Tunisian vs. Levantine comparisons."
 ipa: "/ˈnas.ma ˈkil.me/"
 english: "Word Breeze"
+aliases:
+  - /series/نسمة-لهجة/
 ---
 
-**Word Breeze** is a quick Shami vocabulary drop with useful chunks and short phrase notes.
+**Word Breeze** is short Shami language notes: vocabulary, useful phrases, grammar patterns, and Tunisian vs. Levantine comparisons.
