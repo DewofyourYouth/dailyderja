@@ -95,17 +95,14 @@ Each series is named **نسمة X** ("Nasmat X" = "a breeze of X"). Posts use `s
 | نسمة نغمة   | Melody Breeze   | Levantine music & ear training              |
 | نسمة صورة   | Picture Breeze  | Single-photo caption stories                |
 | نسمة قصة    | Story Breeze    | Short Shami narratives (family life, humor) |
-| نسمة نهار   | Day Breeze      | Daily micro-journal                         |
 | نسمة قهوة   | Coffee Breeze   | Café/coffee journal                         |
 | نسمة طعمة   | Taste Breeze    | Food & tasting moments                      |
 | نسمة فكرة   | Idea Breeze     | Light cultural ideas                        |
-| نسمة جملة   | Sentence Breeze | One Shami sentence per post                 |
 | نسمة لهجة   | Dialect Breeze  | Tunisian vs. Levantine comparisons          |
 | نسمة مشوار  | Journey Breeze  | Walks, commutes, errands                    |
-| نسمة معنى   | Meaning Breeze  | Cultural nuance reflections                 |
 | نسمة لحظة   | Moment Breeze   | One-snapshot posts                          |
-| نسمة صوت    | Sound Breeze    | Audio/pronunciation clips                   |
 | نسمة شغلة   | Thing Breeze    | Quirky finds and links                      |
+| نسمة تقويم  | Calendar Breeze | Jewish holidays and fasts through the year  |
 | Meta        | Meta            | Behind-the-scenes tools and workflow notes  |
 
 ### Common Tag Clusters
