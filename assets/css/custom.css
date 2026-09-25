@@ -4375,6 +4375,12 @@ html.dark .dd-sub .dd-sub-word__ipa { color: var(--ds-gold); }
   color: var(--ds-ink);
 }
 
+.dd-sub .dd-sub-word__dialect {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  color: var(--ds-ink-soft);
+}
+
 /* footer variant: no vocab entry, sits in the site footer on every page */
 .dd-sub--compact { margin: 2.5rem 0 1.5rem; }
 .dd-sub--compact .dd-sub-card { grid-template-columns: 1fr; }

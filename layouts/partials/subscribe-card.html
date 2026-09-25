@@ -5,6 +5,7 @@
      on the side is the hook — a preview of what the emails teach.
 
      Params (all optional): heading, sub, placeholder, button, ar, ipa, en,
+     dialect (label under the entry),
      location (GA followit_location), compact (bool: no vocab entry). */}}
 {{- $compact     := .compact | default false -}}
 {{- $heading     := .heading     | default (cond $compact "Get new posts by email" "Tomorrow’s post, in your inbox") -}}
@@ -14,6 +15,7 @@
 {{- $wordAr      := .ar          | default "بكرا" -}}
 {{- $wordIpa     := .ipa         | default "ˈbuk.ra" -}}
 {{- $wordEn      := .en          | default "tomorrow" -}}
+{{- $dialect     := .dialect     | default "Shami" -}}
 {{- $location    := .location    | default "post-card" -}}
 {{- $action := "https://api.follow.it/subscription-form/NFR6ZTY5clNEOCtldFRHUldsU2FGMlhuNUNPWFVTd01IMnNFNGVuR0xuT2tlTjBGSzRDK05IOFAvK1h2WUUreWZkdUJMM01XUDE0UUI3WnZERlQvNjNBNFdJT3VIcDJnZVY2M0tLM2cwRWc1MGVJSEtucnRwdUJLNXhKelowbHJ8QTlPdFZsa1Z5bk13RlQ4U2tCNW1haTd4bnJZVnhmSmdxVHNQQ2t2OURNYz0=/8" -}}
 
@@ -42,6 +44,7 @@
       <p class="dd-sub-word__ar" lang="ar" dir="rtl">{{ $wordAr }}</p>
       <span class="dd-sub-word__ipa">/{{ $wordIpa }}/</span>
       <span class="dd-sub-word__en">{{ $wordEn }}</span>
+      <span class="dd-sub-word__dialect">in {{ $dialect }}</span>
     </div>
     {{- end }}
   </div>

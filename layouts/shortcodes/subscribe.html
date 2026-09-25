@@ -3,5 +3,10 @@
      {{< subscribe ar="يلّا" ipa="ˈjal.la" en="let's go" >}}
      Markup lives in layouts/partials/subscribe-card.html. */}}
 {{- $p := dict -}}
-{{- if .IsNamedParams }}{{ $p = .Params }}{{ end -}}
+{{- /* "tomorrow" differs by dialect: Tunisian-only posts get غدوة, not بكرا */ -}}
+{{- $dialects := .Page.Params.dialects | default slice -}}
+{{- if and (in $dialects "tunisian") (not (in $dialects "shami")) -}}
+  {{- $p = dict "ar" "غدوة" "ipa" "ˈɣud.wa" "dialect" "Tunisian" -}}
+{{- end -}}
+{{- if .IsNamedParams }}{{ $p = merge $p .Params }}{{ end -}}
 {{- partial "subscribe-card.html" $p -}}
