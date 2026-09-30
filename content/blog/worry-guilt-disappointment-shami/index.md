@@ -83,3 +83,5 @@ It's stronger than "being hard on myself": عذّب is to torment, so the phrase
 {{< example ar="بطّل تعذّب حالك." en="Stop tormenting yourself." tag="masc." audio="/audio/battil-t3azzib-halak-masc.mp3" >}}
 {{< example ar="بطّلي تعذّبي حالك." en="Stop tormenting yourself." tag="fem." audio="/audio/battili-t3azzibi-halek-fem.mp3" >}}
 {{% /examples %}}
+
+{{< subscribe >}}
