@@ -2420,11 +2420,12 @@ a.dialect-badge:focus-visible {
   font-weight: 400;
   font-size: clamp(4rem, 13vw, 7.5rem);
   line-height: 0.95;
+  padding-bottom: 0.3em; /* room for descenders (ي, ج) above the English line */
   color: var(--dt);
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
 }
 .dterm__en {
-  margin: 0.55rem 0 0;
+  margin: 0;
   font-family: var(--font-body); /* English → Latin body */
   font-weight: 800;
   font-size: 0.9rem;
@@ -2554,6 +2555,12 @@ a.dialect-badge:focus-visible {
   font-weight: 700;
   font-size: 0.95rem;
   color: var(--dt-soft);
+}
+.dterm__begin-ar {
+  font-family: "Lalezar", system-ui, sans-serif;
+  font-weight: 400;
+  font-size: 1.15em;
+  line-height: 1;
 }
 .dterm__begin-list {
   display: flex;

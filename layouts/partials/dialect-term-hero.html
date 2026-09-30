@@ -31,7 +31,7 @@
   </div>
 
   {{- $beginSlugs := cond $isTun (slice "shami-tunsi-differences" "pivot-to-shami" "reflection") (slice "daily-routine" "fish-tale" "trip-to-ramla") -}}
-  {{- $beginLabel := cond $isTun "Moving between Tunisian and Shami? Start with these" (printf "New to %s? Begin with these three" $ar) -}}
+  {{- $beginLabel := cond $isTun "Moving between Tunisian and Shami? Start with these" (printf "New to <span class=\"dterm__begin-ar\" lang=\"ar\" dir=\"rtl\">%s</span>? Begin with these three" $ar | safeHTML) -}}
   {{- if $beginSlugs -}}
   <div class="dterm__begin">
     <span class="dterm__begin-label">{{ $beginLabel }}</span>
