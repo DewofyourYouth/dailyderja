@@ -4,7 +4,7 @@ seoTitle: "How to Talk About Worry, Guilt & Disappointment in Shami Arabic"
 description: "Shami Arabic for worry, guilt, and letting people down — أشيل هم، أحس بالذنب، خيّب أمل، بعذّب حالي — with short examples, from a learner's diary entry."
 summary: "The phrases I used to write about holiday guilt — أشيل هم، أحس بالذنب، خيّب أمل — pulled out into one place, with short examples."
 date: 2026-09-30T20:00:00+03:00
-draft: true
+draft: false
 learn: true
 tags:
   - shami-arabic
@@ -24,22 +24,6 @@ difficulty_level: intermediate
 recommend:
   - slug: guilt-maturity-and-loving-well
     why: "Every phrase on this page comes from this entry. Read them together in a short diary entry about the holidays, family, and the guilt I used to carry."
-# Not rendered. Remove this block when publishing.
-reviewNotes: |
-  DRAFT — needs Jacob's review before publishing.
-  - The four phrases and their diary quotes come from guilt-maturity-and-loving-well.
-  - IPA needs confirmation (Sereen or Ola) before publishing — it's dialect-sensitive:
-    بخيّب revised to /ˈbxaj.jeb/ (stress), بعذّب to /baˈʕaz.zeb/ (Palestinian ذ → ز).
-    أشيل هم /ʔaˈʃiːl hamm/ is still copied from the diary's table, unverified.
-    The diary's own كلام table has the older /bxaˈjjeb/ and /baʕaˈddeb/.
-  - The example sentences under each phrase are NEW practice sentences. Check them with a
-    native speaker or tutor; nothing here has been checked by one yet.
-  - No IPA was added beyond the diary's table (أحس بالذنب, خاب أملي have none on purpose).
-  - No audio: there are no clips for these sentences. If you generate some with the
-    daily_derja_tools pipeline, add audio="..." to the examples and `audioSource: tts`.
-  - Once published, it appears on /learn/ (learn: true), and the diary entry already lists it
-    under "Go deeper" (its recommend: block skips drafts until then).
-  - Once the examples are reviewed, drop the "haven't yet been checked" sentence in the intro.
 ---
 
 These are expressions I'm learning to use in Palestinian/Jordanian Arabic, with examples from [my diary](/blog/guilt-maturity-and-loving-well/) and a few practice sentences of my own. The new examples haven't yet been checked by a native speaker.
