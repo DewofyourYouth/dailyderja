@@ -26,6 +26,12 @@ difficulty_level: intermediate
 cssclasses:
   - arabic-note
 ear_training: true
+recommend:
+  - slug: arabic-challenges
+    why: "بصراحة outside the song: this entry opens with بصراحة، كتير صعب الواحد يتعلم عربي بإسرائيل — the \"here's what I really think\" signal the word note describes."
+  - slug: music-1
+    why: "My first Levantine playlist post: the Shami songs I started with for ear training, after using Tunisian music the same way."
+audioSource: tts
 ---
 
 {{< word ar="بصراحة" sh_ipa="bɪ.sˤɑ.rɑː.ħa" meaning="honestly; frankly" root="ص · ر · ح" pos="adverb / discourse marker" audio="/audio/bisaraha.mp3" note="A prepositional phrase: بـِ + صراحة (candour). Drop it at the start of a sentence to signal you're about to say something real." >}}

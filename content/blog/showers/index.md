@@ -22,6 +22,9 @@ postLang: ar
 difficulty_level: advanced
 cssclasses:
   - arabic-note
+recommend:
+  - slug: enough
+    why: 'More on كفاية: "Enough!", "Is this enough?", and "I didn''t sleep enough", with IPA and audio.'
 ---
 
 ## خاطِرة

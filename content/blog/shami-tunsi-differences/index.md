@@ -24,6 +24,12 @@ seoTitle: "Tunisian vs Levantine Arabic: 10 Everyday Differences"
 description: "10 everyday words that differ between Tunisian and Levantine (Shami) Arabic — a lot, now, what, work, want vs. love — with audio for both, plus a video."
 summary: "How is Shami different from Tunisian Arabic? A side-by-side comparison of 10 everyday words — 'a lot', 'now', 'what', 'work', 'want vs. love', and more — with a video breakdown."
 series_order: 1
+recommend:
+  - slug: pivot-to-shami
+    why: "Why I switched from Tunisian to Shami in the first place, and why the Tunisian posts stayed online as an archive."
+  - slug: letter-park
+    why: "A Tunisian archive entry whose opening lines use برشة, توّا, and باهية — words from the table above, in a real paragraph instead of a list."
+audioSource: tts
 ---
 
 ## مقدّمة

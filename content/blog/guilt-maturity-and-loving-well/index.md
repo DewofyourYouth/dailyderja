@@ -25,6 +25,11 @@ series_order: 6
 postLang: ar
 cssclasses:
   - arabic-note
+recommend:
+  - slug: worry-guilt-disappointment-shami
+    why: "A guide built from this entry: أشيل هم, بخيّب أمل, and the other phrases for worry and guilt, with short examples."
+  - slug: enough
+    why: "More on كفاية: \"Enough!\", \"Is this enough?\", and \"I didn't sleep enough\", with IPA and audio."
 ---
 
 ## خاطِرة

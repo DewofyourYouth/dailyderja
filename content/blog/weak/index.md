@@ -26,6 +26,10 @@ postLang: ar
 difficulty_level: easy
 cssclasses:
   - arabic-note
+recommend:
+  - slug: personal-ops
+    why: "The Talmud line in this entry — be soft like a reed (قصب), not hard like a cedar — pushes back on this page's lion-and-hyena contrast: bending isn't the same as being ضعيف. It also uses قوي and قوية for a strict bot and a strong wind."
+audioSource: tts
 ---
 
 {{< word ar="ضعيف" sh_ipa="dˤaˈʕiːf" tn_ipa="dˤaˈʕiːf" meaning="weak; faint; poor-quality; not strong" root="ض · ع · ف" pos="adjective" audio="/audio/daif.mp3" note="In Shami, ضعيف can describe physical weakness, a weak argument, weak coffee, weak sound, or poor signal. Feminine: ضعيفة. Plural: ضعاف." >}}

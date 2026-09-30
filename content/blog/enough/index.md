@@ -26,6 +26,12 @@ postLang: ar
 difficulty_level: easy
 cssclasses:
   - arabic-note
+recommend:
+  - slug: guilt-maturity-and-loving-well
+    why: 'Shows a use this page doesn''t cover: كفاية after an adjective for "not … enough" — ما كنت متحضّر كفاية (I wasn''t prepared enough), three times in one sentence.'
+  - slug: showers
+    why: "كفاية for a quantity inside a short story: مش دايمًا في ميّة سخنة كفاية — there isn't always enough hot water once the solar heater runs out."
+audioSource: tts
 ---
 
 {{< word ar="كفاية" sh_ipa="kɪˈfaːja" tn_ipa="kɪˈfaːja" meaning="enough; sufficient; that's enough" root="ك · ف · ي" pos="particle / interjection" audio="/audio/kfaya.mp3" note="Works as an interjection ('Enough!') and as a predicate ('This is enough'). Add عليك / عليكِ to call someone out: كفاية عليك = enough from you. Opposite: ناقص (nāqis) = lacking / not enough." >}}

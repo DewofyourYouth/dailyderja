@@ -8,8 +8,8 @@
      dialect (label under the entry),
      location (GA followit_location), compact (bool: no vocab entry). */}}
 {{- $compact     := .compact | default false -}}
-{{- $heading     := .heading     | default (cond $compact "Get new posts by email" "Tomorrow’s post, in your inbox") -}}
-{{- $sub         := .sub         | default (cond $compact "Short Shami diary entries most days, with the useful phrases broken down." "Short Shami diary entries most days, with the useful phrases broken down like the one here.") -}}
+{{- $heading     := .heading     | default (cond $compact "Get new posts by email" "Get the next Shami entry by email") -}}
+{{- $sub         := .sub         | default (cond $compact "Short Shami (Levantine) diary entries with the useful phrases broken down. Only when there’s a new post." "Short diary entries in everyday Shami, with the useful phrases broken down like the ones here — plus the occasional word guide or music note. Only when there’s a new post.") -}}
 {{- $placeholder := .placeholder | default "you@email.com" -}}
 {{- $button      := .button      | default "Email me" -}}
 {{- $wordAr      := .ar          | default "بكرا" -}}
