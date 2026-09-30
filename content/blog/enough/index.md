@@ -1,7 +1,8 @@
 ---
 title: "Kfāya (Enough) — Shami Arabic Word of the Day"
 summary: "How do you say 'enough' in Arabic? Kfāya (كفاية) — pronunciation, IPA, and real examples for stopping something, quantities, and daily life in Shami Arabic."
-description: "Explore the Shami Arabic word كفاية (kfāya) meaning enough. Includes audio examples, IPA, and usage for commands, quantities, and daily life."
+seoTitle: "How to Say 'Enough' in Shami Arabic: كفاية"
+description: "كفاية means 'enough' in Shami Arabic: 'Enough!', 'Is this enough?', 'I didn't sleep enough.' Learner notes with IPA, audio, and 14 examples."
 date: "2026-06-14T17:40:05+03:00"
 image: featured.jpg
 tags:
@@ -25,6 +26,12 @@ postLang: ar
 difficulty_level: easy
 cssclasses:
   - arabic-note
+recommend:
+  - slug: guilt-maturity-and-loving-well
+    why: 'Shows a use this page doesn''t cover: كفاية after an adjective for "not … enough" — ما كنت متحضّر كفاية (I wasn''t prepared enough), three times in one sentence.'
+  - slug: showers
+    why: "كفاية for a quantity inside a short story: مش دايمًا في ميّة سخنة كفاية — there isn't always enough hot water once the solar heater runs out."
+audioSource: tts
 ---
 
 {{< word ar="كفاية" sh_ipa="kɪˈfaːja" tn_ipa="kɪˈfaːja" meaning="enough; sufficient; that's enough" root="ك · ف · ي" pos="particle / interjection" audio="/audio/kfaya.mp3" note="Works as an interjection ('Enough!') and as a predicate ('This is enough'). Add عليك / عليكِ to call someone out: كفاية عليك = enough from you. Opposite: ناقص (nāqis) = lacking / not enough." >}}

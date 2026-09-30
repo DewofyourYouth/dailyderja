@@ -1,7 +1,8 @@
 ---
 title: "Da3if (Weak) — Shami Arabic Word of the Day"
 summary: "How do you say 'weak' in Arabic? Da3if (ضعيف) — pronunciation, IPA, and real examples for people, objects, and arguments in Shami Arabic."
-description: "Explore the Shami Arabic word 'Da3if' (ضعيف) meaning weak. Includes audio examples, IPA, and usage notes for people, objects, and arguments."
+seoTitle: "How to Say 'Weak' in Arabic: ضعيف — Shami Examples"
+description: "ضعيف (daʕīf) means 'weak' in Shami Arabic. Learner notes with IPA, audio, a mnemonic, and 14 examples for people, things, voices, and arguments."
 date: "2026-06-10T09:48:39+03:00"
 image: featured.jpg
 tags:
@@ -25,6 +26,10 @@ postLang: ar
 difficulty_level: easy
 cssclasses:
   - arabic-note
+recommend:
+  - slug: personal-ops
+    why: "The Talmud line in this entry — be soft like a reed (قصب), not hard like a cedar — pushes back on this page's lion-and-hyena contrast: bending isn't the same as being ضعيف. It also uses قوي and قوية for a strict bot and a strong wind."
+audioSource: tts
 ---
 
 {{< word ar="ضعيف" sh_ipa="dˤaˈʕiːf" tn_ipa="dˤaˈʕiːf" meaning="weak; faint; poor-quality; not strong" root="ض · ع · ف" pos="adjective" audio="/audio/daif.mp3" note="In Shami, ضعيف can describe physical weakness, a weak argument, weak coffee, weak sound, or poor signal. Feminine: ضعيفة. Plural: ضعاف." >}}

@@ -23,11 +23,11 @@ postLang: ar
 difficulty_level: intermediate
 dialects:
   - tunisian
-description: "Tunisian Daily Journal: Entry 2"
 series:
   - نسمة نغمة
 series_order: 1
 ear_training: true
+audioSource: tts
 ---
 
 الصباح قمت الأربعة وربع بسبب صفارات الإنذار، وما نجمتش نرجع نرقد.

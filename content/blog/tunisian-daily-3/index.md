@@ -18,7 +18,6 @@ postLang: ar
 difficulty_level: intermediate
 dialects:
   - tunisian
-description: "Tunisian Daily Journal: Entry 3"
 series:
   - نسمة نهار
 series_order: 2

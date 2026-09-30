@@ -25,6 +25,7 @@ postLang: ar
 difficulty_level: advanced
 cssclasses:
   - arabic-note
+audioSource: tts
 ---
 
 {{< word ar="قوام" sh_ipa="ʔawaːm" tn_ipa="qwaːm" meaning="consistency; texture; thickness" root="ق و م" pos="noun" sh_audio="/audio/awam-shami.mp3" tn_audio="/audio/qwem-tunisian.mp3" note="Useful in recipes: قوام سميك = thick consistency; قوام سائل = runny/liquid consistency." >}}

@@ -23,6 +23,9 @@ postLang: ar
 difficulty_level: intermediate
 cssclasses:
   - arabic-note
+recommend:
+  - slug: bisaraha
+    why: "The word بصراحة on its own, with IPA and audio, and the Ziad Rahbani song that made it stick for me."
 ---
 
 ## خاطِرة

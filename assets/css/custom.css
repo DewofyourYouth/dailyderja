@@ -4402,3 +4402,120 @@ html.dark .dd-sub .dd-sub-word__ipa { color: var(--ds-gold); }
   }
   .dd-sub .dd-sub-word__ar { font-size: 2.6rem; }
 }
+
+/* ================================
+   Read it in context (partials/read-in-context.html)
+   Compact curated onward-reading box under a post. Always LTR/English
+   chrome; Arabic runs inside are isolated with <bdi lang="ar">.
+   ================================= */
+.dd-ctx {
+  margin: 2.25rem 0 1.5rem;
+  padding: 1rem 1.15rem 0.4rem;
+  border-radius: 14px;
+  border: 1px solid rgba(159, 100, 41, 0.22);
+  border-inline-start: 4px solid var(--color-accent, #c6843a);
+  background: color-mix(in srgb, var(--color-accent, #c6843a) 6%, transparent);
+  font-family: var(--font-body);
+  text-align: left;
+}
+.dd-ctx__h {
+  margin: 0 0 0.5rem;
+  font-weight: 800;
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+  color: var(--color-accent-dark, #9f6429);
+}
+.dark .dd-ctx__h { color: var(--color-accent-light, #ebd3aa); }
+.dd-ctx__list { list-style: none; margin: 0; padding: 0; }
+.dd-ctx__item { margin: 0 0 0.9rem; padding: 0; }
+.dd-ctx__item + .dd-ctx__item { padding-top: 0.8rem; border-top: 1px dashed rgba(159, 100, 41, 0.22); }
+.dd-ctx__meta { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-bottom: 0.25rem; }
+.dd-ctx__kind,
+.dd-ctx__dialect,
+.dd-ctx__cross {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 0.1em 0.55em;
+  border-radius: 999px;
+  border: 1px solid currentColor;
+  line-height: 1.5;
+}
+.dd-ctx__kind { color: var(--color-text-500, #6a5836); border-color: rgba(106, 88, 54, 0.35); }
+.dark .dd-ctx__kind { color: #cbb68d; border-color: rgba(203, 182, 141, 0.35); }
+.dd-ctx__dialect--shami { color: #9f6429; }
+.dd-ctx__dialect--tunisian { color: #155a9e; }
+.dark .dd-ctx__dialect--shami { color: #e0b667; }
+.dark .dd-ctx__dialect--tunisian { color: #7ab6e8; }
+.dd-ctx__cross { color: #fff; background: #155a9e; border-color: #155a9e; }
+.dd-ctx__link {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 1.05rem;
+  line-height: 1.3;
+  color: var(--color-text-900, #2c2113) !important;
+  text-decoration: underline;
+  text-decoration-color: var(--color-accent, #c6843a);
+  text-underline-offset: 3px;
+}
+.dark .dd-ctx__link { color: #f1e4cc !important; }
+.dd-ctx__why { margin: 0.25rem 0 0; font-size: 0.95rem; line-height: 1.5; color: var(--color-text-500, #6a5836); }
+.dark .dd-ctx__why { color: #cbb68d; }
+.dd-ctx__why bdi { font-family: "Zain", system-ui, sans-serif; font-size: 1.12em; }
+
+/* ================================
+   Same-dialect related posts (partials/related.html)
+   ================================= */
+.dd-related { margin: 2.5rem 0 1rem; }
+.dd-related__h {
+  margin: 0 0 1rem;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.4rem;
+  color: var(--color-accent-dark, #9f6429);
+}
+.dark .dd-related__h { color: var(--color-accent-light, #ebd3aa); }
+.dd-related__h b { font-family: "Lalezar", system-ui, sans-serif; font-weight: 400; margin-inline: 0.15em; }
+.dd-related__note { margin: 1rem 0 0; font-family: var(--font-body); font-size: 0.95rem; }
+
+/* ================================
+   Learning paths (partials/learning-paths.html)
+   Full variant reuses .hp-wayfind/.wf-tile; compact is a single wrapped row.
+   ================================= */
+.dd-paths .wf-tile__title b { font-size: 1.1em; }
+.dd-paths--compact {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem 0.5rem;
+  margin: 2rem 0 1rem;
+  padding: 0.85rem 1rem;
+  border-radius: 12px;
+  border: 1px solid rgba(159, 100, 41, 0.22);
+  font-family: var(--font-body);
+  font-size: 0.92rem;
+}
+.dd-paths__label { font-weight: 700; color: var(--color-accent-dark, #9f6429); margin-inline-end: 0.2rem; }
+.dark .dd-paths__label { color: var(--color-accent-light, #ebd3aa); }
+.dd-paths__link {
+  padding: 0.2em 0.75em;
+  border-radius: 999px;
+  border: 1px solid rgba(159, 100, 41, 0.3);
+  text-decoration: none !important;
+  color: inherit !important;
+  white-space: nowrap;
+}
+.dd-paths__link:hover { background: color-mix(in srgb, var(--color-accent, #c6843a) 12%, transparent); }
+.dd-paths__link--start { font-weight: 700; border-color: var(--color-accent, #c6843a); }
+
+/* Audio provenance line (partials/audio-source-note.html) */
+.dd-audio-note {
+  margin: 1.75rem 0 0;
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  line-height: 1.45;
+  color: var(--color-text-500, #6a5836);
+  text-align: left;
+}
+.dark .dd-audio-note { color: #cbb68d; }

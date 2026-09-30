@@ -1,7 +1,8 @@
 ---
 title: Bisaraha
 summary: A quick Levantine note on Ziad Rahbani's "بصراحة" and why it became my current favorite.
-description: "A Shami Arabic reflection on Ziad Rahbani's song بصراحة (honestly/frankly) — with key Levantine phrases for expressing opinions, describing atmosphere, and speaking candidly. Two Spotify tracks included."
+seoTitle: "Bisaraha by Ziad Rahbani: A Shami Arabic Listening Note"
+description: "بصراحة means 'honestly, frankly.' A learner's note on Ziad Rahbani's song, with the word's IPA and audio and 11 everyday Shami phrases. No lyrics translation."
 image: featured.jpg
 date: 2026-02-18T20:48:55+02:00
 tags:
@@ -25,6 +26,12 @@ difficulty_level: intermediate
 cssclasses:
   - arabic-note
 ear_training: true
+recommend:
+  - slug: arabic-challenges
+    why: "بصراحة outside the song: this entry opens with بصراحة، كتير صعب الواحد يتعلم عربي بإسرائيل — the \"here's what I really think\" signal the word note describes."
+  - slug: music-1
+    why: "My first Levantine playlist post: the Shami songs I started with for ear training, after using Tunisian music the same way."
+audioSource: tts
 ---
 
 {{< word ar="بصراحة" sh_ipa="bɪ.sˤɑ.rɑː.ħa" meaning="honestly; frankly" root="ص · ر · ح" pos="adverb / discourse marker" audio="/audio/bisaraha.mp3" note="A prepositional phrase: بـِ + صراحة (candour). Drop it at the start of a sentence to signal you're about to say something real." >}}

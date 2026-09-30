@@ -25,6 +25,7 @@ postLang: ar
 difficulty_level: intermediate
 cssclasses:
   - arabic-note
+audioSource: tts
 ---
 
 ## خاطِرة

@@ -25,6 +25,7 @@ postLang: ar
 difficulty_level: easy
 cssclasses:
   - arabic-note
+audioSource: tts
 ---
 
 {{< word ar="حَديد" sh_ipa="ħaˈdiːd" tn_ipa="ħaˈdiːd" meaning="iron, metal" root="ح · د · د" pos="noun" audio="/audio/hadid.mp3" note="Can also be used metaphorically for something very strong." >}}

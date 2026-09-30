@@ -7,17 +7,26 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="theme-color">
 
-  {{/* Title */}}
-  {{ if .IsHome -}}
-    <title>{{ .Site.Title | emojify }}</title>
-    <meta name="title" content="{{ .Site.Title | emojify }}">
-  {{- else -}}
-    <title>{{ .Title | emojify }} &middot; {{ .Site.Title | emojify }}</title>
-    <meta name="title" content="{{ .Title | emojify }} &middot; {{ .Site.Title | emojify }}">
-  {{- end }}
+  {{/* Title — `seoTitle` (frontmatter) replaces the whole <title> so a search-facing
+       title can be specific while the on-page H1 keeps its personality. Without it:
+       "Page title · Site title". */}}
+  {{- $siteTitle := .Site.Title | emojify -}}
+  {{- $pageTitle := $siteTitle -}}
+  {{- if not .IsHome -}}
+    {{- $pageTitle = printf "%s · %s" (.Title | emojify) $siteTitle -}}
+  {{- end -}}
+  {{- with .Params.seoTitle }}{{ $pageTitle = . }}{{ end }}
+  <title>{{ $pageTitle }}</title>
+  <meta name="title" content="{{ $pageTitle }}">
 
-  {{/* Metadata */}}
-  {{ with (.Params.Summary | default .Params.Description) | default .Site.Params.description -}}
+  {{/* Description — exactly one, reused for og:/twitter: below.
+       Order: frontmatter description → summary → plain-text excerpt → site description. */}}
+  {{- $description := .Params.description | default .Params.summary -}}
+  {{- if and (not $description) (not .IsHome) -}}
+    {{- $description = .Summary | plainify | htmlUnescape | strings.TrimSpace | truncate 160 -}}
+  {{- end -}}
+  {{- $description = $description | default .Site.Params.description | plainify | htmlUnescape | strings.TrimSpace }}
+  {{ with $description -}}
     <meta name="description" content="{{ . }}">
   {{- end }}
   {{ with  .Params.Tags | default .Site.Params.keywords -}}
@@ -105,6 +114,7 @@
   {{ with resources.Get "js/print-support.js" }}{{ $jsResources = $jsResources | append . }}{{ end }}
   {{ with resources.Get "js/tutor-cta.js" }}{{ $jsResources = $jsResources | append . }}{{ end }}
   {{ with resources.Get "js/community-cta.js" }}{{ $jsResources = $jsResources | append . }}{{ end }}
+  {{ with resources.Get "js/rec-tracking.js" }}{{ $jsResources = $jsResources | append . }}{{ end }}
   {{ if $jsResources }}
     {{ $bundleJS := $jsResources | resources.Concat "js/main.bundle.js" | resources.Minify | resources.Fingerprint $alg }}
     <script
@@ -146,10 +156,7 @@
 
   {{/* Social */}}
   {{- $isArticle := .IsPage -}}
-  {{- $siteTitle := .Site.Title | emojify -}}
-  {{- $pageTitle := cond .IsHome $siteTitle (printf "%s · %s" (.Title | emojify) $siteTitle) -}}
   {{- $siteLocale := .Site.Language.Locale | default .Site.Language.Lang -}}
-  {{- $twitterSummary := .Params.Summary | default .Summary | default .Params.Description | default .Site.Params.description -}}
   {{- $socialImage := "" -}}
   {{- with .Params.socialImage -}}
     {{- if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") -}}
@@ -209,10 +216,10 @@
   <meta property="og:url" content="{{ .Permalink }}">
   <meta property="og:site_name" content="{{ $siteTitle }}">
   <meta property="og:title" content="{{ $pageTitle }}">
-  {{ with $twitterSummary }}
-    <meta name="description" content="{{ . | plainify | htmlEscape }}">
-    <meta name="twitter:description" content="{{ . | plainify | htmlEscape }}">
-    <meta property="og:description" content="{{ . | plainify | htmlEscape }}">
+  <meta name="twitter:title" content="{{ $pageTitle }}">
+  {{ with $description }}
+    <meta name="twitter:description" content="{{ . }}">
+    <meta property="og:description" content="{{ . }}">
   {{ end }}
   <meta property="og:locale" content="{{ $siteLocale }}">
   <meta property="og:type" content="{{ if $isArticle }}article{{ else }}website{{ end }}">

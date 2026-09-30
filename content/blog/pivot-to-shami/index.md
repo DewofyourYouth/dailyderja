@@ -19,6 +19,9 @@ categories:
   - language-learning
   - blog-meta
 difficulty_level: easy
+recommend:
+  - slug: shami-tunsi-differences
+    why: "The ten everyday words I kept tripping over while switching, side by side with audio for both dialects."
 ---
 
 For the first chapter of this project, **The Daily Derja** was all about Tunisian Arabic.  

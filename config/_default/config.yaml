@@ -15,3 +15,20 @@ params:
   showSocialLinks: true
 footer:
   showMenu: true
+# Ranking for "More Shami reading" (partials/related.html filters by dialect after ranking).
+# includeNewer: older posts can recommend newer ones, not only earlier entries.
+related:
+  threshold: 0
+  includeNewer: true
+  toLower: false
+  indices:
+    - name: tags
+      weight: 100
+    - name: series
+      weight: 60
+    - name: dialects
+      weight: 40
+    - name: categories
+      weight: 20
+    - name: date
+      weight: 10

@@ -4,9 +4,9 @@
 {{- $count := len .Pages -}}
 {{- $ar := cond $isTun "تونسي" "شامي" -}}
 {{- $region := cond $isTun "الدارجة التونسية" "اللهجة الشامية" -}}
-{{- $en := cond $isTun "Tunisian Derja" "Levantine · Shami Arabic" -}}
+{{- $en := cond $isTun "Tunisian Derja · Archive" "Levantine · Shami reading practice" -}}
 {{- $desc := cond $isTun
-  "The Maghrebi Arabic of Tunisia — where Daily Derja began, kept here as a sweet archive."
+  "The Maghrebi Arabic of Tunisia — where Daily Derja began in 2025. New posts are in Shami now; these stay here as an archive."
   "The everyday Arabic of Syria, Lebanon, Palestine and Jordan — and the current heart of Daily Derja." -}}
 
 <section class="dterm dterm--{{ $d }}">
@@ -30,10 +30,11 @@
     </div>
   </div>
 
-  {{- $beginSlugs := cond $isTun (slice) (slice "daily-routine" "fish-tale" "trip-to-ramla") -}}
+  {{- $beginSlugs := cond $isTun (slice "shami-tunsi-differences" "pivot-to-shami" "reflection") (slice "daily-routine" "fish-tale" "trip-to-ramla") -}}
+  {{- $beginLabel := cond $isTun "Moving between Tunisian and Shami? Start with these" (printf "New to %s? Begin with these three" $ar) -}}
   {{- if $beginSlugs -}}
   <div class="dterm__begin">
-    <span class="dterm__begin-label">New to {{ $ar }}? Begin with these three</span>
+    <span class="dterm__begin-label">{{ $beginLabel }}</span>
     <div class="dterm__begin-list">
       {{- range $i, $slug := $beginSlugs -}}
         {{- with site.GetPage (printf "/blog/%s" $slug) -}}

@@ -25,6 +25,10 @@ postLang: ar
 difficulty_level: advanced
 cssclasses:
   - arabic-note
+recommend:
+  - slug: weak
+    why: "The other side of the قوي in this entry: ضعيف (weak) with IPA, audio, and 14 example sentences."
+audioSource: tts
 ---
 
 بكرا عندي عرض قدّام شويّة ناس بيشتغلوا بالـ AI.

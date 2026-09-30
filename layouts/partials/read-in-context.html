@@ -1,0 +1,56 @@
+{{/* Curated onward reading — rendered under a post from its `recommend:` frontmatter.
+
+     recommend:
+       - slug: guilt-maturity-and-loving-well
+         why: "One specific sentence on why this entry helps — what the reader will see there."
+
+     Optional page-level `recommendHeading` overrides the heading. Otherwise:
+       guides / listening notes (learn or ear_training) → "Read it in context"
+       diary entries                                    → "Go deeper"
+
+     Every item is labelled with what it is (guide / diary entry / listening note) and its
+     dialect. If the target doesn't share this post's primary dialect it is also marked as a
+     cross-dialect comparison, so a Shami reader never lands in Tunisian unawares.
+     Missing or draft targets are skipped, so a link can point at a guide before it's published. */}}
+{{- $page := . -}}
+{{- $dialects := .Params.dialects | default slice -}}
+{{- $primary := "" -}}
+{{- if in $dialects "shami" -}}{{ $primary = "shami" }}{{- else -}}{{ with $dialects }}{{ $primary = index . 0 }}{{ end }}{{- end -}}
+
+{{- $items := slice -}}
+{{- range .Params.recommend -}}
+  {{- $why := .why -}}
+  {{- with site.GetPage (printf "/blog/%s" .slug) -}}
+    {{- $items = $items | append (dict "p" . "why" $why) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- with $items -}}
+{{- $isGuide := or ($page.Params.learn | default false) ($page.Params.ear_training | default false) -}}
+{{- $heading := $page.Params.recommendHeading | default (cond $isGuide "Read it in context" "Go deeper") -}}
+<aside class="dd-ctx not-prose print:hidden" dir="ltr" lang="en" data-rec="context">
+  <p class="dd-ctx__h">{{ $heading }}</p>
+  <ul class="dd-ctx__list">
+    {{- range . }}
+      {{- $p := .p -}}
+      {{- $td := $p.Params.dialects | default slice -}}
+      {{- $kind := "Diary entry" -}}
+      {{- if $p.Params.learn }}{{ $kind = "Guide" }}{{ else if $p.Params.ear_training }}{{ $kind = "Listening note" }}{{ end -}}
+      {{- $dLabel := "" -}}
+      {{- if and (in $td "shami") (in $td "tunisian") }}{{ $dLabel = "Shami + Tunisian" }}
+      {{- else if in $td "shami" }}{{ $dLabel = "Shami" }}
+      {{- else if in $td "tunisian" }}{{ $dLabel = "Tunisian archive" }}{{ end -}}
+      {{- $cross := and $primary (not (in $td $primary)) -}}
+    <li class="dd-ctx__item{{ if $cross }} dd-ctx__item--cross{{ end }}">
+      <span class="dd-ctx__meta">
+        <span class="dd-ctx__kind">{{ $kind }}</span>
+        {{- with $dLabel }}<span class="dd-ctx__dialect dd-ctx__dialect--{{ cond (eq . "Tunisian archive") "tunisian" "shami" }}">{{ . }}</span>{{ end }}
+        {{- if $cross }}<span class="dd-ctx__cross">Cross-dialect comparison</span>{{ end }}
+      </span>
+      <a class="dd-ctx__link" href="{{ $p.RelPermalink }}">{{ $p.Title }}</a>
+      {{- with .why }}<p class="dd-ctx__why">{{ . | markdownify | replaceRE `(\p{Arabic}[\p{Arabic}\p{Mn} ]*\p{Arabic}|\p{Arabic})` `<bdi lang="ar">$1</bdi>` | safeHTML }}</p>{{ end }}
+    </li>
+    {{- end }}
+  </ul>
+</aside>
+{{- end -}}

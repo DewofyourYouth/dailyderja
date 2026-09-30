@@ -27,6 +27,10 @@ series:
   - نسمة نغمة
 series_order: 2
 ear_training: true
+recommend:
+  - slug: bisaraha
+    why: "A later note in the same series: Ziad Rahbani's «بصراحة», with the title word's IPA and audio."
+audioSource: tts
 ---
 
 ## موسيقى

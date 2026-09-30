@@ -1,0 +1,14 @@
+{{/* One-line provenance label for a post's audio. Only shown when the post says
+     where its audio came from (frontmatter `audioSource`), so nothing is guessed:
+       audioSource: tts      → generated text-to-speech (the daily_derja_tools pipeline)
+       audioSource: learner  → Jacob's own recordings
+       audioSource: native   → recorded by a native speaker */}}
+{{- with .Params.audioSource -}}
+{{- $labels := dict
+  "tts" "Audio on this page is generated text-to-speech, not a native speaker’s recording."
+  "learner" "Audio on this page is my own voice — a learner’s pronunciation, not a native speaker’s."
+  "native" "Audio on this page was recorded by a native speaker." -}}
+{{- with index $labels . -}}
+<p class="dd-audio-note not-prose" dir="ltr" lang="en"><span aria-hidden="true">🔊</span> {{ . }}</p>
+{{- end -}}
+{{- end -}}

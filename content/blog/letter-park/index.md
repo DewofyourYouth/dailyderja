@@ -21,6 +21,9 @@ draft: false
 series:
   - نسمة مشوار
 series_order: 4
+recommend:
+  - slug: shami-tunsi-differences
+    why: "Coming from Shami? برشة, توّا, and باهي from this entry are in this side-by-side comparison with their Levantine equivalents."
 ---
 
 ## جنّينة الحروف

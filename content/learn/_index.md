@@ -1,6 +1,6 @@
 ---
 title: Learn Arabic Here
-description: "Start here if you're using Daily Derja to learn Levantine (Shami) or Tunisian Arabic — dialect guides, cheat sheets, vocab, and tutors, all in one place."
+description: "Four ways to use Daily Derja for Shami (Levantine) Arabic: short readings, vocabulary and grammar guides, Tunisian-vs-Levantine comparisons, and music for listening practice."
 summary: "The learning side of the journal: dialect guides, cheat sheets, vocab series, and recommended tutors."
 ---
 

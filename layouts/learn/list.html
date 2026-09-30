@@ -15,12 +15,30 @@
       </header>
     </section>
 
+    {{ partial "learning-paths.html" (dict "location" "learn") }}
+
     {{ $refs := where site.RegularPages "Params.learn" true }}
     {{ with $refs }}
-      <h2 class="learn__h" id="cheat-sheets"><span>Cheat sheets &amp; references</span></h2>
-      <p class="learn__lead">Scannable guides — vocab, modals, and Tunisian-vs-Levantine differences at a glance.</p>
+      <h2 class="learn__h" id="cheat-sheets"><span>Vocabulary &amp; grammar guides</span></h2>
+      <p class="learn__lead">Scannable word and grammar guides with IPA, audio, and example sentences. My notes as a learner — not a textbook.</p>
       <section class="space-y-8 w-full">
         {{ range .ByDate.Reverse }}
+          {{ partial "article-link/simple.html" . }}
+        {{ end }}
+      </section>
+    {{ end }}
+
+    {{/* Tunisian vs Levantine — every post that carries both dialects is an explicit comparison */}}
+    {{ $both := slice }}
+    {{ range site.RegularPages.ByDate.Reverse }}
+      {{ $d := .Params.dialects | default slice }}
+      {{ if and (in $d "shami") (in $d "tunisian") }}{{ $both = $both | append . }}{{ end }}
+    {{ end }}
+    {{ with $both }}
+      <h2 class="learn__h" id="compare"><span>Tunisian vs Levantine</span></h2>
+      <p class="learn__lead">I learned Tunisian first, then switched to Shami. These posts put the two side by side — the comparison guide, why I switched, and word guides with a Tunisian version.</p>
+      <section class="space-y-8 w-full">
+        {{ range . }}
           {{ partial "article-link/simple.html" . }}
         {{ end }}
       </section>
@@ -30,13 +48,13 @@
     <div class="hp-wayfind__grid">
       <a class="wf-tile wf-tile--shami" href="{{ "dialects/shami/" | relLangURL }}">
         <span class="wf-tile__glyph" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"><rect x="5.6" y="5.6" width="12.8" height="12.8"/><rect x="5.6" y="5.6" width="12.8" height="12.8" transform="rotate(45 12 12)"/></svg></span>
-        <span class="wf-tile__title"><b dir="rtl" lang="ar">شامي</b> Levantine</span>
-        <span class="wf-tile__desc">The everyday Arabic of Syria, Lebanon, Palestine &amp; Jordan &middot; {{ $shamiCount }} posts</span>
+        <span class="wf-tile__title"><b dir="rtl" lang="ar">شامي</b> Shami reading</span>
+        <span class="wf-tile__desc">Everyday Levantine — what I write in now &middot; {{ $shamiCount }} posts</span>
       </a>
       <a class="wf-tile wf-tile--tunisian" href="{{ "dialects/tunisian/" | relLangURL }}">
         <span class="wf-tile__glyph" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 21V11a7 7 0 0 1 14 0v10"/><path d="M4 21h16"/><path d="M12 5.5V21"/><path d="M8.4 8a5 5 0 0 1 7.2 0"/></svg></span>
-        <span class="wf-tile__title"><b dir="rtl" lang="ar">تونسي</b> Tunisian</span>
-        <span class="wf-tile__desc">The Maghrebi Arabic where Daily Derja began &middot; {{ $tunCount }} posts</span>
+        <span class="wf-tile__title"><b dir="rtl" lang="ar">تونسي</b> Tunisian archive</span>
+        <span class="wf-tile__desc">Where Daily Derja began; no longer updated &middot; {{ $tunCount }} posts</span>
       </a>
     </div>
 
@@ -46,7 +64,7 @@
     {{ $naghma := site.GetPage "/series/نسمة نغمة" }}
     {{ if $etPosts }}
     <h2 class="learn__h" id="ear-training"><span>Ear training</span></h2>
-    <p class="learn__lead">Real music, real listening — posts built to sharpen your ear for Levantine Arabic.</p>
+    <p class="learn__lead">Real music, real listening — posts where I used Arabic songs (mostly Levantine) to sharpen my ear.</p>
     <div class="et-playlist">
       <div class="et-playlist__head">
         <span class="et-playlist__icon" aria-hidden="true">
@@ -72,7 +90,7 @@
         {{ end }}
       </ol>
       <div class="et-playlist__footer">
-        {{ with $naghma }}<a href="{{ .RelPermalink }}" class="et-playlist__all">See all ear training posts →</a>{{ end }}
+        {{ with $naghma }}<a href="{{ .RelPermalink }}" class="et-playlist__all">All Melody Breeze posts (not all in Arabic) →</a>{{ end }}
       </div>
     </div>
     {{ end }}

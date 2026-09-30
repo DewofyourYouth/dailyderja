@@ -62,6 +62,14 @@
         {{ partial "series/series.html" . }}
         <div class="article-content max-w-prose mb-20">
           {{ .Content }}
+          {{/* Onward reading + one signup invitation, after the reader has had the post.
+               The {{< subscribe >}} shortcode only records that the post wants a card
+               (and any overrides); it renders here, once. */}}
+          {{ partial "audio-source-note.html" . }}
+          {{ partial "read-in-context.html" . }}
+          {{ with .Store.Get "ddSubscribe" }}
+            {{ if not ($.Store.Get "ddSubscribeInline") }}{{ partial "subscribe-card.html" . }}{{ end }}
+          {{ end }}
           {{ $defaultReplyByEmail := site.Params.replyByEmail }}
           {{ $replyByEmail := default $defaultReplyByEmail .Params.replyByEmail }}
           {{ if $replyByEmail }}
@@ -81,6 +89,9 @@
         {{ partial "series/series-closed.html" . }}
         {{ partial "sharing-links.html" . }}
         {{ partial "related.html" . }}
+        {{ if eq .Section "blog" }}
+          {{ partial "learning-paths.html" (dict "location" "article" "compact" true "page" .) }}
+        {{ end }}
       </div>
 
       {{ $translations := .AllTranslations }}

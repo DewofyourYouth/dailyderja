@@ -26,6 +26,7 @@ postLang: en
 difficulty_level: easy
 cssclasses:
   - arabic-note
+audioSource: tts
 ---
 
 A quick reference for the four everyday modal moves in Shami: **ability, desire, obligation, and the hypothetical**. Skim the cards, or jump to the quick-pick at the bottom.

@@ -1,5 +1,7 @@
 ---
 title: Guilt, Maturity, and Loving Well
+seoTitle: "Guilt, Maturity, and Loving Well: Shami Arabic Reflection"
+description: "A short Shami Arabic reflection on holiday guilt and family expectations, with key phrases like أشيل هم and بخيّب أمل explained with IPA and English."
 summary: "A Shami Arabic reflection on holiday guilt: learning to ease up on pleasing family out of obligation, and why people who love you want you happy."
 date: 2026-09-30T08:16:18+03:00
 tags:
@@ -25,6 +27,11 @@ series_order: 6
 postLang: ar
 cssclasses:
   - arabic-note
+recommend:
+  - slug: worry-guilt-disappointment-shami
+    why: "A guide built from this entry: أشيل هم, بخيّب أمل, and the other phrases for worry and guilt, with short examples."
+  - slug: enough
+    why: "More on كفاية: \"Enough!\", \"Is this enough?\", and \"I didn't sleep enough\", with IPA and audio."
 ---
 
 ## خاطِرة
