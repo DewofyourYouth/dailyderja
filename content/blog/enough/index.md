@@ -1,7 +1,8 @@
 ---
 title: "Kfāya (Enough) — Shami Arabic Word of the Day"
 summary: "How do you say 'enough' in Arabic? Kfāya (كفاية) — pronunciation, IPA, and real examples for stopping something, quantities, and daily life in Shami Arabic."
-description: "Explore the Shami Arabic word كفاية (kfāya) meaning enough. Includes audio examples, IPA, and usage for commands, quantities, and daily life."
+seoTitle: "How to Say 'Enough' in Shami Arabic: كفاية"
+description: "كفاية means 'enough' in Shami Arabic: 'Enough!', 'Is this enough?', 'I didn't sleep enough.' Learner notes with IPA, audio, and 14 examples."
 date: "2026-06-14T17:40:05+03:00"
 image: featured.jpg
 tags:

@@ -1,7 +1,8 @@
 ---
 title: "Da3if (Weak) — Shami Arabic Word of the Day"
 summary: "How do you say 'weak' in Arabic? Da3if (ضعيف) — pronunciation, IPA, and real examples for people, objects, and arguments in Shami Arabic."
-description: "Explore the Shami Arabic word 'Da3if' (ضعيف) meaning weak. Includes audio examples, IPA, and usage notes for people, objects, and arguments."
+seoTitle: "How to Say 'Weak' in Arabic: ضعيف — Shami Examples"
+description: "ضعيف (daʕīf) means 'weak' in Shami Arabic. Learner notes with IPA, audio, a mnemonic, and 14 examples for people, things, voices, and arguments."
 date: "2026-06-10T09:48:39+03:00"
 image: featured.jpg
 tags:
