@@ -2,22 +2,22 @@
 title: Start Here
 date: 2026-06-19
 postLang: en
-description: "New to Daily Derja? It's a daily journal of short, easy Levantine (Shami) Arabic to read and listen to — real life, with audio and a little glossary on every post. Here's how to use it."
+description: "New to Daily Derja? It's a learner's journal of short, easy Shami (Levantine) Arabic — real life, most posts with a little glossary of key phrases, word guides with audio. Here's how to use it."
 summary: "What Daily Derja is, who it's for, and how to read it — easy Levantine Arabic, one small post a day."
 hero:
   eyebrow: "easy Levantine Arabic · every day"
   arabic: "نَسمة شاميّة"
-  lead: "A daily journal in plain, readable Shami Arabic — coffee, the morning walk, a fish-tank disaster, a song stuck in my head. Not a course. Just a breeze of real Arabic, one small post a day."
+  lead: "A journal in plain, readable Shami Arabic — coffee, the morning walk, a fish-tank disaster, a song stuck in my head. Not a course. Just a breeze of real Arabic, one small post at a time."
 steps:
   - num: "١"
     title: "Read the Arabic first"
     body: "Let it wash over you. You don't need to catch every word — that's not the goal."
   - num: "٢"
-    title: "Play the audio"
-    body: "Hear the rhythm of the dialect, not just the letters sitting on the page."
+    title: "Play the audio, where there is some"
+    body: "The word guides and some entries have pronunciation clips. Hear the rhythm of the dialect, not just the letters. Most clips are generated text-to-speech, and the post says so."
   - num: "٣"
     title: "Glance at the كلام gloss"
-    body: "Every post pulls out a few useful phrases with pronunciation and meaning — the good bits, not a full translation."
+    body: "Most posts end with a few useful phrases, with pronunciation and meaning — the good bits, not a full translation."
   - num: "٤"
     title: "Then move on"
     body: "The magic isn't decoding one post perfectly. It's reading a lot of easy Arabic over time. شوي شوي."

@@ -1,0 +1,65 @@
+{{/* Four ways into the site, built on the existing wayfinding tiles (.hp-wayfind / .wf-tile).
+     Used on /start/, /learn/, the homepage, and (compact) under every blog post so a reader
+     who lands straight on an article can find the rest.
+
+     {{ partial "learning-paths.html" (dict "location" "learn") }}
+     {{ partial "learning-paths.html" (dict "location" "article" "compact" true "page" .) }}
+
+     Claims here are computed or kept deliberately modest: counts come from the site, and
+     audio is only promised where the post type actually carries it (word guides). */}}
+{{- $location := .location | default "unknown" -}}
+{{- $compact := .compact | default false -}}
+{{- $here := "" -}}{{ with .page }}{{ $here = .RelPermalink }}{{ end -}}
+{{- $breeze := `<svg viewBox="0 0 28 18" aria-hidden="true" focusable="false"><path d="M6 5C6 15 22 15 22 5"/><path fill="#b4663c" stroke="none" d="M14 0.6 16.1 2.7 14 4.8 11.9 2.7Z"/></svg>` -}}
+
+{{- $shamiCount := len (index site.Taxonomies.dialects "shami") -}}
+{{- $guideCount := len (where site.RegularPages "Params.learn" true) -}}
+{{- $earCount := len (where site.RegularPages "Params.ear_training" true) -}}
+{{- /* Only posts flagged ear_training: true. The نسمة نغمة series also has non-Arabic music,
+       so the series page isn't a listening-practice path on its own. */ -}}
+{{- $musicURL := "learn/#ear-training" | relLangURL -}}
+{{- $compareURL := "dialects/tunisian/" | relLangURL -}}
+{{- with site.GetPage "/blog/shami-tunsi-differences" }}{{ $compareURL = .RelPermalink }}{{ end -}}
+
+{{- $paths := slice
+  (dict "key" "reading" "cls" "shami" "ar" "اقرأ" "title" "Short Shami reading"
+        "url" ("dialects/shami/" | relLangURL)
+        "desc" (printf "Diary entries in everyday Levantine — most end with a glossary of key phrases · %d posts" $shamiCount)
+        "short" "Short Shami reading")
+  (dict "key" "vocab" "cls" "series" "ar" "كلمة" "title" "Vocabulary & grammar"
+        "url" ("learn/#cheat-sheets" | relLangURL)
+        "desc" (printf "Word and grammar guides with IPA, audio, and example sentences · %d guides" $guideCount)
+        "short" "Vocab & grammar guides")
+  (dict "key" "compare" "cls" "tunisian" "ar" "تونسي/شامي" "title" "Tunisian vs Levantine"
+        "url" $compareURL
+        "desc" "10 everyday differences side by side, from a learner who switched dialects — plus the Tunisian archive"
+        "short" "Tunisian vs Levantine")
+  (dict "key" "music" "cls" "shami" "ar" "نغمة" "title" "Music & listening"
+        "url" $musicURL
+        "desc" (printf "Arabic songs I've used for ear training, with the phrases I picked up · %d posts" $earCount)
+        "short" "Music & listening")
+-}}
+
+{{- if $compact -}}
+<nav class="dd-paths dd-paths--compact print:hidden" dir="ltr" lang="en" aria-label="Ways to use Daily Derja" data-rec="path" data-rec-location="{{ $location }}">
+  <span class="dd-paths__label">New here? Pick a path:</span>
+  {{- range $paths }}
+    {{- if ne .url $here }}
+    <a class="dd-paths__link" href="{{ .url }}">{{ .short }}</a>
+    {{- end }}
+  {{- end }}
+  <a class="dd-paths__link dd-paths__link--start" href="{{ "start/" | relLangURL }}">Start here →</a>
+</nav>
+{{- else -}}
+<section class="hp-wayfind dd-paths" dir="ltr" lang="en" aria-label="Ways to use Daily Derja" data-rec="path" data-rec-location="{{ $location }}">
+  <p class="hp-wayfind__eyebrow">{{ $breeze | safeHTML }}<span>Pick a path</span></p>
+  <div class="hp-wayfind__grid">
+    {{- range $paths }}
+    <a class="wf-tile wf-tile--{{ .cls }}" href="{{ .url }}">
+      <span class="wf-tile__title"><b dir="rtl" lang="ar">{{ .ar }}</b> {{ .title }}</span>
+      <span class="wf-tile__desc">{{ .desc }}</span>
+    </a>
+    {{- end }}
+  </div>
+</section>
+{{- end -}}

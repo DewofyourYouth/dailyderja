@@ -1,0 +1,55 @@
+{{/* Related posts — same dialect only.
+     Overrides Blowfish's related.html (which was gated on a param this site never
+     set, so nothing rendered). A Shami post only recommends Shami posts; a
+     Tunisian-only post recommends from the Tunisian archive. Deliberate
+     cross-dialect links live in the curated `recommend:` block instead
+     (partials/read-in-context.html), where they're labelled as comparisons.
+
+     Ranking comes from the `related` config (config/_default/config.yaml).
+     Posts already recommended via `recommend:` are skipped to avoid repeats. */}}
+{{- $page := . -}}
+{{- $dialects := .Params.dialects | default slice -}}
+{{- $primary := "" -}}
+{{- if in $dialects "shami" -}}{{ $primary = "shami" }}{{- else -}}{{ with $dialects }}{{ $primary = index . 0 }}{{ end }}{{- end -}}
+
+{{- if and $primary (eq .Section "blog") -}}
+  {{- $isTunOnly := and (eq $primary "tunisian") (not (in $dialects "shami")) -}}
+  {{- /* Skip: this page, anything in `recommend:`, and anything the body already links to. */ -}}
+  {{- $skip := slice $page.RelPermalink -}}
+  {{- range .Params.recommend -}}
+    {{- with site.GetPage (printf "/blog/%s" .slug) }}{{ $skip = $skip | append .RelPermalink }}{{ end -}}
+  {{- end -}}
+  {{- range findRE `href="(?:https://dailyderja\.com)?/blog/[^"#?]+/"` $page.Content -}}
+    {{- $skip = $skip | append (replaceRE `^href="(?:https://dailyderja\.com)?(/blog/[^"#?]+/)"$` "$1" .) -}}
+  {{- end -}}
+
+  {{- $picks := slice -}}
+  {{- range site.RegularPages.Related . -}}
+    {{- $d := .Params.dialects | default slice -}}
+    {{- /* Archive pages only recommend archive pages; everything else recommends Shami. */ -}}
+    {{- $fits := cond $isTunOnly (and (in $d "tunisian") (not (in $d "shami"))) (in $d $primary) -}}
+    {{- if and (lt (len $picks) 3) (eq .Section "blog") $fits (not (in $skip .RelPermalink)) -}}
+      {{- $picks = $picks | append . -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- with $picks -}}
+  <section class="dd-related print:hidden" dir="ltr" lang="en" data-rec="related">
+    <h2 class="dd-related__h">
+      {{- if $isTunOnly -}}
+        More from the <b dir="rtl" lang="ar">تونسي</b> Tunisian archive
+      {{- else -}}
+        More <b dir="rtl" lang="ar">شامي</b> Shami reading
+      {{- end -}}
+    </h2>
+    <div class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+      {{- range . }}
+        {{ partial "article-link/card-related.html" . }}
+      {{- end }}
+    </div>
+    {{- if $isTunOnly }}
+    <p class="dd-related__note">New posts are in Shami now. <a href="{{ "dialects/shami/" | relLangURL }}">Read Shami entries</a> or see <a href="{{ "blog/shami-tunsi-differences/" | relLangURL }}">how the two dialects differ</a>.</p>
+    {{- end }}
+  </section>
+  {{- end -}}
+{{- end -}}

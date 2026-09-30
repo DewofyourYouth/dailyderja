@@ -7,7 +7,10 @@ defaultSocialImage: "images/social-share-card.jpg"
 colorScheme: fire
 logo: "/images/logo-nasma-light.png"
 secondaryLogo: "/images/logo-nasma-dark.png"
-description: "Daily reflections in Levantine (Shami) and Tunisian Arabic — vocabulary with IPA, audio pronunciation, and real-life examples. A learner's log for spoken Arabic dialects."
+# Homepage H1. Keep it true to the content: posts are tagged "shami" (general Levantine),
+# with Palestinian features (إشي, مش) alongside هلّق etc. — not strictly Palestinian/Jordanian.
+tagline: "Short Shami Arabic readings, vocabulary, and listening notes — everyday Levantine with a Palestinian lean, written by a learner."
+description: "Short Shami (Levantine) Arabic readings from a learner's diary — vocabulary with IPA, key-phrase glossaries, and listening notes. Plus a Tunisian Arabic archive."
 keywords: ["Levantine Arabic", "Shami Arabic", "Tunisian Arabic", "Derja", "Darija", "learn Levantine Arabic", "Shami vocabulary", "Arabic dialect", "Arabic pronunciation", "IPA Arabic", "colloquial Arabic"]
 disableImageOptimization: false
 disableImageOptimizationMD: false

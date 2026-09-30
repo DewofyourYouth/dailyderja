@@ -31,7 +31,7 @@
   <span class="hp-hero__corner hp-hero__corner--bl">{{ $medallion | safeHTML }}</span>
   <span class="hp-hero__corner hp-hero__corner--br">{{ $medallion | safeHTML }}</span>
 
-  <p class="hp-hero__tagline" dir="ltr" lang="en">A daily diary in Levantine and Tunisian Arabic &mdash; real life, in real sentences, with English and audio alongside.</p>
+  <h1 class="hp-hero__tagline" dir="ltr" lang="en">{{ site.Params.tagline }}</h1>
 
   {{ $seriesTerm := "" }}
   {{ with $latest.GetTerms "series" }}{{ $seriesTerm = index . 0 }}{{ end }}
@@ -82,14 +82,16 @@
   </div>
 
   <div class="hp-hero__stats">
-    <span class="hp-hero__stats-label">Browse by dialect</span>
-    <a class="hp-stat hp-stat--shami" href="{{ "dialects/shami/" | relLangURL }}"><b dir="rtl" lang="ar">شامي</b> {{ $shamiCount }} Levantine notes</a>
+    <span class="hp-hero__stats-label">Read by dialect</span>
+    <a class="hp-stat hp-stat--shami" href="{{ "dialects/shami/" | relLangURL }}"><b dir="rtl" lang="ar">شامي</b> {{ $shamiCount }} Shami readings</a>
     <a class="hp-stat hp-stat--tunisian" href="{{ "dialects/tunisian/" | relLangURL }}"><b dir="rtl" lang="ar">تونسي</b> {{ $tunCount }} Tunisian archive</a>
     <a class="hp-hero__link" href="{{ "series/" | relLangURL }}">Series</a>
     <a class="hp-hero__link" href="{{ "tutors/" | relLangURL }}">Tutors</a>
   </div>
 </section>
 {{ end }}
+
+{{ partial "learning-paths.html" (dict "location" "home") }}
 
 {{/* Browse by mood — real, live tag data (most-used first), skipping format/pedagogy
      meta-tags so the chips read as life topics, not textbook labels. Zero manual
