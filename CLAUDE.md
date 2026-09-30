@@ -47,6 +47,10 @@ All blog posts live in `content/blog/<slug>/index.md`. Each post directory can i
 - `showHero`, `heroStyle` — featured image display
 - `series` — links the post into a multi-part series (taxonomy)
 - `dialects` — dialect taxonomy for filtering
+- `description` — the meta/OG/Twitter description (≈150 chars). Falls back to `summary`, then a plain-text excerpt. Write it for search: what the page actually contains. Don't promise lyrics, full translations, native audio, etc. unless the post has them.
+- `seoTitle` — optional; replaces `<title>`/`og:title` entirely (no " · The Daily Derja" suffix) so the visible H1 can keep its personality. Keep it ≲60 chars.
+- `recommend` — optional list of `{slug, why}` rendered as "Read it in context" (on guides/music notes) or "Go deeper" (on diary entries). `why` is one specific sentence about what the reader will find there. Missing or draft targets are skipped.
+- `audioSource` — `tts` (generated with the daily_derja_tools pipeline), `learner` (Jacob's voice), or `native`. Set it only when known; it renders a one-line label under the post.
 
 Series landing pages live in `content/series/`.
 
@@ -60,7 +64,11 @@ Series landing pages live in `content/series/`.
 - `layouts/shortcodes/audio.html` — Plyr-based audio player (used for pronunciation files)
 - `layouts/shortcodes/spotify.html`, `youtube` — media embeds
 - `layouts/shortcodes/ltr.html` — wraps English/LTR text inside RTL pages
-- `layouts/shortcodes/subscribe.html` — email signup card (follow.it) with WhatsApp/Telegram/Discord as a secondary line; markup lives in `layouts/partials/subscribe-card.html`, which the footer also uses (compact variant). Place it after the first couple of paragraphs of a post, not at the end — most readers never scroll to the bottom. Always English/LTR, even in Arabic posts.
+- `layouts/shortcodes/subscribe.html` — email signup card (follow.it) with WhatsApp/Telegram/Discord as a secondary line; markup lives in `layouts/partials/subscribe-card.html`, which the footer also uses (compact variant). The shortcode is **deferred**: wherever it sits in the post, the card renders once, after the article body (`_default/single.html`), so short posts read as one continuous piece. Add `inline="true"` only if a long post genuinely needs it in place. Always English/LTR, even in Arabic posts. Tunisian-only posts automatically get archive wording ("New posts are in Shami now").
+- `layouts/partials/read-in-context.html` — curated onward reading from `recommend:` frontmatter (see below). Labels each item as guide / diary entry / listening note, by dialect, and as "Cross-dialect comparison" when it doesn't share the post's dialect.
+- `layouts/partials/related.html` — overrides Blowfish: 3 related posts **in the same dialect only** (Tunisian-only posts recommend only archive posts). Ranking lives in the `related:` block of `config/_default/config.yaml`. Skips anything already linked in the body or in `recommend:`.
+- `layouts/partials/learning-paths.html` — the four entry points (Shami reading · vocab & grammar · Tunisian vs Levantine · music & listening). Full tiles on home, /start/, /learn/; compact row under every blog post.
+- `layouts/partials/audio-source-note.html` — one-line audio provenance label, driven by `audioSource`.
 
 ### Assets
 
@@ -78,6 +86,10 @@ GitHub Actions (`.github/workflows/hugo.yml`) builds and deploys to GitHub Pages
 ### Dialects
 
 The site pivoted from Tunisian (Derja) to **Shami (Levantine)** as the primary dialect in November 2025. Older posts use `dialects: tunisian`; current posts use `dialects: shami`. Some posts cover both.
+
+Positioning: Shami reading practice leads (homepage H1 = `tagline` in `params.yaml`, nav "Shami Reading" first). The Tunisian posts are the **Tunisian archive**: labelled as such, kept at their URLs, still in the nav. `shami` means general Levantine; the writing leans Palestinian (إشي, مش) but also uses هلّق etc. Don't describe the site as strictly Palestinian/Jordanian.
+
+Analytics events and GA4 custom dimensions are documented in `docs/analytics.md`.
 
 ### Categories
 
