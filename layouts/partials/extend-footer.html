@@ -46,11 +46,17 @@ body {
           ? container.dataset.followitLocation
           : "unknown";
 
+        // A submit is an ATTEMPT: the browser leaves for follow.it, which then asks
+        // the reader to confirm by email. Confirmed subscribers are only visible in
+        // the follow.it dashboard. The email address is never sent to GA.
+        // (GA4 enhanced measurement may also log its own automatic form_submit for
+        // this same submit — that's a second view of the same attempt, not a signup.)
         if (typeof window.gtag === "function") {
           window.gtag("event", "followit_subscribe", {
             event_category: "followit",
             event_label: location,
             followit_location: location,
+            signup_status: "attempt",
             value: 1,
             transport_type: "beacon"
           });
