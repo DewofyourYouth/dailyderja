@@ -1,6 +1,6 @@
 ---
 title: Guilt, Maturity, and Loving Well
-summary: "A Shami Arabic reflection on holiday guilt: how I stopped pleasing family out of obligation, and why people who love you want you happy."
+summary: "A Shami Arabic reflection on holiday guilt: learning to ease up on pleasing family out of obligation, and why people who love you want you happy."
 date: 2026-09-30T08:16:18+03:00
 tags:
   - shami-arabic
