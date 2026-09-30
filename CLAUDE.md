@@ -89,7 +89,7 @@ The site pivoted from Tunisian (Derja) to **Shami (Levantine)** as the primary d
 
 Positioning: Shami reading practice leads (homepage H1 = `tagline` in `params.yaml`, nav "Shami Reading" first). The Tunisian posts are the **Tunisian archive**: labelled as such, kept at their URLs, still in the nav. `shami` means general Levantine; the writing leans Palestinian (إشي, مش) but also uses هلّق etc. Don't describe the site as strictly Palestinian/Jordanian.
 
-Analytics events and GA4 custom dimensions are documented in `docs/analytics.md`.
+Analytics events and GA4 custom dimensions are documented in `docs/analytics.md`. The launch's before/after measurement (`tools/growth/`, weekly `growth-report.yml` Action, reports in `reports/growth/`) is described in `docs/measurement.md`.
 
 ### Categories
 

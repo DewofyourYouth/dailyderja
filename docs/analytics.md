@@ -1,5 +1,7 @@
 # GA4 events on dailyderja.com
 
+For the before/after readout of the 2026-10-01 launch, see `docs/measurement.md`.
+
 GA4 property: `G-Z4E3K7B8ZR` (set in `hugo.yaml`). The tag only loads in production
 builds (`hugo.IsProduction` in `layouts/partials/head.html`), so `hugo server` and
 `--environment development` builds send nothing.

@@ -1,0 +1,56 @@
+# Weekly before/after report for the 2026-10-01 Shami-focus launch.
+# Reads Search Console + GA4 with a read-only service account, writes
+# reports/growth/<date>.md + latest.md, and shows it on the run's summary page.
+# Skipped until the GA4_PROPERTY_ID repository variable exists (see docs/measurement.md).
+name: Growth report
+
+on:
+  schedule:
+    - cron: "17 5 * * 1" # Mondays 05:17 UTC (08:17 Israel)
+  workflow_dispatch:
+    inputs:
+      max_days:
+        description: "Window length cap in days (28 = four-week read, 56 = eight-week)"
+        default: "56"
+      today:
+        description: "Pretend today is YYYY-MM-DD (blank = actual today)"
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: growth-report
+  cancel-in-progress: false
+
+jobs:
+  report:
+    if: ${{ vars.GA4_PROPERTY_ID != '' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install -r tools/growth/requirements.txt
+      - name: Unit tests
+        run: python -m unittest tools/growth/test_growth_report.py
+      - name: Build report
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          GA4_PROPERTY_ID: ${{ vars.GA4_PROPERTY_ID }}
+          GSC_SITE_URL: ${{ vars.GSC_SITE_URL }}
+          MAX_DAYS: ${{ inputs.max_days || '56' }}
+          TODAY: ${{ inputs.today }}
+        run: python tools/growth/growth_report.py --out reports/growth --max-days "$MAX_DAYS" ${TODAY:+--today "$TODAY"}
+      - name: Show on run summary
+        run: cat reports/growth/latest.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Commit report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/growth
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Growth report $(date -u +%F) [skip ci]"
+          git push
