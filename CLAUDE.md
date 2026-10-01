@@ -63,6 +63,7 @@ Series landing pages live in `content/series/`.
 - `layouts/partials/schema.html` — structured data
 - `layouts/shortcodes/audio.html` — Plyr-based audio player (used for pronunciation files)
 - `layouts/shortcodes/spotify.html`, `youtube` — media embeds
+- `layouts/shortcodes/expression.html` — proverb / set-phrase block: the Arabic (`|` marks the line break), then literal → meaning → when to use it. Params: `ar`, `meaning`, `use` (required); `literal`, `kind="proverb"` (shows «مثل», else «تعبير»), `ipa`, `audio` (optional). Styles under "Expression block" at the end of `assets/css/custom.css`.
 - `layouts/shortcodes/ltr.html` — wraps English/LTR text inside RTL pages
 - `layouts/shortcodes/subscribe.html` — email signup card (follow.it) with WhatsApp/Telegram/Discord as a secondary line; markup lives in `layouts/partials/subscribe-card.html`, which the footer also uses (compact variant). The shortcode is **deferred**: wherever it sits in the post, the card renders once, after the article body (`_default/single.html`), so short posts read as one continuous piece. Add `inline="true"` only if a long post genuinely needs it in place. Always English/LTR, even in Arabic posts. Tunisian-only posts automatically get archive wording ("New posts are in Shami now").
 - `layouts/partials/read-in-context.html` — curated onward reading from `recommend:` frontmatter (see below). Labels each item as guide / diary entry / listening note, by dialect, and as "Cross-dialect comparison" when it doesn't share the post's dialect.

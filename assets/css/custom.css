@@ -4526,3 +4526,139 @@ html.dark .dd-sub .dd-sub-word__ipa { color: var(--ds-gold); }
   text-align: left;
 }
 .dark .dd-audio-note { color: #cbb68d; }
+
+/* ================================
+   Expression block — proverbs & set phrases
+   Flat inscription strip: the Arabic, then literal -> meaning -> use.
+   (shortcode: layouts/shortcodes/expression.html)
+   Kept at the end of the file on purpose: the blanket
+   `.article-content :lang(ar)` rule has the same specificity as
+   `.dd-expr .x`, so source order has to decide.
+   ================================= */
+
+.dd-expr {
+  --e-ink: #322713;
+  --e-ink-soft: #6a5836;
+  --e-paper: #fbf4e7;
+  --e-gold-deep: var(--color-accent-dark, #9f6429);
+  --e-line: rgba(159, 100, 41, 0.3);
+  --e-bar: var(--color-terracotta, #b4663c);
+
+  position: relative;
+  max-width: 41rem;
+  margin: clamp(1.6rem, 4vw, 2.4rem) auto;
+  padding: 0.2rem clamp(1.1rem, 3.5vw, 1.9rem) 0.4rem;
+  border-inline-start: 4px solid var(--e-bar);
+  background: linear-gradient(to left, color-mix(in srgb, var(--e-paper) 92%, transparent), transparent 88%);
+  font-family: "Zain", system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: var(--e-ink);
+}
+.dark .dd-expr {
+  --e-ink: #f1e4cc;
+  --e-ink-soft: #c9b48b;
+  --e-paper: #241c12;
+  --e-gold-deep: var(--color-accent-light, #ebd3aa);
+  --e-line: rgba(235, 211, 170, 0.28);
+}
+
+.dd-expr .dd-expr__kind {
+  display: inline-block;
+  margin: 0.9rem 0 0.1rem;
+  padding: 0.3em 0.75em 0.18em;
+  border: 1px solid var(--e-line);
+  border-radius: 999px;
+  font-family: "Lalezar", system-ui, sans-serif;
+  font-size: 1rem;
+  line-height: 1;
+  color: var(--e-gold-deep);
+}
+
+.dd-expr .dd-expr__ar {
+  margin: 0.5rem 0 0;
+  font-family: "Zain", system-ui, sans-serif;
+  font-weight: 800;
+  font-size: clamp(1.75rem, 5.4vw, 2.6rem);
+  line-height: 1.38;
+  color: var(--e-ink);
+  text-wrap: balance;
+}
+.dd-expr .dd-expr__line { display: block; }
+
+.dd-expr .dd-expr__phon {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin: 0.5rem 0 0;
+}
+.dd-expr .dd-expr__ipa {
+  font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: var(--e-gold-deep);
+}
+.dd-expr .dd-expr__phon .dd-aud-wrap { margin-inline-start: auto; }
+
+/* the thread: literal -> meaning -> use */
+.dd-expr .dd-expr__gloss {
+  position: relative;
+  margin: 1.1rem 0 0.9rem;
+  padding: 0;
+  border-inline-start: 1px solid var(--e-line);
+}
+.dd-expr .dd-expr__row {
+  position: relative;
+  display: grid;
+  grid-template-columns: 7.2rem 1fr;
+  gap: 0.15rem 1rem;
+  margin: 0;
+  padding: 0.6rem 0 0.6rem 1.25rem;
+}
+.dd-expr .dd-expr__row::before {
+  content: "";
+  position: absolute;
+  inset-inline-start: -5px;
+  top: 1.05rem;
+  width: 9px;
+  height: 9px;
+  border: 1.5px solid var(--e-gold-deep);
+  border-radius: 50%;
+  background: var(--e-paper);
+}
+.dd-expr .dd-expr__row--use::before {
+  border-color: var(--e-bar);
+  background: var(--e-bar);
+}
+
+.dd-expr .dd-expr__gloss dt {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-body); /* English labels → Latin body */
+  font-weight: 700;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--e-gold-deep);
+}
+.dd-expr .dd-expr__gloss dd {
+  margin: 0;
+  padding: 0; /* theme prose styles add an em-based padding-left to dd */
+  font-family: var(--font-body);
+  font-size: 1.08rem;
+  line-height: 1.55;
+  color: var(--e-ink);
+}
+.dd-expr .dd-expr__row--literal dd {
+  font-style: italic;
+  color: var(--e-ink-soft);
+}
+.dd-expr .dd-expr__row--meaning dd {
+  font-weight: 700;
+  font-size: clamp(1.15rem, 2vw, 1.3rem);
+  line-height: 1.4;
+}
+
+@media (max-width: 34rem) {
+  .dd-expr .dd-expr__row {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+}

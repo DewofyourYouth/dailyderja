@@ -45,9 +45,18 @@ cssclasses:
 
 لما وصلني التوصيل، ما كان في مشروب مع الطلب. والأكل كان عادي، مش زاكي كتير. عندي أكل بالدار أطيب منه.
 
+لما انتبهت، كان تبع التوصيل راح.
+
 أنا متضايق كتير ولسا عطشان، وبفكر إني ما أطلب من هالمطعم مرة تانية.
 
-إجت الحزينة تفرح، ما لقت إلها مطرح.
+{{< expression
+  ar="إجت الحزينة تفرح،|ما لقت إلها مطرح."
+  kind="proverb"
+  ipa="ʔiʒat ilħaˈziːne tifraħ, ma laʔat ˈilha ˈmatˤraħ"
+  literal="The sad woman came to be happy and found no place for herself."
+  meaning="Bad luck spoils even a small pleasure."
+  use="When you hoped for something small and it still went wrong. Usually said as a joke, not a real complaint."
+>}}
 
 {{< subscribe >}}
 

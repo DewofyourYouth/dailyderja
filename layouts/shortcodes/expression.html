@@ -1,0 +1,61 @@
+{{/*
+  Expression / proverb block.
+  A flat inscription-style strip for a set phrase, idiom or proverb: the Arabic,
+  then the thread  literal image -> meaning -> when to use it.
+  (Sibling of the `word` shortcode; styles live in assets/css/custom.css under
+  "Expression block".)
+
+  Usage:
+    {{< expression
+        ar="إجت الحزينة تفرح،|ما لقت إلها مطرح."
+        kind="proverb"
+        ipa="ʔiʒat ilħaˈziːne tifraħ, ma laʔat ˈilha ˈmatˤraħ"
+        literal="The sad woman came to be happy and found no place for herself."
+        meaning="Bad luck spoils even a small pleasure."
+        use="When you hoped for something small and it still went wrong. Usually said as a joke."
+        audio="/audio/hazine-tifrah.mp3" >}}
+
+  Params:
+    ar       (required) the Arabic. Put | where the line should break
+             (e.g. at the natural pause); without it the text wraps balanced.
+    meaning  (required) what it actually means, in plain English.
+    use      (required) when you would say it (register, tone, situation).
+    literal  (optional) the word-for-word image. Row is skipped when empty.
+    kind     (optional) "proverb" shows «مثل»; anything else (default) shows «تعبير».
+    ipa      (optional) phonetic transcription, written WITHOUT slashes.
+    audio    (optional) mp3 under static/; the play button only renders when the
+             file exists, so it is safe to set before the recording is in place.
+*/}}
+{{- $ar := .Get "ar" -}}
+{{- $meaning := .Get "meaning" -}}
+{{- $use := .Get "use" -}}
+{{- $literal := .Get "literal" -}}
+{{- $ipa := .Get "ipa" -}}
+{{- $audio := .Get "audio" -}}
+{{- $kind := cond (eq (.Get "kind") "proverb") "مثل" "تعبير" -}}
+{{- $label := replace $ar "|" " " -}}
+
+<aside class="dd-expr" dir="rtl" lang="ar">
+  <span class="dd-expr__kind">{{ $kind }}</span>
+
+  <p class="dd-expr__ar">
+    {{- range split $ar "|" -}}<span class="dd-expr__line">{{ trim . " " }}</span>{{- end -}}
+  </p>
+
+  {{- $hasAudio := false -}}
+  {{- with $audio -}}{{- $hasAudio = os.FileExists (printf "static/%s" (strings.TrimPrefix "/" .)) -}}{{- end -}}
+  {{- if or $ipa $hasAudio }}
+    <div class="dd-expr__phon" dir="ltr" lang="en">
+      {{- with $ipa }}<span class="dd-expr__ipa">/{{ . }}/</span>{{ end -}}
+      {{- with $audio }}{{ partial "audio-pron.html" (dict "src" . "page" $.Page "label" $label "text" "استمع") }}{{ end -}}
+    </div>
+  {{- end }}
+
+  <dl class="dd-expr__gloss" dir="ltr" lang="en">
+    {{- with $literal }}
+    <div class="dd-expr__row dd-expr__row--literal"><dt>Literally</dt><dd>{{ . }}</dd></div>
+    {{- end }}
+    <div class="dd-expr__row dd-expr__row--meaning"><dt>It means</dt><dd>{{ $meaning }}</dd></div>
+    <div class="dd-expr__row dd-expr__row--use"><dt>Use it when</dt><dd>{{ $use }}</dd></div>
+  </dl>
+</aside>
