@@ -56,6 +56,7 @@ cssclasses:
   literal="The sad woman came to be happy and found no place for herself."
   meaning="Bad luck spoils even a small pleasure."
   use="When you hoped for something small and it still went wrong. Usually said as a joke, not a real complaint."
+  audio="/audio/hazine-tifrah.mp3"
 >}}
 
 {{< subscribe >}}
