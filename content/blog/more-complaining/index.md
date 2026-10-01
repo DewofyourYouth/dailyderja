@@ -15,6 +15,7 @@ tags:
   - entrepreneurship
   - work-life
   - rant
+  - complaining
 series:
   - نسمة نهار
 series_order: 11

@@ -9,6 +9,7 @@ tags:
   - remote-work
   - vpn-issues
   - morning-walk
+  - complaining
 categories:
   - family
   - daily-life

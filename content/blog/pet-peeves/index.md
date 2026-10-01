@@ -8,6 +8,7 @@ tags:
   - topping-overload
   - ordering-annoyances
   - everyday-annoyances
+  - complaining
 categories:
   - daily-life
 draft: false

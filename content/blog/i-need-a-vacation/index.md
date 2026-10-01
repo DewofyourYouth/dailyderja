@@ -10,6 +10,7 @@ tags:
   - work-from-home
   - weight-loss
   - stress-relief
+  - complaining
 categories:
   - daily-life
   - work-and-career
