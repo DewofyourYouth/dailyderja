@@ -28,6 +28,8 @@ cssclasses:
 
 اليوم بتبلّش سنة جديدة 🎊. كل سنة وإنتو طيّبين! 🎉🪬
 
+![A long festive table with a birthday cake, a lit menorah and New Year sparklers](kull-sane.jpg)
+
 {{< expression
   ar="كل سنة|وإنتو طيّبين"
   ipa="kull ˈsane w ˈʔintu tˤajjˈbiːn"

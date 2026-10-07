@@ -30,6 +30,8 @@ cssclasses:
 
 فكرة الكتاب بسيطة لدرجة الهبل، والنهفة بالموضوع إنه ليش أصلًا ينعمل كتاب كامل عشان يشرحها! الفكرة هي إنك تاخد أهداف صغيرة ومقدور عليها، يعني نمشي «تاتة تاتة» (Baby Steps). وبالفيلم منشوف بوب كيف بيطبّق هالحكي ع كل شي، وبيضل يحكي لحاله: «تاتة تاتة إمشي عالباب... تاتة تاتة إطلع عالباص».
 
+![A toddler taking wobbly first steps across a tiled courtyard toward a kneeling parent with open arms](taata-taata.jpg)
+
 {{< expression
   ar="تاتة تاتة"
   ipa="ˈtaːta ˈtaːta"

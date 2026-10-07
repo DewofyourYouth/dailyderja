@@ -36,6 +36,8 @@ audioSource: tts
 
 {{< subscribe >}}
 
+![A blacksmith raising a hammer over a red-hot iron bar on an anvil](strike-iron-hot.jpg)
+
 {{< expression
   ar="إضرب الحديد|وهو حامي."
   kind="proverb"

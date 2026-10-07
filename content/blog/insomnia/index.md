@@ -39,6 +39,8 @@ cssclasses:
 🛌 بالآخر نام بتختي.  
 😵 نِمت نص ساعة وبعدين أكلت ضربة عَوجهي.
 
+![A toddler asleep across the bed with a hand smacked into the face of a sleeping father](akalt-darbe.jpg)
+
 {{< expression
   ar="أكلت ضربة"
   ipa="ʔaˈkalt ˈdˤarbe"

@@ -32,6 +32,8 @@ cssclasses:
 
 اليوم عندي واجب؛ توفى واحد من صحاب أبوي، الله يرحمه. كان طبيب قلب مخلص، ومن أعمدة الجالية اليهودية في جنوب فلوريدا، وصديق وفي لعيلتنا. بس للأسف بأيام الكورونا تعب كتير ومرض. الدفن رح يكون بـ «هار همنوخوت» بالقدس. الله يرحمه ويصبّر أهله.
 
+![A quiet hillside cemetery at dusk with small stones placed on flat limestone graves](allah-yirhamo.jpg)
+
 {{< expression
   ar="الله يرحمه|ويصبّر أهله"
   ipa="ʔaɫˈɫa jirˈħamo w jsˤabˈbir ˈʔahlo"

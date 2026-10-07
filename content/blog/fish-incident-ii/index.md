@@ -30,6 +30,8 @@ cssclasses:
 
 ببوست سابق، حكينا عن [مغامرة فاشلة مع حوض السمك تبعنا ومع آخر العنقود](https://dailyderja.com/blog/fish-tale/), بس طلع في حلقة جديدة من السيرة 😅!
 
+![A bunch of grapes wearing a tiny crown, with one last grape hanging below it](akher-il-anqud.jpg)
+
 {{< expression
   ar="آخر العنقود"
   ipa="ʔaːxer ilʕanˈʔuːd"

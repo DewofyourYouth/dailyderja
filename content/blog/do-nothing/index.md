@@ -29,6 +29,8 @@ cssclasses:
 <!-- raw-transcript
 أنا تعبان اليوم، ما بدي عامل إشي
 
+![A man slumped on a sofa staring at the ceiling, with dishes piled up and a laptop full of job applications](ma-fi-nafsi.jpg)
+
 {{< expression
   ar="ما في نفسي"
   ipa="ma fi ˈnafsi"

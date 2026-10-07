@@ -34,9 +34,11 @@ series_order: 14
 
 في الصباح مشيت مع ولدي موشه للمخبزة — شريت حليب شوكولا وكروسان شوكولا لموشه، وقهوة وصفنج لروحي. حكيت معاه — هو تو خمسة سنين، يظورلي هو ذكي برشة، خمسة و خميس.
 
+![A blue hamsa hand hanging on a doorway above a table with a croissant, chocolate milk, coffee and a doughnut](khamsa-w-khmis.jpg)
+
 {{< expression
   ar="خمسة و خميس"
-  ipa="ˈxamsa w xˈmiːs"
+  ipa="ˈxamsa wa xaˈmiːs"
   literal="Five and five: the five fingers of the hamsa hand."
   meaning="Touch wood; may the evil eye stay away."
   use="Right after praising someone, especially a child, so the compliment does not draw the evil eye. In Shami: خمسة وخميسة."
