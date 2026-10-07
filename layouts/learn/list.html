@@ -28,6 +28,19 @@
       </section>
     {{ end }}
 
+    {{/* Expressions & proverbs — anything tagged `expressions` (diary entries included) */}}
+    {{ $exprTerm := site.GetPage "/tags/expressions" }}
+    {{ with index site.Taxonomies.tags "expressions" }}
+      <h2 class="learn__h" id="expressions"><span>Expressions &amp; proverbs</span></h2>
+      <p class="learn__lead">Set phrases and proverbs I've picked up, each with the literal image, what it really means, when to say it, and audio.</p>
+      <section class="space-y-8 w-full">
+        {{ range .Pages.ByDate.Reverse }}
+          {{ partial "article-link/simple.html" . }}
+        {{ end }}
+      </section>
+      {{ with $exprTerm }}<p class="learn__lead"><a href="{{ .RelPermalink }}">All expressions →</a></p>{{ end }}
+    {{ end }}
+
     {{/* Tunisian vs Levantine — every post that carries both dialects is an explicit comparison */}}
     {{ $both := slice }}
     {{ range site.RegularPages.ByDate.Reverse }}
