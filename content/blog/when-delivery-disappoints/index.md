@@ -13,6 +13,8 @@ tags:
   - complaining
   - restaurant
   - proverbs
+  - expressions
+  - idioms
   - emotions
 categories:
   - language-learning
