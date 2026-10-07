@@ -3,6 +3,8 @@ title: The Fish Tank Incident - Part Two
 summary: A Shami sequel about bubble soap in the fish tank, three dead fish, and a rushed rescue for the survivors.
 date: "2026-03-26T17:37:50+02:00"
 tags:
+  - expressions
+  - idioms
   - family-story
   - parenting-humor
   - fish-tank
@@ -14,6 +16,7 @@ categories:
   - family
   - daily-life
 draft: false
+audioSource: tts
 dialects:
   - shami
 series:
@@ -26,6 +29,15 @@ cssclasses:
 ---
 
 ببوست سابق، حكينا عن [مغامرة فاشلة مع حوض السمك تبعنا ومع آخر العنقود](https://dailyderja.com/blog/fish-tale/), بس طلع في حلقة جديدة من السيرة 😅!
+
+{{< expression
+  ar="آخر العنقود"
+  ipa="ʔaːxer ilʕanˈʔuːd"
+  literal="The last one on the bunch of grapes."
+  meaning="The youngest child in the family."
+  use="Talking fondly about the baby of the family, often with a hint that they get away with more than the others."
+  audio="/audio/akher-il-anqud.mp3"
+>}}
 
 بداية الربيع هيّي فترة عيد الفصح. هو وقت مشغول كتير مع تحضيرات العيد.
 

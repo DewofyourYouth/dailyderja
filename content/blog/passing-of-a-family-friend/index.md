@@ -3,6 +3,8 @@ title: A Funeral on Har Hamenuchot
 summary: Attending a funeral for a dear friend of the family.
 date: 2026-04-24T10:26:50+02:00
 tags:
+  - expressions
+  - idioms
   - funeral
   - bereavement
   - family-friend
@@ -14,6 +16,7 @@ categories:
   - daily-life
   - faith-culture
 draft: false
+audioSource: tts
 dialects:
   - shami
 series:
@@ -28,6 +31,15 @@ cssclasses:
 ## خاطِرة
 
 اليوم عندي واجب؛ توفى واحد من صحاب أبوي، الله يرحمه. كان طبيب قلب مخلص، ومن أعمدة الجالية اليهودية في جنوب فلوريدا، وصديق وفي لعيلتنا. بس للأسف بأيام الكورونا تعب كتير ومرض. الدفن رح يكون بـ «هار همنوخوت» بالقدس. الله يرحمه ويصبّر أهله.
+
+{{< expression
+  ar="الله يرحمه|ويصبّر أهله"
+  ipa="ʔaɫˈɫa jirˈħamo w jsˤabˈbir ˈʔahlo"
+  literal="May God have mercy on him and give his family patience."
+  meaning="May he rest in peace, and may his family find comfort."
+  use="When you hear that someone has died, or whenever you mention someone who has passed. For a woman: الله يرحمها ويصبّر أهلها."
+  audio="/audio/allah-yirhamo-w-ysabbir-ahlo.mp3"
+>}}
 
 {{< subscribe >}}
 

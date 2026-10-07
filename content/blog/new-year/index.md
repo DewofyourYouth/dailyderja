@@ -3,6 +3,8 @@ title: A New Year Begins
 summary: New year starts with a stomach bug and a birthday IOU I still need to make good on.
 date: 2026-01-01T11:33:58+02:00
 tags:
+  - expressions
+  - idioms
   - new-year
   - birthday
   - spouse
@@ -12,6 +14,7 @@ categories:
   - daily-life
   - family
 draft: false
+audioSource: tts
 dialects:
   - shami
 series:
@@ -24,6 +27,15 @@ cssclasses:
 ---
 
 اليوم بتبلّش سنة جديدة 🎊. كل سنة وإنتو طيّبين! 🎉🪬
+
+{{< expression
+  ar="كل سنة|وإنتو طيّبين"
+  ipa="kull ˈsane w ˈʔintu tˤajjˈbiːn"
+  literal="Every year, and may you all be well."
+  meaning="Happy holidays; many happy returns."
+  use="For any occasion that comes around every year: New Year, holidays, birthdays. To one man: كل سنة وإنت طيّب; to one woman: وإنتِ طيّبة. The reply is وإنت طيّب / وإنتو طيّبين."
+  audio="/audio/kull-sane-w-intu-tayyibin.mp3"
+>}}
 
 مبارح كان عيد ميلاد مرتي❤️، بس أنا كنت مريض كتير 🤢 وما عملت شي. الصبح ☀️ ما كان فيني أطلع من الحمّام 🚽، وبعدين ما كان فيني أطلع من سريري 🛌.
 

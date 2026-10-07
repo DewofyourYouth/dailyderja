@@ -3,6 +3,8 @@ title: Baby Steps
 summary: Doing one small thing at a time.
 date: 2026-02-17T12:09:05+02:00
 tags:
+  - expressions
+  - idioms
   - baby-steps
   - small-habits
   - motivation
@@ -10,6 +12,7 @@ tags:
 categories:
   - daily-life
 draft: false
+audioSource: tts
 dialects:
   - shami
 series:
@@ -26,6 +29,15 @@ cssclasses:
 في فيلم قديم بيضحّك اسمه [What About Bob](https://www.imdb.com/title/tt0103241/)، بيحكي عن دكتور نفسي ومريضه اللي اسمه بوب. بأوّل الفيلم، الدكتور بيكون مشهور بسبب كتابه Baby Steps.
 
 فكرة الكتاب بسيطة لدرجة الهبل، والنهفة بالموضوع إنه ليش أصلًا ينعمل كتاب كامل عشان يشرحها! الفكرة هي إنك تاخد أهداف صغيرة ومقدور عليها، يعني نمشي «تاتة تاتة» (Baby Steps). وبالفيلم منشوف بوب كيف بيطبّق هالحكي ع كل شي، وبيضل يحكي لحاله: «تاتة تاتة إمشي عالباب... تاتة تاتة إطلع عالباص».
+
+{{< expression
+  ar="تاتة تاتة"
+  ipa="ˈtaːta ˈtaːta"
+  literal="Toddle, toddle: what you say to a baby taking its first steps."
+  meaning="Slowly, one small step at a time."
+  use="Encouraging someone (or yourself) to take something big in small steps. It is baby talk, so it sounds warm and a little playful."
+  audio="/audio/taata-taata.mp3"
+>}}
 
 {{< subscribe >}}
 

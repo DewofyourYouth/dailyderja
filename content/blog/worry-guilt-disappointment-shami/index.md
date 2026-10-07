@@ -7,6 +7,8 @@ date: 2026-09-30T20:00:00+03:00
 draft: false
 learn: true
 tags:
+  - expressions
+  - idioms
   - shami-arabic
   - levantine-arabic
   - vocabulary

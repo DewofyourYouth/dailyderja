@@ -5,6 +5,8 @@ description: "Master the Shami Arabic word 'Hadid' (حديد) meaning iron or me
 date: "2026-06-11T14:00:00+03:00"
 image: featured.jpg
 tags:
+  - expressions
+  - proverbs
   - shami-arabic
   - vocabulary
   - nouns
@@ -33,6 +35,16 @@ audioSource: tts
 {{< recall ar="حديد" translit="hadid" meaning="iron" mnemonic="Placeholder mnemonic for hadid." audio="/audio/hadid.mp3" image="placeholder-flashcard.jpg" imageAlt="The Daily Derja flashcard for حديد, iron" >}}
 
 {{< subscribe >}}
+
+{{< expression
+  ar="إضرب الحديد|وهو حامي."
+  kind="proverb"
+  ipa="ˈʔidˤrob ilħaˈdiːd w ˈhuwwe ˈħaːmi"
+  literal="Strike the iron while it is hot."
+  meaning="Act while the chance is there."
+  use="The same as in English: when an opportunity is open right now and might not stay open."
+  audio="/audio/strike-iron-hot.mp3"
+>}}
 
 ## أمثلة
 

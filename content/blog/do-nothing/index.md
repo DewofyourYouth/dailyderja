@@ -3,6 +3,8 @@ title: A Day I Meant to Do Nothing
 summary: I'm too tired to do anything today — except, it turns out, dishes, job applications, a 2:30 meeting, a walk, and a swim at the nearby spring.
 date: 2026-06-25T12:08:47+03:00
 tags:
+  - expressions
+  - idioms
   - shami-arabic
   - daily-reflection
   - job-search
@@ -12,6 +14,7 @@ tags:
 categories:
   - language-learning
 draft: false
+audioSource: tts
 dialects:
   - shami
 series:
@@ -25,6 +28,15 @@ cssclasses:
 
 <!-- raw-transcript
 أنا تعبان اليوم، ما بدي عامل إشي
+
+{{< expression
+  ar="ما في نفسي"
+  ipa="ma fi ˈnafsi"
+  literal="It is not in my soul."
+  meaning="I do not feel like it; I am not in the mood."
+  use="Casually saying no to something, or admitting you are dragging your feet: ما في نفسي فيهم (I am not in the mood for them). نفس here is appetite or desire; ما إلي نفس says the same thing."
+  audio="/audio/ma-fi-nafsi.mp3"
+>}}
 
 وبصراحة ما بعارش ليش لازمني أعملش اليوم
 

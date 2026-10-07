@@ -3,6 +3,8 @@ title: Insomnia
 date: 2026-01-06T05:59:48+02:00
 summary: "Half an hour of sleep, a coughing kid with pneumonia, and a morning running on fumes."
 tags:
+  - expressions
+  - idioms
   - insomnia
   - no-sleep
   - sick-kid
@@ -17,6 +19,7 @@ categories:
   - health
   - family
 draft: false
+audioSource: tts
 dialects:
   - shami
 series:
@@ -35,6 +38,15 @@ cssclasses:
 😴 ما نِمت إلا نص ساعة، ولدي الصغير عنده التهاب بالرئة وكان عم يفيق طول الليل. 🫁🤒  
 🛌 بالآخر نام بتختي.  
 😵 نِمت نص ساعة وبعدين أكلت ضربة عَوجهي.
+
+{{< expression
+  ar="أكلت ضربة"
+  ipa="ʔaˈkalt ˈdˤarbe"
+  literal="I ate a hit."
+  meaning="I got hit; I took a blow."
+  use="Any time something lands on you, literally or not. Shami uses أكل for taking all kinds of unpleasant things: أكل بهدلة (got told off), أكل مخالفة (got a fine)."
+  audio="/audio/akalt-darbe.mp3"
+>}}
 
 {{< subscribe >}}
 
