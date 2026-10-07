@@ -15,7 +15,7 @@ categories:
   - language-learning
 difficulty_level: easy
 pullquote: اللي مش عاجبه، يبلّط البحر.
-draft: true
+draft: false
 dialects:
   - shami
 series:
