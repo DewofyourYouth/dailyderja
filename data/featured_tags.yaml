@@ -1,0 +1,34 @@
+# Tags promoted to cards at the top of /tags/ (layouts/_default/terms.html).
+# Order here is display order. Tags missing from the site are skipped.
+- slug: expressions
+  ar: تعابير
+  en: Expressions & proverbs
+  blurb: Set phrases with the literal image, the real meaning, when to say it, and audio.
+- slug: vocabulary
+  ar: كلمات
+  en: Vocabulary
+  blurb: Everyday Shami words, picked up in context and broken down.
+- slug: dialect-notes
+  ar: لهجة
+  en: Dialect notes
+  blurb: How Shami actually works, plus where it differs from Tunisian and MSA.
+- slug: complaining
+  ar: تذمّر
+  en: Complaining
+  blurb: The most useful register in any language. Moaning, Levantine style.
+- slug: jewish-holidays
+  ar: أعياد
+  en: Jewish holidays
+  blurb: The Jewish year told in Shami, one holiday and fast at a time.
+- slug: music
+  ar: موسيقى
+  en: Music
+  blurb: Levantine songs as listening practice, with notes on the words.
+- slug: vlog
+  ar: فيديو
+  en: Vlogs
+  blurb: Short videos of me talking in Arabic, mistakes and all.
+- slug: example-sentences
+  ar: أمثلة
+  en: Example sentences
+  blurb: Real sentences you can lift straight into conversation.

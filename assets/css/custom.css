@@ -2025,6 +2025,144 @@ section.article-ltr {
 }
 
 /* ================================
+   Tags page — featured cards + cloud
+   (layouts/_default/terms.html, tags branch; list in data/featured_tags.yaml)
+   ================================= */
+
+/* first featured tag gets the wide hero card */
+.tx__grid > .tx-card:first-child {
+  grid-column: span 2;
+  background:
+    radial-gradient(90% 120% at 100% 0%, rgba(198, 132, 58, 0.32), transparent 60%),
+    linear-gradient(158deg, var(--s-paper) 0%, var(--s-paper-2) 100%);
+}
+.tx__grid > .tx-card:first-child .sx-card__ar { font-size: clamp(2.6rem, 5vw, 3.4rem); }
+@media (max-width: 640px) {
+  .tx__grid > .tx-card:first-child { grid-column: auto; }
+}
+
+/* Arabic title sits top-right, so the count badge moves to top-left */
+.tx-card .sx-card__count { right: auto; left: 1.2rem; }
+.tx-card .sx-card__ar { position: relative; margin-top: 0.2rem; text-align: right; }
+.tx-card::before {
+  content: "#";
+  position: absolute;
+  left: -0.5rem;
+  bottom: -2.2rem;
+  font-family: "Lalezar", system-ui, sans-serif;
+  font-size: 9rem;
+  line-height: 1;
+  color: var(--s-gold);
+  opacity: 0.07;
+  z-index: -1;
+  transition: opacity 0.3s ease, transform 0.4s ease;
+}
+.tx-card:hover::before { opacity: 0.14; transform: rotate(-8deg); }
+
+.tx__h {
+  position: relative;
+  z-index: 2;
+  margin: 2.75rem 0 1rem;
+  font-family: var(--font-body);
+  font-weight: 800;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--s-ink-soft);
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.tx__h::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--s-line);
+}
+
+.tx-cloud {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem 0.55rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.tx-cloud li { margin: 0; padding: 0; }
+.tx-cloud li::before { content: none; }
+
+.tx-chip {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.25em;
+  padding: 0.3em 0.75em;
+  border-radius: 999px;
+  border: 1px solid var(--s-line);
+  background: var(--s-paper);
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  line-height: 1.3;
+  color: var(--s-ink-soft) !important;
+  text-decoration: none !important;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+.tx-chip sup {
+  top: 0;
+  font-size: 0.7em;
+  font-weight: 700;
+  color: var(--s-gold-deep);
+  opacity: 0.75;
+}
+.dark .tx-chip sup { color: var(--s-gold-soft); }
+.tx-chip:hover {
+  transform: translateY(-2px);
+  color: #fff8ec !important;
+  border-color: transparent;
+  background: radial-gradient(circle at 35% 28%, #e6b873, var(--s-gold) 55%, var(--s-gold-deep));
+}
+.tx-chip:hover sup { color: inherit; }
+
+/* size steps by log(post count) */
+.tx-chip--0 { font-size: 0.78rem; opacity: 0.85; }
+.tx-chip--1 { font-size: 0.85rem; }
+.tx-chip--2 { font-size: 0.98rem; font-weight: 600; }
+.tx-chip--3 { font-size: 1.12rem; font-weight: 700; color: var(--s-ink) !important; background: var(--s-paper-2); }
+.tx-chip--4 { font-size: 1.28rem; font-weight: 800; color: var(--s-ink) !important; background: var(--s-paper-2); border-color: var(--s-gold-soft); }
+
+.tx-more {
+  position: relative;
+  z-index: 2;
+  margin-top: 1.75rem;
+}
+.tx-more summary {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  font-family: var(--font-body);
+  font-weight: 800;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--s-gold-deep);
+  margin-bottom: 1rem;
+}
+.dark .tx-more summary { color: var(--s-gold-soft); }
+.tx-more summary span {
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: 0;
+  color: var(--s-ink-soft);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tx-chip, .tx-card::before { transition: none; }
+}
+
+/* ================================
    Single post — reading enhancements
    (layouts/_default/single.html + .article-content)
    ================================= */

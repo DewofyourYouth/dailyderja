@@ -58,8 +58,63 @@
       </div>
     </section>
 
+  {{ else if eq .Data.Plural "tags" }}
+    {{/* ---- Tags: featured cards (data/featured_tags.yaml) + sized cloud ---- */}}
+    {{ $terms := .Data.Terms }}
+    <section class="sx tx">
+      <div class="sx__atmos" aria-hidden="true"><span class="sx__watermark">مواضيع</span></div>
+      <header class="sx__head">
+        <span class="sx__eyebrow"><span dir="rtl" lang="ar">مَواضيع</span></span>
+        <h1 class="sx__title">Browse by topic</h1>
+        <div class="sx__intro"><p>Start with the big ones, or dig through everything else below.</p></div>
+      </header>
+
+      <div class="sx__grid tx__grid">
+        {{ range site.Data.featured_tags }}
+          {{ $f := . }}
+          {{ with index $terms $f.slug }}
+            {{ $count := len . }}
+            <a class="sx-card tx-card" href="{{ (site.GetPage (printf "/tags/%s" $f.slug)).RelPermalink }}">
+              <span class="sx-card__count"><b>{{ $count }}</b><span>{{ if eq $count 1 }}post{{ else }}posts{{ end }}</span></span>
+              <h2 class="sx-card__ar" dir="rtl" lang="ar">{{ $f.ar }}</h2>
+              <span class="sx-card__en">{{ $f.en }}</span>
+              {{ with $f.blurb }}<p class="sx-card__desc">{{ . }}</p>{{ end }}
+              <span class="sx-card__go" aria-hidden="true">
+                <svg viewBox="0 0 24 24" focusable="false"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+            </a>
+          {{ end }}
+        {{ end }}
+      </div>
+
+      {{ $slugs := slice }}
+      {{ range site.Data.featured_tags }}{{ $slugs = $slugs | append .slug }}{{ end }}
+      {{ $max := 1 }}
+      {{ range $terms.ByCount }}{{ if gt .Count $max }}{{ $max = .Count }}{{ end }}{{ end }}
+      <h2 class="tx__h">Everything else</h2>
+      <ul class="tx-cloud">
+        {{ range $terms.Alphabetical }}
+          {{ if and (gt .Count 1) (not (in $slugs .Page.Data.Term)) }}
+            {{ $w := math.Max 1 (math.Round (mul 4 (div (math.Log (float .Count)) (math.Log (float (add $max 1)))))) }}
+            <li><a class="tx-chip tx-chip--{{ $w }}" href="{{ .Page.RelPermalink }}">{{ .Page.Title }}<sup>{{ .Count }}</sup></a></li>
+          {{ end }}
+        {{ end }}
+      </ul>
+      {{ $once := where $terms.Alphabetical "Count" 1 }}
+      {{ with $once }}
+        <details class="tx-more">
+          <summary>One-offs <span>{{ len . }} tags used once</span></summary>
+          <ul class="tx-cloud">
+            {{ range . }}
+              <li><a class="tx-chip tx-chip--0" href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></li>
+            {{ end }}
+          </ul>
+        </details>
+      {{ end }}
+    </section>
+
   {{ else }}
-    {{/* ---- Default taxonomy term list (tags / categories / dialects) ---- */}}
+    {{/* ---- Default taxonomy term list (categories / dialects) ---- */}}
     <header class="mt-5">
       {{ if .Params.showBreadcrumbs | default (site.Params.taxonomy.showBreadcrumbs | default false) }}
         {{ partial "breadcrumbs.html" . }}
