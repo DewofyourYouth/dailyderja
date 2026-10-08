@@ -39,7 +39,7 @@ cssclasses:
 🛌 بالآخر نام بتختي.  
 😵 نِمت نص ساعة وبعدين أكلت ضربة عَوجهي.
 
-![A toddler asleep across the bed with a hand smacked into the face of a sleeping father](akalt-darbe.jpg)
+![Jacob, glum at a dinner table with knife and fork, a red boxing glove served on his plate](akalt-darbe.jpg)
 
 {{< expression
   ar="أكلت ضربة"

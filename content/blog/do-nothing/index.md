@@ -29,17 +29,6 @@ cssclasses:
 <!-- raw-transcript
 أنا تعبان اليوم، ما بدي عامل إشي
 
-![A man slumped on a sofa staring at the ceiling, with dishes piled up and a laptop full of job applications](ma-fi-nafsi.jpg)
-
-{{< expression
-  ar="ما في نفسي"
-  ipa="ma fi ˈnafsi"
-  literal="It is not in my soul."
-  meaning="I do not feel like it; I am not in the mood."
-  use="Casually saying no to something, or admitting you are dragging your feet: ما في نفسي فيهم (I am not in the mood for them). نفس here is appetite or desire; ما إلي نفس says the same thing."
-  audio="/audio/ma-fi-nafsi.mp3"
->}}
-
 وبصراحة ما بعارش ليش لازمني أعملش اليوم
 
 ممكن اليوم ما راح أعمل شيء
@@ -58,6 +47,17 @@ cssclasses:
 ## خاطِرة
 
 أنا تعبان اليوم، ما بدي أعمل إشي. وبصراحة مش فاهم ليش لازم أعمل شي اليوم أصلًا. ممكن اليوم ما راح أعمل شي. يمكن بالأول أغسل كم صحن. وبعدين لازم أقدم على شغلات ما في نفسي فيهم. عندي اجتماع بالضبط الساعة تنتين ونص. وبعدين راح أروح أتمشى وبروح أسبح شوي بالعين القريبة.
+
+![Jacob slumped on a sofa staring at the ceiling, with dishes piled up and a laptop full of job applications](ma-fi-nafsi.jpg)
+
+{{< expression
+  ar="ما في نفسي"
+  ipa="ma fi ˈnafsi"
+  literal="It is not in my soul."
+  meaning="I do not feel like it; I am not in the mood."
+  use="Casually saying no to something, or admitting you are dragging your feet: ما في نفسي فيهم (I am not in the mood for them). نفس here is appetite or desire; ما إلي نفس says the same thing."
+  audio="/audio/ma-fi-nafsi.mp3"
+>}}
 
 {{< subscribe >}}
 
