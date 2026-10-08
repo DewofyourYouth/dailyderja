@@ -35,7 +35,7 @@ cssclasses:
 
 ![A sea paved edge to edge with floor tiles, a fishing boat stranded on top and two gulls standing on the tiles](paved-sea.jpg)
 
-عشان هيك، لما حدا بيقلّك «روح بلّط البحر»، هو عم يقلّك: اعمل شو ما بدّك، ما رح يتغيّر إشي. أنا مش فارقة معي.
+عشان هيك، لما حدا بيقلّك «روح بلّط البحر»، هو عم يقلّك: اعمل شو ما بدّك، ما رح يتغيّر إشي. مش فارقة معي.
 
 {{< expression
   ar="روح|بلّط البحر."
