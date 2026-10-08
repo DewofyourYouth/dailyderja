@@ -31,9 +31,7 @@ summary: Pictures from our visit to the El Ghriba synagogue in Djerba, Tunisia.
 هـدول صُوَر من كنيس الغريبة، أقدم كنيس بكلّ أفريقيا، اِنبَنى من أكتر من ألفين وخَمسمِيّة سنة.  
 أنا ومرتي زُرناه لَمّا سافرنا على جزيرة جِربة.
 
-{{< subscribe >}}
-
-## صور:
+## صور
 
 {{< figure
     src="outside-sign.jpeg"
@@ -41,70 +39,70 @@ summary: Pictures from our visit to the El Ghriba synagogue in Djerba, Tunisia.
     caption="اللافتة اللي بَرّا البِناية."
     class="rtl-figure" >}}
 
----
-
 {{< figure
     src="aron-kodesh.jpeg"
     alt="The Torah Ark"
     caption="وهون الخزانة نفسها اللي بيحطّوا فيها سِفِر التوراة." >}}
 
----
-
 {{< figure
     src="interior-of-synagogue.jpeg"
     alt="Inside the sanctuary"
-caption="هون أنا ومرتي واقفين قدّام البيما، المكان اللي بيقروا فيه من التوراة." >}}
-
----
+    caption="هون أنا ومرتي واقفين قدّام البيما، المكان اللي بيقروا فيه من التوراة." >}}
 
 {{< figure
-src="wider-interior.jpeg"
-alt="Inside the sanctuary"
-caption="البِيْمَا بالنصّ، وهيكل التوراة باين لبعيد." >}}
+    src="wider-interior.jpeg"
+    alt="Inside the sanctuary"
+    caption="البِيْمَا بالنصّ، وهيكل التوراة باين لبعيد." >}}
 
----
+{{< subscribe >}}
 
-
-## كلام:
+## كلام
 
 ### أماكن وأشياء
 
-- **كِنيِس** _(ˈkneːs)_ — synagogue
-- **هيكل التوراة** _(ˈheːkal et-toːˈraː)_ — Torah ark
-- **الخِزانة المُقَدّسة** _(al-xiˈzaːne lmuˈʔaddase)_ — sacred cabinet
-- **بَيْمة / بِيما** _(ˈbiːma)_ — bimah
-- **لَافْتة** _(ˈlaːfte)_ — sign
-- **واجِهة** _(ˈwaːʒihe)_ — façade
-- **ألواح فِضّيّة** _(alˈwaːħ fizˈzijje)_ — silver plaques
-- **صُورة** _(ˈsuːra)_ — picture
-
----
+| Arabic | IPA | Meaning |
+| ------ | --- | ------- |
+| كنيس | /kniːs/ | synagogue |
+| هيكل التوراة | /ˈheːkal ittoːˈraː/ | the Torah ark |
+| الخزانة المقدّسة | /ilxaˈzaːne ilmuˈʔaddase/ | the holy cabinet (another name for the ark) |
+| بيمة / بيما | /ˈbiːma/ | bimah, the platform the Torah is read from |
+| لافتة | /ˈlaːfte/ | sign |
+| واجهة | /ˈwaːʒhe/ | façade |
+| ألواح فضّيّة | /ʔalˈwaːħ fidˤˈdˤijje/ | silver plaques |
+| صورة | /ˈsˤuːra/ | picture |
 
 ### أفعال
 
-- **بايِن** _(ˈbaːjen)_ — visible
-- **مُعَلَّق** _(moˈʕallaʔ)_ — hanging
-- **بيحُطّ** _(biˈħoṭṭ)_ — he puts / places
-- **زُرناه** _(zurˈnaːh)_ — we visited it
-- **سافَرنا** _(saːˈfarna)_ — we traveled
-- **واقِف** _(ˈwaːʔef)_ — standing
-
----
+| Arabic | IPA | Meaning |
+| ------ | --- | ------- |
+| اِنبَنى | /inˈbana/ | it was built (the «in-» prefix makes it passive) |
+| زُرناه | /zurˈnaː/ | we visited it (the final ه is silent) |
+| سافرنا | /saˈfarna/ | we traveled |
+| بيحطّ / بيحطّوا فيها | /biˈħutˤtˤ/, /biˈħutˤtˤu ˈfiːha/ | he puts / they put (things) in it |
+| واقف / واقفين قدّام | /ˈwaːʔif/, /waːʔˈfiːn ˈʔuddaːm/ | standing / standing in front of |
+| معلّق | /mʕalˈlaʔ/ | hanging |
+| باين | /ˈbaːjin/ | visible |
 
 ### اتجاهات ومواقع
 
-- **بَرّا** _(ˈbar.ra)_ — outside
-- **جَنب** _(ʒamb)_ — next to
-- **بالنصّ** _(binˈnoss)_ — in the center
-- **لبَعيد** _(labˈʕiːd)_ — far away
-
----
+| Arabic | IPA | Meaning |
+| ------ | --- | ------- |
+| برّا | /ˈbarra/ | outside |
+| جنب | /ʒamb/ | next to |
+| بالنصّ | /bin ˈnusˤsˤ/ | in the middle |
+| لبعيد | /labˈʕiːd/ | from far off («باين لبعيد» = visible from far off) |
 
 ### كلمات عامّة
 
-- **هـدول** _(hadoːl)_ — these
-- **أقدم** _(ˈʔad.ma)_ — oldest
-- **كِلّ / كُلّ** _(kill / kull)_ — all / entire
-- **صُوَر** _(ˈsuwar)_ — photos (pl.)
+| Arabic | IPA | Meaning |
+| ------ | --- | ------- |
+| هدول | /haˈdoːl/ | these |
+| أقدم | /ˈʔaʔdam/ | oldest («أقدم كنيس بكلّ أفريقيا» = the oldest synagogue in all of Africa) |
+| كلّ | /kull/ | all, every (بكلّ = in all of) |
+| صُوَر | /ˈsˤuwar/ | photos (plural of صورة) |
 
 ---
+
+{{< ltr >}}
+*I post something short here most days while learning Arabic. If this helped, you'll probably like the next one too.*
+{{</ ltr >}}

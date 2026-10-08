@@ -11,8 +11,8 @@ main:
   - name: Blog
     url: /blog/
     weight: 4
-  - name: Tutors
-    url: /tutors/
+  - name: Topics
+    url: /tags/
     weight: 5
   - name: About
     url: /about/
