@@ -1,34 +1,46 @@
 {{/* layouts/partials/subscribe-card.html
      Email-first signup card, shared by the `subscribe` shortcode (in posts)
      and the site footer (compact). Always English + LTR, even inside Arabic
-     posts: learners shouldn't have to decode the signup form. The Arabic entry
-     on the side is the hook — a preview of what the emails teach.
+     posts: learners shouldn't have to decode the signup form.
+
+     Signups go to Brevo (site.Params.newsletter.brevoAction, double opt-in).
+     The offer is the free Everyday Shami sample: confirming the email lands
+     the reader on /welcome/, which has the PDF. The submit is handled with
+     fetch in extend-footer.html; without JS the form still posts to Brevo.
+
+     Side panel: the book cover by default; pass ar/ipa/en to show a vocab
+     entry instead.
 
      Params (all optional): heading, sub, placeholder, button, ar, ipa, en,
-     dialect (label under the entry),
-     location (GA followit_location), compact (bool: no vocab entry). */}}
+     dialect (label under the entry), location (GA signup_location),
+     compact (bool: no side panel). */}}
 {{- $compact     := .compact | default false -}}
-{{- $heading     := .heading     | default (cond $compact "Get new posts by email" "Get the next Shami entry by email") -}}
-{{- $sub         := .sub         | default (cond $compact "Short Shami (Levantine) diary entries with the useful phrases broken down. Only when there’s a new post." "Short diary entries in everyday Shami, with the useful phrases broken down like the ones here — plus the occasional word guide or music note. Only when there’s a new post.") -}}
+{{- $heading     := .heading     | default (cond $compact "Free Shami sample + new posts by email" "Get the free Everyday Shami sample") -}}
+{{- $sub         := .sub         | default (cond $compact "Sign up and get a complete Levantine Arabic lesson (16-page PDF), then a short Shami diary entry whenever there’s a new post." "A complete Levantine Arabic lesson as a 16-page PDF: phrases, pronunciation, practice and answers. Then a short diary entry in everyday Shami, with the useful phrases broken down, whenever there’s a new post.") -}}
 {{- $placeholder := .placeholder | default "you@email.com" -}}
-{{- $button      := .button      | default "Email me" -}}
-{{- $wordAr      := .ar          | default "بكرا" -}}
-{{- $wordIpa     := .ipa         | default "ˈbuk.ra" -}}
-{{- $wordEn      := .en          | default "tomorrow" -}}
+{{- $button      := .button      | default "Send me the sample" -}}
+{{- $wordAr      := .ar -}}
+{{- $wordIpa     := .ipa -}}
+{{- $wordEn      := .en -}}
 {{- $dialect     := .dialect     | default "Shami" -}}
 {{- $location    := .location    | default "post-card" -}}
-{{- $action := "https://api.follow.it/subscription-form/NFR6ZTY5clNEOCtldFRHUldsU2FGMlhuNUNPWFVTd01IMnNFNGVuR0xuT2tlTjBGSzRDK05IOFAvK1h2WUUreWZkdUJMM01XUDE0UUI3WnZERlQvNjNBNFdJT3VIcDJnZVY2M0tLM2cwRWc1MGVJSEtucnRwdUJLNXhKelowbHJ8QTlPdFZsa1Z5bk13RlQ4U2tCNW1haTd4bnJZVnhmSmdxVHNQQ2t2OURNYz0=/8" -}}
+{{- $action      := site.Params.newsletter.brevoAction -}}
 
-<aside class="not-prose dd-sub{{ if $compact }} dd-sub--compact{{ end }}" dir="ltr" lang="en" data-followit-location="{{ $location }}">
+<aside class="not-prose dd-sub{{ if $compact }} dd-sub--compact{{ end }}" dir="ltr" lang="en" data-signup-location="{{ $location }}">
   <div class="dd-sub-card">
     <div class="dd-sub-main">
       <p class="dd-sub-heading">{{ $heading }}</p>
       <p class="dd-sub-text">{{ $sub }}</p>
 
       <form class="dd-sub-form" action="{{ $action }}" method="post">
-        <input type="email" dir="ltr" name="email" required placeholder="{{ $placeholder }}" spellcheck="false" autocomplete="email" aria-label="Email address">
+        <input type="email" dir="ltr" name="EMAIL" required placeholder="{{ $placeholder }}" spellcheck="false" autocomplete="email" aria-label="Email address">
+        {{- /* Brevo's honeypot: must stay empty. */}}
+        <input type="text" name="email_address_check" value="" class="dd-sub-hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <input type="hidden" name="locale" value="en">
+        <input type="hidden" name="html_type" value="simple">
         <button type="submit">{{ $button }}</button>
       </form>
+      <p class="dd-sub-status" role="status" aria-live="polite" hidden></p>
 
       <p class="dd-sub-channels">
         Rather use
@@ -36,16 +48,26 @@
         <a href="https://t.me/+muANXhcSRCdmMDA0" target="_blank" rel="noopener noreferrer" data-channel="telegram">Telegram</a>, or
         <a href="https://discord.gg/wZuMGdUr3H" target="_blank" rel="noopener noreferrer" data-channel="discord">Discord</a>?
       </p>
-      <p class="dd-sub-fine">Delivered by <a href="https://follow.it" target="_blank" rel="noopener">follow.it</a>. Unsubscribe anytime.</p>
+      <p class="dd-sub-fine">Free. You’ll confirm by email first. Unsubscribe anytime.</p>
     </div>
     {{- if not $compact }}
+      {{- if $wordAr }}
 
     <div class="dd-sub-word">
       <p class="dd-sub-word__ar" lang="ar" dir="rtl">{{ $wordAr }}</p>
-      <span class="dd-sub-word__ipa">/{{ $wordIpa }}/</span>
-      <span class="dd-sub-word__en">{{ $wordEn }}</span>
+      {{ with $wordIpa }}<span class="dd-sub-word__ipa">/{{ . }}/</span>{{ end }}
+      {{ with $wordEn }}<span class="dd-sub-word__en">{{ . }}</span>{{ end }}
       <span class="dd-sub-word__dialect">in {{ $dialect }}</span>
     </div>
+      {{- else }}
+        {{- with resources.Get "images/everyday-shami-cover.jpg" }}
+
+    <div class="dd-sub-word dd-sub-book">
+      <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="Cover of the Everyday Shami sample" class="nozoom" loading="lazy" decoding="async">
+      <span class="dd-sub-word__dialect">Free · 16-page PDF</span>
+    </div>
+        {{- end }}
+      {{- end }}
     {{- end }}
   </div>
 </aside>

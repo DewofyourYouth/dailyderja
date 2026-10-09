@@ -1,5 +1,5 @@
 {{/* layouts/shortcodes/subscribe.html — in-post signup card.
-     Usage: {{< subscribe >}}  or override the vocab entry:
+     Usage: {{< subscribe >}}  or show a vocab entry instead of the book cover:
      {{< subscribe ar="يلّا" ipa="ˈjal.la" en="let's go" >}}
 
      Deferred by default: wherever the shortcode sits in the post, the card renders ONCE,
@@ -13,7 +13,7 @@
 {{- if and (in $dialects "tunisian") (not (in $dialects "shami")) -}}
   {{- $p = dict
     "heading" "New posts are in Shami now"
-    "sub" "This Tunisian entry is part of the archive. New posts are short Shami (Levantine) diary entries with the useful phrases broken down — by email, only when there’s a new one."
+    "sub" "This Tunisian entry is part of the archive. New posts are short Shami (Levantine) diary entries with the useful phrases broken down. Sign up to get them by email, plus the free Everyday Shami sample (16-page PDF)."
     "location" "post-card-tunisian" -}}
 {{- end -}}
 {{- $inline := false -}}

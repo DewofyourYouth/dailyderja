@@ -35,32 +35,82 @@ body {
 <script>
   (function () {
     var forms = document.querySelectorAll(".dd-sub form");
-    if (!forms.length) {
-      return;
+    if (!forms.length || !window.fetch || !window.FormData) {
+      return; // no JS path: the form posts straight to Brevo
+    }
+
+    var MSG_OK = "Almost there: check your inbox and click the confirmation link to get your free sample.";
+    var MSG_ERR = "That didn't go through. Check the address and try again.";
+
+    function track(location, status) {
+      // The email address is never sent to GA. "submitted" means Brevo accepted
+      // the address; it becomes a subscriber only after the confirmation click
+      // (visible in Brevo, and as a page_view of /welcome/ in GA).
+      if (typeof window.gtag === "function") {
+        window.gtag("event", "newsletter_signup", {
+          event_category: "newsletter",
+          event_label: location,
+          signup_location: location,
+          signup_status: status,
+          value: status === "submitted" ? 1 : 0,
+          transport_type: "beacon"
+        });
+      }
     }
 
     forms.forEach(function (form) {
-      form.addEventListener("submit", function () {
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
         var container = form.closest(".dd-sub");
-        var location = container && container.dataset.followitLocation
-          ? container.dataset.followitLocation
+        var status = container && container.querySelector(".dd-sub-status");
+        var location = container && container.dataset.signupLocation
+          ? container.dataset.signupLocation
           : "unknown";
+        var button = form.querySelector("button");
+        if (button) button.disabled = true;
 
-        // A submit is an ATTEMPT: the browser leaves for follow.it, which then asks
-        // the reader to confirm by email. Confirmed subscribers are only visible in
-        // the follow.it dashboard. The email address is never sent to GA.
-        // (GA4 enhanced measurement may also log its own automatic form_submit for
-        // this same submit — that's a second view of the same attempt, not a signup.)
-        if (typeof window.gtag === "function") {
-          window.gtag("event", "followit_subscribe", {
-            event_category: "followit",
-            event_label: location,
-            followit_location: location,
-            signup_status: "attempt",
-            value: 1,
-            transport_type: "beacon"
-          });
+        function show(text, state) {
+          if (!status) return;
+          status.textContent = text;
+          status.dataset.state = state;
+          status.hidden = false;
         }
+
+        fetch(form.action + "?isAjax=1", { method: "POST", body: new FormData(form) })
+          .then(function (r) { return r.json().catch(function () { return { success: r.ok }; }); })
+          .then(function (res) {
+            if (res && res.success) {
+              form.hidden = true;
+              show(MSG_OK, "ok");
+              track(location, "submitted");
+            } else {
+              show(MSG_ERR, "error");
+              track(location, "error");
+              if (button) button.disabled = false;
+            }
+          })
+          .catch(function () {
+            show(MSG_ERR, "error");
+            track(location, "error");
+            if (button) button.disabled = false;
+          });
+      });
+    });
+  })();
+  (function () {
+    // Ebook download on /welcome/ (and anywhere else a link carries data-download).
+    // Sent by the site so it doesn't depend on GA4's enhanced-measurement setting.
+    document.addEventListener("click", function (e) {
+      var link = e.target.closest && e.target.closest("a[data-download]");
+      if (!link || typeof window.gtag !== "function") {
+        return;
+      }
+      window.gtag("event", "ebook_download", {
+        event_category: "newsletter",
+        event_label: link.dataset.download,
+        file_name: link.dataset.download,
+        link_url: link.href,
+        transport_type: "beacon"
       });
     });
   })();
@@ -70,8 +120,8 @@ body {
       if (!link || typeof window.gtag !== "function") {
         return;
       }
-      var container = link.closest("[data-followit-location]");
-      var location = container ? container.dataset.followitLocation : "unknown";
+      var container = link.closest("[data-signup-location]");
+      var location = container ? container.dataset.signupLocation : "unknown";
       window.gtag("event", "channel_click", {
         event_category: "channels",
         event_label: link.dataset.channel,

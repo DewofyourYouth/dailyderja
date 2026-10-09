@@ -4526,6 +4526,39 @@ html.dark .dd-sub .dd-sub-word__ipa { color: var(--ds-gold); }
   color: var(--ds-ink-soft);
 }
 
+/* default side panel: the free sample's cover */
+.dd-sub-book img {
+  display: block;
+  width: 7.5rem;
+  height: auto;
+  margin: 0;
+  border-radius: 4px;
+  box-shadow: 0 12px 24px -12px rgba(40, 30, 10, 0.55);
+  transform: rotate(-2deg);
+}
+@media (max-width: 36rem) {
+  .dd-sub-book { align-items: center !important; }
+  .dd-sub-book img { width: 4.5rem; }
+}
+
+/* Brevo honeypot field: off-screen, never shown */
+.dd-sub-form .dd-sub-hp {
+  position: absolute !important;
+  left: -9999px !important;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+.dd-sub .dd-sub-status {
+  margin: 0.9rem 0 0;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--ds-ink);
+}
+.dd-sub .dd-sub-status[data-state="error"] { color: #a33a1f; }
+html.dark .dd-sub .dd-sub-status[data-state="error"] { color: #f0a08a; }
+
 /* footer variant: no vocab entry, sits in the site footer on every page */
 .dd-sub--compact { margin: 2.5rem 0 1.5rem; }
 .dd-sub--compact .dd-sub-card { grid-template-columns: 1fr; }
@@ -4799,4 +4832,28 @@ html.dark .dd-sub .dd-sub-word__ipa { color: var(--ds-gold); }
     grid-template-columns: 1fr;
     gap: 0;
   }
+}
+
+/* ================================
+   Ebook welcome page (content/welcome/)
+   ================================= */
+.article-content a.dd-dl-btn {
+  display: inline-block;
+  margin: 0.5rem 0 1.5rem;
+  padding: 0.8rem 1.4rem;
+  border-radius: 10px;
+  background: #a7652a;
+  color: #fff !important;
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 1.05rem;
+  text-decoration: none !important;
+  box-shadow: 0 8px 20px -10px rgba(120, 70, 20, 0.7);
+}
+.article-content a.dd-dl-btn:hover { background: #87531f; }
+.article-content a.dd-dl-btn:focus-visible { outline: 2px solid #a7652a; outline-offset: 3px; }
+.article-content img[src*="everyday-shami-book"] {
+  max-width: 260px;
+  border-radius: 6px;
+  box-shadow: 0 18px 40px -20px rgba(40, 30, 10, 0.6);
 }

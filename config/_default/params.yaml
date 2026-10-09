@@ -44,3 +44,8 @@ article:
   showRelatedPosts: true
   relatedPostsCount: 3
   showSocialLinks: true
+
+# Email signups (layouts/partials/subscribe-card.html). Brevo form "dailyderja-subscribe",
+# list "DailyDerja Readers", double opt-in -> /welcome/ (ebook download).
+newsletter:
+  brevoAction: "https://6178fa53.sibforms.com/serve/MUIFAGqay95o79ep50EypAfkp9QvvxC-pOXjSdDBR5QWSKfIGw2ULdE1ZNZ0HU269czcmDujsKWFn8unfAiG9kJ3eVUNH361JB3zEMNfhHsniUqhbKVn7QuVz0Jy7wV0xOxg2eJb_UeKwvyA0TwIJGn7JvtIhUMywJXdJB_smK_gB3wv7uxe8Ti9L-zo5ejTMuoxQzofKwd_mod2MA=="

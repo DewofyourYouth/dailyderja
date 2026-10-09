@@ -11,8 +11,9 @@ form contents, or other personal data are sent — only paths, file names, and f
 
 | Event | Fires when | Parameters | Source |
 | --- | --- | --- | --- |
-| `followit_subscribe` | The follow.it email form is **submitted** (after the browser's own `required`/email validation passes). One per submit. This is an **attempt** — see below. | `followit_location` (`post-card`, `post-card-tunisian`, `footer`), `signup_status` = `attempt`, `event_label`, `event_category`, `value` = 1 | `layouts/partials/extend-footer.html` |
-| `form_submit` | **Not sent by site code.** GA4 enhanced measurement ("Form interactions") logs it automatically for the same follow.it submit. | GA4 built-ins (`form_id`, `form_destination`, …) | GA4 enhanced measurement |
+| `newsletter_signup` | The signup card's form is submitted to Brevo in the background (fetch). One per submit, after Brevo replies. | `signup_location` (`post-card`, `post-card-tunisian`, `footer`), `signup_status` (`submitted` = Brevo accepted the address and sent the confirmation email; `error`), `event_label`, `event_category`, `value` (1 for `submitted`, else 0) | `layouts/partials/extend-footer.html` |
+| `ebook_download` | The download button on `/welcome/` is clicked (any link with `data-download`). One per click. | `file_name` (`everyday-shami-sample`), `link_url`, `event_label`, `event_category` = `newsletter` | `layouts/partials/extend-footer.html` |
+| `file_download` | **Not sent by site code.** GA4 enhanced measurement may also log the same PDF click. It's a second view of the same download; count `ebook_download`. | GA4 built-ins (`file_name`, `link_url`, …) | GA4 enhanced measurement |
 | `channel_click` | WhatsApp / Telegram / Discord link in a signup card clicked. | `channel`, `channel_location` | `layouts/partials/extend-footer.html` |
 | `audio_play` | A pronunciation clip starts playing (each press of play, including after a pause). | `audio_file`, `page_path` | `layouts/partials/audio-pron.html`, `/start/` taste card |
 | `tutor_page_click` | Any link to `/tutors/` clicked (nav, vocab-table CTA, learn page). | `cta_source`, `link_text`, `link_url` | `assets/js/tutor-cta.js` |
@@ -26,18 +27,18 @@ form contents, or other personal data are sent — only paths, file names, and f
 - `related`: the "More Shami reading" / "More from the Tunisian archive" cards.
 - `path`: the four learning-path tiles (home, /start/, /learn/) and the compact row under posts.
 
-## Attempt vs. confirmed signup
+## Submitted vs. confirmed signup
 
-The follow.it form posts to `api.follow.it` and the reader leaves the site. follow.it
-then asks them to confirm by email. The site never sees whether they confirmed.
+Signups go to Brevo (form `dailyderja-subscribe`, list "DailyDerja Readers") with double
+opt-in. The reader stays on the page; Brevo emails a confirmation link, and clicking it
+lands them on `/welcome/`, which has the free Everyday Shami sample.
 
-- `followit_subscribe` (and GA's own `form_submit` for the same submit) = **attempts**.
-  Don't add them together: they're two views of one action.
-- **Confirmed** subscribers are only available in the follow.it dashboard. Compare
-  follow.it's weekly new-subscriber count with the attempt count for a rough
-  confirmation rate.
-- If `followit_subscribe` is marked as a key event in GA4, rename it in reports to
-  "Signup attempt" so it isn't read as a confirmed subscription.
+- `newsletter_signup` with `signup_status` = `submitted` = Brevo accepted the address.
+  It is **not** a subscriber yet.
+- A **confirmed** subscriber = a page view of `/welcome/` (and the contact appears in the
+  Brevo list). `/welcome/` is `noindex` and not linked anywhere on the site, so its views
+  are almost entirely confirmations.
+- Without JavaScript the form posts straight to Brevo and no event fires.
 
 ## Custom dimensions to register in GA4
 
@@ -51,8 +52,8 @@ Register the ones you want to report on:
 | Rec location | `rec_location` | `recommendation_click` |
 | Rec source path | `source_path` | `recommendation_click` |
 | Rec destination path | `destination_path` | `recommendation_click` |
-| Signup location | `followit_location` | `followit_subscribe` |
-| Signup status | `signup_status` | `followit_subscribe` |
+| Signup location | `signup_location` | `newsletter_signup` |
+| Signup status | `signup_status` | `newsletter_signup` |
 | Channel | `channel` | `channel_click` |
 | Channel location | `channel_location` | `channel_click` |
 | Audio file | `audio_file` | `audio_play` |
@@ -66,6 +67,6 @@ path dimension. Only register it if you need it in an event-scoped report.
 
 - Local builds don't load GA at all. To exercise the events, stub `window.gtag` in the
   browser (e.g. a Playwright init script that records calls) against a local build.
-- Don't submit the follow.it form against production to "test" it. That creates a real
-  pending subscription and a real `followit_subscribe`. Use GA4 DebugView with a
+- Don't submit the signup form with fake addresses to "test" it. Every submit creates a
+  real Brevo contact and sends a real confirmation email; test once with your own address. Use GA4 DebugView with a
   local/stubbed build instead.
