@@ -8,8 +8,8 @@
     item.TITLE, item.LINK, item.DESCRIPTION (plain text),
     item.CONTENT_ENCODED (image + summary + "Read the post" link, as HTML).
 
-  Before saving: replace POSTAL ADDRESS in the footer with a real mailing
-  address (anti-spam law requires one in marketing email).
+  The footer gives a contact email, not a postal address (deliberately: no
+  home address). Add a P.O. box line there if one is set up later.
 -->
 <!doctype html>
 <html lang="en">
@@ -54,7 +54,7 @@
             You're getting this because you signed up at
             <a href="https://dailyderja.com/" style="color:#8a7a6c;">dailyderja.com</a>.
             It goes out the morning after a new post, and never when there isn't one.<br>
-            The Daily Derja · POSTAL ADDRESS<br>
+            The Daily Derja · <a href="mailto:jacob@dailyderja.com" style="color:#8a7a6c;">jacob@dailyderja.com</a><br>
             <a href="{{ mirror }}" style="color:#8a7a6c;">View in browser</a> ·
             <a href="{{ unsubscribe }}" style="color:#8a7a6c;">Unsubscribe</a>
           </td>
