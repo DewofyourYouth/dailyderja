@@ -1,0 +1,68 @@
+<!--
+  Brevo RSS-campaign template for "Daily Derja | New Posts".
+  Paste into Brevo: Templates → Create Template → "Paste your code" (or Code
+  your own), then pick it in the integration's Email design step under
+  "My email templates".
+
+  Feed fields come from layouts/_default/rss.xml:
+    item.TITLE, item.LINK, item.DESCRIPTION (plain text),
+    item.CONTENT_ENCODED (image + summary + "Read the post" link, as HTML).
+
+  Before saving: replace POSTAL ADDRESS in the footer with a real mailing
+  address (anti-spam law requires one in marketing email).
+-->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Daily Derja</title>
+</head>
+<body style="margin:0;padding:0;background:#f6f1ea;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#f6f1ea;">
+  <tr>
+    <td align="center" style="padding:24px 12px;">
+      <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;background:#ffffff;border-radius:8px;">
+
+        <!-- Masthead -->
+        <tr>
+          <td style="padding:28px 32px 8px;font-family:Georgia,'Times New Roman',serif;">
+            <a href="https://dailyderja.com/" style="text-decoration:none;color:#b4381b;font-size:26px;font-weight:bold;">The Daily Derja</a>
+            <p style="margin:6px 0 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:1.5;color:#6b5b4e;">
+              New on the site: short Shami Arabic readings, with the useful phrases broken down.
+            </p>
+          </td>
+        </tr>
+
+        <!-- Posts -->
+        {% for item in params.items %}
+        <tr>
+          <td style="padding:24px 32px 8px;border-top:1px solid #eee3d6;font-family:Arial,Helvetica,sans-serif;">
+            <h2 style="margin:0 0 12px;font-family:Georgia,'Times New Roman',serif;font-size:22px;line-height:1.3;">
+              <a href="{{ item.LINK }}" style="color:#2b211b;text-decoration:none;">{{ item.TITLE }}</a>
+            </h2>
+            <div style="font-size:16px;line-height:1.6;color:#3d322a;">
+              {{ item.CONTENT_ENCODED | safe }}
+            </div>
+          </td>
+        </tr>
+        {% endfor %}
+
+        <!-- Footer -->
+        <tr>
+          <td style="padding:24px 32px 28px;border-top:1px solid #eee3d6;font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:1.6;color:#8a7a6c;">
+            You're getting this because you signed up at
+            <a href="https://dailyderja.com/" style="color:#8a7a6c;">dailyderja.com</a>.
+            It goes out the morning after a new post, and never when there isn't one.<br>
+            The Daily Derja · POSTAL ADDRESS<br>
+            <a href="{{ mirror }}" style="color:#8a7a6c;">View in browser</a> ·
+            <a href="{{ unsubscribe }}" style="color:#8a7a6c;">Unsubscribe</a>
+          </td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
