@@ -1,7 +1,7 @@
 ---
-title: "You're in. Here's your sample."
+title: "You're in. Here's your ebook."
 slug: welcome
-description: "Download the free Everyday Shami sample: a complete Levantine Arabic lesson with pronunciation, practice and answers."
+description: "Download the free Everyday Shami ebook: a complete Levantine Arabic lesson with pronunciation, practice and answers."
 robots: noindex, nofollow
 sitemap:
   disable: true
@@ -16,7 +16,7 @@ sharingLinks: false
 
 Thanks for confirming. Your free copy of **Everyday Shami: Small Conversations, Real Life** is ready.
 
-<a href="/downloads/everyday-shami-sample.pdf" download class="dd-dl-btn" data-download="everyday-shami-sample">Download the sample (PDF, 16 pages)</a>
+<a href="/downloads/everyday-shami-sample.pdf" download class="dd-dl-btn" data-download="everyday-shami-sample">Download the ebook (PDF, 16 pages)</a>
 
 ![The cover of Everyday Shami: Small Conversations, Real Life, by Jacob Shore](everyday-shami-book.jpg)
 

@@ -4,7 +4,7 @@
      posts: learners shouldn't have to decode the signup form.
 
      Signups go to Brevo (site.Params.newsletter.brevoAction, double opt-in).
-     The offer is the free Everyday Shami sample: confirming the email lands
+     The offer is the free Everyday Shami ebook: confirming the email lands
      the reader on /welcome/, which has the PDF. The submit is handled with
      fetch in extend-footer.html; without JS the form still posts to Brevo.
 
@@ -15,10 +15,10 @@
      dialect (label under the entry), location (GA signup_location),
      compact (bool: no side panel). */}}
 {{- $compact     := .compact | default false -}}
-{{- $heading     := .heading     | default (cond $compact "Free Shami sample + new posts by email" "Get the free Everyday Shami sample") -}}
+{{- $heading     := .heading     | default (cond $compact "Free Shami ebook + new posts by email" "Get the free Everyday Shami ebook") -}}
 {{- $sub         := .sub         | default (cond $compact "Sign up and get a complete Levantine Arabic lesson (16-page PDF), then a short Shami diary entry whenever there’s a new post." "A complete Levantine Arabic lesson as a 16-page PDF: phrases, pronunciation, practice and answers. Then a short diary entry in everyday Shami, with the useful phrases broken down, whenever there’s a new post.") -}}
 {{- $placeholder := .placeholder | default "you@email.com" -}}
-{{- $button      := .button      | default "Send me the sample" -}}
+{{- $button      := .button      | default "Send me the ebook" -}}
 {{- $wordAr      := .ar -}}
 {{- $wordIpa     := .ipa -}}
 {{- $wordEn      := .en -}}
@@ -63,7 +63,7 @@
         {{- with resources.Get "images/everyday-shami-cover.jpg" }}
 
     <div class="dd-sub-word dd-sub-book">
-      <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="Cover of the Everyday Shami sample" class="nozoom" loading="lazy" decoding="async">
+      <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="Cover of the Everyday Shami ebook" class="nozoom" loading="lazy" decoding="async">
       <span class="dd-sub-word__dialect">Free · 16-page PDF</span>
     </div>
         {{- end }}

@@ -31,7 +31,7 @@ form contents, or other personal data are sent — only paths, file names, and f
 
 Signups go to Brevo (form `dailyderja-subscribe`, list "DailyDerja Readers") with double
 opt-in. The reader stays on the page; Brevo emails a confirmation link, and clicking it
-lands them on `/welcome/`, which has the free Everyday Shami sample.
+lands them on `/welcome/`, which has the free Everyday Shami ebook (a 16-page sample of the book).
 
 - `newsletter_signup` with `signup_status` = `submitted` = Brevo accepted the address.
   It is **not** a subscriber yet.
