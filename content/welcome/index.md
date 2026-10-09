@@ -16,6 +16,8 @@ sharingLinks: false
 
 Thanks for confirming. Your free copy of **Everyday Shami: Small Conversations, Real Life** is ready.
 
+This ebook is a 16-page excerpt from the full book, which is still in the making and already runs to more than 370 pages.
+
 <a href="/downloads/everyday-shami-sample.pdf" download class="dd-dl-btn" data-download="everyday-shami-sample">Download the ebook (PDF, 16 pages)</a>
 
 ![The cover of Everyday Shami: Small Conversations, Real Life, by Jacob Shore](everyday-shami-book.jpg)
