@@ -1,24 +1,36 @@
-{{- /* Minimal, XML-safe RSS for BLOG only. Inline <img> in <description>; no content:encoded. */ -}}
-{{- $now := now -}}
-{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\"?>" | safeHTML -}}
-<rss version="2.0"
-  xmlns:media="http://search.yahoo.com/mrss/">
+{{- /*
+  RSS 2.0 for blog posts. The home feed (/index.xml) is the source for the
+  Brevo RSS campaign (daily digest, sent only when there are new items), so:
+    - pubDate uses a numeric offset (-0700): Brevo decides what's "new" from it,
+      and zone names like IDT aren't valid RFC 822.
+    - every item carries an absolute featured image three ways:
+        <enclosure>        → {{ item.ENCLOSURE }}
+        <media:content>    → {{ item.MEDIA_CONTENT.URL }}
+        <content:encoded>  → {{ item.CONTENT_ENCODED }} (image + summary + link)
+    - <description> is plain text (escaped once), so it's safe in any template.
+*/ -}}
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>{{ .Site.Title | htmlEscape }}</title>
-    <link>{{ .Site.BaseURL }}</link>
-    <description>{{ (or .Site.Params.description .Site.Title) | htmlEscape }}</description>
-    <language>{{ .Site.Language.Lang | default "en" }}</language>
-    <lastBuildDate>{{ $now.Format "Mon, 02 Jan 2006 15:04:05 MST" }}</lastBuildDate>
-
+    <title>{{ site.Title }}</title>
+    <link>{{ site.Home.Permalink }}</link>
+    <description>{{ site.Params.description | default site.Title }}</description>
+    <language>{{ site.Language.Lang | default "en" }}</language>
     {{- /* Home feed: only posts in section "blog" */ -}}
     {{- $items := .Pages -}}
     {{- if .IsHome -}}
-      {{- $items = where .Site.RegularPages "Section" "blog" -}}
+      {{- $items = where site.RegularPages "Section" "blog" -}}
     {{- end -}}
-
-    {{- range $items.ByDate.Reverse -}}
-    {{- $title := .Title | htmlEscape -}}
-    {{- $summary := (.Summary | plainify) | htmlEscape -}}
+    {{- $items = $items.ByDate.Reverse -}}
+    {{- range first 1 $items }}
+    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
+    {{- end }}
+    {{- with .OutputFormats.Get "RSS" }}
+    {{ printf "<atom:link href=%q rel=\"self\" type=\"application/rss+xml\" />" .Permalink | safeHTML }}
+    {{- end }}
+    {{- range $items }}
+    {{- $link := .Permalink -}}
+    {{- $summary := .Description | default (.Summary | plainify) | htmlUnescape | strings.TrimSpace -}}
 
     {{- /* Resolve image (absolute URL + mime) */ -}}
     {{- $imgURL := "" -}}
@@ -26,41 +38,38 @@
     {{- with .Params.featuredImage }}{{- $imgURL = absURL . -}}{{- end -}}
     {{- if not $imgURL -}}
       {{- $imgs := where .Resources "ResourceType" "image" -}}
-      {{- if gt (len $imgs) 0 -}}
-        {{- $r := index $imgs 0 -}}
-        {{- $imgURL = $r.Permalink -}}
-        {{- with $r.MediaType }}{{- if .SubType -}}{{- $imgType = printf "image/%s" .SubType -}}{{- end -}}{{- end -}}
+      {{- with $imgs.GetMatch "{feature,cover,thumbnail}*" | default (index $imgs 0) -}}
+        {{- $imgURL = .Permalink -}}
+        {{- $imgType = .MediaType.Type -}}
       {{- end -}}
     {{- end -}}
     {{- if not $imgURL -}}
-      {{- $m := findRE `<img[^>]*src=["']([^"']+)["']` .Content 1 -}}
-      {{- with $m -}}
-        {{- $rel := replaceRE `.*src=['"]([^'"]+)['"].*` "$1" (index . 0) -}}
-        {{- $imgURL = absURL $rel -}}
+      {{- with findRESubmatch `<img[^>]*src=["']([^"']+)["']` .Content 1 -}}
+        {{- $imgURL = absURL (index (index . 0) 1) -}}
       {{- end -}}
-    {{- end -}}
-
-    {{- /* Build a tiny, valid HTML snippet for <description>. No <p>, no <br>, no CDATA. */ -}}
-    {{- $imgHTML := "" -}}
-    {{- if $imgURL -}}
-      {{- $imgHTML = printf `<img src="%s" alt="%s" /> ` $imgURL $title -}}
-    {{- end -}}
-
+    {{- end }}
     <item>
-      <title>{{ $title }}</title>
+      <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
       <guid isPermaLink="true">{{ .Permalink }}</guid>
-      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" }}</pubDate>
-      {{- with .Params.author }}<author>{{ . | htmlEscape }}</author>{{ end }}
-
-      {{- if $imgURL -}}
-        <enclosure url="{{ $imgURL }}" type="{{ $imgType }}"/>
-        <media:content url="{{ $imgURL }}" medium="image"/>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+      <dc:creator>{{ site.Params.author.name | default site.Title }}</dc:creator>
+      {{- range .Params.dialects }}
+      <category>{{ . }}</category>
       {{- end }}
-
-      <description>{{ printf `%s%s` $imgHTML $summary | safeHTML }}</description>
-      {{- /* No <content:encoded> on purpose */ -}}
+      {{- with $summary }}
+      <description>{{ . }}</description>
+      {{- end }}
+      {{- $html := "" -}}
+      {{- with $imgURL }}{{ $html = printf `<p><a href="%s"><img src="%s" alt="" width="600" style="max-width:100%%;height:auto;display:block;border:0"></a></p>` $link . }}{{ end -}}
+      {{- with $summary }}{{ $html = printf `%s<p dir="auto">%s</p>` $html (. | html) }}{{ end -}}
+      {{- $html = printf `%s<p><a href="%s">Read the post →</a></p>` $html .Permalink }}
+      <content:encoded>{{ printf "<![CDATA[%s]]>" $html | safeHTML }}</content:encoded>
+      {{- with $imgURL }}
+      <media:content url="{{ . }}" medium="image" type="{{ $imgType }}" />
+      <enclosure url="{{ . }}" length="0" type="{{ $imgType }}" />
+      {{- end }}
     </item>
-    {{- end -}}
+    {{- end }}
   </channel>
 </rss>
