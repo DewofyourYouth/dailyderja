@@ -20,7 +20,10 @@ params:
 googleAnalytics: "G-Z4E3K7B8ZR"
 imaging:
   anchor: Smart
-  quality: 80
+  jpeg:
+    quality: 80
+  webp:
+    quality: 80
   resampleFilter: Lanczos
 services:
   disqus:
