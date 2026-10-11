@@ -20,6 +20,13 @@ form contents, or other personal data are sent — only paths, file names, and f
 | `tutor_platform_click` | Outbound tutor-platform link on `/tutors/` clicked. | `platform`, `link_text`, `link_url` | `assets/js/tutor-cta.js` |
 | `community_click` | `.jc-btn` community button clicked (only if a page renders one). | `platform`, `link_url`, `page_path` | `assets/js/community-cta.js` |
 | `recommendation_click` | **New.** A same-site link inside an onward-reading block is clicked. One per click. | `rec_type` (`context`, `related`, `path`), `rec_location` (`article`, `home`, `start`, `learn`), `source_path`, `destination_path` | `assets/js/rec-tracking.js` |
+| `signup_submitted` | **Not sent by site code.** GA4 custom event: `newsletter_signup` where `signup_status` = `submitted`. Created 2026-10-11, so no history before that. | Copied from `newsletter_signup` | GA4 Admin → Events → Custom configurations |
+| `signup_confirmed` | **Not sent by site code.** GA4 custom event: `page_view` where `page_location` contains `/welcome/` (a confirmed subscriber). Created 2026-10-11. | `page_view` built-ins | GA4 Admin → Events → Custom configurations |
+
+**Key events** (starred in GA4): `signup_submitted`, `signup_confirmed`, `ebook_download`,
+`channel_click`, `tutor_page_click`. Deliberately *not* key events: `newsletter_signup` (would
+count `error` attempts), `file_download` and `form_submit` (GA4 duplicates of `ebook_download`
+and the signup submit).
 
 `recommendation_click` blocks:
 
@@ -44,7 +51,8 @@ lands them on `/welcome/`, which has the free Everyday Shami ebook (a 16-page sa
 
 Parameters only appear in standard reports after they're registered
 (Admin → Data display → Custom definitions → Create custom dimension, scope **Event**).
-Register the ones you want to report on:
+All of the table below are registered (2026-10-11; data starts from that date). The old
+`followit_location` dimension is still registered but no longer sent.
 
 | Dimension name | Event parameter | Used by |
 | --- | --- | --- |
