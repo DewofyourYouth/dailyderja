@@ -111,6 +111,7 @@
     {{ with resources.Get "js/rtl.js" }}{{ $jsResources = $jsResources | append . }}{{ end }}
   {{ end }}
   {{ with resources.Get "js/katex-render.js" }}{{ $jsResources = $jsResources | append . }}{{ end }}
+  {{ with resources.Get "js/menu-a11y.js" }}{{ $jsResources = $jsResources | append . }}{{ end }}
   {{ with resources.Get "js/print-support.js" }}{{ $jsResources = $jsResources | append . }}{{ end }}
   {{ with resources.Get "js/tutor-cta.js" }}{{ $jsResources = $jsResources | append . }}{{ end }}
   {{ with resources.Get "js/community-cta.js" }}{{ $jsResources = $jsResources | append . }}{{ end }}
