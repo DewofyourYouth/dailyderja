@@ -15,7 +15,7 @@ categories:
   - language-learning
 difficulty_level: easy
 pullquote: القرد بعين أمّه غزال.
-draft: true
+draft: false
 dialects:
   - shami
 series:
