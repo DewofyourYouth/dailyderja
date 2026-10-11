@@ -1,27 +1,4 @@
 <style>
-/* Prevent Ko-fi floating chat from creating layout scroll/jitter */
-#kofi-widget-overlay {
-  position: fixed !important;
-  inset: 0 !important;
-  pointer-events: none !important;
-  overflow: visible !important;
-  z-index: 9999 !important;
-}
-
-#kofi-widget-overlay .floatingchat-container {
-  pointer-events: auto !important;
-}
-
-#kofi-widget-overlay,
-#kofi-widget-overlay * {
-  box-sizing: border-box !important;
-}
-
-#kofi-widget-overlay iframe,
-#kofi-widget-overlay .floatingchat-container {
-  margin: 0 !important;
-}
-
 html,
 body {
   overflow-x: hidden;

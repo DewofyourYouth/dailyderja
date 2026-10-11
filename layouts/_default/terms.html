@@ -70,7 +70,7 @@
       </header>
 
       <div class="sx__grid tx__grid">
-        {{ range site.Data.featured_tags }}
+        {{ range hugo.Data.featured_tags }}
           {{ $f := . }}
           {{ with index $terms $f.slug }}
             {{ $count := len . }}
@@ -88,7 +88,7 @@
       </div>
 
       {{ $slugs := slice }}
-      {{ range site.Data.featured_tags }}{{ $slugs = $slugs | append .slug }}{{ end }}
+      {{ range hugo.Data.featured_tags }}{{ $slugs = $slugs | append .slug }}{{ end }}
       {{ $max := 1 }}
       {{ range $terms.ByCount }}{{ if gt .Count $max }}{{ $max = .Count }}{{ end }}{{ end }}
       <h2 class="tx__h">Everything else</h2>
