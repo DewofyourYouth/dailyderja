@@ -17,7 +17,7 @@ categories:
   - language-learning
 difficulty_level: easy
 pullquote: مش كل واحد بيحكي نكت دمّه خفيف.
-draft: true
+draft: false
 dialects:
   - shami
 series:
