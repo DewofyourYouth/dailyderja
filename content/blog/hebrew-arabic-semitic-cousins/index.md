@@ -16,7 +16,7 @@ categories:
   - language-learning
 difficulty_level: intermediate
 pullquote: إذا الواحد بيعرف عبري، هاد مش معناه إنه بيعرف عربي، والعكس صحيح.
-draft: true
+draft: false
 dialects:
   - shami
 series:
