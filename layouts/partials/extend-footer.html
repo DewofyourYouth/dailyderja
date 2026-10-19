@@ -1,7 +1,10 @@
 <style>
+/* clip, not hidden: overflow-x:hidden on <body> turns it into its own
+   100vh scroll container, which iOS WebKit fails to paint (page blank below
+   the hero) and which starves Blowfish's window scroll listeners. */
 html,
 body {
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
   </style>

@@ -196,8 +196,8 @@ html[lang="ar"] [dir="rtl"] {
 }
 
 /* Image lightbox — custom, self-contained.
-   Blowfish makes <body> the scroll container (h-screen + overflow:hidden auto),
-   which breaks medium-zoom's window-based math (image lands off-screen). We
+   medium-zoom's window-based math misplaced images back when <body> was the
+   scroll container (h-screen + overflow:hidden auto). We
    intercept image clicks in the capture phase (see extend-footer.html) and show
    this viewport-fixed overlay instead. */
 .dd-lb {
