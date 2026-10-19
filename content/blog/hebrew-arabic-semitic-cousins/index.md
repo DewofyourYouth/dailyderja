@@ -12,6 +12,7 @@ tags:
   - false-friends
   - canaanite-shift
   - vocabulary
+  - video
 categories:
   - language-learning
 difficulty_level: intermediate
@@ -58,6 +59,10 @@ cssclasses:
 وفي كمان صبر بالعربي، يعني patience، بس بالعبري סבר (savar) معناها فكر أو اعتقد، ومن نفس الجذر كلمة הסבר (hesber)، يعني شرح، وמסביר (masbir)، يعني واحد بشرح.
 
 بالآخر، إذا الواحد بيعرف عبري، هاد مش معناه إنه بيعرف عربي، والعكس صحيح. بس هالشبه والاختلاف بين اللغتين بيخلوا الموضوع ممتع كتير.
+
+## فيديو
+
+{{< youtube id="Ur45-TIHQcg" class="yt-embed" >}}
 
 ## عربي وعبري
 
