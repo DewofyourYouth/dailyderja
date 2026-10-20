@@ -4864,3 +4864,13 @@ html.dark .dd-sub .dd-sub-status[data-state="error"] { color: #f0a08a; }
 body:has(#mobile-menu-toggle:checked) [id^="kofi-widget-overlay-"] {
   display: none !important;
 }
+
+/* Footnotes: citations are written in English, so lay them out LTR even in
+   Arabic posts. Needs !important to beat `.article-content :lang(ar)`, which
+   every <li> matches by inheritance. Arabic/Hebrew words inside still render
+   RTL through the normal bidi algorithm. */
+.article-content .footnotes,
+.article-content .footnotes * {
+  direction: ltr !important;
+  text-align: left !important;
+}
