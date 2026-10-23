@@ -15,6 +15,7 @@ dialects:
 draft: false
 postLang: "ar"
 difficulty_level: advanced
+pullquote: اليوم هو الجمعة و يلزمني نحضّر الدار لشبات القدس.
 rtl: "true"
 series:
   - نسمة طعمة

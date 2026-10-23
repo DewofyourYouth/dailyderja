@@ -21,6 +21,7 @@ series:
 series_order: 4
 postLang: ar
 difficulty_level: intermediate
+pullquote: أنا بس بدي أحكي مع الناس، مش جاي أعمل ديبلوماسية بالأمم المتحدة كل ما أقابل حد.
 cssclasses:
   - arabic-note
 recommend:

@@ -17,6 +17,7 @@ draft: false
 hidden: false
 postLang: ar
 difficulty_level: intermediate
+pullquote: مرتي قالتلي ما لازمنيش نقسي على روحي خاطر فمّا توا الحرب.
 dialects:
   - tunisian
 series:

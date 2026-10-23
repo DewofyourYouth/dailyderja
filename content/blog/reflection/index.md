@@ -13,6 +13,7 @@ categories:
 draft: false
 postLang: ar
 difficulty_level: intermediate
+pullquote: أنا متحمس باش نمشي و نشوف كيفاش نجم نفهم و نحكي بالدارجة!
 dialects:
   - tunisian
 summary: Reflecting on my experience learning Derja before going to an engagement

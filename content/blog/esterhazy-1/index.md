@@ -23,6 +23,7 @@ series:
 series_order: 3
 postLang: ar
 difficulty_level: advanced
+pullquote: كان طيّب كتير، بس أخد شغل كتير لحتى أعمله.
 cssclasses:
   - arabic-note
 audioSource: tts

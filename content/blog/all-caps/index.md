@@ -20,6 +20,7 @@ series:
 series_order: 2
 postLang: ar
 difficulty_level: easy
+pullquote: بس بصراحة حسّيت إني مُهان شوي كرمال الطاقيّة تبعتي.
 summary: Some confusing graffiti in Tel Aviv.
 ---
 

@@ -23,6 +23,7 @@ series:
 series_order: 1
 postLang: ar
 difficulty_level: intermediate
+pullquote: مرتي لمّحت عَحَوْض السّمك، وشافت السّمكات عم يسبحوا بالشوربة.
 showTranslation: true
 toc: false
 ---

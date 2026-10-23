@@ -24,6 +24,7 @@ series:
 series_order: 2
 postLang: ar
 difficulty_level: intermediate
+pullquote: 'الصغار قرروا يعملوا "حفلة رغوة" للسمك!'
 cssclasses:
   - arabic-note
 ---

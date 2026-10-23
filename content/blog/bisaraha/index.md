@@ -23,6 +23,7 @@ series:
 series_order: 7
 postLang: ar
 difficulty_level: intermediate
+pullquote: كلماته دايماً «عالوجع» وفيها صراحة وقوة مش طبيعية.
 cssclasses:
   - arabic-note
 ear_training: true

@@ -20,6 +20,7 @@ series:
 series_order: 37
 postLang: ar
 difficulty_level: intermediate
+pullquote: 'ما بقول لحالي «لازم أعزّل البيت»، بس بقول: «اعملي كرتونة وحدة».'
 cssclasses:
   - arabic-note
 ---

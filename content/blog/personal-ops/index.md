@@ -23,6 +23,7 @@ series:
 series_order: 6
 postLang: ar
 difficulty_level: advanced
+pullquote: 'يعني: لازم الواحد يكون رخو متل القصب، مش قاسي متل الأرز.'
 cssclasses:
   - arabic-note
 recommend:

@@ -18,6 +18,7 @@ series:
 series_order: 5
 postLang: ar
 difficulty_level: intermediate
+pullquote: كل شي عم يجي شوي شوي، وما عندي صبر.
 cssclasses:
   - arabic-note
 ---

@@ -23,6 +23,7 @@ series:
 series_order: 33
 postLang: ar
 difficulty_level: intermediate
+pullquote: حاسس بضغط كبير بسبب الإمتحان والبيت.
 cssclasses:
   - arabic-note
 audioSource: tts

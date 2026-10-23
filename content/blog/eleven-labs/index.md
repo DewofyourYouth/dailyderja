@@ -19,6 +19,7 @@ series:
 series_order: 7
 postLang: ar
 difficulty_level: intermediate
+pullquote: هلّق هو مش منيح، وإن شاء الله بقدر أزبطه.
 cssclasses:
   - arabic-note
 ---

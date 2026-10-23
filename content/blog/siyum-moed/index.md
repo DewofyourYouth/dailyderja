@@ -18,6 +18,7 @@ series:
 series_order: 22
 postLang: ar
 difficulty_level: intermediate
+pullquote: وصار إلنا أكتر من أربع سنين منقرا مَقْطَع كل يوم، لحدّ ما خَلَّصنا سِدِر موئِد.
 summary: Last night we celebrated the accomplishment of finishing Seder Moed
 ---
 

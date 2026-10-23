@@ -20,6 +20,7 @@ dialects:
   - shami
 postLang: ar
 difficulty_level: intermediate
+pullquote: لقيت حالي بدي شي مختلف تمامًا — انا زلمة بزهَق بسرعة.
 ---
 
 بوقت التغيير بيكون عندك فرصة تقرّر: بدّك نفس الشي بس أحسن؟ ولا بدّك شي مختلف تمامًا؟

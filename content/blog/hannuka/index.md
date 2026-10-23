@@ -21,6 +21,7 @@ series:
 series_order: 26
 postLang: ar
 difficulty_level: intermediate
+pullquote: هلّق عم برجع عالبيت، الليلة بتبلّش عيد حانوكا، رح نضوّي أوّل شمعة ما شاء الله.
 cssclasses:
   - arabic-note
 ---

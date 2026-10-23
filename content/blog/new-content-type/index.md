@@ -18,6 +18,7 @@ series:
 series_order: 4
 postLang: ar
 difficulty_level: easy
+pullquote: فيديو بالإنجليزي عن كلمة بالعربي وكلمة تانية بالعبري.
 cssclasses:
   - arabic-note
 ---

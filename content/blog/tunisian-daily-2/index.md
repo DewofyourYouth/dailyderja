@@ -21,6 +21,7 @@ draft: false
 hidden: false
 postLang: ar
 difficulty_level: intermediate
+pullquote: ركبت بسكليتي خطار العيشة ديما خير كي تكون فوق البسكليتة.
 dialects:
   - tunisian
 series:

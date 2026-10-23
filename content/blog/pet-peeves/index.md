@@ -14,6 +14,7 @@ categories:
 draft: false
 postLang: ar
 difficulty_level: intermediate
+pullquote: علاش نمشي للمطعم كان لازمني نوريهم كيفاش يعملو خدمتهم!؟
 dialects:
   - tunisian
 summary: Some surprizing things I hate.

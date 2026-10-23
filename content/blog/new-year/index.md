@@ -22,6 +22,7 @@ series:
 series_order: 28
 postLang: ar
 difficulty_level: easy
+pullquote: كل سنة وإنتو طيّبين!
 cssclasses:
   - arabic-note
 ---

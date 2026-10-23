@@ -11,6 +11,7 @@ tags:
   - coffee-cutback
 postLang: ar
 difficulty_level: intermediate
+pullquote: لحظت اللي كي أنا في داري نشرب قهوة اقل.
 dialects:
   - tunisian
 categories:

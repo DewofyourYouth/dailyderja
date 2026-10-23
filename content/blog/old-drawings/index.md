@@ -20,6 +20,7 @@ series:
 series_order: 4
 postLang: ar
 difficulty_level: easy
+pullquote: بعضها عملتها رسومات لكتاب، بس أغلبها عملتها كرمال حالي.
 cssclasses:
   - arabic-note
 ---

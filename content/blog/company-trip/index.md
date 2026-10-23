@@ -13,6 +13,7 @@ categories:
 draft: false
 postLang: ar
 difficulty_level: intermediate
+pullquote: ديما نكره حكايات كيف هكّا، أمّا توا أقلّ خايب من ما تصوّرت، الحمد لله.
 dialects:
   - tunisian
 summary: A reflection on a company trip that wasn't as bad as expected

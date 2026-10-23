@@ -12,6 +12,7 @@ series:
 series_order: 35
 postLang: ar
 difficulty_level: easy
+pullquote: بكرا بدنا نرحّل، وزي المرة الماضية مرتي ماكلة كل الشغل وأنا عايش أزمتي الوجودية!
 cssclasses:
   - arabic-note
 ---

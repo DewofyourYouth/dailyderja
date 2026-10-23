@@ -16,6 +16,7 @@ series:
 series_order: 36
 postLang: ar
 difficulty_level: intermediate
+pullquote: كل ما بدي غرض، بقعد ساعة أدور عليه وما بلاقيه.
 cssclasses:
   - arabic-note
 ---

@@ -13,6 +13,7 @@ categories:
 draft: false
 postLang: ar
 difficulty_level: advanced
+pullquote: 'ياخي، ما عندي "الأهداف" - عندي هدف وحد!'
 dialects:
   - tunisian
 series:

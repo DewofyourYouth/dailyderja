@@ -19,6 +19,7 @@ series:
 series_order: 25
 postLang: ar
 difficulty_level: easy
+pullquote: المَطَر مُهِمّ كتير لَكلّ إنسان، بس الجوّ بِيِعْتِم شويّ لَمّا ما بْشوف الشمس.
 cssclasses:
   - arabic-note
 ---

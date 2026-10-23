@@ -17,6 +17,7 @@ draft: false
 hidden: false
 postLang: ar
 difficulty_level: intermediate
+pullquote: الليل اللي فات فرجت في إعتراض صاروخ من شبّاكتي و أنا في فرشي!
 dialects:
   - tunisian
 series:

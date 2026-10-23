@@ -19,6 +19,7 @@ series:
 series_order: 40
 postLang: ar
 difficulty_level: intermediate
+pullquote: 'شكلنا عايشين بزمن غريب: كل شي بيتغيّر ببطء زيادة عن اللزوم، وبنفس الوقت بسرعة زيادة عن اللزوم.'
 cssclasses:
   - arabic-note
 ---

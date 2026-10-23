@@ -17,6 +17,7 @@ draft: false
 hidden: false
 postLang: ar
 difficulty_level: intermediate
+pullquote: خدما من داري مش ساهلة - و انا تعبت من الحرب.
 dialects:
   - tunisian
 series:

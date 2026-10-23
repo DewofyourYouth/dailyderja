@@ -21,6 +21,7 @@ series:
 series_order: 27
 postLang: ar
 difficulty_level: easy
+pullquote: بِفَكِّر لازِم أُفوت بإيقاع أحسن.
 cssclasses:
   - arabic-note
 ---

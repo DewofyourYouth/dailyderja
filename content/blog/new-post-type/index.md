@@ -14,6 +14,7 @@ categories:
 draft: false
 postLang: ar
 difficulty_level: intermediate
+pullquote: كي نتعلّم الدارجة — ديما نلقى كلام صعيب و ننساه مرا برشة.
 dialects:
   - tunisian
 series:

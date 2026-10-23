@@ -21,6 +21,7 @@ series:
 series_order: 4
 postLang: ar
 difficulty_level: intermediate
+pullquote: مرات بحسّ راسي معبّي من كل شي لازم أعمله.
 cssclasses:
   - arabic-note
 ---

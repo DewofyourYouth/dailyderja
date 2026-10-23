@@ -20,6 +20,7 @@ series:
 series_order: 32
 postLang: ar
 difficulty_level: easy
+pullquote: إمبارح بلّشت قدّم امتحان CKAD، بس برنامج الامتحان وقّف فجأة بنصّه
 cssclasses:
   - arabic-note
 ---

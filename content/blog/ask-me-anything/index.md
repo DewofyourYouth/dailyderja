@@ -10,6 +10,7 @@ tags:
   - vlog
 postLang: ar
 difficulty_level: easy
+pullquote: نقبل اقتراحات لمواضيع نحكي عليهم، إسألوني في أي حاجة في الcomments.
 dialects:
   - tunisian
 categories:

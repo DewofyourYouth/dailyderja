@@ -15,6 +15,7 @@ categories:
 draft: false
 postLang: ar
 difficulty_level: intermediate
+pullquote: شنوة لعبة ولا أي حاجة أخرى من الميديا لعبتها توّا و بقات في مخّك؟
 dialects:
   - tunisian
 series:

@@ -11,6 +11,7 @@ tags:
   - vlog
 postLang: ar
 difficulty_level: intermediate
+pullquote: الكتاب هذا يعلّم كيفاش تعمل مُفَاوَضَة باهية.
 dialects:
   - tunisian
 summary: I discuss two books I'm currently reading.

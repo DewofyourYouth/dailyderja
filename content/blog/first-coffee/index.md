@@ -15,6 +15,7 @@ series:
 series_order: 2
 postLang: ar
 difficulty_level: easy
+pullquote: هلق الساعة عشرة ونص، وعم بعمل قهوتي الأولى.
 categories:
   - daily-life
 ---

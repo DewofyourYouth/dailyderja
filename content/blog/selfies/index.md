@@ -19,6 +19,7 @@ series:
 series_order: 3
 postLang: ar
 difficulty_level: intermediate
+pullquote: أو يمكن بعد 17 سنة تعلّمت خبّي قلقي الوجودي ورا نظّارات شمس.
 summary: Two photos. Seventeen years apart. Same face, different weather.
 ---
 

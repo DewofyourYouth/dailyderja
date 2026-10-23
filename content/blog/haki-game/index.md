@@ -17,6 +17,7 @@ series:
 series_order: 5
 draft: false
 difficulty_level: easy
+pullquote: يلا، احكي.
 ---
 
 ## I Built a Levantine Arabic Game

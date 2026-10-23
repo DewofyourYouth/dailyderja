@@ -21,6 +21,7 @@ series:
 series_order: 6
 postLang: ar
 difficulty_level: easy
+pullquote: قلت لنفسي لازم ألعب فيها شوي.
 cssclasses:
   - arabic-note
 ---

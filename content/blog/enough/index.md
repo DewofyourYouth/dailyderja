@@ -24,6 +24,7 @@ series:
 series_order: 8
 postLang: ar
 difficulty_level: easy
+pullquote: كفاية حكي، خلّي الناس يحكوا.
 cssclasses:
   - arabic-note
 recommend:

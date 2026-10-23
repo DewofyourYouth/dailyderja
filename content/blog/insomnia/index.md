@@ -27,6 +27,7 @@ series:
 series_order: 29
 postLang: ar
 difficulty_level: easy
+pullquote: نِمت نص ساعة وبعدين أكلت ضربة عَوجهي.
 cssclasses:
   - arabic-note
   - diary-entry

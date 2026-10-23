@@ -4,6 +4,7 @@ title: More Complaining
 summary: Overslept, missed the train again, and felt off all day.
 postLang: ar
 difficulty_level: intermediate
+pullquote: وقتاش نلقى وقات باش نعمل تجارة لروحي و ما نلزمش نمشي كلّ يوم لتل ابيب و نعمل فلوس لعباد آخرين؟
 dialects:
   - tunisian
 date: 2025-08-06T14:02:34

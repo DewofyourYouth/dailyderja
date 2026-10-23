@@ -14,6 +14,7 @@ categories:
 draft: false
 postLang: ar
 difficulty_level: intermediate
+pullquote: موشي خاف، كان صعيب برشة باش نقنعو اللي ما عادش فمّا صليبيين!
 dialects:
   - tunisian
 showTableOfContents: true

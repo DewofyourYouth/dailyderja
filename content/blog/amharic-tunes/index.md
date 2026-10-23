@@ -21,6 +21,7 @@ series:
 series_order: 8
 postLang: ar
 difficulty_level: intermediate
+pullquote: بس من هون بلّشت أسمع موسيقى أمهرية، وضليت أدوّر على إشي يناسب ذوقي.
 cssclasses:
   - arabic-note
 ---

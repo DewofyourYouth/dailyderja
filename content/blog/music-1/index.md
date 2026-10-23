@@ -20,6 +20,7 @@ categories:
 draft: false
 postLang: ar
 difficulty_level: intermediate
+pullquote: لمّا تعلّمت عربي تونسي، سمعت غنية تونسية مشان أدرب أذني.
 dialects:
   - shami
 summary: Some music I'm enjoying right now, to train my ear for Levantine Arabic.

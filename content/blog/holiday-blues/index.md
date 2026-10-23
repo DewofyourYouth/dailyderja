@@ -18,6 +18,7 @@ categories:
 draft: false
 postLang: ar
 difficulty_level: advanced
+pullquote: النّاس الكل يحبّو الأعياد، أمّا بالنّسبة ليّا راهو وقت متوتّر برشة.
 dialects:
   - tunisian
 series:

@@ -20,6 +20,7 @@ series:
 series_order: 38
 postLang: ar
 difficulty_level: intermediate
+pullquote: يمكن المشكلة فيّ.
 cssclasses:
   - arabic-note
 ---

@@ -13,6 +13,7 @@ categories:
 draft: false
 postLang: ar
 difficulty_level: intermediate
+pullquote: كيف نقيس كوستيم ديما نحس روحي سمين!
 dialects:
   - tunisian
 series:

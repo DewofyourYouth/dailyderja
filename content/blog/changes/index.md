@@ -11,6 +11,7 @@ categories:
 draft: false
 postLang: ar
 difficulty_level: intermediate
+pullquote: التغيير بخوّف شوي، بس صراحة أنا متحمّس زيادة.
 dialects:
   - shami
 series:

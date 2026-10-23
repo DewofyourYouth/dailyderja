@@ -18,6 +18,7 @@ draft: false
 hidden: false
 postLang: ar
 difficulty_level: intermediate
+pullquote: حاولت ننقص في الميزان، أما في بلاصة ما ننقص، زدت.
 dialects:
   - tunisian
 series:

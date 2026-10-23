@@ -20,6 +20,7 @@ series:
 series_order: 4
 postLang: ar
 difficulty_level: advanced
+pullquote: بهالعيد بنحتفل باليوم اللي استلمنا فيه التوراة على جبل سينا.
 cssclasses:
   - arabic-note
 ---

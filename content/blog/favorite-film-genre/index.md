@@ -8,6 +8,7 @@ tags:
 draft: false
 postLang: ar
 difficulty_level: intermediate
+pullquote: نحب نوع آخر في فيلم على حسب المود.
 dialects:
   - tunisian
 summary: Discussing what kind of movies I like to watch.

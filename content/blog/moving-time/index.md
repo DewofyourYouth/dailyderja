@@ -19,6 +19,7 @@ series:
 series_order: 31
 postLang: ar
 difficulty_level: easy
+pullquote: هلّق لازمنا نضبّ كل شي بالشقة.
 cssclasses:
   - arabic-note
 ---

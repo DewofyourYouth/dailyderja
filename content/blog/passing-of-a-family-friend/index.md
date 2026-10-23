@@ -24,6 +24,7 @@ series:
 series_order: 39
 postLang: ar
 difficulty_level: intermediate
+pullquote: كان طبيب قلب مخلص، ومن أعمدة الجالية اليهودية في جنوب فلوريدا، وصديق وفي لعيلتنا.
 cssclasses:
   - arabic-note
 ---

@@ -21,6 +21,7 @@ series:
 series_order: 6
 postLang: ar
 difficulty_level: easy
+pullquote: والنتيجة كانت زي ما توقعت.. كارثة!
 cssclasses:
   - arabic-note
 audioSource: tts

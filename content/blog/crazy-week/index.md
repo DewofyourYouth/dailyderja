@@ -22,6 +22,7 @@ series:
 series_order: 34
 postLang: ar
 difficulty_level: intermediate
+pullquote: لأسبوع رح يكون مضغوط!!!
 cssclasses:
   - arabic-note
 audioSource: tts

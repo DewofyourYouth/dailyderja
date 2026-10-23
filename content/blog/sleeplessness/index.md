@@ -21,6 +21,7 @@ series:
 series_order: 43
 postLang: ar
 difficulty_level: easy
+pullquote: إمبارح بالليل سمعت البودكاست، بس ما قدرت أنام، فسمعت كل تاريخ الموز بأمريكا اللاتينية.
 cssclasses:
   - arabic-note
 ---

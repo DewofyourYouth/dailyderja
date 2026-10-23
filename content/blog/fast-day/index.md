@@ -19,6 +19,7 @@ series:
 series_order: 3
 postLang: ar
 difficulty_level: easy
+pullquote: اليوم يوم صيام عند اليهود، بس أنا ما صُمت لأنّي مريض بمعدتي.
 cssclasses:
   - arabic-note
 ---

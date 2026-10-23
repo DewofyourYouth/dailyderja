@@ -16,6 +16,7 @@ draft: false
 hidden: false
 postLang: ar
 difficulty_level: intermediate
+pullquote: غسلت الماعون - يظهر لي باش يكون النهار هاذة نهار عدي و مملّ - هذا هو المطلوب!
 dialects:
   - tunisian
 series:

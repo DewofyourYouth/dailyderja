@@ -24,6 +24,7 @@ series:
 series_order: 5
 postLang: ar
 difficulty_level: easy
+pullquote: باللعبة هاي، إذا كنتَ ضعيف، ما بتعيش كتير.
 cssclasses:
   - arabic-note
 recommend:

@@ -4,6 +4,7 @@ summary: Back to daily Derja after a long pause, trying to rebuild momentum.
 date: 2025-10-16T08:10:47
 postLang: ar
 difficulty_level: advanced
+pullquote: اللّعب هو تمشّي في الطّريق و تلقى الحروف واحد بواحد، و كلّ مرّة تتعلّم شكل جديد و معنى جديد.
 dialects:
   - tunisian
 tags:

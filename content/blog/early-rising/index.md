@@ -15,6 +15,7 @@ categories:
 description: It's nice to be productive
 postLang: ar
 difficulty_level: intermediate
+pullquote: توا نحس روحي كأني فار تجارب.
 dialects:
   - tunisian
 series:

@@ -19,6 +19,7 @@ hidden: false
 draft: false
 postLang: ar
 difficulty_level: advanced
+pullquote: الجمعة عندنا شهر جديد - اسمو تاموز - الشهر متاع عيد ميلادي!
 dialects:
   - tunisian
 series:

@@ -20,6 +20,7 @@ series:
 series_order: 9
 postLang: ar
 difficulty_level: easy
+pullquote: السبب مش إني مش عم بتعلّم، السبب إنه الكيبورد العربي صعب عليّ، وبدي أستعمل صوتي بدل ما أكتب.
 cssclasses:
   - arabic-note
 ---

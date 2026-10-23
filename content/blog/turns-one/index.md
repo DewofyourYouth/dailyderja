@@ -22,6 +22,7 @@ series:
 series_order: 8
 postLang: ar
 difficulty_level: intermediate
+pullquote: الحمد لله، أنا واقف، لِسّا هون، ولِسّا عم بتشكّى!
 cssclasses:
   - arabic-note
 ---

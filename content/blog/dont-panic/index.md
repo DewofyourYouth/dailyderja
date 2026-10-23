@@ -19,6 +19,7 @@ dialects:
 series_order: 24
 postLang: ar
 difficulty_level: intermediate
+pullquote: هالأيام، إذا بدي أحقّق أهدافي لازم أكون كتير مُرتّب.
 summary: Some good advice from Douglas Adams
 ---
 

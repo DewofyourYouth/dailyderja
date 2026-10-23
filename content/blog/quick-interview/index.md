@@ -16,6 +16,7 @@ series:
 series_order: 30
 postLang: ar
 difficulty_level: easy
+pullquote: الصبح صار معي انترفيو فيديو مع Wix، بس كان قصير كتير، لأنّي رجّعت.
 cssclasses:
   - arabic-note
 ---

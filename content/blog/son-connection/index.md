@@ -19,6 +19,7 @@ draft: false
 audioSource: tts
 postLang: ar
 difficulty_level: intermediate
+pullquote: حكيت معاه — هو تو خمسة سنين، يظورلي هو ذكي برشة، خمسة و خميس.
 dialects:
   - tunisian
 series:

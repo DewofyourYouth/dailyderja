@@ -21,6 +21,7 @@ series:
 series_order: 3
 postLang: ar
 difficulty_level: advanced
+pullquote: هي فكرة منيحة… لشخص بحبّ يدوش بميّة باردة!!!
 cssclasses:
   - arabic-note
 recommend:

@@ -18,6 +18,7 @@ hidden: false
 draft: false
 postLang: ar
 difficulty_level: intermediate
+pullquote: خاطر هكا، كل كلمة خايبة كنّا نقولوها بالعربي.
 dialects:
   - tunisian
 series:

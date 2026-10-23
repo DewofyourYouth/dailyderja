@@ -22,6 +22,7 @@ series:
 series_order: 42
 postLang: ar
 difficulty_level: easy
+pullquote: وبصراحة مش فاهم ليش لازم أعمل شي اليوم أصلًا.
 cssclasses:
   - arabic-note
 ---

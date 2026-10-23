@@ -15,6 +15,7 @@ series:
 series_order: 6
 postLang: ar
 difficulty_level: easy
+pullquote: بس الرملة مدينة مختلطة، يعني نص الناس بيحكوا عربي، وبيكيّفوا لمّا يهودي يحكي معهم لغتهم
 cssclasses:
   - arabic-note
 ---

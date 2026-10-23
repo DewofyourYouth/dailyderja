@@ -6,6 +6,7 @@ draft: false
 learn: true
 postLang: ar
 difficulty_level: easy
+pullquote: '"صار" للتغيّر، و"ضلّ" للاستمرار.'
 series:
   - نسمة كلمة
 series_order: 2

@@ -23,6 +23,7 @@ series:
 series_order: 41
 postLang: ar
 difficulty_level: intermediate
+pullquote: كل صباح بفيق عالساعة خمسة ونص، بغسل إيدي وسناني، وبقيس وزني.
 cssclasses:
   - arabic-note
 audioSource: tts

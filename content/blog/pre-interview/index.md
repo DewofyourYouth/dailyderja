@@ -18,6 +18,7 @@ series:
   - نسمة نهار
 postLang: ar
 difficulty_level: easy
+pullquote: رايح على مقابلة شُغِل بعَرّوسلام، وحاسِس شوي متوتّر.
 summary: The pre-interview jitters.
 series_order: 23
 ---

@@ -21,6 +21,7 @@ series:
 series_order: 4
 postLang: ar
 difficulty_level: intermediate
+pullquote: ابني حاسس بزنب، بس ممكن هلق يذكر إنه ممنوع يلعب بمفاتيح السيارة.
 cssclasses:
   - arabic-note
 ---

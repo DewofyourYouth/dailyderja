@@ -16,6 +16,7 @@ draft: false
 hidden: false
 postLang: ar
 difficulty_level: intermediate
+pullquote: كي قررت نكتب كل يوم بالعربية، ما توقعتش قداش صعيب نفكر في حاجة تشدّ جديدة نحكي عليها.
 dialects:
   - tunisian
 series:

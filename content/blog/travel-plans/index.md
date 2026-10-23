@@ -17,6 +17,7 @@ categories:
 draft: false
 postLang: ar
 difficulty_level: intermediate
+pullquote: بالرغم من كلّ الإحباطات، نشكر ربّي – الحمد لله على كلّ خير هو يعمللي!
 dialects:
   - tunisian
 summary: Some early morning annoyances.

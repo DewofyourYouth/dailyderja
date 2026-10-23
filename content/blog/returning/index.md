@@ -20,6 +20,7 @@ series:
 series_order: 44
 postLang: ar
 difficulty_level: easy
+pullquote: واشتقتلكم كتير.
 cssclasses:
   - arabic-note
 ---

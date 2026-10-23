@@ -20,6 +20,7 @@ series:
 series_order: 2
 postLang: ar
 difficulty_level: intermediate
+pullquote: 'آخر يوم بالحانوكا يوم مميّز، وإلو اسم مميّز: “زوت حانوكا”.'
 cssclasses:
   - arabic-note
 ---

@@ -19,6 +19,7 @@ series:
 series_order: 5
 postLang: ar
 difficulty_level: easy
+pullquote: تذكار من أيّام أبسط.
 cssclasses:
   - arabic-note
 ---

@@ -17,6 +17,7 @@ draft: false
 hidden: false
 postLang: ar
 difficulty_level: intermediate
+pullquote: 'مرتي خرجت للحانوت و موشي يخاف برشة - ديمه يسألني "وقتاش باش تروّح ماما؟" و "تظنّ فمّة صفّارة?".'
 dialects:
   - tunisian
 series:

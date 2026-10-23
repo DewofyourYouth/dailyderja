@@ -14,6 +14,7 @@ tags:
 draft: false
 postLang: ar
 difficulty_level: intermediate
+pullquote: و زادة ساهيل برشة نسجّل صوت.
 dialects:
   - tunisian
 categories:

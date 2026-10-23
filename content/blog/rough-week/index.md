@@ -15,6 +15,7 @@ categories:
 draft: false
 postLang: ar
 difficulty_level: intermediate
+pullquote: الجمعة هاذي كانت صعيبة برشة، خاطر ما عملتش كافي في الدارجة كل يوم.
 dialects:
   - tunisian
 series:

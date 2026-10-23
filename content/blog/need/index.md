@@ -23,6 +23,7 @@ series:
 series_order: 6
 postLang: ar
 difficulty_level: easy
+pullquote: ما في داعي تصبغي شعرك، طالع حلو هيك.
 cssclasses:
   - arabic-note
 ---
