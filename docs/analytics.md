@@ -20,6 +20,7 @@ form contents, or other personal data are sent — only paths, file names, and f
 | `tutor_platform_click` | Outbound tutor-platform link on `/tutors/` clicked. | `platform`, `link_text`, `link_url` | `assets/js/tutor-cta.js` |
 | `community_click` | `.jc-btn` community button clicked (only if a page renders one). | `platform`, `link_url`, `page_path` | `assets/js/community-cta.js` |
 | `recommendation_click` | **New.** A same-site link inside an onward-reading block is clicked. One per click. | `rec_type` (`context`, `related`, `path`), `rec_location` (`article`, `home`, `start`, `learn`), `source_path`, `destination_path` | `assets/js/rec-tracking.js` |
+| `story_share` | **New.** The "Share to Instagram story" button under a post is used. One per completed share sheet, or per download click. | `share_method` (`share` = the phone's share sheet completed, not necessarily posted to Instagram; `download` = the card was downloaded instead), `page_path` | `assets/js/story-share.js` |
 | `signup_submitted` | **Not sent by site code.** GA4 custom event: `newsletter_signup` where `signup_status` = `submitted`. Created 2026-10-11, so no history before that. | Copied from `newsletter_signup` | GA4 Admin → Events → Custom configurations |
 | `signup_confirmed` | **Not sent by site code.** GA4 custom event: `page_view` where `page_location` contains `/welcome/` (a confirmed subscriber). Created 2026-10-11. | `page_view` built-ins | GA4 Admin → Events → Custom configurations |
 

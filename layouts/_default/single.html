@@ -88,6 +88,7 @@
         {{ end }}
         {{ partial "series/series-closed.html" . }}
         {{ partial "sharing-links.html" . }}
+        {{ partial "story-share.html" . }}
         {{ partial "related.html" . }}
         {{ if eq .Section "blog" }}
           {{ partial "learning-paths.html" (dict "location" "article" "compact" true "page" .) }}

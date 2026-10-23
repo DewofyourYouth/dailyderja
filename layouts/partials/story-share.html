@@ -1,0 +1,17 @@
+{{- /* "Share to Instagram story" button under the post. Renders only when the
+     bundle has a story card (story.jpg, made by
+     `cover.py story --post …` in daily_derja_cover_pipeline). Instagram has no
+     web share URL, so on phones assets/js/story-share.js hands the card to the
+     share sheet (Web Share API) and copies the post link for a link sticker;
+     elsewhere the link downloads the card. Always English/LTR, like the
+     subscribe card. Styles: "Story share" in assets/css/custom.css. */ -}}
+{{- with .Resources.GetMatch "story.*" -}}
+  <section class="dd-story-share" dir="ltr" lang="en">
+    <a class="dd-story-btn" href="{{ .RelPermalink }}" download="{{ $.File.ContentBaseName }}-story.jpg"
+       data-story-url="{{ $.Permalink }}">
+      {{- partial "icon.html" "instagram" -}}
+      <span class="dd-story-label">Download story image</span>
+    </a>
+    <span class="dd-story-status" role="status"></span>
+  </section>
+{{- end -}}

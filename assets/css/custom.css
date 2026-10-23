@@ -4874,3 +4874,58 @@ body:has(#mobile-menu-toggle:checked) [id^="kofi-widget-overlay-"] {
   direction: ltr !important;
   text-align: left !important;
 }
+
+/* Story share: "Share to Instagram story" under a post
+   (layouts/partials/story-share.html). An outlined gold button so it reads as
+   an action, filled on hover; the status line confirms the copied link. */
+.dd-story-share {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem 0.75rem;
+  padding-top: 1.25rem;
+}
+.dd-story-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.45rem 1rem;
+  border: 1px solid var(--color-accent-dark);
+  border-radius: 6px;
+  color: var(--color-accent-dark);
+  font-size: 0.95rem;
+  text-decoration: none !important;
+  transition: background-color 0.12s ease, color 0.12s ease;
+}
+.dd-story-btn .icon,
+.dd-story-btn svg {
+  width: 1.1em;
+  height: 1.1em;
+}
+.dd-story-btn:hover {
+  background: var(--color-accent-dark);
+  color: #fff;
+}
+.dd-story-btn:focus-visible {
+  outline: 2px solid var(--color-accent-dark);
+  outline-offset: 3px;
+}
+.dark .dd-story-btn {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+.dark .dd-story-btn:hover {
+  background: var(--color-accent);
+  color: var(--color-ink);
+}
+.dd-story-status {
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+.dd-story-status:empty {
+  display: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .dd-story-btn { transition: none; }
+}
