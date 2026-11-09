@@ -49,8 +49,6 @@ recommend:
 | مش جاي أعمل ديبلوماسية بالأمم المتحدة   | _mish jāy ʾaʿmel diplōmāsiyya bil-ʾumam el-muttaḥda_ | I’m not here to do UN-level diplomacy                   |
 | ما كانوا يعرفوا إني يهودي               | _mā kānū yaʿrifū innī yehūdī_                        | They didn’t know that I was Jewish                      |
 
-## فيديو
-
 ---
 
 {{< ltr >}}
