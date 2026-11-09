@@ -46,11 +46,12 @@
 {{- if $html -}}
   {{- range $field := slice "og:image" "og:title" "og:description" "og:site_name" -}}
     {{- $val := "" -}}
-    {{- $p1 := findRESubmatch (printf `(?is)<meta[^>]+(?:property|name)=["']%s["'][^>]*?content=["']([^"']*)["']` $field) $html 1 -}}
-    {{- with $p1 -}}{{- $val = index (index . 0) 1 -}}{{- end -}}
+    {{- /* Match the value's own quote type, so an apostrophe inside "…" doesn't end it. */ -}}
+    {{- $p1 := findRESubmatch (printf `(?is)<meta[^>]+(?:property|name)=["']%s["'][^>]*?content=(?:"([^"]*)"|'([^']*)')` $field) $html 1 -}}
+    {{- with $p1 -}}{{- $m := index . 0 -}}{{- $val = or (index $m 1) (index $m 2) -}}{{- end -}}
     {{- if not $val -}}
-      {{- $p2 := findRESubmatch (printf `(?is)<meta[^>]+content=["']([^"']*)["'][^>]*?(?:property|name)=["']%s["']` $field) $html 1 -}}
-      {{- with $p2 -}}{{- $val = index (index . 0) 1 -}}{{- end -}}
+      {{- $p2 := findRESubmatch (printf `(?is)<meta[^>]+content=(?:"([^"]*)"|'([^']*)')[^>]*?(?:property|name)=["']%s["']` $field) $html 1 -}}
+      {{- with $p2 -}}{{- $m := index . 0 -}}{{- $val = or (index $m 1) (index $m 2) -}}{{- end -}}
     {{- end -}}
     {{- with $val -}}
       {{- $clean := . | htmlUnescape -}}

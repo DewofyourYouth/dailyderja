@@ -36,6 +36,8 @@ recommend:
 
 لما كنت بتونس، كان الوضع أسهل لأنه ما كانوا يعرفوا إنجليزي أو عبري، وما كانوا يعرفوا دايماً إني يهودي.
 
+{{< featured-link url="https://www.dewofyouryouth.com/post/modern-standard-arabic-hebrew-and-the-ghost-of-yiddish/" >}}
+
 ## كلام
 
 | Arabic                                  | Transliteration                                      | English                                                 |
