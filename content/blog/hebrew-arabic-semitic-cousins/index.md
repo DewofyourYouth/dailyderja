@@ -64,6 +64,8 @@ cssclasses:
 
 {{< youtube id="Ur45-TIHQcg" class="yt-embed" >}}
 
+{{< featured-link url="https://www.dewofyouryouth.com/post/bread-or-meat/" >}}
+
 ## عربي وعبري
 
 ### نفس المعنى

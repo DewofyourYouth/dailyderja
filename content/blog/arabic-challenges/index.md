@@ -36,6 +36,8 @@ recommend:
 
 لما كنت بتونس، كان الوضع أسهل لأنه ما كانوا يعرفوا إنجليزي أو عبري، وما كانوا يعرفوا دايماً إني يهودي.
 
+{{< featured-link url="https://www.dewofyouryouth.com/post/modern-standard-arabic-hebrew-and-the-ghost-of-yiddish/" >}}
+
 ## كلام
 
 | Arabic                                  | Transliteration                                      | English                                                 |
@@ -46,8 +48,6 @@ recommend:
 | العربي الفلسطيني                        | _el-ʿarabi el-filasṭīnī_                             | Palestinian Arabic                                      |
 | مش جاي أعمل ديبلوماسية بالأمم المتحدة   | _mish jāy ʾaʿmel diplōmāsiyya bil-ʾumam el-muttaḥda_ | I’m not here to do UN-level diplomacy                   |
 | ما كانوا يعرفوا إني يهودي               | _mā kānū yaʿrifū innī yehūdī_                        | They didn’t know that I was Jewish                      |
-
-## فيديو
 
 ---
 
