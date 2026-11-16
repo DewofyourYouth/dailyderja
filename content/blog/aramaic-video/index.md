@@ -46,6 +46,8 @@ recommend:
 
 {{< youtube id="vwlEKIVnuHo" class="yt-embed" >}}
 
+{{< featured-link url="https://www.dewofyouryouth.com/post/aramaic-lightning-round/" >}}
+
 {{< subscribe >}}
 
 ## كلام
