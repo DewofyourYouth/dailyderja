@@ -47,6 +47,12 @@ cssclasses:
 
 وهلّأ رايح أتمشّى، بس الغرفة لسا وسخة، ولسّا ما ركّبت الطاولة والكرسي!
 
+## فيديو
+
+{{< youtube id="dn6f3cpc5PE" class="yt-embed" >}}
+
+{{< featured-link url="https://www.dewofyouryouth.com/post/christian-urmi/" >}}
+
 {{< subscribe >}}
 
 ## كلام
