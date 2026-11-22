@@ -3716,6 +3716,11 @@ a.dialect-badge:focus-visible {
   color: var(--cs-ink-soft);
   opacity: 0.6;
 }
+.compare-card__en,
+.compare-card__note {
+  direction: ltr;
+  text-align: left;
+}
 .compare-card__note {
   margin: 0.7rem 0 0;
   padding-top: 0.55rem;
