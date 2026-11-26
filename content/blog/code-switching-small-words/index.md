@@ -14,6 +14,7 @@ tags:
   - false-friends
   - question-words
   - vocabulary
+  - mutual-intelligibility
 categories:
   - language-learning
 difficulty_level: easy
