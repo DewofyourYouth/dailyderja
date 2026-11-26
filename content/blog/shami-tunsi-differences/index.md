@@ -9,6 +9,7 @@ tags:
   - usage-notes
   - vlog
   - video
+  - mutual-intelligibility
 categories:
   - language-learning
 draft: false
